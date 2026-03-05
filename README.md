@@ -16,6 +16,46 @@ Browse all historical digests in a clean, dark-themed interface — no login req
 
 Subscribe in any RSS reader (Feedly, Reeder, NewsBlur, etc.) to receive new digests automatically. The feed includes the latest 30 reports across all report types, updated daily alongside `manifest.json`.
 
+## MCP Server
+
+**`https://agents-radar-mcp.duanyytop.workers.dev`**
+
+A hosted [Model Context Protocol](https://modelcontextprotocol.io) server that exposes agents-radar data as tools. Any MCP-compatible client (Claude Desktop, OpenClaw, etc.) can query the latest AI ecosystem reports directly.
+
+**Available tools:**
+
+| Tool | Description |
+|------|-------------|
+| `list_reports` | List available dates and report types (last N days) |
+| `get_latest` | Fetch the most recent report of a given type |
+| `get_report` | Fetch a specific report by date and type |
+| `search` | Keyword search across recent reports |
+
+**Claude Desktop setup** — add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "agents-radar": {
+      "url": "https://agents-radar-mcp.duanyytop.workers.dev"
+    }
+  }
+}
+```
+
+Restart Claude Desktop after saving. You can then ask Claude things like:
+- *"What's the latest in AI CLI tools?"* → calls `get_latest`
+- *"Search for Claude Code mentions this week"* → calls `search`
+- *"Show me the AI trending report for 2026-03-05"* → calls `get_report`
+
+**Self-hosting** — deploy your own instance from the `mcp/` directory:
+
+```bash
+cd mcp
+pnpm install
+wrangler deploy
+```
+
 ## Telegram Channel
 
 **[t.me/agents_radar](https://t.me/agents_radar)**

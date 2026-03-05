@@ -16,6 +16,46 @@
 
 在任意 RSS 阅读器（Feedly、Reeder、NewsBlur 等）中订阅，每日自动推送新简报。Feed 包含最新 30 条报告（覆盖所有报告类型），与 `manifest.json` 同步更新。
 
+## MCP Server
+
+**`https://agents-radar-mcp.duanyytop.workers.dev`**
+
+基于 [Model Context Protocol](https://modelcontextprotocol.io) 的托管服务，将 agents-radar 数据暴露为工具接口。任何支持 MCP 的客户端（Claude Desktop、OpenClaw 等）均可直接查询最新 AI 生态报告。
+
+**可用工具：**
+
+| 工具 | 说明 |
+|------|------|
+| `list_reports` | 列出最近 N 天的可用日期和报告类型 |
+| `get_latest` | 获取某类报告的最新一期 |
+| `get_report` | 按日期和类型精确获取报告 |
+| `search` | 关键词搜索最近 N 天的报告 |
+
+**Claude Desktop 接入** — 编辑 `~/Library/Application Support/Claude/claude_desktop_config.json`：
+
+```json
+{
+  "mcpServers": {
+    "agents-radar": {
+      "url": "https://agents-radar-mcp.duanyytop.workers.dev"
+    }
+  }
+}
+```
+
+保存后重启 Claude Desktop，即可直接提问：
+- *"最近 AI CLI 工具有什么动态？"* → 调用 `get_latest`
+- *"搜索本周提到 Claude Code 的报告"* → 调用 `search`
+- *"获取 2026-03-05 的 GitHub 趋势报告"* → 调用 `get_report`
+
+**自托管** — 从 `mcp/` 目录部署自己的实例：
+
+```bash
+cd mcp
+pnpm install
+wrangler deploy
+```
+
 ## Telegram 频道
 
 **[t.me/agents_radar](https://t.me/agents_radar)**
