@@ -17,7 +17,7 @@ export class GitHubCopilotProvider extends OpenAICompatibleProvider {
     super({
       apiKey: opts?.apiKey ?? process.env["GITHUB_TOKEN"],
       baseURL: GITHUB_COPILOT_BASE_URL,
-      model: opts?.model ?? process.env["GITHUB_COPILOT_MODEL"] ?? "gpt-4o",
+      model: opts?.model ?? process.env["GITHUB_COPILOT_MODEL"] ?? "gpt-5-mini",
     });
   }
 }
