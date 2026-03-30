@@ -1,70 +1,46 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code v2.1.87紧急修复计费危机引发大规模声讨",
-      "OpenAI Codex Token消耗过快获319条评论企业级焦虑",
-      "Gemini CLI SDD架构演进与实时语音模式受关注",
-      "OpenCode三连发v1.3.4-v1.3.6密集迭代伴随回归风险",
-      "MCP标准化成共同焦点：Claude Desktop连接故障待解",
-      "多代理系统成必争之地：Codex Watchdog 5个PR密集迭代"
-    ],
-    "ai-agents": [
-      "OpenClaw v2026.3.28发布即伴破坏性变更用户迁移压力大",
-      "QMD内存系统兼容性断裂成核心痛点",
-      "24小时500条Issues+500条PR社区密集迭代期",
-      "Telegram命令路由修复防止菜单穿透至模型执行",
-      "331个待合并PR显示代码审查队列积压风险",
-      "Qwen认证移除强制迁移至Model Studio API Key"
-    ],
-    "ai-trending": [
-      "claude-howto单日新增1165星成最热Claude Code教程",
-      "learn-claude-code 42668星揭示Agent核心原理极简实现",
-      "claude-mem 42591星解决AI编程助手遗忘痛点",
-      "微软VibeVoice开源标志多模态Agent进入实用化",
-      "superpowers Agent技能框架首次登榜",
-      "last30days-skill跨平台研究Agent新兴形态涌现"
-    ],
-    "ai-hn": [
-      "Claude Code每10分钟自动git reset --hard致代码库被毁",
-      "Anthropic安全执念与中国竞争困境引发产业讨论",
-      "LLM评分与人类存在系统性偏差教育科技警钟",
-      "LiteLLM和Telnyx供应链零日漏洞语义分析捕获",
-      "rtk-cli代理降低LLM Token消耗60-90%成本优化",
-      "LLM输出确定性控制回应生产环境可靠性需求"
+      "Claude Code v2.1.87发布，修复消息送达问题",
+      "OpenCode v1.3.6更新，解决token计数错误",
+      "Qwen Code发布v0.13.1-nightly版，优化文档",
+      "Kimi Code CLI新增PR 3个，改进终端体验",
+      "MCP生态获多工具支持，OAuth 2.1/SSE成为重点",
+      "Agent模式权限控制需求激增，防误改成关键"
     ]
   },
   "en": {
     "ai-cli": [
-      "Claude Code v2.1.87 shipped with quota bugs dominating discourse",
-      "OpenAI Codex telemetry architecture work ongoing, no release",
-      "Gemini CLI debuts voice mode, SDD infrastructure maturing",
-      "All major tools hit scaling limits in billing infrastructure",
-      "Claude Code leads in plugin ecosystem extensibility",
-      "Token accounting accuracy bugs plague entire category"
+      "Claude Code v2.1.87 released with critical session management fix",
+      "Kimi Code CLI gains rapid iteration focus in agent workflows",
+      "GitHub Copilot CLI addresses security regressions and TUI UX",
+      "OpenAI Codex stabilizes agent namespaces in latest update",
+      "Gemini CLI adds voice mode and security improvements",
+      "Qwen Code expands agent capabilities with new tool integrations"
     ],
     "ai-agents": [
-      "OpenClaw v2026.3.28 ships with breaking Qwen OAuth changes",
-      "500 issues and 500 PRs updated in last 24 hours",
-      "Windows platform parity is key focus area",
-      "Memory/QMD system hardening underway",
-      "Multi-channel reliability fixes landing",
-      "388:112 open-to-closed issue ratio signals growth phase"
+      "OpenClaw fixes skill discovery for grouped folders in #57378",
+      "Prevents infinite gateway restart loops after 3 startup failures (#57406)",
+      "Serializes OAuth token refreshes to fix race conditions (#54856)",
+      "Enables WhatsApp live commentary during agent runs (#57289)",
+      "Hardens async exec-approval delivery in webchat sessions (#57359)",
+      "Preserves totalTokens display on zero-usage reports (vLLM compat)"
     ],
     "ai-trending": [
-      "obra/superpowers gains +2,230 stars today, highest velocity",
-      "learn-claude-code hits 42,668 total stars, +919 today",
-      "Ollama adds Kimi-K2.5, GLM-5, MiniMax support",
-      "Agent harness pattern emerges for simpler orchestration",
-      "VibeVoice and Deep-Live-Cam surge in voice AI",
-      "Four Claude Code ecosystem projects in top 12 trending"
+      "obra/superpowers leads with 2,230 stars as agentic skills framework",
+      "Claude Code ecosystem tools gain 2,400+ collective stars",
+      "Microsoft's VibeVoice hits 1,056 stars with open-source voice AI",
+      "last30days-skill enables real-time web synthesis (1,308 stars)",
+      "ollama/ollama maintains top AI infra spot at 166K stars",
+      "NousResearch/hermes-agent surges 917 stars as adaptive agent framework"
     ],
     "ai-hn": [
-      "Claude Code git reset --hard bug hits front page",
-      "Claude Code quota draining bug sparks safety debate",
-      "LLMs Do Not Grade Essays Like Humans research trending",
-      "Moving Towards Determinism with LLMs resonates with engineers",
-      "Circumstantial Complexity criticizes AI-driven architecture",
-      "Community tension between AI enthusiasm and production fragility"
+      "Claude Code auto-resets repos every 10 mins sparking safety debate",
+      "LLMs lack human essay grading nuance per arXiv study",
+      "Dear researchers: Is AI all you've got? critical blog post sparks discussion",
+      "Smart eyeglasses banned in Philadelphia courts over privacy fears",
+      "Git reset --hard issue draws 182 HN score and 105 comments",
+      "Agent reliability vs developer job impact fuels ongoing debate"
     ]
   }
 }
