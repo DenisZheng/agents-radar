@@ -1,0 +1,42 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 开源加速，多个源码提取 PR 活跃推进",
+      "OpenAI Codex v0.118.0 发布，新增 Windows 代理与实验性人格功能",
+      "GitHub Copilot CLI v1.0.15 修复 MCP 连接与 WSL 图片粘贴问题",
+      "Gemini CLI v0.36.0-preview.7 优化任务追踪器并修复 OAuth 重认证",
+      "OpenCode v1.3.12 增强 TUI 稳定性，支持 Azure 提供商与 Docker 沙箱",
+      "Qwen Code v0.13.2-nightly 更新基础构建，集中修复文件路径问题"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.3.31 正式发布，重构 nodes.exec 提升安全性与一致性",
+      "#52422 新增 LLM 驱动会话压缩工具，取代传统转录截断机制",
+      "集成 Serper.dev 原生 web_search 提供商，填补 Google 搜索直连空白",
+      "#58610 加固 ACPX 运行时流，增加 Codex/Gemini 启动竞争条件重试机制",
+      "WhatsApp 频道集成反应指导级别配置，行为与 Telegram/Signal 保持一致",
+      "修复 Mattermost 频道类型解析错误，提升外部 IM 平台集成可靠性"
+    ],
+    "ai-trending": [
+      "Microsoft VibeVoice 开源前沿语音 AI，Stars 暴涨至 3863+",
+      "NousResearch hermes-agent 获 1907 Stars，代表智能体持续学习趋势",
+      "E2B 企业级 AI Agent 沙箱环境 Stars 达 11,519，解决运行安全问题",
+      "ChatDev 多智能体协作框架 Stars 破 129,469，展示 AI 协同开发能力",
+      "PaddleOCR 支持 100+ 语言，将图像/PDF 转为结构化数据桥梁",
+      "obra/superpowers Shell 项目 2620 Stars，提供高级 Agent 技能框架"
+    ],
+    "ai-web": [
+      "Anthropic 与澳大利亚政府签 MOU，投入 300 万澳元支持 AI 安全研究",
+      "发布《Anthropic Economic Index》：澳洲 Claude 使用率超人口比例四倍",
+      "OpenAI 发布《Accelerating The Next Phase Ai》，暗示重大战略升级"
+    ],
+    "ai-hn": [
+      "OpenAI 完成融资估值 8520 亿美元，创全球科技公司新纪录",
+      "Claude Code 用户遭遇意外额度耗尽，暴露资源调度机制缺陷",
+      "Show HN: 1-Bit Bonsai，首个商业化可行 1-bit LLM 大幅降推理成本",
+      "Anthropic 解雇泄露 Claude Code NPM 包的开发者，治理冲突公开化",
+      "PhAIL 推出真实机器人 AI 评估基准，推动仿真向现实迁移",
+      "Wozcode 架构优化提升 Claude Code 输出效率，展示社区逆向创新"
+    ]
+  },
+  "en": {}
+}
