@@ -36,7 +36,24 @@
       "Anthropic 解雇泄露 Claude Code NPM 包的开发者，治理冲突公开化",
       "PhAIL 推出真实机器人 AI 评估基准，推动仿真向现实迁移",
       "Wozcode 架构优化提升 Claude Code 输出效率，展示社区逆向创新"
+    ],
+    "ai-monthly": [
+      "Claude Code v2.1.81 发布，日均补丁1-2个",
+      "Kimi Code v1.19.0 上线 Agent 可视化功能 kimi vis",
+      "OpenCode Copilot 计费异常事件引发社区信任危机",
+      "GitHub Copilot CLI v1.0.5 回归灾难，后台代理失效",
+      "OpenAI Codex Rust重构加速至α9，底层架构激进迁移",
+      "Kimi CLI v1.23.0 支持后台Bash任务与终端通知"
     ]
   },
-  "en": {}
+  "en": {
+    "ai-monthly": [
+      "OpenAI Codex's sub-agents go live in v0.107.0",
+      "GitHub Copilot CLI hits GA with v1.0.2",
+      "MCP standard becomes foundational requirement",
+      "Codex billing anomaly triggers ecosystem trust crisis",
+      "Kimi CLI advances async task execution",
+      "Gemini CLI improves memory architecture"
+    ]
+  }
 }
