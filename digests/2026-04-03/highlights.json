@@ -1,0 +1,83 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.91发布，新增MCP结果持久化功能",
+      "Kimi Code CLI v1.30.0发布，修复Windows路径解析问题",
+      "Qwen Code v0.14.0-preview.5发布，改进扩展安装路径",
+      "GitHub Copilot CLI v1.0.16发布，修复MCP显示问题",
+      "Gemini CLI v0.37.0-preview.1发布，修复子代理配置延迟",
+      "OpenAI Codex持续更新Alpha版本v0.119.0"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.2发布，引入破坏性变更影响xAI插件配置",
+      "Web UI全面重构进行中，采用React 19+shadcn/ui",
+      "新增Fish Audio TTS语音提供商支持",
+      "修复Ollama Cloud认证失败问题",
+      "添加每代理TTS配置解析功能",
+      "修复Microsoft Teams Webhook消息路由问题"
+    ],
+    "ai-trending": [
+      "ollama/ollama获166,846星，支持本地部署前沿模型",
+      "shareAI-lab/learn-claude-code获47,225星，构建智能体harness",
+      "CopilotKit/CopilotKit获29,939星，全栈工具包简化AI集成",
+      "e2b-dev/E2B获11,552星，企业级安全沙箱执行环境",
+      "Panniantong/Agent-Reach获14,601星，赋予AI互联网搜索能力",
+      "trycua/cua获13,365星，计算机使用智能体开源基础设施"
+    ],
+    "ai-web": [
+      "Anthropic研究揭示LLM内部存在情感神经元",
+      "OpenAI更新Codex团队灵活定价页面",
+      "OpenAI收购TBPN战略资产"
+    ],
+    "ai-hn": [
+      "Anthropic研究LLM情感概念运作机制获9分讨论",
+      "OpenAI收购TBPN引发136分热烈讨论",
+      "分布式量子计算网络原型获11分关注",
+      "Sora算力开销成本分析获43分热议",
+      "Context Constitution提示词框架获5分讨论",
+      "AI基准测试改革呼吁获3分评论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.91 released with new features",
+      "OpenAI Codex releases Rust alphas for better performance",
+      "Gemini CLI v0.37.0-preview.1 now available",
+      "Kimi Code CLI v1.30.0 launched today",
+      "Qwen Code adds v0.14.0-preview.5 and nightly builds",
+      "All 7 major AI CLI tools show active development with frequent PRs"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.2 released with breaking plugin changes",
+      "500 issues and 500 PRs updated in last 24 hours",
+      "xAI plugin config paths moved to new location",
+      "Automatic legacy config migration included but poorly documented",
+      "IronClaw, NanoBot, and CoPaw lead agent toolkit activity",
+      "LobsterAI and TinyClaw show strong community engagement"
+    ],
+    "ai-trending": [
+      "CopilotKit hits 29,939 stars for AI-powered frontend framework",
+      "E2B secures 11,552 stars for enterprise sandbox environments",
+      "Google Workspace CLI reaches 23,599 stars with AI agent support",
+      "trycua/cua gains traction for computer-use agents",
+      "oh-my-codex surges as popular no-code demo builder",
+      "openscreen rises in popularity for agentic coding environments"
+    ],
+    "ai-web": [
+      "Anthropic publishes research on LLM emotion representations",
+      "OpenAI announces flexible Codex Teams pricing and TBPN acquisition",
+      "Sora's $65 per user cost sparks economic viability debate",
+      "Anthropic faces backlash over usage limits transparency",
+      "Quantum computing networks gain developer interest",
+      "Lisa Core offers 80:1 local semantic compression for AI conversations"
+    ],
+    "ai-hn": [
+      "OpenAI acquires TBPN browser-native AI agents startup",
+      "Sora's $65/user cost fuels AI video generation concerns",
+      "Anthropic's AutoDream criticized for flawed benchmarks",
+      "Show HN: Open-source distributed quantum compute network",
+      "Lisa Core provides local AI memory with 80:1 compression",
+      "Local-first AI tools gain traction among developers"
+    ]
+  }
+}
