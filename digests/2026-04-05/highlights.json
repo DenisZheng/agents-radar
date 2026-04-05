@@ -1,0 +1,70 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.92发布，开源引发热议但token消耗遭质疑",
+      "OpenAI Codex Rust版v0.119-alpha推进WebRTC实时交互功能",
+      "Gemini CLI新增自动保存聊天历史，Agent可靠性受社区讨论",
+      "GitHub Copilot CLI v1.0.18发布，实验性Critic agent登场",
+      "Kimi Code CLI重构为Bun+TS，跨设备控制需求旺盛获关注",
+      "OpenCode v1.3.15修复npm安装问题，代理支持呼声持续高涨"
+    ],
+    "ai-agents": [
+      "OpenClaw处理500条PR/Issue，插件边界加固与国际化持续推进",
+      "PR#60923修复CLI参数错误返回0退出码的关键缺陷",
+      "PR#58955解耦内部执行提示与用户可见延迟交付逻辑",
+      "PR#61088稳定Telegram插件SDK测试，解决导入副作用问题",
+      "PR#59231系列实现ACP代理会话交接与DM绑定功能增强",
+      "Issue#3460聚焦MCP客户端集成与Web UI本地化改进"
+    ],
+    "ai-trending": [
+      "Blaizzy/mlx-vlm单日涨343星，苹果MLX生态VLM推理强劲崛起",
+      "微软agent-framework获72星增长，统一智能体开发框架受瞩目",
+      "onyx-dot-app融合RAG与Agent技术构建下一代生产力平台",
+      "block/goose成为AI智能体工作流新热点项目",
+      "Yeachan-Heo/oh-my-codex专注多LLM支持的工作流工具创新",
+      "microsoft/agent-framework支持Python/.NET双语言智能体开发"
+    ],
+    "ai-hn": [
+      "Anthropic研究情感概念影响模型行为获135分热议",
+      "sllm共享GPU节点服务获117分关注，无限令牌降低开发成本",
+      "vLLM长上下文推理内存优化更新获技术社区关注",
+      "OpenAI股权泄露显示微软获得18倍回报引发产业讨论",
+      "Claude 3.7在复杂代码生成任务表现优异获开发者青睐",
+      "AI安全研究获102分高分，伦理治理成社区焦点话题"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.92 adds remote settings and Bedrock wizard support",
+      "OpenAI Codex releases 3 Rust alphas (v0.119.0-alpha.8–11)",
+      "Kimi Code CLI pushes Bun/TypeScript rewrite with episodic context manager",
+      "OpenCode introduces agentic workflows with real-time streaming metrics",
+      "Qwen Code enhances cross-platform reliability for enterprise WSL environments",
+      "Gemini CLI fixes critical Windows API throttling issue"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues/PRs in 24h with focus on stability & i18n",
+      "PR #61088 stabilizes Telegram plugin-sdk test boundaries",
+      "PR #59231 improves ACP agent session handback capabilities",
+      "PR #61061 prevents import-side effects via lazy-loading",
+      "PR #54302 recognizes 'new'/'reset' as session commands outside Slack",
+      "IronClaw and NanoBot lead multi-agent orchestration development"
+    ],
+    "ai-trending": [
+      "MLX-VLM surges +343 stars for local VLM inference on Apple Silicon",
+      "goose by Block trends with +935 stars as extensible AI agent",
+      "microsoft/agent-framework gains traction for multi-agent systems",
+      "onyx evolves RAG into autonomous task-execution agents",
+      "ollama now supports Kimi-K2.5 and DeepSeek models locally",
+      "vllm maintains top-tier throughput for GPU-optimized LLM inference"
+    ],
+    "ai-hn": [
+      "Anthropic's emotion concepts paper sparks debate on LLM cognition",
+      "sllm.cloud Show HN enables decentralized GPU sharing with unlimited tokens",
+      "OpenAI cap table leak fuels Microsoft return speculation",
+      "Tokencap rises as privacy-focused agentic workflow tool",
+      "UCLA study affirms LLMs lack embodied experience despite descriptive ability",
+      "Data center bottlenecks raise concerns in AI infrastructure discussions"
+    ]
+  }
+}
