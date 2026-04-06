@@ -1,0 +1,37 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code Skills 开源，强化 AI CLI 生态扩展能力",
+      "Qwen Code 功能迭代迅猛，Issues 达 33 条，活跃度极高",
+      "Kimi Code CLI 重构为 Bun/TS，提升终端稳定性与性能",
+      "GitHub Copilot CLI 修复 Windows & MCP 兼容性问题",
+      "OpenCode 急需原生代理支持，社区反馈强烈 (#531, #21098)",
+      "AI CLI 工具转向企业级集成，细粒度权限与多智能体协作成重点"
+    ],
+    "ai-agents": [
+      "LobsterAI 新增托管 TaskFlow 模式，增强工作流自动化能力",
+      "统一插件更新参数处理逻辑，提升 OpenClaw 平台安全性与一致性",
+      "修复定时任务模型覆盖配置问题，cron 任务稳定性显著改善",
+      "Bedrock 嵌入支持完成，云原生基础设施持续优化",
+      "RFC 提出去中心化代理身份验证机制，引发安全架构升级讨论",
+      "iMessageLite 标准化推进，跨平台消息处理能力增强"
+    ],
+    "ai-trending": [
+      "Google 发布 LiteRT-LM，推动边缘设备 AI 部署新方案",
+      "MLX-VLM 在 Mac 上运行 VLM 爆红，416 Stars 登顶趋势",
+      "Goose 智能体框架获 882 Stars，代码执行能力受认可",
+      "Onyx AI 平台日增 998 Stars，全功能 AI 工作台崛起",
+      "Gallery 工具集上线，助力 Google AI Edge 生态构建",
+      "fff.nvim 文件导航插件日涨 76 Stars，提升开发效率"
+    ],
+    "ai-hn": [
+      "OpenAI Codex 改按 token 计费，成本透明获开发者好评",
+      "Gemma 4 本地运行教程引爆 HN，LM Studio + Claude Code 组合受热捧",
+      "Nanocode 宣称纯 JAX 实现 Claude Code 替代方案，TPU 高性能引热议",
+      "Cabinet 知识库+LLM 写作助手亮相，获赞“重新定义个人知识管理”",
+      "研究用 ML 发现大量未确诊新冠死亡案例，医疗 AI 潜力受关注",
+      "地缘政治风险警示：伊朗威胁 Stargate 数据中心安全"
+    ]
+  },
+  "en": {}
+}
