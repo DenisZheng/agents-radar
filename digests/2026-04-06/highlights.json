@@ -31,7 +31,24 @@
       "Cabinet 知识库+LLM 写作助手亮相，获赞“重新定义个人知识管理”",
       "研究用 ML 发现大量未确诊新冠死亡案例，医疗 AI 潜力受关注",
       "地缘政治风险警示：伊朗威胁 Stargate 数据中心安全"
+    ],
+    "ai-weekly": [
+      "OpenAI估值飙升至8520亿美元，创科技公司纪录",
+      "Anthropic与澳大利亚政府签署300万澳元AI合作MOU",
+      "Claude Code v2.1.90发布交互式教学功能/powerup",
+      "Blaizzy/mlx-vlm在GitHub Trending爆发式增长",
+      "OpenAI Codex改为按API token计费提升成本可预测性",
+      "GitHub Copilot CLI v1.0.17修复关键认证问题"
     ]
   },
-  "en": {}
+  "en": {
+    "ai-weekly": [
+      "OpenAI hits $852B valuation in new funding round",
+      "Anthropic suffers major Claude Code code leak",
+      "Google releases TimesFM and LiteRT-LM models",
+      "OpenAI switches Codex to token-based pricing",
+      "Microsoft launches open-source VibeVoice AI model",
+      "Kimi Code CLI completes Python-to-Bun migration"
+    ]
+  }
 }
