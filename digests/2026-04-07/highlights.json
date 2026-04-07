@@ -1,0 +1,86 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 会话管理优化解决令牌消耗异常问题",
+      "OpenAI Codex 发布 rust-v0.119.0-alpha.12 版本更新",
+      "Gemini CLI 发布 v0.36.0-nightly 夜间构建版",
+      "GitHub Copilot CLI v1.0.19 正式发布增强稳定性",
+      "Kimi Code CLI 报告终端 UI 可读性改进请求",
+      "OpenCode v1.3.17 发布修复历史记录丢失问题"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.5 重大重构配置系统支持自动迁移",
+      "OpenClaw #62197 修复插件运行时兼容性提供者加载失败",
+      "OpenClaw #62194 解决 Windows ESM URL scheme 错误提升跨平台一致性",
+      "OpenClaw #62193 Ollama 后端新增 vision 能力动态探测功能",
+      "OpenClaw #62134 OAuth for MCP 重量级特性开发中",
+      "OpenClaw 今日处理 500 Issues + 500 PRs 活跃度极高"
+    ],
+    "ai-trending": [
+      "NousResearch/hermes-agent 日增星1,574跃居热榜第一",
+      "Google AI Edge LiteRT-LM 发布推动端侧大模型部署",
+      "Ollama + llama.cpp 合计获超460星反映本地推理需求",
+      "KeygraphHQ/shannon 白盒渗透测试AI填补安全空白",
+      "immich-app/immich 自托管照片平台集成AI标签生成",
+      "NVIDIA/personaplex 角色化AI代理系统探索多智能体协同"
+    ],
+    "ai-web": [
+      "Anthropic获Google/Broadcom千兆瓦级TPU算力支持2027上线",
+      "Anthrop年收入突破300亿美元企业客户超千户月均百万支出",
+      "OpenAI推出Safety Fellowship聚焦AI安全研究人才招募",
+      "Anthropic兑现美国本土投资承诺呼应地缘合规需求",
+      "Anthropic收购生物科技公司Coefficient Bio耗资4亿美元",
+      "OpenAI安全战略与Anthropic基建扩张形成鲜明对比"
+    ],
+    "ai-hn": [
+      "Hippo海马体启发的神经符号记忆机制获技术社区热议",
+      "Meta-agent通过实时执行轨迹实现智能体自我优化",
+      "Anthropic千兆瓦级算力合作标志GW级基础设施竞争开启",
+      "Bernie Sanders批评AI威胁引发监管讨论热潮",
+      "TTF-DOOM将Doom引擎嵌入TrueType字体展现底层创意",
+      "Claude Code功能退步引发开发者强烈不满情绪高涨"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hits open-source milestone with 10 live issues/PRs",
+      "OpenAI Codex v0.119.0-α released amid token efficiency concerns",
+      "Gemini CLI nightly v0.36 drops with OAuth/model bug fixes",
+      "GitHub Copilot CLI maintains steady development activity",
+      "Kimi Code CLI and Qwen Code show active pull request engagement",
+      "OpenCode gains traction in open-source AI CLI space"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.5 releases breaking config changes for API streamlining",
+      "500 updated issues/PRs signal OpenClaw's high development velocity",
+      "Legacy config aliases deprecated in favor of canonical paths",
+      "Internal hooks hidden from public config post-update",
+      "Surge in Windows compatibility and sandboxing bug reports noted",
+      "Migration guide promised for openclaw.json users"
+    ],
+    "ai-trending": [
+      "Google launches LiteRT-LM C++ library for on-device GenAI inference",
+      "NousResearch's Hermes-Agent surges with 1,574 new stars today",
+      "NVIDIA's PersonaPlex emerges as multi-agent simulation framework",
+      "Ollama now supports Kimi-K2.5 and DeepSeek models locally",
+      "ggml-org/llama.cpp sees 267 new stars in CPU/GPU inference gold standard",
+      "vLLM powers high-throughput LLM serving for production RAG apps"
+    ],
+    "ai-web": [
+      "Anthropic partners with Google/Broadcom for multi-gigawatt TPU deployment",
+      "Claude revenue exceeds $30B annually with 1,000+ enterprise customers",
+      "OpenAI launches 'OpenAI Safety Fellowship' for long-term safety research",
+      "Next-gen compute rollout begins in 2027 under U.S.-focused infrastructure plan",
+      "$50B investment signals Anthropic's American computing leadership push",
+      "Safety governance shift positions OpenAI for regulatory leadership"
+    ],
+    "ai-hn": [
+      "Claude Code update sparks developer backlash over reliability issues",
+      "Anthropic criticized for restricting third-party tools like OpenClaw",
+      "Hippo memory system inspired by hippocampal replay mechanisms launched",
+      "TTF-DOOM demonstrates niche engineering demo innovation",
+      "Top HN thread highlights growing frustration with LLM agent performance",
+      "Sky Elm-inspired language compiles to Go gains attention"
+    ]
+  }
+}
