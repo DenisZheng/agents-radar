@@ -1,6 +1,21 @@
 {
-  "generated": "2026-04-06T01:34:46.502Z",
+  "generated": "2026-04-07T00:24:54.219Z",
   "dates": [
+    {
+      "date": "2026-04-07",
+      "reports": [
+        "ai-cli",
+        "ai-cli-en",
+        "ai-agents",
+        "ai-agents-en",
+        "ai-web",
+        "ai-web-en",
+        "ai-trending",
+        "ai-trending-en",
+        "ai-hn",
+        "ai-hn-en"
+      ]
+    },
     {
       "date": "2026-04-06",
       "reports": [
