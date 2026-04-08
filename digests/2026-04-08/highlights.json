@@ -1,0 +1,70 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.94 新增 AWS Bedrock 支持，扩展云服务商覆盖",
+      "OpenAI Codex Rust Alpha 分支持续迭代，提升本地推理性能",
+      "Gemini CLI v0.37.0-preview.2 修复认证问题，增强稳定性",
+      "GitHub Copilot CLI v1.0.21 新增 MCP 命令，完善插件生态",
+      "Kimi Code CLI 开源社区活跃，强调跨平台兼容性优化",
+      "Qwen Code v0.14.1 修复 VS Code 面板显示问题，改善用户体验"
+    ],
+    "ai-agents": [
+      "OpenClaw 社区 Issue/PR 均达500条，活跃度极高",
+      "修复 daemon 权限问题，提升 gateway status 命令可用性",
+      "Matrix通道同步失败修复，增强系统容错能力",
+      "开启循环检测默认配置，防止无限递归调用",
+      "NanoBot、PicoClaw 等12个项目共同构成活跃生态",
+      "IronClaw 集成 NEAR AI 技术栈，拓展区块链应用场景"
+    ],
+    "ai-trending": [
+      "Google LiteRT-LM 专注端侧AI部署，获528星关注",
+      "qmd 极简本地文档搜索工具，859星展现隐私优势",
+      "GitNexus 浏览器内RAG Agent，1195星简化代码探索",
+      "Ollama 本地LLM管理工具，168k星持续领先市场",
+      "seomachine 专为Claude Code设计，215星展示垂直应用",
+      "OpenHands 70k+星，推动复杂任务Agent框架发展"
+    ],
+    "ai-hn": [
+      "Claude Mythos System Card 发布，引发安全边界大讨论",
+      "Gemma 4多模态微调器为苹果芯片优化，获开发者好评",
+      "独立研究者质疑Mythos可解释性，推动透明度标准反思",
+      "Marimo pair将笔记本转为Agent环境，探索新交互范式",
+      "Claude Code用户被锁定数小时，暴露系统稳定性风险",
+      "伊朗威胁OpenAI数据中心，地缘政治影响AI基础设施"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.94 stable release with improved agentic features",
+      "OpenAI Codex alpha builds focus on real-time WebRTC communication",
+      "Gemini CLI v0.37.0-preview improves memory and UX stability",
+      "Kimi Code CLI pushes aggressive Bun/TypeScript rewrite efforts",
+      "OpenCode shows strong community engagement with ~30 issues",
+      "GitHub Copilot CLI v1.0.21 stable with only 2 recent PRs"
+    ],
+    "ai-agents": [
+      "OpenClaw maintains high activity with 500 issues and 500 PRs daily",
+      "Fixes for Slack/WhatsApp decrypt race conditions prevent crashes",
+      "Expose provider auth to plugins enables secure credential access",
+      "Windows ESM loader errors (#61899, #61911) need urgent attention",
+      "Daemon permission handling fixed in merged PR #62337",
+      "No new releases as of April 8, 2026 - latest remains v2026.4.5"
+    ],
+    "ai-trending": [
+      "Google's LiteRT-LM (C++) targets ultra-lightweight edge AI deployment",
+      "GitNexus enables browser-based Graph RAG agents with zero-server AI",
+      "NVIDIA's PersonaPlex advances personalized context-aware AI avatars",
+      "Ollama supports Kimi-K2.5 and DeepSeek for instant local LLM runtime",
+      "vLLM provides high-throughput inference optimized for large-scale serving",
+      "qmd and DeepTutor mature local-first purpose-built AI assistants"
+    ],
+    "ai-hn": [
+      "Claude Mythos system card released with detailed technical specs",
+      "GLM-5.1 matches Opus 4.6 performance at 1/3 the cost",
+      "Gemma 4 multimodal fine-tuner for Apple Silicon launched",
+      "Claude Code user lockouts spark reliability concerns",
+      "Anthropic's Project Glasswing dominates cybersecurity discussions",
+      "Zhipu AI challenges OpenAI pricing with cost-effective GLM-5.1"
+    ]
+  }
+}
