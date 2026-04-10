@@ -1,0 +1,84 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.98发布，新增Vertex AI向导支持",
+      "OpenAI Codex rust-v0.119.0-alpha.29迭代更新",
+      "Gemini CLI v0.37.1补丁修复内存泄漏问题",
+      "GitHub Copilot CLI持续优化MCP集成与模型适配",
+      "Kimi Code CLI强化终端交互与特定模型深度支持",
+      "OpenCode开放API插件钩子增强可定制性"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.9正式版发布，记忆系统重大重构升级",
+      "OpenClaw新增grounded REM backfill lane支持历史数据回放",
+      "OpenClaw集成diary commit/reset流程优化事实提取",
+      "OpenClaw live short-term promotion实现旧笔记无缝重放",
+      "OpenClaw gateway启动边界拆分提升模块解耦度",
+      "OpenClaw修复全局npm安装QA环境崩溃关键Bug"
+    ],
+    "ai-trending": [
+      "Hermes-Agent单日+6,485 stars领跑Trending，Agent-native框架爆发",
+      "Ollama支持Kimi-K2.5等前沿模型本地部署，降低LLM门槛",
+      "vllm高吞吐推理引擎助力生产级AI应用核心基础设施",
+      "browser-use让AI自主浏览网页，打通Web交互与Agent能力",
+      "infiniflow/ragflow融合RAG与Agent，企业级知识处理平台",
+      "mem0ai/mem0为AI代理提供统一记忆层，解决上下文持久化"
+    ],
+    "ai-web": [
+      "Anthropic推出Claude for Healthcare，HIPAA合规医疗解决方案",
+      "Anthropic增强生命科学功能，连接更多科学平台",
+      "Anthropic发布可信代理实践研究，强调五大治理原则",
+      "OpenAI官网暂无新增内容更新"
+    ],
+    "ai-hn": [
+      "Anthropic新模型Mythos定位网络安全'变革者'能力惊人",
+      "Vercel Claude Code插件读取用户提示词引隐私担忧",
+      "Control X/Twitter feed using on-device LLM获关注",
+      "OpenAI Stargate项目变脸引发能源成本监管争议",
+      "Anthropic内部报告解释为何不公开危险Mythos模型",
+      "社区热议AI代理安全权衡与大型科技公司商业行为"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.98 stable with enterprise readiness lead",
+      "OpenAI Codex alpha v0.119.0-alpha.29 in active development",
+      "Kimi Code CLI focuses on input resilience and localization",
+      "GitHub Copilot CLI shows low activity despite stability",
+      "Qwen Code offers nightly builds only with no official release",
+      "All tools report ~10 hot issues across the ecosystem"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.9 released with memory system enhancements",
+      "New beta version of OpenClaw adds grounded REM backfill lanes",
+      "Durable fact extraction integrated into daily notes workflow",
+      "Live short-term promotion allows replaying old notes into Dreams",
+      "Installation instability affects user onboarding despite high velocity",
+      "500 issues and 500 PRs updated in last 24 hours"
+    ],
+    "ai-trending": [
+      "Hermes Agent leads with 6,485 new stars from NousResearch",
+      "Archon TypeScript project gains traction for repeatable AI coding",
+      "claudian Obsidian plugin integrates Claude Code workflows",
+      "Ollama now supports Kimi-K2.5 and GPT-OSS models locally",
+      "vLLM enables high-throughput LLM serving at scale",
+      "OpenHands platform empowers autonomous software engineering agents"
+    ],
+    "ai-web": [
+      "Anthropic launches HIPAA-ready 'Claude for Healthcare' solution",
+      "New governance framework outlines 5 principles for trustworthy agents",
+      "OpenAI shows no new public content as of April 10",
+      "Claude Opus 4.5 excels in medical simulation reasoning tasks",
+      "Life sciences integration expanded for clinical trial support",
+      "Trustworthy Agents in Practice research paper published"
+    ],
+    "ai-hn": [
+      "OpenAI halts UK Stargate project due to energy costs and regulation",
+      "Vercel's Claude Code plugin raises telemetry and privacy concerns",
+      "Community debates cybersecurity risks of unreleased Anthropic model Mythos",
+      "Show HN explores sandboxed AI agent environments and API tools",
+      "Discussions focus on corporate transparency in AI infrastructure",
+      "Practical applications of autonomous AI agents gaining attention"
+    ]
+  }
+}
