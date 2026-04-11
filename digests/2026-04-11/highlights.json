@@ -1,0 +1,70 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.101发布，新增团队引导命令并修复插件问题",
+      "OpenAI Codex rust-v0.119.0升级WebRTC路径，引入MCP应用支持",
+      "Gemini CLI v0.39.0优化Linux沙箱环境，添加快捷键操作支持",
+      "GitHub Copilot CLI v1.0.24改进终端状态管理，修复远程会话同步",
+      "Kimi Code CLI v1.31.0修复背景色泄露问题，增强文件读取工具能力",
+      "Qwen Code v0.14.3解决UI状态管理竞态问题，提升终端用户体验"
+    ],
+    "ai-agents": [
+      "OpenClaw处理500个Issue和PR，聚焦模型扩展与安全机制",
+      "OpenClaw完成GPT-5.4/Codex运行时代码分类与权限上报",
+      "OpenClaw集成Dali工作区本地检索与Source UI同步功能",
+      "OpenClaw新增统一Amazon插件，整合AWS语音服务生态",
+      "OpenClaw引入Octo多AI编码工具协同框架，支持零侵入式协作",
+      "OpenClaw RFC讨论原生化Agent身份验证与信任验证机制"
+    ],
+    "ai-trending": [
+      "Microsoft Markitdown今日暴涨2352星，文档转Markdown利器",
+      "Coleam00 Archon首个开源AI编码harness构建器，确保确定性开发",
+      "NousResearch Hermes Agent智能体框架暴涨7671星，持续进化学习",
+      "Rowboat Labs Rowboat开源AI协作者带记忆功能，长期工作流助手",
+      "Multica AI Multica开源托管智能体平台，支持任务分配与技能累积",
+      "Obra Superpowers代理技能框架，提升软件开发效率质量"
+    ],
+    "ai-web": [
+      "Anthropic托管代理服务解耦大脑与双手，构建稳定代理系统",
+      "Anthropic发布金融服务解决方案，整合金融数据提升分析效率",
+      "OpenAI暂无新增内容更新，保持技术低调节奏",
+      "Claude Mythos黑客能力宣传引发争议，被指依赖人工审查",
+      "Twill.ai YC新项目允许委托云代理快速获得PR代码审查",
+      "Eve管理版OpenClaw简化复杂工作场景任务处理"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.101 stable release with enhanced security features",
+      "OpenAI Codex v0.119.0 adds alpha previews and voice session support",
+      "Gemini CLI introduces modular agent architecture with decoupled components",
+      "GitHub Copilot CLI gains governance plugins for enterprise workflows",
+      "Kimi Code CLI improves TUI stability and accessibility",
+      "Qwen Code CLI fixes session lifecycle management issues"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 issues/PRs updated in 24 hours with strong community engagement",
+      "New unified Amazon plugin integrates Polly TTS, Transcribe STT, and Nova Sonic",
+      "RFC: Native Agent Identity & Trust Verification gaining traction in OpenClaw community",
+      "Major fixes for WhatsApp media handling and Mattermost token security merged",
+      "Octo multi-agent coordination framework added (feature-flagged off by default)",
+      "Anthropic advisor tool support implemented in OpenClaw runtime"
+    ],
+    "ai-trending": [
+      "NousResearch/hermes-agent surges +7,671 stars as adaptive AI agent framework",
+      "Microsoft's markitdown gains +2,352 stars for document intelligence capabilities",
+      "Archon, multica, and rowboat emerge as deterministic AI coding harness builders",
+      "Ollama enables local deployment of Kimi-K2.5 and DeepSeek models with privacy focus",
+      "CopilotKit provides React/Angular frontend stack for generative UI embedding",
+      "vLLM optimizes high-throughput LLM inference for production deployments"
+    ],
+    "ai-web": [
+      "Anthropic launches Claude Managed Agents to decouple brain from hands in workflows",
+      "Claude for Financial Services targets investment research and compliance needs",
+      "Managed Agents feature future-proofs against model upgrades like Opus 4.5 changes",
+      "Claude Mythos faces regulatory scrutiny over alleged cybersecurity capabilities",
+      "U.S. Treasury warns banks about potential cyber risks from Mythos model",
+      "OpenAI publishes no new content today"
+    ]
+  }
+}
