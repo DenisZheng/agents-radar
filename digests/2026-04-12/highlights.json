@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.97发布，功能回滚频发引关注",
+      "OpenAI Codex推rust-v0.121.0-alpha.x预览版更新",
+      "Gemini CLI v0.39.0-nightly修复关键Bug获用户好评",
+      "Copilot CLI无稳定版发布，社区持续关注进展",
+      "Kimi Code CLI高频响应用户Issue #1783等反馈",
+      "Qwen Code v0.14.3-nightly新增多语言支持特性"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h内Issues/PR均更新500条，社区活跃度高",
+      "v2026.4.11增强Dreaming/memory-wiki模块支持ChatGPT导入",
+      "v2026.4.10引入Codex提供者捆绑和app-server harness",
+      "PR #62893添加Preferred Networks PLaMo提供者支持",
+      "PR #10356引入Typecast TTS提供者扩展语音服务",
+      "PR #64329修复空心跳配置导致资源浪费问题"
+    ],
+    "ai-trending": [
+      "NousResearch hermes-agent以+6438 stars登顶GitHub热榜",
+      "微软markitdown工具将Office文档转为LLM友好Markdown",
+      "Ollama 168,619 stars成为本地大模型运行首选平台",
+      "CopilotKit 30,146 stars构建Agent和生成式UI的前端栈",
+      "VoxCPM2无分词器设计突破多语言语音生成技术瓶颈",
+      "Archon智能体框架推动复杂工作流自动化演进"
+    ],
+    "ai-hn": [
+      "Cirrus Labs拟并入OpenAI引发AI人才流动热议",
+      "Meta向顶级AI高管发放巨额奖金成HN热议焦点",
+      "Anthropic新模型Mythos强大黑客能力引安全担忧",
+      "伯克利研究揭示AI Agent基准测试存在严重漏洞",
+      "Hormuz Havoc游戏被AI机器人攻陷警示失控风险",
+      "Collabmem项目探索AI长期协作记忆系统开发"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code faces post-update regressions despite high engagement",
+      "OpenAI Codex releases rust-v0.120.0 with steady development pace",
+      "Gemini CLI rolls out v0.39.0-nightly with UX refinements",
+      "GitHub Copilot CLI struggles with authentication and billing transparency",
+      "Kimi Code CLI maintains stable release cycles in agent workflows",
+      "Qwen Code focuses on internationalization and incremental improvements"
+    ],
+    "ai-agents": [
+      "OpenClaw released v2026.4.11 with ChatGPT import and UI enhancements",
+      "New Codex provider adds native threading and model discovery in OpenClaw",
+      "Memory ingestion and Control UI rendering improved in latest OpenClaw versions",
+      "500 issues and 500 PRs updated daily showing sustained momentum",
+      "Three new OpenClaw versions released including beta and stable builds",
+      "Active Memory subsystem enhanced for better context management"
+    ],
+    "ai-trending": [
+      "Hermes-Agent leads trending with 6,438 new stars by NousResearch",
+      "Ollama supports Kimi-K2.5 and DeepSeek with local LLM runtime",
+      "Markitdown surges +3,086 for document-to-Markdown conversion",
+      "Archon gains traction for deterministic AI coding workflows",
+      "CopilotKit enables generative UI embedding via React/Angular",
+      "VoxCPM and Kronos show vertical specialization in vector databases"
+    ],
+    "ai-hn": [
+      "OpenAI sues Musk over Cirrus Labs acquisition drama unfolds",
+      "MCP Spine cuts LLM tool token usage by 61% with middleware proxy",
+      "Berkeley exposes benchmark weaknesses in AI agent evaluation",
+      "Borges' cartographers metaphor for LM output interpretation discussed",
+      "Agentic systems spark excitement and concern over power/opacity"
+    ]
+  }
+}
