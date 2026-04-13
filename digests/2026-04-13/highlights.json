@@ -1,0 +1,70 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 模型更新导致稳定性问题频发，社区呼吁修复",
+      "GitHub Copilot CLI 计费准确性遭质疑，用户要求透明化",
+      "Kimi Code CLI 跨平台兼容性问题突出，Windows/WSL 环境受影响",
+      "OpenCode 性能优化成焦点，开发者期待更稳定表现",
+      "Qwen Code 发布 nightly v0.14.3，持续迭代新功能",
+      "Gemini CLI SSH 会话显示异常，终端体验待改进"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.4.12-beta.1，强化插件安全隔离机制",
+      "GPT-5.4 runtime 自动启用 strict-agentic 模式，降低使用门槛",
+      "新增 registerProviderRuntimeAuthOverride API，支持企业级密钥托管",
+      "修复 Google Chat 启动崩溃问题，恢复通道可用性",
+      "ZeptoClaw 等12个项目活跃，生态扩展迅速",
+      "IronClaw 聚焦多通道稳定性提升，企业级应用前景看好"
+    ],
+    "ai-trending": [
+      "NousResearch hermes-agent 爆红，自主规划能力获认可",
+      "Microsoft Markitdown 文档转换工具，RAG 预处理利器",
+      "rustfs 高性能对象存储系统，专为 AI 数据底座设计",
+      "Google Workspace CLI 集成 AI agent 技能，生态整合典范",
+      "Multica 开源托管代理平台，AI 团队协作新范式",
+      "virattt ai-hedge-fund Python项目，AI量化投资实战案例"
+    ],
+    "ai-hn": [
+      "Claude Opus 4.6 BridgeBench 准确率骤降，引发模型稳定性担忧",
+      "Claudraband 增强 Claude Code 功能，获开发者热烈反响",
+      "Mistral 欧洲 AI 战略白皮书获75条评论，主权议题受关注",
+      "Lazyagent TUI 实时追踪 AI 代理操作，增强可控性",
+      "Revdiff TUI diff reviewer 支持内联注释，提升代码审查效率",
+      "OpenAI 悄然移除 Study Mode，产品策略变化引猜测"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code, OpenAI Codex, Gemini CLI each had 10 PRs landed today",
+      "GitHub Copilot CLI had no PRs landed today",
+      "Kimi Code CLI had 8 open issues and 10 PRs today",
+      "Claude Code Skills repo gains traction as agent memory evolves",
+      "OpenAI Codex addresses reliability while advancing agent autonomy",
+      "Qwen Code expands provider compatibility in AI CLI space"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.12-beta.1 tightens plugin security with manifest-bound activation",
+      "OpenClaw processed 500 issues and 500 PRs in last 24 hours",
+      "PR #65219 enables strict-agentic execution for GPT-5 models",
+      "381 open issues and 306 open PRs show strong project momentum",
+      "IronClaw, LobsterAI, TinyClaw lead active agent ecosystem",
+      "Moltis and CoPaw join growing list of agent frameworks"
+    ],
+    "ai-trending": [
+      "Hermes-Agent surged +7,454 stars reflecting agent architecture interest",
+      "NousResearch’s Hermes-Agent leads AI agent category trending",
+      "Ollama powers local Kimi-K2.5 and DeepSeek deployments at scale",
+      "vLLM now supports high-throughput inference for frontier models",
+      "MarkItDown gains traction as document-to-Markdown converter",
+      "Claude Code–adjacent tools like claude-mem gain rapid adoption"
+    ],
+    "ai-hn": [
+      "Claude Opus 4.6 accuracy drops to 68% on BridgeBench hallucination test",
+      "Anthropic faces backlash over sudden Claude Code quota cuts",
+      "Court denies Anthropic request to pause 'supply chain risk' label",
+      "Tech valuations cool back to pre-AI boom levels per industry report",
+      "OpenAI proposes AI-centric economy with robot tax model",
+      "Debate intensifies over AI as labor vs meaning crisis"
+    ]
+  }
+}
