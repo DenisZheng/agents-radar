@@ -31,6 +31,14 @@
       "Lazyagent TUI 实时追踪 AI 代理操作，增强可控性",
       "Revdiff TUI diff reviewer 支持内联注释，提升代码审查效率",
       "OpenAI 悄然移除 Study Mode，产品策略变化引猜测"
+    ],
+    "ai-weekly": [
+      "Anthropic与Google、Broadcom达成多千兆瓦级算力协议，支持下一代Claude模型",
+      "Claude Code v2.1.94发布，新增AWS Bedrock支持并修复权限绕过漏洞",
+      "OpenClaw v2026.4.5重构配置系统，引发跨平台兼容性问题讨论",
+      "GitHub Copilot CLI v1.0.22增强MCP兼容性并支持多账户连接器管理",
+      "NousResearch Hermes-Agent单日+7,671 stars登顶Trending，成开源Agent框架新标杆",
+      "Meta Muse模型发布，对标GPT-5/Opus 4.6，成本降至三分之一"
     ]
   },
   "en": {
@@ -65,6 +73,14 @@
       "Tech valuations cool back to pre-AI boom levels per industry report",
       "OpenAI proposes AI-centric economy with robot tax model",
       "Debate intensifies over AI as labor vs meaning crisis"
+    ],
+    "ai-weekly": [
+      "Claude Code plagued by post-update performance regression, rendering complex tasks unusable",
+      "Anthropic partners with Google and Broadcom for multi-gigawatts of TPU capacity (2027)",
+      "OpenAI quietly removes ChatGPT's Study Mode in strategic product adjustment",
+      "Claude Code suffers another critical bug causing user lockouts for hours",
+      "Anthropic releases engineering blog on 'Managed Agents' for stable long-term execution",
+      "NousResearch's hermes-agent surges in popularity, top GitHub trending project"
     ]
   }
 }
