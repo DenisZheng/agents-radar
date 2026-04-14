@@ -1,0 +1,86 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.105发布，新增worktree支持提升多项目管理效率",
+      "OpenAI Codex Rust Alpha更新，正式版本仍无稳定版发布",
+      "Gemini CLI v0.37.2修复RipGrep下载问题，稳定性获优化",
+      "GitHub Copilot CLI v1.0.25优化MCP安装流程，企业级部署更便捷",
+      "Kimi Code CLI v1.33.0统一模型命名规范，降低使用复杂度",
+      "Qwen Code v0.14.4优化CJK分词，中文处理能力显著增强"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.12发布，新增ATOM Provider支持AMD GPU推理",
+      "OpenClaw社区活跃度激增，Issues与PR各更新500条",
+      "新增You.com Plugin支持网页搜索，扩展信息获取边界",
+      "Bluesky Skill双模式接入去中心化社交网络，生态持续扩张",
+      "修复OAuth token刷新竞态条件，多代理环境稳定性提升",
+      "Convex支持Telegram凭证池化机制，认证管理更高效"
+    ],
+    "ai-trending": [
+      "Microsoft Markitdown获2808星增长，文档转Markdown标准化工具爆发",
+      "Claude-mem插件捕获编码上下文，提升Claude Code记忆能力",
+      "Archon首个开源AI编码确定性框架，解决不可预测性问题",
+      "OpenHands多智能体协作框架持续热门，代表Agent架构发展方向",
+      "browser-use让网站对AI代理可访问，Web自动化关键工具",
+      "NousResearch hermes-agent单日涨11289星，LLM智能体框架爆发"
+    ],
+    "ai-web": [
+      "Anthropic发布《构建有效的AI Agents》技术博客，分享工程实践",
+      "Anthropic强调简单可组合模式优于复杂框架，引导开发者实践",
+      "文章区分Workflows与Agents，界定LLM自主决策边界",
+      "OpenAI官网暂无新增内容更新",
+      "Anthropic战略重心转向产品化与工程化，指导客户构建应用",
+      "Anthropic展示其不仅是模型供应商更是应用专家的战略定位"
+    ],
+    "ai-hn": [
+      "Stanford报告揭示AI专家与普通大众认知鸿沟扩大引发担忧",
+      "UK AISI评估Claude Mythos网络安全能力引发安全边界讨论",
+      "Ithihāsas文化探索器用AI数字化印度史诗获开发者赞赏",
+      "Bloomberg Terminal风格LLM运维平台开源免费值得关注",
+      "Claude服务质量下降遭用户投诉，可用性成关注焦点",
+      "Anthropic与宗教领袖对话探讨AI伦理，展现企业社会责任"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.105 released with cost/quality fixes",
+      "OpenAI Codex Rust SDK α addresses token burn rate",
+      "Gemini CLI v0.37.2 focuses on offline/SEA support",
+      "Copilot CLI v1.0.25 tackles billing chaos (#2591)",
+      "Kimi Code CLI v1.33.0 adds thinking UI refinements",
+      "GitHub Copilot CLI sees no new PRs this cycle"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.12 boosts plugin loading and memory reliability",
+      "Convex-backed Telegram credential leasing added for QA environments",
+      "WhatsApp plugin refactor centralizes provider recovery logic",
+      "BlueBubbles webhook deduplication improvements merged",
+      "Session reset hooks stabilized across agent frameworks",
+      "Moltis project shows rising community engagement"
+    ],
+    "ai-trending": [
+      "Andrej Karpathy skills guide optimizes Claude Code behavior",
+      "Hermes Agent surges past 11k stars for memory-aware autonomy",
+      "Archon framework gains traction as deterministic agent tool",
+      "Microsoft markitdown converts Office docs to Markdown",
+      "Cua enables desktop control for computer-use agents",
+      "NousResearch Hermes Agent leads agent workflow trend"
+    ],
+    "ai-web": [
+      "Anthropic's 'Building Effective AI Agents' guide updated April 13",
+      "Distinguishes workflows (static) from agents (dynamic)",
+      "Emphasizes modular RAG/reflection over monolithic SDKs",
+      "Rebuttal against complex orchestration platforms trend",
+      "Focus on composable patterns for enterprise agents",
+      "No OpenAI updates published today"
+    ],
+    "ai-hn": [
+      "Stanford report reveals AI expert-public communication gap",
+      "Claude Mythos cyber capabilities under government review",
+      "Reports detail physical toll on AI engineers",
+      "Mercury project sparks excitement for AI-native apps",
+      "Ithihāsas demonstrates innovative open-source AI app",
+      "Public trust concerns drive Hacker News debate"
+    ]
+  }
+}
