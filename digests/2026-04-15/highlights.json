@@ -1,0 +1,54 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.108发布，功能增强显著",
+      "Kimi Code CLI v1.34.0优化终端交互体验",
+      "OpenCode v1.4.4修复认证与日志关键问题",
+      "Gemini CLI v0.39.0-preview.0聚焦策略优化",
+      "GitHub Copilot CLI v1.0.26专注Bug修复",
+      "Qwen Code v0.14.4-nightly强化性能分析能力"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.14重构核心代码提升性能",
+      "OpenClaw v2026.4.14-beta.1修复Telegram主题显示问题",
+      "PR #66877解决Telegram文件泄露二进制内容风险",
+      "PR #66882修复配置向导TypeError崩溃问题",
+      "PR #66613明确报告附件解析失败错误",
+      "Issue #49971讨论原生Agent身份验证机制"
+    ],
+    "ai-trending": [
+      "vLLM获76,607星，推理框架持续热门",
+      "Ollama获169,007星，轻量级部署首选",
+      "Dify获137,773星，AI应用开发平台领先",
+      "Infiniflow RAGFlow获78,042星，RAG生态重要玩家",
+      "mem0ai mem0获53,048星，记忆管理新趋势",
+      "OpenHands获71,208星，自主智能体框架崛起"
+    ],
+    "ai-web": [
+      "Anthropic发布自动化对齐研究新方法",
+      "诺华CEO加入Anthropic长期利益信托董事会",
+      "OpenAI布局网络安全可信访问规模化部署",
+      "Anthropic战略重心转向负责任AI实现",
+      "弱到强监督范式应对超智能治理挑战",
+      "医疗健康领域AI落地加速推进"
+    ],
+    "ai-hn": [
+      "Claude Code Routines功能引发性能稳定性热议",
+      "首个公开智能体技能展示平台Skillmd上线",
+      "轻量级LLM推理引擎Nano-vLLM深度解析",
+      "Claude Code驱动算法学习工具获教育界好评",
+      "OpenAI可信访问方案获41条评论热议",
+      "LLM战略建议质量局限引发学界担忧"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.108 released with auth/cost fixes",
+      "OpenAI Codex remains Rust alpha-only with no user releases",
+      "Gemini CLI v0.39.0-preview.0 now available in nightly builds",
+      "GitHub Copilot CLI v1.0.26 focuses on MCP integration",
+      "Kimi Code CLI and Qwen Code gain traction in open-core shift",
+      "Claude Code Skills repo launches for extensibility"
+    ]
+  }
+}
