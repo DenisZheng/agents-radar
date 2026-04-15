@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-15T00:31:03.797Z",
+  "generated": "2026-04-15T00:30:13.691Z",
   "dates": [
     {
       "date": "2026-04-15",
@@ -13,7 +13,15 @@
         "ai-trending",
         "ai-trending-en",
         "ai-hn",
-        "ai-hn-en"
+        "ai-hn-en",
+        "ai-ph",
+        "ai-ph-en",
+        "ai-arxiv",
+        "ai-arxiv-en",
+        "ai-hf",
+        "ai-hf-en",
+        "ai-community",
+        "ai-community-en"
       ]
     },
     {
@@ -28,7 +36,13 @@
         "ai-trending",
         "ai-trending-en",
         "ai-hn",
-        "ai-hn-en"
+        "ai-hn-en",
+        "ai-ph",
+        "ai-ph-en",
+        "ai-hf",
+        "ai-hf-en",
+        "ai-community",
+        "ai-community-en"
       ]
     },
     {
@@ -42,6 +56,12 @@
         "ai-trending-en",
         "ai-hn",
         "ai-hn-en",
+        "ai-ph",
+        "ai-ph-en",
+        "ai-hf",
+        "ai-hf-en",
+        "ai-community",
+        "ai-community-en",
         "ai-weekly",
         "ai-weekly-en"
       ]
@@ -56,7 +76,13 @@
         "ai-trending",
         "ai-trending-en",
         "ai-hn",
-        "ai-hn-en"
+        "ai-hn-en",
+        "ai-ph",
+        "ai-ph-en",
+        "ai-hf",
+        "ai-hf-en",
+        "ai-community",
+        "ai-community-en"
       ]
     },
     {
@@ -71,7 +97,15 @@
         "ai-trending",
         "ai-trending-en",
         "ai-hn",
-        "ai-hn-en"
+        "ai-hn-en",
+        "ai-ph",
+        "ai-ph-en",
+        "ai-arxiv",
+        "ai-arxiv-en",
+        "ai-hf",
+        "ai-hf-en",
+        "ai-community",
+        "ai-community-en"
       ]
     },
     {
@@ -86,7 +120,15 @@
         "ai-trending",
         "ai-trending-en",
         "ai-hn",
-        "ai-hn-en"
+        "ai-hn-en",
+        "ai-ph",
+        "ai-ph-en",
+        "ai-arxiv",
+        "ai-arxiv-en",
+        "ai-hf",
+        "ai-hf-en",
+        "ai-community",
+        "ai-community-en"
       ]
     },
     {
@@ -101,7 +143,15 @@
         "ai-trending",
         "ai-trending-en",
         "ai-hn",
-        "ai-hn-en"
+        "ai-hn-en",
+        "ai-ph",
+        "ai-ph-en",
+        "ai-arxiv",
+        "ai-arxiv-en",
+        "ai-hf",
+        "ai-hf-en",
+        "ai-community",
+        "ai-community-en"
       ]
     },
     {
@@ -114,7 +164,15 @@
         "ai-trending",
         "ai-trending-en",
         "ai-hn",
-        "ai-hn-en"
+        "ai-hn-en",
+        "ai-ph",
+        "ai-ph-en",
+        "ai-arxiv",
+        "ai-arxiv-en",
+        "ai-hf",
+        "ai-hf-en",
+        "ai-community",
+        "ai-community-en"
       ]
     },
     {
@@ -129,7 +187,13 @@
         "ai-trending",
         "ai-trending-en",
         "ai-hn",
-        "ai-hn-en"
+        "ai-hn-en",
+        "ai-ph",
+        "ai-ph-en",
+        "ai-hf",
+        "ai-hf-en",
+        "ai-community",
+        "ai-community-en"
       ]
     },
     {
@@ -143,6 +207,12 @@
         "ai-trending-en",
         "ai-hn",
         "ai-hn-en",
+        "ai-ph",
+        "ai-ph-en",
+        "ai-hf",
+        "ai-hf-en",
+        "ai-community",
+        "ai-community-en",
         "ai-weekly",
         "ai-weekly-en"
       ]
@@ -157,7 +227,13 @@
         "ai-trending",
         "ai-trending-en",
         "ai-hn",
-        "ai-hn-en"
+        "ai-hn-en",
+        "ai-ph",
+        "ai-ph-en",
+        "ai-hf",
+        "ai-hf-en",
+        "ai-community",
+        "ai-community-en"
       ]
     },
     {
@@ -172,7 +248,15 @@
         "ai-trending",
         "ai-trending-en",
         "ai-hn",
-        "ai-hn-en"
+        "ai-hn-en",
+        "ai-ph",
+        "ai-ph-en",
+        "ai-arxiv",
+        "ai-arxiv-en",
+        "ai-hf",
+        "ai-hf-en",
+        "ai-community",
+        "ai-community-en"
       ]
     },
     {
@@ -187,7 +271,15 @@
         "ai-trending",
         "ai-trending-en",
         "ai-hn",
-        "ai-hn-en"
+        "ai-hn-en",
+        "ai-ph",
+        "ai-ph-en",
+        "ai-arxiv",
+        "ai-arxiv-en",
+        "ai-hf",
+        "ai-hf-en",
+        "ai-community",
+        "ai-community-en"
       ]
     },
     {
@@ -200,7 +292,9 @@
         "ai-trending",
         "ai-trending-en",
         "ai-hn",
-        "ai-hn-en"
+        "ai-hn-en",
+        "ai-ph",
+        "ai-ph-en"
       ]
     },
     {
@@ -216,6 +310,8 @@
         "ai-trending-en",
         "ai-hn",
         "ai-hn-en",
+        "ai-ph",
+        "ai-ph-en",
         "ai-monthly",
         "ai-monthly-en"
       ]
@@ -230,7 +326,9 @@
         "ai-trending",
         "ai-trending-en",
         "ai-hn",
-        "ai-hn-en"
+        "ai-hn-en",
+        "ai-ph",
+        "ai-ph-en"
       ]
     },
     {
@@ -243,7 +341,9 @@
         "ai-trending",
         "ai-trending-en",
         "ai-hn",
-        "ai-hn-en"
+        "ai-hn-en",
+        "ai-weekly",
+        "ai-weekly-en"
       ]
     },
     {

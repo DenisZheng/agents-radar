@@ -26,6 +26,9 @@ cli_repos:
   - id: opencode
     repo: anomalyco/opencode
     name: OpenCode
+  - id: pi
+    repo: badlogic/pi-mono
+    name: Pi
   - id: qwen-code
     repo: QwenLM/qwen-code
     name: Qwen Code
@@ -52,6 +55,9 @@ openclaw_peers:
     repo: HKUDS/nanobot
     name: NanoBot
     paginated: true
+  - id: hermes-agent
+    repo: nousresearch/hermes-agent
+    name: Hermes Agent
   - id: picoclaw
     repo: sipeed/picoclaw
     name: PicoClaw
@@ -69,7 +75,7 @@ openclaw_peers:
     repo: netease-youdao/LobsterAI
     name: LobsterAI
   - id: tinyclaw
-    repo: TinyAGI/tinyclaw
+    repo: TinyAGI/tinyagi
     name: TinyClaw
   - id: moltis
     repo: moltis-org/moltis
@@ -80,6 +86,6 @@ openclaw_peers:
   - id: zeptoclaw
     repo: qhkm/zeptoclaw
     name: ZeptoClaw
-  - id: easyclaw
-    repo: gaoyangz77/easyclaw
-    name: EasyClaw
+  - id: zeroclaw
+    repo: zeroclaw-labs/zeroclaw
+    name: ZeroClaw

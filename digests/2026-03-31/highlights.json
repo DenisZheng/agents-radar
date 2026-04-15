@@ -1,4 +1,86 @@
 {
-  "zh": {},
-  "en": {}
+  "zh": {
+    "ai-cli": [
+      "Claude Code订阅Bug引发1400+评论舆情危机",
+      "OpenAI Codex计费危机335评论热议",
+      "Kimi CLI v1.28.0发布，PR数29领跑社区",
+      "Gemini CLI Ultra订阅陷无限等待争议",
+      "OpenCode v1.3.9紧急修复数据丢失漏洞",
+      "Qwen Code v0.14.0-preview.2发布Channels多平台集成"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时近千条代码协作事件",
+      "网关认证安全修复防限流绕过漏洞",
+      "执行事件隔离修复权限提升漏洞",
+      "设备令牌轮换后强制断开会话防劫持",
+      "Kimi模型流式事件顺序问题修复",
+      "OpenRouter认证头丢失缺陷修复"
+    ],
+    "ai-trending": [
+      "claude-howto单日暴涨4232 stars登顶",
+      "claude-code-best-practice获1108 stars",
+      "微软VibeVoice语音AI单日2492 stars",
+      "NousResearch hermes-agent可成长型Agent范式",
+      "Ollama已支持Kimi-K2.5/GLM-5/DeepSeek",
+      "OpenBB AI Agent金融数据平台上榜"
+    ],
+    "ai-hn": [
+      "交互式Claude Code教程109分64评论登顶",
+      "ClamBot WASM沙盒执行AI生成代码",
+      "Memv AI Agent记忆层基础设施引关注",
+      "OpenAI Codex插件兼容Claude Code",
+      "Sora产品失利财务亏损负面密集",
+      "Mistral融资欧洲AI基建受关注"
+    ],
+    "ai-ph": [
+      "Clico 430票全局文本框AI增强领跑",
+      "Parallel Code开源多模型并行编程",
+      "Pensieve 144票企业Agent统一上下文",
+      "Cline Kanban CLI可视化任务管理",
+      "CodingPrep开源AI面试模拟平台",
+      "多模型并行与多Agent编排同时出现"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.88 ships daily patches",
+      "OpenAI Codex stalled on auth infrastructure",
+      "Gemini CLI paused for stable migration",
+      "GitHub Copilot CLI v1.0.13 released",
+      "Kimi Code CLI enters competitive landscape",
+      "MCP ecosystem adoption drives convergence"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24h",
+      "Zero releases despite high velocity",
+      "Critical regressions in Kimi k2p5 provider",
+      "WhatsApp/Telegram channel stability issues",
+      "429 open issues vs 314 open PRs",
+      "Stabilization phase post-2026.3.13"
+    ],
+    "ai-trending": [
+      "Microsoft VibeVoice: 2,492 stars debut",
+      "Three Claude Code repos in top 10",
+      "NousResearch/hermes-agent: 1,851 stars",
+      "Deep-Live-Cam persists at 1,136 stars",
+      "OpenBB positions for AI agents",
+      "Ollama adds Kimi-K2.5, GLM-5, MiniMax"
+    ],
+    "ai-hn": [
+      "Claude Code dominates HN discussions",
+      "Sora commercial struggles surface",
+      "Codex command injection vulnerability found",
+      "Claude executed commands on IoT device",
+      "ClamBot sandboxing solution emerges",
+      "Memv memory system for agents builds"
+    ],
+    "ai-ph": [
+      "Clico: 430 votes for universal textbox AI",
+      "Pensieve: 144 votes for company context layer",
+      "Parallel Code: multi-model vibe coding",
+      "Cline Kanban: agent workflow management",
+      "SUN: personalized on-demand audio learning",
+      "VibecodedHub: AI-native product discovery"
+    ]
+  }
 }

@@ -1,157 +1,132 @@
 # AI 开源趋势日报 2026-04-11
 
-> 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-04-11 00:21 UTC
+> 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-04-11 01:50 UTC
 
 ---
 
-好的，作为 AI 开源生态的技术分析师，我将基于您提供的数据生成一份结构清晰的《AI 开源趋势日报》。
+# AI 开源趋势日报 | 2026-04-11
 
 ---
 
-## 2026-04-11 AI 开源趋势日报
+## 第一步：AI 相关性过滤
 
-### **第一步：过滤**
-
-从 Trending 榜单中，`jqlang/jq` (C语言编写的通用JSON处理器) 与 AI/ML 无直接关联，予以略去。其余11个仓库均与 AI 相关。
-
-从 AI 主题搜索结果中，所有80个项目均与 AI 相关，无需进一步过滤。
-
-### **第二步：分类**
-
-根据项目的主要功能和社区关注度，对筛选后的项目进行分类。
-
-#### **🔧 AI 基础工具**
-*   框架、SDK、推理引擎、开发工具、CLI
-
-*   **[microsoft/markitdown](https://github.com/microsoft/markitdown)** (Python) ⭐0 (+2352 today)
-    *   **一句话说明:** Python工具，用于将文件和办公文档转换为Markdown格式。今天因其强大的文档处理能力而备受关注，这对于构建 RAG（检索增强生成）系统至关重要。
-*   **[coleam00/Archon](https://github.com/coleam00/Archon)** (TypeScript) ⭐0 (+756 today)
-    *   **一句话说明:** 首个开源的AI编码 harness 构建器，旨在使AI编码变得确定性和可重复。它通过提供标准化的环境，解决了AI编码过程中的不确定性问题。
-*   **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)** (Python) ⭐51,868 (+7671 today)
-    *   **一句话说明:** Hermes Agent 是一个智能体框架，以其强大的成长性著称，能够不断学习和进化。它代表了下一代AI智能体的核心思想。
-*   **[rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat)** (TypeScript) ⭐0 (+507 today)
-    *   **一句话说明:** 一个开源的AI协作者，具备记忆功能，可以作为AI工作流的长期助手。它强调了AI在工作场景中的持续协作能力。
-*   **[multica-ai/multica](https://github.com/multica-ai/multica)** (TypeScript) ⭐0 (+1506 today)
-    *   **一句话说明:** 一个开源的托管智能体平台，可以将编码智能体转化为真正的团队成员，支持任务分配和技能累积。它展示了智能体协同工作的潜力。
-*   **[obra/superpowers](https://github.com/obra/superpowers)** (Shell) ⭐0 (+2150 today)
-    *   **一句话说明:** 一个代理技能框架和软件开发方法论，旨在提升软件开发的效率和质量。它为构建复杂、可靠的AI驱动应用提供了方法论支持。
-*   **[open-webui/open-webui](https://github.com/open-webui/open-webui)** (Python) ⭐131,160 [topic:rag]
-    *   **一句话说明:** 用户友好的AI界面，支持Ollama、OpenAI API等。它是一个流行的LLM交互前端，极大降低了使用门槛。
-*   **[langchain-ai/langchain](https://github.com/langchain-ai/langchain)** (Python) ⭐133,077 [topic:rag]
-    *   **一句话说明:** 领先的Agent工程平台，提供构建复杂AI应用所需的组件和抽象。它是RAG和智能体开发的事实标准之一。
-*   **[ollama/ollama](https://github.com/ollama/ollama)** (Go) ⭐168,491 [topic:llm]
-    *   **一句话说明:** 简化本地大型语言模型（LLM）部署的工具，支持多种流行模型。它降低了本地运行大模型的门槛。
-*   **[vllm-project/vllm](https://github.com/vllm-project/vllm)** (Python) ⭐76,047 [topic:llm]
-    *   **一句话说明:** 一个高效的高吞吐量和内存优化的LLM推理和服务引擎，对于大规模模型部署至关重要。
-
-#### **🤖 AI 智能体/工作流**
-*   Agent 框架、自动化、多智能体
-
-*   **[forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills)** ⭐0 (+1450 today)
-    *   **一句话说明:** 基于Andrej Karpathy观察的LLM编码陷阱，提供一个CLAUDE.md文件来优化Claude Code的行为。它为AI编程实践提供了最佳指导。
-*   **[HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor)** (Python) ⭐0 (+1424 today)
-    *   **一句话说明:** DeepTutor 是一个面向个性化学习的自适应AI助教，能够主动思考和规划学习路径。它代表了教育领域AI应用的深度发展。
-*   **[shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos)** (Python) ⭐0 (+601 today)
-    *   **一句话说明:** Kronos 是一个为金融市场语言设计的基础模型，旨在理解和处理金融领域的专业信息。它标志着LLM在垂直领域的深化应用。
-*   **[shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice)** (HTML) ⭐0 (+1251 today)
-    *   **一句话说明:** 提供让Claude Code变得完美的最佳实践指南。它为开发者提供了优化AI编程体验的具体方法。
-*   **[langgenius/dify](https://github.com/langgenius/dify)** (TypeScript) ⭐137,133 [topic:rag]
-    *   **一句话说明:** 一个生产就绪的平台，用于开发基于Agent的工作流，是RAG和智能体开发的重要基础设施。
-*   **[mem0ai/mem0](https://github.com/mem0ai/mem0)** (Python) ⭐52,585 [topic:rag]
-    *   **一句话说明:** 为AI智能体提供通用记忆层的开源项目，使智能体能记住历史交互和信息。这是实现真正智能体的关键一步。
-*   **[FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise)** (TypeScript) ⭐51,752 [topic:rag]
-    *   **一句话说明:** 可视化地构建AI智能体和工作流的开源工具，降低了AI应用开发的复杂度。
-*   **[trycua/cua](https://github.com/trycua/cua)** (Python) ⭐13,441 [topic:ai-agent]
-    *   **一句话说明:** Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).
-*   **[alibaba/OpenSandbox](https://github.com/alibaba/OpenSandbox)** (Python) ⭐9,909 [topic:ai-agent]
-    *   **一句话说明:** Secure, Fast, and Extensible Sandbox runtime for AI agents.
-*   **[crestalnetwork/intentkit](https://github.com/crestalnetwork/intentkit)** (Python) ⭐6,501 [topic:ai-agent]
-    *   **一句话说明:** IntentKit is an open-source, self-hosted cloud agent cluster that manages a collaborative team of AI agents for you.
-*   **[presenton/presenton](https://github.com/presenton/presenton)** (TypeScript) ⭐4,635 [topic:ai-agent]
-    *   **一句话说明:** Open-Source AI Presentation Generator and API (Gamma, Beautiful AI, Decktopus Alternative)
-
-#### **📦 AI 应用**
-*   具体应用产品、垂直场景解决方案
-
-*   **[opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf)** (Java) ⭐0 (+1306 today)
-    *   **一句话说明:** PDF解析器，专为AI-ready数据设计，自动化PDF可访问性处理。它将AI能力直接应用于文档处理和无障碍技术领域。
-*   **[ScrapeGraphAI/Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai)** (Python) ⭐23,273 [topic:llm-model]
-    *   **一句话说明:** 基于AI的Python爬虫库，能够智能地从网页中提取结构化数据，是构建数据管道的重要工具。
-
-#### **🧠 大模型/训练**
-*   模型权重、训练框架、微调工具
-
-*   **[jingyaogong/minimind](https://github.com/jingyaogong/minimind)** (Python) ⭐46,431 [topic:llm-model]
-    *   **一句话说明:** 一个能够在短短2小时内从零开始训练64M参数的小型GPT模型的项目，展示了轻量级模型训练的惊人效率。
-*   **[open-compass/opencompass](https://github.com/open-compass/opencompass)** (Python) ⭐6,847 [topic:llm-model]
-    *   **一句话说明:** 支持广泛模型（Llama3, Mistral, InternLM2等）和超过100个数据集的LLM评估平台，是模型评测的重要工具。
-*   **[hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory)** (Python) ⭐69,883 [topic:llm]
-    *   **一句话说明:** 统一的、高效的微调框架，支持100+ LLMs & VLMs (ACL 2024)，是模型微调和知识注入的利器。
-
-#### **🔍 RAG/知识库**
-*   向量数据库、检索增强、知识管理
-
-*   **[meilisearch/meilisearch](https://github.com/meilisearch/meilisearch)** (Rust) ⭐57,071 [topic:vector-db]
-    *   **一句话说明:** 超快速的搜索API，结合AI驱动的混合搜索，为网站和应用提供强大的检索功能。
-*   **[qdrant/qdrant](https://github.com/qdrant/qdrant)** (Rust) ⭐30,229 [topic:vector-db]
-    *   **一句话说明:** 高性能、大规模的向量数据库和搜索引擎，专为下一代AI应用设计。
-*   **[run-llama/llama_index](https://github.com/run-llama/llama_index)** (Python) ⭐48,485 [topic:vector-db]
-    *   **一句话说明:** 领先的文档智能和OCR平台，是构建RAG系统的核心组件。
-*   **[HKUDS/LightRAG](https://github.com/HKUDS/LightRAG)** (Python) ⭐32,872 [topic:rag]
-    *   **一句话说明:** [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation"。一个简单且快速的检索增强生成框架，优化了RAG的性能和易用性。
-*   **[infiniflow/ragflow](https://github.com/infiniflow/ragflow)** (Python) ⭐77,701 [topic:rag]
-    *   **一句话说明:** 领先的RAG引擎，融合了RAG和Agent能力，创造了更优越的上下文层。
+**Trending 榜单过滤结果**：12 个仓库中，排除 `jqlang/jq`（通用 JSON 工具），剩余 **11 个 AI 相关项目**。
 
 ---
 
-### **第三步：输出报告**
+## 第二步：项目分类
 
-#### **1. 今日速览**
-
-今日GitHub AI生态呈现强劲活力，多个方向出现爆发性增长。微软的文档转换工具MarkItDown和Hermes Agent分别以2352和7671的新增Star领跑，显示社区对AI工具链集成和智能体成长的极高热情。同时，一系列围绕“智能体编程范式”的新项目涌现，如Archon、Rowboat、Superpowers等，预示着AI编码工作流的确定性将成为下一阶段重点发展方向。
-
-#### **2. 各维度热门项目**
-
-*   **🔧 AI 基础工具**
-    *   **[microsoft/markitdown](https://github.com/microsoft/markitdown)** (Python) ⭐0 (+2352 today) - Python工具，用于将文件和办公文档转换为Markdown格式。今天因其强大的文档处理能力而备受关注，这对于构建 RAG（检索增强生成）系统至关重要。
-    *   **[coleam00/Archon](https://github.com/coleam00/Archon)** (TypeScript) ⭐0 (+756 today) - 首个开源的AI编码 harness 构建器，旨在使AI编码变得确定性和可重复。它通过提供标准化的环境，解决了AI编码过程中的不确定性问题。
-    *   **[obra/superpowers](https://github.com/obra/superpowers)** (Shell) ⭐0 (+2150 today) - 一个代理技能框架和软件开发方法论，旨在提升软件开发的效率和质量。它为构建复杂、可靠的AI驱动应用提供了方法论支持。
-    *   **[open-webui/open-webui](https://github.com/open-webui/open-webui)** (Python) ⭐131,160 [topic:rag] - 用户友好的AI界面，支持Ollama、OpenAI API等。它是一个流行的LLM交互前端，极大降低了使用门槛。
-    *   **[langchain-ai/langchain](https://github.com/langchain-ai/langchain)** (Python) ⭐133,077 [topic:rag] - 领先的Agent工程平台，提供构建复杂AI应用所需的组件和抽象。它是RAG和智能体开发的事实标准之一。
-
-*   **🤖 AI 智能体/工作流**
-    *   **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)** (Python) ⭐51,868 (+7671 today) - Hermes Agent 是一个智能体框架，以其强大的成长性著称，能够不断学习和进化。它代表了下一代AI智能体的核心思想。
-    *   **[HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor)** (Python) ⭐0 (+1424 today) - DeepTutor 是一个面向个性化学习的自适应AI助教，能够主动思考和规划学习路径。它代表了教育领域AI应用的深度发展。
-    *   **[shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice)** (HTML) ⭐0 (+1251 today) - 提供让Claude Code变得完美的最佳实践指南。它为开发者提供了优化AI编程体验的具体方法。
-    *   **[langgenius/dify](https://github.com/langgenius/dify)** (TypeScript) ⭐137,133 [topic:rag] - 一个生产就绪的平台，用于开发基于Agent的工作流，是RAG和智能体开发的重要基础设施。
-    *   **[mem0ai/mem0](https://github.com/mem0ai/mem0)** (Python) ⭐52,585 [topic:rag] - 为AI智能体提供通用记忆层的开源项目，使智能体能记住历史交互和信息。这是实现真正智能体的关键一步。
-
-*   **📦 AI 应用**
-    *   **[opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf)** (Java) ⭐0 (+1306 today) - PDF解析器，专为AI-ready数据设计，自动化PDF可访问性处理。它将AI能力直接应用于文档处理和无障碍技术领域。
-    *   **[ScrapeGraphAI/Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai)** (Python) ⭐23,273 [topic:llm-model] - 基于AI的Python爬虫库，能够智能地从网页中提取结构化数据，是构建数据管道的重要工具。
-
-*   **🧠 大模型/训练**
-    *   **[jingyaogong/minimind](https://github.com/jingyaogong/minimind)** (Python) ⭐46,431 [topic:llm-model] - 一个能够在短短2小时内从零开始训练64M参数的小型GPT模型的项目，展示了轻量级模型训练的惊人效率。
-    *   **[open-compass/opencompass](https://github.com/open-compass/opencompass)** (Python) ⭐6,847 [topic:llm-model] - 支持广泛模型（Llama3, Mistral, InternLM2等）和超过100个数据集的LLM评估平台，是模型评测的重要工具。
-    *   **[hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory)** (Python) ⭐69,883 [topic:llm] - 统一的、高效的微调框架，支持100+ LLMs & VLMs (ACL 2024)，是模型微调和知识注入的利器。
-
-*   **🔍 RAG/知识库**
-    *   **[meilisearch/meilisearch](https://github.com/meilisearch/meilisearch)** (Rust) ⭐57,071 [topic:vector-db] - 超快速的搜索API，结合AI驱动的混合搜索，为网站和应用提供强大的检索功能。
-    *   **[qdrant/qdrant](https://github.com/qdrant/qdrant)** (Rust) ⭐30,229 [topic:vector-db] - 高性能、大规模的向量数据库和搜索引擎，专为下一代AI应用设计。
-    *   **[run-llama/llama_index](https://github.com/run-llama/llama_index)** (Python) ⭐48,485 [topic:vector-db] - 领先的文档智能和OCR平台，是构建RAG系统的核心组件。
-    *   **[HKUDS/LightRAG](https://github.com/HKUDS/LightRAG)** (Python) ⭐32,872 [topic:rag] - [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation"。一个简单且快速的检索增强生成框架，优化了RAG的性能和易用性。
-
-#### **3. 趋势信号分析**
-
-今日热榜最显著的信号是 **“智能体编程范式”** 的爆炸性关注。Archon、Rowboat、Superpowers等项目集体涌现，表明社区正致力于解决AI编码的确定性与可重复性问题，这标志着AI从简单的提示词交互向系统化、工程化开发演进。其次，**文档智能与数据预处理工具** 受到高度重视，MarkItDown和OpenDataLoader-PDF的崛起反映了RAG系统在现实世界应用中对高质量结构化数据的需求日益增长。此外，**垂直领域大模型** 的关注度提升，如Kronos专注于金融市场的语言理解，显示出LLM正在深入行业特定场景进行专业化定制。这些趋势共同指向AI开源生态正从通用能力构建转向精细化、工程化和垂直化落地。
-
-#### **4. 社区关注热点**
-
-*   **Hermes Agent (NousResearch)**：作为今日新增Star最多的项目，其“智能体成长”理念代表了未来AI的发展方向，值得密切关注其技术细节和社区反馈。
-*   **Archon (coleam00)**：作为“第一个开源的AI编码harness builder”，它为解决AI编码的不确定性提供了新思路，可能成为AI工程化开发的重要基础设施。
-*   **LightRAG (HKUDS)**：作为EMNLP2025的论文成果，其在RAG领域的创新与优化，有望提升RAG系统的效率和实用性，值得关注其对现有RAG范式的冲击。
-*   **MarkItDown (Microsoft)**：微软推出的文档转换工具，其强大的处理能力对于构建高质量的RAG系统至关重要，是AI工具链集成的又一力作。
-*   **超级力量 (obra)**：作为一个“代理技能框架 & 软件开发方法论”，它提供了一套全新的开发哲学，对于希望构建复杂AI应用的团队具有启发意义。
+| 项目 | 主要类别 | 次要类别 |
+|:---|:---|:---|
+| microsoft/markitdown | 🔧 AI 基础工具 | 📦 AI 应用 |
+| coleam00/Archon | 🤖 AI 智能体/工作流 | 🔧 AI 基础工具 |
+| NousResearch/hermes-agent | 🤖 AI 智能体/工作流 | 🧠 大模型/训练 |
+| rowboatlabs/rowboat | 🤖 AI 智能体/工作流 | 📦 AI 应用 |
+| multica-ai/multica | 🤖 AI 智能体/工作流 | 🔧 AI 基础工具 |
+| forrestchang/andrej-karpathy-skills | 🔧 AI 基础工具 | - |
+| shiyu-coder/Kronos | 🧠 大模型/训练 | 📦 AI 应用 |
+| HKUDS/DeepTutor | 📦 AI 应用 | 🤖 AI 智能体/工作流 |
+| opendataloader-project/opendataloader-pdf | 🔧 AI 基础工具 | 🔍 RAG/知识库 |
+| obra/superpowers | 🤖 AI 智能体/工作流 | 🔧 AI 基础工具 |
+| shanraisshan/claude-code-best-practice | 🔧 AI 基础工具 | - |
 
 ---
-*本日报由 [agents-radar](https://github.com/DenisZheng/agents-radar) 自动生成。*
+
+## 第三步：AI 开源趋势日报
+
+### 1. 今日速览
+
+今日 AI 开源领域呈现**"Agent 基础设施"**爆发态势：NousResearch 的 `hermes-agent` 以单日 +7,671 stars 强势登顶，标志着**"可成长型 Agent"**成为新范式；微软 `markitdown` 文档转换工具持续高热，反映 AI 数据预处理需求旺盛；多个 **Claude Code 生态项目**（技能框架、最佳实践、记忆插件）同时登榜，显示 Anthropic 的编码 Agent 正在形成开发者工具链；此外，金融垂直领域大模型 `Kronos` 和 AI 教育应用 `DeepTutor` 代表了**领域专用模型**的深化趋势。
+
+---
+
+### 2. 各维度热门项目
+
+#### 🔧 AI 基础工具（框架、SDK、推理引擎、开发工具、CLI）
+
+| 项目 | Stars | 说明 |
+|:---|:---|:---|
+| [microsoft/markitdown](https://github.com/microsoft/markitdown) | 0 ⭐ (+2,352 today) | 微软官方文档转换工具，将 Office/PDF 等文件转为 Markdown，解决 LLM 训练数据预处理痛点，今日增速极快 |
+| [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | 0 ⭐ (+1,450 today) | 基于 Andrej Karpathy 对 LLM 编码缺陷观察提炼的 Claude Code 技能文件，**"专家经验即代码"**的新模式 |
+| [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | 0 ⭐ (+1,251 today) | Claude Code 最佳实践汇总，反映开发者对 AI 编码工具效能优化的迫切需求 |
+| [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) | 0 ⭐ (+1,306 today) | AI-ready 的 PDF 解析器，专注 PDF 可访问性自动化，填补 RAG 流水线关键缺口 |
+| [ollama/ollama](https://github.com/ollama/ollama) | 168,506 ⭐ | 本地大模型运行的事实标准，已支持 Kimi-K2.5、GLM-5、MiniMax、DeepSeek 等最新模型 |
+| [huggingface/transformers](https://github.com/huggingface/transformers) | 159,176 ⭐ | 模型定义框架的标杆，持续覆盖文本/视觉/音频/多模态全场景 |
+| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 76,068 ⭐ | 高吞吐、内存高效的 LLM 推理引擎，生产环境部署首选 |
+
+#### 🤖 AI 智能体/工作流（Agent 框架、自动化、多智能体）
+
+| 项目 | Stars | 说明 |
+|:---|:---|:---|
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 52,242 ⭐ (+7,671 today) | **今日绝对焦点**，"与你共同成长的 Agent"，NousResearch 推出的可进化型智能体框架，单日增速创近期纪录 |
+| [obra/superpowers](https://github.com/obra/superpowers) | 0 ⭐ (+2,150 today) | Agentic 技能框架与软件开发方法论，试图建立 AI 辅助开发的工程化标准 |
+| [coleam00/Archon](https://github.com/coleam00/Archon) | 0 ⭐ (+756 today) | 首个开源 AI 编码"Harness 构建器"，让 AI 编码**确定性与可复现** |
+| [multica-ai/multica](https://github.com/multica-ai/multica) | 0 ⭐ (+1,506 today) | 开源托管式 Agent 平台，将编码 Agent 转化为可分配任务、追踪进度、累积技能的**真实团队成员** |
+| [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) | 0 ⭐ (+507 today) | 带记忆的 AI 同事，强调长期上下文与协作连续性 |
+| [langgenius/dify](https://github.com/langgenius/dify) | 137,145 ⭐ | 生产级 Agentic 工作流开发平台，企业级 Agent 编排的事实标准 |
+| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 133,088 ⭐ | Agent 工程平台，持续迭代工具调用与多 Agent 协作能力 |
+| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 70,987 ⭐ | AI 驱动开发的全自动 Agent，从需求到 PR 的端到端实现 |
+| [browser-use/browser-use](https://github.com/browser-use/browser-use) | 87,055 ⭐ | 让网站对 AI Agent 可访问，浏览器自动化领域的核心基础设施 |
+
+#### 📦 AI 应用（具体应用产品、垂直场景解决方案）
+
+| 项目 | Stars | 说明 |
+|:---|:---|:---|
+| [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | 0 ⭐ (+1,424 today) | "Agent-Native 个性化学习助手"，香港大学数据科学团队出品，教育+Agent 的深度融合 |
+| [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | 0 ⭐ (+601 today) | **金融市场语言的基础模型**，垂直领域大模型的代表性进展 |
+| [open-webui/open-webui](https://github.com/open-webui/open-webui) | 131,171 ⭐ | 用户友好的 AI 界面，支持 Ollama/OpenAI API 等，本地部署 LLM 的首选 UI |
+| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 107,093 ⭐ | Web 数据 API for AI，为 Agent 提供干净的网页数据抓取能力 |
+| [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) | 65,671 ⭐ | 金融数据平台，明确面向分析师、量化和 **AI Agent** 设计 |
+
+#### 🧠 大模型/训练（模型权重、训练框架、微调工具）
+
+| 项目 | Stars | 说明 |
+|:---|:---|:---|
+| [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 46,435 ⭐ | 2 小时从 0 训练 64M 参数 GPT，大模型教育的极致简化 |
+| [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | 90,467 ⭐ | 从零实现 ChatGPT 类 LLM，PyTorch 逐步教程，LLM 原理学习标杆 |
+| [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | 69,886 ⭐ | 100+ LLM/VLM 统一高效微调框架，ACL 2024 成果 |
+| [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 194,647 ⭐ | 机器学习框架经典，持续演进 |
+| [pytorch/pytorch](https://github.com/pytorch/pytorch) | 99,008 ⭐ | 动态神经网络与 GPU 加速，研究到生产的主流选择 |
+
+#### 🔍 RAG/知识库（向量数据库、检索增强、知识管理）
+
+| 项目 | Stars | 说明 |
+|:---|:---|:---|
+| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | 77,704 ⭐ | 领先的开源 RAG 引擎，深度融合检索与 Agent 能力 |
+| [run-llama/llama_index](https://github.com/run-llama/llama_index) | 48,487 ⭐ | 文档 Agent 与 OCR 平台，RAG 到 Agent 的演进代表 |
+| [mem0ai/mem0](https://github.com/mem0ai/mem0) | 52,592 ⭐ | AI Agent 的通用记忆层，解决长期上下文难题 |
+| [milvus-io/milvus](https://github.com/milvus-io/milvus) | 43,721 ⭐ | 云原生高性能向量数据库，可扩展 ANN 搜索 |
+| [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch) | 57,072 ⭐ | 闪电般快速的搜索引擎 API，AI 驱动的混合搜索 |
+| [qdrant/qdrant](https://github.com/qdrant/qdrant) | 30,229 ⭐ | 高性能大规模向量数据库，下一代 AI 的向量搜索引擎 |
+| [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) | 32,877 ⭐ | EMNLP 2025 成果，简单快速的检索增强生成 |
+
+---
+
+### 3. 趋势信号分析
+
+**Agent 基础设施层进入"寒武纪大爆发"**。今日热榜中，Agent 相关项目占据绝对主导：`hermes-agent` 的"可成长"定位、`Archon` 的确定性构建、`multica` 的团队协作化、`superpowers` 的方法论输出，共同指向一个趋势——开发者不再满足于"能用的 Agent"，而是追求**可工程化、可管理、可迭代的 Agent 系统**。这与 Claude 3.7 Sonnet、GPT-4.1 等更强编码模型的发布直接相关，模型能力溢出催生了上层工具链的创新窗口。
+
+**Claude Code 生态形成"影子标准"**。Karpathy 技能文件、最佳实践汇总、记忆插件 `claude-mem`（主题搜索中 47,542 ⭐）同时出现，显示 Anthropic 的编码 Agent 正在复制 VS Code 的成功路径——通过开放扩展接口，让社区定义使用范式。值得注意的是，这些项目多为**配置/提示工程即代码**，技术门槛极低但价值密度极高，预示"AI 原生开发"的平民化。
+
+**垂直领域模型与 RAG 的"双向奔赴"**。金融模型 `Kronos` 与教育应用 `DeepTutor` 代表了两个方向：前者是**预训练阶段的领域特化**，后者是**应用层的 Agent 封装**；而 `opendataloader-pdf` 等工具则在数据层打通两者。这种分层协作表明，AI 应用开发正从"单点模型"转向"系统架构"。
+
+---
+
+### 4. 社区关注热点
+
+- **🔥 NousResearch/hermes-agent** — 单日 +7,671 stars 的爆发式增长，"The agent that grows with you" 的 slogan 击中当前 Agent 无法持续进化的痛点，需密切关注其技术实现（推测为在线学习或记忆机制创新）
+
+- **🛠️ Claude Code 技能生态** — `andrej-karpathy-skills` 与 `claude-code-best-practice` 同时登榜，提示工程正在**资产化、版本化、社区化**，建议开发者建立个人/团队的技能库管理体系
+
+- **📄 文档预处理工具链** — `markitdown` + `opendataloader-pdf` 的组合热度，反映企业级 RAG 从"概念验证"进入"数据工程"阶段，PDF 解析、格式转换等"脏活"成为竞争壁垒
+
+- **🎓 Agent-Native 应用范式** — `DeepTutor` 的"Agent-Native"定位值得关注，区别于传统 AI 应用的"功能增强"，这类应用从架构层即假设 AI 是核心交互主体，可能定义新的产品形态
+
+- **⚡ "Harness/Wrapper" 模式兴起** — `Archon`（harness builder）、`multica`（managed agents）、`obra/superpowers`（skills framework）均试图为 AI 能力提供**确定性封装**，这是模型能力不可控性与工程需求稳定性之间的必要中介
+
+---
+
+*报告生成时间：2026-04-11 | 数据来源：GitHub Trending & Search API*
+
+---
+*本日报由 [agents-radar](https://github.com/duanyytop/agents-radar) 自动生成。*

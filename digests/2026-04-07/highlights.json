@@ -1,86 +1,134 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code 会话管理优化解决令牌消耗异常问题",
-      "OpenAI Codex 发布 rust-v0.119.0-alpha.12 版本更新",
-      "Gemini CLI 发布 v0.36.0-nightly 夜间构建版",
-      "GitHub Copilot CLI v1.0.19 正式发布增强稳定性",
-      "Kimi Code CLI 报告终端 UI 可读性改进请求",
-      "OpenCode v1.3.17 发布修复历史记录丢失问题"
+      "Claude Code计费危机发酵：437评论热议Max额度异常消耗",
+      "OpenAI Codex发布rust-v0.119.0-alpha.12，新增Alarm分析工具",
+      "Gemini CLI v0.36.0强制启用modes字段，策略引擎收紧",
+      "GitHub Copilot CLI清理48条Issue，MCP状态持久化落地",
+      "Kimi CLI重构引争议：Python转TypeScript迁移讨论#1707",
+      "Qwen Code创新/thinkback功能，TUI稳定性紧急修复"
     ],
     "ai-agents": [
-      "OpenClaw v2026.4.5 重大重构配置系统支持自动迁移",
-      "OpenClaw #62197 修复插件运行时兼容性提供者加载失败",
-      "OpenClaw #62194 解决 Windows ESM URL scheme 错误提升跨平台一致性",
-      "OpenClaw #62193 Ollama 后端新增 vision 能力动态探测功能",
-      "OpenClaw #62134 OAuth for MCP 重量级特性开发中",
-      "OpenClaw 今日处理 500 Issues + 500 PRs 活跃度极高"
+      "OpenClaw v2026.4.5发布：配置系统破坏性重构，移除5项遗留别名",
+      "OpenClaw 24小时500条Issue/PR，Windows兼容性回归成焦点",
+      "Slack线程提及控制PR合并：requireExplicitMention防绕过",
+      "NanoBot、PicoClaw等11个Claw生态项目同步追踪",
+      "模型解析修复#42825：未知模型静默回退问题解决",
+      "多平台客户端需求迫切：Linux/Windows原生支持呼声高"
     ],
     "ai-trending": [
-      "NousResearch/hermes-agent 日增星1,574跃居热榜第一",
-      "Google AI Edge LiteRT-LM 发布推动端侧大模型部署",
-      "Ollama + llama.cpp 合计获超460星反映本地推理需求",
-      "KeygraphHQ/shannon 白盒渗透测试AI填补安全空白",
-      "immich-app/immich 自托管照片平台集成AI标签生成",
-      "NVIDIA/personaplex 角色化AI代理系统探索多智能体协同"
+      "Block Goose 1523星登顶Trending，AI工程师工具爆发",
+      "Google AI Edge连推LiteRT-LM+Gallery，端侧AI成战略焦点",
+      "NousResearch Hermes Agent亮相，智能体基础设施受关注",
+      "Ollama、llama.cpp稳居基础工具双雄，边缘推理持续火热",
+      "Dify、LangChain、Flowise三强并立，智能体开发框架激战",
+      "RAG赛道RagFlow、Mem0、LlamaIndex差异化竞争加剧"
     ],
     "ai-web": [
-      "Anthropic获Google/Broadcom千兆瓦级TPU算力支持2027上线",
-      "Anthrop年收入突破300亿美元企业客户超千户月均百万支出",
-      "OpenAI推出Safety Fellowship聚焦AI安全研究人才招募",
-      "Anthropic兑现美国本土投资承诺呼应地缘合规需求",
-      "Anthropic收购生物科技公司Coefficient Bio耗资4亿美元",
-      "OpenAI安全战略与Anthropic基建扩张形成鲜明对比"
+      "Anthropic年化营收破300亿美元，较2025年底增长233%",
+      "Anthropic签多千兆瓦TPU协议，史上最大算力投资",
+      "百万美元企业客户2个月翻倍：500+→1000+",
+      "OpenAI推Safety Fellowship，Superalignment团队解散后重启安全研究",
+      "Google-Broadcom-Anthropic三方算力联盟形成",
+      "2027年TPU集群上线，本土部署占绝对主导"
     ],
     "ai-hn": [
-      "Hippo海马体启发的神经符号记忆机制获技术社区热议",
-      "Meta-agent通过实时执行轨迹实现智能体自我优化",
-      "Anthropic千兆瓦级算力合作标志GW级基础设施竞争开启",
-      "Bernie Sanders批评AI威胁引发监管讨论热潮",
-      "TTF-DOOM将Doom引擎嵌入TrueType字体展现底层创意",
-      "Claude Code功能退步引发开发者强烈不满情绪高涨"
+      "Claude Code能力退化遭集体控诉：713分446评论登顶",
+      "Claude Code复杂工程任务可用性骤降，开发者信任危机",
+      "Anthropic服务中断+MagicDocs移除+黑名单事件连环冲击",
+      "Hippo生物启发记忆机制亮相，神经科学与LLM结合新尝试",
+      "OpenAI工业政策宣言发布，与Anthropic负面舆情形成对比",
+      "Sky语言编译至Go，函数式编程与类型系统设计引热议"
+    ],
+    "ai-ph": [
+      "Influcio 525票登顶：首个网红营销垂直Agent全链路自动化",
+      "Panorama 354票切入团队流程挖掘，AI向业务自动化深化",
+      "Handle Extension 145票：浏览器UI编辑直转代码指令",
+      "Tiny Aya本地开源模型获关注，隐私可控需求上升",
+      "AgentPack浏览器端Agent一键部署，降低非技术门槛",
+      "营销自动化与开发者工具双赛道头部效应显著：Top2占71%票数"
+    ],
+    "ai-hf": [
+      "Gemma-4系列霸榜10席：31B多模态版本678K下载",
+      "Jackrong蒸馏模型2399点赞：Claude 4.6 Opus推理能力注入Qwen3.5",
+      "HauhauCS连发去审查版本：35B MoE下载722K验证实用价值",
+      "Netflix罕见开源void-model视频修复模型",
+      "百度千帆OCR、腾讯混元加速Hugging Face布局",
+      "Bonsai-8B 1-bit极端压缩模型，边缘部署需求凸显"
+    ],
+    "ai-community": [
+      "Claude Code权限陷阱曝光：5种安全加固配置指南",
+      "OpenClaw供应链攻击警示：开源AI工具成新攻击面",
+      "MCP协议教程爆发：AI代理互操作性进入实用阶段",
+      "74%Agents.md内容被浪费：专用linter工具发布",
+      "Google Maps for Codebases：GitHub URL即时代码理解",
+      "Vibecoding流行遭反思：AI辅助编程伦理披露引争议"
     ]
   },
   "en": {
     "ai-cli": [
-      "Claude Code hits open-source milestone with 10 live issues/PRs",
-      "OpenAI Codex v0.119.0-α released amid token efficiency concerns",
-      "Gemini CLI nightly v0.36 drops with OAuth/model bug fixes",
-      "GitHub Copilot CLI maintains steady development activity",
-      "Kimi Code CLI and Qwen Code show active pull request engagement",
-      "OpenCode gains traction in open-source AI CLI space"
+      "OpenAI Codex ships rust-v0.119.0-alpha.12 daily",
+      "Claude Code faces 50 new issues on metering regressions",
+      "Gemini CLI releases v0.36.0-nightly for enterprise",
+      "Seven vendors split on Python vs Rust vs TypeScript",
+      "MCP standardization pressure mounts across ecosystem",
+      "Kimi CLI and Qwen Code target regional markets"
     ],
     "ai-agents": [
-      "OpenClaw v2026.4.5 releases breaking config changes for API streamlining",
-      "500 updated issues/PRs signal OpenClaw's high development velocity",
-      "Legacy config aliases deprecated in favor of canonical paths",
-      "Internal hooks hidden from public config post-update",
-      "Surge in Windows compatibility and sandboxing bug reports noted",
-      "Migration guide promised for openclaw.json users"
+      "OpenClaw drops v2026.4.5 with breaking config changes",
+      "500 issues and 500 PRs in 24 hours signals velocity tension",
+      "74 comments demand Linux/Windows desktop support",
+      "MCP server registration lands in new release",
+      "OAuth and compaction checkpoints added",
+      "Windows support regressions flagged critical"
     ],
     "ai-trending": [
-      "Google launches LiteRT-LM C++ library for on-device GenAI inference",
-      "NousResearch's Hermes-Agent surges with 1,574 new stars today",
-      "NVIDIA's PersonaPlex emerges as multi-agent simulation framework",
-      "Ollama now supports Kimi-K2.5 and DeepSeek models locally",
-      "ggml-org/llama.cpp sees 267 new stars in CPU/GPU inference gold standard",
-      "vLLM powers high-throughput LLM serving for production RAG apps"
+      "block/goose gains 1,523 stars for agent framework",
+      "NousResearch/hermes-agent hits 1,574 stars",
+      "google-ai-edge/gallery adds 1,107 stars for on-device AI",
+      "openscreen viral with 1,838 stars for demo tool",
+      "ollama adds Kimi-K2.5 and GLM-5 support",
+      "llama.cpp gains 267 stars for consumer hardware inference"
     ],
     "ai-web": [
-      "Anthropic partners with Google/Broadcom for multi-gigawatt TPU deployment",
-      "Claude revenue exceeds $30B annually with 1,000+ enterprise customers",
-      "OpenAI launches 'OpenAI Safety Fellowship' for long-term safety research",
-      "Next-gen compute rollout begins in 2027 under U.S.-focused infrastructure plan",
-      "$50B investment signals Anthropic's American computing leadership push",
-      "Safety governance shift positions OpenAI for regulatory leadership"
+      "Anthropic triples run-rate revenue to $30 billion",
+      "Google-Broadcom deal: multi-gigawatt TPU capacity",
+      "1,000 enterprise customers at $1M+ in two months",
+      "$50 billion U.S. infrastructure pledge expanded",
+      "2027 timeline for next-gen TPU deployment",
+      "OpenAI posts only metadata on Safety Fellowship"
     ],
     "ai-hn": [
-      "Claude Code update sparks developer backlash over reliability issues",
-      "Anthropic criticized for restricting third-party tools like OpenClaw",
-      "Hippo memory system inspired by hippocampal replay mechanisms launched",
-      "TTF-DOOM demonstrates niche engineering demo innovation",
-      "Top HN thread highlights growing frustration with LLM agent performance",
-      "Sky Elm-inspired language compiles to Go gains attention"
+      "Claude Code 'unusable' GitHub issue hits 713 points",
+      "446 comments debate AI coding tool maturity",
+      "MagicDocs removal sparks developer backlash",
+      "OpenClaw blacklisted from CLI calls alleged",
+      "Anthropic outages coincide with infrastructure news",
+      "Hippo memory bio-inspired agent architecture debuts"
+    ],
+    "ai-ph": [
+      "Influcio breaks 500 votes for marketing agent",
+      "AgentPack Chrome Extension launches custom agents",
+      "Panorama generates 56 comments on workplace AI",
+      "Browser-native AI extensions bridge UI and code",
+      "Agentic workflows replace content generation",
+      "Developer-centric tooling dominates launches"
+    ],
+    "ai-hf": [
+      "Gemma 4 family dominates with 2B to 31B variants",
+      "Jackrong Qwen3.5 distillation hits 2,399 likes",
+      "1-bit quantization arrives via Bonsai-8B",
+      "Netflix void-model enters open video AI",
+      "CohereLabs and MistralAI push audio models",
+      "Uncensored fine-tunes split community priorities"
+    ],
+    "ai-community": [
+      "CopilotKit enables natural language codebase search",
+      "OpenClaw Trojan horse security warning published",
+      "Vibecoding debate intensifies on quality norms",
+      "MCP adoption deep dives trend across community",
+      "PII tokenization middleware solutions emerge",
+      "Linting tools for agent configs gain traction"
     ]
   }
 }

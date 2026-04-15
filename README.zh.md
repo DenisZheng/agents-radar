@@ -2,13 +2,45 @@
 
 [English](./README.md) | 中文
 
-每天早上 08:00 CST 自动运行的 GitHub Actions 工作流。追踪主流 AI CLI 工具的 GitHub 动态、OpenClaw 及其同赛道项目的生态活动、Anthropic 和 OpenAI 官网最新资讯，并每日监测 GitHub AI 热门仓库趋势，以中英双语每日简报的形式发布为 GitHub Issues 并提交为 Markdown 文件。每周和每月自动生成汇总报告。
+每天早上 08:00 CST 自动运行的 GitHub Actions 工作流。聚合 10 个 AI 生态数据源，以中英双语每日简报的形式发布为 GitHub Issues 并提交为 Markdown 文件。每周和每月自动生成汇总报告。
+
+### 数据源
+
+| 来源 | 类型 | 数据内容 |
+|------|------|---------|
+| [GitHub Repos](https://github.com) | API | 17+ 个 AI 工具仓库的 Issues、PR、Releases |
+| [Claude Code Skills](https://github.com/anthropics/skills) | API | 按社区活跃度排序的热门 Skills |
+| [GitHub Trending](https://github.com/trending) | HTML + API | 每日热门仓库 + AI 主题搜索（7 天窗口） |
+| [Hacker News](https://news.ycombinator.com) | [Algolia API](https://hn.algolia.com/api) | 过去 24 小时 Top 30 AI 热帖，6 组并行查询 |
+| [Product Hunt](https://www.producthunt.com) | GraphQL API | 昨日 AI 产品按投票排序 |
+| [ArXiv](https://arxiv.org) | [ArXiv API](https://export.arxiv.org/api/query) | cs.AI、cs.CL、cs.LG 最新论文（48 小时内） |
+| [Hugging Face](https://huggingface.co) | [Hub API](https://huggingface.co/api/models) | 按周点赞排序的 30 个热门模型 |
+| [Dev.to](https://dev.to) | [Forem API](https://dev.to/api) | 5 个标签下的 AI/LLM 热门文章 |
+| [Lobste.rs](https://lobste.rs) | JSON API | 7 天内 AI/ML 标签内容 |
+| [Anthropic](https://anthropic.com) + [OpenAI](https://openai.com) | Sitemap | 通过 `lastmod` 差异检测新文章 |
 
 ## Web UI
 
 **[https://duanyytop.github.io/agents-radar](https://duanyytop.github.io/agents-radar)**
 
 在线浏览所有历史简报，深色主题，无需登录。报告直接由本仓库的 Markdown 文件通过 GitHub Pages 渲染。每份报告支持中文 / 英文切换。
+
+![Web UI](assets/web-zh.png) 
+
+## Telegram 频道 & 飞书群
+
+订阅你常用的平台，每日简报生成后自动推送通知，附带所有报告的直达链接（中文 / 英文）。
+
+<table>
+  <tr>
+    <td align="center"><b><a href="https://t.me/agents_radar">加入 Telegram 频道</a></b></td>
+    <td align="center"><b><a href="https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=a00hcab4-86de-4a3f-b599-e46146a69b98">加入飞书群</a></b></td>
+  </tr>
+  <tr>
+    <td><img src="assets/telegram.jpg" width="300" alt="Telegram 推送"></td>
+    <td><img src="assets/feishu.jpg" width="300" alt="飞书推送"></td>
+  </tr>
+</table>
 
 ## RSS 订阅
 
@@ -80,21 +112,6 @@ pnpm install
 wrangler deploy
 ```
 
-## Telegram 频道 & 飞书群
-
-订阅你常用的平台，每日简报生成后自动推送通知，附带所有报告的直达链接（中文 / 英文）。
-
-<table>
-  <tr>
-    <td align="center"><b><a href="https://t.me/agents_radar">加入 Telegram 频道</a></b></td>
-    <td align="center"><b><a href="https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=a00hcab4-86de-4a3f-b599-e46146a69b98">加入飞书群</a></b></td>
-  </tr>
-  <tr>
-    <td><img src="assets/telegram.jpg" width="300" alt="Telegram 推送"></td>
-    <td><img src="assets/feishu.jpg" width="300" alt="飞书推送"></td>
-  </tr>
-</table>
-
 ## 追踪来源
 
 ### AI CLI 工具（GitHub）
@@ -123,18 +140,19 @@ OpenClaw 作为重点追踪项目，同时横向对比多个同赛道项目，�
 
 | 项目 | 仓库 | Stars |
 |------|------|-------|
-| OpenClaw | [openclaw/openclaw](https://github.com/openclaw/openclaw) | 240.5k |
-| NanoBot | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 26.9k |
-| PicoClaw | [sipeed/picoclaw](https://github.com/sipeed/picoclaw) | 21.1k |
-| NanoClaw | [qwibitai/nanoclaw](https://github.com/qwibitai/nanoclaw) | 16.6k |
-| NullClaw | [nullclaw/nullclaw](https://github.com/nullclaw/nullclaw) | 6.1k |
-| IronClaw | [nearai/ironclaw](https://github.com/nearai/ironclaw) | 3.9k |
-| LobsterAI | [netease-youdao/LobsterAI](https://github.com/netease-youdao/LobsterAI) | 3.0k |
-| TinyClaw | [TinyAGI/tinyclaw](https://github.com/TinyAGI/tinyclaw) | 2.8k |
-| CoPaw | [agentscope-ai/CoPaw](https://github.com/agentscope-ai/CoPaw) | 2.2k |
-| Moltis | [moltis-org/moltis](https://github.com/moltis-org/moltis) | 2.1k |
-| ZeptoClaw | [qhkm/zeptoclaw](https://github.com/qhkm/zeptoclaw) | 394 |
-| EasyClaw | [gaoyangz77/easyclaw](https://github.com/gaoyangz77/easyclaw) | 102 |
+| OpenClaw | [openclaw/openclaw](https://github.com/openclaw/openclaw) | 348.1k |
+| NanoBot | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 37.9k |
+| Hermes Agent | [nousresearch/hermes-agent](https://github.com/nousresearch/hermes-agent) | 32.3k |
+| PicoClaw | [sipeed/picoclaw](https://github.com/sipeed/picoclaw) | 27.5k |
+| NanoClaw | [qwibitai/nanoclaw](https://github.com/qwibitai/nanoclaw) | 26.5k |
+| ZeroClaw | [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | 30.1k |
+| CoPaw | [agentscope-ai/CoPaw](https://github.com/agentscope-ai/CoPaw) | 14.4k |
+| IronClaw | [nearai/ironclaw](https://github.com/nearai/ironclaw) | 11.4k |
+| NullClaw | [nullclaw/nullclaw](https://github.com/nullclaw/nullclaw) | 7.0k |
+| LobsterAI | [netease-youdao/LobsterAI](https://github.com/netease-youdao/LobsterAI) | 4.8k |
+| TinyClaw | [TinyAGI/tinyagi](https://github.com/TinyAGI/tinyagi) | 3.5k |
+| Moltis | [moltis-org/moltis](https://github.com/moltis-org/moltis) | 2.5k |
+| ZeptoClaw | [qhkm/zeptoclaw](https://github.com/qhkm/zeptoclaw) | 567 |
 
 ### GitHub AI 趋势热榜
 
@@ -165,7 +183,7 @@ LLM 负责过滤非 AI 项目，将结果按维度分类（AI 基础工具 / AI 
 - 抓取所有追踪仓库过去 24 小时内更新的 Issues、PR 和 Releases
 - 追踪热门 Claude Code Skills，按社区参与度而非时间排序
 - 为每个 CLI 仓库生成单独摘要，并输出跨工具横向对比分析
-- 生成 OpenClaw 深度项目报告，并与 10 个同赛道项目进行横向对比
+- 生成 OpenClaw 深度项目报告，并与 11 个同赛道项目进行横向对比
 - 通过 Sitemap 抓取 Anthropic 和 OpenAI 官网内容，增量检测新文章
 - 每日监测 GitHub Trending + 搜索 6 个 AI 主题标签，按维度分类并提炼趋势信号
 - 抓取 Hacker News 过去 24 小时 AI 热门帖子（top 30，按分数排序），生成社区情绪报告
@@ -277,7 +295,7 @@ pnpm start
 | 文件 | 内容 | GitHub Issue 标签 |
 |------|------|------------------|
 | `ai-cli.md` | CLI 简报 — 跨工具横向对比 + 各工具详细报告 | `digest` |
-| `ai-agents.md` | OpenClaw 深度报告 + 横向生态对比 + 10 个同赛道项目详情 | `openclaw` |
+| `ai-agents.md` | OpenClaw 深度报告 + 横向生态对比 + 11 个同赛道项目详情 | `openclaw` |
 | `ai-web.md` | 官网内容报告（仅在有新内容时生成） | `web` |
 | `ai-trending.md` | GitHub AI 趋势热榜 — 按维度分类 + 趋势信号分析（仅在有数据时生成） | `trending` |
 | `ai-hn.md` | Hacker News AI 社区动态 — 热门帖子分类 + 情绪分析（仅在抓取成功时生成） | `hn` |
@@ -320,8 +338,9 @@ Issues: N | PRs: N | 覆盖项目: 10 个
   <details> EasyClaw   — ...
   <details> LobsterAI  — ...
   <details> ZeptoClaw  — ...
-  <details> NanoBot    — ...
-  <details> PicoClaw   — ...
+  <details> NanoBot      — ...
+  <details> Hermes Agent — ...
+  <details> PicoClaw     — ...
   <details> NanoClaw   — ...
   <details> IronClaw   — ...
   <details> TinyClaw   — ...

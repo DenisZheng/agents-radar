@@ -1,70 +1,150 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code v2.1.101发布，新增团队引导命令并修复插件问题",
-      "OpenAI Codex rust-v0.119.0升级WebRTC路径，引入MCP应用支持",
-      "Gemini CLI v0.39.0优化Linux沙箱环境，添加快捷键操作支持",
-      "GitHub Copilot CLI v1.0.24改进终端状态管理，修复远程会话同步",
-      "Kimi Code CLI v1.31.0修复背景色泄露问题，增强文件读取工具能力",
-      "Qwen Code v0.14.3解决UI状态管理竞态问题，提升终端用户体验"
+      "Claude Code v2.1.101 新增 /team-onboarding 命令",
+      "OpenAI Codex v0.119.0 语音 v2 默认化",
+      "Kimi CLI v1.31.0 YOLO 模式进 Web UI",
+      "Qwen Code v0.14.3 新增 /chat 命名会话管理",
+      "GitHub Copilot CLI 陷 MCP 兼容性危机 #2498",
+      "Gemini CLI v0.39.0 ContextManager 架构重构"
     ],
     "ai-agents": [
-      "OpenClaw处理500个Issue和PR，聚焦模型扩展与安全机制",
-      "OpenClaw完成GPT-5.4/Codex运行时代码分类与权限上报",
-      "OpenClaw集成Dali工作区本地检索与Source UI同步功能",
-      "OpenClaw新增统一Amazon插件，整合AWS语音服务生态",
-      "OpenClaw引入Octo多AI编码工具协同框架，支持零侵入式协作",
-      "OpenClaw RFC讨论原生化Agent身份验证与信任验证机制"
+      "OpenClaw 24h 爆发 500 Issues + 500 PRs",
+      "WhatsApp Web 稳定性修复 #48137 合并",
+      "MS Teams 功能补齐 #53432 实现渠道 parity",
+      "GPT-5.4/Codex 模型运行时支持成焦点",
+      "代理身份信任验证进入 RFC 级别提案",
+      "消息队列钩子修复 #64569 因 PR 过多关闭"
     ],
     "ai-trending": [
-      "Microsoft Markitdown今日暴涨2352星，文档转Markdown利器",
-      "Coleam00 Archon首个开源AI编码harness构建器，确保确定性开发",
-      "NousResearch Hermes Agent智能体框架暴涨7671星，持续进化学习",
-      "Rowboat Labs Rowboat开源AI协作者带记忆功能，长期工作流助手",
-      "Multica AI Multica开源托管智能体平台，支持任务分配与技能累积",
-      "Obra Superpowers代理技能框架，提升软件开发效率质量"
+      "NousResearch/hermes-agent 单日 +7,671 stars 登顶",
+      "微软 markitdown 文档转换工具 +2,352 stars",
+      "Claude Code 生态 3 项目同时登榜",
+      "金融垂直模型 Kronos 上榜",
+      "领域专用模型深化趋势明显",
+      "AI Agent 基础设施占比 78%"
     ],
     "ai-web": [
-      "Anthropic托管代理服务解耦大脑与双手，构建稳定代理系统",
-      "Anthropic发布金融服务解决方案，整合金融数据提升分析效率",
-      "OpenAI暂无新增内容更新，保持技术低调节奏",
-      "Claude Mythos黑客能力宣传引发争议，被指依赖人工审查",
-      "Twill.ai YC新项目允许委托云代理快速获得PR代码审查",
-      "Eve管理版OpenClaw简化复杂工作场景任务处理"
+      "Anthropic 发布 Managed Agents 架构哲学",
+      "Claude for Financial Services 垂直方案上线",
+      "脑手分离设计解决模型迭代与 harness 僵化矛盾",
+      "预置 MCP 连接器打通 Databricks/Snowflake",
+      "OpenAI 官网今日零新增",
+      "金融场景或突破标准速率限制"
+    ],
+    "ai-hn": [
+      "OpenAI 推动伊利诺伊州法案限制法律责任 421 分",
+      "Sam Altman 住所遭燃烧瓶袭击 467 评论",
+      "Anthropic Claude Mythos 模型引发监管担忧",
+      "美国财长与美联储主席紧急召集银行 CEO",
+      "AI 公司权力扩张遭社区警惕",
+      "安全炒作与实际能力差距成质疑焦点"
+    ],
+    "ai-ph": [
+      "Brila 1,190 票登顶：Google 评论一键生成落地页",
+      "Offsite 561 票：首个人类+Agent 混合团队编排",
+      "Grass 281 票：手机端运行完整 Claude Code 云端 VM",
+      "Claude Managed Agents 155 票企业级托管",
+      "Ycode 144 票开源 Webflow 替代",
+      "9 款产品总投票 2,800+ 互动火热"
+    ],
+    "ai-arxiv": [
+      "OPD 训练序列长度膨胀失败模式被揭示",
+      "隐性课程假设解释 LLM 能力涌现顺序",
+      "数据剪枝反而提升事实知识记忆",
+      "表示操控向量机制首次被解析",
+      "LLM 广告推荐存在隐性利益冲突偏差",
+      "差分隐私语言生成极限识别框架"
+    ],
+    "ai-hf": [
+      "google/gemma-4-31B-it 下载量 158 万登顶",
+      "Jackrong 蒸馏模型获 2,566 点赞本周冠军",
+      "Netflix 开源视频修复模型 void-model",
+      "百度千帆 OCR 与腾讯混元多模态崭露头角",
+      "Qwen3.5 与 Gemma-4 成最受欢迎微调基座",
+      "1-bit 极端量化 Bonsai-8B 探索压缩极限"
+    ],
+    "ai-community": [
+      "Anthropic Project Glasswing 挖掘系统级漏洞引发关注",
+      "MCP 服务器认证与远程部署工具链成型",
+      "AI token 成本削减 90% 实战方案热议",
+      "TDD+AI 结构化协作模式受推崇",
+      "AI 依赖症导致编码技能退化引焦虑",
+      "本地模型路由与成本感知方案密集讨论"
     ]
   },
   "en": {
     "ai-cli": [
-      "Claude Code v2.1.101 stable release with enhanced security features",
-      "OpenAI Codex v0.119.0 adds alpha previews and voice session support",
-      "Gemini CLI introduces modular agent architecture with decoupled components",
-      "GitHub Copilot CLI gains governance plugins for enterprise workflows",
-      "Kimi Code CLI improves TUI stability and accessibility",
-      "Qwen Code CLI fixes session lifecycle management issues"
+      "Claude Code v2.1.101 ships amid token cost crisis",
+      "OpenAI Codex v0.119.0 advances 4-PR agent identity stack",
+      "Gemini CLI hits v0.39.0-nightly with context management focus",
+      "8 tools now compete on MCP integration and sandboxed execution",
+      "Enterprise demand shifts to TLS proxy, SSO, audit trails",
+      "Cost transparency becomes dominant community tension"
     ],
     "ai-agents": [
-      "OpenClaw sees 500 issues/PRs updated in 24 hours with strong community engagement",
-      "New unified Amazon plugin integrates Polly TTS, Transcribe STT, and Nova Sonic",
-      "RFC: Native Agent Identity & Trust Verification gaining traction in OpenClaw community",
-      "Major fixes for WhatsApp media handling and Mattermost token security merged",
-      "Octo multi-agent coordination framework added (feature-flagged off by default)",
-      "Anthropic advisor tool support implemented in OpenClaw runtime"
+      "OpenClaw: 500 issues/PRs in 24h, stabilization phase",
+      "Zero new releases as project clears beta blockers",
+      "WhatsApp media delivery reliability tops priority list",
+      "GPT-5.4/Codex runtime parity in active development",
+      "Multi-agent trust verification emerging as key theme",
+      "406 open issues show exceptional community velocity"
     ],
     "ai-trending": [
-      "NousResearch/hermes-agent surges +7,671 stars as adaptive AI agent framework",
-      "Microsoft's markitdown gains +2,352 stars for document intelligence capabilities",
-      "Archon, multica, and rowboat emerge as deterministic AI coding harness builders",
-      "Ollama enables local deployment of Kimi-K2.5 and DeepSeek models with privacy focus",
-      "CopilotKit provides React/Angular frontend stack for generative UI embedding",
-      "vLLM optimizes high-throughput LLM inference for production deployments"
+      "Archon (+756): first open-source AI coding harness builder",
+      "Microsoft markitdown (+2,352): enterprise RAG infrastructure play",
+      "rowboat (+507) and multica (+1,506): AI coworkers with memory",
+      "Kronos (+601): foundation model for financial markets language",
+      "DeepTutor (+1,424): personalized learning agents breakthrough",
+      "MCP ecosystems consolidating across Claude/Cursor/OpenCode workflows"
     ],
     "ai-web": [
-      "Anthropic launches Claude Managed Agents to decouple brain from hands in workflows",
-      "Claude for Financial Services targets investment research and compliance needs",
-      "Managed Agents feature future-proofs against model upgrades like Opus 4.5 changes",
-      "Claude Mythos faces regulatory scrutiny over alleged cybersecurity capabilities",
-      "U.S. Treasury warns banks about potential cyber risks from Mythos model",
-      "OpenAI publishes no new content today"
+      "Anthropic ships two publications vs OpenAI zero",
+      "Managed Agents: decoupling interfaces from implementations",
+      "Claude for Financial Services: first vertical solution bundle",
+      "Anthropic productizing technical advantages aggressively",
+      "OpenAI silence suggests consolidation or pre-announcement phase",
+      "MCP connectors + expanded limits target enterprise"
+    ],
+    "ai-hn": [
+      "OpenAI backs Illinois liability shield bill tops discussion",
+      "Molotov cocktail attack on Sam Altman's home second story",
+      "Anthropic Mythos claims face intense HN skepticism",
+      "Community debunks thousands of zero-days as marketing hype",
+      "Claude Code alternatives and integrations launch actively",
+      "Cynicism toward AI lab marketing, regulatory capture concerns"
+    ],
+    "ai-ph": [
+      "Brila (1,190 votes): Google Maps reviews → instant websites",
+      "Offsite (561 votes): human-AI hybrid team orchestration",
+      "Grass: Claude Code from your phone with 24/7 VM",
+      "AgentMail: dedicated email inboxes for AI agents",
+      "Four of nine products focus on agent infrastructure",
+      "Shift from consumer apps to persistent agent environments"
+    ],
+    "ai-arxiv": [
+      "Meta-cognitive arbitration: when to use tools vs internal knowledge",
+      "RLVR extends beyond math to general reasoning, multimodal",
+      "Mechanistic interpretability matures into actionable steering",
+      "ClawBench, KnowU-Bench, PIArena: agent evaluation benchmarks",
+      "KV cache offloading, quantization for resource constraints",
+      "Photonic neural networks advance efficiency frontier"
+    ],
+    "ai-hf": [
+      "Google Gemma 4 family dominates: 26B-31B + any-to-any variants",
+      "Jackrong Qwen 3.5 Claude-4.6 Opus distillation: 567K downloads",
+      "Uncensored/abliterated tags signal unfiltered model demand",
+      "Netflix enters Hub with zero-download video inpainting",
+      "Tencent, Baidu expand Chinese multimodal offerings",
+      "Unsloth GGUF conversions essential infrastructure"
+    ],
+    "ai-community": [
+      "Rune, Blackdesk: engineers building personal AI runtimes",
+      "TDD with AI agents: velocity vs maintainability tension",
+      "Prompt injection, system prompt leaks raise security alarms",
+      "Shift from AI hype to AI hygiene: cost, observability, structure",
+      "Claude Code + local Ollama: 3-minute decentralization setup",
+      "Anthropic Project Glasswing: zero-day discovery as infrastructure"
     ]
   }
 }

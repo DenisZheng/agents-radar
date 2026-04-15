@@ -1,69 +1,118 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code v2.1.97发布，功能回滚频发引关注",
-      "OpenAI Codex推rust-v0.121.0-alpha.x预览版更新",
-      "Gemini CLI v0.39.0-nightly修复关键Bug获用户好评",
-      "Copilot CLI无稳定版发布，社区持续关注进展",
-      "Kimi Code CLI高频响应用户Issue #1783等反馈",
-      "Qwen Code v0.14.3-nightly新增多语言支持特性"
+      "Claude Code 陷质量危机，/buddy 移除引社区反弹",
+      "OpenAI Codex v0.120.0 发布，Realtime V2 重大升级",
+      "Kimi 4 天闭环 /delete 需求，响应速度极快",
+      "Qwen Code v0.14.3 连修 5 Bug，GUI 呼声最高",
+      "OpenCode Effect 重构收尾，Windows 债务暴露",
+      "成本与计费透明成全行业共性攻坚点"
     ],
     "ai-agents": [
-      "OpenClaw 24h内Issues/PR均更新500条，社区活跃度高",
-      "v2026.4.11增强Dreaming/memory-wiki模块支持ChatGPT导入",
-      "v2026.4.10引入Codex提供者捆绑和app-server harness",
-      "PR #62893添加Preferred Networks PLaMo提供者支持",
-      "PR #10356引入Typecast TTS提供者扩展语音服务",
-      "PR #64329修复空心跳配置导致资源浪费问题"
+      "OpenClaw 24h 500 Issues/PRs，活跃度达峰值",
+      "v2026.4.11-beta.1 上线 ChatGPT 对话导入 wiki",
+      "Codex 提供商正式落地，双轨并行 OpenAI",
+      "Memory-Core dreaming 功能深度整合",
+      "Google Chat/WhatsApp/Telegram 稳定性集中攻关",
+      "active-memory、heartbeat 等核心子系统密集修复"
     ],
     "ai-trending": [
-      "NousResearch hermes-agent以+6438 stars登顶GitHub热榜",
-      "微软markitdown工具将Office文档转为LLM友好Markdown",
-      "Ollama 168,619 stars成为本地大模型运行首选平台",
-      "CopilotKit 30,146 stars构建Agent和生成式UI的前端栈",
-      "VoxCPM2无分词器设计突破多语言语音生成技术瓶颈",
-      "Archon智能体框架推动复杂工作流自动化演进"
+      "hermes-agent 单日 6438 stars 登顶 Trending",
+      "Claude Code 生态三工具同日上榜",
+      "markitdown 单日 +3086 stars，微软官方文档工具",
+      "andrej-karpathy-skills 将顶级研究者经验资产化",
+      "MultiCA 瞄准 Agent 团队协作场景",
+      "Archon 主打确定性 AI 编程"
     ],
     "ai-hn": [
-      "Cirrus Labs拟并入OpenAI引发AI人才流动热议",
-      "Meta向顶级AI高管发放巨额奖金成HN热议焦点",
-      "Anthropic新模型Mythos强大黑客能力引安全担忧",
-      "伯克利研究揭示AI Agent基准测试存在严重漏洞",
-      "Hormuz Havoc游戏被AI机器人攻陷警示失控风险",
-      "Collabmem项目探索AI长期协作记忆系统开发"
+      "Berkeley 团队揭露主流 Agent 基准可被操纵",
+      "Anthropic Claude Mythos 安全争议升温",
+      "OpenAI 收购 Cirrus Labs 引人才整合关注",
+      "Meta 天价 AI 高管奖金凸显人才争夺",
+      "Apple Silicon 2 VM 限制破解帖技术深度高",
+      "Collabmem 瞄准超越单次会话的 AI 工作流"
+    ],
+    "ai-ph": [
+      "Claude Advisor tool 395 票登顶，分层架构调度 Opus/Sonnet",
+      "Manus Skills 将工作流封装为可复用技能",
+      "Google/Perplexity/Orbit 三箭齐发金融 AI",
+      "HeyGen Avatar V 多模态能力向终端下沉",
+      "Minty 将 AI 伴侣从情感陪伴转向职业规划",
+      "Spine 集成无代码 Agent 构建工具链"
+    ],
+    "ai-hf": [
+      "Jackrong Qwen3.5-27B 蒸馏 Claude-4.6 Opus，点赞 2582",
+      "Google Gemma-4 系列 5 变体霸榜，下载破 200 万",
+      "HauhauCS Qwen3.5-35B Uncensored 下载 96 万",
+      "Bonsai-8B 1-bit 极致量化，端侧压缩实验",
+      "Netflix 开源视频修复模型，多模态走向产业",
+      "智谱 GLM-5.1 MoE 架构，DSA 动态稀疏激活"
+    ],
+    "ai-community": [
+      "浏览器端 WebGPU+AI 视频编辑零上传方案",
+      "RAG 架构会议智能系统 19 分钟完整案例",
+      "3 个 ML 模型替代 12 个厨房经理预测需求",
+      "JGuardrails 补齐 Java LLM 生产安全层",
+      "开发者自建开源替代对抗 GPTZero 误标记",
+      "Transformer 注意力机制深度拆解系列"
     ]
   },
   "en": {
     "ai-cli": [
-      "Claude Code faces post-update regressions despite high engagement",
-      "OpenAI Codex releases rust-v0.120.0 with steady development pace",
-      "Gemini CLI rolls out v0.39.0-nightly with UX refinements",
-      "GitHub Copilot CLI struggles with authentication and billing transparency",
-      "Kimi Code CLI maintains stable release cycles in agent workflows",
-      "Qwen Code focuses on internationalization and incremental improvements"
+      "OpenAI Codex ships v0.120.0 with Realtime V2",
+      "Claude Code faces /buddy removal crisis",
+      "Gemini CLI adds /enhance command, UTF-8 fixes",
+      "GitHub Copilot CLI hit by billing explosion crisis",
+      "Kimi, OpenCode, Pi differentiate via UX iteration",
+      "Sector tension: agentic autonomy vs cost control"
     ],
     "ai-agents": [
-      "OpenClaw released v2026.4.11 with ChatGPT import and UI enhancements",
-      "New Codex provider adds native threading and model discovery in OpenClaw",
-      "Memory ingestion and Control UI rendering improved in latest OpenClaw versions",
-      "500 issues and 500 PRs updated daily showing sustained momentum",
-      "Three new OpenClaw versions released including beta and stable builds",
-      "Active Memory subsystem enhanced for better context management"
+      "OpenClaw releases v2026.4.11-beta.1 with memory enhancements",
+      "500 issues and 500 PRs in 24 hours for OpenClaw",
+      "ChatGPT import added to Dreaming UI",
+      "GPT-5.4/Codex agentic runtime parity focus",
+      "342 open PRs suggest healthy but backlogged pipeline",
+      "Critical stability issues in context, cron, macOS agents"
     ],
     "ai-trending": [
-      "Hermes-Agent leads trending with 6,438 new stars by NousResearch",
-      "Ollama supports Kimi-K2.5 and DeepSeek with local LLM runtime",
-      "Markitdown surges +3,086 for document-to-Markdown conversion",
-      "Archon gains traction for deterministic AI coding workflows",
-      "CopilotKit enables generative UI embedding via React/Angular",
-      "VoxCPM and Kronos show vertical specialization in vector databases"
+      "NousResearch/hermes-agent gains 6,438 stars daily",
+      "Microsoft launches markitdown for document AI",
+      "Archon harness builder targets deterministic workflows",
+      "Kronos: foundation model for financial market language",
+      "VoxCPM advances tokenizer-free multilingual TTS",
+      "Karpathy skills crystallize into open infrastructure"
     ],
     "ai-hn": [
-      "OpenAI sues Musk over Cirrus Labs acquisition drama unfolds",
-      "MCP Spine cuts LLM tool token usage by 61% with middleware proxy",
-      "Berkeley exposes benchmark weaknesses in AI agent evaluation",
-      "Borges' cartographers metaphor for LM output interpretation discussed",
-      "Agentic systems spark excitement and concern over power/opacity"
+      "Anthropic Mythos release sparks security warnings",
+      "OpenAI acquires Cirrus Labs, consolidating infrastructure",
+      "Berkeley team exposes flaws in AI agent benchmarks",
+      "Borges essay on LLM interpretability resonates",
+      "GPT5.4 replicates Mythos 0-days",
+      "Meta-commentary on AI development sophistication rises"
+    ],
+    "ai-ph": [
+      "Claude Advisor pairs Opus with Sonnet/Haiku execution",
+      "Manus Skills packages workflows into reusable agents",
+      "Google and Perplexity compete on AI finance assistants",
+      "SoulLink brings 3D vibe coding to mobile",
+      "Viktor launches agent skill marketplace",
+      "Infrastructure-to-application ratio shows composability focus"
+    ],
+    "ai-hf": [
+      "Google Gemma 4 family dominates with 2B-31B variants",
+      "Jackrong distills Claude 4.6 Opus into Qwen 3.5",
+      "Nvidia PersonaPlex-7B targets speech-to-speech agents",
+      "Netflix releases rare video-to-video Void model",
+      "Unsloth GGUF quantizations meet local inference demand",
+      "Zhipu GLM-5.1 pushes MoE with DSA optimization"
+    ],
+    "ai-community": [
+      "Free browser video editor uses WebGPU, zero uploads",
+      "Local-first AI tools gain strong developer momentum",
+      "Agent observability and safety infrastructure expands",
+      "Non-developers increasingly ship AI-built projects",
+      "Kitchen-themed LLM analogies prove educational hit",
+      "Wildcard CORS bugs from AI code spark security fixes"
     ]
   }
 }

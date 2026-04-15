@@ -1,83 +1,150 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code v2.1.91发布，新增MCP结果持久化功能",
-      "Kimi Code CLI v1.30.0发布，修复Windows路径解析问题",
-      "Qwen Code v0.14.0-preview.5发布，改进扩展安装路径",
-      "GitHub Copilot CLI v1.0.16发布，修复MCP显示问题",
-      "Gemini CLI v0.37.0-preview.1发布，修复子代理配置延迟",
-      "OpenAI Codex持续更新Alpha版本v0.119.0"
+      "Claude Code v2.1.91紧急补丁，用量计费危机400+评论质疑",
+      "OpenAI Codex rust-v0.119.0编译优化-48%~-63%",
+      "Gemini CLI v0.37.0重构TerminalBuffer根治闪烁",
+      "Kimi Code CLI v1.30.0社区活跃度第一，Claude插件兼容成焦点",
+      "Pi v0.64.0紧急修复密集崩溃，grep四合一增强获认可",
+      "Qwen Code v0.14.0 Bun运行时3-5x性能突破"
     ],
     "ai-agents": [
-      "OpenClaw v2026.4.2发布，引入破坏性变更影响xAI插件配置",
-      "Web UI全面重构进行中，采用React 19+shadcn/ui",
-      "新增Fish Audio TTS语音提供商支持",
-      "修复Ollama Cloud认证失败问题",
-      "添加每代理TTS配置解析功能",
-      "修复Microsoft Teams Webhook消息路由问题"
-    ],
-    "ai-trending": [
-      "ollama/ollama获166,846星，支持本地部署前沿模型",
-      "shareAI-lab/learn-claude-code获47,225星，构建智能体harness",
-      "CopilotKit/CopilotKit获29,939星，全栈工具包简化AI集成",
-      "e2b-dev/E2B获11,552星，企业级安全沙箱执行环境",
-      "Panniantong/Agent-Reach获14,601星，赋予AI互联网搜索能力",
-      "trycua/cua获13,365星，计算机使用智能体开源基础设施"
+      "OpenClaw v2026.4.2破坏性配置迁移，xAI插件路径变更",
+      "Kimi模型工具调用修复，85%失败率降至正常",
+      "500 Issues+500 PR日活，Agent身份验证协议成焦点",
+      "执行审批机制变更引生产环境稳定性讨论",
+      "TUI输入中断等回归问题持续影响用户",
+      "网关RPC故障多平台稳定性受挑战"
     ],
     "ai-web": [
-      "Anthropic研究揭示LLM内部存在情感神经元",
-      "OpenAI更新Codex团队灵活定价页面",
-      "OpenAI收购TBPN战略资产"
+      "Anthropic首发LLM情绪概念可解释性研究",
+      "Claude Sonnet 4.5内部存在类人类情绪表征",
+      "发现情绪表征具有因果效力非装饰输出",
+      "OpenAI疑似收购Tbpn，资本运作透明度降低",
+      "Codex团队定价策略调整，企业级计费或变更",
+      "Anthropic强化AI安全学术领导力"
+    ],
+    "ai-trending": [
+      "oh-my-codex 2867 stars登顶，Codex/Claude增强层爆发",
+      "system_prompts_leaks +306 stars，提示工程深度好奇",
+      "LangChain rebranding为Agent工程平台",
+      "Ollama新增Kimi-K2.5/GLM-5/MiniMax支持",
+      "Firecrawl 103k stars，Agent Web数据API标杆",
+      "MCP协议+沙箱环境+记忆层成7天主轴"
     ],
     "ai-hn": [
-      "Anthropic研究LLM情感概念运作机制获9分讨论",
-      "OpenAI收购TBPN引发136分热烈讨论",
-      "分布式量子计算网络原型获11分关注",
-      "Sora算力开销成本分析获43分热议",
-      "Context Constitution提示词框架获5分讨论",
-      "AI基准测试改革呼吁获3分评论"
+      "OpenAI收购TBPN引发监管俘获担忧",
+      "Sora单用户月亏$45，商业化可持续性受质疑",
+      "Claude Code用量限制问题舆论漩涡",
+      "OpenAI秘密资助年龄验证游说团体曝光",
+      "AI视频生成成本结构成社区热议焦点",
+      "大厂动机批判性审视情绪显著"
+    ],
+    "ai-ph": [
+      "Ollama v0.19 390票，Apple Silicon MLX提速里程碑",
+      "OpenBox 152票36评论，Agent可观测性安全治理",
+      "Slackbot 116票，AI队友深度嵌入团队工作流",
+      "traceAI开源可观测工具高关注",
+      "Google Veo 3.1 Lite多模态能力下沉",
+      "Ray-Ban Meta G2硬件AI化持续"
+    ],
+    "ai-arxiv": [
+      "Therefore I am揭示推理模型先决策后思考颠覆现象",
+      "YC-Bench长期规划与延迟反馈Agent基准",
+      "Online Reasoning Calibration测试时训练降本",
+      "S0 Tuning 48样本+10.8pp超越LoRA零开销",
+      "OrgAgent多智能体组织架构研究",
+      "HippoCamp个人电脑环境Agent评测"
+    ],
+    "ai-hf": [
+      "Jackrong/Qwen3.5-27B-Claude-4.6蒸馏版2128点赞领跑",
+      "Qwen3.5-9B 477万下载量碾压级领先",
+      "Lightricks LTX-2.3 154万下载商业视频开源标杆",
+      "NVIDIA Nemotron-Cascade-2-30B-A3B级联MoE",
+      "HauhauCS无审查版92.2万下载需求旺盛",
+      "Gemma-4-31B-it Google对标Qwen正式回应"
+    ],
+    "ai-community": [
+      "Claude Code 51.2万行源码泄露架构分析",
+      "PAIO Bot安全沙箱独立测试揭示攻击面",
+      "MCP协议整合GitHub/Notion/Jira实战",
+      "ContextCore MCP可查询记忆层开源方案",
+      "LangChain何时足够反过度设计指南",
+      "Agentic Frontier堡垒安全模型分层权限"
     ]
   },
   "en": {
     "ai-cli": [
-      "Claude Code v2.1.91 released with new features",
-      "OpenAI Codex releases Rust alphas for better performance",
-      "Gemini CLI v0.37.0-preview.1 now available",
-      "Kimi Code CLI v1.30.0 launched today",
-      "Qwen Code adds v0.14.0-preview.5 and nightly builds",
-      "All 7 major AI CLI tools show active development with frequent PRs"
+      "Claude Code v2.1.91 hit by rate limit crisis",
+      "OpenAI Codex rust-v0.119.0-alpha.3/4/5 ships",
+      "Gemini CLI v0.37.0-preview.1 fixes CMD+V paste",
+      "GitHub Copilot CLI v1.0.16 has HTTP/2 race condition",
+      "Kimi Code CLI joins 10+ issue/PR daily club",
+      "MCP emerges as de facto extensibility standard"
     ],
     "ai-agents": [
-      "OpenClaw v2026.4.2 released with breaking plugin changes",
-      "500 issues and 500 PRs updated in last 24 hours",
-      "xAI plugin config paths moved to new location",
-      "Automatic legacy config migration included but poorly documented",
-      "IronClaw, NanoBot, and CoPaw lead agent toolkit activity",
-      "LobsterAI and TinyClaw show strong community engagement"
-    ],
-    "ai-trending": [
-      "CopilotKit hits 29,939 stars for AI-powered frontend framework",
-      "E2B secures 11,552 stars for enterprise sandbox environments",
-      "Google Workspace CLI reaches 23,599 stars with AI agent support",
-      "trycua/cua gains traction for computer-use agents",
-      "oh-my-codex surges as popular no-code demo builder",
-      "openscreen rises in popularity for agentic coding environments"
+      "OpenClaw v2026.4.2 breaks xAI plugin configs",
+      "500 issues/PRs in 24h signals release strain",
+      "169 merged PRs show maintainer responsiveness",
+      "Exec tool regressions plague latest release",
+      "Dashboard crashes reported across community",
+      "Automatic config migration via openc CLI"
     ],
     "ai-web": [
-      "Anthropic publishes research on LLM emotion representations",
-      "OpenAI announces flexible Codex Teams pricing and TBPN acquisition",
-      "Sora's $65 per user cost sparks economic viability debate",
-      "Anthropic faces backlash over usage limits transparency",
-      "Quantum computing networks gain developer interest",
-      "Lisa Core offers 80:1 local semantic compression for AI conversations"
+      "Anthropic publishes Claude Sonnet 4.5 emotion research",
+      "Neural activation patterns mirror human psychology",
+      "First detailed LLM internal state investigation",
+      "OpenAI Codex pricing announcement teased",
+      "TBPN acquisition metadata surfaces",
+      "Mechanistic interpretability advances AI safety"
+    ],
+    "ai-trending": [
+      "oh-my-codex gains 2,867 stars in 24h",
+      "system_prompts_leaks surges 306 stars",
+      "Ollama adds Kimi-K2.5 and GLM-5 support",
+      "RAGFlow pushes RAG to production agents",
+      "Shift from chat to autonomous AI workers",
+      "Local-first infrastructure maturing rapidly"
     ],
     "ai-hn": [
-      "OpenAI acquires TBPN browser-native AI agents startup",
-      "Sora's $65/user cost fuels AI video generation concerns",
-      "Anthropic's AutoDream criticized for flawed benchmarks",
-      "Show HN: Open-source distributed quantum compute network",
-      "Lisa Core provides local AI memory with 80:1 compression",
-      "Local-first AI tools gain traction among developers"
+      "OpenAI acquires TBPN",
+      "OpenAI loses $45/month per Pro subscriber",
+      "Sora called a money furnace",
+      "Anthropic rate limits spark workaround threads",
+      "Claude Code pricing beats Cursor",
+      "Local/self-hosted solutions gain interest"
+    ],
+    "ai-ph": [
+      "OpenBox leads with 152 votes, 36 comments",
+      "Slackbot AI teammate launches",
+      "traceAI targets agent observability",
+      "ClawMetry governs autonomous systems",
+      "Ollama Apple Silicon optimization ships",
+      "Open-source dominates leaderboard"
+    ],
+    "ai-arxiv": [
+      "Therefore I am. I Think challenges CoT assumptions",
+      "S0 Tuning beats LoRA with zero overhead",
+      "OrgAgent builds company-style multi-agent hierarchies",
+      "Encoding attacks threaten deployed systems",
+      "YC-Bench personalizes AI evaluation",
+      "Reasoning models decide before thinking"
+    ],
+    "ai-hf": [
+      "Jackrong's Qwen3.5-Claude-4.6-Opus tops charts",
+      "Qwen3.5-9B hits 4.7M downloads",
+      "Gemma-4 pushes 26B MoE to any-to-any",
+      "LTX-2.3 video generation surges",
+      "Bonsai 1-bit quantization for edge",
+      "Uncensored fine-tunes drive engagement"
+    ],
+    "ai-community": [
+      "512K lines of Claude Code leaked",
+      "Dictionary-based tool dispatch analyzed",
+      "Path sandboxing architecture revealed",
+      "MCP integration tutorials proliferate",
+      "Agent security citadel patterns emerge",
+      "Build-and-secure phase replaces hype"
     ]
   }
 }

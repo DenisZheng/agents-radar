@@ -1,27 +1,93 @@
 # AI 开源趋势日报 2026-04-14
 
-> 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-04-14 00:27 UTC
+> 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-04-14 00:16 UTC
 
 ---
 
-好的，作为一位专注于 AI 开源生态的技术分析师，我将为您生成这份《AI 开源趋势日报》。
+# AI 开源趋势日报 | 2026-04-14
 
 ---
 
-## AI 开源趋势日报 (2026-04-14)
+## 第一步：AI 相关性过滤
 
-**第一步：过滤与分类**
+**Trending 榜单过滤结果**：16 个项目中，排除 `markitdown`（通用文档转换工具）、`ChinaTextbook`（教材资源库），剩余 **14 个 AI/ML 相关项目**进入分析。
 
-我已从提供的数据中筛选出所有与 AI/ML 明确相关的项目。对于 Trending 榜单，我排除了 `ChinaTextbook`（非 AI 内容）等项目，并仅保留与 AI 强相关的项目。所有项目已按指定维度进行分类。
+**主题搜索结果**：79 个项目全部与 AI/ML 相关，按主题标签已预分类。
 
 ---
+
+## 第二步：项目分类
+
+| 项目 | 主要分类 | 次要分类 |
+|:---|:---|:---|
+| forrestchang/andrej-karpathy-skills | 🔧 AI 基础工具 | — |
+| NousResearch/hermes-agent | 🤖 AI 智能体/工作流 | — |
+| shiyu-coder/Kronos | 📦 AI 应用 | 🧠 大模型/训练 |
+| thedotmack/claude-mem | 🔍 RAG/知识库 | 🔧 AI 基础工具 |
+| multica-ai/multica | 🤖 AI 智能体/工作流 | 🔧 AI 基础工具 |
+| coleam00/Archon | 🔧 AI 基础工具 | 🤖 AI 智能体/工作流 |
+| snarktank/ralph | 🤖 AI 智能体/工作流 | 🔧 AI 基础工具 |
+| virattt/ai-hedge-fund | 📦 AI 应用 | 🤖 AI 智能体/工作流 |
+| anthropic/claude-cookbooks | 🔧 AI 基础工具 | — |
+| shanraisshan/claude-code-best-practice | 🔧 AI 基础工具 | — |
+| jamiepine/voicebox | 📦 AI 应用 | 🧠 大模型/训练 |
+| ahujasid/blender-mcp | 🔧 AI 基础工具 | 🤖 AI 智能体/工作流 |
+| hacksider/Deep-Live-Cam | 📦 AI 应用 | 🧠 大模型/训练 |
+| gsd-build/get-shit-done | 🔧 AI 基础工具 | 🤖 AI 智能体/工作流 |
+| jingyaogong/minimind | 🧠 大模型/训练 | — |
+| ScrapeGraphAI/Scrapegraph-ai | 🤖 AI 智能体/工作流 | 📦 AI 应用 |
+| 0xPlaygrounds/rig | 🔧 AI 基础工具 | — |
+| open-compass/opencompass | 🔧 AI 基础工具 | 🧠 大模型/训练 |
+| skyzh/tiny-llm | 🧠 大模型/训练 | 🔧 AI 基础工具 |
+| Significant-Gravitas/AutoGPT | 🤖 AI 智能体/工作流 | — |
+| ollama/ollama | 🔧 AI 基础工具 | 🧠 大模型/训练 |
+| f/prompts.chat | 🔧 AI 基础工具 | — |
+| huggingface/transformers | 🧠 大模型/训练 | 🔧 AI 基础工具 |
+| affaan-m/everything-claude-code | 🔧 AI 基础工具 | 🤖 AI 智能体/工作流 |
+| langgenius/dify | 🤖 AI 智能体/工作流 | 🔧 AI 基础工具 |
+| langchain-ai/langchain | 🤖 AI 智能体/工作流 | 🔧 AI 基础工具 |
+| open-webui/open-webui | 🔧 AI 基础工具 | 📦 AI 应用 |
+| firecrawl/firecrawl | 🔧 AI 基础工具 | 🤖 AI 智能体/工作流 |
+| browser-use/browser-use | 🤖 AI 智能体/工作流 | 🔧 AI 基础工具 |
+| infiniflow/ragflow | 🔍 RAG/知识库 | 🤖 AI 智能体/工作流 |
+| vllm-project/vllm | 🔧 AI 基础工具 | 🧠 大模型/训练 |
+| OpenHands/OpenHands | 🤖 AI 智能体/工作流 | 🔧 AI 基础工具 |
+| Shubhamsaboo/awesome-llm-apps | 📦 AI 应用 | 🤖 AI 智能体/工作流 |
+| PaddlePaddle/PaddleOCR | 🔍 RAG/知识库 | 📦 AI 应用 |
+| mem0ai/mem0 | 🔍 RAG/知识库 | 🤖 AI 智能体/工作流 |
+| FlowiseAI/Flowise | 🤖 AI 智能体/工作流 | 🔧 AI 基础工具 |
+| run-llama/llama_index | 🔍 RAG/知识库 | 🤖 AI 智能体/工作流 |
+| milvus-io/milvus | 🔍 RAG/知识库 | — |
+| mindsdb/mindsdb | 🔍 RAG/知识库 | 🤖 AI 智能体/工作流 |
+| datawhalechina/hello-agents | 🤖 AI 智能体/工作流 | 🔧 AI 基础工具 |
+| meilisearch/meilisearch | 🔍 RAG/知识库 | — |
+| qdrant/qdrant | 🔍 RAG/知识库 | — |
+| NirDiamant/RAG_Techniques | 🔍 RAG/知识库 | 🔧 AI 基础工具 |
+| VectifyAI/PageIndex | 🔍 RAG/知识库 | — |
+| weaviate/weaviate | 🔍 RAG/知识库 | — |
+| topoteretes/cognee | 🔍 RAG/知识库 | 🤖 AI 智能体/工作流 |
+| CherryHQ/cherry-studio | 📦 AI 应用 | 🔧 AI 基础工具 |
+| zhayujie/CowAgent | 🤖 AI 智能体/工作流 | 📦 AI 应用 |
+| HKUDS/nanobot | 🤖 AI 智能体/工作流 | 📦 AI 应用 |
+| santifer/career-ops | 📦 AI 应用 | 🤖 AI 智能体/工作流 |
+| CopilotKit/CopilotKit | 🔧 AI 基础工具 | 🤖 AI 智能体/工作流 |
+| googleworkspace/cli | 🔧 AI 基础工具 | 🤖 AI 智能体/工作流 |
+| activepieces/activepieces | 🤖 AI 智能体/工作流 | 🔧 AI 基础工具 |
+| iOfficeAI/AionUi | 🔧 AI 基础工具 | 🤖 AI 智能体/工作流 |
+| Panniantong/Agent-Reach | 🤖 AI 智能体/工作流 | 🔧 AI 基础工具 |
+| jackwener/OpenCLI | 🔧 AI 基础工具 | 🤖 AI 智能体/工作流 |
+| trycua/cua | 🤖 AI 智能体/工作流 | 🔧 AI 基础工具 |
+| e2b-dev/E2B | 🔧 AI 基础工具 | 🤖 AI 智能体/工作流 |
+| alibaba/OpenSandbox | 🔧 AI 基础工具 | 🤖 AI 智能体/工作流 |
+| frankbria/ralph-claude-code | 🤖 AI 智能体/工作流 | 🔧 AI 基础工具 |
+
+---
+
+## 第三步：AI 开源趋势日报
 
 ### 1. 今日速览
 
-今日 GitHub AI 开源生态呈现三大核心动向：
-1.  **AI 智能体开发工具链迎来爆发式增长**，多个围绕 Claude Code 的插件、框架和最佳实践指南涌现，表明开发者社区正在积极构建和优化自主智能体的生产环境。
-2.  **RAG (检索增强生成) 与知识库技术持续深化**，不仅限于传统向量数据库，还出现了如 Kronos（金融领域基础模型）等将 RAG 能力深度融入特定领域的创新项目。
-3.  **微软等科技巨头持续强化其在 AI 基础设施的影响力**，其发布的 Markitdown 工具，旨在标准化文档格式以更好地服务于下游的 LLM 应用，巩固了其生态地位。
+今日 AI 开源热榜被 **Claude Code 生态**强势主导：Andrej Karpathy 的 LLM 编程观察被提炼为 `CLAUDE.md` 技能文件单日斩获 5733 stars，记忆增强插件 `claude-mem` 与元提示工程框架 `get-shit-done` 同步爆发。与此同时，**NousResearch 的 `hermes-agent`** 以 11,289 新增 stars 登顶，标志着"可成长型 Agent"正成为社区新共识。金融时序基础模型 `Kronos` 和 AI 对冲基金 `ai-hedge-fund` 则反映出垂直领域 Agent 应用的加速渗透。
 
 ---
 
@@ -29,83 +95,80 @@
 
 #### 🔧 AI 基础工具
 
-*   **[microsoft/markitdown](https://github.com/microsoft/markitdown)** ⭐0 (+2808 today)
-    *   **一句话说明：** Microsoft 推出的 Python 工具，用于将各种文件（如 Office 文档）转换为标准化的 Markdown 格式，是构建健壮 LLM 应用流水线的基础组件。
-*   **[thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)** ⭐53,234 (+3175 today)
-    *   **一句话说明：** 专为 Claude Code 设计的 TypeScript 插件，能自动捕获、压缩并注入编码上下文，显著提升 AI 编程助手在复杂任务中的记忆与连续性。
-*   **[coleam00/Archon](https://github.com/coleam00/Archon)** ⭐0 (+677 today)
-    *   **一句话说明：** 首个开源的 AI 编码确定性框架，旨在解决 AI 编程的不可预测性问题，为构建稳定可靠的 AI 开发流程提供了新思路。
-*   **[OpenHands/OpenHands](https://github.com/OpenHands/OpenHands)** ⭐71,136 [topic:llm]
-    *   **一句话说明：** 由 LMSYS 发起的知名 AI 驱动软件开发框架，通过多智能体协作实现复杂任务的自动化，代表了高级 Agent 架构的发展方向。
-*   **[browser-use/browser-use](https://github.com/browser-use/browser-use)** ⭐87,637 [topic:llm]
-    *   **一句话说明：** Python 库，使网站对 AI 代理变得可访问，让它们能够自动化在线任务，是 Web 交互智能化的关键工具。
-*   **[CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit)** ⭐30,189 [topic:ai-agent]
-    *   **一句话说明：** 前端堆栈，用于构建面向 Agent 的生成式 UI，简化了将 AI 能力集成到应用程序中的过程。
-*   **[vllm-project/vllm](https://github.com/vllm-project/vllm)** ⭐76,450 [topic:llm]
-    *   **一句话说明：** 高性能、内存高效的 LLM 推理和服务引擎，是支撑大模型应用落地的核心基础设施。
+| 项目 | Stars | 一句话说明 |
+|:---|:---|:---|
+| [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | 0 / **+5733 今日** | 将 Andrej Karpathy 对 LLM 编程陷阱的观察浓缩为单一 `CLAUDE.md` 文件，直接优化 Claude Code 行为，是"提示即基础设施"的极致体现。 |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 53,216 / **+3175 今日** | Claude Code 记忆插件，自动捕获编码会话、AI 压缩并注入未来上下文，解决 AI 编程助手"会话失忆"的核心痛点。 |
+| [gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done) | 0 / **+655 今日** | 轻量级元提示与上下文工程系统，专为 Claude Code 设计，推动 spec-driven development 在 AI 编程工作流中的落地。 |
+| [coleam00/Archon](https://github.com/coleam00/Archon) | 0 / **+677 今日** | 首个开源 AI 编程 harness 构建器，目标让 AI 编码从"随机生成"走向"确定可复现"。 |
+| [ollama/ollama](https://github.com/ollama/ollama) | 168,855 | 本地大模型运行的事实标准，今日已支持 Kimi-K2.5、GLM-5、DeepSeek 等最新模型。 |
+| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 76,450 | 高吞吐、内存高效的 LLM 推理与服务引擎，生产部署的核心基础设施。 |
+| [0xPlaygrounds/rig](https://github.com/0xPlaygrounds/rig) | 6,894 | Rust 生态中模块化 LLM 应用开发框架，满足高性能与系统级安全需求。 |
 
 #### 🤖 AI 智能体/工作流
 
-*   **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)** ⭐76,885 (+11289 today)
-    *   **一句话说明：** Nous Research 开发的成长型 AI 智能体，具备自我演进能力，代表了从静态工具向动态自主代理演进的重要方向。
-*   **[multica-ai/multica](https://github.com/multica-ai/multica)** ⭐0 (+1715 today)
-    *   **一句话说明：** 开源托管智能体平台，旨在将编码代理转化为真正的团队成员，提供任务分配、进度跟踪等协作功能。
-*   **[snarktank/ralph](https://github.com/snarktank/ralph)** ⭐0 (+691 today)
-    *   **一句话说明：** 一个自主 AI 智能体循环，持续运行直至完成 PRD 中的所有任务，体现了闭环任务执行的新范式。
-*   **[frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code)** ⭐8,641 [topic:ai-agent]
-    *   **一句话说明：** 专为 Claude Code 设计的自主开发循环，包含智能退出检测机制，提升了 AI 编程的稳定性和效率。
-*   **[trycua/cua](https://github.com/trycua/cua)** ⭐13,464 [topic:ai-agent]
-    *   **一句话说明：** 计算机使用智能体 (Computer-Use Agents) 的开源基础设施，提供沙盒、SDK 和基准测试，推动 AI 代理控制全桌面环境的进步。
+| 项目 | Stars | 一句话说明 |
+|:---|:---|:---|
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 76,841 / **+11,289 今日** | "与你共同成长的 Agent"，今日新增 stars 碾压全场，代表社区对"长期演进型 Agent"的强烈期待。 |
+| [multica-ai/multica](https://github.com/multica-ai/multica) | 0 / **+1715 今日** | 开源托管 Agent 平台，将 coding agent 转化为可分配任务、跟踪进度、复利技能的"真实队友"。 |
+| [snarktank/ralph](https://github.com/snarktank/ralph) | 0 / **+691 今日** | 自主 AI Agent 循环，持续运行直至 PRD 所有条目完成，是"需求驱动型自主开发"的新尝试。 |
+| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 71,136 | AI 驱动开发的标杆项目，覆盖代码理解、修改、测试全流程。 |
+| [browser-use/browser-use](https://github.com/browser-use/browser-use) | 87,636 | 让网站对 AI Agent 可访问，浏览器自动化领域的核心基础设施。 |
+| [langgenius/dify](https://github.com/langgenius/dify) | 137,606 | 生产级 Agentic 工作流开发平台，企业落地 AI 工作流的首选工具之一。 |
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 43,098 | 基于大模型的超级 AI 助理，支持多平台接入与主动任务规划，定位"轻量版 OpenClaw"。 |
 
 #### 📦 AI 应用
 
-*   **[virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund)** ⭐0 (+783 today)
-    *   **一句话说明：** 一个由 AI 驱动的虚拟对冲基金团队，探索 AI 在金融交易和投资决策中的应用。
-*   **[shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos)** ⭐0 (+1554 today)
-    *   **一句话说明：** 专注于金融市场语言的基础模型，展示了 AI 模型在垂直领域的专业化应用潜力。
-*   **[jamiepine/voicebox](https://github.com/jamiepine/voicebox)** ⭐0 (+512 today)
-    *   **一句话说明：** 开源语音合成工作室，为声音克隆和生成应用提供了一个强大的底层工具。
-*   **[hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam)** ⭐0 (+217 today)
-    *   **一句话说明：** 基于单张图片实现的实时面部替换和视频深度伪造应用，代表了生成式 AI 在创意领域的快速落地。
-*   **[anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks)** ⭐0 (+1012 today)
-    *   **一句话说明：** Anthropic 官方发布的 Claude 使用食谱合集，以 Jupyter Notebook 形式展示高效利用 Claude 的各种技巧。
+| 项目 | Stars | 一句话说明 |
+|:---|:---|:---|
+| [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | 0 / **+1554 今日** | 金融市场语言的基础模型，直击量化金融与时序预测的专业场景，今日热度验证垂直领域 FM 的需求。 |
+| [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | 0 / **+783 今日** | AI 对冲基金团队，将多 Agent 协作应用于金融投资决策，是"AI 专家系统"在资管领域的具象化。 |
+| [jamiepine/voicebox](https://github.com/jamiepine/voicebox) | 0 / **+512 今日** | 开源语音合成工作室，语音生成工具链的独立产品化尝试。 |
+| [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) | 0 / **+217 今日** | 单图实时换脸与一键视频 deepfake，持续占据 AI 视觉应用的关注度。 |
+| [santifer/career-ops](https://github.com/santifer/career-ops) | 32,619 | 基于 Claude Code 的 AI 求职系统，14 种技能模式 + 批量处理，Agent 在人力资源垂直场景的成熟应用。 |
 
 #### 🧠 大模型/训练
 
-*   **[jingyaogong/minimind](https://github.com/jingyaogong/minimind)** ⭐46,739 [topic:llm-model]
-    *   **一句话说明：** 仅需 2 小时即可从零开始训练一个 64M 参数的小 GPT 模型，极大地降低了大模型训练的门槛，是教育和研究的好工具。
-*   **[open-compass/opencompass](https://github.com/open-compass/opencompass)** ⭐6,868 [topic:llm-model]
-    *   **一句话说明：** 支持广泛模型和数据集的综合 LLM 评测平台，为模型性能评估提供了标准化工具。
-*   **[rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)** ⭐90,677 [topic:llm]
-    *   **一句话说明：** 从 PyTorch 零起点逐步实现 ChatGPT 类 LLM 的教程，是学习和理解大模型原理的权威资源。
+| 项目 | Stars | 一句话说明 |
+|:---|:---|:---|
+| [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 46,739 | 2 小时从 0 训练 64M 参数 GPT，中文社区最受欢迎的大模型入门工程之一。 |
+| [huggingface/transformers](https://github.com/huggingface/transformers) | 159,314 | 机器学习模型定义框架的事实标准，覆盖文本、视觉、音频与多模态。 |
+| [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | 90,676 | 手把手用 PyTorch 实现类 ChatGPT LLM，教育系统工程的标杆仓库。 |
+| [skyzh/tiny-llm](https://github.com/skyzh/tiny-llm) | 4,086 | Apple Silicon 上的 LLM 推理服务课程， tiny vLLM + Qwen 的系统级实践。 |
+| [open-compass/opencompass](https://github.com/open-compass/opencompass) | 6,868 | 支持 100+ 数据集的 LLM 评测平台，模型迭代不可或缺的基础设施。 |
 
 #### 🔍 RAG/知识库
 
-*   **[langgenius/dify](https://github.com/langgenius/dify)** ⭐137,607 [topic:rag]
-    *   **一句话说明：** 生产就绪的代理工作流开发平台，简化了 RAG 和 Agent 应用的构建、部署和管理。
-*   **[infiniflow/ragflow](https://github.com/infiniflow/ragflow)** ⭐77,938 [topic:rag]
-    *   **一句话说明：** 集 RAG 与 Agent 能力于一体的知识引擎，提供卓越的上下文层，是 RAG 技术的集大成者。
-*   **[PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)** ⭐75,511 [topic:rag]
-    *   **一句话说明：** 强大的轻量级 OCR 工具包，支持 100+ 语言，能将图像/PDF 转化为结构化数据，是 LLM 处理非结构化文档的关键入口。
-*   **[milvus-io/milvus](https://github.com/milvus-io/milvus)** ⭐43,778 [topic:vector-db]
-    *   **一句话说明：** 高性能的云原生向量数据库，专为可扩展的向量近似最近邻搜索 (ANN) 设计，是 RAG 系统的核心存储组件。
-*   **[qdrant/qdrant](https://github.com/qdrant/qdrant)** ⭐30,304 [topic:vector-db]
-    *   **一句话说明：** 高性能、大规模向量数据库，支持向量搜索和结构化过滤的结合，为下一代 AI 应用提供强大的后端支持。
+| 项目 | Stars | 一句话说明 |
+|:---|:---|:---|
+| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | 77,938 | 融合前沿 RAG 与 Agent 能力的开源引擎，构建 LLM 优质上下文层的领先方案。 |
+| [mem0ai/mem0](https://github.com/mem0ai/mem0) | 52,941 | AI Agent 的通用记忆层，解决长期上下文与个性化记忆的核心问题。 |
+| [run-llama/llama_index](https://github.com/run-llama/llama_index) | 48,559 | 领先的文档 Agent 与 OCR 平台，RAG  pipeline 的企业级首选。 |
+| [milvus-io/milvus](https://github.com/milvus-io/milvus) | 43,778 | 云原生高性能向量数据库，大规模 ANN 搜索的基础设施。 |
+| [qdrant/qdrant](https://github.com/qdrant/qdrant) | 30,304 | 下一代 AI 的高性能向量搜索引擎，Rust 构建的向量 DB 代表。 |
+| [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) | 25,160 | 无向量、基于推理的 RAG 文档索引，探索 RAG 架构的新范式。 |
 
 ---
 
 ### 3. 趋势信号分析
 
-今日热榜清晰地揭示了一个核心趋势：**围绕 Claude Code 的生态正在形成，且 AI 智能体的开发工具链正经历爆发性关注**。 `claude-mem`、`Anthropic/claude-cookbooks`、`Archon`、`Ralph` 等一系列项目的出现，直接反映了开发者对提升 Claude Code 功能性、稳定性及易用性的强烈需求。这表明，尽管通用大模型能力日益强大，但将其转化为高效、可靠的生产力工具仍存在巨大挑战，催生了大量“中间件”和“框架”类项目。
+今日热榜释放出三个强烈信号。**第一，Claude Code 生态正在经历爆发式裂变**：从 Karpathy 技能文件、记忆插件到元提示工程框架，开发者围绕 Anthropic 的编程 Agent 快速构建工具层，形成类似"VS Code 插件生态"的早期格局。这直接关联 Anthropic 近期对 Claude Code 的持续迭代与 MCP（Model Context Protocol）标准的推广。**第二，"可成长 Agent"取代"一次性 Agent"成为新叙事**：`hermes-agent` 的碾压级增长与 `multica` 的"复利技能"定位，表明社区关注点从"Agent 能做什么"转向"Agent 如何持续进化"。**第三，垂直领域基础模型崭露头角**：`Kronos` 聚焦金融时序语言，`ai-hedge-fund` 探索资管决策，说明通用大模型热潮后，领域特定 FM（Foundation Model）正进入落地窗口期。技术栈上，TypeScript/Python 双主语言不变，但 **"记忆层"（Memory Layer）作为独立基础设施类别** 正在从 RAG 中分化出来，值得持续关注。
 
-同时，我们也观察到 **RAG 技术在特定领域的深化应用**，如 `Kronos` 项目将 RAG 能力与金融领域基础模型结合，而非仅仅停留在通用向量数据库层面，这预示着 AI 解决方案正从通用场景向垂直领域精细化演进。此外，`Markitdown` 的发布体现了微软试图通过标准化文档处理流程来巩固其在 AI 应用开发链条中的地位，强调了高质量、结构化输入对于构建优秀 LLM 应用的重要性。
+---
 
 ### 4. 社区关注热点
 
-*   **Claude Code 生态建设**：`claude-mem`、`Anthropic/claude-cookbooks` 等表明社区正积极扩展和完善 Claude Code 的功能边界，这是提升 AI 编程助手实用性的关键环节。
-*   **自主智能体开发框架**：`NousResearch/hermes-agent`、`Ralph` 等展示了从被动工具向主动代理的转变，代表了 AI 技术向更高阶自主性的探索。
-*   **RAG 与领域融合**：`Kronos` 项目体现了 RAG 技术与特定行业知识结合的创新方向，是 AI 应用商业化的重要路径。
-*   **AI 生产力工具**：`multica-ai/multica` 致力于将 AI 代理转化为真正的团队成员，这直击了企业提升 AI 应用协作效率和可管理性的痛点。
+- **🎯 [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)** — 今日新增 11,289 stars 断层第一，"The agent that grows with you" 的口号精准击中社区对长期演进型 Agent 的期待，可能定义下一代 Agent 架构方向。
+
+- **🎯 [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills)** — 一个 `CLAUDE.md` 文件单日 5733 stars，证明顶级工程师的实践经验正在以"基础设施化"方式被社区快速吸收，提示工程正式进入"标准文档"时代。
+
+- **🎯 [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)** — 记忆插件在 Claude Code 生态中率先爆发，"AI 编程助手的上下文连续性"被验证为核心付费/使用痛点，记忆层创业窗口已打开。
+
+- **🎯 [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos)** — 金融市场的基础模型获得 1554 今日新增关注，垂直领域 FM 开始从"概念验证"走向"社区认可"，量化金融可能是下一个 AI 落地的深水区。
+
+- **🎯 [multica-ai/multica](https://github.com/multica-ai/multica)** — "把 coding agent 变成真实队友"的托管平台，1715 今日新增 stars 显示团队级 Agent 协作工具正成为 B 端落地的关键赛道。
 
 ---
-*本日报由 [agents-radar](https://github.com/DenisZheng/agents-radar) 自动生成。*
+
+---
+*本日报由 [agents-radar](https://github.com/duanyytop/agents-radar) 自动生成。*

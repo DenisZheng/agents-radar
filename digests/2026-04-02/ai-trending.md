@@ -1,74 +1,140 @@
 # AI 开源趋势日报 2026-04-02
 
-> 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-04-02 00:20 UTC
+> 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-04-02 00:10 UTC
 
 ---
 
-**AI 开源趋势日报（2026-04-02）**
+# AI 开源趋势日报 | 2026-04-02
 
 ---
 
-### **今日速览**  
-今日 GitHub AI 热榜呈现两大核心动向：一是终端级 AI 开发工具爆发式增长，Claude Code 及其生态插件单日新增超万星，标志“本地智能体”成为新焦点；二是前沿模型与推理架构持续突破，Google TimesFM 时间序列大模型发布、微软 VibeVoice 开源语音 AI 上线，显示多模态与专用场景模型加速落地。整体趋势指向轻量化、垂直化及终端部署能力成为开源社区创新主战场。
+## 第一步：AI 相关性筛选
+
+**Trending 榜单筛选结果**（7 → 6 个 AI 相关）：
+| 项目 | 判定 | 说明 |
+|:---|:---|:---|
+| anthropic/claude-code | ✅ AI | Agentic 编码工具 |
+| microsoft/VibeVoice | ✅ AI | 语音 AI 开源项目 |
+| google-research/timesfm | ✅ AI | 时间序列基础模型 |
+| luongnv89/claude-howto | ✅ AI | Claude Code 教程 |
+| axios/axios | ❌ 排除 | 通用 HTTP 客户端 |
+| openai/codex | ✅ AI | 终端编码 Agent |
+| f/prompts.chat | ✅ AI | AI 提示词社区平台 |
 
 ---
 
-### **各维度热门项目**
+## 第二步：分类体系
 
-#### **🔧 AI 基础工具**
-- **[anthropics/claude-code](https://github.com/anthropics/claude-code)** ⭐0 (+10,749 today)  
-  终端原生 AI 编程助手，通过自然语言指令执行代码理解、任务自动化和 Git 操作，重新定义开发者 CLI 交互体验。
-- **[microsoft/VibeVoice](https://github.com/microsoft/VibeVoice)** ⭐0 (+1,685 today)  
-  开源前沿语音 AI 模型，支持高保真语音合成与理解，为构建个性化对话系统提供底层能力支撑。
-- **[openai/codex](https://github.com/openai/codex)** ⭐0 (+2,390 today)  
-  OpenAI 推出的轻量级终端编码代理，可自主完成代码生成与编辑任务，是早期“代码智能体”的代表实现。
-
-#### **🤖 AI 智能体/工作流**
-- **[luongnv89/claude-howto](https://github.com/luongnv89/claude-howto)** ⭐0 (+3,301 today)  
-  提供 Claude Code 实战指南与即用模板库，极大降低用户上手门槛，推动 AI 编码代理快速普及。
-- **[affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code)** ⭐130,958 [topic:llm]  
-  集成 Claude Code、Codex、Cursor 等主流编码代理的性能优化框架，涵盖技能扩展、记忆与安全机制，构建统一智能体生态。
-- **[shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code)** ⭐46,399 [topic:ai-agent]  
-  从零构建类 Claude Code 的“代理 harness”，展示如何搭建自主编码代理的核心逻辑，极具教学与实践价值。
-
-#### **📦 AI 应用**
-- **[google-research/timesfm](https://github.com/google-research/timesfm)** ⭐0 (+380 today)  
-  Google 研发的通用时间序列基础模型，专为金融预测、IoT 监控等场景设计，填补开源 TS 大模型空白。
-- **[f/prompts.chat](https://github.com/f/prompts.chat)** ⭐155,991 [topic:llm]  
-  开源社区驱动的高质量提示词共享平台，持续赋能 LLM 应用开发与创意激发。
-- **[browser-use/browser-use](https://github.com/browser-use/browser-use)** ⭐85,516 [topic:llm]  
-  让 AI 自动访问和操作网页的 Python 框架，是构建真实世界交互型 Agent 的关键基础设施。
-
-#### **🧠 大模型/训练**
-- **[jingyaogong/minimind](https://github.com/jingyaogong/minimind)** ⭐45,295 [topic:llm-model]  
-  仅用 2 小时从 0 训练出 64M 参数 GPT，极低资源门槛下实现完整 LLM 训练流程，极具教育意义。
-- **[open-compass/opencompass](https://github.com/open-compass/opencompass)** ⭐6,822 [topic:llm-model]  
-  支持 Llama3、Qwen、GLM、Claude 等百款模型的统一评测平台，推动国产与开源模型标准化评估。
-- **[BrainBlend-AI/atomic-agents](https://github.com/BrainBlend-AI/atomic-agents)** ⭐5,833 [topic:llm-model]  
-  模块化 AI 智能体构建框架，强调原子化组件复用，提升复杂 Agent 系统的可维护性与扩展性。
-
-#### **🔍 RAG/知识库**
-- **[milvus-io/milvus](https://github.com/milvus-io/milvus)** ⭐43,553 [topic:vector-db]  
-  高性能云原生向量数据库，支撑亿级向量检索，是 RAG 与 Agent 长期记忆的核心基础设施。
-- **[mem0ai/mem0](https://github.com/mem0ai/mem0)** ⭐51,706 [topic:rag]  
-  专为 AI Agent 设计的通用记忆层，实现跨会话上下文持久化与语义索引，解决 Agent 遗忘难题。
-- **[thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)** ⭐44,412 [topic:rag]  
-  Claude Code 插件，自动捕获并压缩历史行为形成可重用上下文，显著提升编码会话连续性。
+| 类别 | 涵盖范围 |
+|:---|:---|
+| 🔧 AI 基础工具 | CLI 工具、SDK、推理引擎、开发框架 |
+| 🤖 AI 智能体/工作流 | Agent 框架、自动化、多智能体系统、MCP |
+| 📦 AI 应用 | 具体产品、垂直场景、UI/UX 层 |
+| 🧠 大模型/训练 | 模型权重、训练框架、微调、评估 |
+| 🔍 RAG/知识库 | 向量数据库、检索增强、知识管理、记忆层 |
 
 ---
 
-### **趋势信号分析**  
-今日热榜最显著的趋势是 **“终端 AI 代理工具”的爆发式崛起**：Claude Code 及其周边生态（如 claude-howto、claude-mem）单日合计获得超 1.7 万星，远超其他类别，反映出开发者对“在本地终端自主执行复杂开发任务”的高度渴望。这与 Anthropic 近期强化其 AI 编程产品战略直接相关，也预示“IDE 内嵌 + CLI 代理”将成为下一代开发工具标配。  
-同时，**专用领域大模型**（如 Google TimesFM）和**轻量训练方案**（如 minimind）的出现，表明开源社区正从通用 LLM 转向垂直场景优化与低资源友好型研发范式。此外，微软 VibeVoice 的发布暗示语音 AI 正从云端走向开源，可能催生新一轮多模态应用浪潮。整体来看，**“本地优先 + 垂直深化”** 正在取代“云端 API + 通用能力”成为开源 AI 创新的主旋律。
+## 第三步：完整报告
+
+### 1. 今日速览
+
+今日 AI 开源领域呈现**"终端 Agent 工具爆发"**态势：Anthropic 的 Claude Code 以单日 **+10,749 stars** 登顶，OpenAI Codex 同日获得 **+2,390 stars**，两大顶级实验室的终端编码 Agent 形成直接竞争。微软开源 VibeVoice 进军语音 AI 前沿，Google TimesFM 持续巩固时序预测基础设施。社区生态层面，Claude Code 的教程、插件、记忆扩展项目迅速涌现，显示开发者对"自然语言驱动开发"的强烈需求。
 
 ---
 
-### **社区关注热点**  
-- **Claude Code 生态体系**：作为首个真正实现“终端自主编码”的 AI 代理，其文档、插件与最佳实践将深刻影响未来开发工具形态，建议重点关注其演进路径与 MCP 集成能力。  
-- **时间序列基础模型（TimesFM）**：Google 首次开源面向时序预测的统一大模型，有望在 IoT、金融等领域复制 BERT/GPT 的成功路径，值得跟踪其应用场景拓展。  
-- **Agent 记忆机制创新**：mem0 与 claude-mem 展示了如何通过轻量记忆层增强 Agent 持续性，这是实现真正“长期智能”的关键瓶颈，相关技术栈或成未来投资热点。  
-- **低资源 LLM 训练框架**：minimind 证明 64M 参数模型亦可具备实用能力，结合 LoRA、QLoRA 等微调技术，将极大降低个人与中小企业进入大模型研发的门槛。  
-- **向量数据库性能竞赛**：Milvus、Qdrant 等持续优化 ANN 搜索效率，而 LEANN 提出近 97% 存储节省的新范式，凸显 RAG 系统向极致效率演进的趋势。
+### 2. 各维度热门项目
+
+#### 🔧 AI 基础工具
+
+| 项目 | Stars | 今日新增 | 一句话说明 |
+|:---|:---|:---|:---|
+| [anthropics/claude-code](https://github.com/anthropics/claude-code) | — | **+10,749** | Anthropic 官方终端 Agent 工具，支持代码理解、Git 工作流、自然语言命令，今日爆发登顶 |
+| [openai/codex](https://github.com/openai/codex) | — | **+2,390** | OpenAI 轻量级终端编码 Agent，Rust 构建，与 Claude Code 正面竞争 |
+| [ollama/ollama](https://github.com/ollama/ollama) | 166,702 | — | 本地大模型运行基础设施，已支持 Kimi-K2.5、GLM-5、MiniMax 等前沿模型 |
+| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 74,939 | — | 高吞吐 LLM 推理引擎，生产级 Serving 标准方案 |
+| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 131,968 | — | Agent 工程平台，从编排框架向"Agent 操作系统"演进 |
+| [langgenius/dify](https://github.com/langgenius/dify) | 135,376 | — | 生产级 Agent 工作流开发平台，企业落地首选 |
+
+#### 🤖 AI 智能体/工作流
+
+| 项目 | Stars | 今日新增 | 一句话说明 |
+|:---|:---|:---|:---|
+| [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 46,394 | — | "Bash is all you need"——从零构建 Claude Code 类 Agent  harness，极简主义代表 |
+| [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | 130,942 | — | Agent harness 性能优化系统，涵盖技能、本能、记忆、安全与研究优先开发 |
+| [browser-use/browser-use](https://github.com/browser-use/browser-use) | 85,516 | — | 让网站对 AI Agent 可访问，浏览器自动化的事实标准 |
+| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 70,383 | — | AI 驱动开发平台，端到端软件工程 Agent |
+| [activepieces/activepieces](https://github.com/activepieces/activepieces) | 21,511 | — | AI 工作流自动化，集成 ~400 个 MCP server，Agent 与 MCP 深度结合 |
+| [trycua/cua](https://github.com/trycua/cua) | 13,353 | — | Computer-Use Agent 开源基础设施，支持 macOS/Linux/Windows 桌面控制 |
+| [e2b-dev/E2B](https://github.com/e2b-dev/E2B) | 11,532 | — | 企业级 Agent 安全沙箱环境，真实工具集成 |
+
+#### 📦 AI 应用
+
+| 项目 | Stars | 今日新增 | 一句话说明 |
+|:---|:---|:---|:---|
+| [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) | — | **+1,685** | 微软开源前沿语音 AI，可能是对标 Sesame/GPT-4o 实时语音的新作 |
+| [open-webui/open-webui](https://github.com/open-webui/open-webui) | 129,568 | — | 用户友好的 AI 界面，Ollama/OpenAI API 统一接入 |
+| [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 42,724 | — | AI 生产力工作室，智能聊天 + 自主 Agent + 300+ 助手 |
+| [zhayujie/chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat) | 42,698 | — | CowAgent 超级 AI 助理，支持微信/飞书/钉钉/企微/QQ 全平台接入 |
+| [f/prompts.chat](https://github.com/f/prompts.chat) | 155,987 | **+398** | 社区驱动提示词平台，支持私有化部署，今日 Trending  resurgence |
+| [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) | — | **+3,301** | Claude Code 可视化教程，从基础到高级 Agent 的即插即用模板 |
+
+#### 🧠 大模型/训练
+
+| 项目 | Stars | 今日新增 | 一句话说明 |
+|:---|:---|:---|:---|
+| [huggingface/transformers](https://github.com/huggingface/transformers) | 158,653 | — | 模型定义框架，覆盖文本/视觉/音频/多模态，推理与训练统一 |
+| [pytorch/pytorch](https://github.com/pytorch/pytorch) | 98,725 | — | 动态神经网络框架，AI 研究的基础设施基石 |
+| [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | 89,747 | — | 从零实现 ChatGPT 类 LLM，教育领域标杆项目 |
+| [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | 69,352 | — | 100+ LLM/VLM 统一高效微调（ACL 2024） |
+| [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 45,295 | — | 2 小时从零训练 64M 参数 GPT，大模型教育极简方案 |
+| [google-research/timesfm](https://github.com/google-research/timesfm) | — | **+380** | Google 时间序列基础模型，时序预测领域的 "BERT" |
+
+#### 🔍 RAG/知识库
+
+| 项目 | Stars | 今日新增 | 一句话说明 |
+|:---|:---|:---|:---|
+| [run-llama/llama_index](https://github.com/run-llama/llama_index) | 48,208 | — | 文档 Agent 与 OCR 平台，RAG 向 Agent 化演进 |
+| [milvus-io/milvus](https://github.com/milvus-io/milvus) | 43,553 | — | 云原生高性能向量数据库，可扩展 ANN 搜索 |
+| [qdrant/qdrant](https://github.com/qdrant/qdrant) | 29,970 | — | 高性能大规模向量数据库，下一代 AI 向量搜索引擎 |
+| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | 76,815 | — | RAG + Agent 融合引擎，构建 LLM 优质上下文层 |
+| [mem0ai/mem0](https://github.com/mem0ai/mem0) | 51,705 | — | AI Agent 通用记忆层，跨会话长期记忆 |
+| [topoteretes/cognee](https://github.com/topoteretes/cognee) | 14,848 | — | 6 行代码构建 AI Agent 记忆知识引擎 |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 44,412 | — | Claude Code 记忆插件，自动捕获会话上下文并注入未来会话 |
 
 ---
-*本日报由 [agents-radar](https://github.com/DenisZheng/agents-radar) 自动生成。*
+
+### 3. 趋势信号分析（约 280 字）
+
+**终端 Agent 工具进入"双寡头"竞争时代**：Anthropic Claude Code 与 OpenAI Codex 同日高热，标志着"自然语言驱动软件开发"从实验走向主流。两者均选择**终端（Terminal）**作为核心交互界面，而非 IDE 插件或 Web UI，反映开发者对**工作流无缝集成**的偏好——代码、Git、Shell 命令在同一上下文完成。
+
+**技术栈信号**：Codex 采用 Rust 构建，Claude Code 基于 Shell/TypeScript，性能与可扩展性成为差异化焦点。社区迅速涌现 **Agent harness** 优化（everything-claude-code）、**记忆层扩展**（claude-mem）、**极简复现**（learn-claude-code）三类生态项目，显示开发者从"使用工具"转向"定制基础设施"。
+
+**关联事件**：微软 VibeVoice 开源恰逢 GPT-4o 实时语音 API 扩展，语音 AI 开源化加速；Google TimesFM 持续更新巩固其在时序预测的基础设施地位。整体看，**2026 Q1 的"Agent 基建"浪潮**在 Q2 首日达到新高度，开发者注意力正从"模型能力"转向"工程化落地"。
+
+---
+
+### 4. 社区关注热点
+
+- **🔥 Claude Code 生态爆发**  
+  单日 +10,749 stars 创近期纪录，配套教程（claude-howto +3,301）、记忆插件（claude-mem）、性能优化框架（everything-claude-code）同步涌现，建议关注其 MCP 协议扩展能力。
+
+- **⚔️ Codex vs Claude Code 技术选型**  
+  Rust 构建的 Codex 在性能上有潜在优势，但 Claude Code 的先发生态更成熟。建议团队根据现有技术栈（Python/Node vs Rust）和 Anthropic/OpenAI API 偏好做决策。
+
+- **🎙️ 语音 AI 开源化拐点**  
+  微软 VibeVoice 入局，结合此前 Fish Speech、F5-TTS 等开源项目，实时语音合成/识别的开源方案正在逼近闭源商业产品，建议关注其与 WebRTC 的集成方案。
+
+- **🧠 "Agent 记忆"成为独立赛道**  
+  mem0、cognee、claude-mem 等项目显示，跨会话记忆正从 RAG 子功能演变为独立基础设施，长期记忆 + 上下文压缩是技术难点。
+
+- **📊 时序基础模型持续演进**  
+  Google TimesFM 保持活跃更新，金融、IoT、运维场景的时序预测需求推动该领域从统计模型向 Foundation Model 迁移，建议关注其与 LangChain/LlamaIndex 的集成案例。
+
+---
+
+*报告生成时间：2026-04-02*  
+*数据来源：GitHub Trending & Search API*
+
+---
+*本日报由 [agents-radar](https://github.com/duanyytop/agents-radar) 自动生成。*

@@ -1,84 +1,150 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code v2.1.98发布，新增Vertex AI向导支持",
-      "OpenAI Codex rust-v0.119.0-alpha.29迭代更新",
-      "Gemini CLI v0.37.1补丁修复内存泄漏问题",
-      "GitHub Copilot CLI持续优化MCP集成与模型适配",
-      "Kimi Code CLI强化终端交互与特定模型深度支持",
-      "OpenCode开放API插件钩子增强可定制性"
+      "Claude Code v2.1.98发布，\"Bring Back Buddy\"运动爆发",
+      "OpenAI Codex rust-v0.119.0-alpha高频迭代，Token计费争议持续",
+      "Gemini CLI v0.39.0-nightly推AST感知架构",
+      "Kimi Code CLI认证系统四连发PR，n-WN贡献者活跃",
+      "Pi今日最活跃：44 Issues/15 PRs，Gemma 4/Codex新模型支持",
+      "Qwen Code PR数第一：50条，Agent Team实验功能上线"
     ],
     "ai-agents": [
-      "OpenClaw v2026.4.9正式版发布，记忆系统重大重构升级",
-      "OpenClaw新增grounded REM backfill lane支持历史数据回放",
-      "OpenClaw集成diary commit/reset流程优化事实提取",
-      "OpenClaw live short-term promotion实现旧笔记无缝重放",
-      "OpenClaw gateway启动边界拆分提升模块解耦度",
-      "OpenClaw修复全局npm安装QA环境崩溃关键Bug"
+      "OpenClaw v2026.4.9发布：REM回填通道重大升级",
+      "500 Issues+500 PRs：安装回归问题集中爆发",
+      "@buape/carbon模块缺失致大量用户安装失败",
+      "网关架构重构、浏览器工具统一化大型PR推进",
+      "记忆/梦境系统实时短期记忆晋升集成",
+      "qa/scenarios/index.md缺失崩溃紧急修复中"
     ],
     "ai-trending": [
-      "Hermes-Agent单日+6,485 stars领跑Trending，Agent-native框架爆发",
-      "Ollama支持Kimi-K2.5等前沿模型本地部署，降低LLM门槛",
-      "vllm高吞吐推理引擎助力生产级AI应用核心基础设施",
-      "browser-use让AI自主浏览网页，打通Web交互与Agent能力",
-      "infiniflow/ragflow融合RAG与Agent，企业级知识处理平台",
-      "mem0ai/mem0为AI代理提供统一记忆层，解决上下文持久化"
+      "Hermes Agent 6485星登顶：可成长型Agent框架",
+      "Andrej Karpathy Skills 1364星：单文件优化Claude Code",
+      "Archon 185星：首个开源AI编程Harness构建器",
+      "Superpowers 2299星：Agentic技能框架与工程方法论",
+      "OpenDataLoader PDF 1124星：AI就绪PDF解析器",
+      "Claudian：Obsidian插件形成完整Claude工具链"
     ],
     "ai-web": [
-      "Anthropic推出Claude for Healthcare，HIPAA合规医疗解决方案",
-      "Anthropic增强生命科学功能，连接更多科学平台",
-      "Anthropic发布可信代理实践研究，强调五大治理原则",
-      "OpenAI官网暂无新增内容更新"
+      "Claude for Healthcare HIPAA就绪方案正式发布",
+      "Trustworthy agents in practice首次披露Agent安全治理框架",
+      "Claude Opus 4.5医疗基准SpatialBench表现突出",
+      "Claude Cowork跨应用任务执行安全决策详解",
+      "Anthropic医疗-生命科学双轨战略落地",
+      "OpenAI官网今日无新增内容"
     ],
     "ai-hn": [
-      "Anthropic新模型Mythos定位网络安全'变革者'能力惊人",
-      "Vercel Claude Code插件读取用户提示词引隐私担忧",
-      "Control X/Twitter feed using on-device LLM获关注",
-      "OpenAI Stargate项目变脸引发能源成本监管争议",
-      "Anthropic内部报告解释为何不公开危险Mythos模型",
-      "社区热议AI代理安全权衡与大型科技公司商业行为"
+      "Vercel插件被曝读取用户提示词：252分101评论引爆隐私争议",
+      "Anthropic估值或翻倍至300亿ARR：社区冷淡零评论",
+      "Mythos模型244页安全报告：社区对AI危险论脱敏",
+      "OpenAI搁置英国Stargate项目：能源成本与监管压力",
+      "7个Show HN项目爆发：本地LLM到API修复基础设施",
+      "Imbue Bouncer：本地运行Twitter过滤器边缘AI实用化"
+    ],
+    "ai-ph": [
+      "Velo 630票登顶：异步视频消息工具强势领跑",
+      "MindsDB Anton 187票：首款行动型BI智能体",
+      "Browser Arena 175票：云浏览器基础设施开源基准",
+      "Mo 95票：Slack决策记录打通GitHub PR防脱节",
+      "Zoho CRM AI化改造加速渗透",
+      "7款生产力+开发者工具主导榜单"
+    ],
+    "ai-arxiv": [
+      "How Much LLM Does Self-Revising Agent Actually Need：小模型组合挑战越大越好范式",
+      "TraceSafe：多步工具调用轨迹安全护栏首次系统评估",
+      "Personalized RewardBench：首个个性化价值对齐评估基准",
+      "Android Coach：单状态多动作提升在线Agent训练效率",
+      "Spatial Intelligence Data Engine：空间智能数据引擎",
+      "Split Learning频域压缩：边缘部署能效优化"
+    ],
+    "ai-hf": [
+      "Jackrong Qwen3.5-Claude蒸馏模型2542点赞登顶",
+      "Google Gemma-4系列8个变体霸榜半壁江山",
+      "Netflix void-model首开源：影视级视频修复",
+      "NVIDIA Gemma-4-31B-IT-NVFP4：显存降50%",
+      "Bonsai-8B 1-bit量化：端侧部署新阶段",
+      "Zai-org GLM-5.1：MoE+DSA架构参数效率双提升"
+    ],
+    "ai-community": [
+      "Vibe Coding持续升温：AI是这一代人的智能手机",
+      "M1 MacBook离线AI编码代理：0 API成本零云",
+      "AI Agent放入事故工作流7天：真实故障模式",
+      "代码审查革命：人类从找bug转向架构把关",
+      "AI 2天重写Go引擎为Rust：60+文件零捷径",
+      "80% RAG失败源于此处：非LLM问题"
     ]
   },
   "en": {
     "ai-cli": [
-      "Claude Code v2.1.98 stable with enterprise readiness lead",
-      "OpenAI Codex alpha v0.119.0-alpha.29 in active development",
-      "Kimi Code CLI focuses on input resilience and localization",
-      "GitHub Copilot CLI shows low activity despite stability",
-      "Qwen Code offers nightly builds only with no official release",
-      "All tools report ~10 hot issues across the ecosystem"
+      "Claude Code v2.1.98 ships with Vertex wizard",
+      "OpenAI Codex hits rate-limit crisis: 501 comments",
+      "Kimi Code CLI migrates to Bun/TypeScript",
+      "/buddy command removal sparks 253 👍 backlash",
+      "Codex releases 5 alpha builds in 24 hours",
+      "Memory management emerges as key battleground"
     ],
     "ai-agents": [
-      "OpenClaw v2026.4.9 released with memory system enhancements",
-      "New beta version of OpenClaw adds grounded REM backfill lanes",
-      "Durable fact extraction integrated into daily notes workflow",
-      "Live short-term promotion allows replaying old notes into Dreams",
-      "Installation instability affects user onboarding despite high velocity",
-      "500 issues and 500 PRs updated in last 24 hours"
+      "OpenClaw releases v2026.4.9 with dreaming infrastructure",
+      "500 issues and 500 PRs in single day",
+      "Critical npm regression: missing @buape/carbon",
+      "Community debates ERC-8004 agent identity standards",
+      "Grounded REM backfill lane for memory replay",
+      "Gateway seam splitting architectural refactor"
     ],
     "ai-trending": [
-      "Hermes Agent leads with 6,485 new stars from NousResearch",
-      "Archon TypeScript project gains traction for repeatable AI coding",
-      "claudian Obsidian plugin integrates Claude Code workflows",
-      "Ollama now supports Kimi-K2.5 and GPT-OSS models locally",
-      "vLLM enables high-throughput LLM serving at scale",
-      "OpenHands platform empowers autonomous software engineering agents"
+      "Hermes Agent gains 6,485 stars in one day",
+      "Claude Code ecosystem tools explode in popularity",
+      "obra/superpowers: 2,299 stars for agentic skills",
+      "Archon launches first open-source harness builder",
+      "Tokenizer-free TTS: OpenBMB/VoxCPM trending",
+      "Kronos financial foundation model emerges"
     ],
     "ai-web": [
-      "Anthropic launches HIPAA-ready 'Claude for Healthcare' solution",
-      "New governance framework outlines 5 principles for trustworthy agents",
-      "OpenAI shows no new public content as of April 10",
-      "Claude Opus 4.5 excels in medical simulation reasoning tasks",
-      "Life sciences integration expanded for clinical trial support",
-      "Trustworthy Agents in Practice research paper published"
+      "Anthropic launches Claude for Healthcare HIPAA platform",
+      "Trustworthy Agents in Practice research published",
+      "OpenAI publishes zero articles today",
+      "Clinical trial management added to Life Sciences",
+      "Anthropic's dual-track vertical strategy executes",
+      "Governance credibility push ahead of regulation"
     ],
     "ai-hn": [
-      "OpenAI halts UK Stargate project due to energy costs and regulation",
-      "Vercel's Claude Code plugin raises telemetry and privacy concerns",
-      "Community debates cybersecurity risks of unreleased Anthropic model Mythos",
-      "Show HN explores sandboxed AI agent environments and API tools",
-      "Discussions focus on corporate transparency in AI infrastructure",
-      "Practical applications of autonomous AI agents gaining attention"
+      "Claude Code Vercel plugin telemetry risks exposed",
+      "Anthropic rumored at $30B ARR, IPO speculation",
+      "Mythos model: 244-page safety doc summarized",
+      "OpenAI withdraws from UK Stargate project",
+      "Autonomous agents hit production workflows",
+      "Community wary of vendor lock-in, surveillance"
+    ],
+    "ai-ph": [
+      "Velo leads with 630 votes for async video AI",
+      "MindsDB Anton: BI that acts, not just answers",
+      "Career-Ops builds on Claude directly",
+      "Browser Arena open-source cloud benchmarks",
+      "MindsDB open-sources autonomous BI agent",
+      "Practical productivity tools dominate launches"
+    ],
+    "ai-arxiv": [
+      "Personalized RewardBench for pluralistic alignment",
+      "TraceSafe assesses LLM guardrails on tool-calling",
+      "Energy-aware Gaussian splatting for edge devices",
+      "Elastic test-time training for 3D reconstruction",
+      "Teaching resistance to automation studied",
+      "Safe GenAI deployment in education explored"
+    ],
+    "ai-hf": [
+      "Gemma 4 family dominates: 31B, 26B-A4B, E4B variants",
+      "Qwen3.5-Claude distillate hits 2,542 likes",
+      "Jackrong's reasoning model tops community fine-tunes",
+      "Netflix enters Hub with video editing model",
+      "Baidu launches OCR on Hugging Face",
+      "Unsloth quantizes Gemma and GLM families"
+    ],
+    "ai-community": [
+      "Vibe coding emerges as cultural phenomenon",
+      "AI agent in incident workflow breaks unexpectedly",
+      "Code review becomes most critical skill",
+      "RAG failures are new debugging frontier",
+      "Cloud vs local AI workflows tension rises",
+      "Memory systems challenge operationalizes"
     ]
   }
 }

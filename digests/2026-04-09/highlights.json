@@ -1,4 +1,150 @@
 {
-  "zh": {},
-  "en": {}
+  "zh": {
+    "ai-cli": [
+      "Claude Code Max套餐计费危机引478条评论",
+      "OpenAI Codex rust-v0.119.0-alpha.19~24密集迭代",
+      "Gemini CLI v0.37.0→v0.39.0-nightly三版本连发",
+      "Kimi Code CLI TypeScript重写提案引发讨论",
+      "OpenCode v1.4.0 SDK Breaking Changes发布",
+      "Qwen Code v0.14.2紧急修复VS Code白屏"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.8紧急修复打包崩溃",
+      "CLI推理中心openclaw infer全新上线",
+      "连续三版本npm打包缺陷致信任危机",
+      "Telegram插件启动失败已修复",
+      "OpenRouter模型选择器引用错误修复",
+      "500条Issues+500条PRs高活跃度"
+    ],
+    "ai-trending": [
+      "obra/superpowers +2028 stars登顶增速冠军",
+      "Google gallery+LiteRT-LM双端侧项目获1354 stars",
+      "Claude Code衍生生态形成工具链集群",
+      "seomachine等SEO工具涌现",
+      "Andrej Karpathy技能库上榜",
+      "NVIDIA personaplex角色AI项目"
+    ],
+    "ai-web": [
+      "Anthropic发布Managed Agents托管服务",
+      "脑手分离架构解决模型迭代脆弱性",
+      "劳动市场研究提出observed exposure新指标",
+      "情绪概念可解释性研究揭示Claude内部机制",
+      "OpenAI企业AI与儿童安全框架更新",
+      "Claude Platform正式对标Assistants API"
+    ],
+    "ai-hn": [
+      "Anthropic成社区焦虑绝对焦点",
+      "Claude Code质量下滑遭质疑",
+      "Mythos模型危险标签引争议",
+      "Bonsai 8B 1-bit量化仅1.15GB",
+      "2019年GPT-2拒发旧闻意外登顶",
+      "AI写12分钟修10小时反思"
+    ],
+    "ai-ph": [
+      "NovaVoice 559票登顶语音交互榜首",
+      "Google AI Edge Eloquent离线语音方案",
+      "Caret Tab键全系统AI嵌入",
+      "Lessie AI企业销售自动化",
+      "OpenOwl本地API自动化",
+      "MCP生态产品开始涌现"
+    ],
+    "ai-arxiv": [
+      "In-Place Test-Time Training突破静态范式",
+      "Multi-Token Prediction挑战下一个token",
+      "Claw-Eval提出可信智能体评估框架",
+      "Paper Circle开源多智能体科研框架",
+      "Social Dynamics揭示LLM集体脆弱性",
+      "Short Data Long Context知识蒸馏新法"
+    ],
+    "ai-hf": [
+      "Gemma-4-31B-it 110万下载量霸榜",
+      "Gemma-4-26B-A4B-it 835万下载量第二",
+      "Jackrong Qwen3.5蒸馏模型25万点赞",
+      "Bonsai-8B-gguf 1-bit极致量化",
+      "Uncensored模型下载量逼近百万",
+      "Netflix void-model视频生成新面孔"
+    ],
+    "ai-community": [
+      "Claude Mythos发现OpenBSD 27年陈年老bug",
+      "MCP生态从概念验证走向生产治理",
+      "AIMock解决AI API测试token浪费",
+      "DBmaestro MCP Server落地数据库运维",
+      "AI写代码后认知失调引发共鸣",
+      "Vibecoding可维护性焦虑升温"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code drops v2.1.96–97 rapid patches",
+      "OpenAI Codex alpha sprint: 6 releases (.19–.24)",
+      "Gemini CLI launches stable + nightly dual track",
+      "Kimi Code CLI hits pre-release development phase",
+      "OpenCode v1.4.0 introduces breaking changes",
+      "Community demands billing transparency across tools"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues/PRs in 24 hours",
+      "v2026.4.8 hotfix patches npm packaging failures",
+      "Windows ESM path issues spark regression reports",
+      "Community debates Linux/Windows app expansion",
+      "Real-time voice capabilities under discussion",
+      "Maintainer team shows rapid patch responsiveness"
+    ],
+    "ai-trending": [
+      "obra/superpowers surges +2,028 stars today",
+      "Google's LiteRT-LM gains +501 stars for edge AI",
+      "GitNexus +980 stars for client-side Graph RAG",
+      "Agentic skills framework defines new methodology",
+      "Claude Code ecosystem dominates skill frameworks",
+      "In-browser AI tools bypass server dependency"
+    ],
+    "ai-web": [
+      "Anthropic drops 3 major articles in one day",
+      "Managed Agents decouple 'brain' from 'hands'",
+      "Labor economics paper debuts 'observed exposure'",
+      "Claude Sonnet 4.5 emotion concepts research",
+      "OpenAI content limited to metadata-only URLs",
+      "Unusual info asymmetry in competitive narrative"
+    ],
+    "ai-hn": [
+      "Claude Mythos deemed 'too dangerous to release'",
+      "Anthropic billing support failures spark outrage",
+      "Alleged Claude model degradation debated heavily",
+      "Meta Muse model enters frontier race",
+      "OpenAI Codex pricing changes draw scrutiny",
+      "Hidden costs of AI-generated code exposed"
+    ],
+    "ai-ph": [
+      "NovaVoice leads with 559 votes for voice control",
+      "Google AI Edge Eloquent targets offline dictation",
+      "AI Designer MCP pushes agent interoperability",
+      "Caret brings Tab-triggered AI to any Mac text field",
+      "Lessie AI drives 144 comments in sales automation",
+      "MCP tools emerge as developer priority"
+    ],
+    "ai-arxiv": [
+      "In-Place Test-Time Training enables dynamic adaptation",
+      "Target Policy Optimization stabilizes RL training",
+      "Exclusive Unlearning preserves capability, erases harm",
+      "MMEmb-R1 advances reasoning-enhanced multimodal",
+      "Claw-Eval and ACE-Bench mature agent evaluation",
+      "ROTATE tool dissects MLP weights mechanistically"
+    ],
+    "ai-hf": [
+      "Gemma 4 family captures 10 of top 30 spots",
+      "Gemma-4-31B-it hits 1.1M downloads in week",
+      "Qwen3.5-Claude reasoning distillation trends",
+      "Unsloth GGUF conversions enable local deployment",
+      "Gemma-4-E4B pushes any-to-any multimodal",
+      "Chinese labs challenge Western model dominance"
+    ],
+    "ai-community": [
+      "MCP dominates as agent infrastructure layer",
+      "Claude Mythos finds decades-old security bugs",
+      "Vibecoding discourse matures to architectural critique",
+      "AIMock eliminates flaky CI for AI testing",
+      "DBmaestro MCP brings agents to databases",
+      "Developers seek control over AI-assisted workflows"
+    ]
+  }
 }

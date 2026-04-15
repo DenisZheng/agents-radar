@@ -1,70 +1,118 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code v2.1.92发布，开源引发热议但token消耗遭质疑",
-      "OpenAI Codex Rust版v0.119-alpha推进WebRTC实时交互功能",
-      "Gemini CLI新增自动保存聊天历史，Agent可靠性受社区讨论",
-      "GitHub Copilot CLI v1.0.18发布，实验性Critic agent登场",
-      "Kimi Code CLI重构为Bun+TS，跨设备控制需求旺盛获关注",
-      "OpenCode v1.3.15修复npm安装问题，代理支持呼声持续高涨"
+      "Claude Code v2.1.92 发布，Bedrock 向导上线",
+      "OpenAI Codex v0.119 实时语音架构重大升级",
+      "Qwen Code 单日 28 PR，性能优化密集",
+      "Gemini CLI API 限流 P0 危机引热议",
+      "Kimi CLI 侧边提问 /btw 功能创新",
+      "OpenCode v1.3.15 连发修复 Windows 插件"
     ],
     "ai-agents": [
-      "OpenClaw处理500条PR/Issue，插件边界加固与国际化持续推进",
-      "PR#60923修复CLI参数错误返回0退出码的关键缺陷",
-      "PR#58955解耦内部执行提示与用户可见延迟交付逻辑",
-      "PR#61088稳定Telegram插件SDK测试，解决导入副作用问题",
-      "PR#59231系列实现ACP代理会话交接与DM绑定功能增强",
-      "Issue#3460聚焦MCP客户端集成与Web UI本地化改进"
+      "OpenClaw 24h 500 Issues + 500 PR 极高活跃",
+      "ACP 子代理生态闭环：close-self CLI 上线",
+      "Telegram 成 ACP 完全支持渠道",
+      "执行安全简化与本地化体验双主线推进",
+      "MCP 原生支持呼声高但暂无官方承诺",
+      "Discord 语音、iMessage 循环等稳定性问题持续"
     ],
     "ai-trending": [
-      "Blaizzy/mlx-vlm单日涨343星，苹果MLX生态VLM推理强劲崛起",
-      "微软agent-framework获72星增长，统一智能体开发框架受瞩目",
-      "onyx-dot-app融合RAG与Agent技术构建下一代生产力平台",
-      "block/goose成为AI智能体工作流新热点项目",
-      "Yeachan-Heo/oh-my-codex专注多LLM支持的工作流工具创新",
-      "microsoft/agent-framework支持Python/.NET双语言智能体开发"
+      "block/goose Rust AI Agent 框架上榜",
+      "microsoft/agent-framework 官方 Agent 框架发布",
+      "dify 工作流平台持续热门",
+      "langchain 基础工具地位稳固",
+      "ragflow RAG 知识库方案受关注",
+      "mem0 记忆层方案进入视野"
     ],
     "ai-hn": [
-      "Anthropic研究情感概念影响模型行为获135分热议",
-      "sllm共享GPU节点服务获117分关注，无限令牌降低开发成本",
-      "vLLM长上下文推理内存优化更新获技术社区关注",
-      "OpenAI股权泄露显示微软获得18倍回报引发产业讨论",
-      "Claude 3.7在复杂代码生成任务表现优异获开发者青睐",
-      "AI安全研究获102分高分，伦理治理成社区焦点话题"
+      "Anthropic LLM 情绪概念研究 135 分登顶",
+      "GPU 共享工具 sllm 114 分引商业模式激辩",
+      "Karpathy 分享 LLM 知识管理工作流",
+      "vLLM 长上下文内存优化更新",
+      "OpenAI 股权结构泄露成产业焦点",
+      "数据中心建设放缓暗示基建泡沫"
+    ],
+    "ai-ph": [
+      "Google Gemma 4 开源模型 412 票领跑",
+      "Cursor 3 首发并行本地/云端 Agent 工作空间",
+      "阿里云 Qwen3.6-Plus 紧随其后发布",
+      "ZooClaw 多 Agent 团队协作方案 372 票",
+      "Straude 将 Vibe coding 文化产品化",
+      "ChatGPT on CarPlay 切入车载语音场景"
+    ],
+    "ai-hf": [
+      "Jackrong Qwen3.5 蒸馏 Claude 推理 2289 点赞登顶",
+      "Google Gemma-4 全系列铺开 31B 旗舰",
+      "HauhauCS 去审查模型下载超 70 万",
+      "Chroma 首发自研长上下文检索模型",
+      "Netflix 罕见开源视频修复模型",
+      "1-bit 量化 Bonsai-8B 端侧部署落地"
+    ],
+    "ai-community": [
+      "Intelligence-per-Token 成本优化新指标",
+      "AI 编码 Agent 监督模式防文件冲突",
+      "伪装 AI 工具供应链攻击完整复盘",
+      "eslint-plugin-llm-core 20 规则防 AI 代码缺陷",
+      "Gemma 4 Cloud Run 无服务器部署教程",
+      "Vibecoding 现象引学术化反思"
     ]
   },
   "en": {
     "ai-cli": [
-      "Claude Code v2.1.92 adds remote settings and Bedrock wizard support",
-      "OpenAI Codex releases 3 Rust alphas (v0.119.0-alpha.8–11)",
-      "Kimi Code CLI pushes Bun/TypeScript rewrite with episodic context manager",
-      "OpenCode introduces agentic workflows with real-time streaming metrics",
-      "Qwen Code enhances cross-platform reliability for enterprise WSL environments",
-      "Gemini CLI fixes critical Windows API throttling issue"
+      "Claude Code v2.1.92 adds enterprise policy controls",
+      "OpenAI Codex ships 3 alphas in 24 hours",
+      "Codex migrates to Rust CLI with WebRTC",
+      "Kimi Code CLI proposes Bun runtime rewrite",
+      "Token metering emerges as universal pain point",
+      "Rust vs TypeScript runtime debate intensifies"
     ],
     "ai-agents": [
-      "OpenClaw hits 500 issues/PRs in 24h with focus on stability & i18n",
-      "PR #61088 stabilizes Telegram plugin-sdk test boundaries",
-      "PR #59231 improves ACP agent session handback capabilities",
-      "PR #61061 prevents import-side effects via lazy-loading",
-      "PR #54302 recognizes 'new'/'reset' as session commands outside Slack",
-      "IronClaw and NanoBot lead multi-agent orchestration development"
+      "OpenClaw: 500 issues, 500 PRs in 24 hours",
+      "ACP protocol refinements top maintainer priority",
+      "Regression density elevated post-2026.3.28",
+      "Plugin SDK hardening drives stabilization phase",
+      "Cross-platform desktop apps in high demand",
+      "MCP protocol support requested by community"
     ],
     "ai-trending": [
-      "MLX-VLM surges +343 stars for local VLM inference on Apple Silicon",
-      "goose by Block trends with +935 stars as extensible AI agent",
-      "microsoft/agent-framework gains traction for multi-agent systems",
-      "onyx evolves RAG into autonomous task-execution agents",
-      "ollama now supports Kimi-K2.5 and DeepSeek models locally",
-      "vllm maintains top-tier throughput for GPU-optimized LLM inference"
+      "OmX gains +1,789 stars as breakout project",
+      "Block's Goose agent hits +935 stars",
+      "Microsoft launches agent-framework for enterprise",
+      "mlx-vlm debuts with +343 Apple Silicon stars",
+      "Composability beats chat in 2026 demand",
+      "Local-first AI agents dominate developer interest"
     ],
     "ai-hn": [
-      "Anthropic's emotion concepts paper sparks debate on LLM cognition",
-      "sllm.cloud Show HN enables decentralized GPU sharing with unlimited tokens",
-      "OpenAI cap table leak fuels Microsoft return speculation",
-      "Tokencap rises as privacy-focused agentic workflow tool",
-      "UCLA study affirms LLMs lack embodied experience despite descriptive ability",
-      "Data center bottlenecks raise concerns in AI infrastructure discussions"
+      "Anthropic emotion research sparks 140 comments",
+      "Microsoft's 18x return revealed in cap table",
+      "Half of US data center builds face delays",
+      "sllm.cloud gains traction for GPU sharing",
+      "Developer ban controversy hits Anthropic",
+      "Show HN clusters on token management tools"
+    ],
+    "ai-ph": [
+      "Google Gemma 4 leads with 412 votes",
+      "Cursor 3 unifies local/cloud agent execution",
+      "Straude gamifies Claude Code with leaderboards",
+      "ZooClaw consolidates AI specialists at 372 votes",
+      "AI-native IDEs mature toward orchestration",
+      "Developer tooling dominates consumer apps"
+    ],
+    "ai-hf": [
+      "Gemma-4 31B hits 287K downloads in debut",
+      "Qwen3.5-Claude distillate tops at 2,289 likes",
+      "Unsloth GGUF ports see massive volumes",
+      "Netflix enters open model with video inpainting",
+      "Cohere expands into speech recognition",
+      "1-bit compression research from prism-ml"
+    ],
+    "ai-community": [
+      "$3M bet on 12-day-old AI startup closes",
+      "Intelligence-per-token becomes 2026's key metric",
+      "Fake AI tool deletes 150 repos in attack",
+      "OpenAI raises $122B at $852B valuation",
+      "Gemma 4 tutorials flood developer blogs",
+      "Vibecoding debate splits code quality camps"
     ]
   }
 }

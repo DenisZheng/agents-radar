@@ -84,7 +84,7 @@
 
     /* ── Sidebar ── */
     #sidebar {
-      width: 222px; flex-shrink: 0;
+      width: 300px; flex-shrink: 0;
       background: var(--bg-side); border-right: 1px solid var(--border);
       overflow-y: auto; padding: 10px 0;
     }
@@ -109,10 +109,24 @@
       min-height: 14px; margin-top: 4px;
       font-size: 9px; letter-spacing: 0.04em; color: var(--dim);
     }
+    /* ── Month group ── */
+    .month-hdr {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 6px 14px; cursor: pointer;
+      font-size: 12px; font-weight: 700; color: var(--dim);
+      letter-spacing: 0.08em; text-transform: uppercase;
+      transition: color 0.15s; user-select: none;
+    }
+    .month-hdr:hover { color: var(--muted); }
+    .month-hdr.lit { color: var(--accent); }
+    .month-body { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
+    .month-group.open .month-body { max-height: 9999px; }
+    .month-group.open > .month-hdr .arr { transform: rotate(90deg); }
+
     .date-hdr {
       display: flex; align-items: center; justify-content: space-between;
-      padding: 5px 14px; cursor: pointer;
-      font-size: 11px; font-weight: 700; color: var(--muted);
+      padding: 5px 14px 5px 22px; cursor: pointer;
+      font-size: 13px; font-weight: 700; color: var(--muted);
       letter-spacing: 0.04em; transition: color 0.15s; user-select: none;
     }
     .date-hdr:hover { color: var(--text); }
@@ -124,22 +138,22 @@
     .arr { font-size: 8px; transition: transform 0.2s; display: inline-block; }
     .date-group.open .arr { transform: rotate(90deg); }
     .rpt-list { max-height: 0; overflow: hidden; transition: max-height 0.25s ease; }
-    .date-group.open .rpt-list { max-height: 400px; }
+    .date-group.open .rpt-list { max-height: 600px; }
     .rpt-btn {
       display: block; width: 100%; padding: 5px 14px 5px 26px;
       background: none; border: none; border-left: 2px solid transparent;
-      text-align: left; cursor: pointer; font-family: inherit; font-size: 11px;
+      text-align: left; cursor: pointer; font-family: inherit; font-size: 13px;
       color: var(--muted); transition: color 0.1s, background 0.1s, border-color 0.1s;
     }
     .rpt-btn:hover { background: var(--bg-hover); color: var(--text); }
     .rpt-btn.active { color: var(--accent); border-left-color: var(--accent); background: var(--accent-bg); }
     .rpt-row { display: flex; align-items: center; padding: 5px 14px 5px 26px; }
-    .rpt-label { flex: 1; font-size: 11px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .rpt-label { flex: 1; font-size: 13px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .lang-btns { display: flex; gap: 3px; flex-shrink: 0; }
     .lang-btn {
       background: none; border: 1px solid var(--dim); color: var(--dim);
-      padding: 1px 5px; border-radius: 3px; cursor: pointer;
-      font-family: inherit; font-size: 9px; letter-spacing: 0.06em;
+      padding: 2px 7px; border-radius: 3px; cursor: pointer;
+      font-family: inherit; font-size: 11px; letter-spacing: 0.06em;
       transition: border-color 0.1s, color 0.1s;
     }
     .lang-btn:hover { border-color: var(--muted); color: var(--muted); }
@@ -294,6 +308,14 @@ const LABELS = {
   'ai-trending-en':  'GitHub AI Trends',
   'ai-hn':           'HN 社区动态',
   'ai-hn-en':        'HN Community Digest',
+  'ai-ph':           'Product Hunt AI',
+  'ai-ph-en':        'Product Hunt AI',
+  'ai-arxiv':        'ArXiv AI 研究',
+  'ai-arxiv-en':     'ArXiv AI Research',
+  'ai-hf':           'HF 热门模型',
+  'ai-hf-en':        'HF Trending Models',
+  'ai-community':    '技术社区 AI',
+  'ai-community-en': 'Tech Community AI',
 };
 
 // ── Theme ──
@@ -416,8 +438,18 @@ async function loadReport(date, report, push = true) {
     const hasActive = grp.querySelector('.rpt-btn.active') || grp.querySelector('.lang-btn.active');
     h.classList.toggle('lit', !!hasActive);
   });
+  document.querySelectorAll('.month-hdr').forEach(h => {
+    const mGrp = h.closest('.month-group');
+    const hasActive = mGrp.querySelector('.lang-btn.active') || mGrp.querySelector('.rpt-btn.active');
+    h.classList.toggle('lit', !!hasActive);
+  });
   document.querySelectorAll('.date-group').forEach(g => {
-    if (g.dataset.date === date) g.classList.add('open');
+    if (g.dataset.date === date) {
+      g.classList.add('open');
+      // Also open parent month group
+      const monthGrp = g.closest('.month-group');
+      if (monthGrp) monthGrp.classList.add('open');
+    }
   });
 
   // Close mobile sidebar
@@ -438,74 +470,111 @@ async function loadReport(date, report, push = true) {
   }
 }
 
+function buildDateGroup(date, reports, isFirst) {
+  const grp = document.createElement('div');
+  grp.className = 'date-group' + (isFirst ? ' open' : '');
+  grp.dataset.date = date;
+
+  const hdr = document.createElement('div');
+  hdr.className = 'date-hdr';
+  // Show only the day part (DD) since month is already in the parent header
+  const dayLabel = date.slice(8); // "03" from "2026-04-03"
+  const dateText = document.createTextNode(dayLabel + '\u00a0');
+  const arrSpan = document.createElement('span');
+  arrSpan.className = 'arr';
+  arrSpan.textContent = '▶';
+  hdr.appendChild(dateText);
+  hdr.appendChild(arrSpan);
+  hdr.onclick = () => grp.classList.toggle('open');
+
+  const list = document.createElement('div');
+  list.className = 'rpt-list';
+
+  const baseReports = reports.filter(r => !r.endsWith('-en'));
+  baseReports.forEach(r => {
+    const enKey = r + '-en';
+    const hasEn = reports.includes(enKey);
+
+    if (hasEn) {
+      const row = document.createElement('div');
+      row.className = 'rpt-row';
+
+      const label = document.createElement('span');
+      label.className = 'rpt-label';
+      const baseLabel = LABELS[r] || r;
+      label.textContent = baseLabel;
+      label.title = baseLabel;
+
+      const btns = document.createElement('div');
+      btns.className = 'lang-btns';
+
+      const zhBtn = document.createElement('button');
+      zhBtn.className = 'lang-btn';
+      zhBtn.dataset.key = `${date}/${r}`;
+      zhBtn.textContent = 'ZH';
+      zhBtn.onclick = () => loadReport(date, r);
+
+      const enBtn = document.createElement('button');
+      enBtn.className = 'lang-btn';
+      enBtn.dataset.key = `${date}/${enKey}`;
+      enBtn.textContent = 'EN';
+      enBtn.onclick = () => loadReport(date, enKey);
+
+      btns.append(zhBtn, enBtn);
+      row.append(label, btns);
+      list.appendChild(row);
+    } else {
+      const btn = document.createElement('button');
+      btn.className = 'rpt-btn';
+      btn.dataset.key = `${date}/${r}`;
+      btn.textContent = LABELS[r] || r;
+      btn.onclick = () => loadReport(date, r);
+      list.appendChild(btn);
+    }
+  });
+
+  grp.append(hdr, list);
+  return grp;
+}
+
 function buildNav(dates) {
   const nav = document.getElementById('nav');
-  dates.forEach(({ date, reports }, i) => {
-    const grp = document.createElement('div');
-    grp.className = 'date-group' + (i === 0 ? ' open' : '');
-    grp.dataset.date = date;
 
-    const hdr = document.createElement('div');
-    hdr.className = 'date-hdr';
-    const dateText = document.createTextNode(date + '\u00a0');
-    const arrSpan = document.createElement('span');
-    arrSpan.className = 'arr';
-    arrSpan.textContent = '▶';
-    hdr.appendChild(dateText);
-    hdr.appendChild(arrSpan);
-    hdr.onclick = () => grp.classList.toggle('open');
+  // Group dates by month (YYYY-MM)
+  const months = new Map();
+  dates.forEach((entry) => {
+    const month = entry.date.slice(0, 7); // "2026-04"
+    if (!months.has(month)) months.set(month, []);
+    months.get(month).push(entry);
+  });
 
-    const list = document.createElement('div');
-    list.className = 'rpt-list';
+  let isFirstDate = true;
+  let isFirstMonth = true;
+  months.forEach((entries, month) => {
+    const mGrp = document.createElement('div');
+    mGrp.className = 'month-group' + (isFirstMonth ? ' open' : '');
 
-    // Filter out -en reports from base list, process as pairs
-    const baseReports = reports.filter(r => !r.endsWith('-en'));
-    baseReports.forEach(r => {
-      const enKey = r + '-en';
-      const hasEn = reports.includes(enKey);
+    const mHdr = document.createElement('div');
+    mHdr.className = 'month-hdr';
+    const mText = document.createTextNode(month + '\u00a0');
+    const mArr = document.createElement('span');
+    mArr.className = 'arr';
+    mArr.textContent = '▶';
+    mHdr.appendChild(mText);
+    mHdr.appendChild(mArr);
+    mHdr.onclick = () => mGrp.classList.toggle('open');
 
-      if (hasEn) {
-        // Render as a row with label + [ZH][EN] buttons
-        const row = document.createElement('div');
-        row.className = 'rpt-row';
+    const mBody = document.createElement('div');
+    mBody.className = 'month-body';
 
-        const label = document.createElement('span');
-        label.className = 'rpt-label';
-        const baseLabel = LABELS[r] || r;
-        label.textContent = baseLabel;
-        label.title = baseLabel;
-
-        const btns = document.createElement('div');
-        btns.className = 'lang-btns';
-
-        const zhBtn = document.createElement('button');
-        zhBtn.className = 'lang-btn';
-        zhBtn.dataset.key = `${date}/${r}`;
-        zhBtn.textContent = 'ZH';
-        zhBtn.onclick = () => loadReport(date, r);
-
-        const enBtn = document.createElement('button');
-        enBtn.className = 'lang-btn';
-        enBtn.dataset.key = `${date}/${enKey}`;
-        enBtn.textContent = 'EN';
-        enBtn.onclick = () => loadReport(date, enKey);
-
-        btns.append(zhBtn, enBtn);
-        row.append(label, btns);
-        list.appendChild(row);
-      } else {
-        // No EN variant — render as current single button
-        const btn = document.createElement('button');
-        btn.className = 'rpt-btn';
-        btn.dataset.key = `${date}/${r}`;
-        btn.textContent = LABELS[r] || r;
-        btn.onclick = () => loadReport(date, r);
-        list.appendChild(btn);
-      }
+    entries.forEach(({ date, reports }) => {
+      mBody.appendChild(buildDateGroup(date, reports, isFirstDate));
+      isFirstDate = false;
     });
 
-    grp.append(hdr, list);
-    nav.appendChild(grp);
+    mGrp.append(mHdr, mBody);
+    nav.appendChild(mGrp);
+    isFirstMonth = false;
   });
 }
 

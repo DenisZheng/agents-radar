@@ -196,6 +196,7 @@ const LABEL_COLORS: Record<string, string> = {
   openclaw: "e11d48",
   trending: "f9a825",
   hn: "ff6600",
+  ph: "da552f",
   weekly: "7c3aed",
   monthly: "0d9488",
   "digest-en": "1d76db",
@@ -203,6 +204,13 @@ const LABEL_COLORS: Record<string, string> = {
   "web-en": "6366f1",
   "trending-en": "fbbf24",
   "hn-en": "fb923c",
+  "ph-en": "e8854a",
+  arxiv: "b31b1b",
+  "arxiv-en": "d44a4a",
+  hf: "ff9d00",
+  "hf-en": "ffb84d",
+  community: "2563eb",
+  "community-en": "60a5fa",
 };
 
 /**

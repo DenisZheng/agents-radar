@@ -1,111 +1,107 @@
 # AI 开源趋势日报 2026-04-01
 
-> 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-04-01 00:24 UTC
+> 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-04-01 00:12 UTC
 
 ---
 
-好的，收到您的需求。作为技术分析师，我将为您生成一份结构清晰的《AI 开源趋势日报》。
+# AI 开源趋势日报 | 2026-04-01
 
 ---
 
-### **AI 开源趋势日报 (2026-04-01)**
+## 今日速览
 
-**第一步：过滤**
-从今日 Trending 榜单中，我移除了两个与 AI/ML 无关的项目：
-*   `neovim/neovim` (Vim-fork)
-*   `jwasham/coding-interview-university` (编程学习计划)
-
-**第二步：分类**
-将剩余的 12 个 Trending 项目以及 80 个主题搜索结果中的 AI 相关项目，按指定维度进行了归类。
+今日 AI 开源领域呈现**"Claude 生态爆发"**与**"智能体基础设施成熟"**两大主线。Claude Code 相关工具占据 Trending 榜单半壁江山，单日新增 stars 合计超 1.1 万，显示开发者对 AI 编程助手的高度热情。微软连发 VibeVoice（语音 AI）与 Agent Lightning（智能体训练框架），大厂加速布局端到端智能体栈。多智能体编排、记忆层、沙箱执行环境成为基础设施层的新焦点，AI 应用开发正从"单点工具"向"系统化工程"演进。
 
 ---
 
-### **1. 今日速览**
+## 各维度热门项目
 
-今日 GitHub AI 生态呈现两大焦点：一是围绕 Claude Code 的“智能体”生态持续升温，涌现大量最佳实践、多智能体编排和技能框架；二是微软等企业发布前沿语音 AI 模型，推动语音交互进入新阶段。与此同时，RAG 与 Agent 的融合（如 RAGFlow）以及向量数据库等基础设施的创新（如 LEANN）也展现出强劲发展势头。
+### 🔧 AI 基础工具（框架、SDK、推理引擎、开发工具、CLI）
 
----
-
-### **2. 各维度热门项目**
-
-#### **🔧 AI 基础工具**
-
-*   **[e2b-dev/E2B](https://github.com/e2b-dev/E2B) [Python]**
-    *   **Stars:** 11,519 (+439 today)
-    *   **一句话说明：** 企业级 AI Agent 的安全沙箱环境，解决了 Agent 运行在真实世界工具时的安全问题，是构建生产级 Agent 的关键基础设施。
-
-*   **[OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) [Python]**
-    *   **Stars:** 129,469 (+84 today)
-    *   **一句话说明：** 基于 LLM 的多智能体协作开发框架，展示了 AI 系统如何协同完成复杂软件开发任务，是 Agent 协作范式的典型代表。
-
-*   **[PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) [Python]**
-    *   **Stars:** 74,154 (+439 today)
-    *   **一句话说明：** 强大的 OCR 工具包，支持 100+ 语言，能够将图像/PDF 转换为结构化数据，是连接非结构化文档与 LLM 的重要桥梁。
-
-#### **🤖 AI 智能体/工作流**
-
-*   **[microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) [Python]**
-    *   **Stars:** 0 (+3863 today)
-    *   **一句话说明：** 微软开源的“前沿”语音 AI，标志着公司在语音技术领域的重要布局，预示着下一代交互式 AI 的发展方向。
-
-*   **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) [Python]**
-    *   **Stars:** 20,318 (+1907 today)
-    *   **Stars:** 129,469 (+84 today)
-    *   **一句话说明：** NousResearch 推出的“与你共同成长的智能体”，代表了 AI 智能体从静态执行向持续学习和适应演进的趋势。
-
-*   **[obra/superpowers](https://github.com/obra/superpowers) [Shell]**
-    *   **Stars:** 0 (+2620 today)
-    *   **一句话说明：** 一个旨在赋能 Agent 能力的技能框架与方法论，为开发者提供了一套构建高级 Agent 的系统性思路。
-
-#### **📦 AI 应用**
-
-*   **[vas3k/TaxHacker](https://github.com/vas3k/TaxHacker) [TypeScript]**
-    *   **Stars:** 0 (+318 today)
-    *   **一句话说明：** 自托管的 AI 财务记账应用，利用 LLM 分析票据和交易，是 AI 在垂直商业场景落地的具体体现。
-
-*   **[Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) [Python]**
-    *   **Stars:** 14,179 (+14,179 today)
-    *   **一句话说明：** 赋予 AI Agent “互联网之眼”，使其能自主浏览和检索 Twitter、GitHub 等平台内容，解决了 Agent 信息获取的难题。
-
-#### **🧠 大模型/训练**
-
-*   **[ollama/ollama](https://github.com/ollama/ollama) [Go]**
-    *   **Stars:** 166,613 (+93 today)
-    *   **一句话说明：** 让 Kimi-K2.5、GLM-5 等最新大模型轻松本地部署和运行的强大工具，极大降低了用户使用前沿模型的门槛。
-
-*   **[huggingface/transformers](https://github.com/huggingface/transformers) [Python]**
-    *   **Stars:** 158,608 (稳定)
-    *   **一句话说明：** Hugging Face 的核心库，提供了最全面和最易用的预训练模型定义与推理框架，是当今 AI 开发的基石。
-
-*   **[jingyaogong/minimind](https://github.com/jingyaogong/minimind) [Python]**
-    *   **Stars:** 45,118 (+45,118 today)
-    *   **一句话说明：** 仅用2小时从0开始训练出一个小参数 GPT 模型，是快速验证 LLM 原理和进行轻量级实验的绝佳选择。
-
-#### **🔍 RAG/知识库**
-
-*   **[infiniflow/ragflow](https://github.com/infiniflow/ragflow) [Python]**
-    *   **Stars:** 76,742 (稳定)
-    *   **一句话说明：** 领先的 RAG 引擎，融合了 Agent 能力，旨在为 LLM 提供更优的上下文理解层，代表了 RAG 技术的新高度。
-
-*   **[yichuan-w/LEANN](https://github.com/yichuan-w/LEANN) [Python]**
-    *   **Stars:** 10,380 (+10,380 today)
-    *   **一句话说明：** 一项创新的 MLsys 研究成果，可在个人设备上实现高效、私密的 RAG 应用，并显著节省存储空间，是边缘计算与 RAG 结合的典范。
+| 项目 | Stars | 今日新增 | 说明 |
+|:---|:---|:---|:---|
+| [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) | 3,863 | +3,863 | 微软开源的前沿语音 AI 系统，定位"开源版 GPT-4o 语音"，今日登顶新增榜 |
+| [microsoft/agent-lightning](https://github.com/microsoft/agent-lightning) | 130 | +130 | 微软智能体训练框架，号称"点亮 AI 智能体的绝对训练器"，补齐智能体开发闭环 |
+| [ollama/ollama](https://github.com/ollama/ollama) | 166,613 | - | 本地大模型运行的事实标准，已支持 Kimi-K2.5、GLM-5、DeepSeek 等最新模型 |
+| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 74,848 | - | 高吞吐 LLM 推理引擎，生产环境部署首选 |
+| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 131,817 | - | 智能体工程平台，持续演进中的 Agent 基础设施 |
+| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 70,307 | - | AI 驱动开发环境，代码生成与调试的端到端解决方案 |
+| [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 45,091 | - | 从零构建 Claude Code 类智能体套件的教程项目，"Bash is all you need" |
 
 ---
 
-### **3. 趋势信号分析**
+### 🤖 AI 智能体/工作流（Agent 框架、自动化、多智能体）
 
-今日热榜清晰地揭示了当前 AI 开源社区的三大核心趋势。首先，围绕 Claude Code 的生态建设正成为爆发点，包括其最佳实践指南、多智能体编排工具（如 oh-my-claudecode）以及为其打造的插件和技能框架（如 superpowers, ralph-claude-code）。这表明，Claude Code 作为现象级产品，正在催生一个繁荣的第三方开发生态。其次，微软发布的 VibeVoice 预示着语音 AI 正从研究走向工程化落地，未来可能与 Agent 的“听”和“说”能力深度融合。最后，从 RAGFlow 和 LEANN 等项目可以看出，RAG 技术不再是简单的检索，而是朝着更智能、更高效、更私密的方向演进，并与 Agent 的长期记忆和自主决策能力紧密结合，形成“感知-检索-行动”的完整闭环。
+| 项目 | Stars | 今日新增 | 说明 |
+|:---|:---|:---|:---|
+| [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | 1,126 | +1,126 | 面向团队的 Claude Code 多智能体编排框架，今日 Trending 第三 |
+| [obra/superpowers](https://github.com/obra/superpowers) | 2,620 | +2,620 | 智能体技能框架与软件开发方法论，强调"能工作的"工程实践 |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 20,308 | +1,907 | "与你共同成长的智能体"，Nous Research 推出的自适应 Agent 系统 |
+| [langgenius/dify](https://github.com/langgenius/dify) | 135,232 | - | 生产级智能体工作流开发平台，Agentic Workflow 的标杆产品 |
+| [browser-use/browser-use](https://github.com/browser-use/browser-use) | 85,333 | - | 让网站对 AI 智能体可访问，浏览器自动化的事实标准 |
+| [trycua/cua](https://github.com/trycua/cua) | 13,342 | - | 计算机使用智能体（Computer-Use Agents）的开源基础设施，支持多 OS 沙箱 |
+| [activepieces/activepieces](https://github.com/activepieces/activepieces) | 21,501 | - | 集成 ~400 个 MCP 服务器的 AI 自动化平台，MCP 生态的关键节点 |
+| [e2b-dev/E2B](https://github.com/e2b-dev/E2B) | 11,518 | - | 企业级智能体的安全执行环境，代码解释器与工具调用的沙箱底座 |
 
 ---
 
-### **4. 社区关注热点**
+### 📦 AI 应用（具体应用产品、垂直场景解决方案）
 
-*   **Claude Code 生态建设：** 围绕 Claude Code 的工具链和最佳实践正迅速丰富，是参与 AI Agent 开发生态的黄金机会。
-*   **企业级 Agent 安全沙箱：** E2B 等项目的出现，解决了 Agent 在生产环境中调用外部 API 和工具的安全隐患，是迈向实用化的关键技术。
-*   **RAG 与 Agent 的深度融合：** RAGFlow 等项目展示了如何将 RAG 的知识增强能力与 Agent 的自主性结合，创造出更智能的 AI 助理。
-*   **前沿语音 AI 的开源：** VibeVoice 的发布，为研究者和开发者提供了探索下一代人机交互的绝佳起点。
-*   **轻量级大模型与训练：** minimind 等项目降低了 LLM 研究和应用的门槛，鼓励更多开发者参与模型创新与微调。
+| 项目 | Stars | 今日新增 | 说明 |
+|:---|:---|:---|:---|
+| [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) | 2,390 | +2,390 | Claude Code 可视化实战指南，从基础概念到高级智能体，含即用模板 |
+| [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | 2,407 | +2,407 | Claude Code 最佳实践合集，"practice made claude perfect" |
+| [vas3k/TaxHacker](https://github.com/vas3k/TaxHacker) | 318 | +318 | 自托管 AI 记账应用，LLM 分析收据/发票/交易，支持自定义提示与分类 |
+| [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) | 64,818 | - | 面向分析师、量化研究员和 AI 智能体的金融数据平台 |
+| [khoj-ai/khoj](https://github.com/khoj-ai/khoj) | 33,761 | - | 个人 AI 第二大脑，支持自托管、深度研究与自定义智能体 |
+| [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 42,673 | - | AI 生产力工作室，智能聊天、自主智能体、300+ 助手统一入口 |
 
 ---
-*本日报由 [agents-radar](https://github.com/DenisZheng/agents-radar) 自动生成。*
+
+### 🧠 大模型/训练（模型权重、训练框架、微调工具）
+
+| 项目 | Stars | 今日新增 | 说明 |
+|:---|:---|:---|:---|
+| [huggingface/transformers](https://github.com/huggingface/transformers) | 158,606 | - | 最先进的 ML 模型定义框架，文本/视觉/音频/多模态全覆盖 |
+| [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | 69,313 | - | 100+ LLM/VLM 统一高效微调框架（ACL 2024），训练基础设施标杆 |
+| [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 45,117 | - | 2 小时从零训练 64M 参数 GPT，大模型教育的极简实现 |
+| [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | 89,641 | - | 从零实现 ChatGPT 类 LLM，PyTorch 逐步教学，开发者入门圣经 |
+| [The-Pocket/PocketFlow](https://github.com/The-Pocket/PocketFlow) | 10,307 | - | 100 行代码的 LLM 框架，"让智能体构建智能体"的极简哲学 |
+| [0xPlaygrounds/rig](https://github.com/0xPlaygrounds/rig) | 6,733 | - | Rust 生态的模块化 LLM 应用框架，系统级开发者的选择 |
+
+---
+
+### 🔍 RAG/知识库（向量数据库、检索增强、知识管理）
+
+| 项目 | Stars | 今日新增 | 说明 |
+|:---|:---|:---|:---|
+| [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | 74,153 | +439 | 轻量级 OCR 工具包，打通图像/PDF 与 LLM 的结构化数据桥梁 |
+| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | 76,742 | - | 领先的开源 RAG 引擎，融合前沿检索与智能体能力的上下文层 |
+| [mem0ai/mem0](https://github.com/mem0ai/mem0) | 51,604 | - | AI 智能体的通用记忆层，解决长期上下文与个性化问题 |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 44,072 | - | Claude Code 插件，自动捕获编码会话、AI 压缩并注入未来上下文 |
+| [milvus-io/milvus](https://github.com/milvus-io/milvus) | 43,544 | - | 云原生高性能向量数据库，规模化 ANN 搜索的基础设施 |
+| [run-llama/llama_index](https://github.com/run-llama/llama_index) | 48,176 | - | 领先的文档智能体与 OCR 平台，RAG 到 Agent 的演进标杆 |
+| [topoteretes/cognee](https://github.com/topoteretes/cognee) | 14,819 | - | 6 行代码构建 AI 智能体记忆的知识引擎，轻量化记忆层新选择 |
+
+---
+
+## 趋势信号分析
+
+**Claude 生态爆发式增长**是今日最显著信号。Trending 榜单 14 个项目中 5 个直接围绕 Claude Code，涵盖教程（claude-howto）、最佳实践（claude-code-best-practice）、多智能体编排（oh-my-claudecode）、记忆增强（claude-mem）和自主开发循环（ralph-claude-code）。这与 Anthropic 近期 Claude 4 系列发布及 Claude Code 公测扩大直接相关，开发者正快速构建配套工具链，形成类似早期 VS Code 插件生态的繁荣景象。
+
+**智能体基础设施进入"系统化工程"阶段**。微软同日发布 VibeVoice（感知层）与 Agent Lightning（训练层），配合已有的 AutoGen 等框架，呈现端到端智能体栈布局。社区侧，沙箱执行（cua、E2B、OpenSandbox）、MCP 协议集成（activepieces）、记忆层（mem0、cognee）等基础设施项目密集涌现，标志智能体开发从"Demo 可用"走向"生产可靠"。
+
+**语音 AI 与多模态成为新战场**。VibeVoice 的高热度显示，在文本智能体趋于成熟后，语音作为更自然的交互模态正成为开源社区追逐的下一个前沿。同时，PaddleOCR 等文档理解工具持续活跃，多模态 RAG 场景需求旺盛。
+
+---
+
+## 社区关注热点
+
+- **Claude Code 工具链建设** — 从教程到编排框架到记忆插件，完整生态正在 48 小时内快速成型，早期参与者有望定义标准
+- **MCP（Model Context Protocol）生态扩张** — activepieces 集成 ~400 个 MCP 服务器，协议成为智能体连接外部世界的"USB-C"接口，相关工具值得持续跟踪
+- **轻量级智能体框架** — PocketFlow（100 行）、learn-claude-code（Bash 实现）等极简方案挑战 LangChain 复杂度，"简单即正义"的哲学回归
+- **Rust 在 AI 基础设施的渗透** — rig、meilisearch、qdrant 等核心组件采用 Rust，系统级性能与安全性成为向量 DB、推理引擎的默认选择
+- **计算机使用智能体（CUA）基础设施** — trycua/cua 提供跨 OS 沙箱与评测基准，让 AI "像人一样看屏幕、点鼠标"的落地路径逐渐清晰
+
+---
+*本日报由 [agents-radar](https://github.com/duanyytop/agents-radar) 自动生成。*

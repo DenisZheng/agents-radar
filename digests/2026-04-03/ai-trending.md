@@ -1,93 +1,146 @@
 # AI 开源趋势日报 2026-04-03
 
-> 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-04-03 00:21 UTC
+> 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-04-03 00:11 UTC
 
 ---
 
-好的，收到您的需求。作为 AI 开源生态的技术分析师，我将基于您提供的数据，为您生成一份《AI 开源趋势日报》。
+# AI 开源趋势日报 | 2026-04-03
 
 ---
 
-## AI 开源趋势日报 (2026-04-03)
+## 第一步：AI 相关性筛选
 
-**今日速览**
+**Trending 榜单筛选结果**（4进3）：
+| 项目 | AI相关性 | 判定 |
+|:---|:---|:---|
+| openscreen | ❌ 录屏工具 | 排除 |
+| **oh-my-codex** | ✅ AI 编程助手增强框架 | **保留** |
+| **system_prompts_leaks** | ✅ 大模型系统提示词研究 | **保留** |
+| sherlock | ❌ 社交媒体 OSINT 工具 | 排除 |
 
-今日 GitHub 上的 AI 开源生态呈现出两大核心趋势：一是围绕 Claude Code 的“智能体开发”工具链正经历爆发式增长，涌现出大量用于优化、增强和扩展其功能的插件与框架；二是 RAG（检索增强生成）领域持续火热，相关工具库和平台项目依然占据着主流地位。值得注意的是，一个名为 `system_prompts_leaks` 的项目引发了社区对大型语言模型系统提示词安全性的广泛讨论，显示出 AI 安全议题日益受到重视。
+**主题搜索**：80 个项目全部为 AI/ML 相关，全部保留。
 
 ---
 
-### 各维度热门项目
+## 第二步：分类体系
+
+| 维度 | 项目数量 | 核心特征 |
+|:---|:---|:---|
+| 🔧 AI 基础工具 | 18 | 框架、SDK、推理引擎、CLI 工具 |
+| 🤖 AI 智能体/工作流 | 15 | Agent 框架、多智能体协作、自动化编排 |
+| 📦 AI 应用 | 12 | 垂直场景产品、终端用户应用 |
+| 🧠 大模型/训练 | 16 | 预训练、微调、评估、模型实现 |
+| 🔍 RAG/知识库 | 19 | 向量数据库、检索增强、记忆层 |
+
+---
+
+## 第三步：完整报告
+
+### 1. 今日速览
+
+今日 GitHub Trending 呈现**AI 编程工具链爆发**态势：`oh-my-codex` 以 2867 新增 stars 登顶，标志着开发者对 Codex/Claude Code 等 AI 编程助手的**增强层生态**需求激增。同时，`system_prompts_leaks` 的持续热度（+306）反映社区对大模型**提示工程与对齐机制**的深度好奇。主题搜索侧，**Agent 基础设施**（MCP 协议、沙箱环境、记忆层）与**企业级 RAG** 成为 7 天活跃项目的两大主轴，显示 AI 应用正从原型走向生产就绪。
+
+---
+
+### 2. 各维度热门项目
 
 #### 🔧 AI 基础工具
 
-*   **[ollama/ollama](https://github.com/ollama/ollama) [Go] ⭐166,846**
-    *   **一句话说明：** 一个简洁易用的本地大模型推理引擎，支持快速部署 Kimi-K2.5、GLM-5、DeepSeek 等前沿模型，降低了 AI 应用的部署门槛。
-*   **[vllm-project/vllm](https://github.com/vllm-project/vllm) [Python] ⭐75,029**
-    *   **一句话说明：** 专为高吞吐量和内存效率设计的大模型推理与服务器引擎，是生产环境中部署 LLM 的关键基础设施。
-*   **[meilisearch/meilisearch](https://github.com/meilisearch/meilisearch) [Rust] ⭐56,919**
-    *   **一句话说明：** 闪电般的开源搜索引擎 API，为网站和应用提供 AI 驱动的混合搜索能力，是构建高效 RAG 系统的理想后端。
-*   **[googleworkspace/cli](https://github.com/googleworkspace/cli) [Rust] ⭐23,599**
-    *   **一句话说明：** Google Workspace 的统一命令行接口，集成了 AI Agent 技能，让开发者能直接用自然语言操作 Gmail、Docs 等服务。
+| 项目 | Stars | 今日新增 | 一句话说明 |
+|:---|:---|:---|:---|
+| [**oh-my-codex**](https://github.com/Yeachan-Heo/oh-my-codex) | 2,867 | ⭐+2,867 | **今日最热**：为 Codex/Claude Code 添加 hooks、Agent 团队、HUD 等增强能力的开源框架，填补 AI 编程助手生态空白 |
+| [**ollama**](https://github.com/ollama/ollama) | 166,846 | - | 本地大模型运行的事实标准，今日新增支持 Kimi-K2.5、GLM-5、MiniMax 等前沿模型 |
+| [**vllm**](https://github.com/vllm-project/vllm) | 75,030 | - | 高吞吐 LLM 推理引擎，生产环境部署的核心基础设施 |
+| [**langchain-ai/langchain**](https://github.com/langchain-ai/langchain) | 132,133 | - | 从"LLM 框架" rebranding 为"Agent 工程平台"，反映战略重心转移 |
+| [**open-webui/open-webui**](https://github.com/open-webui/open-webui) | 129,714 | - | 支持多后端（Ollama/OpenAI API）的友好型 AI 界面，降低本地部署门槛 |
+| [**firecrawl/firecrawl**](https://github.com/firecrawl/firecrawl) | 103,128 | - | AI Agent 的 Web 数据 API，解决 Agent 获取干净网页数据的核心痛点 |
 
 #### 🤖 AI 智能体/工作流
 
-*   **[shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) [TypeScript] ⭐47,225**
-    *   **一句话说明：** 一个从 0 到 1 构建的类 Claude Code 的「智能体 harness」，为开发者提供了学习和使用智能体编程范式的最佳实践参考。
-*   **[CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) [TypeScript] ⭐29,939**
-    *   **一句话说明：** 前端开发者构建智能体和生成式 UI 的全栈工具包，支持 React 和 Angular，简化了在应用中集成 AI 功能的复杂流程。
-*   **[e2b-dev/E2B](https://github.com/e2b-dev/E2B) [Python] ⭐11,552**
-    *   **一句话说明：** 为企业级智能体设计的开源、安全的沙箱执行环境，提供了丰富的现实世界工具，保障了智能体操作的可靠性。
-*   **[Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) [Python] ⭐14,601**
-    *   **一句话说明：** 赋予 AI 智能体互联网之眼，使其能够通过 CLI 直接读取和搜索 Twitter、YouTube、GitHub 等平台内容，无需昂贵的 API 费用。
-*   **[trycua/cua](https://github.com/trycua/cua) [Python] ⭐13,365**
-    *   **一句话说明：** 计算机使用智能体的开源基础设施，提供沙箱、SDK 和基准测试，专注于训练和评估能够控制完整桌面的 AI 智能体。
+| 项目 | Stars | 今日新增 | 一句话说明 |
+|:---|:---|:---|:---|
+| [**shareAI-lab/learn-claude-code**](https://github.com/shareAI-lab/learn-claude-code) | 47,223 | - | "Bash is all you need"——从零构建 Claude Code 风格 Agent  harness 的教学型项目 |
+| [**everything-claude-code**](https://github.com/affaan-m/everything-claude-code) | 133,570 | - | Agent 性能优化系统，覆盖技能、本能、记忆、安全等全维度，支持 Claude Code/Codex/Cursor 全家桶 |
+| [**activepieces/activepieces**](https://github.com/activepieces/activepieces) | 21,530 | - | 集成 ~400 个 MCP 服务器的 AI 工作流自动化平台，MCP 生态集大成者 |
+| [**trycua/cua**](https://github.com/trycua/cua) | 13,365 | - | 计算机使用 Agent（Computer-Use Agent）的开源基础设施，提供跨平台沙箱与评测基准 |
+| [**e2b-dev/E2B**](https://github.com/e2b-dev/E2B) | 11,552 | - | 企业级 Agent 安全运行环境，支持真实工具链的云端沙箱 |
+| [**alibaba/OpenSandbox**](https://github.com/alibaba/OpenSandbox) | 9,698 | - | 阿里开源的 Agent 沙箱运行时，强调安全、快速、可扩展 |
+| [**jackwener/opencli**](https://github.com/jackwener/opencli) | 11,479 | - | 将任意网站/Electron 应用/本地二进制文件转化为标准化 CLI，构建 AI Agent 的统一工具发现层 |
 
 #### 📦 AI 应用
 
-*   **[CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) [TypeScript] ⭐42,793**
-    *   **一句话说明：** 一个功能强大的 AI 生产力工作室，集成了智能聊天、自主代理和数百个助手，为用户提供统一的 LLM 访问入口。
-*   **[zhayujie/chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat) [Python] ⭐42,720**
-    *   **一句话说明：** CowAgent 是一个基于大模型的超级 AI 助理，支持多种通讯平台接入，并能处理文本、语音、图片和文件，是个人和企业数字员工的得力助手。
-*   **[activepieces/activepieces](https://github.com/activepieces/activepieces) [TypeScript] ⭐21,530**
-    *   **一句话说明：** 一个集 AI 智能体、MCP 服务器和工作流自动化于一体的平台，提供超过 400 个 MCP 服务器，极大提升了 AI 自动化能力。
-*   **[saturndec/waoowaoo](https://github.com/saturndec/waoowaoo) [TypeScript] ⭐10,762**
-    *   **一句话说明：** 国内首个工业级全流程 AI 影视生产平台，为可控的电影和视频制作提供好莱坞级别的工作流程，展示了 AI 在创意产业的应用潜力。
+| 项目 | Stars | 今日新增 | 一句话说明 |
+|:---|:---|:---|:---|
+| [**siddharthvaddem/openscreen**](https://github.com/siddharthvaddem/openscreen) | 2,573 | ⭐+2,573 | ❌ 已排除：非 AI 相关（录屏工具） |
+| [**langgenius/dify**](https://github.com/langgenius/dify) | 135,526 | - | 生产级 Agentic 工作流开发平台，从原型到部署的一站式解决方案 |
+| [**CherryHQ/cherry-studio**](https://github.com/CherryHQ/cherry-studio) | 42,792 | - | 集成 300+ 助手的 AI 生产力套件，支持自主 Agent 与多模型统一接入 |
+| [**zhayujie/chatgpt-on-wechat**](https://github.com/zhayujie/chatgpt-on-wechat) | 42,720 | - | 多平台超级 AI 助理（CowAgent），比 OpenClaw 更轻量，支持主动思考与任务规划 |
+| [**iOfficeAI/AionUi**](https://github.com/iOfficeAI/AionUi) | 20,857 | - | 24/7 本地协作应用，支持 Gemini CLI、Claude Code、Codex 等主流 AI 编程工具的统一界面 |
+| [**saturndec/waoowaoo**](https://github.com/saturndec/waoowaoo) | 10,762 | - | 工业级 AI 影视生产平台，从短片到真人电影的好莱坞标准工作流 |
 
 #### 🧠 大模型/训练
 
-*   **[huggingface/transformers](https://github.com/huggingface/transformers) [Python] ⭐158,708**
-    *   **一句话说明：** 🤗 Transformers 库是加载、训练和使用最先进的文本、视觉、音频和多模态模型的标准工具，是 AI 开发的基石。
-*   **[rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) [Jupyter Notebook] ⭐89,852**
-    *   **一句话说明：** 一个详细的教程，指导用户从零开始用 PyTorch 一步步实现一个类似 ChatGPT 的大语言模型，是理解 LLM 原理的绝佳资源。
-*   **[OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) [Python] ⭐70,459**
-    *   **一句话说明：** OpenHands 是一个由 AI 驱动的开发框架，旨在让开发者能够更轻松地创建和管理复杂的 AI 驱动的应用程序。
-*   **[jingyaogong/minimind](https://github.com/jingyaogong/minimind) [Python] ⭐45,418**
-    *   **一句话说明：** 一个极具吸引力的项目，它能在短短 2 小时内从零开始训练出一个拥有 6400 万参数的小规模 GPT 模型，展示了大模型训练的极致效率。
+| 项目 | Stars | 今日新增 | 一句话说明 |
+|:---|:---|:---|:---|
+| [**system_prompts_leaks**](https://github.com/asgeirtj/system_prompts_leaks) | 306 | ⭐+306 | 持续追踪提取 GPT-5.4/5.3、Claude Opus 4.6、Gemini 3.1 等前沿模型的系统提示词，提示工程研究的重要参考 |
+| [**huggingface/transformers**](https://github.com/huggingface/transformers) | 158,707 | - | 多模态模型定义框架，文本/视觉/音频/多模态的统一基础设施 |
+| [**rasbt/LLMs-from-scratch**](https://github.com/rasbt/LLMs-from-scratch) | 89,852 | - | 从零实现 ChatGPT 风格 LLM 的 PyTorch 教程，教育领域标杆项目 |
+| [**hiyouga/LlamaFactory**](https://github.com/hiyouga/LlamaFactory) | 69,405 | - | 100+ LLM/VLM 统一高效微调框架（ACL 2024），国产化适配的重要工具 |
+| [**jingyaogong/minimind**](https://github.com/jingyaogong/minimind) | 45,418 | - | 2 小时从零训练 64M 参数 GPT，大模型教育的最小可行实现 |
+| [**open-compass/opencompass**](https://github.com/open-compass/opencompass) | 6,828 | - | 支持 100+ 数据集的 LLM 评测平台，覆盖国内外主流模型 |
 
 #### 🔍 RAG/知识库
 
-*   **[langgenius/dify](https://github.com/langgenius/dify) [TypeScript] ⭐135,526**
-    *   **一句话说明：** Dify 是一个面向生产的智能工作流开发平台，将 RAG 与 Agent 能力融合，为用户提供了创建复杂 AI 应用的强大工具。
-*   **[infiniflow/ragflow](https://github.com/infiniflow/ragflow) [Python] ⭐76,942**
-    *   **一句话说明：** RAGFlow 是一个领先的 RAG 引擎，它将最新的 RAG 技术与 Agent 功能相结合，为 LLM 提供了一个卓越的上下文层。
-*   **[mem0ai/mem0](https://github.com/mem0ai/mem0) [Python] ⭐51,804**
-    *   **一句话说明：** 为 AI 智能体打造的通用记忆层，解决了智能体长期记忆和上下文管理的问题，是其迈向自主性的关键一步。
-*   **[milvus-io/milvus](https://github.com/milvus-io/milvus) [Go] ⭐43,582**
-    *   **一句话说明：** Milvus 是一个高性能的云原生向量数据库，专为可扩展的向量近似最近邻搜索而设计，是 RAG 系统的核心数据存储。
+| 项目 | Stars | 今日新增 | 一句话说明 |
+|:---|:---|:---|:---|
+| [**infiniflow/ragflow**](https://github.com/infiniflow/ragflow) | 76,942 | - | 融合前沿 RAG 与 Agent 能力的检索增强生成引擎，构建 LLM 优质上下文层 |
+| [**mem0ai/mem0**](https://github.com/mem0ai/mem0) | 51,804 | - | AI Agent 的通用记忆层，解决长期上下文与个性化核心痛点 |
+| [**thedotmack/claude-mem**](https://github.com/thedotmack/claude-mem) | 44,691 | - | Claude Code 专用记忆插件，自动捕获、压缩、注入会话上下文 |
+| [**milvus-io/milvus**](https://github.com/milvus-io/milvus) | 43,582 | - | 云原生高性能向量数据库，可扩展 ANN 搜索的行业标准 |
+| [**run-llama/llama_index**](https://github.com/run-llama/llama_index) | 48,243 | - | 从"RAG 框架"演进为"文档 Agent 与 OCR 平台"，定位升级 |
+| [**meilisearch/meilisearch**](https://github.com/meilisearch/meilisearch) | 56,919 | - | 闪电般速度的 AI 混合搜索引擎，为站点和应用提供即插即用的搜索能力 |
+| [**qdrant/qdrant**](https://github.com/qdrant/qdrant) | 29,996 | - | 高性能大规模向量数据库，下一代 AI 的向量搜索引擎 |
+| [**topoteretes/cognee**](https://github.com/topoteretes/cognee) | 14,872 | - | 6 行代码构建 AI Agent 记忆的知识引擎，极简 API 设计 |
 
 ---
 
-### 趋势信号分析
+### 3. 趋势信号分析
 
-今日的热榜揭示了两个强烈的趋势信号。首先，围绕 Claude Code 的“智能体开发”生态正在经历前所未有的繁荣。`oh-my-codex` 和 `ralph-claude-code` 等项目的高增长表明，社区正积极开发各类工具来优化、扩展和增强 Claude Code 的功能，这反映了智能体编程范式在实际开发中的快速落地和广泛应用。其次，RAG 依然是 AI 应用落地的核心支柱，`dify`、`ragflow` 等项目稳居高位，而 `milvus` 和 `qdrant` 等向量数据库也持续获得关注，说明企业对于构建高质量、可解释的 LLM 应用有着稳定且巨大的需求。特别值得注意的是 `asgeirtj/system_prompts_leaks` 项目，它通过公开提取到的各大厂模型系统提示词，引发了关于 LLM 安全和隐私的广泛讨论，预示着 AI 安全将成为未来开源社区和企业关注的重点议题之一。
+**爆发性关注领域：AI 编程助手的"增强层"生态**
+
+今日 `oh-my-codex` 的 2867 新增 stars 揭示了一个关键信号：开发者不再满足于原生 AI 编程工具（Codex、Claude Code、Cursor）的默认能力，而是迫切需要**可扩展的增强框架**——支持自定义 hooks、多 Agent 协作、HUD 可视化等高级功能。这与 2023-2024 年 VS Code 插件生态的爆发路径高度相似，标志着 AI 编程工具从"单点工具"向"平台化生态"演进。
+
+**新兴技术栈：MCP 协议与 Agent 沙箱的工业化**
+
+`activepieces`（~400 MCP 服务器）、`trycua/cua`（Computer-Use Agent 基础设施）、`alibaba/OpenSandbox` 等项目的活跃，表明 **Model Context Protocol (MCP)** 正快速成为 Agent 与外部工具交互的事实标准，而**安全沙箱**则从"可选组件"变为"生产必备"。这一趋势与 Anthropic 近期对 MCP 的官方推广、以及企业客户对 Agent 安全性的刚性需求直接相关。
+
+**与行业事件的关联**
+
+`system_prompts_leaks` 的持续热度与近期 GPT-5.4、Claude Opus 4.6、Gemini 3.1 等模型的密集发布形成呼应，社区对**大模型内部工作机制**（系统提示、对齐策略、能力边界）的研究兴趣达到新高。同时，`ollama` 对 Kimi-K2.5、GLM-5、MiniMax 的快速支持，反映开源社区对**中国大模型**的集成速度正在赶超传统欧美模型。
 
 ---
 
-### 社区关注热点
+### 4. 社区关注热点
 
-*   **Claude Code 生态的繁荣**：`oh-my-codex` 和 `ralph-claude-code` 等项目的崛起，预示着围绕特定智能体工具（如 Claude Code）的第三方插件和优化工具将成为开发者提升工作效率的重要途径。
-*   **RAG 与 Agent 的深度结合**：`dify` 和 `ragflow` 的成功表明，将 RAG 的知识管理能力与 Agent 的自主决策能力相结合，是构建下一代 AI 应用平台的正确方向。
-*   **大模型本地推理的便捷化**：`ollama` 项目的持续高热，以及 `vllm` 在性能上的不断优化，共同指向一个趋势：降低大模型本地部署和推理的复杂度，使其成为人人可用的基础工具，是推动 AI 应用普及的关键。
+- **🔥 `oh-my-codex` —— AI 编程助手的"Oh My Zsh"时刻**
+  类比 shell 生态的 Oh My Zsh，该项目有望成为 Codex/Claude Code 用户的首选增强框架，早期贡献者有机会定义插件标准。
+
+- **🛡️ Agent 安全沙箱三足鼎立：`trycua/cua` vs `e2b-dev/E2B` vs `alibaba/OpenSandbox`**
+  跨平台开源方案（cua）、企业级云服务（E2B）、大厂背书实现（OpenSandbox）形成差异化竞争，开发者需根据场景（本地开发/企业部署/云原生）选择。
+
+- **🧠 `mem0` 与 `claude-mem` 的记忆层之争**
+  通用记忆层（mem0）vs 专用记忆插件（claude-mem）代表两种产品哲学：横向平台化 vs 纵向深度优化，长期看可能走向融合或分层。
+
+- **📡 MCP 生态的"App Store"效应**
+  `activepieces` 集成 ~400 MCP 服务器预示：MCP 正在复制当年 HTTP API 生态的爆发路径，下一个关键节点是 MCP 服务器的发现、评级与 monetization 机制。
+
+- **🎬 `waoowaoo` —— AI 影视生产的工业化尝试**
+  从"AI 生成视频"（Runway/Pika）到"AI 影视工作流"的跃迁，标志着生成式 AI 进入专业内容生产领域，好莱坞标准 workflow 的开放化可能颠覆传统影视工业。
 
 ---
-*本日报由 [agents-radar](https://github.com/DenisZheng/agents-radar) 自动生成。*
+
+*报告生成时间：2026-04-03*  
+*数据来源：GitHub Trending + GitHub Search API (7天活跃)*
+
+---
+*本日报由 [agents-radar](https://github.com/duanyytop/agents-radar) 自动生成。*

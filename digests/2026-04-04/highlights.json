@@ -1,86 +1,150 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code 发布新版本，新增 Skills 功能扩展 CLI 能力",
-      "Kimi Code CLI 社区活跃度高，Issues 与 PR 均达10个",
-      "OpenAI Codex 发布3个 Alpha 版本，持续迭代中",
-      "GitHub Copilot CLI v1.0.17 正式发布，稳定性提升",
-      "Qwen Code v0.14.0 发布，支持多模型集成",
-      "Gemini CLI 社区活跃，聚焦 MCP 集成与跨平台兼容"
+      "Claude Code配额消耗异常引发信任危机",
+      "OpenAI Codex Rust重构v0.119.0-alpha.6~8发布",
+      "Gemini CLI上下文管理架构质变重构",
+      "Kimi CLI Python→Bun+TS重构提案引热议",
+      "OpenCode 50+PR聚焦多模型兼容性",
+      "Qwen Code v0.14.0工具并行执行优化"
     ],
     "ai-agents": [
-      "OpenClaw 社区活跃度极高，处理500 Issues 与 PRs",
-      "PR #60598 实现 Docker/WSL 下 CLI 别名持久化支持",
-      "修复 MCP 工具排序不一致导致的 prompt cache 失效问题",
-      "Gmail Hook 新增 systemPrompt 支持，增强任务理解能力",
-      "用户强烈请求 Linux/Windows 桌面客户端支持",
-      "v2026.4.1 引发回归问题，维护者紧急修复"
+      "OpenClaw 24小时500 Issues+500 PRs爆发",
+      "heartbeat会话键无限累加漏洞修复",
+      "循环检测器新增criticalThreshold阻断",
+      "Telegram模型选择器误判问题修复",
+      "WhatsApp空闲会话保活机制优化",
+      "Agent身份验证与MCP协议需求升温"
     ],
     "ai-trending": [
-      "oh-my-codex 一日增星3047，Hook+HUDs 革新编码体验",
-      "ollama 本地运行大模型首选，支持 Kimi-K2.5、DeepSeek",
-      "vllm 高性能推理引擎，显著提升 LLM 服务吞吐量",
-      "Google Workspace CLI 集成 AI 代理，操作 Gmail/Drive 更高效",
-      "CopilotKit AG-UI Protocol 引领前端智能代理开发新范式",
-      "timesfm 时间序列基础模型发布，展示多模态预测潜力"
+      "oh-my-codex登顶Trending扩展Codex生态",
+      "timesfm Google时间序列基础模型",
+      "fff.nvim AI代理文件搜索工具",
+      "prompts.chat提示词社区平台",
+      "AutoGPT智能体工作流持续热门",
+      "ollama本地大模型部署基础设施"
     ],
     "ai-web": [
-      "Anthropic 发布“diff”工具研究论文，解决模型安全性评估难题",
-      "该工具旨在识别未知未知风险，提升模型审计效率",
-      "体现 Anthropic 在可解释性与主动式安全方面的技术深耕",
-      "可能转化为未来更透明的版本对比与模型管理功能",
-      "OpenAI 暂无新增内容发布",
-      "研究凸显 Anthropic 引领 AI 安全评估方法论讨论"
+      "Anthropic发布模型差异检测研究工具",
+      "Model Diffing突破传统基准测试局限",
+      "OpenAI官网零更新或预示重大发布",
+      "Claude 4安全基础设施铺垫信号",
+      "可解释性研究产品化关键一步",
+      "OpenAI静默期与Anthropic高频输出对比"
     ],
     "ai-hn": [
-      "Anthropic 禁止第三方使用 Claude Code 订阅，引发生态锁定争议",
-      "“认知 surrender”研究发现：过度依赖 LLM 削弱逻辑思维",
-      "Meta 暂停与 Mercor 合作，数据泄露事件持续发酵",
-      "Show HN: 开源项目允许自主运行 Claude Code 绕过限制",
-      "Show HN: agenteval 静态分析工具审查 AI 指令文件风险",
-      "Anthropic 新模型 Mythos 或成网络安全领域转折点"
+      "Anthropic禁止Claude Code使用OpenClaw引反弹",
+      "95分85评论登顶今日最热帖",
+      "Claude发现Vim/Emacs高危RCE漏洞",
+      "认知投降现象引发逻辑思维退化警惕",
+      "YC CEO日写3.7万行AI代码引争议",
+      "AI行业泡沫化与平台控制权讨论升温"
+    ],
+    "ai-ph": [
+      "Claude Code Voice Mode 377票登顶",
+      "Denovo全自动创业Agent 94评论热议",
+      "Mngr并行运行数百Claude Agent",
+      "Grok 4.2多Agent自我辩论求真",
+      "Cosyra手机端AI编程突破",
+      "1-bit极端压缩模型Bonsai-8B"
+    ],
+    "ai-arxiv": [
+      "ActionParty多主体动作绑定视频生成突破",
+      "Batched Contextual Reinforcement推理效率定律",
+      "TBSP基准量化LLM自我保存偏见",
+      "专家级MoE可解释性研究首发",
+      "Neuro-RIT神经元级RAG鲁棒性增强",
+      "超网络与双随机矩阵参数化创新"
+    ],
+    "ai-hf": [
+      "Jackrong蒸馏Claude-4.6至Qwen3.5-27B 2222赞",
+      "HauhauCS去审查版70万下载揭示强需求",
+      "Gemma-4 26B/31B多规格覆盖边缘到云端",
+      "NVIDIA Nemotron-Cascade-2-30B级联生成",
+      "ChromaDB向量数据库厂商下场做LLM",
+      "Netflix罕见入局视频生成领域"
+    ],
+    "ai-community": [
+      "1行代码致Anthropic 3400亿损失警示",
+      "AI网关决策框架引发成本权衡热议",
+      "MCP网关横向评测成多智能体关键",
+      "LangChain够用论反对过度工程化",
+      "Vibe Coding反思性讨论升温",
+      "OCaml社区主动治理AI辅助编程"
     ]
   },
   "en": {
     "ai-cli": [
-      "Claude Code open-sourcing active with 10 new PRs in 24h",
-      "OpenAI Codex Rust CLI α v0.119.0 released (x3)",
-      "Kimi Code CLI and Qwen Code join MCP integration trend",
-      "GitHub Copilot CLI shows zero PR activity in last 24h",
-      "Gemini CLI maintains steady development with 10 new issues",
-      "OpenCode gains traction in agent orchestration space"
+      "Claude Code in crisis mode over quota exhaustion",
+      "OpenAI Codex releases 3 alpha builds in 24h",
+      "Gemini CLI lands major I/O performance fix",
+      "All major tools now support MCP protocol",
+      "Billing transparency cited as top pain point",
+      "Community pressure intensifies for open source"
     ],
     "ai-agents": [
-      "OpenClaw fixes deterministic MCP tool sorting for prompt cache stability",
-      "Improved compaction logic preserves newest tool results in OpenClaw cache",
-      "Prevents heartbeat suffix accumulation in session keys",
-      "Adds loop detector threshold for generic_repeat patterns",
-      "No new releases; latest remains v2026.4.1 as of April 3",
-      "Sustained engagement: 500 issues and 500 PRs updated daily"
+      "OpenClaw hits 500 issues and 500 PRs daily",
+      "76% open PR rate signals review bottleneck",
+      "Security fix moves Gemini API key to headers",
+      "v2026.4.1 regressions actively being patched",
+      "Authentication fixes are top priority",
+      "Platform expansion to Linux/Windows underway"
     ],
     "ai-trending": [
-      "Yeachan-Heo/oh-my-codex surges +3,047 stars for AI coding hooks",
-      "onyx-dot-app gains +1,852 stars as full-featured AI platform",
-      "google-research/timesfm opens Google's time-series foundation model",
-      "fff.nvim hits +750 stars with Rust-powered file search for agents",
-      "Ollama now supports Kimi-K2.5, DeepSeek, Qwen locally",
-      "CopilotKit enables generative UI components for React apps"
+      "Oh My codeX explodes with 3,047 stars",
+      "TimesFM gains 916 stars for enterprise time-series",
+      "Onyx hits 1,852 stars for enterprise AI",
+      "fff.nvim adds 750 stars with Rust file search",
+      "Ollama adds Kimi-K2.5, GLM-5, MiniMax support",
+      "Market splits between enterprise suites and hacker tools"
     ],
     "ai-web": [
-      "Anthropic introduces 'diff' tool for behavioral AI model comparisons",
-      "Tool compares latent reps and attention patterns across checkpoints",
-      "Aims to detect emergent risks via change analysis, not static eval",
-      "Strategic pivot toward scalable AI safety and governance",
-      "OpenAI publishes no new content today",
-      "Positions Anthropic as leader in proactive AI safety infrastructure"
+      "Anthropic publishes 'model diffing' interpretability research",
+      "Technique detects 'unknown unknown' behavioral changes",
+      "Automated safety auditing positioned as differentiator",
+      "OpenAI publishes zero new articles today",
+      "Unusual asymmetry in lab research output",
+      "Addresses reactive evaluation system limitations"
     ],
     "ai-hn": [
-      "Anthropic restricts third-party access to Claude Code via OpenClaw",
-      "Cognitive surrender debate over LLM reasoning dependence sparks ethics talk",
-      "Half of U.S. data center projects delayed due to power shortages",
-      "OpenAI acquires Tech Business Programming Network (TBPN) strategically",
-      "Claude AI autonomously finds Vim, Emacs RCE bugs on file open",
-      "Mythos model could be watershed moment for cybersecurity automation"
+      "Anthropic restricts third-party Claude integrations",
+      "OpenClaw blocked in monetization push",
+      "'Cognitive surrender' research resonates with skeptics",
+      "Claude finds critical RCE bugs in Vim, Emacs",
+      "Mythos model anticipation builds",
+      "Usage bundle pricing sparks developer backlash"
+    ],
+    "ai-ph": [
+      "Claude Code Voice Mode leads with 377 votes",
+      "Denovo promises autonomous business operations",
+      "Mngr enables 100+ parallel Claude agents",
+      "Grok 4.2 introduces self-debating AI",
+      "Lightning V3 targets sub-100ms TTS",
+      "OpenYak gains traction as open alternative"
+    ],
+    "ai-arxiv": [
+      "First expert-level MoE interpretation published",
+      "Neuron-guided instruction tuning improves RALM",
+      "Adam's Law reveals LLM frequency bias",
+      "Agentic architectures mature for finance deployment",
+      "Reasoning efficiency becomes first-class priority",
+      "Self-preservation bias quantification advances"
+    ],
+    "ai-hf": [
+      "Jackrong tops charts with 27B Claude-distilled model",
+      "Gemma-4 launches 2B to 31B variants",
+      "Uncensored fine-tunes hit 1.4M downloads",
+      "NVIDIA Cascade MoE delivers efficient inference",
+      "1-bit quantization emerges with Bonsai",
+      "Netflix enters video AI space"
+    ],
+    "ai-community": [
+      "Anthropic dominates with $340B disaster speculation",
+      "MCP gateways become essential 2026 knowledge",
+      "LangChain vs LangGraph decision frameworks emerge",
+      "Vibecoding faces serious developer pushback",
+      "Claude Code users report quiet paid tier downgrades",
+      "When to graduate from wrappers to gateways"
     ]
   }
 }
