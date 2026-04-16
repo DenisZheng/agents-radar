@@ -1,0 +1,78 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.110发布，新增/tui和/focus功能",
+      "OpenAI Codex rust-v0.121.0更新，支持插件市场和TUI",
+      "Kimi Code CLI v1.35.0默认开启show_thinking_stream",
+      "Pi v0.67.3支持renderShell: 'self'模式",
+      "Qwen Code v0.14.5增强上下文展示和性能分析",
+      "所有8个工具Issue/PR均超10条，生态高度活跃"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.15-beta.1发布，新增OAuth状态监控卡",
+      "OpenClaw处理500 Issue+500 PR，社区修复效率极高",
+      "PR#67588完善/readyz端点暴露bootCompleted状态",
+      "PR#67077修复Windows配置热重载只读冲突问题",
+      "PR#67159统一OpenAI Codex baseUrl规范化逻辑",
+      "Issue#66718聚焦openclaw configure命令优化"
+    ],
+    "ai-trending": [
+      "forrestchang/andrej-karpathy-skills单日增9646星",
+      "virattt/ai-hedge-fund成为AI金融应用新热点",
+      "google/magika图像识别工具单日获768关注",
+      "vercel-labs/open-agents智能体框架获915关注",
+      "Lordog/dive-into-llms大模型教程获941关注",
+      "affaan-m/everything-claude-code深度解析获高星"
+    ],
+    "ai-web": [
+      "Anthropic发布Agent Skills开源标准提升代理专业化",
+      "OpenAI Agents SDK迭代升级强化代理开发生态",
+      "Anthropic工程博客详解技能包可组合性设计",
+      "OpenAI内容缺失但路径指向重要SDK更新",
+      "两家公司战略重心转向三位一体系统级竞争",
+      "Agent Skills标准推动第三方开发者共建生态"
+    ],
+    "ai-hn": [
+      "Sal Khan反思Khanmigo未达预期引发教育AI讨论",
+      "Anthropic事实核查功能遭质疑信任危机凸显",
+      "OpenAI Agents SDK重大更新标志开发范式转变",
+      "Jeeves TUI工具获10分展示AI工作流创新",
+      "Omi屏幕监听工具获8分引发隐私担忧",
+      "LLM信用额度管理成热门讨论话题"
+    ],
+    "ai-arxiv": [
+      "SpatialEvo解决三维场景标注成本高问题",
+      "LongCoT基准评测长时域复杂推理能力",
+      "TIP指导on-policy知识蒸馏提升训练效率",
+      "动态隔离任务关键参数缓解灾难性遗忘",
+      "Reward Design改进物理推理奖励机制",
+      "共识推理KG纠正LLM错误推理步骤"
+    ],
+    "ai-hf": [
+      "Google Gemma-4多模态模型下载破300万",
+      "NVIDIA提供FP4量化版Gemma-4加速推理部署",
+      "zai-org/GLM-5.1智源MoE模型获1253点赞",
+      "社区OBLITERATED无审查版本受关注",
+      "Jackrong蒸馏模型获2667点赞创新高",
+      "腾讯HY-Embodied-0.5专注具身智能场景"
+    ],
+    "ai-community": [
+      "Harness Engineering为可靠AI Agent提供新方法",
+      "Context Compaction三层次压缩突破窗口限制",
+      "Gemini 3.1 TTS官方提示工程指南获30赞",
+      "Cloud Run Jobs+AlloyDB构建RAG后端实践",
+      "Gemini Code Assist VSCode插件提升开发效率",
+      "本地AI部署成本效益分析成热议话题"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.110 released with stable agentic workflows and multi-account support",
+      "OpenAI Codex drives autonomous coding with rust-v0.121.0 alpha updates",
+      "Kimi Code CLI gains traction through reasoning transparency in agent workflows",
+      "GitHub Copilot CLI maintains stability at v1.0.28 for enterprise use",
+      "Pi and Qwen Code focus on cost control and specialized tooling",
+      "Gemini CLI reaches v0.38.1 with patch-level improvements"
+    ]
+  }
+}
