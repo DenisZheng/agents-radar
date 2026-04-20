@@ -47,6 +47,14 @@
       "最小上下文原则应对大模型窗口限制",
       "3周构建 AI 代理治理层实战分享",
       "气候聊天机器人 Aura 状态保持教练上线"
+    ],
+    "ai-weekly": [
+      "Claude Opus 4.7发布，Anthropic推出首个内部孵化产品Claude Design",
+      "OpenAI Agents SDK重大更新，巩固其Agent开发领域影响力",
+      "社区热议AI slop与生产力质疑，围绕Stanford AI Index报告展开",
+      "EvoMap/evolver自进化AI代理引擎爆红GitHub热榜第一",
+      "瑞士政府计划减少对微软Azure AI依赖，推动本土替代方案",
+      "OpenClaw v2026.4.19-beta.2修复子代理作用域和流式请求使用量报告问题"
     ]
   },
   "en": {
@@ -97,6 +105,14 @@
       "Tutorials cover RAG agent evaluation techniques",
       "Governance layers centralize API key management",
       "Neural weights queried as graphs on Lobste.rs"
+    ],
+    "ai-weekly": [
+      "Anthropic releases Claude Opus 4.7 with enhanced coding and Mythos integration",
+      "OpenAI announces Agents SDK evolution for multi-agent development",
+      "GitHub Copilot CLI criticized for high token usage among Pro users",
+      "OpenAI unveils GPT-Rosalind for life sciences research",
+      "OpenClaw v2026.4.19-beta.2 fixes agent routing and streaming issues",
+      "Claude Code Skills gains new typography and security analyzer skills"
     ]
   }
 }
