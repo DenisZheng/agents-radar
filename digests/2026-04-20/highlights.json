@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 新增 OAuth 认证支持，提升企业集成稳定性",
+      "OpenAI Codex 发布 Rust v0.122.0-alpha.12，性能优化显著",
+      "Qwen Code v0.14.5-nightly 正式支持 ACP 协议扩展",
+      "Kimi Code CLI 紧急修复子代理上下文管理缺陷",
+      "Pi 工具移动端重大更新，支持多平台 Bug 热修复",
+      "GitHub Copilot CLI v1.0.32 专注 IDE 深度集成优化"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.19-beta.2 修复流式请求 token 统计问题",
+      "OpenClaw 新增 HTTP REST API 端点提升 CLI 响应速度",
+      "NanoBot 与 Hermes Agent 活跃度飙升，社区高度活跃",
+      "PicoClaw 发布嵌套 lanes 作用域控制新功能",
+      "IronClaw 强化多租户环境安全隔离性",
+      "LobsterAI 实现 graceful shutdown 僵尸进程强制清理"
+    ],
+    "ai-trending": [
+      "openai/openai-agents-python 752 stars 登顶热榜",
+      "ollama/ollama 169,450 stars 支持本地运行 Kimi-K2.5",
+      "CopilotKit/CopilotKit 30,329 stars 构建生成式 UI",
+      "Donchitos/Claude-Code-Game-Studios 704 stars 全栈游戏开发",
+      "ruvnet/RuView 149 stars WiFi 人体姿态识别突破",
+      "BasedHardware/omi 685 stars 桌面 AI 助手主动建议待办"
+    ],
+    "ai-hn": [
+      "Claude Opus 4.7 系统提示变更引发模型行为争议",
+      "NSA 使用 Anthropic Mythos 模型突破出口管制",
+      "瑞士政府计划减少对 Microsoft 依赖",
+      "Show HN: Faceoff 终端 UI 追踪 NHL 比赛获赞",
+      "Nyx 对抗性测试框架保障 AI 安全性",
+      "Uber CEO 承认 AI 未提升生产力引质疑"
+    ],
+    "ai-hf": [
+      "google/gemma-4-31B-it 2,185 点赞多模态 LLM 首选",
+      "zai-org/GLM-5.1 1,417 点赞 DSA 架构文本生成强",
+      "MiniMax-M2.7 982 点赞对话推理能力突出",
+      "Qwen3.6-35B-A3B 930 点赞视觉语言交互强大",
+      "netflix/void-model 视频编辑专用模型创新",
+      "nvidia/Lyra-2.0 音频处理专用模型前沿"
+    ],
+    "ai-community": [
+      "EM OS 操作系统式信息管理提升生产力",
+      "本地 AI 桌面助手赋予 Telegram/Discord 通信能力",
+      "评估 AI 代理质量指标深度指南发布",
+      "最小上下文原则应对大模型窗口限制",
+      "3周构建 AI 代理治理层实战分享",
+      "气候聊天机器人 Aura 状态保持教练上线"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code sees 8 PR updates today",
+      "OpenAI Codex releases Alpha (Rust) version",
+      "Gemini CLI maintains steady 10 PR activity",
+      "Copilot CLI shows zero PR updates today",
+      "Kimi Code CLI has 8 top-engagement issues",
+      "OpenCode and Pi join the ecosystem"
+    ],
+    "ai-agents": [
+      "OpenClaw released v2026.4.19-beta.2 with streaming fixes",
+      "v2026.4.19-beta.1 routes cross-agent spawns securely",
+      "500 issues/PRs updated showing strong momentum",
+      "Nested agent work now scoped for session isolation",
+      "Fixes prevent child sessions inheriting caller identity",
+      "Channel integrations remain stability challenge"
+    ],
+    "ai-trending": [
+      "openai-agents-python surged +752 stars today",
+      "RuView gains momentum for privacy-first AI sensing",
+      "Claude Code integrations proliferate rapidly",
+      "Ollama enables consumer LLM deployment",
+      "vLLM optimizes GPU efficiency for production",
+      "E2B offers secure enterprise sandboxes"
+    ],
+    "ai-hn": [
+      "Swiss authorities seek to reduce Microsoft reliance",
+      "Anthropic's Opus 4.7 system prompt changes spark debate",
+      "NSA reportedly uses Anthropic's Mythos despite ban",
+      "Faceoff terminal UI for NHL games scores 90 HN points",
+      "Users question unannounced model behavior shifts",
+      "Skepticism grows over rapid AI deployment ROI"
+    ],
+    "ai-hf": [
+      "zai-org/GLM-5.1 gains traction for conversational use",
+      "Qwen3.6-35B-A3B popular for image-text-to-text tasks",
+      "MiniMax-M2.7 shows strong text-generation adoption",
+      "google/gemma-4-31B-it tops downloads for multimodal use",
+      "tencent/HY-Embodied-0.5 advances embodied vision",
+      "Community creates uncensored/abliterated Gemma-4 variants"
+    ],
+    "ai-community": [
+      "Developers focus on production agent workflows",
+      "MCP enables richer AI tool integrations",
+      "Monitoring prevents AI system 'drift' concerns",
+      "Tutorials cover RAG agent evaluation techniques",
+      "Governance layers centralize API key management",
+      "Neural weights queried as graphs on Lobste.rs"
+    ]
+  }
+}
