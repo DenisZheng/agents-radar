@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.119发布，新增配置持久化和统一usage命令",
+      "OpenAI Codex推出rust-v0.124.0-alpha版本，支持TUI推理控制",
+      "Gemini CLI v0.39.0更新，改进代码规划能力",
+      "Kimi Code CLI集成Grok全系列功能，支持图像生成和语音合成",
+      "GitHub Copilot CLI v1.0.35发布，优化会话管理和环境变量处理",
+      "Qwen Code v0.15.1新增文件读取和会话命名功能"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.22发布，新增xAI(Grok)图像生成和语音合成支持",
+      "OpenClaw引入scoped mention pattern policy提升跨平台消息路由一致性",
+      "OpenClaw新增Google Meet插件支持OAuth PKCE和自动加入会议",
+      "OpenClaw解耦记忆梦境调度器与心跳机制提升稳定性",
+      "OpenClaw推进多模态支持扩展，集成NVIDIA NIM原生接入",
+      "OpenClaw强化企业级协作集成和安全合规性建设"
+    ],
+    "ai-trending": [
+      "cline/cline在IDE中运行的自洽编码代理，无需配置即可工作",
+      "zilliztech/claude-context专为Claude Code设计的代码搜索MCP插件",
+      "mksglu/context-mode实现98%上下文缩减的AI编码代理工具",
+      "huggingface/ml-intern开源ML工程师，能训练模型和发布模型",
+      "ruvnet/RuView利用WiFi信号实现人体姿态估计和生命体征监测",
+      "microsoft/ai-agents-for-beginners提供12个课程的AI Agent入门指南"
+    ],
+    "ai-web": [
+      "OpenAI发布GPT-5.5并启动Bio方向漏洞赏金计划",
+      "Anthropic回应Claude Code质量问题，承认性能下降问题",
+      "OpenAI密集发布GPT-5.5系统卡和安全公告",
+      "Anthropic公布Claude Code修复措施和改进方案",
+      "OpenAI启动GPT-5.5生物信息学Bug Bounty计划",
+      "Anthropic强调产品化过程中的持续优化和用户体验追求"
+    ],
+    "ai-hn": [
+      "GPT-5.5发布引发HN社区热烈讨论，评分1019评论673条",
+      "Anthropic发布Claude Code质量复盘报告，社区高度关注",
+      "Zork-bench基于文本冒险游戏的新LLM推理评估方法",
+      "Tolaria开源macOS应用管理Markdown知识库",
+      "Show HN: Tolaria - 开源macOS应用管理Markdown知识库",
+      "Anthropic的Claude Desktop App安装未公开原生组件引发争议"
+    ],
+    "ai-arxiv": [
+      "SpeechParaling-Bench全面评估语音副语言感知生成能力",
+      "不同LLM学习数字表示时收敛到相似周期性模式",
+      "工作记忆约束提升Transformer在数据稀缺下的学习效率",
+      "诊断LLM作为CFG解释器的能力",
+      "AVISE框架系统性评估AI系统安全性",
+      "OMIBench奥赛级多图像推理基准推动LVLM发展"
+    ],
+    "ai-hf": [
+      "google/gemma-4-31B-it以2313点赞登顶榜单，支持图文联合处理",
+      "zai-org/GLM-5.1 MoE架构大模型获1481点赞，下载量18万+",
+      "tencent/HY-World-2.0从单张图片生成高质量3D模型",
+      "baidu/ERNIE-Image基于Diffusers框架的文本到图像生成模型",
+      "NucleusAI/Nucleus-Image文本到图像生成模型获536点赞",
+      "Qwen3.6-27B支持图像和文本联合处理，表现优异"
+    ],
+    "ai-community": [
+      "Google拆分TPU芯片揭示Agentic时代硬件设计新需求",
+      "The Token Tab开发者AI工具采购审计清单防营销误导",
+      "How My Coworker构建安全可靠的AI编码代理工作流",
+      "Low-Latency Model Router动态选择最优LLM提升API效率",
+      "Building Multi-Agent Systems with LangChain完整指南",
+      "The Validation Server拦截校验AI输出防止错误动作"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.119 released with stability fixes",
+      "OpenAI Codex rust-v0.124.0 update improves performance",
+      "Gemini CLI v0.39.0 adds enhanced MCP support and nightly builds",
+      "GitHub Copilot CLI v1.0.35 focuses on CI/CD integration",
+      "Kimi Code CLI maintains active development with 10 recent PRs",
+      "Qwen Code v0.15.1 offers stable + nightly builds for new users"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.22 introduces xAI Grok image generation & TTS",
+      "358 open issues show rapid OpenClaw ecosystem evolution",
+      "317 open PRs indicate sustained community engagement",
+      "xAI real-time transcription streaming now supported in OpenClaw",
+      "Six live xAI voices added to text-to-speech system",
+      "Grok-imagine-image-pro enables advanced reference editing"
+    ],
+    "ai-trending": [
+      "cline/cline hits ⭐123 (+123) as autonomous IDE agent",
+      "context-mode cuts AI memory usage by 98% via sandboxing",
+      "OpenMetadata ⭐776 (+776) scales enterprise data governance",
+      "VoltAgent's awesome-agent-skills library reaches 1000+ skills",
+      "RAG-Anything gains traction for modular knowledge management",
+      "RuView enables WiFi-based vital sign monitoring without cameras"
+    ],
+    "ai-web": [
+      "Anthropic addresses Claude Code quality degradation post-mortem",
+      "OpenAI publishes GPT-5.5 system card ahead of launch",
+      "Bug bounty program announced for imminent GPT-5.5 release",
+      "Claude Code rollback fixes March reasoning effort regressions",
+      "Agent SDK updates caused performance drops resolved April 7",
+      "OpenAI metadata pages signal GPT-5.5 availability timing"
+    ],
+    "ai-hn": [
+      "GPT-5.5 launched without ARC-AGI-3 benchmark scores",
+      "Claude Desktop reveals undisclosed native messaging bridges",
+      "Identity verification required for Claude Desktop users",
+      "Pricing models spark skepticism around agentic tools",
+      "Axios developer tool compromise raises security concerns",
+      "Community divided over GPT-5.5 transparency practices"
+    ],
+    "ai-arxiv": [
+      "SpeechParaling-Bench evaluates emotion/intent in audio-language models",
+      "ParetoSlider enables multi-criteria diffusion model control",
+      "Diagnosing CFG Interpretation probes LLM reasoning capabilities",
+      "Intersectional Fairness benchmark addresses demographic bias",
+      "Feature whitening improves clinical model interpretability",
+      "Attention scheduling advances long-context efficiency"
+    ],
+    "ai-hf": [
+      "Google's gemma-4-31B-it leads with 5M+ downloads",
+      "zai-org/GLM-5.1 MoE model gains 1.5K+ likes",
+      "MiniMax-M2.7 shows Chinese tech giant traction",
+      "NVFP4 inference format pushes production efficiency",
+      "Qwen3.6 gets uncensored fine-tunes for low-resource use",
+      "Tencent releases 3D generation multimodal models"
+    ],
+    "ai-community": [
+      "Google splits TPU into two chips for training/inference divergence",
+      "McDonald's AI jailbreak enables dangerous self-coding behavior",
+      "Token Tab audits reveal hidden costs in AI tutorials",
+      "CD command ignorance caused production deployment incident",
+      "TPU hardware shift reflects agentic era demands",
+      "Developer stack validation prevents costly AI mistakes"
+    ]
+  }
+}
