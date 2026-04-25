@@ -1,0 +1,126 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.120发布，新增ultrareview命令修复Windows问题",
+      "OpenAI Codex rust-v0.125.0更新优化App Server架构",
+      "Gemini CLI v0.40.0-preview.3修复Windows退格键并支持AST读取",
+      "GitHub Copilot CLI v1.0.36增强Opus 4.6性能并修复扩展路径",
+      "Kimi Code CLI v1.39.0支持KIMI_MODEL_THINKING_KEEP环境变量",
+      "Pi v0.70.1/v0.70.2新增DeepSeek V4支持及provider超时控制"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.23新增OpenAI图像生成OAuth支持",
+      "OpenClaw修复Control UI上下文问题引入会话刷新机制",
+      "OpenClaw添加子代理陈旧性检测防止资源占用",
+      "OpenClaw启动流式STT/TTS第二阶段开发支撑实时语音",
+      "OpenClaw统一跨频道提及策略提升消息路由一致性",
+      "OpenClaw修复Claude CLI忽略自定义MCP服务器问题"
+    ],
+    "ai-trending": [
+      "Ollama轻量级LLM框架支持Kimi-K2.5等模型一键部署",
+      "vLLM推理引擎获社区认可内存优化与batching能力突出",
+      "Hugging Face Transformers持续支撑多模态模型研发",
+      "LangChain稳居热榜体现复杂任务编排统治地位",
+      "OpenHands自主编码Agent框架被视作Copilot下一代形态",
+      "zilliztech/claude-context解决代码库上下文窗口不足难题"
+    ],
+    "ai-web": [
+      "Anthropic选举安全措施更新通过角色训练防政治偏见",
+      "Anthropic与亚马逊合作获得5GW新计算能力Trainium芯片",
+      "Anthropic与日本NEC合作建AI-native工程团队服务3万人",
+      "OpenAI官网暂无新内容更新",
+      "Google投资400亿美元入股Anthropic引市场关注",
+      "OpenAI发布GPT-5.5及Pro版本API引发热议"
+    ],
+    "ai-hn": [
+      "OpenAI发布GPT-5.5系列模型Pro版本API引发热议",
+      "Researchers模拟妄想用户测试聊天机器人安全性获关注",
+      "Browser Harness项目赋予LLM执行浏览器任务能力获赞",
+      "PrivateClaw在机密虚拟机运行AI代理强调隐私安全",
+      "Google拟投400亿入股Anthropic重塑市场竞争格局",
+      "DeepEP高效MoE通信库标志国产大模型底层优化突破"
+    ],
+    "ai-arxiv": [
+      "LoRA方法深入理论探讨澄清PEFT领域核心作用",
+      "GiVA向量基适应利用梯度信息构建更优适应基",
+      "提示诱导幻觉揭示LVLMs中提示干扰视觉理解",
+      "LLM普遍存在日本文化偏见反映训练数据潜在倾向",
+      "StructMem结构化记忆支持长时程对话时序推理",
+      "Tool Attention动态工具门控消除Agentic工作流效率瓶颈"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro高推理质量成最关注开源语言模型",
+      "GLM-5.1 DSA-MoE架构支持长上下文高效推理",
+      "MiniMax-M2.7低延迟响应适合企业级对话应用",
+      "Kimi-K2.6多模态理解支持图文联合输入输出",
+      "Qwen3.6-27B多模态融合文本图像广泛用于智能助手",
+      "openai/privacy-filter隐私检测脱敏已在合规场景广泛应用"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.120 released with urgent bug fixes",
+      "OpenAI Codex rust-v0.125.0 + alpha v0.126.0 released",
+      "Gemini CLI v0.40.0-preview.3 and patch v0.39.1 active",
+      "GitHub Copilot CLI maintains steady 10 issues count",
+      "Kimi Code CLI integrates reasoning-aware tooling features",
+      "Qwen Code shows strong PR activity in non-interactive modes"
+    ],
+    "ai-agents": [
+      "OpenClaw released v2026.4.23 enabling image generation via Codex OAuth",
+      "OpenClaw adds OpenRouter image_generate support without API keys",
+      "PR #71297 fixed ControlNet UI context handling in OpenClaw",
+      "IronClaw focuses on sandbox file operations and session management",
+      "LobsterAI introduces agent evolving learning for open-ended environments",
+      "CoPaw implements AG-UI protocol integrations for agentic workflows"
+    ],
+    "ai-trending": [
+      "free-claude-code gained 2,638 stars in GitHub trending",
+      "everything-claude-code dominates new star growth",
+      "ml-intern autonomously trains models and deploys code (2,985 stars)",
+      "claude-context enables full-codebase injection for agents",
+      "ollama supports Kimi-K2.5 and DeepSeek models locally",
+      "vllm-project optimizes GPU inference throughput at scale"
+    ],
+    "ai-web": [
+      "Anthropic secures 5GW AWS AI capacity via custom Trainium2–4 chips",
+      "Anthropic partners with NEC for Japan enterprise rollout (30k employees)",
+      "Election safeguards update ensures Claude neutrality during U.S. midterms",
+      "OpenAI released no new public content April 25",
+      "Anthropic decouples reasoning from execution in managed agents",
+      "DeepSeek V4 pushes open-source reasoning benchmarks forward"
+    ],
+    "ai-hn": [
+      "Google invests $40B in Anthropic raising corporate influence debate",
+      "Claude 4.7 criticized for ignoring stop hooks and declining reliability",
+      "Browser Harness gives LLMs freedom to complete browser tasks",
+      "PrivateClaw gains traction for transparent LLM interactions",
+      "Token limits and pricing changes fuel user frustration",
+      "OpenAI releases GPT-5.5 and GPT-5.5 Pro in API"
+    ],
+    "ai-arxiv": [
+      "GiVA improves parameter-efficient fine-tuning with gradient-informed bases",
+      "StructMem enables long-horizon reasoning via structured memory modules",
+      "Stealthy backdoor attacks use natural style triggers instead of tokens",
+      "Quotient-Space Diffusion Models advance scalable generative modeling",
+      "Dynamic tool gating refines agentic workflow reliability",
+      "Continual learning papers address temporal taskification challenges"
+    ],
+    "ai-hf": [
+      "deepseek-ai/DeepSeek-V4-Pro leads weekly likes with 2,419 stars",
+      "zai-org/GLM-5.1 gains traction as open-weight MoE model",
+      "google/gemma-4-31B-it tops downloads with 5.4M pulls",
+      "MiniMax-M2.7 rapidly rising through community rankings",
+      "multimodal models show strong TTS and image-to-3D momentum",
+      "uncensored community fine-tunes dominate trending space"
+    ],
+    "ai-community": [
+      "Google launches official Agent Skills Repository for GCP standardization",
+      "Bitwarden CLI backdoored in supply chain attack raising alarms",
+      "WhatsApp AI assistants built using OpenClaw gaining popularity",
+      "DeepSeek V4 benchmarks analyzed for real-world performance implications",
+      "LLM evaluation metrics debated as potentially misaligned with value",
+      "Developer reflection on AI reshaping coding workflows and identity"
+    ]
+  }
+}
