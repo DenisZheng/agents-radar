@@ -1,0 +1,94 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 高热度 Issue 讨论 Stream Idle Timeout 错误",
+      "OpenAI Codex 发布 rust-v0.126.0-alpha.2 预发布版本",
+      "Gemini CLI v0.40.0-preview.4 补丁更新修复问题",
+      "Kimi Code CLI 新增 RalphFlow 多步工作流架构",
+      "Qwen Code 推进 MCP 工具集成 (#3277)",
+      "GitHub Copilot CLI 收到多账户切换需求 (#2930)"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.24 集成 Google Meet 内置参与者插件",
+      "OpenClaw 新增 DeepSeek V4 Flash/Pro 模型支持",
+      "OpenClaw v2026.4.24-beta.2 修复 Windows 运行时安装问题",
+      "社区热议 OpenClaw 多用户权限管理与 A2A 协议支持",
+      "Hermes Agent 项目获高度关注（GitHub 数据）",
+      "NanoBot 在 OpenClaw 生态中表现活跃"
+    ],
+    "ai-trending": [
+      "Alishahryar1/free-claude-code 今日获 4007 stars，允许免费使用 Claude Code",
+      "huggingface/ml-intern Hugging Face ML Engineer Agent 自主读论文训练模型部署",
+      "RooCodeInc/Roo-Code VS Code 插件将编辑器变为 AI 开发团队",
+      "thedotmack/claude-mem TypeScript 项目实现 AI 代理知识库自主演进",
+      "ComposioHQ/awesome-codex-skills 构建 Claude Code 技能生态系统",
+      "deepseek-ai/DeepEP Cuda 开源加速库提升推理性能"
+    ],
+    "ai-hn": [
+      "Show HN: wuphf 项目让 AI 代理通过 Markdown/Git 维护知识库",
+      "OpenAI GPT-5.5 Bio 设立漏洞赏金计划提升医疗模型安全性",
+      "Show HN: Stash 提供通用记忆层使 AI 代理具备对话记忆能力",
+      "Musk 撤销对 OpenAI 欺诈指控，Altman 诉讼案和解",
+      "Civic-SLM 针对美国政府数据微调展示低成本合规 AI 方案",
+      "Agent MCP Studio 浏览器内可视化搭建多智能体系统"
+    ],
+    "ai-hf": [
+      "Google Gemma-4-31B-it 发布获 570万+下载量，支持图文对话",
+      "MiniMax-M2.7 下载量 47万+，强调高性价比多轮交互",
+      "zai-org/GLM-5.1 MoE 架构大模型下载量 21万+，采用 DSA 机制",
+      "moonshotai/Kimi-K2.6 多模态模型支持图文理解与高效推理",
+      "openbmb/VoxCPM2 语音合成模型支持跨语种 TTS 与情感表达",
+      "tencent/HY-World-2.0 世界模型从单图生成三维结构"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code maintains steady activity with 10 issues and 8 PRs",
+      "OpenAI Codex releases rust-v0.126.0-alpha.2 today",
+      "Gemini CLI ships v0.40.0-preview.4 with latest updates",
+      "GitHub Copilot CLI shows consistent engagement across metrics",
+      "Kimi Code CLI and Qwen Code maintain active development",
+      "OpenCode introduces new agent loop experimentation features"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 issues/PRs updated in 24 hours",
+      "v2026.4.24 adds Google Meet integration as bundled plugin",
+      "DeepSeek V4 Flash and Pro models now supported in OpenClaw",
+      "Six new versions released including stable and beta builds",
+      "Windows runtime dependencies refined in latest betas",
+      "Plugin compatibility preserved during host updates"
+    ],
+    "ai-trending": [
+      "Free Claude Code clones surge in popularity on GitHub",
+      "DeepEP emerges as key multi-GPU communication library",
+      "ml-intern demonstrates autonomous model lifecycle management",
+      "LightRAG dominates but PageIndex offers reasoning-first retrieval",
+      "Ollama enables local deployment of Kimi-K2.5 and DeepSeek models",
+      "vLLM optimizes LLM serving with speculative decoding"
+    ],
+    "ai-hn": [
+      "OpenAI launches GPT-5.5 Bio bug bounty program",
+      "Civic-SLM fine-tunes Qwen2.5-7B for US government data",
+      "Show HN: A Git-based wiki for AI agent knowledge management",
+      "Community debates effectiveness of AI industry bug bounties",
+      "Karpathy-style LLM wiki gains massive traction with 221 points",
+      "Specialized open models gaining adoption over closed alternatives"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads with 78k downloads and 2.6k likes",
+      "GLM-5.1 MoE model sees strong community adoption",
+      "Gemma-4-31B-it shows massive 5.7M download volume",
+      "OpenAI's privacy-filter addresses data sanitization needs",
+      "Qwen3.6 drives explosion of uncensored community fine-tunes",
+      "HY-World-2.0 enables image-to-3D generation capabilities"
+    ],
+    "ai-community": [
+      "GPT-5.5 offers modest reasoning gains at higher cost",
+      "Developers cut AI spend using open-source Claude Code alternatives",
+      "LLM reasoning demands strain existing AI infrastructure",
+      "OpenAI's DALL·E shutdown creates migration challenges",
+      "Claude Opus 4.7 benchmarks show speed-accuracy tradeoffs",
+      "Structured agentic workflow frameworks gain momentum"
+    ]
+  }
+}
