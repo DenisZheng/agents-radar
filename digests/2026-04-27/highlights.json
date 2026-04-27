@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 持续迭代，社区活跃度最高",
+      "OpenCode v1.14.26 发布，修复 TUI 集成问题",
+      "Qwen Code v0.15.3 更新，优化 VS Code 集成",
+      "Kimi Code CLI 引入 Tauri 原生应用创新",
+      "Pi 扩展 MCP 支持，增强模型兼容性",
+      "Gemini CLI 聚焦 K2.6 模型过载问题修复"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.25-beta.4 发布语音回复全面升级",
+      "新增 Azure Speech、ElevenLabs v3 等 TTS 支持",
+      "修复紧凑会话转录轮转逻辑避免数据丢失",
+      "Control UI 在 Chromium/Vivaldi 中卡死问题受关注",
+      "OpenClaw 处理 500 Issues 和 500 PRs 保持活跃",
+      "新增对 Xiaomi、Volcengine 等主流 TTS 提供商支持"
+    ],
+    "ai-trending": [
+      "ollama 支持 Kimi-K2.5、GLM-5 等多模型一键启动",
+      "trycua/cua 专为 Computer-Use Agents 设计登榜",
+      "OpenHands 获 72k+ stars 成为热门 Agent 框架",
+      "bytedance/deer-flow 超 long-context AI 框架开源",
+      "Alishahryar1/free-claude-code 解决使用限制问题",
+      "abhigyanpatwari/GitNexus 浏览器内代码知识图谱工具"
+    ],
+    "ai-web": [
+      "OpenAI 更新 Our Principles 页面元数据",
+      "Anthropic 今日无新增官方内容发布",
+      "OpenAI sitemap 共 789 条记录",
+      "Our Principles 页面更新可能反映战略调整",
+      "OpenAI 官网首页元数据链接更新",
+      "Anthropic sitemap 共 343 条记录"
+    ],
+    "ai-hn": [
+      "OpenAI 停止评估 SWE-bench Verified 引发讨论",
+      "DeepSeek 下调输入缓存价格刺激成本优化",
+      "AgentSwarms 零配置多智能体交互沙盒上线",
+      "Semble 实现接近 Transformer 精度的代码搜索",
+      "Polynya 将 Postgres 转化为 AI 工作区",
+      "SpaceX AI 业务消耗 Starlink 盈利现金"
+    ],
+    "ai-hf": [
+      "DeepSeek V4-Pro 高端推理模型最受关注",
+      "Google Gemma-4-31B-it 下载量达 600万+",
+      "Qwen3.6 MoE 架构在量化社区形成生态闭环",
+      "moonshotai/Kimi-K2.6 多模态 MoE 模型性能强劲",
+      "zai-org/GLM-5.1 采用 DSA 稀疏激活技术",
+      "MiniMax-M2.7 主打自然流畅多轮交互体验"
+    ],
+    "ai-community": [
+      "OpenClaw 挑战赛聚焦邮件自动化实战经验",
+      "Claude Code 技能系统构建自定义斜杠命令指南",
+      "OpenClaw 企业级 VPS 部署与安全访问控制",
+      "LangChain 案例研究揭示约束悖论提升代码质量",
+      "微调 7B 模型替代正则表达式实现工具使用",
+      "5个生产就绪 MCP 服务器助力 AI 开发"
+    ]
+  },
+  "en": {}
+}
