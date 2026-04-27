@@ -55,7 +55,24 @@
       "LangChain 案例研究揭示约束悖论提升代码质量",
       "微调 7B 模型替代正则表达式实现工具使用",
       "5个生产就绪 MCP 服务器助力 AI 开发"
+    ],
+    "ai-weekly": [
+      "OpenAI发布GPT-5.5系列模型，引发社区空前关注",
+      "Anthropic与AWS签署超1000亿美元算力协议，获5GW新资源",
+      "Claude Opus 4.7商用版强化软件工程与视觉理解能力",
+      "SpaceX AI投入侵蚀Starlink盈利，引发科技巨头烧钱模式讨论",
+      "GitHub Copilot CLI v1.0.36修复扩展加载路径并优化Opus 4.6性能",
+      "Qwen Code v0.15.3重点优化VS Code集成体验和性能"
     ]
   },
-  "en": {}
+  "en": {
+    "ai-weekly": [
+      "OpenAI announces GPT-5.5 and GPT-5.5 Pro in API",
+      "Anthropic removes Claude Code from Pro plan",
+      "Mozilla uses Anthropic's Mythos to find 271 Firefox bugs",
+      "OpenAI releases GPT-5.5 with Symphony architecture",
+      "Google plans $40B investment in Anthropic",
+      "DeepSeek V4 Flash/Pro integrated into Pi and OpenClaw"
+    ]
+  }
 }
