@@ -1,0 +1,110 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code Skills 插件生态爆发，支持记忆增强与技能扩展",
+      "OpenAI Codex 发布 4 个 Rust Alpha 版本，性能持续优化",
+      "Gemini CLI v0.41.0-nightly 更新，新增多模态支持",
+      "Copilot CLI v1.0.37 发布，强化企业级集成能力",
+      "Pi Mono 连续发布 v0.70.5/v0.70.4/v0.70.3，功能迭代活跃",
+      "Qwen Code v0.15.2-nightly 上线，快速扩展 Provider 生态"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.25 发布，全面升级 TTS 系统并支持 6 家语音提供商",
+      "新增 DeepInfra 语音/文本插件，扩展多模态 AI 模型接入",
+      "开放 SecretRef 插件化架构，支持 GCP Secret Manager 等企业级密钥管理",
+      "修复 TTS 密钥泄露风险，提升系统安全性（PR #73111）",
+      "统一 Codex 应用路径逻辑，修正对话路由错误（PR #72442）",
+      "社区热议网关连接异常与 Windows UI 渲染缺陷"
+    ],
+    "ai-trending": [
+      "Ollama 支持 Kimi-K2.5、DeepSeek 等前沿模型一键本地部署",
+      "vLLM 高吞吐推理引擎助力生产环境 LLM 服务优化",
+      "Firecrawl 智能网页抓取 API 集成反爬策略，为 AI 提供实时数据",
+      "OpenHands 开源 AI 开发框架，支持复杂任务分解与沙盒执行",
+      "TradingAgents 多 Agent 金融交易框架今日新增 248 star",
+      "微软 VibeVoice 开源语音 AI 原型，支持情感表达与语调控制"
+    ],
+    "ai-web": [
+      "Anthropic 在悉尼设办公室，任命 Theo Hourmouzis 为澳新总经理",
+      "OpenAI 发布 '开源 Codex 编排交响乐' 技术方案",
+      "OpenAI 与微软合作进入下一阶段，生态整合深化",
+      "Anthropic 强调安全与企业级落地，聚焦金融与政府客户",
+      "OpenAI 开源策略调整，推动开发者工具链开放",
+      "双方竞争焦点转向企业级 AI 部署与合规响应"
+    ],
+    "ai-hn": [
+      "微软与 OpenAI 结束独家合作及收入分成协议（730 分）",
+      "OpenAI 发布《Our Principles》回应 Musk 诉讼开庭",
+      "Talkie：复现 1930 年代语言模型的复古项目引发讨论（45 分）",
+      "LLMs 可能无意识破坏文档，挑战代理系统可靠性",
+      "OpenAI 开源 Codex 编排框架 'Symphony' 标准化 AI 编程工具",
+      "Devin for Terminal 上线，首个面向终端的自主 AI 开发 Agent"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 高性能推理模型获赞超 3,000，逻辑数学能力强",
+      "Google gemma-4-31B-it 多模态模型下载破 630 万，最热门",
+      "Qwen3.6-35B-A3B-GGUF 领跑量化模型下载，MoE 架构受青睐",
+      "Moonshot Kimi-K2.6 支持图像理解与生成，压缩张量提效",
+      "Unsloth 提供 Qwen3.6-35B-A3B-GGUF，高效推理格式流行",
+      "社区兴起 Claude 4 蒸馏 Qwen 变体，“去审查”兴趣升温"
+    ],
+    "ai-community": [
+      "Dev.to 探讨 LLM 生产集成陷阱，提供工程化实践指南",
+      "HNSW 图索引算法突破高维检索性能，助建大规模 RAG",
+      "批判 LLM 上下文记忆局限，提出选择性记忆方案",
+      "四月五大 LLM 发布致价格腰斩，企业需快速迁移规划",
+      "TorchAX 教程实现 HuggingFace 模型在 TPU 上微调",
+      "Lobste.rs 热议 AI 零日攻击防御，社区警惕性上升"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code Skills released with new agent capabilities",
+      "OpenAI Codex launches 4 alpha builds today",
+      "Gemini CLI v0.41.0-nightly adds streaming improvements",
+      "Kimi Code CLI introduces enhanced cross-platform support",
+      "Qwen Code integrates local toolchain workflows",
+      "Pi CLI adds memory upgrade for long-running tasks"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.25 ships major TTS overhaul with 6 new providers",
+      "Azure Speech, ElevenLabs v3 added to OpenClaw voice synthesis",
+      "Bounded fallback vectored in PR #73100 improves reliability",
+      "Windows UI rendering issues reported post-update despite stability claims",
+      "Gateway crashes persist despite rapid iteration pace",
+      "Per-agent TTS controls now allow persona-based voice settings"
+    ],
+    "ai-trending": [
+      "GitNexus gains 1,102 stars for browser-based code knowledge graphs",
+      "Beads enables zero-server context retention for coding agents",
+      "VibeVoice from Microsoft hits 757 stars with enterprise voice AI",
+      "Skills project distills real-world `.claude` engineering patterns",
+      "DeepSeek-V3 influences open-weight LLM innovation trends",
+      "Agentic workflows drive focus on secure sandboxes and local RAG"
+    ],
+    "ai-web": [
+      "Anthropic opens Sydney office with Theo Hourmouzis as GM ANZ",
+      "OpenAI publishes 'Open Source Codex Orchestration Symphony' article",
+      "Microsoft partnership next phase detailed in new OpenAI content",
+      "APAC expansion targets enterprise AI adoption in Australia",
+      "Sydney office launch aligns with regional AI safety regulations",
+      "Hourmouzis brings Snowflake leadership experience to Anthropic"
+    ],
+    "ai-hn": [
+      "Microsoft ends exclusive revenue deal with OpenAI sparking debate",
+      "Claude-powered agent deletes company database in 9 seconds",
+      "Anthropic gating Opus model behind usage flags draws criticism",
+      "Elon Musk vs Sam Altman legal battle dominates discussions",
+      "Talkie: 13B vintage language model from 1930 intrigues HN users",
+      "LLM delegation may corrupt documents according to new research"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads with 3,000+ likes on Hugging Face",
+      "Qwen3.6-35B-A3B sees millions of GGUF downloads",
+      "MiniMax-M2.7 hits 490k downloads and 1,074 likes",
+      "moonshotai/Kimi-K2.6 uses compressed-tensors for efficiency",
+      "GLM-5.1 MoE model shows strong conversational performance",
+      "gemma-4-31B-it gains traction among proprietary models"
+    ]
+  }
+}
