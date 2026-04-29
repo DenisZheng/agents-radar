@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.122发布，支持Bedrock服务层级选择和PR URL恢复",
+      "Gemini CLI v0.41.0-preview.0新增输入建议功能，提升交互体验",
+      "Kimi Code CLI v1.40.0优化OAuth重试机制和提示符显示逻辑",
+      "OpenCode v1.14.29改进路径管理和安全机制，增强系统稳定性",
+      "Pi v0.70.6新增Cloudflare Workers AI支持，扩展部署场景",
+      "Qwen Code v0.15.3-nightly兼容DeepSeek模型，UI刷新优化"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.26发布，增强Control UI实时通信与模型路由能力",
+      "PR #73883实现chat.history支持includeArchived参数，恢复归档会话上下文",
+      "PR #49800修复LLM API过载时的认证配置切换问题，提升服务可用性",
+      "PR #49574为代理fetch添加断路器，防止CPU耗尽增强健壮性",
+      "本周热点：Docker环境技能安装失败和Gateway CPU自旋导致消息阻塞",
+      "社区活跃度达500 Issues/PRs，维护响应及时但存在性能退化风险"
+    ],
+    "ai-trending": [
+      "GitNexus(TypeScript)登榜，GitHub AI工具生态热度持续攀升",
+      "微软VibeVoice(Python)进入Trending，语音AI技术受关注",
+      "GhostTrack(Python)获开发者青睐，AI安全监测工具走红",
+      "ace-step-ui(JavaScript)展示AI交互新范式，用户体验创新",
+      "ds2api(Go)企业级API解决方案受追捧，开发效率工具升温",
+      "free-claude-code(Python)开源项目引发热议，Claude生态扩张"
+    ],
+    "ai-web": [
+      "Anthropic发布Claude创意工作连接器，集成Blender/Adobe/Ableton等主流工具",
+      "Claude美国大选中立保障机制更新，强化公共事务领域可信度",
+      "OpenAI仅披露AWS部署元数据，重大产品筹备阶段静默期",
+      "Claude连接器架构支持Creative Cloud自动化批量处理和跨应用协作",
+      "Anthropic战略转型嵌入式智能助手，瞄准高价值垂直场景",
+      "选举信息治理方案公开测试结果，建立伦理标杆应对监管压力"
+    ],
+    "ai-hn": [
+      "Claude API大面积中断暴露基础设施脆弱性，开发者担忧生产可靠性",
+      "Blender基金会最大企业赞助：Anthropic战略投资开源生态",
+      "VibeBench首个工程师投票评估LLM主观体验，量化模型感受",
+      "CUA工具优雅解决多应用协同控制，避免GUI冲突获好评",
+      "VoiceGoat模拟语音代理漏洞沙箱，白帽测试对抗攻击",
+      "OpenAI入驻AWS Bedrock引发行业整合关注，托管Agent成焦点"
+    ],
+    "ai-arxiv": [
+      "Personalized Worked Example Generation通过错误模式分析生成针对性学习示例",
+      "The Optimal Sample Complexity解决多类分类理论难题，贡献机器学习洞见",
+      "SpecRLBench基准测试评估LTL规范下RL模型泛化能力，填补评估空白",
+      "Long-Context Upcycling策略复用Transformer检查点，降低训练成本",
+      "Case-Specific Rubrics临床AI评估标准达823次验证，LLM专家高度一致",
+      "Green Shielding用户查询微小变化影响研究，非对抗性安全新范式"
+    ],
+    "ai-hf": [
+      "Qwen3.6-A3B登顶下载榜超150万次，MoE架构推理效率优势凸显",
+      "Google Gemma4系列650万下载量领跑，开源权重推动可复现性研究",
+      "Unsloth Qwen3.6-35B-A3B-GGUF下载破170万，消费级GPU运行优化",
+      "DeepSeek-V4-Pro支持长上下文对话，企业级智能助手首选",
+      "GLM-5.1 MoE架构性能对标千亿模型，智谱通用对话模型获认可",
+      "OpenAI隐私过滤器ONNX格式助力数据脱敏，隐私合规工具上线"
+    ],
+    "ai-community": [
+      "9秒灾难：AI Agent误删生产数据库，部署前必读安全警示录",
+      "Google Agents CLI+Claude Code30分钟搭建生产级AI Agent框架",
+      "AI工具OAuth权限泄露Vercel被黑，最小权限原则成关键教训",
+      "Cloud Run Jobs微调Gemma4实现宠物品种分类，Serverless GPU实践",
+      "50ms数据库瓶颈决定AI Agent成败2026关键性能指标预警",
+      "Transformer底层原理探讨持续深化，理解AI技术理论基础"
+    ]
+  },
+  "en": {}
+}
