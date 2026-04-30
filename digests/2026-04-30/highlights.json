@@ -1,0 +1,55 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.123 发布，修复 OAuth Bug提升稳定性",
+      "OpenCode v1.14.30 新增 Azure/DeepSeek 支持强化企业级能力",
+      "Qwen Code v0.15.5 集成 MCP CLI 推动标准化进程",
+      "Gemini CLI 推出 nightly 版优化错误处理能力",
+      "Kimi Code 高活跃度 PR 数达 10 专注开发者工具链建设",
+      "Pi 工具轻量化设计切入 AI CLI 新兴市场",
+      "Copilot CLI v1.0.40-0 支持 ACP 代理增强自动化能力"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.27 发布 Codex Computer Use 增强功能",
+      "OpenClaw 新增 DeepInfra 提供商集成扩展生成能力",
+      "PR #74134 添加文件传输插件支持节点间安全文件读写",
+      "诊断系统实现阻塞会话自动终止机制提升稳定性",
+      "媒体附件失败时主动报错避免关键内容丢失无提示",
+      "社区热议 Linux/Windows Clawdbot Apps 缺失问题获 101 评论"
+    ],
+    "ai-trending": [
+      "warpdotdev/warp AI 驱动开发环境领跑 Trending",
+      "microsoft/VibeVoice 前沿语音 AI 模型备受关注",
+      "abra/superpowers 代理技能框架获展示机会",
+      "lukilabs/craft-agents-oss 代理框架值得关注",
+      "ZhuLinsen/daily_stock_analysis LLM 股市分析器受关注",
+      "ComposioHQ/awesome-codex-skills Codex 技能自动化走红"
+    ],
+    "ai-web": [
+      "Anthropic 发布 BioMysteryBench 评估 Claude 科研能力",
+      "OpenAI 更新社区安全承诺页面强化合规治理",
+      "BioMysteryBench 系统性评估 Claude 在生物信息学领域表现",
+      "Our Commitment To Community Safety 暗示安全治理投入",
+      "Anthropic 转向垂直领域深度渗透战略",
+      "OpenAI 密集布局科学计算与专业工具场景"
+    ],
+    "ai-hn": [
+      "Claude Code HERMES.md 计费误用引发 390 条讨论",
+      "Show HN: A new benchmark for testing LLMs for deterministic outputs 获 48 分",
+      "Bullshit Ability as an Honest Signal of Intelligence 学术文章引深思",
+      "AgentPort 开源网关获展示机会受工程师关注",
+      "Snitchmd Cloudflare-protected URLs 提取工具获 7 分",
+      "OpenAI has, in practice, abandoned its Stargate JV 产业动态"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.123 fixes critical OAuth and billing bugs",
+      "OpenAI Codex focuses on Rust refactoring and context window improvements",
+      "Gemini CLI releases nightly builds with new features",
+      "GitHub Copilot CLI gains traction in enterprise environments",
+      "Kimi Code CLI introduces advanced code generation capabilities",
+      "Qwen Code adds support for multiple programming languages"
+    ]
+  }
+}
