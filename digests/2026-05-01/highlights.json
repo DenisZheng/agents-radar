@@ -63,6 +63,14 @@
       "链式思考验证框架提升函数调用准确率至100%",
       "LLM 会话记忆持久化降低99% token消耗",
       "OpenAI 数据噪声研究警示模型训练风险"
+    ],
+    "ai-monthly": [
+      "OpenAI完成1220亿美元融资，估值8520亿登顶私营公司",
+      "Claude Code单日斩获超1万Star登顶GitHub Trending",
+      "Claude Code源代码泄露引发信任危机，员工被解雇",
+      "Claude Code计费异常致用户额度秒光，社区爆发信任危机",
+      "Anthropic发布Claude Opus 4.7并推出设计工具Claude Design",
+      "OpenAI Agents SDK重大更新，布局多智能体协作标准"
     ]
   },
   "en": {
@@ -121,6 +129,14 @@
       "Qwen and Nemotron see proliferation of fine-tuned quantized versions",
       "Community optimizing leading architectures for specific use cases",
       "IBM's granite-4.1-8b model gains traction in enterprise"
+    ],
+    "ai-monthly": [
+      "Claude Code faces trust crisis over regression",
+      "OpenAI hits $122B valuation in funding round",
+      "Claude Code users burn $200 quotas in hours",
+      "Anthropic signs gigawatt-scale TPU deal",
+      "Anthropic reports $30B revenue (233% YoY)",
+      "Claude Mythos cybersecurity model previewed"
     ]
   }
 }
