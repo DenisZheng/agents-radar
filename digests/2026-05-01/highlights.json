@@ -1,0 +1,126 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v0.41.0-preview.1，优化多平台兼容性",
+      "OpenAI Codex 发布 rust-v0.128.0，性能提升显著",
+      "GitHub Copilot CLI 发布 v1.0.40-3，新增斜杠命令技能支持",
+      "Kimi Code CLI 发布 v1.41.0，增强 ACP 协议集成",
+      "Pi 工具发布 v0.71.0，改进终端交互体验",
+      "Qwen Code 发布 v0.15.6 正式版，支持 VSCode 深度集成"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.4.29，默认启用主动运行引导",
+      "Hermes Agent 社区热议内存管理优化方案",
+      "NanoBot 新增子代理路由元数据支持功能",
+      "IronClaw 修复网关恢复诊断问题，提升稳定性",
+      "CoPaw 开源项目获好评，解决 Agent 工具碎片化",
+      "LobsterAI 推出可见回复强制执行机制"
+    ],
+    "ai-trending": [
+      "Warp AI 终端工具单日增长 8399 stars，成为最热 AI 工具",
+      "TradingAgents 多智能体金融框架获 2023 星标增长",
+      "Superpowers 轻量级 AI 框架 Shell 实现吸引开发者",
+      "Craft-Agents-OSS TypeScript SDK 插件化设计受关注",
+      "GhostTrack Python 监控工具依赖 AI 行为建模",
+      "Deer-Flow 字节跳动开源长时程任务框架上线"
+    ],
+    "ai-web": [
+      "Anthropic 发布长期利益信托治理结构详情",
+      "Claude 个人指导研究揭示用户情感需求趋势",
+      "Claude Code 质量问题修复措施正式公布",
+      "OpenAI Advanced Account Security 政策更新",
+      "Goblins 模型训练机制研究披露数据污染风险",
+      "Claude Opus 4.7 训练聚焦减少谄媚行为"
+    ],
+    "ai-hn": [
+      "OpenAI goblins 训练机制研究获 624 条评论热议",
+      "AI 急诊分诊超越医生表现引伦理讨论",
+      "Pu.sh 纯 Shell 编码代理框架展示获好评",
+      "Musk 承认 xAI 用 OpenAI 模型蒸馏训练 Grok",
+      "Big Tech AI 投入将达 7000 亿美元引发关注",
+      "Nimbalyst 开源多 AI 工具可视化工作流上线"
+    ],
+    "ai-arxiv": [
+      "扩散语言模型跨架构蒸馏技术降低参数量",
+      "Select to Think 方法激活 SLM 推理潜力",
+      "FutureWorld 实时环境框架训练预测智能体",
+      "HalluCiteChecker 检测科学论文虚假引用",
+      "Bian Que 代理框架实现在线系统灵活运维",
+      "不确定性感知安全过滤器保障强化学习安全"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 获 3299 点赞居榜首",
+      "Google Gemma-4-31B-it 下载量破 710 万",
+      "GLM-5.1 DSA 架构 MoE 设计提升效率",
+      "IBM Granite-4.1 专注企业级低延迟部署",
+      "Kimi-K2.6 图像文本多模态任务表现强劲",
+      "NVIDIA Nemotron-3-Nano 支持任意模态处理"
+    ],
+    "ai-community": [
+      "MCP 协议替代剪贴板提升上下文传递效率",
+      "AI 催生更智能 SaaS 生成式开发工具",
+      "异步 HandleId 模式解决 MCP 超时问题",
+      "链式思考验证框架提升函数调用准确率至100%",
+      "LLM 会话记忆持久化降低99% token消耗",
+      "OpenAI 数据噪声研究警示模型训练风险"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.118 stable with agentic workflows",
+      "OpenAI Codex rust-v0.128.0 alpha release",
+      "Gemini CLI v0.41.0-p1 patch update released",
+      "GitHub Copilot CLI v1.0.40-3 stable update",
+      "Kimi Code CLI v1.41.0 new release",
+      "Claude Code Skills repo now available"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.29 stable with messaging automation",
+      "500 issues and 500 PRs updated daily in OpenClaw",
+      "Active-run steering and visible-reply enforcement added",
+      "Spawned subagent routing metadata for traceability",
+      "Opt-in follow-up commitments via heartbeat reminders",
+      "Four beta releases (v2026.4.29-beta.1 to .beta.4)"
+    ],
+    "ai-trending": [
+      "Warp terminal surges 8,399 stars as Rust-based agentic IDE",
+      "skills SDK integrates Claude Code with web browsing tools",
+      "Ghostty terminal gains 341 stars for GPU acceleration",
+      "OpenHands autonomous agent hits 72,430 stars",
+      "Deer-flow SuperAgent supports subagents and multi-step reasoning",
+      "TradingAgents signals institutional LLM-driven finance interest"
+    ],
+    "ai-web": [
+      "Anthropic study: 76% of personal guidance queries in health/career/relationships/finance",
+      "Sycophancy spikes to 25% in relationship advice prompting retraining",
+      "Claude Opus 4.7 and Mythos Preview trained on guidance insights",
+      "OpenAI announces 'Advanced Account Security' metadata-only update",
+      "OpenAI's 'Where The Goblins Came From' explains synthetic data pipeline",
+      "Anthropic fixes Claude Code latency issues via engineering postmortem"
+    ],
+    "ai-hn": [
+      "OpenAI's 'Where the Goblins Came From' paper scores 1,014 HN points",
+      "OpenAI details synthetic data pipeline for reasoning models",
+      "Claude Code faces scrutiny over aggressive licensing enforcement",
+      "Users report API behavior tied to environment variables",
+      "Pu.sh coding-agent harness demo sparks community interest",
+      "Harvard trial shows AI outperforms doctors in emergency triage"
+    ],
+    "ai-arxiv": [
+      "Cross-architecture distillation boosts diffusion LLM sample efficiency",
+      "Diffusion LLMs function as associative memories for retrieval",
+      "HalluCiteChecker toolkit detects hallucinated citations",
+      "Uncertainty-aware safety filters improve trustworthy deployment",
+      "Serverless MoE serving frameworks address real-world gaps",
+      "Stochastic scaling limits advance transformer theory"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads with 3,299 likes and 271K downloads",
+      "Qwen3.6-35B-A3B MoE model has 1.9M downloads",
+      "Gemma 4 family sees explosive adoption especially 31B variant",
+      "Qwen and Nemotron see proliferation of fine-tuned quantized versions",
+      "Community optimizing leading architectures for specific use cases",
+      "IBM's granite-4.1-8b model gains traction in enterprise"
+    ]
+  }
+}
