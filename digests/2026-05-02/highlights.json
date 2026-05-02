@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.126发布，支持网关模型列表和项目清理功能",
+      "OpenAI Codex Rust版0.129.0-alpha.2发布，集成沙箱/MCP/配置",
+      "GitHub Copilot CLI v1.0.40优化终端体验和助手响应",
+      "Qwen Code发布v0.15.6-nightly.20260502，改进缓存和代理",
+      "Pi v0.72.0新增Xiaomi MiMo/DO推理支持",
+      "OpenCode v1.14.31修复Azure/MCP权限问题"
+    ],
+    "ai-agents": [
+      "OpenClaw新增Control UI内存管理视图，支持状态监控和调试",
+      "修复跨代理内存污染问题，增强多代理数据安全性",
+      "Active Memory插件引入快速失败机制，避免30秒以上阻塞",
+      "解决Windows平台升级中断后无法恢复的问题",
+      "统一插件元数据术语，从StorePack更改为ClawPack",
+      "Gateway性能退化引发关注，15条评论讨论定价获取超时问题"
+    ],
+    "ai-trending": [
+      "Warp成为最热AI项目，Rust编写且日增3401星",
+      "Ollama以170,508星保持本地LLM推理标准地位",
+      "browser-use项目使网站对AI代理可访问，获91,570星",
+      "mattpocock/skills从.claude目录提取技能库，日增3645星",
+      "simstudioai/sim构建AI代理管理平台，专注工作流编排",
+      "minimind证明快速训练小型模型的可行性"
+    ],
+    "ai-web": [
+      "Anthropic发布Claude for Creative Work连接器，集成Ableton和Adobe",
+      "研究揭示Claude Sonnet 4.5存在情感相关神经元激活模式",
+      "Claude for Creative Work系列连接器深度集成创意工具",
+      "OpenAI今日暂无新发布内容",
+      "Anthropic将AI定位为创意工作者的辅助工具",
+      "情感概念研究对未来AI系统可靠性产生深远影响"
+    ],
+    "ai-hn": [
+      "Uber四个月烧光2026年AI预算引发成本失控担忧",
+      "Apple泄露Claude.md文件暴露企业部署安全隐患",
+      "DeepSeek V4逼近前沿性能但价格仅为高端模型一小部分",
+      "首个AI原生CAD助手Fusion 360集成实现草图自动生成",
+      "Omar提供终端界面管理100个编码代理的解决方案",
+      "Friday Studio提供可靠的AI技能编排框架填补工具链空白"
+    ],
+    "ai-arxiv": [
+      "探索黑客：LLM能否学会抵抗RL训练？揭示对齐漏洞",
+      "潜伏对抗检测：基于LLM激活状态的多轮攻击防御机制",
+      "PRISM框架通过黑盒在线蒸馏解决SFT能力退化问题",
+      "Claw-Eval-Live为演化中的真实工作流程建立动态基准",
+      "特征工程自动化：无需标注数据的数据增强方法",
+      "物理先验引导的扩散模型在科学发现中的应用"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro以3,368点赞登顶开源LLM标杆",
+      "Google Gemma-4-31B-it下载量破700万显示多模态趋势",
+      "Qwen3.6-27B视觉语言模型支持图文交互与多轮对话",
+      "Kimi-K2.6高精度视觉理解集成compressed-tensors",
+      "NVIDIA Nemotron-3 Nano Omni支持任意模态边缘设备推理",
+      "OpenAI隐私过滤器支持敏感信息识别与ONNX部署"
+    ],
+    "ai-community": [
+      "JAX重写Karpathy NanoChat揭示XLA编译优化优劣",
+      "停车模式降低MCP服务器Token使用达90%",
+      "LLM可观测性体系涵盖指标追踪和Python实现",
+      "Anthropic Agent Skill+评估流水线验证AI能力",
+      "Claude Code Routines提供生产级Agent部署方案",
+      "Transformer输出词生成机制深入解析"
+    ]
+  },
+  "en": {}
+}
