@@ -47,7 +47,24 @@
       "自定义 CUDA 引擎运行 Qwen3.5-27B 于 $130 矿卡",
       "Giving an AI agent permission to spawn sub-agents without losing control",
       "Writing the Loss Function 深入理解 AI 训练本质"
+    ],
+    "ai-weekly": [
+      "Claude Code v2.1.126 新增网关模型支持与状态清理功能",
+      "Uber四个月烧光全年AI预算，引发成本控制热议",
+      "Kimi K2.6编程基准全面领先闭源模型",
+      "OpenClaw v2026.5.3-beta.2 新增文件传输与安全策略",
+      "Gemini CLI v0.42.0-nightly 支持DeepSeek V4推理字段解析",
+      "Anthropic发布Claude for Creative Work连接器集成Adobe等工具"
     ]
   },
-  "en": {}
+  "en": {
+    "ai-weekly": [
+      "Kimi K2.6 tops coding benchmarks vs Claude and GPT-5.5",
+      "OpenClaw v2026.5.3-beta.2 adds file-transfer plugins",
+      "Uber exhausts 2026 AI budget on Claude Code in 4 months",
+      "Anthropic releases 'Claude for Creative Work' connectors",
+      "Microsoft ends OpenAI exclusive partnership",
+      "Claude Code v2.1.126 fixes OAuth issues"
+    ]
+  }
 }
