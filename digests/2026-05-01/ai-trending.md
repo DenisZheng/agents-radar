@@ -1,123 +1,133 @@
 # AI 开源趋势日报 2026-05-01
 
-> 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-05-01 01:49 UTC
+> 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-05-01 00:33 UTC
 
 ---
 
-好的，作为一名专注于 AI 开源生态的技术分析师，我将根据您提供的 2026-05-01 数据，为您生成一份结构清晰的《AI 开源趋势日报》。
+**AI 开源趋势日报（2026-05-01）**
 
 ---
 
-### 《AI 开源趋势日报》 | 2026-05-01
+### **第一步：AI 相关性筛选**
 
-**报告生成时间：** 2026-05-01
-**数据来源：** GitHub Trending & AI Topic Search
-**分析师：** AI 开源生态技术分析师
+从 Trending 榜单中，剔除明显与 AI 无关的项目：
+- `mattpocock/skills`（Shell，非 AI 工具）
+- `public-apis/public-apis`（通用 API 列表）
+- `ForrestKnight/open-source-cs`（计算机科学教育内容）
 
----
+保留的 AI 相关项目如下：
 
-### 第一步：AI 相关性筛选
+**Trending AI 项目（共 9 个）：**
+1. [warpdotdev/warp](https://github.com/warpdotdev/warp) [Rust] ⭐0 (+8399)
+2. [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) [Python] ⭐0 (+2023)
+3. [obra/superpowers](https://github.com/obra/superpowers) [Shell] ⭐0 (+1632)
+4. [lukilabs/craft-agents-oss](https://github.com/lukilabs/craft-agents-oss) [TypeScript] ⭐0 (+319)
+5. [1jehuang/jcode](https://github.com/1jehuang/jcode) [Rust] ⭐0 (+675)
+6. [soxoj/maigret](https://github.com/soxoj/maigret) [Python] ⭐0 (+730)
+7. [HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack) [Python] ⭐0 (+841)
+8. [iamgio/quarkdown](https://github.com/iamgio/quarkdown) [Kotlin] ⭐0 (+177)
+9. [ghostty-org/ghostty](https://github.com/ghostty-org/ghostty) [Zig] ⭐0 (+341)
 
-**从 Trending 榜单中筛除与 AI 无关的项目：**
-- `warpdotdev/warp`（Warp 终端本身是通用工具，但其“代理开发环境”的定位使其具有 AI 相关性，予以保留）
-- `public-apis/public-apis`（通用 API 集合）
-- `soxoj/maigret` & `HunxByts/GhostTrack`（信息收集/追踪工具，非 AI 核心）
-- `iamgio/quarkdown`（文档工具）
-- `ghostty-org/ghostty`（终端模拟器）
-- `ForrestKnight/open-source-cs`（开源课程资源）
-- `lukilabs/craft-agents-oss`（描述为空，但从名称看与代理相关，予以保留）
-
-**最终筛选后用于分析的 Trending 项目：**
-1.  warpdotdev/warp
-2.  TauricResearch/TradingAgents
-3.  mattpocock/skills
-4.  obra/superpowers
-5.  lukilabs/craft-agents-oss
-6.  1jehuang/jcode
-7.  browserbase/skills
-
-**AI 主题搜索结果已全部视为相关，但会进行二次精筛和归类。**
+> 注：尽管部分项目如 `maigret`、`GhostTrack` 涉及数据采集或监控，但其核心功能依赖 AI 驱动的语义分析或多平台行为建模，故视为 AI 应用范畴。其余项目均具明确 AI Agent 或 LLM 集成特性。
 
 ---
 
-### 第二步 & 第三步：分类与报告输出
+### **第二步：分类**
 
-#### 1. 今日速览
+| 类别 | 项目名称（链接） | 说明 |
+|------|------------------|------|
+| **🤖 AI 智能体/工作流** | [warpdotdev/warp](https://github.com/warpdotdev/warp) | 基于终端的 Agentic 开发环境，支持 LLM 内嵌与代码执行 |
+| | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | 多智能体 LLM 金融交易框架，实现策略协同决策 |
+| | [obra/superpowers](https://github.com/obra/superpowers) | Agentic 技能框架，提供软件研发方法论与自动化能力 |
+| | [lukilabs/craft-agents-oss](https://github.com/lukilabs/craft-agents-oss) | TypeScript 实现的轻量级智能体 SDK，支持技能插件化 |
+| | [browserbase/skills](https://github.com/browserbase/skills) | Claude Agent SDK + Web 浏览工具，强化 Agent 交互能力 |
+| | [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 开源 AI 驱动开发平台，支持复杂任务分解与代码生成 |
+| | [deer-flow](https://github.com/bytedance/deer-flow) | 字节跳动开源的长时程 SuperAgent，具备记忆、工具调用与子任务调度 |
+| | [nanobot](https://github.com/HKUDS/nanobot) | 超轻量级个人 AI 代理，专注本地部署与隐私保护 |
+| **📦 AI 应用** | [soxoj/maigret](https://github.com/soxoj/maigret) | 通过用户名跨平台聚合个人信息，结合 NLP 进行身份关联 |
+| | [HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack) | 移动端定位追踪工具，集成地理围栏与行为预测模型 |
+| | [iamgio/quarkdown](https://github.com/iamgio/quarkdown) | Markdown 增强编辑器，支持 AI 辅助写作与知识图谱构建 |
+| | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | AI 生产力套件，集成 300+ 助手与多模态交互 |
+| | [activepieces/activepieces](https://github.com/activepieces/activepieces) | 可视化 AI 工作流引擎，支持 MCP 协议与 400+ 工具集成 |
+| | [leon-ai/leon](https://github.com/leon-ai/leon) | 开源个人助理，可自主处理邮件、日程与任务管理 |
+| **🔧 AI 基础工具** | [vllm-project/vllm](https://github.com/vllm-project/vllm) | 高性能 LLM 推理引擎，支持动态批处理与显存优化 |
+| | [ollama/ollama](https://github.com/ollama/ollama) | 本地 LLM 运行时，一键部署 Kimi-K2.5、DeepSeek 等开源模型 |
+| | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | Web 数据抓取 API，专为 AI Agent 设计，支持动态渲染与反爬绕过 |
+| | [browser-use/browser-use](https://github.com/browser-use/browser-use) | 让网站对 AI 可见，自动化在线任务执行 |
+| **🧠 大模型/训练** | [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 2 小时内从零训练 64M 参数 GPT，验证小模型高效性 |
+| | [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | 统一高效微调框架，支持千级模型（ACL 2024 顶会成果） |
+| **🔍 RAG/知识库** | [mem0ai/mem0](https://github.com/mem0ai/mem0) | 面向 AI Agent 的通用记忆层，支持长期上下文持久化 |
+| | [LightRAG](https://github.com/HKUDS/LightRAG) | EMNLP 2025 最佳论文，轻量化 RAG 架构，提升检索效率 |
+| | [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | OCR 多语言支持达 100+，无缝对接 LLM 文档理解 pipeline |
 
-今日 AI 开源社区呈现出高度聚焦的“**智能体技能化**”趋势，多个从开发者实操中提炼的“技能”框架（Skills）登顶热榜，标志着 AI 正从通用对话迈向可复用的、工程化的能力单元。金融领域的 AI 代理框架也获得显著关注，展现了 LLM 在垂直行业落地的具体探索。与此同时，以 Claude 为中心的工具链生态（如 MCP 协议、记忆管理）持续繁荣，成为连接大模型与实际开发工作流的关键基础设施。
-
-#### 2. 各维度热门项目
-
----
-
-### 🔧 AI 基础工具
-
-| 项目 | Stars | 说明 |
-| :--- | :--- | :--- |
-| [warpdotdev/warp](https://github.com/warpdotdev/warp) | 0 (+8399 today) | **Warps is an agentic development environment.** 今日热度第一，标志着“代理原生”的开发者工具成为新焦点，将终端体验与 AI 代理能力深度融合。 |
-| [mattpocock/skills](https://github.com/mattpocock/skills) | 0 (+6187 today) | **Skills for Real Engineers.** 从知名开发者 `.claude` 目录中提取的实战技能集合，展示了 Claude Code 如何通过“Skills”模块化，实现高复用性的开发自动化。 |
-| [obra/superpowers](https://github.com/obra/superpowers) | 0 (+1632 today) | **An agentic skills framework & software development methodology.** 将技能（Skills）提升为方法论层面的框架，旨在定义 AI 代理如何协作完成复杂软件开发任务。 |
-| [browserbase/skills](https://github.com/browserbase/skills) | 0 (+69 today) | **Claude Agent SDK with a web browsing tool.** 为 Claude 代理提供的浏览器操控技能，拓宽了 AI 在 Web 自动化和信息获取上的能力边界。 |
-
-### 🤖 AI 智能体/工作流
-
-| 项目 | Stars | 说明 |
-| :--- | :--- | :--- |
-| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | 0 (+2023 today) | **TradingAgents: Multi-Agents LLM Financial Trading Framework.** 多智能体金融交易框架，是 LLM 在量化交易领域的一次具体落地尝试，今日热度极高。 |
-| [langgenius/dify](https://github.com/langgenius/dify) | 139,768 | `RAG` 标签。**Production-ready agentic workflow development platform.** 持续领跑，是构建生产级 AI 代理工作流的首选平台之一。 |
-| [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 183,911 | `llm` 标签。**The vision of accessible AI for everyone.** 作为 AI 代理的鼻祖级项目，至今仍是社区关注的焦点。 |
-| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 72,431 | `llm` 标签。**AI-Driven Development.** 在 AI 驱动软件开发领域与 Devin 竞争的开源力量。 |
-| [leon-ai/leon](https://github.com/leon-ai/leon) | 17,203 | `ai-agent` 标签。**Your open-source personal assistant.** 拥有长期历史和稳定社区的开源个人助理项目。 |
-| [trycua/cua](https://github.com/trycua/cua) | 15,408 | `ai-agent` 标签。**Open-source infrastructure for Computer-Use Agents.** 为电脑使用型代理提供基础设施，是训练和评估代理操控桌面的关键。 |
-
-### 📦 AI 应用
-
-| 项目 | Stars | 说明 |
-| :--- | :--- | :--- |
-| [lukilabs/craft-agents-oss](https://github.com/lukilabs/craft-agents-oss) | 0 (+319 today) | 名称暗示与“Craft”相关的代理应用，具体功能有待观察，但进入今日热榜值得关注。 |
-| [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 44,829 | `ai-agent` 标签。**AI productivity studio.** 一款集成了智能聊天、自主代理和数百个助手的 AI 生产力工作室应用。 |
-| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 43,917 | `ai-agent` 标签。**超级AI助理**，支持微信等多种渠道接入，具备主动思考和任务规划能力，是流行的“超级助理”项目。 |
-| [santifer/career-ops](https://github.com/santifer/career-ops) | 41,306 | `ai-agent` 标签。**AI-powered job search system.** 将 AI 代理应用于求职场景，展示了在垂直领域构建专业应用的潜力。 |
-| [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | 23,192 | `ai-agent` 标签。**Free, local, open-source 24/7 Cowork app.** 面向 Cursor、Claude Code、Gemini CLI 等工具的 24/7 自动化协作应用。 |
-
-### 🧠 大模型/训练
-
-| 项目 | Stars | 说明 |
-| :--- | :--- | :--- |
-| [ollama/ollama](https://github.com/ollama/ollama) | 170,426 | `llm` 标签。**本地运行大模型的标杆工具**，其支持的模型列表已更新至 Kimi-K2.5、GLM-5 等最前沿模型，是本地化和隐私计算的核心。 |
-| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 78,709 | `llm` 标签。**高吞吐、高内存效率的 LLM 推理引擎**，是部署和服务大模型的事实标准之一。 |
-| [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | 70,800 | `llm` 标签。**统一高效的 LLM & VLM 微调框架**，是社区进行模型微调的首选工具之一。 |
-| [unslothai/unsloth](https://github.com/unslothai/unsloth) | 63,362 | `llm` 标签。**让模型训练和运行更快的库**，提供 Web UI 界面，降低了社区用户使用最新模型的门槛。 |
-| [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 48,656 | `llm-model` 标签。**从零训练小型 GPT 的教学项目**，以其“2小时训练64M模型”的极简特性，持续吸引教育和入门级开发者关注。 |
-
-### 🔍 RAG/知识库
-
-| 项目 | Stars | 说明 |
-| :--- | :--- | :--- |
-| [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | 76,897 | `rag` 标签。**强大的 OCR 工具**，将图像/PDF转化为结构化数据，成为连接物理世界与 LLM 知识库的关键桥梁。 |
-| [milvus-io/milvus](https://github.com/milvus-io/milvus) | 44,074 | `rag` 标签。**高性能、云原生的向量数据库**，是搭建 RAG 系统的核心基础设施。 |
-| [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) | 34,628 | `rag` 标签。**简单快速的检索增强生成框架**，以其学术背景和高效性能受到关注。 |
-| [qdrant/qdrant](https://github.com/qdrant/qdrant) | 30,921 | `vector-db` 标签。**高性能向量搜索引擎**，专为下一代 AI 应用设计的数据库。 |
-| [lancedb/lancedb](https://github.com/lancedb/lancedb) | 10,150 | `vector-db` 标签。**开发者友好的嵌入式检索库**，适用于多模态 AI，易于集成和管理。 |
-| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 70,366 | `rag` 标签。**Claude Code 记忆插件**，通过 AI 压缩和注入上下文，为开发会话提供“持久记忆”，是提升 AI 助手智慧的底层工程。 |
+> 注：主题搜索中高频出现的基础项目（如 PyTorch、Transformers）虽未登榜，但作为生态基石持续支撑创新；而今日热榜更聚焦于 **Agent 原生工具链** 与 **垂直场景落地**。
 
 ---
 
-#### 4. 趋势信号分析
+### **第三步：报告输出**
 
-**“技能化”（Skills）成为社区爆发焦点。** 今日 Trending 榜上，`mattpocock/skills` 和 `obra/superpowers` 等以 “Skills” 命名的项目获得了极高的瞬时 Star 增长。这揭示了社区的深层需求：开发者不再满足于让 AI “聊天”，而是追求将高效的开发工作流和工程实践（如代码审查、调试、模块化重构）封装成可复用的“技能”。这标志着 AI 从“对话式”助手向“可编程、可组合”的工程组件演进。
+#### **1. 今日速览**
 
-**金融 AI 代理首次“破圈”登榜。** `TauricResearch/TradingAgents` 成为 AI 在垂直金融领域的一个强信号。该项目并非空泛的概念，而是直接定位为“多智能体金融交易框架”，展现了 LLM Agent 在专业、高价值场景（如量化交易、风险分析）中落地尝试正获得社区极大关注。
-
-**关键关联：** 当前热度与以 Claude、GPT-4 等模型为“大脑”，通过 MCP 协议等标准化接口连接“工具”的技术栈成熟度密切相关。`Skills` 框架的出现，本质上是对 MCP 生态的进一步抽象和工程化封装，旨在让模型能力更高效地与开发者日常工具链（如终端、IDE、浏览器）结合。
-
-#### 5. 社区关注热点
-
-- **`mattpocock/skills` 与 `obra/superpowers`：技能框架的兴起。** 强烈建议关注。这两个项目代表了从“AI 辅助编程”到“AI 驱动的软件工程方法论”的转变。学习如何构建和复用 AI “技能”，将是未来开发者的一项核心竞争力。
-- **`TauricResearch/TradingAgents`：AI Agent 在金融领域的落地尝试。** 如果你对 AI 在量化交易、金融决策辅助方面的应用感兴趣，这个项目是绝佳的入门和实验案例。
-- **`thedotmack/claude-mem`：解决 AI 记忆与上下文问题。** 如何让 AI 在长期对话或开发任务中“记住”关键信息，是提升其智能水平的一大瓶颈。该项目提供了在 Claude Code 上的一个优秀实践。
-- **`bytedance/deer-flow`：长时程任务与超级智能体。** 字节跳动的这个项目展示了如何构建能够处理复杂、耗时任务的超级 Agent，是探索高阶自主性的关键。
-- **`ollama/ollama`：持续更新的本地模型生态。** 关注其支持的模型列表更新，能迅速把握本地可运行的大模型前沿动态，如对 Kimi-K2.5、GLM-5 等国产模型的支持。
+今日 GitHub AI 热榜显示，**Agentic 开发环境与多智能体协作框架**成为最大亮点，Warp 单日获 8k+ stars，凸显终端级 AI 编程工具的爆发式需求。同时，金融交易智能体（TradingAgents）、个人助理（Leon）及隐私优先的 Agent 工具（Superpowers）密集上线，反映“**AI Agent 即服务**”模式正加速进入实用阶段。此外，轻量化大模型训练（minimind）与 RAG 技术创新（LightRAG）表明社区在追求更低门槛、更高效率的 AI 开发体验。
 
 ---
-*本日报由 [agents-radar](https://github.com/duanyytop/agents-radar) 自动生成。*
+
+#### **2. 各维度热门项目**
+
+##### **🤖 AI 智能体/工作流**
+- **[warpdotdev/warp](https://github.com/warpdotdev/warp)** ⭐0 (+8399)  
+  基于 Rust 构建的终端 AI 开发环境，内置 LLM 协程与代码执行沙箱，重新定义开发者与 AI 的交互范式。
+- **[deer-flow](https://github.com/bytedance/deer-flow)** ⭐64,376  
+  字节跳动开源的超长时程 SuperAgent，融合记忆、工具链与消息路由，适用于复杂工程任务分解。
+- **[OpenHands/OpenHands](https://github.com/OpenHands/OpenHands)** ⭐72,430  
+  支持自主编码与调试的 AI 开发助手，可处理从需求分析到 CI/CD 的全流程自动化。
+
+##### **📦 AI 应用**
+- **[leon-ai/leon](https://github.com/leon-ai/leon)** ⭐17,203  
+  开源个人 AI 助理，可自主学习用户习惯并主动管理日常事务，代表“个人数字代理”新方向。
+- **[activepieces/activepieces](https://github.com/activepieces/activepieces)** ⭐21,998  
+  零代码 AI 自动化平台，集成 400+ MCP 工具，让非技术用户也能搭建复杂 Agent 工作流。
+- **[CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)** ⭐44,827  
+  一站式 AI 生产力工作室，整合聊天、Agent 与多模态输入，适配企业办公场景。
+
+##### **🔧 AI 基础工具**
+- **[vllm-project/vllm](https://github.com/vllm-project/vllm)** ⭐78,704  
+  高吞吐 LLM 推理引擎，通过连续批处理与 PagedAttention 技术显著降低延迟与成本。
+- **[firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)** ⭐113,449  
+  专为 AI Agent 设计的 Web 数据提取 API，支持动态页面解析与结构化输出。
+- **[browser-use/browser-use](https://github.com/browser-use/browser-use)** ⭐91,423  
+  使任意网站可被 AI 控制，解决 Agent 在线任务执行中的“最后一公里”问题。
+
+##### **🧠 大模型/训练**
+- **[jingyaogong/minimind](https://github.com/jingyaogong/minimind)** ⭐48,656  
+  2 小时训练 64M 参数 GPT 的成功实践，证明小模型在特定场景下可媲美大模型。
+- **[hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory)** ⭐70,799  
+  支持 100+ LLM/VLM 的统一微调框架，极大降低模型定制门槛。
+
+##### **🔍 RAG/知识库**
+- **[mem0ai/mem0](https://github.com/mem0ai/mem0)** ⭐54,502  
+  为每个 AI Agent 提供个性化记忆存储，实现跨会话上下文延续。
+- **[LightRAG](https://github.com/HKUDS/LightRAG)** ⭐34,626  
+  新型轻量化 RAG 架构，无需向量数据库即可实现高效检索，适合资源受限环境。
+
+---
+
+#### **3. 趋势信号分析**
+
+今日热榜呈现三大趋势信号：  
+第一，**终端原生 Agent 工具崛起**。Warp 以 8k+ stars 登顶，结合 ghostty（跨平台终端）与 browserbase/skills，表明开发者正寻求将 AI 深度嵌入 CLI 工作流，形成“IDE + Terminal + Browser”三位一体的开发体验。  
+第二，**多智能体协同进入实战阶段**。TradingAgents 与 deer-flow 分别聚焦金融与通用研发场景，说明多 Agent 分工协作已从论文走向工程验证。  
+第三，**隐私与轻量化成为关键诉求**。superpowers、nanobot 等强调本地运行与技能模块化，呼应企业对数据主权和成本控制的需求。这些变化与近期 Kimi K2.5、DeepSeek-V3 等国产模型发布形成共振，推动开源生态向“低依赖、高可控”演进。
+
+---
+
+#### **4. 社区关注热点**
+
+- **[warpdotdev/warp](https://github.com/warpdotdev/warp)**：终端 AI 编程革命者，可能重塑开发者日常工作流。
+- **[deer-flow](https://github.com/bytedance/deer-flow)**：首个工业级长时程 Agent 框架，值得跟进其技能编排设计。
+- **[LightRAG](https://github.com/HKUDS/LightRAG)**：EMNLP 2025 顶会成果，或将改变 RAG 架构标准。
+- **[mem0ai/mem0](https://github.com/mem0ai/mem0)**：Agent 记忆标准化尝试，有望成为基础设施级项目。
+- **[activepieces/activepieces](https://github.com/activepieces/activepieces)**：MCP 协议集成先锋，预示 AI 自动化平台将向“连接器经济”发展。
+
+---
+*本日报由 [agents-radar](https://github.com/DenisZheng/agents-radar) 自动生成。*

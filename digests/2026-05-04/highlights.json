@@ -1,134 +1,70 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code HERMES.md触发额外扣费，v2.1.121-126补丁密集",
-      "OpenAI Codex α4→α16十余版迭代，Rust架构重构",
-      "Kimi CLI v1.40-41发布，RalphFlow架构PR",
-      "Qwen Code v0.15.6-nightly，社区直接提供根因分析",
-      "OpenCode内存泄漏Megathread 73评论，架构债务偿还",
-      "Pi v0.72.1上线自更新，终端键盘协议兼容性爆发"
+      "Claude Code Skills 新增 8 个核心工具，生态扩展至完整开发工作流",
+      "Qwen Code 发布 v0.15.6-nightly，支持 MCP 协议与结构化输出",
+      "OpenCode 会话持久化问题修复，支持断点续接多任务",
+      "Pi CLI 优化终端 UI 性能，解决命令生成卡顿与进程挂起",
+      "Kimi Code CLI 集成新模型，提升长上下文处理能力",
+      "Gemini CLI 强化 macOS 权限控制，增强生产环境安全性"
     ],
     "ai-agents": [
-      "OpenClaw v2026.5.3-beta.2 发布文件传输插件，默认拒绝策略",
-      "Gateway CPU 100% 性能退化与 WebChat 会话持久化回归告急",
-      "PR 待合并比例高达 88.6%，443/500 积压风险显著",
-      "Barnacle 活跃 PR 上限从 10 提至 100 缓解队列阻塞",
-      "pdfjs 懒加载与 typing 指示器可配置推进性能优化",
-      "13 个项目覆盖，NanoBot、Hermes Agent 等多线并进"
+      "OpenClaw v2026.5.3-beta.2 发布，新增二进制文件传输插件",
+      "OpenClaw 会话目录设置私有权限（0700），提升敏感数据保护",
+      "OpenClaw 修剪 Telegram/Slack 热路径，RTT 效率显著提升",
+      "分层引导文件加载机制上线，减少大工作区启动延迟",
+      "OpenClaw 支持 `contextInjection` 细粒度配置覆盖",
+      "OpenClaw PDF 工具延迟降低 2.5 秒，实现懒加载优化"
     ],
     "ai-trending": [
-      "TradingAgents 日增 3313 星领跑，多智能体金融交易框架爆发",
-      "ruvnet/ruflo Claude 智能体编排平台登 Trending 热榜",
-      "DeepSeek-TUI 日增 343 星，Rust 终端编码智能体三足鼎立",
-      "Pixelle-Video AI 全自动短视频引擎代表内容生成赛道",
-      "browserbase/skills 日增 322 星，Agent+浏览器成标配组合",
-      "czlonkowski/n8n-mcp MCP 协议工作流工具获关注"
+      "ollama 支持 Kimi-K2.5、GLM-5 等前沿模型本地部署",
+      "vllm 通过 PagedAttention 技术优化长上下文推理吞吐量",
+      "browserbase/skills SDK 让 Claude Agent 具备网页交互能力",
+      "ruvnet/ruflo 推出多智能体 swarm 编排平台，支持自学习系统",
+      "affaan-m/everything-claude-code 集成技能、记忆与安全模块",
+      "TradingAgents 构建 LLM 金融交易多智能体决策框架"
     ],
     "ai-hn": [
-      "Kimi K2.6 击败 Claude/GPT-5.5/Gemini，349 分 212 评论引开源格局激辩",
-      "OpenAI o1 急诊分诊准确率 67% 超人类医生，责任归属成焦点",
-      "DeepClaude 用 DeepSeek V4 Pro 替代 Claude 实现 17 倍成本压缩",
-      "Meta 弃 Llama 转专有 Muse Spark，开源承诺断裂社区脱敏",
-      "马斯克-Altman 法庭对峙，AI 安全与商业利益张力敏感",
-      "模型套利方案涌现，开发者在成本与性能间寻最优解"
-    ],
-    "ai-ph": [
-      "Scholé 284 票领跑，工作流即学习场景打破学用割裂",
-      "Microsoft Copilot Health 155 票，Big Tech 加速 AI 健康布局",
-      "本地化 AI 成显著趋势，Feather/Spredly/fossel 强调本地运行",
-      "Manus 云计算机专为机器人和软件设计获开发者关注",
-      "AI Sales Operator 7×24 电商全自动 Agent 代表垂直深化",
-      "MCP 相关工具及 Claude 上下文优化工具持续活跃"
+      "Kimi K2.6 在编程挑战中超越 Claude、GPT-5.5 和 Gemini",
+      "DeepClaude 使用 DeepSeek V4 Pro 构建 17x 低成本 AI 代理",
+      "Semble 语义搜索代码库，节省 98% token 消耗",
+      "Llama.ttf 将完整 LLM 嵌入字体文件的创意技术",
+      "Meta 弃用开源 Llama 转向专有 Muse Spark 模型",
+      "OpenAI 隐私过滤工具用于企业合规敏感信息检测"
     ],
     "ai-hf": [
-      "DeepSeek-V4-Pro 3471 点赞 45 万下载，国产开源持续领跑",
-      "Google Gemma-4-31B-it 790 万+下载，开源权重商业渗透最广",
-      "Qwen3.6 系列密集矩阵 27B/35B-MoE+GGUF，最活跃开源家族",
-      "NVIDIA Nemotron-3 Nano Omni 推动 any-to-any 原生多模态新赛道",
-      "小米 MiMo-V2.5-Pro 407 点赞，消费电子厂商深入 LLM 层",
-      "poolside Laguna-XS.2 198 点赞，AI 编程助手新玩家对标 Cursor"
+      "DeepSeek-V4-Pro 以 3,472 点赞登顶热门模型榜首",
+      "Qwen3.6-27B 多模态模型下载超 120 万次，生态活跃",
+      "google/gemma-4-31B-it 原生图像理解能力成开源标杆",
+      "moonshotai/Kimi-K2.6 支持压缩张量，适合边缘部署",
+      "NVIDIA Nemotron-3-Nano Omni 支持任意模态输入输出",
+      "Sulphur-2-base 专注高质量文本生成视频，采用 Diffus"
     ],
     "ai-community": [
-      "AI 删测试谎报全过，typia 迁移 Go 的恐怖故事警示验证护栏",
-      "零依赖离线 AI 助手教程，脱离云服务和重型框架完整构建",
-      "$130 矿卡自定义 CUDA 引擎跑 Qwen3.5-27B 极致成本优化",
-      "Claude Code 全权写功能一周，揭示代理开发的实际陷阱",
-      "Agent-as-a-Tool 新范式，将 Agent 降级为可组合工具解协调难",
-      "Harness 工程化让代码库为 AI 代理提供可握持性 affordances"
+      "AI 代理失控删除测试，揭示 Vibe Coding 潜在风险",
+      "离线 AI 助手 Python 教程：无依赖本地运行大模型",
+      "Agent-as-a-Tool 开启 AI 编排新纪元，整合外部工具",
+      "自定义 CUDA 引擎运行 Qwen3.5-27B 于 $130 矿卡",
+      "Giving an AI agent permission to spawn sub-agents without losing control",
+      "Writing the Loss Function 深入理解 AI 训练本质"
     ],
     "ai-weekly": [
-      "Microsoft终止OpenAI独家合作，云AI格局重构",
-      "Claude Code计费漏洞爆发，信任危机达顶点",
-      "Kimi K2.6编程击败Claude/GPT-5.5/Gemini",
-      "Warp终端+12822 stars登顶，Agentic开发环境爆发",
-      "TradingAgents单日+2225 stars，金融Agent领跑",
-      "Anthropic发布BioMysteryBench，进军科研工具"
+      "Claude Code v2.1.126 新增网关模型支持与状态清理功能",
+      "Uber四个月烧光全年AI预算，引发成本控制热议",
+      "Kimi K2.6编程基准全面领先闭源模型",
+      "OpenClaw v2026.5.3-beta.2 新增文件传输与安全策略",
+      "Gemini CLI v0.42.0-nightly 支持DeepSeek V4推理字段解析",
+      "Anthropic发布Claude for Creative Work连接器集成Adobe等工具"
     ]
   },
   "en": {
-    "ai-cli": [
-      "All major tools now support MCP as standard",
-      "OpenAI Codex drives 'Frodex' architectural push",
-      "Claude Code in maintenance mode pre-release",
-      "Gemini CLI hardens Windows platform support",
-      "OpenCode and Qwen Code lead open alternatives",
-      "Subscription lockouts hit multiple paid tools"
-    ],
-    "ai-agents": [
-      "OpenClaw hits 500 issues and 500 PRs daily",
-      "Beta release v2026.5.3-beta.2 adds secure file-transfer",
-      "420 open issues signal review bottleneck",
-      "Community stress-tests Windows 11, WSL, Apple Silicon",
-      "Gateway reliability debt accumulates across versions",
-      "Multi-node agent infrastructure investment continues"
-    ],
-    "ai-trending": [
-      "ruflo gains 1,840 stars for swarm orchestration",
-      "TradingAgents surges 3,313 stars in finance AI",
-      "DeepSeek-TUI rises as terminal-native coding agent",
-      "MCP integration becomes table stakes for projects",
-      "Pixelle-Video launches automated video generation pipeline",
-      "jcode joins CLI-first AI workflow trend"
-    ],
-    "ai-hn": [
-      "Kimi K2.6 beats Claude, GPT-5.5, Gemini in coding",
-      "o1 hits 67% ER diagnostic accuracy vs 55% human",
-      "212 comments debate Chinese model benchmark claims",
-      "Healthcare AI sparks liability and bedside manner fears",
-      "ASU professors' lectures fed into AI without consent",
-      "Musk-Altman trial engagement surprisingly muted"
-    ],
-    "ai-ph": [
-      "Scholé tops votes turning work into AI learning",
-      "Microsoft Copilot Health pushes personal data aggregation",
-      "Manus Cloud Computer launches for developers",
-      "fossel and RepoRose build MCP infrastructure tools",
-      "AI shifts from tool to underlying layer everywhere",
-      "AI Sales Operator runs eCommerce 24/7 autonomously"
-    ],
-    "ai-hf": [
-      "Gemma-4-31B-it hits 7.9M downloads dominating charts",
-      "DeepSeek-V4-Pro and Flash near 900K combined downloads",
-      "Qwen 3.6 spans base, MoE, GGUF, uncensored variants",
-      "HauhauCS uncensored Qwen3.6 fine-tunes trend strongly",
-      "NVIDIA Nemotron-3 Omni enters reasoning market",
-      "Xiaomi MiMo-V2.5 expands vendor diversification"
-    ],
-    "ai-community": [
-      "AI deletes tests, falsely claims all pass",
-      "Offline AI assistant built with zero dependencies",
-      "Agent-as-a-Tool era of orchestration begins",
-      "Vibe coding era brings hype vs hard engineering tension",
-      "Self-spawning agent hierarchies tutorial trends",
-      "Concrete mitigation strategies beat pure AI enthusiasm"
-    ],
     "ai-weekly": [
-      "Microsoft-OpenAI exclusive deal ends Apr 28",
-      "Claude Code billing bug charges users $200+",
-      "Claude Code censors OpenClaw keyword",
-      "Uber burns full 2026 AI budget in 4 months",
-      "Kimi K2.6 beats Claude, GPT-5.5, Gemini coding",
-      "TradingAgents +3,313 stars in single day"
+      "Kimi K2.6 tops coding benchmarks vs Claude and GPT-5.5",
+      "OpenClaw v2026.5.3-beta.2 adds file-transfer plugins",
+      "Uber exhausts 2026 AI budget on Claude Code in 4 months",
+      "Anthropic releases 'Claude for Creative Work' connectors",
+      "Microsoft ends OpenAI exclusive partnership",
+      "Claude Code v2.1.126 fixes OAuth issues"
     ]
   }
 }

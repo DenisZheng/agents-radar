@@ -1,218 +1,113 @@
 # AI 开源趋势日报 2026-04-22
 
-> 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-04-22 00:13 UTC
+> 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-04-22 00:24 UTC
 
 ---
 
-# AI 开源趋势日报 | 2026-04-22
+好的，作为专注于 AI 开源生态的技术分析师，我将为您生成这份《AI 开源趋势日报》。
 
 ---
 
-## 第一步：AI 相关性过滤
+### **AI 开源趋势日报 (2026-04-22)**
 
-**Trending 榜单筛选结果**：8 个项目中，6 个与 AI/ML 明确相关，已排除：
-- `dayanch96/YTLite`（iOS YouTube 增强工具，纯客户端插件，无 AI 功能）
+**第一步：过滤**
+从 Trending 榜单中，我们筛选出与 AI/ML 相关的仓库。
+*   **保留项目:**
+    *   `thunderbird/thunderbolt` (TypeScript): AI You Control.
+    *   `microsoft/ai-agents-for-beginners` (Jupyter Notebook): AI Agents 教程.
+    *   `HKUDS/RAG-Anything` (Python): RAG 框架.
+    *   `sansan0/TrendRadar` (Python): AI 舆情监控工具.
+*   **略去项目:**
+    *   `Fincept-Corporation/FinceptTerminal` (金融应用，非核心AI)。
+    *   `zilliztech/claude-context` (Code search MCP，其功能更偏向开发工具而非通用AI应用)。
+    *   `ruvnet/RuView` (WiFi 传感技术，属于特定硬件领域，未归入主要分类)。
+    *   `dayanch96/YTLite` (YouTube 增强器，非AI)。
 
-**主题搜索结果**：79 个项目均为 AI 相关，全部保留。
+**第二步：分类**
 
----
+我们将根据提供的数据，对筛选后的项目进行归类。
 
-## 第二步：项目分类
+*   **🔧 AI 基础工具 (AI Foundation Tools)**
+    *   `ollama/ollama`: 一个简洁的本地 LLM 运行框架，支持多种模型。
+    *   `vllm-project/vllm`: 一个高性能、内存高效的 LLM 推理和 serving 引擎。
+    *   `e2b-dev/E2B`: 为企业级代理提供安全、真实世界的执行环境。
+    *   `alibaba/OpenSandbox`: 一个安全、快速且可扩展的沙盒运行时。
+    *   `googleworkspace/cli`: Google Workspace 的命令行接口，包含 AI Agent 技能。
 
-| 项目 | 主要类别 | 次要类别 |
-|:---|:---|:---|
-| FinceptTerminal | 📦 AI 应用 | 🔧 AI 基础工具 |
-| thunderbolt | 🔧 AI 基础工具 | 🤖 AI 智能体/工作流 |
-| claude-context | 🔧 AI 基础工具 | 🔍 RAG/知识库 |
-| RuView | 📦 AI 应用 | 🧠 大模型/训练 |
-| ai-agents-for-beginners | 🔧 AI 基础工具 | 🤖 AI 智能体/工作流 |
-| RAG-Anything | 🔍 RAG/知识库 | 🔧 AI 基础工具 |
-| TrendRadar | 📦 AI 应用 | 🤖 AI 智能体/工作流 |
-| hermes-agent | 🤖 AI 智能体/工作流 | |
-| cherry-studio | 🔧 AI 基础工具 | 🤖 AI 智能体/工作流 |
-| CowAgent | 🤖 AI 智能体/工作流 | 📦 AI 应用 |
-| nanobot | 🤖 AI 智能体/工作流 | |
-| career-ops | 🤖 AI 智能体/工作流 | 📦 AI 应用 |
-| CopilotKit | 🔧 AI 基础工具 | 🤖 AI 智能体/工作流 |
-| googleworkspace/cli | 🔧 AI 基础工具 | 🤖 AI 智能体/工作流 |
-| AionUi | 🔧 AI 基础工具 | 🤖 AI 智能体/工作流 |
-| activepieces | 🤖 AI 智能体/工作流 | 🔧 AI 基础工具 |
-| OpenCLI | 🔧 AI 基础工具 | 🤖 AI 智能体/工作流 |
-| cua | 🤖 AI 智能体/工作流 | 🔧 AI 基础工具 |
-| E2B | 🔧 AI 基础工具 | 🤖 AI 智能体/工作流 |
-| waoowaoo | 🤖 AI 智能体/工作流 | 📦 AI 应用 |
-| OpenSandbox | 🔧 AI 基础工具 | 🤖 AI 智能体/工作流 |
-| ppt-master | 📦 AI 应用 | 🤖 AI 智能体/工作流 |
-| tensorflow | 🧠 大模型/训练 | 🔧 AI 基础工具 |
-| prompts.chat | 🔧 AI 基础工具 | |
-| transformers | 🧠 大模型/训练 | 🔧 AI 基础工具 |
-| pytorch | 🧠 大模型/训练 | 🔧 AI 基础工具 |
-| LLMs-from-scratch | 🧠 大模型/训练 | 🔧 AI 基础工具 |
-| ML-For-Beginners | 🧠 大模型/训练 | 🔧 AI 基础工具 |
-| netdata | 📦 AI 应用 | 🔧 AI 基础工具 |
-| tesseract | 🔧 AI 基础工具 | 🔍 RAG/知识库 |
-| OpenBB | 📦 AI 应用 | 🔧 AI 基础工具 |
-| scikit-learn | 🧠 大模型/训练 | 🔧 AI 基础工具 |
-| keras | 🧠 大模型/训练 | 🔧 AI 基础工具 |
-| yolov5 | 🧠 大模型/训练 | |
-| ultralytics | 🧠 大模型/训练 | |
-| faceswap | 📦 AI 应用 | 🧠 大模型/训练 |
-| julia | 🔧 AI 基础工具 | 🧠 大模型/训练 |
-| dify | 🤖 AI 智能体/工作流 | 🔍 RAG/知识库 |
-| langchain | 🤖 AI 智能体/工作流 | 🔍 RAG/知识库 |
-| open-webui | 🔧 AI 基础工具 | 🔍 RAG/知识库 |
-| awesome-llm-apps | 🤖 AI 智能体/工作流 | 🔍 RAG/知识库 |
-| ragflow | 🔍 RAG/知识库 | 🤖 AI 智能体/工作流 |
-| PaddleOCR | 🔧 AI 基础工具 | 🔍 RAG/知识库 |
-| claude-mem | 🔍 RAG/知识库 | 🔧 AI 基础工具 |
-| anything-llm | 🔍 RAG/知识库 | 📦 AI 应用 |
-| mem0 | 🔍 RAG/知识库 | 🤖 AI 智能体/工作流 |
-| Flowise | 🤖 AI 智能体/工作流 | 🔧 AI 基础工具 |
-| llama_index | 🔍 RAG/知识库 | 🤖 AI 智能体/工作流 |
-| JeecgBoot | 🤖 AI 智能体/工作流 | 📦 AI 应用 |
-| milvus | 🔍 RAG/知识库 | |
-| hello-agents | 🔧 AI 基础工具 | 🤖 AI 智能体/工作流 |
-| mindsdb | 🤖 AI 智能体/工作流 | 🔍 RAG/知识库 |
-| minimind | 🧠 大模型/训练 | |
-| Scrapegraph-ai | 🤖 AI 智能体/工作流 | 🔧 AI 基础工具 |
-| rig | 🔧 AI 基础工具 | 🧠 大模型/训练 |
-| opencompass | 🧠 大模型/训练 | 🔧 AI 基础工具 |
-| atomic-agents | 🤖 AI 智能体/工作流 | 🔧 AI 基础工具 |
-| generative-ai | 🧠 大模型/训练 | 🔧 AI 基础工具 |
-| nestia | 🔧 AI 基础工具 | 🤖 AI 智能体/工作流 |
-| Awesome-Embodied-Robotics-and-Agent | 🧠 大模型/训练 | 🤖 AI 智能体/工作流 |
-| DATAGEN | 🤖 AI 智能体/工作流 | 🧠 大模型/训练 |
-| AgentsMeetRL | 🧠 大模型/训练 | 🤖 AI 智能体/工作流 |
-| multilspy | 🔧 AI 基础工具 | |
-| LLM-API-Key-Proxy | 🔧 AI 基础工具 | |
-| picollm | 🧠 大模型/训练 | 🔧 AI 基础工具 |
-| PosterGen | 🧠 大模型/训练 | |
-| stable-pretraining | 🧠 大模型/训练 | |
-| AutoGPT | 🤖 AI 智能体/工作流 | |
-| ollama | 🔧 AI 基础工具 | 🧠 大模型/训练 |
-| everything-claude-code | 🔧 AI 基础工具 | 🤖 AI 智能体/工作流 |
-| firecrawl | 🔧 AI 基础工具 | 🤖 AI 智能体/工作流 |
-| browser-use | 🤖 AI 智能体/工作流 | 🔧 AI 基础工具 |
-| vllm | 🔧 AI 基础工具 | 🧠 大模型/训练 |
-| OpenHands | 🤖 AI 智能体/工作流 | 🔧 AI 基础工具 |
-| meilisearch | 🔍 RAG/知识库 | |
-| qdrant | 🔍 RAG/知识库 | |
-| PageIndex | 🔍 RAG/知识库 | |
-| cognee | 🔍 RAG/知识库 | 🤖 AI 智能体/工作流 |
-| weaviate | 🔍 RAG/知识库 | |
-| txtai | 🔍 RAG/知识库 | 🤖 AI 智能体/工作流 |
-| langchain4j | 🔍 RAG/知识库 | 🔧 AI 基础工具 |
-| LEANN | 🔍 RAG/知识库 | 🧠 大模型/训练 |
-| oceanbase | 🔍 RAG/知识库 | |
-| lancedb | 🔍 RAG/知识库 | |
-| zvec | 🔍 RAG/知识库 | |
-| databend | 🔍 RAG/知识库 | 🤖 AI 智能体/工作流 |
+*   **🤖 AI 智能体/工作流 (AI Agents & Workflows)**
+    *   `Significant-Gravitas/AutoGPT`: AutoGPT 是愿景，旨在让每个人都能轻松使用和构建 AI。
+    *   `langgenius/dify`: 面向代理工作流的、生产就绪的平台。
+    *   `CopilotKit/CopilotKit`: 用于代理和生成式 UI 的前端栈。
+    *   `trycua/cua`: 开源的基础设施，用于计算机使用代理。
+    *   `microsoft/ai-agents-for-beginners`: Microsoft 提供的 AI 智能体初学者教程。
+    *   `thunderbird/thunderbolt`: 强调用户对 AI 模型和数据的所有权，消除供应商锁定。
+
+*   **📦 AI 应用 (AI Applications)**
+    *   `sansan0/TrendRadar`: AI 驱动的舆情监控工具，聚合多平台热点并提供智能推送。
+    *   `HuggingFace/transformers`: 🤗 Transformers: 用于最先进的机器学习模型的框架，涵盖文本、视觉、音频和多模态模型。
+    *   `browser-use/browser-use`: 使网站对 AI 代理可访问，实现自动化在线任务。
+
+*   **🧠 大模型/训练 (LLM & Training)**
+    *   `jingyaogong/minimind`: 一个 64M 参数的小参数 GPT，可以在 2 小时内从零开始训练。
+    *   `rasbt/LLMs-from-scratch`: 从头开始在 PyTorch 中实现 ChatGPT 风格的 LLM。
+
+*   **🔍 RAG/知识库 (RAG & Knowledge Bases)**
+    *   `infiniflow/ragflow`: 领先的开放源码 Retrieval-Augmented Generation (RAG) 引擎，融合了 RAG 与代理能力。
+    *   `HKUDS/RAG-Anything`: 一个一体化的 RAG 框架。
+    *   `mem0ai/mem0`: 用于 AI Agent 的通用记忆层。
+    *   `qdrant/qdrant`: 高性能、大规模向量数据库和向量搜索引擎。
+    *   `milvus-io/milvus`: 一个高性能、云原生的向量数据库，用于可扩展的向量 ANN 搜索。
 
 ---
 
-## 第三步：输出报告
+**第三步：输出报告**
+
+#### **1. 今日速览**
+
+今日 GitHub AI 开源生态呈现多元化发展态势。一方面，RAG（检索增强生成）和向量数据库领域持续火热，如 `RAG-Anything` 和 `TrendRadar` 展示了其在垂直场景的强大应用潜力；另一方面，AI Agent 开发工具链进一步完善，微软推出的初学者教程和 Thunderbird 的 "AI You Control" 理念，凸显了市场对自主智能体及其可控性的高度关注。此外，轻量级模型训练和高效推理引擎仍是开发者关注的重点，展现了从大型模型到小型化、实用化的技术演进路径。
+
+#### **2. 各维度热门项目**
+
+*   **🔧 AI 基础工具**
+    *   **[ollama/ollama](https://github.com/ollama/ollama)** ⭐169,644 (+2 today): 一个简洁的本地 LLM 运行框架，让用户能够轻松地下载和运行各种开源语言模型，无需复杂配置。
+    *   **[vllm-project/vllm](https://github.com/vllm-project/vllm)** ⭐77,592 (+2 today): 专为 LLM 设计的高吞吐量和内存高效的推理和服务引擎，显著提升模型部署效率。
+    *   **[e2b-dev/E2B](https://github.com/e2b-dev/E2B)** ⭐11,837 (+2 today): 一个开源、安全的执行环境，为需要与真实世界交互的企业级 AI 代理提供基础设施。
+    *   **[alibaba/OpenSandbox](https://github.com/alibaba/OpenSandbox)** ⭐10,147 (+2 today): 一个安全、快速且可扩展的沙盒运行时，旨在为 AI 代理提供一个受控的执行环境。
+    *   **[googleworkspace/cli](https://github.com/googleworkspace/cli)** ⭐25,173 (+2 today): Google Workspace 的统一命令行接口，集成了 AI Agent 技能，方便开发者通过 CLI 操作 Google 服务。
+
+*   **🤖 AI 智能体/工作流**
+    *   **[Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** ⭐183,645 (+2 today): AutoGPT 致力于让 AI 对每个人都可访问，它提供了一个易于使用的框架来构建和管理自主 AI 代理。
+    *   **[langgenius/dify](https://github.com/langgenius/dify)** ⭐138,664 (+2 today): 一个生产就绪的代理工作流开发平台，简化了复杂 AI 应用的构建流程。
+    *   **[CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit)** ⭐30,366 (+2 today): 一个用于构建代理和生成式 UI 的前端开发栈，支持 React 和 Angular。
+    *   **[microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners)** ⭐0 (+200 today): Microsoft 发布的 12 课初学者教程，旨在帮助开发者快速上手构建 AI 智能体。
+    *   **[thunderbird/thunderbolt](https://github.com/thunderbird/thunderbolt)** ⭐0 (+596 today): 一个强调用户对 AI 模型和数据所有权的开源项目，致力于消除 AI 领域的供应商锁定问题。
+
+*   **📦 AI 应用**
+    *   **[sansan0/TrendRadar](https://github.com/sansan0/TrendRadar)** ⭐0 (+534 today): AI 驱动的舆情监控工具，聚合多平台热点并通过 AI 分析提供智能推送，是垂直场景中 AI 应用的典型代表。
+    *   **[HuggingFace/transformers](https://github.com/HuggingFace/transformers)** ⭐159,708 (+2 today): Hugging Face 的核心项目，提供用于文本、视觉、音频和多模态模型的最先进机器学习模型的框架，是许多 AI 应用的基础。
+    *   **[browser-use/browser-use](https://github.com/browser-use/browser-use)** ⭐89,273 (+2 today): 一个 Python 库，使网站对 AI 代理可访问，允许它们自动化在线任务，是 AI 应用于浏览器交互的代表。
+
+*   **🧠 大模型/训练**
+    *   **[jingyaogong/minimind](https://github.com/jingyaogong/minimind)** ⭐47,922 (+2 today): 一个 64M 参数的“大模型”，可以在短短 2 小时内从零开始训练，展示了轻量级模型训练的巨大潜力和效率。
+    *   **[rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)** ⭐91,195 (+2 today): 一个详细的教程，指导用户从头开始在 PyTorch 中实现 ChatGPT 风格的 LLM，是学习大模型底层原理的优秀资源。
+
+*   **🔍 RAG/知识库**
+    *   **[infiniflow/ragflow](https://github.com/infiniflow/ragflow)** ⭐78,677 (+2 today): 一个领先的开放源码 Retrieval-Augmented Generation (RAG) 引擎，融合了 RAG 与代理能力，提供了更强大的上下文处理能力。
+    *   **[HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything)** ⭐0 (+162 today): 一个一体化的 RAG 框架，旨在简化 RAG 应用的开发过程。
+    *   **[mem0ai/mem0](https://github.com/mem0ai/mem0)** ⭐53,731 (+2 today): 一个通用的 AI Agent 记忆层，解决了 Agent 长期记忆和知识管理的问题。
+    *   **[qdrant/qdrant](https://github.com/qdrant/qdrant)** ⭐30,534 (+2 today): Qdrant 是一个高性能、大规模向量数据库和向量搜索引擎，是 RAG 应用的关键组成部分。
+    *   **[milvus-io/milvus](https://github.com/milvus-io/milvus)** ⭐43,898 (+2 today): Milvus 是一个高性能、云原生的向量数据库，用于可扩展的向量近似最近邻搜索，在 AI 和大数据领域广泛应用。
+
+#### **3. 趋势信号分析**
+
+今日热榜显示，**RAG（检索增强生成）** 和 **AI Agent 开发工具链的成熟** 是当前最受关注的两个方向。`RAG-Anything` 作为一个一体化的 RAG 框架，以及 `TrendRadar` 这样的 AI 舆情监控工具，表明社区正积极探索将 RAG 能力集成到具体业务场景中，解决信息过载和智能分析的需求。同时，微软推出的 `ai-agents-for-beginners` 教程和 Thunderbird 的 `thunderbolt` 项目，共同传递出一个强烈的信号：市场对 **AI Agent 的可控性、透明度和用户所有权** 有着极高的期待，开发者正在寻求摆脱供应商锁定的解决方案，并渴望降低构建 AI Agent 的门槛。此外，`RuView` 这类基于 WiFi 信号的感知技术虽未归入主流分类，但其展示了 AI 技术在跨领域、无感监测方面的创新应用潜力。整体来看，AI 开源生态正从单纯的大模型训练和推理，向更贴近实际业务场景、强调用户价值和系统可控性的方向发展。
+
+#### **4. 社区关注热点**
+
+*   **Thunderbolt (AI You Control)**: 该项目强调用户对 AI 模型和数据的所有权，消除了供应商锁定。随着企业对 AI 安全和自主控制的日益重视，这类开源、可控的 AI 解决方案将越来越受到青睐。
+*   **RAG-Anything**: 作为一个一体化的 RAG 框架，它有望简化复杂的 RAG 应用开发流程。RAG 技术在企业知识管理和问答系统中扮演着关键角色，此类工具的成熟将极大推动其落地。
+*   **TrendRadar (AI 舆情监控)**: 展示了 AI 在垂直领域（如舆情监控）的强大应用潜力。这类工具结合了多源数据聚合、AI 分析和智能推送，是 AI 赋能传统业务流程的典型范例。
+*   **Microsoft AI Agents for Beginners**: 微软推出的初学者教程，降低了 AI Agent 开发的入门门槛。对于广大开发者而言，这是一套宝贵的学习资源，有助于加速 AI Agent 技术的普及和应用。
 
 ---
-
-## 1. 今日速览
-
-今日 AI 开源领域呈现**"Agent 基建爆发、RAG 深度演进、端侧智能崛起"**三大主线。Trending 热榜中 [FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) 以单日 2548 stars 登顶，标志金融 AI 分析工具进入交互式终端时代；Mozilla 的 [thunderbolt](https://github.com/thunderbird/thunderbolt) 以"AI You Control"理念切入去中心化 AI 客户端赛道，呼应近期模型主权争议。主题数据揭示 Agent 框架持续高热——[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) 突破 10.8 万 stars，而 [HKUDS/nanobot](https://github.com/HKUDS/nanobot) 以"超轻量个人 AI Agent"定位快速攀升至 4 万 stars，显示社区对**私有化、低资源占用 Agent** 的强烈需求。RAG 领域出现结构性分化：[VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) 提出"无向量推理型 RAG"新范式，与传统向量数据库形成技术路线竞争。
-
----
-
-## 2. 各维度热门项目
-
-### 🔧 AI 基础工具（框架、SDK、推理引擎、开发工具、CLI）
-
-| 项目 | Stars | 一句话说明 |
-|:---|:---|:---|
-| [FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) | 0 ⭐ (+2548 today) | **今日热榜冠军**：现代化金融分析终端，将市场数据、投资研究与经济分析整合为交互式环境，代表"专业领域 AI 工具终端化"趋势 |
-| [thunderbird/thunderbolt](https://github.com/thunderbird/thunderbolt) | 0 ⭐ (+596 today) | Mozilla 系去中心化 AI 客户端，主打"模型自选、数据自有、拒绝厂商锁定"，直接回应 OpenAI/Anthropic 近期 API 政策争议 |
-| [ollama/ollama](https://github.com/ollama/ollama) | 169,640 ⭐ | 本地大模型运行的事实标准，已支持 Kimi-K2.5、GLM-5、DeepSeek 等最新模型，端侧 AI 基础设施核心枢纽 |
-| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 77,592 ⭐ | 高吞吐、低显存占用的 LLM 推理引擎，生产级部署首选，持续受益于模型轻量化趋势 |
-| [microsoft/multilspy](https://github.com/microsoft/multilspy) | 567 ⭐ | 微软开源的 LSP 客户端库，专为 AI 代码工具构建，是 Claude Code、Cursor 等工具的底层基础设施 |
-| [googleworkspace/cli](https://github.com/googleworkspace/cli) | 25,173 ⭐ | Google Workspace 统一 CLI，内置 AI Agent 技能集，企业办公自动化与 Agent 集成的关键入口 |
-| [OpenCLI](https://github.com/jackwener/OpenCLI) | 16,711 ⭐ | 通用 CLI Hub，将任意网站/Electron 应用/本地程序转化为标准化命令行接口，专为 AI Agent 自动发现与执行工具设计 |
-
-### 🤖 AI 智能体/工作流（Agent 框架、自动化、多智能体）
-
-| 项目 | Stars | 一句话说明 |
-|:---|:---|:---|
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 108,094 ⭐ | Nous Research 旗舰 Agent 框架，"与你共同成长的智能体"，开源社区 Agent 赛道头部项目 |
-| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 40,408 ⭐ | **"超轻量个人 AI Agent"**，香港大学数据科学团队出品，定位比 OpenClaw 更轻量便捷，个人私有化 Agent 标杆 |
-| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 43,596 ⭐ | 基于大模型的超级 AI 助理，支持微信/飞书/钉钉/QQ/公众号全平台接入，国内开发者最活跃的 Agent 项目之一 |
-| [activepieces/activepieces](https://github.com/activepieces/activepieces) | 21,806 ⭐ | 集成 ~400 个 MCP 服务器的 AI 自动化平台，"AI Agents & MCPs & AI Workflow Automation"三位一体的企业级方案 |
-| [browser-use/browser-use](https://github.com/browser-use/browser-use) | 89,269 ⭐ | 让网站对 AI Agent 可访问，浏览器自动化的事实标准，Computer-Use Agent 核心基础设施 |
-| [trycua/cua](https://github.com/trycua/cua) | 13,529 ⭐ | 开源 Computer-Use Agent 基础设施，提供沙箱、SDK 与基准测试，支持 macOS/Linux/Windows 全桌面控制 |
-| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 71,658 ⭐ | AI 驱动软件开发，从代码生成到全项目维护的自主编程 Agent，Devin 开源替代方案 |
-| [saturndec/waoowaoo](https://github.com/saturndec/waoowaoo) | 11,573 ⭐ | **首家工业级 AI 影视生产平台**，从短片到真人电影的好莱坞标准工作流，Agent 在创意产业的垂直突破 |
-
-### 📦 AI 应用（具体应用产品、垂直场景解决方案）
-
-| 项目 | Stars | 一句话说明 |
-|:---|:---|:---|
-| [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar) | 0 ⭐ (+534 today) | **今日热榜黑马**：AI 舆情监控与热点筛选工具，聚合多平台+RSS+AI 分析简报直推手机，支持 MCP 架构与微信/飞书/钉钉等全渠道推送 |
-| [ruvnet/RuView](https://github.com/ruvnet/RuView) | 0 ⭐ (+824 today) | 将 WiFi 信号转化为实时人体姿态估计、生命体征监测与存在检测，**无需任何视频像素**，隐私敏感场景的革命性感知方案 |
-| [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) | 66,273 ⭐ | 金融数据平台，专为分析师、量化研究员与 AI Agent 设计，FinceptTerminal 的竞品/互补生态 |
-| [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | 7,065 ⭐ | AI 生成原生可编辑 PPTX（非图片），从任意文档自动转换，企业办公场景的深度应用 |
-| [netdata/netdata](https://github.com/netdata/netdata) | 78,545 ⭐ | AI 驱动的全栈可观测性平台，"即使精简团队也能获得 AI 赋能的监控能力" |
-| [deepfakes/faceswap](https://github.com/deepfakes/faceswap) | 55,193 ⭐ | 开源 Deepfake 工具，持续活跃的多媒体 AI 应用代表 |
-
-### 🧠 大模型/训练（模型权重、训练框架、微调工具）
-
-| 项目 | Stars | 一句话说明 |
-|:---|:---|:---|
-| [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 47,922 ⭐ | **"2 小时从 0 训练 64M 参数 GPT"**，大模型教育与小规模预训练的最佳实践，降低 LLM 入门门槛的标杆项目 |
-| [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | 91,194 ⭐ | 逐步用 PyTorch 实现类 ChatGPT LLM，最系统的 LLM 原理教学仓库 |
-| [0xPlaygrounds/rig](https://github.com/0xPlaygrounds/rig) | 6,991 ⭐ | **Rust 生态 LLM 应用框架**，模块化、可扩展的 LLM 应用构建工具，系统级语言与 AI 结合的新方向 |
-| [Picovoice/picollm](https://github.com/Picovoice/picollm) | 311 ⭐ | X-Bit 量化驱动的端侧 LLM 推理，极致压缩下的本地运行方案，边缘 AI 关键基础设施 |
-| [stable-pretraining](https://github.com/galilai-group/stable-pretraining) | 197 ⭐ | 可靠、极简、可扩展的基础模型与世界模型预训练库，预训练工程化的新尝试 |
-| [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) | 0 ⭐ (+200 today) | 微软官方 12 课 Agent 入门教程，今日热榜体现开发者对 Agent 系统学习的迫切需求 |
-
-### 🔍 RAG/知识库（向量数据库、检索增强、知识管理）
-
-| 项目 | Stars | 一句话说明 |
-|:---|:---|:---|
-| [zilliztech/claude-context](https://github.com/zilliztech/claude-context) | 0 ⭐ (+169 today) | **今日首发**：Zilliz 为 Claude Code 打造的代码搜索 MCP，让完整代码库成为任何编码 Agent 的上下文，向量数据库厂商深入 IDE 工具链 |
-| [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything) | 0 ⭐ (+162 today) | 香港大学数据科学团队"All-in-One RAG 框架"，与 nanobot 形成工具矩阵 |
-| [langgenius/dify](https://github.com/langgenius/dify) | 138,662 ⭐ | 生产级 Agentic 工作流开发平台，RAG 与 Agent 能力融合最成熟的商业化开源方案 |
-| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | 78,677 ⭐ | 领先的开源 RAG 引擎，深度融合检索增强与 Agent 能力，LLM 上下文层建设的核心工具 |
-| [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) | 25,597 ⭐ | **"无向量、基于推理的文档索引"**，提出 RAG 新范式：无需向量数据库，纯推理驱动检索，挑战 Milvus/Qdrant 传统路线 |
-| [mem0ai/mem0](https://github.com/mem0ai/mem0) | 53,730 ⭐ | AI Agent 的通用记忆层，解决多轮对话与长期上下文的关键基础设施 |
-| [cognee](https://github.com/topoteretes/cognee) | 16,598 ⭐ | **6 行代码构建 AI Agent 记忆的知识引擎**，极简 API 设计降低认知架构接入门槛 |
-
----
-
-## 3. 趋势信号分析
-
-**Agent 基础设施进入"轻量化+私有化"爆发期**。今日热榜与主题数据共同指向一个明确信号：社区正在从"追逐大模型能力"转向"构建可拥有的 Agent 系统"。[HKUDS/nanobot](https://github.com/HKUDS/nanobot) 的"超轻量个人 AI Agent"定位与 [thunderbolt](https://github.com/thunderbird/thunderbolt) 的"AI You Control"口号形成呼应，反映开发者对**数据主权与本地运行**的焦虑——这与 OpenAI 近期收紧 API 使用政策、Claude 3.7 引发的数据处理争议直接相关。MCP（Model Context Protocol）成为隐性主线：[activepieces](https://github.com/activepieces/activepieces) 集成 ~400 个 MCP 服务器、[TrendRadar](https://github.com/sansan0/TrendRadar) 与 [claude-context](https://github.com/zilliztech/claude-context) 均强调 MCP 架构支持，表明 Anthropic 推动的 MCP 标准正快速成为 Agent 互操作的事实协议。
-
-**RAG 技术路线出现结构性分化**。[VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) 提出的"无向量推理型 RAG"与 [LEANN](https://github.com/yichuan-w/LEANN) 的"97% 存储节省"方案，共同挑战以 Milvus/Qdrant 为代表的传统向量数据库范式。这一分化与近期 Embedding 模型效率提升、推理成本下降的技术背景密切相关，可能预示 RAG 架构从"检索-生成"双模块向"纯推理端到端"演进。
-
-**端侧与垂直场景成为新增长极**。[RuView](https://github.com/ruvnet/RuView) 的 WiFi 感知、[picollm](https://github.com/Picovoice/picollm) 的量化端侧推理、[waoowaoo](https://github.com/saturndec/waoowaoo) 的 AI 影视生产，显示 AI 应用正从通用聊天向**物理世界感知、边缘计算、专业创作**深度渗透。
-
----
-
-## 4. 社区关注热点
-
-- **🔥 [FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) — 金融 AI 终端新物种**
-  单日 2548 stars 的爆发式增长，验证"专业领域数据 + 交互式 AI 分析"的产品化路径，可能复刻 Bloomberg Terminal 的 AI 时代版本。
-
-- **🔥 [thunderbird/thunderbolt](https://github.com/thunderbird/thunderbolt) — 去中心化 AI 客户端的 Mozilla 宣言**
-  596 stars 首日表现稳健，"Eliminate vendor lock-in"直击当前开发者痛点，需关注其模型接入生态能否形成网络效应。
-
-- **🔥 [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) — "无向量 RAG"的技术路线挑战**
-  2.5 万 stars 积累下的范式创新，若推理成本持续下降，可能重构向量数据库市场格局，值得技术决策者持续跟踪。
-
-- **🔥 [RuView](https://github.com/ruvnet/RuView) — WiFi 感知的隐私计算突破**
-  零像素实现人体姿态与生命体征监测，在安防、养老、医疗等隐私敏感场景具有不可替代性，技术独创性极高。
-
-- **🔥 [activepieces/activepieces](https://github.com/activepieces/activepieces) — MCP 生态的集大成者**
-  ~400 个 MCP 服务器的集成规模，使其成为观察 MCP 协议落地进展的最佳窗口，企业级 AI 自动化集成首选。
-
----
-
-*报告生成时间：2026-04-22 | 数据来源：GitHub Trending & Search API*
-
----
-*本日报由 [agents-radar](https://github.com/duanyytop/agents-radar) 自动生成。*
+*本日报由 [agents-radar](https://github.com/DenisZheng/agents-radar) 自动生成。*

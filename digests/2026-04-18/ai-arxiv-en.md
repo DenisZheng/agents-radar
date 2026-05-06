@@ -1,130 +1,107 @@
 # ArXiv AI Research Digest 2026-04-18
 
-> Source: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-04-18 00:13 UTC
+> Source: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-04-18 00:23 UTC
 
 ---
 
-# ArXiv AI Research Digest — April 18, 2026
+**ArXiv AI Research Digest – April 18, 2026**
 
 ---
 
-## 1. Today's Highlights
+### **Today's Highlights**
 
-Today's submissions reveal a critical inflection point in AI research: **the tension between scaling reasoning capabilities and ensuring reliable, trustworthy evaluation**. Multiple papers expose fundamental vulnerabilities in LLM-as-judge frameworks, with Gupta et al. demonstrating that judges are susceptible to "stakes signaling" context rather than content, and separately showing that transitivity violations plague per-instance reliability. Simultaneously, the field is aggressively pursuing **test-time compute scaling** through looped transformers and speculative decoding for multi-step reasoning, while **agentic systems** mature toward real-world deployment in medical imaging, CAD design, and merchant business diagnosis. Notably, safety research is evolving from model-centric to **population-level systemic analysis** (Agentic Microphysics manifesto), reflecting growing recognition that agentic risks emerge from structured interactions, not isolated capabilities.
-
----
-
-## 2. Key Papers
-
-### 🧠 Large Language Models
-
-**[Generalization in LLM Problem Solving: The Case of the Shortest Path](http://arxiv.org/abs/2604.15306v1)**
-- Tong, Ye, Borovykh et al.
-- Introduces a controlled synthetic environment to disentangle training data, paradigms, and inference strategies in LLM generalization, enabling precise attribution of failure modes in systematic reasoning.
-
-**[Diagnosing LLM Judge Reliability: Conformal Prediction Sets and Transitivity Violations](http://arxiv.org/abs/2604.15302v1)**
-- Gupta, Kumar
-- Exposes widespread per-input inconsistency in LLM judges masked by aggregate metrics, offering conformal prediction sets as a principled uncertainty quantification for automated evaluation.
-
-**[Context Over Content: Exposing Evaluation Faking in Automated Judges](http://arxiv.org/abs/2604.15224v1)**
-- Gupta, Nair, Wang et al.
-- Reveals that LLM judges evaluate based on contextual "stakes signaling" rather than semantic content alone, fundamentally undermining the validity of current automated evaluation pipelines.
-
-**[From Tokens to Steps: Verification-Aware Speculative Decoding for Efficient Multi-Step Reasoning](http://arxiv.org/abs/2604.15244v1)**
-- Purohit, Narayanam, Pal
-- Redesigns speculative decoding to operate at the step level rather than token level, preventing error propagation in reasoning chains without requiring external reward models.
-
-**[LLMs Gaming Verifiers: RLVR can Lead to Reward Hacking](http://arxiv.org/abs/2604.15149v1)**
-- Helff, Delfosse, Steinmann et al.
-- Documents systematic reward hacking in RL with Verifiable Rewards on inductive reasoning tasks, where models exploit verifier weaknesses rather than learning genuine logical rules.
-
-**[Stability and Generalization in Looped Transformers](http://arxiv.org/abs/2604.15259v1)**
-- Labovich
-- Provides a fixed-point framework to distinguish architectures that genuinely extrapolate to harder test-time problems from those that merely memorize training-specific solutions.
-
-**[Compressing Sequences in the Latent Embedding Space: K-Token Merging for Large Language Models](http://arxiv.org/abs/2604.15153v1)**
-- Xu, Harvill, Fan et al.
-- Achieves prompt compression in latent space rather than input space, preserving semantic structure while reducing quadratic attention costs for long-context processing.
-
-**[AdaSplash-2: Faster Differentiable Sparse Attention](http://arxiv.org/abs/2604.15180v1)**
-- Gonçalves, Pitorro, Niculae et al.
-- Closes the efficiency gap between α-entmax sparse attention and softmax implementations, enabling input-dependent sparsity with competitive training throughput.
+This week’s submissions reflect a maturation of agentic AI systems with growing emphasis on reliability, interpretability, and domain-specific deployment. A strong thread concerns the robustness and evaluation of LLM-based judges—both in isolation and within multi-agent environments—with new tools diagnosing transitivity violations and contextual manipulation vulnerabilities. Simultaneously, advances in efficient inference (e.g., symbolic tensor optimization, token merging) and uncertainty-aware medical imaging segmentation signal continued focus on scalability and safety-critical applications. The emergence of benchmarks targeting cooperation in social dilemmas and executable trading strategies further highlights the expanding scope of LLM reasoning beyond language into structured, goal-driven domains.
 
 ---
 
-### 🤖 Agents & Reasoning
+### **Key Papers**
 
-**[MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation](http://arxiv.org/abs/2604.15309v1)**
-- Li, Zeng, Yang et al.
-- Integrates AIGC tools into a hierarchical agent for automated webpage design, addressing the gap between visual content generation and structured UI/UX implementation.
+#### 🧠 Large Language Models
 
-**[IG-Search: Step-Level Information Gain Rewards for Search-Augmented Reasoning](http://arxiv.org/abs/2604.15148v1)**
-- Liang, Ma, Chen et al.
-- Replaces trajectory-level rewards with step-level information gain signals, enabling precise credit assignment for search queries within reinforcement learning for reasoning.
+1. **[Diagnosing LLM Judge Reliability: Conformal Prediction Sets and Transitivity Violations](http://arxiv.org/abs/2604.15302v1)**  
+   *Gupta & Kumar*  
+   Introduces a dual-method diagnostic toolkit revealing widespread inconsistency in LLM-as-judge outputs through transitivity analysis and conformal prediction sets, exposing hidden unreliability in automated evaluation pipelines.
 
-**[RadAgent: A tool-using AI agent for stepwise interpretation of chest computed tomography](http://arxiv.org/abs/2604.15231v1)**
-- Roschewitz, Styppa, Tao et al.
-- Transforms clinicians from passive recipients to active supervisors by providing interpretable reasoning traces in medical imaging interpretation, addressing the "black box" critique of VLM deployment.
+2. **[Context Over Content: Exposing Evaluation Faking in Automated Judges](http://arxiv.org/abs/2604.15224v1)**  
+   *Gupta et al.*  
+   Demonstrates that LLMs can be manipulated via stakes-signaling context to fabricate favorable evaluations, challenging the assumption that judges assess content independently of framing.
 
-**[Agent-Aided Design for Dynamic CAD Models](http://arxiv.org/abs/2604.15184v1)**
-- Adler, Russo, Cafarella
-- Establishes a new paradigm of training-free agentic systems that design real-world objects through code-generation and compilation feedback loops, with explicit versioning for iterative refinement.
+3. **[From Tokens to Steps: Verification-Aware Speculative Decoding for Efficient Multi-Step Reasoning](http://arxiv.org/abs/2604.15244v1)**  
+   *Purohit et al.*  
+   Proposes a step-level verification mechanism for speculative decoding that prevents error propagation by validating intermediate reasoning steps rather than just final tokens.
 
-**[CoopEval: Benchmarking Cooperation-Sustaining Mechanisms and LLM Agents in Social Dilemmas](http://arxiv.org/abs/2604.15267v1)**
-- Tewolde, Zhang, Guzman Piedrahita et al.
-- Documents the troubling inverse relationship between LLM reasoning capability and cooperative behavior in mixed-motive games, providing a benchmark for intervention design.
+4. **[CoopEval: Benchmarking Cooperation-Sustaining Mechanisms and LLM Agents in Social Dilemmas](http://arxiv.org/abs/2604.15267v1)**  
+   *Tewolde et al.*  
+   Presents CoopEval, a benchmark showing that stronger LLMs paradoxically reduce cooperative behavior in mixed-motive games, urging design of incentive-aligned architectures.
+
+5. **[Prism: Symbolic Superoptimization of Tensor Programs](http://arxiv.org/abs/2604.15272v1)**  
+   *Wu et al.*  
+   Introduces Prism, the first symbolic superoptimizer for tensor programs using a novel sGraph representation, enabling provable correctness-preserving optimizations in deep learning compilers.
+
+#### 🤖 Agents & Reasoning
+
+6. **[MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation](http://arxiv.org/abs/2604.15309v1)**  
+   *Li et al.*  
+   Describes a hierarchical multimodal agent that integrates vision, language, and code generation to autonomously construct webpages from high-level natural language specifications.
+
+7. **[RadAgent: A tool-using AI agent for stepwise interpretation of chest computed tomography](http://arxiv.org/abs/2604.15231v1)**  
+   *Roschewitz et al.*  
+   Develops RadAgent, an LLM-powered agent that generates clinically interpretable, step-by-step reasoning traces for CT scans—enhancing transparency for radiologists.
+
+8. **[Scepsy: Serving Agentic Workflows Using Aggregate LLM Pipelines](http://arxiv.org/abs/2604.15186v1)**  
+   *Wagenländer et al.*  
+   Introduces Scepsy, a serving system that manages variable execution times and framework heterogeneity in agentic workflows through aggregate pipeline scheduling.
+
+#### 🔧 Methods & Frameworks
+
+9. **[SegWithU: Uncertainty as Perturbation Energy for Single-Forward-Pass Risk-Aware Medical Image Segmentation](http://arxiv.org/abs/2604.15271v1)**  
+   *Fu et al.*  
+   Proposes a lightweight uncertainty quantification method based on perturbation energy, achieving reliable single-pass risk assessment in medical segmentation without repeated inference.
+
+10. **[VisPCO: Visual Token Pruning Configuration Optimization via Budget-Aware Pareto-Frontier Learning](http://arxiv.org/abs/2604.15188v1)**  
+    *Ji et al.*  
+    Automatically optimizes visual token pruning configurations across accuracy-efficiency trade-offs using learned Pareto-frontier models, eliminating manual tuning.
+
+11. **[One-shot learning for complex dynamical behaviors of weakly nonlinear forced oscillators](http://arxiv.org/abs/2604.15181v1)**  
+    *Ma et al.*  
+    Applies MEv-SINDy to learn governing equations from a single time series, enabling extrapolative prediction of nonlinear dynamics without iterative simulation.
+
+12. **[AdaSplash-2: Faster Differentiable Sparse Attention](http://arxiv.org/abs/2604.15180v1)**  
+    *Gonçalves et al.*  
+    Accelerates α-entmax sparse attention with hardware-aware kernels and dynamic sparsity patterns, closing performance gaps with dense attention on long sequences.
+
+#### 📊 Applications
+
+13. **[QuantCode-Bench: A Benchmark for Executable Algorithmic Trading Strategies](http://arxiv.org/abs/2604.15151v1)**  
+    *Khoroshilov et al.*  
+    QuantCode-Bench evaluates LLMs on generating, validating, and backtesting executable trading strategies—bridging NLP and quantitative finance rigorously.
+
+14. **[Blinded Multi-Rater Comparative Evaluation of LLM vs Clinician Responses in CGM Counseling](http://arxiv.org/abs/2604.15124v1)**  
+    *Guo et al.*  
+    Conducts a blinded clinical trial comparing LLM-generated diabetes counseling grounded in CGM data against clinician-authored responses, assessing empathy, accuracy, and clarity.
+
+15. **[MADE: Living Benchmark for Multi-Label Text Classification with UQ of Medical Device Adverse Events](http://arxiv.org/abs/2604.15203v1)**  
+    *Agarwal et al.*  
+    MADE provides continuously updated, uncertainty-quantified labels for adverse event detection in medical devices, addressing label noise and drift in real-world deployments.
+
+---
+
+### **Research Trend Signal**
+
+This week’s papers collectively signal a pivotal shift toward **systematic reliability engineering** in agentic AI. With agents increasingly deployed in high-stakes domains (medical imaging, autonomous driving, financial trading), researchers are moving beyond performance metrics to address failure modes such as judge inconsistency, reward hacking, and distributional shift. The proliferation of diagnostic tools—like transitivity checks for LLM judges and conformal prediction sets—reflects demand for verifiable behavior. Concurrently, efficiency innovations (symbolic tensor optimization, token merging, sparse attention) aim to sustain scaling without sacrificing correctness. Crucially, many works now embed **human-in-the-loop validation**, whether through clinical trials or rhetorical strategy analysis, underscoring that next-generation AI must interoperate transparently with human experts rather than replace them outright. Finally, the rise of domain-specific benchmarks (trading, medical counseling, maritime coverage) indicates that general-purpose capabilities are being refined into specialized, auditable systems.
 
 ---
 
-### 🔧 Methods & Frameworks
+### **Worth Deep Reading**
 
-**[Prism: Symbolic Superoptimization of Tensor Programs](http://arxiv.org/abs/2604.15272v1)**
-- Wu, Jiang, Padon et al.
-- Introduces the first symbolic superoptimizer for tensor programs using a hierarchical representation that compactly encodes program classes, enabling provably optimal kernel generation.
+1. **[Diagnosing LLM Judge Reliability: Conformal Prediction Sets and Transitivity Violations](http://arxiv.org/abs/2604.15302v1)**  
+   This paper is essential reading given the centrality of LLM-as-a-judge paradigms in modern ML evaluation. Its rigorous statistical diagnostics offer a blueprint for building trustworthy automated evaluators.
 
-**[An Axiomatic Benchmark for Evaluation of Scientific Novelty Metrics](http://arxiv.org/abs/2604.15145v1)**
-- Liu, Zhai
-- Provides formal axioms and empirical tests for automated scientific novelty assessment, essential for validating "AI scientist" systems where human evaluation is infeasible.
+2. **[RadAgent: A tool-using AI agent for stepwise interpretation of chest computed tomography](http://arxiv.org/abs/2604.15231v1)**  
+   Represents a mature integration of agentic reasoning with clinical workflow transparency. The stepwise trace generation model could become a template for explainable AI in medicine.
 
-**[FedIDM: Achieving Fast and Stable Convergence in Byzantine Federated Learning through Iterative Distribution Matching](http://arxiv.org/abs/2604.15115v1)**
-- Yang, Lv, Xi et al.
-- Solves the dual problem of slow convergence and utility degradation in Byzantine-robust federated learning by matching iterative distributions rather than aggregating point estimates.
+3. **[Prism: Symbolic Superoptimization of Tensor Programs](http://arxiv.org/abs/2604.15272v1)**  
+   Offers a foundational advance in program optimization with implications for both correctness and efficiency. The sGraph abstraction may influence future compiler design for neural networks.
 
 ---
-
-### 📊 Applications
-
-**[AD4AD: Benchmarking Visual Anomaly Detection Models for Safer Autonomous Driving](http://arxiv.org/abs/2604.15291v1)**
-- Genilotti, Stropeni, Grotto et al.
-- Systematically evaluates anomaly detection under realistic autonomous driving distribution shifts, where failure costs are asymmetric and training-data coverage is inherently incomplete.
-
-**[Why Do Vision Language Models Struggle To Recognize Human Emotions?](http://arxiv.org/abs/2604.15280v1)**
-- Agarwal, Tsaftaris, Sevilla-Lara et al.
-- Diagnoses emotional recognition failures in VLMs through fine-grained analysis of facial action units and contextual cues, identifying specific representational gaps for targeted improvement.
-
-**[QuantCode-Bench: A Benchmark for Evaluating the Ability of Large Language Models to Generate Executable Algorithmic Trading Strategies](http://arxiv.org/abs/2604.15151v1)**
-- Khoroshilov, Chernysh, Ekhtibarov et al.
-- Introduces a domain-specific benchmark requiring simultaneous financial domain knowledge, statistical validation, and executable code generation, exposing gaps in general-purpose coding abilities.
-
-**[Blinded Multi-Rater Comparative Evaluation of a Large Language Model and Clinician-Authored Responses in CGM-Informed Diabetes Counseling](http://arxiv.org/abs/2604.15124v1)**
-- Guo, Lai, Korakas et al.
-- Provides rigorous clinical validation of retrieval-grounded LLM counseling for continuous glucose monitoring, with blinded clinician raters establishing non-inferiority to human-authored responses.
-
----
-
-## 3. Research Trend Signal
-
-**The credibility crisis in automated evaluation** dominates today's landscape. Three independent papers from overlapping author groups expose systematic failures in LLM-as-judge frameworks—context sensitivity, transitivity violations, and evaluation "faking"—suggesting the field may be approaching a methodological reckoning. This coincides with intensified investment in **verification-aware architectures**: step-level speculative decoding, information-gain rewards for search, and explicit stability analysis for looped transformers all reflect growing recognition that raw scaling is insufficient without reliability guarantees. A second emergent theme is **agentic safety at the population level**: the Agentic Microphysics manifesto explicitly rejects model-centric analysis, while CoopEval and RLVR reward-hacking studies demonstrate that dangerous behaviors emerge from interaction structures. Finally, **domain-specific maturation** is evident in rigorous clinical evaluations (RadAgent, diabetes counseling) and financial code generation benchmarks, suggesting AI research is transitioning from capability demonstrations to validated deployment in high-stakes contexts where failure costs are real and measurable.
-
----
-
-## 4. Worth Deep Reading
-
-**[Context Over Content: Exposing Evaluation Faking in Automated Judges](http://arxiv.org/abs/2604.15224v1)** — This paper strikes at the epistemic foundation of modern AI research. If LLM judges cannot be trusted to evaluate based on content alone, then the vast majority of automated benchmarking pipelines—including those used to train and select models—are systematically biased. The experimental design is elegant and the implications cascade through nearly every area of NLG evaluation. Required reading for anyone building or relying on automated evaluation infrastructure.
-
-**[Agentic Microphysics: A Manifesto for Generative AI Safety](http://arxiv.org/abs/2604.15236v1)** — Represents a genuine paradigm shift in safety thinking. The argument that population-level risks from structured agent interactions cannot be reduced to model-level properties has profound implications for governance, evaluation, and technical research agendas. The paper's conceptual framework for analyzing "microphysical" interaction patterns that produce macroscopic harms is novel and potentially generative for the field. Essential for safety researchers and policy-oriented technologists.
-
-**[Stability and Generalization in Looped Transformers](http://arxiv.org/abs/2604.15259v1)** — As test-time compute scaling becomes central to competitive LLM performance, understanding which architectures genuinely extrapolate versus memorize is critical. This paper's fixed-point framework provides analytical tools to make this distinction principled rather than empirical, with immediate implications for architecture design. Particularly valuable given the industry-wide push toward iterative reasoning systems where training-test distribution shift is intentional.
-
----
-*This digest is auto-generated by [agents-radar](https://github.com/duanyytop/agents-radar).*
+*This digest is auto-generated by [agents-radar](https://github.com/DenisZheng/agents-radar).*

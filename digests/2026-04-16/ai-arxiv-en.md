@@ -1,103 +1,89 @@
 # ArXiv AI Research Digest 2026-04-16
 
-> Source: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-04-16 00:17 UTC
+> Source: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-04-16 08:28 UTC
 
 ---
 
-# ArXiv AI Research Digest — April 16, 2026
-
-## 1. Today's Highlights
-
-Today's submissions reveal intense focus on **making LLM training and inference radically more efficient** without sacrificing capability. Multiple papers advance **on-policy distillation** as a post-training paradigm, including one breakthrough that eliminates the need for live teacher inference entirely. We also see growing maturity in **autonomous AI research agents**, with one system designed to sustain coherent, multi-day ML engineering workflows. Safety and evaluation remain central themes, with novel work exposing fundamental limits of AI auditing and the fragility of instruction-tuned helpfulness under minimal constraints. Finally, **multimodal reasoning** continues to expand into specialized domains—medical imaging, video understanding, and visual tool use—with strong emphasis on benchmark construction and representational geometry.
+**ArXiv AI Research Digest (2026-04-16)**
 
 ---
 
-## 2. Key Papers
+### **Today's Highlights**
 
-### 🧠 Large Language Models
-
-**[Lightning OPD: Efficient Post-Training for Large Reasoning Models with Offline On-Policy Distillation](http://arxiv.org/abs/2604.13010v1)**  
-Wu, Han, Cai  
-*Eliminates the live teacher inference server requirement for on-policy distillation, dramatically reducing infrastructure overhead while preserving post-training gains for reasoning models.*
-
-**[Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe](http://arxiv.org/abs/2604.13016v1)**  
-Li, Zuo, He et al.  
-*Provides the first systematic mechanistic study of OPD training dynamics, identifying two governing conditions for success and offering a practical recipe for practitioners.*
-
-**[One Token Away from Collapse: The Fragility of Instruction-Tuned Helpfulness](http://arxiv.org/abs/2604.13006v1)**  
-Potraghloo, Azizi, Kundu et al.  
-*Shows that banning a single punctuation mark or common word can cause instruction-tuned LLMs to collapse into unhelpful behavior, revealing surprising brittleness in alignment.*
-
-**[Growing Pains: Extensible and Efficient LLM Benchmarking Via Fixed Parameter Calibration](http://arxiv.org/abs/2604.12843v1)**  
-Habba, Itzhak, Yehudai et al.  
-*Proposes a statistical framework for comparable LLM evaluation when models are tested on different benchmark samples, addressing a growing reproducibility crisis in rapid model release cycles.*
+This week’s submissions reflect a maturation of agentic and multimodal systems, with increasing focus on robustness, interpretability, and real-world deployment constraints. Several papers introduce novel paradigms for self-evolving intelligence—both in spatial reasoning (SpatialEvo) and code agent memory transfer (Memory Transfer Learning)—while others advance alignment techniques through causal decomposition (Robust Reward Modeling) and uncertainty-aware fine-tuning (TIP). A strong thread emerges around adaptive evaluation: benchmarks like LongCoT and GeoAgentBench push toward complex, dynamic tasking, and studies on “vibe-testing” highlight the gap between benchmark metrics and human experience. Efficiency remains critical, with sparse attention balancing (SparseBalance) and token-level distillation offering scalable improvements.
 
 ---
 
-### 🤖 Agents & Reasoning
+### **Key Papers**
 
-**[Toward Autonomous Long-Horizon Engineering for ML Research](http://arxiv.org/abs/2604.13018v1)**  
-Chen, Chen, Chen et al.  
-*Introduces AiScientist, an agentic system that sustains coherent progress across comprehension, implementation, experimentation, and debugging over multi-day ML research engineering tasks.*
+#### 🧠 Large Language Models
 
-**[Cycle-Consistent Search: Question Reconstructability as a Proxy Reward for Search Agent Training](http://arxiv.org/abs/2604.12967v1)**  
-An, Yuan, Lee et al.  
-*Replaces scarce gold-answer supervision with a scalable self-supervised reward based on whether retrieved evidence can reconstruct the original question, enabling RL training of search agents.*
+- **[From $P(y|x)$ to $P(y)$](http://arxiv.org/abs/2604.14142v1)** – Tan et al.  
+  Shifts RL optimization from conditional to marginal output distributions in pre-train space, enabling broader capability shaping beyond prompt-conditioned responses.
 
-**[QuarkMedSearch: A Long-Horizon Deep Search Agent for Exploring Medical Intelligence](http://arxiv.org/abs/2604.12867v1)**  
-Lin, Liang, Liu et al.  
-*Builds a vertical medical deep-search agent on top of a strong foundation model, demonstrating how long-horizon agentic capabilities can be adapted for high-stakes domain expertise.*
+- **[Interpretable Stylistic Variation](http://arxiv.org/abs/2604.14111v1)** – Rallapalli et al.  
+  Systematically analyzes how LLMs emulate human stylistic variation across genres and decoding strategies, offering insights into controllable text generation.
+
+- **[From Feelings to Metrics](http://arxiv.org/abs/2604.14137v1)** – Itzhak et al.  
+  Formalizes “vibe-testing” as a user-centered evaluation framework, arguing that informal human judgment captures real-world utility better than static benchmarks.
+
+- **[Adaptive Conformal Prediction](http://arxiv.org/abs/2604.13991v1)** – Rubashevskii et al.  
+  Introduces prompt-adaptive conformal prediction to provide statistical factuality guarantees for LLM outputs, enhancing reliability without retraining.
+
+- **[TIP: Token Importance](http://arxiv.org/abs/2604.14084v1)** – Xu et al.  
+  Identifies which tokens carry the strongest learning signal in on-policy distillation, enabling more efficient knowledge transfer during imitation learning.
+
+#### 🤖 Agents & Reasoning
+
+- **[LongCoT](http://arxiv.org/abs/2604.14140v1)** – Motwani et al.  
+  Releases LongCoT, a benchmark assessing long-horizon chain-of-thought reasoning, critical for autonomous planning under uncertainty.
+
+- **[CollabCoder](http://arxiv.org/abs/2604.13946v1)** – Doan et al.  
+  Proposes a collaborative plan-code co-evolution framework where agents iteratively refine plans and implementations via joint decision-making.
+
+- **[ToolOmni](http://arxiv.org/abs/2604.13787v1)** – Huang et al.  
+  Enables open-world tool use via proactive retrieval and grounded execution, allowing agents to dynamically discover and leverage evolving toolsets.
+
+- **[MCPThreatHive](http://arxiv.org/abs/2604.13849v1)** – Shen et al.  
+  Automates threat intelligence for Model Context Protocol ecosystems, highlighting growing security concerns in agentic infrastructure.
+
+#### 🔧 Methods & Frameworks
+
+- **[SparseBalance](http://arxiv.org/abs/2604.13847v1)** – Xu et al.  
+  Dynamically balances load during distributed training of long-context models with sparse attention, mitigating straggler effects and improving throughput.
+
+- **[ASTER](http://arxiv.org/abs/2604.13924v1)** – Hermary et al.  
+  Uses latent pseudo-anomaly generation for unsupervised time-series anomaly detection, reducing reliance on labeled outliers.
+
+- **[Correct Prediction, Wrong Steps?](http://arxiv.org/abs/2604.14121v1)** – Ling et al.  
+  Builds consensus reasoning knowledge graphs to filter flawed intermediate steps in CoT, improving final answer accuracy despite partial correctness.
+
+#### 📊 Applications
+
+- **[HiVLA](http://arxiv.org/abs/2604.14125v1)** – Yang et al.  
+  Presents a hierarchical embodied manipulation system that preserves VLM reasoning while enabling fine-grained robotic control.
+
+- **[Dual-Enhancement Product Bundling](http://arxiv.org/abs/2604.14030v1)** – Huang et al.  
+  Combines graph-based collaborative filtering with LLMs to solve cold-start bundling via semantic complementarity.
+
+- **[Causal Drawbridges](http://arxiv.org/abs/2604.13950v1)** – Boguraev & Mahowald  
+  Uses causal interventions to explain gradient blocking in syntactic islands within transformers, bridging psycholinguistics and model interpretability.
+
+---
+
+### **Research Trend Signal**
+
+A clear trend across today’s work is the shift from isolated model improvements toward integrated, adaptive, and evaluative systems capable of operating in open-ended environments. There’s heightened emphasis on *robustness*: not just accuracy, but resistance to sycophancy (Gaslight), spurious correlations (Robust Reward Modeling), and distribution shifts (ASTER). The rise of agentic workflows—especially those involving tool use (ToolOmni), code generation (CollabCoder), and spatial reasoning (SpatialEvo, HiVLA)—is driving demand for dynamic benchmarks (LongCoT, GeoAgentBench) and safety mechanisms (HINTBench, MCPThreatHive). Concurrently, efficiency innovations like SparseBalance and TIP reflect ongoing pressure to scale without exponential cost growth. Finally, human-in-the-loop perspectives (“vibe-testing”, cognitive offloading studies) underscore that AI systems must ultimately serve human contexts, not just optimize synthetic metrics.
 
 ---
 
-### 🔧 Methods & Frameworks
+### **Worth Deep Reading**
 
-**[The Verification Tax: Fundamental Limits of AI Auditing in the Rare-Error Regime](http://arxiv.org/abs/2604.12951v1)**  
-Jason Z Wang  
-*Proves that estimating calibration error below the model's error rate is statistically impossible, establishing a fundamental minimax lower bound with profound implications for AI safety auditing.*
+1. **[From $P(y|x)$ to $P(y)](http://arxiv.org/abs/2604.14142v1)** – This paper redefines the scope of reinforcement learning in language modeling by targeting the marginal output distribution rather than just prompt-conditioned responses. If validated, it could reshape how we think about post-training alignment and capability extension.
 
-**[CLAD: Efficient Log Anomaly Detection Directly on Compressed Representations](http://arxiv.org/abs/2604.13024v1)**  
-Tang, Yang  
-*Develops the first deep learning framework to detect anomalies directly on compressed byte streams, eliminating decompression overhead and enabling real-time log monitoring at scale.*
+2. **[Gaslight, Gatekeep, V1-V3](http://arxiv.org/abs/2604.13803v1)** – Offers a neuroscientifically grounded analysis of how vision-language models resist sycophantic manipulation through early visual cortex alignment. It bridges mechanistic interpretability with high-stakes safety concerns in multimodal deployment.
 
-**[BEAM: Bi-level Memory-adaptive Algorithmic Evolution for LLM-Powered Heuristic Design](http://arxiv.org/abs/2604.12898v1)**  
-Xiang, Wei, Ma et al.  
-*Introduces a bi-level evolutionary framework where LLMs design both heuristics and their composing solvers, breaking the single-function limitation of prior LLM-based hyper-heuristics.*
+3. **[TIP: Token Importance in On-Policy Distillation](http://arxiv.org/abs/2604.14084v1)** – Provides actionable insights into token-level supervision, potentially transforming how we train smaller models from larger ones. Its findings could simplify distillation pipelines and reduce annotation costs.
 
 ---
-
-### 📊 Applications
-
-**[Representation geometry shapes task performance in vision-language modeling for CT enterography](http://arxiv.org/abs/2604.13021v1)**  
-Minoccheri, Wittrup, Najarian et al.  
-*Conducts the first vision-language transfer learning study for abdominal CT enterography, revealing how representational choices directly impact clinical task performance in IBD assessment.*
-
-**[Don't Show Pixels, Show Cues: Unlocking Visual Tool Reasoning in Language Models via Perception Programs](http://arxiv.org/abs/2604.12896v1)**  
-Janjua, Silva, Niu et al.  
-*Replaces raw tool outputs with structured perception programs, enabling multimodal LLMs to actually benefit from vision tools like depth and flow estimators rather than ignoring them.*
-
-**[GlotOCR Bench: OCR Models Still Struggle Beyond a Handful of Unicode Scripts](http://arxiv.org/abs/2604.12978v1)**  
-Kargaran, Nikeghbal, Diesner et al.  
-*Constructs a comprehensive OCR benchmark spanning 100+ Unicode scripts, exposing severe generalization gaps in current vision-language models for low-resource languages.*
-
----
-
-## 3. Research Trend Signal
-
-A clear inflection point is emerging around **efficient post-training and distillation** for large models. Where 2024-2025 was dominated by scaling pre-training, today's papers show researchers aggressively pursuing ways to extract and transfer capabilities *after* training—via on-policy distillation, offline teacher caching, and adaptive data selection. This signals a maturing field optimizing the cost-quality frontier rather than raw scale. Simultaneously, **agentic systems are becoming vertically specialized**: from medical deep search to autonomous ML engineering, the focus is shifting from generic tool use to sustained, domain-grounded execution over long horizons. Finally, **evaluation science is catching up to model capabilities**, with rigorous work on statistical limits, benchmark calibration, and cross-lingual measurement—suggesting the community is preparing for a phase where trustworthy deployment, not just capability demonstration, becomes the primary differentiator.
-
----
-
-## 4. Worth Deep Reading
-
-**[The Verification Tax: Fundamental Limits of AI Auditing in the Rare-Error Regime](http://arxiv.org/abs/2604.12951v1)**  
-This paper delivers a rare *negative result* with immediate practical consequences. Wang proves that estimating calibration error below a model's error rate is minimax-impossible, explaining why even state-of-the-art calibration metrics can be statistical noise. For anyone building safety evaluation pipelines or trust frameworks, this sets hard boundaries on what auditing can achieve.
-
-**[Toward Autonomous Long-Horizon Engineering for ML Research](http://arxiv.org/abs/2604.13018v1)**  
-AiScientist represents a meaningful step beyond short-horizon agent demos. By structuring agents to maintain coherence across days of ML engineering—environment setup, implementation, debugging, and experimentation—it addresses the real bottleneck in autonomous research. The system design and failure modes likely contain lessons transferable to other long-horizon agentic applications.
-
-**[Lightning OPD: Efficient Post-Training for Large Reasoning Models with Offline On-Policy Distillation](http://arxiv.org/abs/2604.13010v1)**  
-If the technique holds, this could reshape how reasoning models are deployed and updated. Removing the live teacher server from on-policy distillation slashes infrastructure costs and democratizes access to a powerful post-training method. The engineering contribution is concrete, and the efficiency gains are immediately relevant to both industrial and academic labs.
-
----
-*This digest is auto-generated by [agents-radar](https://github.com/duanyytop/agents-radar).*
+*This digest is auto-generated by [agents-radar](https://github.com/DenisZheng/agents-radar).*

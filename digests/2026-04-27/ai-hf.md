@@ -1,81 +1,131 @@
 # Hugging Face 热门模型日报 2026-04-27
 
-> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 30 个模型 | 生成时间: 2026-04-27 00:16 UTC
+> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 30 个模型 | 生成时间: 2026-04-27 00:27 UTC
 
 ---
 
-# Hugging Face 热门模型日报（2026-04-27）
+**Hugging Face 热门模型日报（2026年4月27日）**
 
 ---
 
-## 今日速览
-
-DeepSeek-V4-Pro 以 2,843 周点赞登顶，延续 DeepSeek 系列在开源大模型领域的强势地位。Google Gemma-4 系列（31B/26B-A4B）下载量突破千万，成为消费级部署的热门选择。Qwen3.6 生态持续繁荣，官方模型与社区 GGUF、去 censored 衍生版本共占据榜单近三分之一。多模态模型占比显著提升，image-text-to-text 成为主流任务类型。社区微调活动活跃，"Uncensored" 和推理蒸馏版本获得高下载关注。
-
----
-
-## 热门模型
-
-### 🧠 语言模型（LLM、对话模型、指令微调）
-
-| 模型 | 作者 | 点赞 | 下载 | 一句话说明 |
-|:---|:---|---:|---:|:---|
-| [deepseek-ai/DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro) | deepseek-ai | 2,843 | 123,431 | DeepSeek 最新旗舰开源模型，MIT 许可证降低商用门槛，登顶本周热度榜首 |
-| [deepseek-ai/DeepSeek-V4-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash) | deepseek-ai | 735 | 45,986 | V4 系列轻量版，平衡性能与推理成本，适合快速部署场景 |
-| [zai-org/GLM-5.1](https://huggingface.co/zai-org/GLM-5.1) | zai-org | 1,523 | 230,865 | 智谱 GLM 系列 MoE 架构更新，DSA 动态稀疏注意力提升长文本处理能力 |
-| [MiniMaxAI/MiniMax-M2.7](https://huggingface.co/MiniMaxAI/MiniMax-M2.7) | MiniMaxAI | 1,070 | 484,595 | MiniMax 新一代对话模型，国内厂商出海代表，下载量验证其实用性 |
-| [tencent/Hy3-preview](https://huggingface.co/tencent/Hy3-preview) | tencent | 152 | 4,064 | 腾讯混元大模型预览版，延续 Hy 系列技术路线，关注度待释放 |
-
-### 🎨 多模态与生成（图像、视频、音频、文本到X）
-
-| 模型 | 作者 | 点赞 | 下载 | 一句话说明 |
-|:---|:---|---:|---:|:---|
-| [moonshotai/Kimi-K2.6](https://huggingface.co/moonshotai/Kimi-K2.6) | moonshotai | 1,058 | 376,485 | 月之暗面 Kimi 多模态迭代，compressed-tensors 技术降低显存占用 |
-| [Qwen/Qwen3.6-27B](https://huggingface.co/Qwen/Qwen3.6-27B) | Qwen | 855 | 329,571 | 阿里 Qwen3.6 稠密架构多模态版，视觉理解能力对标闭源前沿 |
-| [Qwen/Qwen3.6-35B-A3B](https://huggingface.co/Qwen/Qwen3.6-35B-A3B) | Qwen | 1,430 | 1,181,968 | **本周下载冠军**，MoE 架构以 3B 激活参数撬动 35B 性能，性价比极致 |
-| [google/gemma-4-31B-it](https://huggingface.co/google/gemma-4-31B-it) | google | 2,378 | 6,042,134 | Google Gemma-4 指令版，超 600 万下载验证其边缘部署统治力 |
-| [google/gemma-4-26B-A4B-it](https://huggingface.co/google/gemma-4-26B-A4B-it) | google | 816 | 4,502,579 | Gemma-4 MoE 变体，A4B 激活设计适配更多消费级硬件 |
-| [baidu/ERNIE-Image](https://huggingface.co/baidu/ERNIE-Image) | baidu | 571 | 7,800 | 百度文心图像生成模型，Apache-2.0 许可证罕见开源，生态试探意味浓 |
-| [tencent/HY-World-2.0](https://huggingface.co/tencent/HY-World-2.0) | tencent | 610 | 2,969 | 腾讯世界模型 2.0，image-to-3d 任务稀缺性带来高关注度 |
-| [openbmb/VoxCPM2](https://huggingface.co/openbmb/VoxCPM2) | openbmb | 1,240 | 99,542 | 清华 OpenBMB 多语言 TTS，语音合成领域开源标杆，接近 10 万下载 |
-
-### 🔧 专用模型（代码、数学、医疗、嵌入）
-
-| 模型 | 作者 | 点赞 | 下载 | 一句话说明 |
-|:---|:---|---:|---:|:---|
-| [openai/privacy-filter](https://huggingface.co/openai/privacy-filter) | openai | 846 | 35,807 | OpenAI 罕见开源的 token 级隐私过滤工具，PII 检测场景刚需，ONNX 格式便于集成 |
-| [inclusionAI/LLaDA2.0-Uni](https://huggingface.co/inclusionAI/LLaDA2.0-Uni) | inclusionAI | 185 | 346 | 扩散语言模型 any-to-any 统一架构，非主流技术路线，研究价值大于实用 |
-| [z-lab/Qwen3.6-35B-A3B-DFlash](https://huggingface.co/z-lab/Qwen3.6-35B-A3B-DFlash) | z-lab | 164 | 26,760 | 基于 Qwen3.6 MoE 的 DFlash 架构实验，feature-extraction 任务特化 |
-
-### 📦 微调与量化（社区微调、GGUF、AWQ）
-
-| 模型 | 作者 | 点赞 | 下载 | 一句话说明 |
-|:---|:---|---:|---:|:---|
-| [unsloth/Qwen3.6-27B-GGUF](https://huggingface.co/unsloth/Qwen3.6-27B-GGUF) | unsloth | 429 | 553,179 | Unsloth 官方 GGUF 量化，llama.cpp 生态核心基础设施 |
-| [unsloth/Qwen3.6-35B-A3B-GGUF](https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF) | unsloth | 797 | 1,574,581 | **量化版下载冠军**，MoE 模型 GGUF 化突破本地部署瓶颈 |
-| [unsloth/Kimi-K2.6-GGUF](https://huggingface.co/unsloth/Kimi-K2.6-GGUF) | unsloth | 111 | 16,617 | Kimi 系列量化跟进，Unsloth 覆盖头部国产模型的战略体现 |
-| [HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive) | HauhauCS | 456 | 460,832 | 激进去审查社区微调，46 万下载反映特定需求市场 |
-| [HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive) | HauhauCS | 172 | 146,505 | 同系列 27B 版本，vision 标签保留多模态能力，去审查+多模态组合独特 |
-| [hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF](https://huggingface.co/hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF) | hesamation | 190 | 117,163 | 闭源 Claude 推理能力蒸馏至开源 MoE，GGUF 化实现本地高级推理 |
-| [lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled](https://huggingface.co/lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled) | lordx64 | 79 | 48,933 | 4.7 版蒸馏迭代，transformers 格式保留完整精度，适合 GPU 部署 |
-| [OBLITERATUS/gemma-4-E4B-it-OBLITERATED](https://huggingface.co/OBLITERATUS/gemma-4-E4B-it-OBLITERATED) | OBLITERATUS | 514 | 120,432 | Gemma-4 "abliterated" 社区改造，安全对齐移除+GGUF 双格式，争议性高热度 |
-| [Jackrong/Qwopus-GLM-18B-Merged-GGUF](https://huggingface.co/Jackrong/Qwopus-GLM-18B-Merged-GGUF) | Jackrong | 211 | 75,797 | Qwen+GLM "frankenmerge" 实验，18B 规模推理专用，merge 技术社区前沿 |
+### 今日速览  
+本周 Hugging Face Hub 上最引人注目的趋势包括：DeepSeek V4 系列发布 Pro 与 Flash 版本，进一步巩固其在推理效率与性能平衡上的领先地位；Google Gemma-4 多模态大模型持续获得社区高度关注，尤其是 31B 与 26B-A4B 版本下载量激增；Qwen3.6 MoE 架构模型在量化社区中形成生态闭环，GGUF 格式版本广泛传播。同时，Kimi K2.6、GLM-5.1 等 MoE 模型亦表现强劲，显示 MoE 架构已成为高性能开源模型的标配。
 
 ---
 
-## 生态信号
+### 热门模型分类整理
 
-**Qwen3.6 家族**形成最强开源生态矩阵：官方 27B/35B-A3B/FP8 三线并行，Unsloth 提供标准量化基础设施，HauhauCS、hesamation、lordx64 等社区开发者围绕"去审查"和"推理蒸馏"形成衍生层。这种"基础模型→量化适配→能力增强"的三层结构，标志着国产模型首次建立完整开源飞轮。**Gemma-4** 以超千万总下载证明 Google 边缘化战略成功，但社区改造（OBLITERATED）也暴露其安全对齐的脆弱性。闭源蒸馏（Claude-4.x→Qwen）成为新常态，开源权重与闭源能力的边界趋于模糊。FP8/压缩张量/GGUF 多精度并存，反映部署场景极度分化。
+#### 🧠 语言模型（LLM、对话模型、指令微调）
+1. **deepseek-ai/DeepSeek-V4-Pro**  
+   [链接](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro)  
+   作者: deepseek-ai | 点赞: 2,844 | 下载: 123,431  
+   一句话说明：DeepSeek 推出的高端推理模型，支持复杂逻辑与长上下文任务，是本月最受关注的 LLM 之一。
+
+2. **google/gemma-4-31B-it**  
+   [链接](https://huggingface.co/google/gemma-4-31B-it)  
+   作者: google | 点赞: 2,379 | 下载: 6,042,134  
+   一句话说明：Google 新一代 Gemma-4 多模态大模型，具备强推理与视觉理解能力，下载量领跑榜单。
+
+3. **zai-org/GLM-5.1**  
+   [链接](https://huggingface.co/zai-org/GLM-5.1)  
+   作者: zai-org | 点赞: 1,523 | 下载: 230,865  
+   一句话说明：智谱 GLM-5.1 采用 DSA 稀疏激活技术，在保持高效的同时提升知识广度，适合企业级部署。
+
+4. **MiniMaxAI/MiniMax-M2.7**  
+   [链接](https://huggingface.co/MiniMaxAI/MiniMax-M2.7)  
+   作者: MiniMaxAI | 点赞: 1,070 | 下载: 484,595  
+   一句话说明：Minimax 最新对话模型，主打自然流畅的多轮交互体验，适用于客服与内容生成场景。
+
+5. **openai/privacy-filter**  
+   [链接](https://huggingface.co/openai/privacy-filter)  
+   作者: openai | 点赞: 846 | 下载: 35,807  
+   一句话说明：OpenAI 开发的隐私过滤工具，用于检测并移除敏感信息，助力合规部署。
+
+6. **tencent/Hy3-preview**  
+   [链接](https://huggingface.co/tencent/Hy3-preview)  
+   作者: tencent | 点赞: 152 | 下载: 4,064  
+   一句话说明：腾讯混元 Hy3 预览版，支持中文深度理解与多轮对话，探索下一代基座模型能力。
 
 ---
 
-## 值得探索
+#### 🎨 多模态与生成（图像、视频、音频、文本到X）
+1. **moonshotai/Kimi-K2.6**  
+   [链接](https://huggingface.co/moonshotai/Kimi-K2.6)  
+   作者: moonshotai | 点赞: 1,058 | 下载: 376,485  
+   一句话说明：月之暗面 Kimi K2.6 是多模态 MoE 模型，支持图文联合推理，性能对标顶级闭源模型。
 
-1. **[Qwen/Qwen3.6-35B-A3B](https://huggingface.co/Qwen/Qwen3.6-35B-A3B)** — 单周 118 万下载的 MoE 性价比之王，3B 激活参数即可运行，是验证 MoE 架构生产就绪性的最佳样本，建议对比其 FP8 版本评估精度损失。
+2. **Qwen/Qwen3.6-27B**  
+   [链接](https://huggingface.co/Qwen/Qwen/Qwen3.6-27B)  
+   作者: Qwen | 点赞: 856 | 下载: 329,571  
+   一句话说明：通义千问 Qwen3.6 多模态版本，融合视觉与语言理解，支持复杂跨模态问答。
 
-2. **[openai/privacy-filter](https://huggingface.co/openai/privacy-filter)** — OpenAI 罕见开源工具，token 级 PII 检测+ONNX 格式，适合集成至 RAG 流水线或合规审查系统，研究其分类头设计具有工程价值。
+3. **Qwen/Qwen3.6-35B-A3B**  
+   [链接](https://huggingface.co/Qwen/Qwen3.6-35B-A3B)  
+   作者: Qwen | 点赞: 1,430 | 下载: 1,181,968  
+   一句话说明：Qwen3.6 MoE 架构模型，通过动态路由实现高吞吐低延迟推理，适合大规模应用。
 
-3. **[inclusionAI/LLaDA2.0-Uni](https://huggingface.co/inclusionAI/LLaDA2.0-Uni)** — 扩散架构语言模型的 any-to-any 尝试，虽下载量低但技术路线独特，适合关注非自回归生成范式的研究者跟踪。
+4. **tencent/HY-World-2.0**  
+   [链接](https://huggingface.co/tencent/HY-World-2.0)  
+   作者: tencent | 点赞: 610 | 下载: 2,969  
+   一句话说明：腾讯 HY-World 2.0 支持图像到 3D 生成，推动 AIGC 向空间建模延伸。
+
+5. **google/gemma-4-26B-A4B-it**  
+   [链接](https://huggingface.co/google/gemma-4-26B-A4B-it)  
+   作者: google | 点赞: 816 | 下载: 4,502,579  
+   一句话说明：Gemma-4 的 MoE 版本，专为多模态设计，兼顾性能与资源效率。
+
+6. **openbmb/VoxCPM2**  
+   [链接](https://huggingface.co/openbmb/VoxCPM2)  
+   作者: openbmb | 点赞: 1,240 | 下载: 99,542  
+   一句话说明：智源 VoxCPM2 是新一代语音合成模型，支持多语种高质量 TTS，适合本地化部署。
 
 ---
-*本日报由 [agents-radar](https://github.com/duanyytop/agents-radar) 自动生成。*
+
+#### 🔧 专用模型（代码、数学、医疗、嵌入）
+1. **inclusionAI/LLaDA2.0-Uni**  
+   [链接](https://huggingface.co/inclusionAI/LLaDA2.0-Uni)  
+   作者: inclusionAI | 点赞: 185 | 下载: 346  
+   一句话说明：LLaDA 2.0 Uni 支持“任意到任意”输入输出，突破传统模态限制，探索通用智能体潜力。
+
+2. **baidu/ERNIE-Image**  
+   [链接](https://huggingface.co/baidu/ERNIE-Image)  
+   作者: baidu | 点赞: 571 | 下载: 7,800  
+   一句话说明：百度 ERNIE-Image 是 8B 参数文生图模型，基于 Diffusers 框架，支持创意图像生成。
+
+---
+
+#### 📦 微调与量化（社区微调、GGUF、AWQ）
+1. **unsloth/Qwen3.6-35B-A3B-GGUF**  
+   [链接](https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF)  
+   作者: unsloth | 点赞: 797 | 下载: 1,574,581  
+   一句话说明：Unsloth 提供的 Qwen3.6 MoE 量化版本，极大降低显存需求，适合本地运行。
+
+2. **unsloth/Qwen3.6-27B-GGUF**  
+   [链接](https://huggingface.co/unsloth/Qwen3.6-27B-GGUF)  
+   作者: unsloth | 点赞: 429 | 下载: 553,179  
+   一句话说明：同系列 GGUF 格式模型，支持 CPU/GPU 混合部署，社区优化标杆之作。
+
+3. **OBLITERATUS/gemma-4-E4B-it-OBLITERATED**  
+   [链接](https://huggingface.co/OBLITERATUS/gemma-4-E4B-it-OBLITERATED)  
+   作者: OBLITERATUS | 点赞: 514 | 下载: 120,432  
+   一句话说明：“消融审查层”后的 Gemma-4 变体，强调自由表达与去限制化，吸引特定用户群体。
+
+4. **HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive**  
+   [链接](https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive)  
+   作者: HauhauCS | 点赞: 457 | 下载: 460,832  
+   一句话说明：社区发布的无审查 Qwen3.6 MoE 版本，引发关于 AI 伦理与开源边界的讨论。
+
+---
+
+### 生态信号  
+当前模型生态呈现三大趋势：一是 **MoE 架构成为主流**，DeepSeek V4、Qwen3.6-A3B、GLM-5.1 等均采用稀疏专家机制，显著提升推理效率；二是 **多模态融合加速落地**，Google Gemma-4、Moonshot Kimi K2.6 均支持图文联合推理，推动 AI 从文本迈向通用感知与创作；三是 **量化与社区微调生态繁荣**，GGUF、Compressed-Tensors 等格式广泛传播，Unsloth、z-lab 等平台持续优化部署体验。值得注意的是，部分社区项目如“无审查”版本虽带来灵活性，但也引发合规争议，反映开源模型治理的新挑战。
+
+---
+
+### 值得探索  
+1. **google/gemma-4-31B-it**：作为 Google 最新旗舰多模态模型，其开放权重特性与强大推理能力使其成为研究多模态对齐与部署优化的理想选择。  
+2. **unsloth/Qwen3.6-35B-A3B-GGUF**：展示了社区如何将大型 MoE 模型高效量化，为本地部署复杂模型提供成熟路径。  
+3. **inclusionAI/LLaDA2.0-Uni**：其“any-to-any”范式代表了未来 AI 系统的发展方向，值得深入探究其在跨模态任务中的潜力。
+
+---
+*本日报由 [agents-radar](https://github.com/DenisZheng/agents-radar) 自动生成。*

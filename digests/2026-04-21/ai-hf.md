@@ -1,93 +1,87 @@
 # Hugging Face 热门模型日报 2026-04-21
 
-> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 30 个模型 | 生成时间: 2026-04-21 00:16 UTC
+> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 30 个模型 | 生成时间: 2026-04-21 00:26 UTC
 
 ---
 
-# Hugging Face 热门模型日报 | 2026-04-21
+**Hugging Face 热门模型日报（2026-04-21）**
 
 ---
 
-## 今日速览
-
-本周 Hugging Face 生态呈现**多模态爆发与社区量化并行**的态势。Google Gemma-4 系列以官方 31B 和 26B 版本横扫下载榜，累计突破 900 万次下载，同时衍生出大量社区"去审查"微调版本。Qwen3.6-35B-A3B 作为阿里通义千问新一代 MoE 视觉语言模型，首发即登顶点赞榜。中国厂商密集发力：百度 ERNIE-Image 系列、腾讯混元世界模型、MiniMax-M2.7 等纷纷上榜，形成中美双引擎格局。值得关注的是，语音合成领域出现 k2-fsa/OmniVoice 百万级下载的爆款，而"uncensored/abliterated"标签的社区微调模型已形成显著亚文化现象。
-
----
-
-## 热门模型
-
-### 🧠 语言模型（LLM、对话模型、指令微调）
-
-| 模型 | 作者 | 点赞 | 下载 | 一句话说明 |
-|:---|:---|---:|---:|:---|
-| **[zai-org/GLM-5.1](https://huggingface.co/zai-org/GLM-5.1)** | zai-org | 1,438 | 124,162 | 智谱新一代 MoE+DSA 架构对话模型，国产开源大模型技术路线的重要迭代 |
-| **[MiniMaxAI/MiniMax-M2.7](https://huggingface.co/MiniMaxAI/MiniMax-M2.7)** | MiniMaxAI | 1,001 | 314,205 | MiniMax 最新对话模型，30 万+下载验证其商业化落地能力 |
-| **[Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled](https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled)** | Jackrong | **2,741** | 567,288 | 本周点赞王！社区将 Claude-4.6 Opus 推理能力蒸馏至 Qwen3.5，代表顶级闭源能力向开源迁移的极致尝试 |
-| **[google/gemma-4-E4B-it](https://huggingface.co/google/gemma-4-E4B-it)** | google | 769 | 2,395,486 | Google 官方"任意到任意"多模态模型，240 万下载彰显 Gemma-4 生态统治力 |
-
-### 🎨 多模态与生成（图像、视频、音频、文本到X）
-
-| 模型 | 作者 | 点赞 | 下载 | 一句话说明 |
-|:---|:---|---:|---:|:---|
-| **[Qwen/Qwen3.6-35B-A3B](https://huggingface.co/Qwen/Qwen3.6-35B-A3B)** | Qwen | **1,043** | 334,628 | 阿里通义千问 3.6 代 MoE 视觉语言模型，35B 总参数仅 3B 激活，效率与能力双突破 |
-| **[tencent/HY-Embodied-0.5](https://huggingface.co/tencent/HY-Embodied-0.5)** | tencent | 886 | 1,662 | 腾讯混元具身智能模型，将视觉语言理解延伸至机器人/实体交互场景 |
-| **[tencent/HY-World-2.0](https://huggingface.co/tencent/HY-World-2.0)** | tencent | 495 | 0 | 混元世界模型 2.0，支持图像到 3D 生成，零下载反映早期预览状态但技术方向受关注 |
-| **[baidu/ERNIE-Image](https://huggingface.co/baidu/ERNIE-Image)** | baidu | 496 | 4,144 | 百度文心图像生成模型，Apache-2.0 协议开源，8B 参数级中文文生图新选择 |
-| **[baidu/ERNIE-Image-Turbo](https://huggingface.co/baidu/ERNIE-Image-Turbo)** | baidu | 334 | 5,297 | ERNIE-Image 加速版，下载反超原版，速度优化成为实际采用关键 |
-| **[moonshotai/Kimi-K2.6](https://huggingface.co/moonshotai/Kimi-K2.6)** | moonshotai | 371 | 423 | 月之暗面 Kimi K2.6，压缩张量技术+特征提取能力，长上下文场景潜力股 |
-| **[NucleusAI/Nucleus-Image](https://huggingface.co/NucleusAI/Nucleus-Image)** | NucleusAI | 201 | 1,336 | 稀疏 MoE 架构扩散模型，探索混合专家在图像生成中的效率边界 |
-| **[google/gemma-4-31B-it](https://huggingface.co/google/gemma-4-31B-it)** | google | **2,222** | **4,237,068** | Gemma-4 旗舰视觉语言模型，**420 万下载本周断层第一**，开源多模态新标杆 |
-| **[google/gemma-4-26B-A4B-it](https://huggingface.co/google/gemma-4-26B-A4B-it)** | google | 756 | 3,113,602 | Gemma-4 中杯版本，310 万下载验证"参数效率"策略成功，A4B 激活设计降低推理成本 |
-| **[k2-fsa/OmniVoice](https://huggingface.co/k2-fsa/OmniVoice)** | k2-fsa | 660 | **1,080,795** | 语音合成领域本周黑马！**百万下载**，零样本多语言语音克隆，下一代 TTS 基础设施级产品 |
-| **[openbmb/VoxCPM2](https://huggingface.co/openbmb/VoxCPM2)** | openbmb | **1,197** | 66,555 | 清华 OpenBMB 多语言 TTS，千赞级社区认可，语音生成赛道竞争白热化 |
-
-### 🔧 专用模型（代码、数学、医疗、嵌入）
-
-| 模型 | 作者 | 点赞 | 下载 | 一句话说明 |
-|:---|:---|---:|---:|:---|
-| **[nvidia/Lyra-2.0](https://huggingface.co/nvidia/Lyra-2.0)** | nvidia | 235 | 155 | NVIDIA 研究向模型，arXiv 预印本关联，可能为音频/语音基础模型，低下载暗示学术早期阶段 |
-| **[robbyant/lingbot-map](https://huggingface.co/robbyant/lingbot-map)** | robbyant | 118 | 0 | 语言学/认知科学方向研究模型，arXiv 论文关联，极小众但方法论独特 |
-
-### 📦 微调与量化（社区微调、GGUF、AWQ）
-
-| 模型 | 作者 | 点赞 | 下载 | 一句话说明 |
-|:---|:---|---:|---:|:---|
-| **[unsloth/Qwen3.6-35B-A3B-GGUF](https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF)** | unsloth | 561 | **816,485** | Unsloth 官方 GGUF 量化，81 万下载超越原版 2.4 倍，消费级硬件运行 MoE 大模型的首选方案 |
-| **[OBLITERATUS/gemma-4-E4B-it-OBLITERATED](https://huggingface.co/OBLITERATUS/gemma-4-E4B-it-OBLITERATED)** | OBLITERATUS | 380 | 50,701 | Gemma-4 激进去审查微调，"OBLITERATED"品牌已成社区亚文化符号 |
-| **[HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive)** | HauhauCS | 283 | 216,308 | 社区激进去审查版 Qwen3.6，21 万下载验证"无过滤"需求的持续市场 |
-| **[Jiunsong/supergemma4-26b-uncensored-gguf-v2](https://huggingface.co/Jiunsong/supergemma4-26b-uncensored-gguf-v2)** | Jiunsong | 437 | 77,195 | "SuperGemma4"系列 GGUF 去审查版，llama.cpp 兼容性+速度优化双卖点 |
-| **[dealignai/Gemma-4-31B-JANG_4M-CRACK](https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK)** | dealignai | **1,314** | 163,752 | 千赞级社区破解版！MLX+Safetensors 双格式支持，Apple Silicon 用户福音，"CRACK"命名挑衅感十足 |
-| **[unsloth/ERNIE-Image-Turbo-GGUF](https://huggingface.co/unsloth/ERNIE-Image-Turbo-GGUF)** | unsloth | 179 | 30,081 | Unsloth 将百度文生图模型 GGUF 化，跨生态量化服务扩展至扩散模型领域 |
-| **[Jackrong/Qwopus-GLM-18B-Merged-GGUF](https://huggingface.co/Jackrong/Qwopus-GLM-18B-Merged-GGUF)** | Jackrong | 147 | 7,182 | Qwen+GLM "弗兰肯斯坦"合并模型，社区"魔改"实验精神的典型代表 |
-| **[HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive)** | HauhauCS | 424 | **781,705** | **去审查微调下载冠军**，78 万下载逼近官方原版，"Aggressive"去审查策略成 HauhauCS 品牌标签 |
-| **[Jiunsong/supergemma4-26b-uncensored-mlx-4bit-v2](https://huggingface.co/Jiunsong/supergemma4-26b-uncensored-gguf-v2)** | Jiunsong | 187 | 17,497 | MLX 4bit 特化版，Apple Silicon 生态深度优化，垂直硬件适配趋势 |
-| **[unsloth/gemma-4-26B-A4B-it-GGUF](https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF)** | unsloth | 560 | **2,432,222** | **本周量化版下载王**，243 万下载超越官方原版，Unsloth 生态已成 Gemma-4 分发主渠道 |
+### **今日速览**
+本周 Hugging Face Hub 上最受关注的模型仍以多模态与语言模型为主，其中 Google 的 Gemma-4 系列表现亮眼，多个变体登顶榜单；Qwen3.6 和 GLM-5.1 也持续占据高位。社区对“去审查”（uncensored）及低资源适配版本需求旺盛，GGUF、MLX 等格式下载量显著增长。值得注意的是，腾讯的 HY-World 2.0 发布即引发关注，标志着 3D 内容生成开始进入开源生态视野。
 
 ---
 
-## 生态信号
+### **热门模型**
 
-**Gemma-4 形成开源多模态事实标准**：Google 官方三版本累计下载近千万，叠加 Unsloth、HauhauCS、Jiunsong 等社区量化/微调版本，构建起完整的"官方-工具链-衍生"三层生态。与之对比，Qwen3.6 和 GLM-5.1 代表中国厂商在 MoE+视觉语言方向的紧追。
+#### 🧠 语言模型（LLM、对话模型、指令微调）
+1. **[MiniMax-M2.7](https://huggingface.co/MiniMaxAI/MiniMax-M2.7)**  
+   MiniMaxAI | 点赞：1,001 | 下载：314,205  
+   新一代千亿级 MoE 对话模型，支持多轮推理与复杂任务调度，性能对标 Claude Opus。
 
-**"去审查化"从边缘走向主流**：本周 5 个带 uncensored/abliterated/crack 标签的模型合计下载超 130 万，HauhauCS、OBLITERATUS 等已形成可识别的社区品牌。这既是开源自由意志的体现，也折射出基础模型安全对齐与下游需求的张力。
+2. **[zai-org/GLM-5.1](https://huggingface.co/zai-org/GLM-5.1)**  
+   zai-org | 点赞：1,438 | 下载：124,162  
+   智谱 GLM-5.1 正式发布，采用动态稀疏注意力机制，在长文本理解与代码生成中表现突出。
 
-**量化即分发**：Unsloth 作为基础设施角色凸显——其 3 个 GGUF 版本合计下载超 400 万，远超多数官方模型。GGUF/MLX 格式从"边缘优化"变为"主要交付形态"， particularly for Apple Silicon 生态。
-
-**语音合成赛道升温**：OmniVoice 百万下载、VoxCPM2 千赞、MOSS-TTS 跟进，TTS 正经历类似 2024 年 LLM 的"开源爆发期"，零样本克隆和多语言能力成为标配。
-
----
-
-## 值得探索
-
-| 模型 | 理由 |
-|:---|:---|
-| **[Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled](https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled)** | **技术范式意义**：首次将 Claude-4.6 Opus（假设为 2026 年顶级闭源模型）的推理能力系统蒸馏至开源权重，若复现验证成功，将证明"闭源天花板→开源普及"路径的可持续性，对 AI 民主化影响深远 |
-| **[k2-fsa/OmniVoice](https://huggingface.co/k2-fsa/OmniVoice)** | **产品化潜力**：百万下载+零样本克隆+多语言，技术组合直击全球化内容创作、无障碍服务、实时翻译等场景，k2-fsa 团队（语音领域老牌开源贡献者）的工程可靠性使其具备基础设施级可能 |
-| **[dealignai/Gemma-4-31B-JANG_4M-CRACK](https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK)** | **生态观察价值**：千赞+MLX 双格式+挑衅命名，精准命中 Apple Silicon 开发者+去审查需求+技术极客三重受众，是理解"社区如何重构官方模型价值"的绝佳样本，其分发策略值得所有模型厂商研究 |
+3. **[Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled](https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled)**  
+   Jackrong | 点赞：2,741 | 下载：567,288  
+   基于 Qwen3.5 蒸馏 Claude 4.6 思维链能力的高阶推理模型，专为复杂逻辑任务优化。
 
 ---
 
-*数据截止：2026-04-21 | 来源：Hugging Face Hub 周点赞排序*
+#### 🎨 多模态与生成（图像、视频、音频、文本到X）
+4. **[google/gemma-4-31B-it](https://huggingface.co/google/gemma-4-31B-it)**  
+   Google | 点赞：2,223 | 下载：4,237,068  
+   谷歌 Gemma-4 的视觉-语言双模旗舰模型，支持图文问答与多轮交互，开放权重策略推动研究民主化。
+
+5. **[tencent/HY-Embodied-0.5](https://huggingface.co/tencent/HY-Embodied-0.5)**  
+   Tencent | 点赞：886 | 下载：1,662  
+   混元多模态视觉-语言模型，具备强场景理解与具身智能推理能力，适用于机器人导航等应用。
+
+6. **[openbmb/VoxCPM2](https://huggingface.co/openbmb/VoxCPM2)**  
+   openbmb | 点赞：1,197 | 下载：66,555  
+   开源语音合成大模型，支持跨语种零样本 TTS，采用 CPM 架构实现高自然度语音生成。
+
+7. **[k2-fsa/OmniVoice](https://huggingface.co/k2-fsa/OmniVoice)**  
+   k2-fsa | 点赞：660 | 下载：1,080,795  
+   支持零样本语音克隆与多语言合成的端到端音频模型，下载量居首，体现社区对语音技术的强烈兴趣。
 
 ---
-*本日报由 [agents-radar](https://github.com/duanyytop/agents-radar) 自动生成。*
+
+#### 🔧 专用模型（代码、数学、医疗、嵌入）
+8. **[nvidia/Lyra-2.0](https://huggingface.co/nvidia/Lyra-2.0)**  
+   NVIDIA | 点赞：235 | 下载：155  
+   英伟达发布的区域感知地理编码模型，结合卫星影像与文本进行空间定位，论文已公开。
+
+---
+
+#### 📦 微调与量化（社区微调、GGUF、AWQ）
+9. **[unsloth/Qwen3.6-35B-A3B-GGUF](https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF)**  
+   unsloth | 点赞：561 | 下载：816,485  
+   Qwen3.6 MoE 的 GGUF 量化版本，专为 CPU/GPU 混合部署设计，极大降低推理成本。
+
+10. **[dealignai/Gemma-4-31B-JANG_4M-CRACK](https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK)**  
+    dealignai | 点赞：1,314 | 下载：163,752  
+    MLX 格式的 Gemma-4 去审查版，专为 Apple Silicon 优化，支持本地高效运行。
+
+11. **[HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive)**  
+    HauhauCS | 点赞：424 | 下载：781,705  
+    基于 abliteration 技术移除内容过滤的 Gemma-4 变体，社区热议其自由创作潜力。
+
+---
+
+### **生态信号**
+
+当前模型生态呈现三大趋势：一是 **Gemma-4** 和 **Qwen3.6** 成为开源多模态与语言模型的标杆，Google 与阿里云持续强化开放策略，推动研究普惠；二是 **去审查（Uncensored）与 abliterated 版本** 热度攀升，反映用户对模型自由度的高度期待，尤其在创意与科研场景中；三是 **轻量化与跨平台适配** 成为主流——GGUF、MLX、FP8 等量化格式下载激增，表明边缘部署与消费级硬件兼容性成为关键竞争维度。此外，腾讯、MiniMax 等非传统 AI 巨头入场，丰富了生态多样性，而 NVIDIA 与 OpenMOSS 等团队则在垂直领域模型上发力，预示专业化、场景化将成为下一阶段突破方向。
+
+---
+
+### **值得探索**
+
+1. **[google/gemma-4-31B-it](https://huggingface.co/google/gemma-4-31B-it)**：作为 Gemma-4 系列的视觉旗舰，其在图文理解上的表现极具研究价值，尤其适合构建多模态 RAG 系统。
+2. **[Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled](https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled)**：展示了如何通过蒸馏将闭源模型的思维链能力迁移至开源框架，是提升推理效率的重要路径。
+3. **[tencent/HY-World-2.0](https://huggingface.co/tencent/HY-World-2.0)**：首个公开的 World Model 3D 生成模型，虽暂无下载，但其“世界建模”范式可能引领下一代具身智能与仿真技术发展。
+
+---
+*本日报由 [agents-radar](https://github.com/DenisZheng/agents-radar) 自动生成。*

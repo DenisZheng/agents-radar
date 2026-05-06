@@ -1,86 +1,70 @@
 # Hugging Face Trending Models Digest 2026-04-26
 
-> Source: [Hugging Face Hub](https://huggingface.co/) | 30 models | Generated: 2026-04-26 00:15 UTC
+> Source: [Hugging Face Hub](https://huggingface.co/) | 30 models | Generated: 2026-04-26 00:27 UTC
 
 ---
 
-# Hugging Face Trending Models Digest — April 26, 2026
+Of course. Here is the structured Hugging Face Trending Models Digest.
+
+***
+
+### 1. **Today's Highlights**
+
+The landscape for April 26, 2026, is defined by a clear split between foundational models and their highly specialized derivatives. DeepSeek's V4 series continues its dominance with two new entries, while Google's Gemma 4 family gains significant traction. The most notable trend is the explosion of community-driven, uncensored fine-tunes based on Qwen3.6, indicating strong demand for open-weight, customizable AI. Furthermore, the ecosystem is seeing a surge in specialized tools, including OpenAI's `privacy-filter` for data sanitization and Tencent's `HY-World-2.0` for image-to-3D generation, showing a push towards more focused, production-ready applications.
+
+***
+
+### 2. **Trending Models**
+
+#### 🧠 Language Models (LLMs, chat models, instruction-tuned)
+
+*   **[deepseek-ai/DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro)** by deepseek-ai | Likes: 2,685 | Downloads: 78,864
+    This flagship model from DeepSeek remains the most popular, offering top-tier performance in text generation and conversation.
+*   **[zai-org/GLM-5.1](https://huggingface.co/zai-org/GLM-5.1)** by zai-org | Likes: 1,514 | Downloads: 217,889
+    A powerful MoE language model from Zhipu AI, this model is gaining significant popularity for its conversational and reasoning capabilities.
+*   **[google/gemma-4-31B-it](https://huggingface.co/google/gemma-4-31B-it)** by google | Likes: 2,359 | Downloads: 5,770,677
+    A large-scale, high-performance instruction-tuned multimodal model from Google, demonstrating massive download numbers and strong community interest.
+*   **[openai/privacy-filter](https://huggingface.co/openai/privacy-filter)** by openai | Likes: 749 | Downloads: 21,097
+    An essential tool for responsible AI development, this pipeline is designed to detect and filter sensitive information in text, addressing a critical need for data privacy.
+
+#### 🎨 Multimodal & Generation (image, video, audio, text-to-X)
+
+*   **[moonshotai/Kimi-K2.6](https://huggingface.co/moonshotai/Kimi-K2.6)** by moonshotai | Likes: 1,026 | Downloads: 291,840
+    Kimi K2.6 represents a major leap in multimodal understanding, capable of processing both images and text, making it a powerful tool for complex analysis tasks.
+*   **[Qwen/Qwen3.6-35B-A3B](https://huggingface.co/Qwen/Qwen3.6-35B-A3B)** by Qwen | Likes: 1,404 | Downloads: 1,027,741
+    This Mixture-of-Experts (MoE) multimodal model from Alibaba's Qwen team delivers exceptional performance and efficiency, driving both likes and downloads.
+*   **[tencent/HY-World-2.0](https://huggingface.co/tencent/HY-World-2.0)** by tencent | Likes: 602 | Downloads: 2,851
+    This is a cutting-edge model for generating 3D content directly from 2D images, pushing the boundaries of content creation and digital asset generation.
+*   **[openbmb/VoxCPM2](https://huggingface.co/openbmb/VoxCPM2)** by openbmb | Likes: 1,234 | Downloads: 97,967
+    A state-of-the-art text-to-speech model that excels at generating natural-sounding, multilingual speech, showcasing advancements in audio AI.
+
+#### 🔧 Specialized Models (code, math, medical, embeddings)
+
+*   **[nvidia/Lyra-2.0](https://huggingface.co/nvidia/Lyra-2.0)** by nvidia | Likes: 272 | Downloads: 540
+    Lyra 2.0 is a specialized model for converting 2D images into 3D representations, a niche but rapidly growing area in computer vision and graphics.
+
+#### 📦 Fine-tunes & Quantizations (community fine-tunes, GGUF, AWQ)
+
+*   **[unsloth/Qwen3.6-35B-A3B-GGUF](https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF)** by unsloth | Likes: 763 | Downloads: 1,488,984
+    This GGUF-quantized version of the Qwen3.6-35B-A3B model makes it accessible for deployment on consumer-grade hardware, driving massive downloads.
+*   **[HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive)** by HauhauCS | Likes: 429 | Downloads: 418,743
+    A popular community fine-tune that removes content filters from the Qwen3.6-35B-A3B model, catering to users seeking an uncensored experience.
+*   **[OBLITERATUS/gemma-4-E4B-it-OBLITERATED](https://huggingface.co/OBLITERATUS/gemma-4-E4B-it-OBLITERATED)** by OBLITERATUS | Likes: 503 | Downloads: 110,832
+    An "abliterated" version of Google's Gemma 4 model, which has had its safety mechanisms removed, reflecting a trend in the community towards unfiltered models.
+
+***
+
+### 3. **Ecosystem Signal**
+
+The Hugging Face ecosystem as of April 26th, 2026, reveals several key trends. First, the **DeepSeek and Qwen families** are dominating the leaderboard, indicating a strong shift away from older giants like Llama and Mistral. While proprietary models from companies like Google and OpenAI remain highly downloaded, the sheer volume of likes for open-weight models suggests a vibrant community valuing transparency and customizability. A defining feature is the explosion of **community-driven fine-tuning and quantization**. Models like the Qwen3.6 and Gemma 4 variants show that users are not just downloading base models but actively creating specialized versions for specific needs—be it uncensored outputs or optimized for local inference via GGUF. The presence of specialized tools like OpenAI's `privacy-filter` and Tencent's 3D generation models also points to the ecosystem maturing beyond pure language models into a platform for building end-to-end AI pipelines.
+
+***
+
+### 4. **Worth Exploring**
+
+1.  **deepseek-ai/DeepSeek-V4-Pro**: As the top model, it sets the benchmark for performance. Studying its architecture and capabilities provides insight into the latest advances in language modeling and can serve as a baseline for comparison with other models.
+2.  **google/gemma-4-31B-it**: Its combination of being a large, high-quality model from a reputable company and its massive download count makes it a prime candidate for research and experimentation. It's a great example of a foundational model with wide applicability.
+3.  **HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive**: This uncensored variant is a fascinating case study in community dynamics and model manipulation. Understanding how these models are created and used can provide valuable insights into the challenges and possibilities of model customization, as well as the ethical considerations surrounding content filtering.
 
 ---
-
-## 1. Today's Highlights
-
-**Google's Gemma 4 dominates downloads** with [google/gemma-4-31B-it](https://huggingface.co/google/gemma-4-31B-it) reaching 5.77M downloads, signaling strong enterprise adoption of open-weight multimodal models. **DeepSeek's V4 family** captures developer attention with both Pro and Flash variants trending, while **Qwen 3.6** emerges as the most actively forked and quantized ecosystem with multiple community derivatives. Notably, **3D world models** from Tencent and NVIDIA represent a growing frontier beyond text and image generation. The community continues aggressive uncensoring and merging activity, particularly around Qwen and Gemma architectures.
-
----
-
-## 2. Trending Models
-
-### 🧠 Language Models (LLMs, chat models, instruction-tuned)
-
-| Model | Author | Likes | Downloads | Why It's Trending |
-|-------|--------|-------|-----------|-------------------|
-| [deepseek-ai/DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro) | deepseek-ai | 2,684 | 78,864 | Flagship reasoning model with strong performance on complex instruction following and coding tasks. |
-| [deepseek-ai/DeepSeek-V4-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash) | deepseek-ai | 685 | 25,391 | MIT-licensed efficient variant balancing speed and capability for production deployments. |
-| [zai-org/GLM-5.1](https://huggingface.co/zai-org/GLM-5.1) | zai-org | 1,514 | 217,889 | Next-generation GLM with MoE-DSA architecture, gaining traction as a strong alternative to Qwen/DeepSeek. |
-| [MiniMaxAI/MiniMax-M2.7](https://huggingface.co/MiniMaxAI/MiniMax-M2.7) | MiniMaxAI | 1,066 | 477,205 | Chinese-developed conversational model with competitive multilingual performance. |
-| [tencent/Hy3-preview](https://huggingface.co/tencent/Hy3-preview) | tencent | 143 | 2,982 | Preview of Tencent's Hy3 architecture, showing early promise in long-context handling. |
-
-### 🎨 Multimodal & Generation (image, video, audio, text-to-X)
-
-| Model | Author | Likes | Downloads | Why It's Trending |
-|-------|--------|-------|-----------|-------------------|
-| [moonshotai/Kimi-K2.6](https://huggingface.co/moonshotai/Kimi-K2.6) | moonshotai | 1,025 | 291,840 | Advanced image-text-to-text model from Moonshot AI with strong visual reasoning capabilities. |
-| [Qwen/Qwen3.6-27B](https://huggingface.co/Qwen/Qwen3.6-27B) | Qwen | 813 | 257,685 | Compact yet capable multimodal model handling vision-language tasks with efficient inference. |
-| [Qwen/Qwen3.6-35B-A3B](https://huggingface.co/Qwen/Qwen3.6-35B-A3B) | Qwen | 1,404 | 1,027,741 | MoE-activated multimodal powerhouse with 35B total/3B active parameters, driving massive adoption. |
-| [google/gemma-4-31B-it](https://huggingface.co/google/gemma-4-31B-it) | google | 2,359 | 5,770,677 | Google's most downloaded open multimodal model, setting the standard for vision-language integration. |
-| [openbmb/VoxCPM2](https://huggingface.co/openbmb/VoxCPM2) | openbmb | 1,234 | 97,967 | High-quality multilingual text-to-speech model with natural prosody and voice cloning. |
-| [baidu/ERNIE-Image](https://huggingface.co/baidu/ERNIE-Image) | baidu | 563 | 7,517 | Apache 2.0 licensed 8B parameter text-to-image model from Baidu's ERNIE ecosystem. |
-| [tencent/HY-World-2.0](https://huggingface.co/tencent/HY-World-2.0) | tencent | 602 | 2,851 | World model generating interactive 3D environments from single images, pushing embodied AI forward. |
-| [nvidia/Lyra-2.0](https://huggingface.co/nvidia/Lyra-2.0) | nvidia | 272 | 540 | NVIDIA's research-grade image-to-3D model for neural scene reconstruction and simulation. |
-
-### 🔧 Specialized Models (code, math, medical, embeddings)
-
-| Model | Author | Likes | Downloads | Why It's Trending |
-|-------|--------|-------|-----------|-------------------|
-| [openai/privacy-filter](https://huggingface.co/openai/privacy-filter) | openai | 749 | 21,097 | Production-grade PII detection and redaction from OpenAI, addressing enterprise compliance needs. |
-| [inclusionAI/LLaDA2.0-Uni](https://huggingface.co/inclusionAI/LLaDA2.0-Uni) | inclusionAI | 176 | 281 | Ambitious any-to-any modality model with MoE architecture for unified multimodal understanding. |
-| [z-lab/Qwen3.6-35B-A3B-DFlash](https://huggingface.co/z-lab/Qwen3.6-35B-A3B-DFlash) | z-lab | 151 | 25,059 | Optimized feature extraction variant of Qwen MoE for embedding and retrieval workloads. |
-
-### 📦 Fine-tunes & Quantizations (community fine-tunes, GGUF, AWQ)
-
-| Model | Author | Likes | Downloads | Why It's Trending |
-|-------|--------|-------|-----------|-------------------|
-| [unsloth/Qwen3.6-27B-GGUF](https://huggingface.co/unsloth/Qwen3.6-27B-GGUF) | unsloth | 404 | 458,273 | Efficiently quantized 27B multimodal model for local LLM inference via llama.cpp. |
-| [unsloth/Qwen3.6-35B-A3B-GGUF](https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF) | unsloth | 763 | 1,488,984 | Most-downloaded quantization this week—MoE efficiency meets consumer GPU accessibility. |
-| [HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive) | HauhauCS | 429 | 418,743 | Aggressively uncensored MoE variant with vision support, controversial but heavily downloaded. |
-| [OBLITERATUS/gemma-4-E4B-it-OBLITERATED](https://huggingface.co/OBLITERATUS/gemma-4-E4B-it-OBLITERATED) | OBLITERATUS | 503 | 110,832 | Abliterated Gemma 4 fine-tune removing safety alignments, part of growing "uncensored" movement. |
-| [hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF](https://huggingface.co/hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF) | hesamation | 181 | 104,757 | Knowledge-distilled reasoning model claiming Claude 4.6-level performance in quantized form. |
-| [Jackrong/Qwopus-GLM-18B-Merged-GGUF](https://huggingface.co/Jackrong/Qwopus-GLM-18B-Merged-GGUF) | Jackrong | 204 | 73,177 | Creative "frankenmerge" combining Qwen and GLM architectures for novel capability blends. |
-| [HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive) | HauhauCS | 157 | 110,101 | Smaller uncensored multimodal option for users prioritizing uncensored vision-language interaction. |
-| [unsloth/Kimi-K2.6-GGUF](https://huggingface.co/unsloth/Kimi-K2.6-GGUF) | unsloth | 105 | 11,582 | Early quantization of Moonshot's multimodal model, expanding local inference options. |
-
----
-
-## 3. Ecosystem Signal
-
-**Qwen has become the dominant open-weight ecosystem**, with Alibaba's 3.6 generation spawning an unprecedented wave of community derivatives—uncensored variants, distillations, merges, and multiple quantization formats. This mirrors Llama's 2023-2024 trajectory but with faster iteration and stronger multimodal integration. **DeepSeek V4** and **Google Gemma 4** represent the other poles: DeepSeek for cutting-edge Chinese research efficiency, Gemma for proven enterprise scale with nearly 6M downloads on the 31B variant alone.
-
-The quantization landscape is consolidating around **Unsloth** as the trusted converter, with their Qwen 35B-A3B GGUF approaching 1.5M downloads—evidence that MoE architectures are finally viable for consumer hardware. The "uncensored" and "abliterated" movement remains persistent, with HauhauCS and OBLITERATUS consistently trending, raising ongoing safety questions.
-
-A notable shift is the **emergence of world models and 3D generation** (Tencent HY-World, NVIDIA Lyra) as distinct from traditional multimodal, suggesting the next frontier beyond static images. Meanwhile, **OpenAI's presence on HF Hub** via specialized tools like privacy-filter indicates even proprietary labs see value in open distribution for infrastructure components.
-
----
-
-## 4. Worth Exploring
-
-**[google/gemma-4-31B-it](https://huggingface.co/google/gemma-4-31B-it)** — With 5.77M downloads and strong multimodal performance, this is the most battle-tested open vision-language model for production. Its conversational capabilities and Google-scale infrastructure support make it the safest enterprise choice currently trending.
-
-**[unsloth/Qwen3.6-35B-A3B-GGUF](https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF)** — The efficiency breakthrough here is remarkable: 35B parameters with only 3B active, runnable on consumer GPUs with 1.5M downloads proving real-world viability. Ideal for developers needing large model capability without cloud API dependencies.
-
-**[tencent/HY-World-2.0](https://huggingface.co/tencent/HY-World-2.0)** — While nascent (2,851 downloads), this represents a genuine architectural frontier. For researchers and builders in embodied AI, robotics, or simulation, early experimentation with image-to-3D world models could yield significant first-mover advantages as the space matures.
-
----
-
----
-*This digest is auto-generated by [agents-radar](https://github.com/duanyytop/agents-radar).*
+*This digest is auto-generated by [agents-radar](https://github.com/DenisZheng/agents-radar).*

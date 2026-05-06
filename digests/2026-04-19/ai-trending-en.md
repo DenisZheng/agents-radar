@@ -1,114 +1,80 @@
 # AI Open Source Trends 2026-04-19
 
-> Sources: GitHub Trending + GitHub Search API | Generated: 2026-04-19 00:13 UTC
+> Sources: GitHub Trending + GitHub Search API | Generated: 2026-04-19 00:25 UTC
 
 ---
 
-# AI Open Source Trends Report — 2026-04-19
+**AI Open Source Trends Report — April 19, 2026**
 
 ---
 
-## 1. Today's Highlights
+### 1. **Today's Highlights**
 
-Today's GitHub trending reveals explosive momentum around **AI agent self-evolution** and **developer tooling autonomy**. EvoMap's `evolver` shattered daily growth records with 1,131 new stars, introducing the Genome Evolution Protocol (GEP) for agent self-improvement—a paradigm shift beyond static agent frameworks. OpenAI's `openai-agents-python` and `omi`'s ambient AI assistant (screen-aware, conversation-listening) signal mainstream readiness for always-on agent experiences. Meanwhile, the China-education vertical shows remarkable traction with `dive-into-llms` gaining 547 stars, reflecting global demand for hands-on LLM literacy. The convergence of **agent harnesses**, **evolutionary architectures**, and **ambient intelligence** marks this as a pivotal inflection point.
-
----
-
-## 2. Top Projects by Category
-
-### 🔧 AI Infrastructure
-
-| Project | Stars | Why It Matters Today |
-|--------|-------|----------------------|
-| [ollama/ollama](https://github.com/ollama/ollama) | 169,365 | Universal local inference engine now supporting Kimi-K2.5, GLM-5, MiniMax, DeepSeek—consolidating China's model ecosystem into one CLI |
-| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 77,223 | Production inference engine; PagedAttention remains the throughput benchmark for serving |
-| [deepseek-ai/DeepGEMM](https://github.com/deepseek-ai/DeepGEMM) | +31 today | Clean FP8 GEMM kernels with fine-grained scaling—DeepSeek's efficiency secrets open-sourced |
-| [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | +470 today | Lightweight multi-agent framework from OpenAI; signals official endorsement of agent orchestration patterns |
-| [0xPlaygrounds/rig](https://github.com/0xPlaygrounds/rig) | 6,958 | Rust-native LLM application builder—systems language reclaiming infrastructure territory from Python |
-
-### 🤖 AI Agents / Workflows
-
-| Project | Stars | Why It Matters Today |
-|--------|-------|----------------------|
-| [EvoMap/evolver](https://github.com/EvoMap/evolver) | +1,131 today | **GEP-Powered Self-Evolution Engine**—agents that mutate, select, and improve their own genomes. Highest daily growth in dataset |
-| [BasedHardware/omi](https://github.com/BasedHardware/omi) | +609 today | Ambient AI: screen-aware + conversation-listening proactive assistant. Hardware-software integration breakthrough |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 99,420 | "The agent that grows with you"—persistent, evolving personal agent from decentralized AI research collective |
-| [browser-use/browser-use](https://github.com/browser-use/browser-use) | 88,440 | Web automation primitive for agents; becoming the "Selenium for AI agents" standard |
-| [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 54,631 | "Bash is all you need"—nano agent harness proving minimal viable agent architecture |
-| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 40,007 | Ultra-lightweight personal AI agent—efficiency frontier for resource-constrained deployments |
-| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 71,452 | AI-driven software development; "vibe coding" productionization |
-
-### 📦 AI Applications
-
-| Project | Stars | Why It Matters Today |
-|--------|-------|----------------------|
-| [thunderbird/thunderbolt](https://github.com/thunderbird/thunderbolt) | +447 today | **"AI You Control"**—model-agnostic, data-sovereign AI from Mozilla ecosystem. Anti-vendor-lockin positioning |
-| [langgenius/dify](https://github.com/langgenius/dify) | 138,260 | Production agentic workflow platform; enterprise deployment standard |
-| [open-webui/open-webui](https://github.com/open-webui/open-webui) | 132,561 | Self-hosted ChatGPT alternative; privacy-first UI layer |
-| [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 43,789 | 300+ assistants, unified frontier LLM access—"AI productivity studio" vertical |
-| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 43,471 | Chinese super-AI assistant with WeChat/Feishu/DingTalk integration; enterprise digital employee platform |
-| [saturndec/waoowaoo](https://github.com/saturndec/waoowaoo) | 11,488 | Industry-first AI film/video production platform—Hollywood-standard workflows, controllable generation |
-
-### 🧠 LLMs / Training
-
-| Project | Stars | Why It Matters Today |
-|--------|-------|----------------------|
-| [huggingface/transformers](https://github.com/huggingface/transformers) | 159,579 | The model-definition framework; universal substrate for multimodal AI |
-| [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | 91,044 | Educational gold standard; PyTorch-native ChatGPT replication |
-| [Lordog/dive-into-llms](https://github.com/Lordog/dive-into-llms) | +547 today | Chinese hands-on LLM tutorial series—massive daily growth signals global education demand |
-| [skyzh/tiny-llm](https://github.com/skyzh/tiny-llm) | 4,098 | Apple Silicon-optimized inference course; edge deployment literacy |
-| [genieincodebottle/generative-ai](https://github.com/genieincodebottle/generative-ai) | 2,221 | Comprehensive GenAI roadmap with interview/coding prep—career transition resource |
-
-### 🔍 RAG / Knowledge
-
-| Project | Stars | Why It Matters Today |
-|--------|-------|----------------------|
-| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | 78,442 | Leading open-source RAG engine fusing retrieval with agent capabilities |
-| [mem0ai/mem0](https://github.com/mem0ai/mem0) | 53,441 | Universal memory layer for AI agents—persistence primitive |
-| [milvus-io/milvus](https://github.com/milvus-io/milvus) | 43,853 | Cloud-native vector database; scalable ANN search infrastructure |
-| [qdrant/qdrant](https://github.com/qdrant/qdrant) | 30,419 | High-performance vector search; hybrid cloud/self-hosted deployment |
-| [topoteretes/cognee](https://github.com/topoteretes/cognee) | 16,364 | Knowledge engine for agent memory in 6 lines—radical simplicity |
-| [yichuan-w/LEANN](https://github.com/yichuan-w/LEANN) | 10,833 | 97% storage savings for on-device RAG—privacy-preserving retrieval |
+Today’s trending list reveals a surge in agentic AI tools that directly integrate with user workflows—particularly those enabling AI to observe and act on screen content or automate browser-based tasks. Thunderbolt and Omi exemplify this shift toward “AI that sees your screen,” while OpenAI’s new `agents-python` framework signals growing institutional investment in multi-agent orchestration. Simultaneously, self-evolving agent engines like Evolver are gaining traction, reflecting interest in autonomous AI lifecycle management.
 
 ---
 
-## 3. Trend Signal Analysis
+### 2. **Top Projects by Category**
 
-**Explosive Category: Self-Evolving Agent Architectures**
+#### 🔧 AI Infrastructure
+- **[ollama/ollama](https://github.com/ollama/ollama)** ⭐169,365 (+0 today)  
+  A lightweight local LLM runtime supporting Kimi-K2.5, DeepSeek, Gemma, and others—enabling instant deployment of frontier models without cloud dependency.
+- **[vllm-project/vllm](https://github.com/vllm-project/vllm)** ⭐77,224 (+0 today)  
+  High-throughput inference engine optimized for low-latency LLM serving, critical for scaling production agent systems.
+- **[openai/openai-agents-python](https://github.com/openai/openai-agents-python)** ⭐0 (+470 today)  
+  OpenAI’s official lightweight framework for building and composing multi-agent workflows, now publicly available as a standalone package.
 
-The most striking signal is `evolver`'s 1,131 daily stars—nearly 2× the next fastest-growing project. This validates **Genome Evolution Protocol (GEP)** as a credible next paradigm beyond static agent frameworks (ReAct, Plan-and-Execute). Rather than hand-designing agent behaviors, GEP treats agent capabilities as evolvable genomes, applying selection pressure for task performance. This connects to broader industry fatigue with brittle prompt engineering and emergent interest in **agentic metacognition**.
+#### 🤖 AI Agents / Workflows
+- **[EvoMap/evolver](https://github.com/EvoMap/evolver)** ⭐0 (+1,131 today)  
+  Self-evolving AI agent engine powered by Genome Evolution Protocol (GEP), allowing agents to autonomously improve their capabilities over time.
+- **[browser-use/browser-use](https://github.com/browser-use/browser-use)** ⭐88,441 (+0 today)  
+  Python library for automating web interactions with LLMs—enables agents to browse, extract, and act on online content seamlessly.
+- **[OpenHands/OpenHands](https://github.com/OpenHands/OpenHands)** ⭐71,453 (+0 today)  
+  Full-stack AI-driven development environment where agents write, test, and deploy code autonomously using natural language instructions.
 
-**Emerging Tech Stack: Agent Harnesses & Minimal Tooling**
+#### 📦 AI Applications
+- **[BasedHardware/omi](https://github.com/BasedHardware/omi)** ⭐0 (+609 today)  
+  Dart-based desktop app that lets an AI observe your screen, listen to conversations, and proactively suggest actions—blurring the line between assistant and operating system.
+- **[aaddrick/claude-desktop-debian](https://github.com/aaddrick/claude-desktop-debian)** ⭐0 (+44 today)  
+  Community-maintained Debian port of Claude Desktop, extending accessibility for Linux users leveraging AI coding assistants.
+- **[SimoneAvogadro/android-reverse-engineering-skill](https://github.com/SimoneAvogadro/android-reverse-engineering-skill)** ⭐0 (+403 today)  
+  Specialized skill module for Claude Code that enables Android app reverse engineering—showcasing how agent ecosystems are modularizing domain-specific capabilities.
 
-The `learn-claude-code` (54,631 stars) and `everything-claude-code` (160,425 stars) phenomenon reveals a developer preference for **minimal, bash-native agent interfaces** over bloated IDEs. The "agent harness" pattern—lightweight wrappers that augment existing CLIs—is displacing integrated environments. This coincides with Claude Code's market penetration and Codex CLI's release, suggesting developers want AI *inside* their existing workflows, not separate applications.
+#### 🧠 LLMs / Training
+- **[deepseek-ai/DeepGEMM](https://github.com/deepseek-ai/DeepGEMM)** ⭐0 (+31 today)  
+  Optimized FP8 GEMM kernels with fine-grained scaling from DeepSeek—critical for efficient training/inference of next-gen LLMs on consumer hardware.
+- **[rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)** ⭐91,044 (+547 today)  
+  Hands-on Jupyter tutorial series teaching how to build LLMs from scratch in PyTorch—popular among educators and self-learners amid rising LLM literacy demand.
+- **[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)** ⭐194,779 (+0 today)  
+  Still dominant in enterprise ML pipelines, especially where integration with existing Google Cloud or TensorFlow ecosystem tools is required.
 
-**China Ecosystem Maturation**
-
-DeepSeek's `DeepGEMM` FP8 kernels, `dive-into-llms`'s educational traction, and `CowAgent`'s enterprise integrations demonstrate China's AI open-source ecosystem has evolved from model weights to **full-stack tooling**. The Ollama support for Kimi-K2.5, GLM-5, MiniMax confirms Chinese models as first-class citizens in global infrastructure.
-
-**Ambient AI Hardware-Software Fusion**
-
-`omi`'s screen-aware, conversation-listening approach represents **always-on ambient intelligence** moving from concept to shipping product. This anticipates Apple Intelligence and Google Astra competition, but from an open-hardware angle (BasedHardware).
-
-**Connection to Industry Events**: The timing aligns with post-GPT-4.5/Claude 4 fatigue—developers seeking alternatives to centralized API dependency, hence Thunderbolt's "Eliminate vendor lock-in" messaging resonating (+447 stars).
+#### 🔍 RAG / Knowledge
+- **[langgenius/dify](https://github.com/langgenius/dify)** ⭐138,259 (+0 today)  
+  Production-ready no-code/low-code platform for building and deploying agentic RAG workflows with visual orchestration.
+- **[infiniflow/ragflow](https://github.com/infiniflow/ragflow)** ⭐78,442 (+0 today)  
+  Integrates vector search, document parsing, and agent memory into a unified RAG engine—ideal for enterprise knowledge bases.
+- **[mem0ai/mem0](https://github.com/mem0ai/mem0)** ⭐53,441 (+0 today)  
+  Universal memory layer for agents that persists context across sessions using vector embeddings—addressing a key limitation in long-running agent autonomy.
 
 ---
 
-## 4. Community Hot Spots
+### 3. **Trend Signal Analysis**
 
-- **[EvoMap/evolver](https://github.com/EvoMap/evolver)** — **Self-evolution is the new fine-tuning.** GEP protocol could redefine how agents improve, reducing human-in-the-loop bottlenecks. Early positioning for a foundational primitive.
+The most explosive growth today centers on **agent observability and actionability**: repositories like *Omi* and *Thunderbolt* demonstrate strong user interest in AI systems that perceive real-world environments (screen, audio) and intervene proactively. This aligns with broader industry shifts toward **embodied AI**—where agents move beyond text-only interaction to physical/digital world engagement. Concurrently, frameworks like OpenAI’s `agents-python` signal standardization efforts in multi-agent orchestration, suggesting the field is maturing from experimental prototypes to deployable architectures.
 
-- **[thunderbird/thunderbolt](https://github.com/thunderbird/thunderbolt)** — **Sovereign AI moment.** Mozilla-branded, model-agnostic stack captures post-OpenAI-exodus sentiment. Worth watching if it achieves protocol-layer status versus application-layer.
+A notable technical direction emerging is **autonomous agent evolution**, epitomized by *Evolver*, which introduces genetic programming principles to AI agent design. This reflects a deeper exploration of how agents can self-improve without human intervention—a leap toward truly self-sustaining AI systems. Meanwhile, infrastructure projects like *DeepGEMM* highlight continued optimization focus on **efficient compute**, particularly with FP8 quantization, making large model inference more accessible on edge devices.
 
-- **[BasedHardware/omi](https://github.com/BasedHardware/omi)** — **Ambient AI hardware reference.** Screen + audio + proactive suggestions = new interaction paradigm. Developer kits likely imminent.
-
-- **[deepseek-ai/DeepGEMM](https://github.com/deepseek-ai/DeepGEMM)** — **Efficiency as competitive moat.** FP8 kernels with fine-grained scaling are production secrets; open-sourcing them accelerates community replication of DeepSeek's cost advantages.
-
-- **[shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code)** / **[affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code)** — **Agent harness economy.** 215K+ combined stars prove developers want composable, minimal AI augmentation over monolithic platforms. Skills, memory, security as plugin architecture.
+The resurgence of educational content—such as *dive-into-llms*—also indicates that developer adoption remains heavily driven by hands-on learning, especially as new model releases (e.g., DeepSeek’s recent offerings) lower entry barriers.
 
 ---
 
-*Report compiled from GitHub trending data as of 2026-04-19. Star counts reflect snapshot in time; growth velocities indicate community momentum.*
+### 4. **Community Hot Spots**
+
+- **Omi (BasedHardware/omi)** – First consumer-grade “AI that sees your screen” tool; represents the frontier of ambient agent intelligence. Worth building integrations or UI patterns around real-time environmental awareness.
+- **Evolver (EvoMap/evolver)** – Novel approach to agent self-improvement via evolutionary algorithms. Early-stage but conceptually disruptive for long-term autonomy research.
+- **OpenAI Agents Framework (openai-agents-python)** – Official release suggests imminent ecosystem maturation. Developers should evaluate its compatibility with existing agent stacks.
+- **Browser Automation (browser-use)** – Rapid adoption in agent toolkits shows demand for web-native agent capabilities. Strong candidate for embedding in workflow automation platforms.
+- **RAG Memory Layers (mem0ai/mem0)** – Solves persistent context decay in agents. Critical for any application requiring sustained reasoning or personalization.
 
 ---
-*This digest is auto-generated by [agents-radar](https://github.com/duanyytop/agents-radar).*
+*This digest is auto-generated by [agents-radar](https://github.com/DenisZheng/agents-radar).*

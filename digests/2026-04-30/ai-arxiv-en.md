@@ -1,92 +1,68 @@
 # ArXiv AI Research Digest 2026-04-30
 
-> Source: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-04-30 00:20 UTC
+> Source: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-04-30 00:31 UTC
 
 ---
 
-# ArXiv AI Research Digest — April 30, 2026
+**ArXiv AI Research Digest (2026-04-30)**
 
 ---
 
-## 1. Today's Highlights
+### **Today's Highlights**
 
-Today's submissions reveal three major thrusts: **recursive multi-agent scaling** as a new paradigm for deepening collective reasoning, **safety-critical alignment research** addressing conditional misalignment and cross-lingual jailbreak vulnerabilities, and **compound AI system infrastructure** maturing toward production deployment. Notably, multiple papers advance beyond single-model reasoning to explore how agent collaboration itself can be scaled—mirroring the shift from single-GPU to distributed training. The tension between capability and safety remains acute, with new evidence that common alignment interventions may mask rather than eliminate emergent misalignment.
-
----
-
-## 2. Key Papers
-
-### 🧠 Large Language Models
-
-**[Recursive Multi-Agent Systems](http://arxiv.org/abs/2604.25917v1)** — Xiyuan Yang, Jiaru Zou, Rui Pan et al.
-Extends recursive/looped computation from single models to multi-agent systems, proposing agent collaboration itself as a scalable axis for deepening reasoning—potentially as significant as chain-of-thought was for individual models.
-
-**[How Fast Should a Model Commit to Supervision? Training Reasoning Models on the Tsallis Loss Continuum](http://arxiv.org/abs/2604.25907v1)** — Chu-Cheng Lin, Eugene Ie
-Introduces a tunable loss family interpolating between RLVR and maximum likelihood that solves the cold-start problem when initial success probability is low, directly addressing a key training instability in reasoning models.
-
-**[Conditional misalignment: common interventions can hide emergent misalignment behind contextual triggers](http://arxiv.org/abs/2604.25891v1)** — Jan Dubiński, Jan Betley, Anna Sztyber-Betley et al.
-Demonstrates that standard safety interventions may suppress but not eliminate emergent misalignment, which reactivates under specific contextual triggers—fundamentally challenging current evaluation practices.
-
-**[Cross-Lingual Jailbreak Detection via Semantic Codebooks](http://arxiv.org/abs/2604.25716v1)** — Shirin Alanova, Bogdan Minko, Sabrina Sadiekh et al.
-Proposes a semantic codebook approach to detect jailbreaks across languages, addressing the systematic vulnerability that safety mechanisms remain predominantly English-centric.
-
-**[Barriers to Universal Reasoning With Transformers (And How to Overcome Them)](http://arxiv.org/abs/2604.25800v1)** — Oliver Kraus, Yash Sarrof, Yuekun Yao et al.
-Theoretically investigates whether Transformers can generalize to chain-of-thought traces longer than training, identifying barriers and solutions with implications for reliable long-horizon reasoning.
-
-**[Subliminal Steering: Stronger Encoding of Hidden Signals](http://arxiv.org/abs/2604.25783v1)** — George Morgulis, John Hewitt
-Characterizes how student models inherit behavioral biases from teacher-generated data even when the bias signal is subtle, with implications for data curation and model distillation safety.
+This week’s submissions reflect a maturing AI research landscape with strong emphasis on **agentic systems**, **robustness and alignment**, and **efficient deployment**. Recursive multi-agent architectures extend reasoning depth through iterative collaboration, while novel benchmarks like DV-World push evaluation beyond synthetic environments. Concerns around subliminal learning and conditional misalignment underscore growing awareness of hidden behavioral drift in fine-tuned models. Simultaneously, green AI initiatives gain traction—carbon-taxed transformers propose economic incentives for model compression—and multimodal reasoning advances toward clinically grounded conversational interfaces.
 
 ---
 
-### 🤖 Agents & Reasoning
+### **Key Papers**
 
-**[ADEMA: A Knowledge-State Orchestration Architecture for Long-Horizon Knowledge Synthesis with LLM Agents](http://arxiv.org/abs/2604.25849v1)** — Zhou Hanlin, Chan Huah Yong
-Addresses knowledge state drift and interruption fragility in long-horizon agent tasks through explicit knowledge-state orchestration, targeting a core failure mode in current agent architectures.
+#### 🧠 Large Language Models  
+1. [**Recursive Multi-Agent Systems**](http://arxiv.org/abs/2604.25917v1) – X. Yang et al.  
+   Proposes scaling agent collaboration via recursive refinement, extending reasoning depth beyond single-model iterations.  
+2. [**How Fast Should a Model Commit to Supervision?**](http://arxiv.org/abs/2604.25907v1) – C.-C. Lin & E. Ie  
+   Introduces Tsallis loss continuum to dynamically adjust RLVR commitment speed based on initial success probability.  
+3. [**Subliminal Steering: Stronger Encoding of Hidden Signals**](http://arxiv.org/abs/2604.25783v1) – G. Morgulis & J. Hewitt  
+   Reveals that fine-tuning on innocuous data can embed strong behavioral biases via subtle gradient alignment.  
+4. [**G-Loss: Graph-Guided Fine-Tuning**](http://arxiv.org/abs/2604.25853v1) – A. Sharma et al.  
+   Uses global semantic graphs to guide loss computation, improving fine-tuning beyond local neighborhoods.  
 
-**[From Soliloquy to Agora: Memory-Enhanced LLM Agents with Decentralized Debate for Optimization Modeling](http://arxiv.org/abs/2604.25847v1)** — Jianghao Lin, Zi Ling, Chenyu Zhou et al.
-Introduces multi-agent debate with structured memory for optimization problem formulation, showing that decentralized deliberation outperforms single-agent approaches on complex real-world decision problems.
+#### 🤖 Agents & Reasoning  
+5. [**ADEMA: Knowledge-State Orchestration**](http://arxiv.org/abs/2604.25849v1) – H. Zhou & H.Y. Chan  
+   Addresses knowledge drift in long-horizon LLM tasks through explicit state orchestration across dialogue rounds.  
+6. [**From Soliloquy to Agora: Memory-Enhanced Debate Agents**](http://arxiv.org/abs/2604.25847v1) – J. Lin et al.  
+   Introduces decentralized debate among memory-augmented agents for optimization modeling from natural language.  
+7. [**Agentic Harness Engineering**](http://arxiv.org/abs/2604.25850v1) – J. Lin et al.  
+   Automates evolution of coding-agent testbeds using observability-driven feedback loops.  
 
-**[Toward Agentic Investigation of Security Alerts](http://arxiv.org/abs/2604.25846v1)** — Even Eilertsen, Vasileios Mavroeidis, Gudmund Grov
-Presents an experimental agentic workflow for autonomous security alert investigation, demonstrating practical multi-tool orchestration in a high-stakes domain with severe analyst bottlenecks.
+#### 🔧 Methods & Frameworks  
+8. [**DV-World: Real-World Data Visualization Benchmark**](http://arxiv.org/abs/2604.25914v1) – J. Meng et al.  
+   Creates an ecologically valid benchmark requiring cross-platform grounding, intent alignment, and proactive behavior.  
+9. [**Carbon-Taxed Transformers**](http://arxiv.org/abs/2604.25903v1) – A.I. Alam et al.  
+   Proposes a compression pipeline where carbon cost directly informs pruning decisions for sustainable LLM deployment.  
+10. [**Verification of Neural Networks (Lecture Notes)**](http://arxiv.org/abs/2604.25733v1) – B. Bollig  
+   Provides theoretical foundations for verifying neural networks against formal specifications.  
 
----
-
-### 🔧 Methods & Frameworks
-
-**[Scalable Inference Architectures for Compound AI Systems: A Production Deployment Study](http://arxiv.org/abs/2604.25724v1)** — Srikanta Prasad S, Utkarsh Arora
-Provides empirical analysis of production inference infrastructure for compound AI systems, offering concrete guidance on serving heterogeneous model compositions at scale.
-
-**[G-Loss: Graph-Guided Fine-Tuning of Language Models](http://arxiv.org/abs/2604.25853v1)** — Sharma Aditya, Agarwal Vinti, Kumar Rajesh
-Replaces local neighborhood losses with graph-structured global semantic objectives, improving representation quality by exploiting relational structure absent from standard fine-tuning.
-
-**[Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses](http://arxiv.org/abs/2604.25850v1)** — Jiahang Lin, Shichun Liu, Chengjun Pan et al.
-Automates the engineering of coding-agent execution environments through evolutionary search with trajectory observability, addressing a major determinant of agent performance that remains manually designed.
-
----
-
-### 📊 Applications
-
-**[DV-World: Benchmarking Data Visualization Agents in Real-World Scenarios](http://arxiv.org/abs/2604.25914v1)** — Jinxiang Meng, Shaoping Huang, Fangyu Lei et al.
-Introduces a benchmark with native environmental grounding and cross-platform evolution for data visualization agents, escaping the code-sandbox confinement that limits prior evaluation validity.
-
-**[Toward Multimodal Conversational AI for Age-Related Macular Degeneration](http://arxiv.org/abs/2604.25720v1)** — Ran Gu, Benjamin Hou, Mélanie Hébert et al.
-Integrates diagnostic predictions with clinically meaningful dialogue for retinal disease, demonstrating how MLLMs can transcend static prediction toward interactive clinical reasoning.
-
----
-
-## 3. Research Trend Signal
-
-A clear inflection point is visible: **the unit of AI research is shifting from "model" to "system of models."** Today's papers collectively advance recursive multi-agent computation, compound AI infrastructure, debate-based deliberation, and knowledge-state orchestration across agents. This mirrors the historical trajectory from training individual neural networks to distributed training systems, but now applied at inference time. Concurrently, **safety research is maturing from capability evaluation to mechanistic understanding**—papers on conditional misalignment, subliminal learning, and cross-lingual jailbreaks reveal sophisticated attention to failure modes that persist or worsen under deployment pressure. A third signal is the **professionalization of agent engineering**: harness evolution, terminal task synthesis, and REST API testing benchmarks suggest the field is building the tooling and evaluation infrastructure needed for reliable agent deployment. The intersection of these trends—multi-agent systems with rigorous safety evaluation and production infrastructure—will likely define the next 12-18 months of research.
+#### 📊 Applications  
+11. [**Towards Agentic Investigation of Security Alerts**](http://arxiv.org/abs/2604.25846v1) – E. Eilertsen et al.  
+   Demonstrates LLM agents autonomously correlating logs to accelerate cybersecurity alert triage.  
+12. [**PSI-Bench: Clinically Grounded Depression Simulator Evaluation**](http://arxiv.org/abs/2604.25840v1) – N.K. Hoang et al.  
+   Introduces interpretable metrics for evaluating emotionally safe patient simulators in mental health training.  
+13. [**Cross-Lingual Jailbreak Detection via Semantic Codebooks**](http://arxiv.org/abs/2604.25716v1) – S. Alanova et al.  
+   Detects jailbreak attempts across languages using shared semantic embeddings, addressing multilingual safety gaps.  
 
 ---
 
-## 4. Worth Deep Reading
+### **Research Trend Signal**
 
-**[Recursive Multi-Agent Systems](http://arxiv.org/abs/2604.25917v1)** — This paper potentially opens an entirely new scaling dimension. Just as chain-of-thought and test-time compute transformed single-model capabilities, recursive agent collaboration could redefine what multi-agent systems achieve. The theoretical framing and empirical validation merit careful study for anyone building or researching agent systems.
-
-**[Conditional misalignment: common interventions can hide emergent misalignment behind contextual triggers](http://arxiv.org/abs/2604.25891v1)** — The finding that standard safety training may create "dormant" misalignment rather than genuine alignment has profound implications for evaluation methodology and deployment safety. The experimental design and intervention analysis provide a template for rigorous safety research.
-
-**[How Fast Should a Model Commit to Supervision? Training Reasoning Models on the Tsallis Loss Continuum](http://arxiv.org/abs/2604.25907v1)** — The cold-start problem in RLVR is a practical blocker for reasoning model development. This paper's principled interpolation between RL and supervised learning, with theoretical grounding in Tsallis statistics, offers both immediate applicability and conceptual clarity for training dynamics.
+Several themes signal a maturation in AI system design: **agent orchestration** is moving beyond isolated chains of thought toward structured multi-agent ecosystems with memory and debate mechanisms (e.g., ADEMA, Agora-Opt). Concurrently, **evaluation paradigms are becoming more realistic**, exemplified by DV-World’s move away from sandboxed or single-language tasks. There’s also a rising focus on **hidden risks in alignment**, particularly how fine-tuning can inadvertently encode undesirable behaviors through subliminal signals—a challenge amplified in multilingual settings. On the efficiency front, integrating **environmental costs into model development** (via carbon-taxed compression) reflects growing regulatory and sustainability pressures. Finally, **domain-specific multimodal integration** is advancing in healthcare (retinal diagnosis with MLLMs) and software engineering (vulnerability detection with code-comment fusion), showing that general-purpose models are increasingly being tailored through principled architectural choices rather than mere scale.
 
 ---
-*This digest is auto-generated by [agents-radar](https://github.com/duanyytop/agents-radar).*
+
+### **Worth Deep Reading**
+
+1. [**Recursive Multi-Agent Systems**](http://arxiv.org/abs/2604.25917v1): This work redefines "scaling" in reasoning by shifting from parameter count to recursive agent interaction—potentially foundational for next-generation agentic frameworks.
+2. [**Subliminal Steering**](http://arxiv.org/abs/2604.25783v1): Offers mechanistic insight into how bias propagates during distillation; critical for auditing real-world deployment risks.
+3. [**DV-World**](http://arxiv.org/abs/2604.25914v1): Its rigorous ecological grounding sets a new standard for evaluating multimodal agents and may inspire similar benchmarks in other domains.
+
+---
+*This digest is auto-generated by [agents-radar](https://github.com/DenisZheng/agents-radar).*

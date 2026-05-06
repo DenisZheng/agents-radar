@@ -1,89 +1,72 @@
 # Hugging Face Trending Models Digest 2026-04-24
 
-> Source: [Hugging Face Hub](https://huggingface.co/) | 30 models | Generated: 2026-04-24 00:18 UTC
+> Source: [Hugging Face Hub](https://huggingface.co/) | 30 models | Generated: 2026-04-24 00:28 UTC
 
 ---
 
-# Hugging Face Trending Models Digest — April 24, 2026
+Of course. Here is the structured Hugging Face Trending Models Digest.
+
+***
+
+### 1. **Today's Highlights**
+
+The landscape continues to be dominated by major players, with Google's Gemma-4 series emerging as a clear leader in both likes and downloads. A key trend is the proliferation of community-driven fine-tunes and quantizations, particularly for models like Qwen3.6, which are being aggressively optimized for uncensored and low-resource deployment. Furthermore, multimodal capabilities are expanding beyond vision into 3D generation, as evidenced by new releases from Tencent. The ecosystem is also seeing a strong focus on specialized, high-performance inference formats like NVFP4, indicating a push for production-ready, efficient models.
+
+***
+
+### 2. **Trending Models**
+
+#### 🧠 Language Models (LLMs, chat models, instruction-tuned)
+
+*   **[zai-org/GLM-5.1](https://huggingface.co/zai-org/GLM-5.1)** by zai-org | Likes: 1,481 | Downloads: 182,748
+    GLM-5.1 is an open-weight, Mixture-of-Experts (MoE) language model from Zhipu AI, designed for powerful conversational tasks. Its high engagement highlights the demand for capable, open-source alternatives to closed-source LLMs.
+*   **[google/gemma-4-31B-it](https://huggingface.co/google/gemma-4-31B-it)** by google | Likes: 2,313 | Downloads: 5,103,971
+    This is a top-tier, instruction-tuned version of Google's Gemma-4 family. Its massive download count and high likes reflect its status as a leading open-weight model for general-purpose conversation and text generation.
+*   **[MiniMaxAI/MiniMax-M2.7](https://huggingface.co/MiniMaxAI/MiniMax-M2.7)** by MiniMaxAI | Likes: 1,041 | Downloads: 463,243
+    Released by MiniMax, this is a large-scale, conversational language model. Its significant traction shows the continued interest in models from Chinese tech giants that are competitive on a global scale.
+
+#### 🎨 Multimodal & Generation (image, video, audio, text-to-X)
+
+*   **[Qwen/Qwen3.6-35B-A3B](https://huggingface.co/Qwen/Qwen3.6-35B-A3B)** by Qwen | Likes: 1,332 | Downloads: 717,811
+    This is a state-of-the-art MoE model from Qwen, supporting both image-text-to-text and conversational tasks. It's a flagship multimodal model demonstrating Qwen's strong position in the space.
+*   **[tencent/HY-World-2.0](https://huggingface.co/tencent/HY-World-2.0)** by tencent | Likes: 576 | Downloads: 0
+    A world model from Tencent that can generate high-quality 3D assets from textual descriptions or 2D images. Its novelty and advanced capability make it a notable entry in the rapidly growing 3D generation field.
+*   **[openbmb/VoxCPM2](https://huggingface.co/openbmb/VoxCPM2)** by openbmb | Likes: 1,223 | Downloads: 81,729
+    VoxCPM2 is a powerful open-weight text-to-speech model. Its popularity signifies a strong community interest in high-quality, multilingual voice synthesis technology.
+*   **[baidu/ERNIE-Image](https://huggingface.co/baidu/ERNIE-Image)** by baidu | Likes: 541 | Downloads: 6,394
+    An 8B-parameter text-to-image model from Baidu. Its Apache 2.0 license makes it highly accessible for developers and researchers looking for a capable open-weight diffusion model.
+
+#### 🔧 Specialized Models (code, math, medical, embeddings)
+
+*   **[openai/privacy-filter](https://huggingface.co/openai/privacy-filter)** by openai | Likes: 558 | Downloads: 1,888
+    A specialized token classification model designed to identify and redact sensitive information like emails, phone numbers, and social security numbers. Its presence on Hugging Face provides crucial privacy tooling for the open-source community.
+*   **[nvidia/Lyra-2.0](https://huggingface.co/nvidia/Lyra-2.0)** by nvidia | Likes: 263 | Downloads: 364
+    Lyra-2.0 is an advanced image-to-3D generation model from NVIDIA Research. It represents cutting-edge academic research in 3D content creation, leveraging the company's expertise in graphics and AI.
+
+#### 📦 Fine-tunes & Quantizations (community fine-tunes, GGUF, AWQ)
+
+*   **[unsloth/Qwen3.6-35B-A3B-GGUF](https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF)** by unsloth | Likes: 708 | Downloads: 1,283,534
+    This GGUF-quantized version of the Qwen3.6-35B-A3B model is a community effort by Unsloth. Its high download volume shows that users are actively seeking easy-to-deploy, quantized versions of large models for local inference and experimentation.
+*   **[HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive)** by HauhauCS | Likes: 400 | Downloads: 350,262
+    This is an aggressive, uncensored fine-tune of the Qwen3.6-35B-A3B model. Its popularity highlights a segment of the community focused on unfiltered interaction and creative freedom.
+*   **[Jiunsong/supergemma4-26b-uncensored-gguf-v2](https://huggingface.co/Jiunsong/supergemma4-26b-uncensored-gguf-v2)** by Jiunsong | Likes: 471 | Downloads: 126,271
+    Another popular uncensored variant, this time for a Gemma-4 model, provided in the GGUF format. This demonstrates the widespread availability and demand for uncensored models across different base architectures.
+*   **[RedHatAI/Qwen3.6-35B-A3B-NVFP4](https://huggingface.co/RedHatAI/Qwen3.6-35B-A3B-NVFP4)** by RedHatAI | Likes: 89 | Downloads: 298,020
+    This model showcases a cutting-edge NVFP4 quantization of the Qwen3.6-35B-A3B, targeting ultra-low latency inference via vLLM. Its high downloads signal strong interest in next-generation quantization techniques for performance-critical applications.
+
+***
+
+### 3. **Ecosystem Signal**
+
+The Hugging Face ecosystem is currently characterized by a few dominant trends. First, the **Gemma-4** family, backed by Google, is experiencing explosive growth, becoming the most-downloaded model and setting a high benchmark for quality in the open-weight category. This signals a strong preference for high-quality, proprietary-backed open models. Concurrently, the Qwen3.6 family remains the epicenter of **community-driven activity**, with numerous aggressive uncensored variants, efficient GGUF quantizations, and specialized reasoning distillations flooding the platform. This reflects a vibrant ecosystem where users are not just downloading but actively remixing and optimizing models for specific needs like creativity, privacy, or local deployment. Furthermore, we see the rise of advanced quantization formats like **NVFP4**, moving beyond traditional GGUF to offer better performance for production environments, and a growing portfolio of **multimodal specialists** (e.g., 3D generation, TTS), indicating the industry's move beyond pure language models.
+
+***
+
+### 4. **Worth Exploring**
+
+1.  **google/gemma-4-E4B-it**: With over 3 million downloads, this is the undisputed star of the show. It represents Google's best-in-class open-weight model, offering a unique combination of power and versatility for any researcher or developer working on multimodal tasks, making it essential for understanding current open-source capabilities.
+2.  **zai-org/GLM-5.1**: As the second-most liked model, GLM-5.1 offers a compelling alternative to other top-tier open LLMs. Its MoE architecture suggests high efficiency and performance, and its high engagement indicates a strong community belief in its quality, making it a prime candidate for those seeking a powerful, open-weight LLM without the brand recognition of giants like Google or Meta.
+3.  **openai/privacy-filter**: While not a generative model, this tool is incredibly valuable. In an era of data privacy concerns, having a readily available, open-weight model to scrub sensitive information from your datasets or outputs is a game-changer for responsible AI development. It exemplifies how specialized tools are becoming integral parts of the broader AI toolkit.
 
 ---
-
-## 1. Today's Highlights
-
-Google's **Gemma 4** family dominates the trending list with extraordinary download velocity—**[gemma-4-31B-it](https://huggingface.co/google/gemma-4-31B-it)** has surpassed 5.1M downloads, while the experimental **[gemma-4-E4B-it](https://huggingface.co/google/gemma-4-E4B-it)** pioneers an "any-to-any" architecture. Qwen's **3.6 series**, particularly the **35B-A3B MoE variant**, has catalyzed massive community quantization activity with multiple GGUF, FP8, and NVFP4 derivatives flooding the rankings. The emergence of **uncensored fine-tunes** (HauhauCS, OBLITERATUS, Jiunsong) and **frankenmerges** (Qwopus-GLM-18B) signals robust community experimentation. Meanwhile, world models from **Tencent** and **NVIDIA** hint at 3D generation becoming the next frontier. Notably, **OpenAI's privacy-filter** marks a rare official appearance on the Hub, suggesting shifting proprietary strategies.
-
----
-
-## 2. Trending Models
-
-### 🧠 Language Models (LLMs, chat models, instruction-tuned)
-
-| Model | Author | Likes | Downloads | Why It's Trending |
-|-------|--------|-------|-----------|-------------------|
-| **[zai-org/GLM-5.1](https://huggingface.co/zai-org/GLM-5.1)** | zai-org | 1,481 | 182,748 | Next-gen GLM with MoE+DSA architecture, strong conversational performance gaining researcher attention. |
-| **[MiniMaxAI/MiniMax-M2.7](https://huggingface.co/MiniMaxAI/MiniMax-M2.7)** | MiniMaxAI | 1,041 | 463,243 | Chinese LLM challenger with competitive conversational capabilities and rapid adoption. |
-| **[OBLITERATUS/gemma-4-E4B-it-OBLITERATED](https://huggingface.co/OBLITERATUS/gemma-4-E4B-it-OBLITERATED)** | OBLITERATUS | 481 | 90,064 | Abliterated/uncensored variant of Google's Gemma 4, popular for unrestricted research applications. |
-| **[tencent/Hy3-preview](https://huggingface.co/tencent/Hy3-preview)** | tencent | 95 | 13 | Early preview of Tencent's Hy v3 architecture, signaling potential next-gen Chinese LLM competition. |
-
-### 🎨 Multimodal & Generation (image, video, audio, text-to-X)
-
-| Model | Author | Likes | Downloads | Why It's Trending |
-|-------|--------|-------|-----------|-------------------|
-| **[google/gemma-4-31B-it](https://huggingface.co/google/gemma-4-31B-it)** | google | 2,313 | 5,103,971 | Flagship multimodal Gemma with image-text-to-text, becoming the most downloaded open model this week. |
-| **[google/gemma-4-E4B-it](https://huggingface.co/google/gemma-4-E4B-it)** | google | 809 | 3,004,998 | Experimental "any-to-any" architecture—unified multimodal processing in a compact 4B parameter envelope. |
-| **[Qwen/Qwen3.6-35B-A3B](https://huggingface.co/Qwen/Qwen3.6-35B-A3B)** | Qwen | 1,331 | 717,811 | Vision-capable MoE with exceptional efficiency (35B active, 3B parameters), enterprise adoption driver. |
-| **[moonshotai/Kimi-K2.6](https://huggingface.co/moonshotai/Kimi-K2.6)** | moonshotai | 885 | 125,825 | Moonshot's latest multimodal contender with feature extraction capabilities, challenging Qwen/Gemma dominance. |
-| **[Qwen/Qwen3.6-27B](https://huggingface.co/Qwen/Qwen3.6-27B)** | Qwen | 646 | 23,964 | Dense alternative to the MoE variant, offering predictable performance for multimodal deployments. |
-| **[openbmb/VoxCPM2](https://huggingface.co/openbmb/VoxCPM2)** | openbmb | 1,223 | 81,729 | State-of-the-art multilingual TTS with natural prosody, filling a critical gap in open audio generation. |
-| **[baidu/ERNIE-Image](https://huggingface.co/baidu/ERNIE-Image)** | baidu | 541 | 6,394 | Apache-2.0 licensed 8B text-to-image model from Baidu, notable for permissive licensing in Chinese AI. |
-| **[tencent/HY-World-2.0](https://huggingface.co/tencent/HY-World-2.0)** | tencent | 576 | 0 | World model for image-to-3D generation—zero downloads suggest preview status but high anticipation. |
-| **[nvidia/Lyra-2.0](https://huggingface.co/nvidia/Lyra-2.0)** | nvidia | 263 | 364 | NVIDIA's image-to-3D world model with published research (arXiv:2604.13036), hardware-optimized pipeline. |
-| **[NucleusAI/Nucleus-Image](https://huggingface.co/NucleusAI/Nucleus-Image)** | NucleusAI | 225 | 1,740 | Sparse MoE diffusion architecture for text-to-image, exploring parameter-efficient generation. |
-
-### 🔧 Specialized Models (code, math, medical, embeddings)
-
-| Model | Author | Likes | Downloads | Why It's Trending |
-|-------|--------|-------|-----------|-------------------|
-| **[openai/privacy-filter](https://huggingface.co/openai/privacy-filter)** | openai | 558 | 1,888 | Rare OpenAI Hub release—ONNX-based PII detection, signaling potential shift toward deployable safety tools. |
-| **[inclusionAI/LLaDA2.0-Uni](https://huggingface.co/inclusionAI/LLaDA2.0-Uni)** | inclusionAI | 140 | 8 | Unified multimodal MoE with feature extraction, extremely early-stage but architecturally ambitious. |
-| **[z-lab/Qwen3.6-35B-A3B-DFlash](https://huggingface.co/z-lab/Qwen3.6-35B-A3B-DFlash)** | z-lab | 134 | 18,806 | DFlash-optimized variant for feature extraction workloads, targeting RAG and embedding pipelines. |
-
-### 📦 Fine-tunes & Quantizations (community fine-tunes, GGUF, AWQ)
-
-| Model | Author | Likes | Downloads | Why It's Trending |
-|-------|--------|-------|-----------|-------------------|
-| **[unsloth/Qwen3.6-35B-A3B-GGUF](https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF)** | unsloth | 708 | 1,283,534 | Most-downloaded model this week—Unsloth's ultra-efficient GGUF quantization enabling consumer GPU inference. |
-| **[HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive)** | HauhauCS | 399 | 350,262 | Aggressively uncensored vision-capable MoE, controversial but demonstrating massive demand for unfiltered models. |
-| **[unsloth/Qwen3.6-27B-GGUF](https://huggingface.co/unsloth/Qwen3.6-27B-GGUF)** | unsloth | 322 | 131,398 | Dense alternative GGUF, offering simpler deployment without MoE routing complexity. |
-| **[Jiunsong/supergemma4-26b-uncensored-gguf-v2](https://huggingface.co/Jiunsong/supergemma4-26b-uncensored-gguf-v2)** | Jiunsong | 470 | 126,271 | Optimized uncensored Gemma 4 with "fast" llama.cpp compatibility, community favorite for local inference. |
-| **[hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF](https://huggingface.co/hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF)** | hesamation | 167 | 63,121 | Reasoning distillation from Claude 4.6 Opus into Qwen MoE, novel cross-model knowledge transfer. |
-| **[Jackrong/Qwopus-GLM-18B-Merged-GGUF](https://huggingface.co/Jackrong/Qwopus-GLM-18B-Merged-GGUF)** | Jackrong | 192 | 63,745 | "Frankenmerge" of Qwen and GLM architectures, experimental hybrid with emergent reasoning properties. |
-| **[Qwen/Qwen3.6-27B-FP8](https://huggingface.co/Qwen/Qwen3.6-27B-FP8)** | Qwen | 119 | 39,230 | Official FP8 quantization, 2x memory reduction with minimal accuracy loss for datacenter deployment. |
-| **[unsloth/Kimi-K2.6-GGUF](https://huggingface.co/unsloth/Kimi-K2.6-GGUF)** | unsloth | 101 | 7,186 | First community quantization of Kimi K2.6, expanding hardware accessibility for Moonshot's model. |
-| **[HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive)** | HauhauCS | 106 | 9,535 | Dense uncensored variant with vision, lower download count suggests MoE preference for uncensored use. |
-| **[Qwen/Qwen3.6-35B-A3B-FP8](https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8)** | Qwen | 168 | 708,701 | Official FP8 MoE—massive enterprise downloads indicate production deployment at scale. |
-| **[RedHatAI/Qwen3.6-35B-A3B-NVFP4](https://huggingface.co/RedHatAI/Qwen3.6-35B-A3B-NVFP4)** | RedHatAI | 89 | 298,020 | Red Hat's NVFP4 quantization for vLLM, targeting NVIDIA Blackwell and cloud-native inference. |
-| **[KyleHessling1/Qwopus-GLM-18B-Merged-GGUF](https://huggingface.co/KyleHessling1/Qwopus-GLM-18B-Merged-GGUF)** | KyleHessling1 | 88 | 8,046 | Independent replication of Qwopus merge, validating community interest in hybrid architectures. |
-
----
-
-## 3. Ecosystem Signal
-
-**Qwen has become the dominant open-weight ecosystem**, with the 3.6 series generating **8 of the top 30 trending slots** and multiple official + community variants. The 35B-A3B MoE architecture in particular has achieved remarkable adoption—its combination of large effective capacity with small active parameter count makes it ideal for quantization. Google's **Gemma 4** counters with superior raw download numbers, suggesting stronger enterprise integration, while its experimental E4B "any-to-any" model tests unified multimodal architectures.
-
-The quantization landscape has **intensified dramatically**: GGUF (Unsloth), FP8 (official), NVFP4 (Red Hat), and DFlash (z-lab) represent competing optimization philosophies for different hardware targets. Community fine-tuning has shifted toward **"uncensored" and "abliterated" variants**—a notable 4 models carry these tags, reflecting demand for unfiltered research access. The **frankenmerge trend** (Qwopus-GLM) indicates sophisticated community experimentation beyond simple fine-tuning.
-
-Proprietary signals are mixed: OpenAI's privacy-filter release is anomalous, while Moonshot and MiniMax are actively open-weight competitive. Chinese labs (Qwen, Zhipu/GLM, Moonshot, Tencent, Baidu, MiniMax) now constitute **the majority of trending model origins**, a striking geographic shift from 2024's US-centric landscape.
-
----
-
-## 4. Worth Exploring
-
-| Model | Reasoning |
-|-------|-----------|
-| **[google/gemma-4-E4B-it](https://huggingface.co/google/gemma-4-E4B-it)** | The "any-to-any" architecture is genuinely experimental—if it delivers on unified multimodal processing in 4B parameters, it could redefine efficiency benchmarks. Worth studying for architecture research and edge deployment prototyping. |
-| **[unsloth/Qwen3.6-35B-A3B-GGUF](https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF)** | At 1.28M downloads, this is the people's choice for a reason. Unsloth's quantization quality enables 35B-equivalent multimodal inference on consumer hardware—test this if you want production-capable local AI. |
-| **[hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF](https://huggingface.co/hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF)** | Cross-model distillation from proprietary to open weights is an emerging technique with implications for capability transfer. Early signal for whether frontier reasoning can be effectively extracted into deployable formats. |
-
----
-*This digest is auto-generated by [agents-radar](https://github.com/duanyytop/agents-radar).*
+*This digest is auto-generated by [agents-radar](https://github.com/DenisZheng/agents-radar).*

@@ -1,190 +1,93 @@
 # AI Tools Ecosystem Weekly Report 2026-W17
 
-> Coverage: 2026-04-14 ~ 2026-04-20 | Generated: 2026-04-20 01:32 UTC
+> Coverage: 2026-04-14 ~ 2026-04-20 | Generated: 2026-04-20 01:34 UTC
 
 ---
 
-# AI Tools Ecosystem Weekly Report | 2026-W17
-**April 14–20, 2026**
+**AI Tools Ecosystem Weekly Report (2026-W17)**
 
 ---
 
-## 1. Week's Top Stories
+### **1. Week's Top Stories**
 
-| Date | Event | Significance |
-|:---|:---|:---|
-| **Apr 17** | **Anthropic launches Claude Opus 4.7** — flagship model with "differentially reduced" cyberattack capabilities and autonomous verification mechanisms | First production deployment of Project Glasswing safety framework; establishes explicit capability tier below Mythos Preview |
-| **Apr 17** | **OpenAI launches Codex "for almost everything"** — expands from sandboxed coding agent to general-purpose agent | Direct competitive response to Claude Code; signals OpenAI's counter-move in agent infrastructure |
-| **Apr 17** | **OpenAI introduces GPT-Rosalind** — vertical life sciences model | First domain-specific GPT brand extension; scientific community reception muted |
-| **Apr 18** | **Anthropic launches Claude Design** — visual collaboration tool for design, prototyping, slides | Strategic expansion from text-to-multimodal professional workflows; powered by Opus 4.7 |
-| **Apr 16** | **Anthropic publishes "Building Effective AI Agents"** — workflows vs. agents architectural framework | Establishes semantic ownership of agent engineering methodology; critiques over-engineered frameworks |
-| **Apr 15** | **Anthropic appoints Novartis CEO Vas Narasimhan to board** — LTBT achieves majority control | Governance milestone for Public Benefit Corporation structure; signals healthcare regulatory ambition |
-| **Apr 15** | **Claude Code Routines released** — reusable automation workflows | Community response: 371 HN points, 237 comments; pricing and utility debated intensely |
-| **Apr 14–20** | **Qwen Code OAuth 401 crisis** — free tier termination triggers mass authentication failures | Trust collapse archetype: policy change + technical breakage + community exodus anxiety |
+- **April 15**: Anthropic releases **Claude Opus 4.7** and **Claude Design**, marking a strategic expansion into creative AI tools and enterprise-grade security features, with Opus 4.7 focusing on enhanced coding capabilities and Mythos integration for cybersecurity testing.
+- **April 15**: OpenAI announces **Agents SDK evolution**, signaling a significant upgrade in its multi-agent development framework, though details remain sparse pending public release.
+- **April 16**: GitHub Copilot CLI faces **quota consumption criticism**, with users reporting unusually high token usage that raises cost concerns among Pro subscribers.
+- **April 17**: OpenAI unveils **GPT-Rosalind**, a specialized model for life sciences research, reflecting sector-specific AI tool development trends.
+- **April 18**: **OpenClaw v2026.4.19-beta.2** released with critical fixes for agent routing, streaming usage reporting, and nested lanes scope issues, enhancing stability for production deployments.
+- **April 19**: **Claude Code Skills** community gains momentum with new document typography and security analyzer skills, indicating growing ecosystem maturity around reusable AI agent capabilities.
 
 ---
 
-## 2. CLI Tools Progress
+### **2. CLI Tools Progress**
 
-### Activity Heatmap (Apr 14–20)
-
-| Tool | Issues | PRs | Releases | Health Indicator |
-|:---|:---:|:---:|:---|:---|
-| **Claude Code** | 🔥🔥🔥 Very High | Medium | v2.1.104→v2.1.114 (10 versions) | **Controversy-driven**: Opus 4.7 quality debates, billing opacity (#38335, 642 comments), Buddy feature removal (#45596, 840👍) |
-| **OpenAI Codex** | 🔥🔥🔥 Very High | 🔥🔥🔥 Very High | rust-v0.121.0→v0.122.0-alpha.10 | **Engineering sprint**: Goal Mode 5-part rollout, Intel Mac support landed, MCP remote execution 8-PR stack, plugin market launch |
-| **Gemini CLI** | 🔥🔥 High | 🔥🔥🔥 Very High | v0.37.2→v0.38.2 | **Architecture optimization**: AST-aware agent routing, memory routing, Gemma 4 support, tsgo migration |
-| **GitHub Copilot CLI** | 🔥🔥 High | 🚨 Near-zero | v1.0.25→v1.0.32 | **Infrastructure crisis**: Zero community PRs merged, rate limit black box (#2591), GPT-5.4 sync failures, corporate maintenance mode |
-| **Kimi Code CLI** | Medium | Medium | v1.32.0→v1.36.0 | **Model behavior whiplash**: K2.6 "overthinking" backlash, subagent architecture bugs, thinking visibility UX splits |
-| **OpenCode** | 🔥🔥 High | 🔥🔥 High | v1.4.4→v1.4.18 | **Stability roulette**: Memory optimization priority, version number jumps trigger trust erosion, Effect Schema migration |
-| **Pi** | Medium | 🔥🔥🔥 Very High | v0.67.0→v0.67.68 | **Maintenance excellence**: 18 PRs/day throughput, terminal compatibility deepest in class, Bedrock/Vertex/Ollama multi-cloud |
-| **Qwen Code** | 🔥🔥 High | Medium | v0.14.4→v0.15.0-preview.0 | **Commercialization trauma**: Free tier cutoff → OAuth 401 avalanche, VS Code auth emergency refactor, ACP Hooks preview |
-
-### Cross-Cutting Technical Themes
-
-| Theme | Tools Affected | Status |
-|:---|:---|:---|
-| **Multi-agent / Subagent architecture** | All except Copilot CLI | Active development; directory inheritance, MCP config propagation, MAX_TURNS transparency unsolved |
-| **Billing & quota observability** | Claude Code, Codex, Copilot CLI, Qwen Code | Trust crisis; per-request visibility, consumption alerts, version-drift cost spikes |
-| **Process lifecycle management** | Codex, Gemini CLI, Claude Code | Critical: MCP zombie processes (37GB leaks), temp script scattering, VM crashes |
-| **Remote / multi-environment dev** | Codex, Gemini CLI, OpenCode | SSH/WSL native support competitive; Codex #10450 (573👍) leads demand |
-| **Context compression integrity** | Claude Code, Codex, Qwen Code, OpenCode | Compression artifacts: skill parameter residue, remote compact stream breaks, command失效 |
+| Tool | Key Developments | Activity Level |
+|------|------------------|--------------|
+| **Claude Code** | v2.1.114 released; focus on TUI improvements, prompt caching controls, and Recap session summaries; active discussion around Opus 4.7 compatibility | High |
+| **OpenAI Codex** | Rust v0.122.0-alpha.12; major work on Goal Mode, MCP integration, and emergency fixes for prompt_cache_retention regression | Very High |
+| **Gemini CLI** | Enhanced Gemma model support, AST-aware analysis improvements, and CI acceleration; voice input PRs under review | High |
+| **GitHub Copilot CLI** | v1.0.32 stable; ongoing issues with OAuth failures, rate limiting transparency, and MCP process management | Medium |
+| **Kimi Code CLI** | v1.36.0 released with show_thinking_stream default; backend task freeze fixes; strong demand for K2.5/K2.6 model switching | High |
+| **OpenCode** | v1.14.18 fixes file search; mobile UI updates; performance discussions dominate community | High |
+| **Pi** | Full Claude 4.7 family support; Bedrock endpoint configuration fixes; TUI rendering optimizations | High |
+| **Qwen Code** | v0.14.5-nightly adds ACP support; authentication issues spike; parallel agents optimization efforts | High |
 
 ---
 
-## 3. AI Agent Ecosystem
+### **3. AI Agent Ecosystem**
 
-### OpenClaw Core Project
-
-| Metric | Value | Trend |
-|:---|:---|:---|
-| Weekly Issues/PRs | 3,500+ updates | Sustained peak |
-| Merge backlog | 58.8% unmerged (294/500) | ⚠️ Review bottleneck |
-| Releases | v2026.4.12 → v2026.4.15-beta.2 | Rapid cadence |
-
-**Critical Developments:**
-
-| Date | Development | Impact |
-|:---|:---|:---|
-| Apr 20 | **Cross-agent channel account isolation** (beta.1) | Security: Subagent spawns no longer inherit caller credentials; fixes multi-tenant privilege escalation |
-| Apr 20 | **Streaming usage reporting** for OpenAI-compatible backends | Observability: Fixes 0% usage display for local/custom endpoints |
-| Apr 19 | **Native Agent Identity & Trust Verification RFC** (#49971, 96 comments) | Architecture: MolTrust proposes ERC-8004/W3C DID/VC identity layer in core vs. plugin — community split on scope |
-| Apr 18 | **Model cooldown circuit breaker** | Reliability: Ends "silent infinite retry loops" consuming resources for hours |
-| Apr 18 | **Prompt hooks: dynamic tool narrowing** | Performance: Per-turn toolset restriction reduces tokens + attack surface |
-| Apr 17 | **Claude Opus 4.7 adaptive thinking support** | Model integration: Unified transport stream mapping |
-| Apr 16 | **Gateway SIGKILL fallback** | Stability: Fixes graceful shutdown timeout → port occupation → restart failure chain |
-
-**Ecosystem Satellites:** Hermes Agent (NousResearch), NanoBot (HKUDS), NanoClaw, PicoClaw maintaining steady activity; no breakthrough releases.
+- **OpenClaw** maintained peak activity (~500 Issues/PRs daily), releasing **v2026.4.19-beta.2** with critical auth and routing fixes. Major progress on:
+  - Native agent identity & trust verification RFC (#49971)
+  - HTTP REST API gateway status endpoints replacing slow WebSocket calls
+  - Multi-provider API key management proposals gaining traction
+- **Peer Projects**: NanoBot, Hermes Agent, and IronClaw saw steady contributions focused on memory systems, plugin security, and cross-platform compatibility.
 
 ---
 
-## 4. Open Source Trends
+### **4. Open Source Trends**
 
-### GitHub Trending Dominance
-
-| Rank | Project | Stars Gained | Category | Signal |
-|:---|:---|---:|:---|:---|
-| 1 | `forrestchang/andrej-karpathy-skills` | **+7,959** (Apr 17) | AI基础工具 | "Skills-as-Code" phenomenon: single `CLAUDE.md` file from Karpathy's observations becomes canonical prompt engineering asset |
-| 2 | `obra/superpowers` | +1,713 (Apr 18) | Agent框架 | First systematic "agent skills framework + software development methodology" |
-| 3 | `thedotmack/claude-mem` | +1,897 (Apr 17) | AI基础工具 | Memory persistence for Claude Code: session capture → AI compression → future context injection |
-| 4 | `EvoMap/evolver` | +737–845 | Agent框架 | GEP (Genomic Evolution Protocol) self-evolving agent engine; "bio-inspired iteration" paradigm |
-| 5 | `lsdefine/GenericAgent` | +845 | Agent框架 | 3,300-line seed code → self-growing skill tree; 6× token efficiency claim |
-
-### Technical Direction Vectors
-
-| Direction | Evidence | Maturity |
-|:---|:---|:---|
-| **Skills-as-Code / Agent modularity** | Karpathy skills, superpowers, Anthropic Agent Skills open standard | 🌱 Standard formation |
-| **Memory persistence & context continuity** | claude-mem, mem0, RAG techniques proliferation | 🌿 Active growth |
-| **Self-evolving / recursive agents** | evolver, GenericAgent, AutoGPT lineage | 🌱 Experimental |
-| **Voice + multimodal agent interfaces** | voicebox, Google Gemini TTS, omi hardware | 🌿 Productizing |
-| **Browser-as-agent-environment** | Chrome DevTools MCP, browser-use, Tine (Wayland) | 🌿 Infrastructure building |
-| **Local/edge model efficiency** | Rapid-MLX, dflash (speculative decoding), MiniMax M2.7 | 🌿 Competitive pressure on cloud |
+- **Multi-Agent Frameworks**: OpenAI Agents Python (752 stars in one day) and EvoMap/evolver highlight explosive growth in autonomous agent orchestration.
+- **Edge Deployment**: Ollama continues leading local LLM deployment; Rapid-MLX offers 2–3× faster Mac inference.
+- **RAG & Vector DBs**: Qdrant, LanceDB, and Milvus maintain stronghold in knowledge retrieval applications.
+- **Educational Resources**: "Dive into LLMs" tutorials and minimind (64M param GPT in 2 hours) emphasize accessible AI training.
+- **New Horizons**: RuView (WiFi-based human sensing) and Omi (ambient AI assistant) demonstrate non-traditional AI application spaces.
 
 ---
 
-## 5. HN Community Highlights
+### **5. HN Community Highlights**
 
-### Sentiment Trajectory: Cautious → Critical → Anxious
-
-| Date | Dominant Topic | Sentiment | Key Threads |
-|:---|:---|:---|:---|
-| Apr 14 | Stanford AI Index: insider-outsider disconnect | 😤 Skeptical | 180 pts / 228 comments; "AI bubble" narratives resurgent |
-| Apr 15 | Claude Code Routines + Sonnet 4.6 quality degradation | 😤 Frustrated | 371 pts / 237 comments; "downgrade fixes reasoning" viral tweet; quota burn complaints |
-| Apr 16 | Gas Town "steals" user LLM credits | 😠 Outraged | 197 pts / 93 comments; data ethics, ToS boundaries, transparency demands |
-| Apr 17 | Claude Opus 4.7 vs. Codex expansion | 🤔 Divided | 1,394 pts / 1,009 comments (Opus); 634 pts / 349 comments (Codex); competition enthusiasm vs. lock-in fears |
-| Apr 18 | Claude Design: creative AI takeover anxiety | 😰 Ambivalent | 799 pts / 532 comments; "vibe coding" design efficiency vs. skill depreciation grief |
-| Apr 19 | Claude Design emotional complexity + Opus 4.7 safety | 🤔 Reflective | 203 pts / 136 comments; "AI-assisted vs. replaced" philosophy debate |
-| Apr 20 | Anthropic platform risk: bans, version dark changes, API removals | 😠 Distrustful | "Banned by Anthropic" protest site; system prompt diff analysis; sampling parameter removal seen as control grab |
-
-### Recurring Community Anxieties
-
-| Theme | Manifestations |
-|:---|:---|
-| **Vendor lock-in / platform dependency** | Claude-codex-proxy (ChatGPT sub → Claude Code), OpenClawdex orchestrator, Swiss gov "de-Microsoftization" |
-| **Model quality opacity** | Version-to-version degradation claims, "nerfing" accusations, tokenizer cost surprises |
-| **Governance transparency** | Account bans without explanation, API parameter removals, safety framework trust |
-| **Productivity paradox** | Uber $37B AI budget strain, CEO survey: AI not improving productivity, academic paper: AI assistance reduces persistence |
-| **Geopolitical tech sovereignty** | Swiss autonomous AI infrastructure push, Chinese models entering comparison matrices |
+- **Polarized sentiment** toward Anthropic: While excited about Claude Design’s UI potential, many lament Sonnet 4.6 quality regression and rapid quota burn rates.
+- **Enterprise AI ROI skepticism**: Uber CTO admits $3.4B AI spend hasn't improved productivity; Swiss authorities push for Microsoft/Azure independence.
+- **Security & Governance**: NSA uses Mythos despite blacklists; White House plans federal agency Mythos access; UK evaluates cyber capabilities of Claude Mythos Preview.
+- **Tool Critiques**: Widespread frustration over Claude Code’s aggressive compaction, Codex’s token leakage, and Copilot CLI’s opaque billing.
 
 ---
 
-## 6. Official Announcements
+### **6. Official Announcements**
 
-### Anthropic (5 releases, high signal density)
+- **Anthropic**:
+  - **Claude Opus 4.7** (Apr 16): Engineering-focused update emphasizing software development enhancements and integrated cybersecurity testing mechanisms.
+  - **Claude Design by Anthropic Labs** (Apr 17): First product from internal labs—targeted at designers/non-coders for visual prototyping.
+- **OpenAI**:
+  - **Agents SDK Evolution** (Apr 15): Technical preview of next-gen multi-agent framework (details undisclosed).
+  - **GPT-Rosalind** (Apr 16): Domain-specific model for biological research.
+  - **Cyber Defense Ecosystem Initiative** (Apr 16): Strategic push into AI-powered cybersecurity infrastructure.
 
-| Date | Content | Strategic Layer |
-|:---|:---|:---|
-| Apr 14 | "Building Effective AI Agents" (engineering blog, 2024-12-19 re-surfaced) | **Standard-setting**: workflows vs. agents taxonomy; composability over frameworks |
-| Apr 15 | Fellows: "Automated Alignment Researchers" + LTBT board majority (Narasimhan) | **Governance + safety**: recursive alignment research; healthcare regulatory credibility |
-| Apr 16 | "Equipping agents for the real world with Agent Skills" (updated) | **Open standard**: cross-platform skill portability; MCP ecosystem reinforcement |
-| Apr 17 | **Claude Opus 4.7** + **Claude Design** | **Product**: capability tiering transparentized; multimodal professional expansion |
-| Apr 18 | Opus 4.7 system card + Model Card | **Safety**: differential capability reduction; auto-detection/interception safeguards |
-
-### OpenAI (4 URL-level signals, low transparency)
-
-| Date | Inferred Content | Confidence |
-|:---|:---|:---:|
-| Apr 16 | "The Next Evolution of the Agents SDK" | Medium — title only, no body |
-| Apr 17 | "Codex For Almost Everything" | High — confirmed by HN discussion |
-| Apr 17 | "Introducing GPT Rosalind" (×2 entries) | Medium — possibly multilingual or multi-category indexing |
-| Apr 17 | "Accelerating Cyber Defense Ecosystem" | Low — cybersecurity direction, details unknown |
-
-**Assessment**: Anthropic dominates narrative control with dense, substantive disclosures; OpenAI operates in strategic silence with competitive product releases but minimal explanatory content.
+> *Note: OpenAI’s April 18 site was silent.*
 
 ---
 
-## 7. Next Week's Signals
+### **7. Next Week's Signals**
 
-### High-Probability Events
+- **MCP Standardization Push**: Expect increased interoperability specs between Claude Code, Codex, and third-party tools as MCP adoption matures.
+- **Local Model Wars**: Competition will intensify around Ollama, LM Studio, and Pi’s Bedrock integration for private, low-latency inference.
+- **Agent Identity Standards**: OpenClaw’s trust verification RFC may inspire similar proposals in other ecosystems, especially as malicious skill attacks grow.
+- **Cost Transparency Demands**: Tools like Claude Code and Copilot CLI will likely face pressure to improve real-time usage dashboards and budget controls.
+- **Government AI Procurement**: With US/UK agencies testing Mythos, expect more public case studies on regulated deployment of advanced models.
 
-| Signal | Basis | Watch For |
-|:---|:---|:---|
-| **OpenAI major release or DevDay signaling** | Content silence since Apr 17; historical pattern of quiet-before-storm | GPT-5 series naming, o-series reasoning update, Sora expansion, or consumer product pivot |
-| **Claude Code pricing/model policy adjustment** | Billing controversy peak (#38335, #47587); community exodus threats | Usage-based pricing transparency, tier restructuring, or Opus 4.7 cost optimization |
-| **OpenClaw v2026.4.15 stable** | Beta.2 released Apr 20; onboarding crash hotfix pattern | Windows native support timeline, Memory v2 architecture, SiliconFlow integration |
-| **Qwen Code recovery or further erosion** | v0.15.0-preview.0 ACP Hooks; trust damage from OAuth crisis | Community retention metrics, alternative auth (API key fallback), IDE plugin stability |
+--- 
 
-### Emerging Tensions to Monitor
-
-| Tension | Stakeholders | Flashpoint |
-|:---|:---|:---|
-| **Agent identity standards** | OpenClaw (MolTrust RFC) vs. platform vendors | Will Anthropic/OpenAI adopt DID/VC or push proprietary identity? |
-| **Local vs. cloud model efficiency** | Apple Silicon (Rapid-MLX), edge chips (PicoClaw), cloud API economics | Qwen3.6-35B laptop performance already challenging Opus 4.7 on specific tasks |
-| **"Skills" marketplace fragmentation** | Anthropic (open standard), OpenAI (plugin market), Vercel (open-agents), independent (superpowers) | Interoperability or walled gardens? |
-| **Regulatory access demands** | US Treasury (Mythos), UK AISI, EU AI Act implementation | Precedent for government model evaluation access |
-
-### Technical Debt Accumulation Risks
-
-| Project | Debt Signal | Trigger Condition |
-|:---|:---|:---|
-| OpenClaw | 58.8% PR unmerged; onboarding regression chain | Maintainer burnout or security incident requiring rapid response |
-| OpenCode | Effect Schema migration + version jump trust erosion | Production breakage in enterprise deployment |
-| Copilot CLI | Zero external contribution; rate limit architecture | GitHub ecosystem policy change or competitive displacement |
-| Claude Code | Cowork Windows stability crisis; phone verification lockout (711 comments) | Enterprise procurement freeze or regulatory inquiry |
+*Prepared by AI Technical Analyst | Data Coverage: 2026-04-14 to 2026-04-20*
 
 ---
-
-*Report compiled from 7 daily digests covering 8 CLI tools, 13 OpenClaw ecosystem projects, GitHub Trending/Search API, Hacker News front page, and official Anthropic/OpenAI content tracking.*
-
----
-*This digest is auto-generated by [agents-radar](https://github.com/duanyytop/agents-radar).*
+*This digest is auto-generated by [agents-radar](https://github.com/DenisZheng/agents-radar).*

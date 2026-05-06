@@ -1,115 +1,69 @@
 # ArXiv AI 研究日报 2026-05-01
 
-> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-05-01 01:49 UTC
+> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-05-01 00:33 UTC
 
 ---
 
-好的，作为AI研究分析师，以下是根据您提供的论文列表生成的《ArXiv AI 研究日报》。
+好的，作为您的 AI 研究分析师，以下是为您生成的《ArXiv AI 研究日报》（2026-05-01）。
 
 ---
 
-### 📝 ArXiv AI 研究日报：2026-05-01
+### **ArXiv AI 研究日报 (2026-05-01)**
 
-#### 1. 今日速览
+#### **今日速览**
 
-今日研究亮点纷呈，**扩散语言模型**与**小型语言模型（SLM）** 的效率提升成为焦点，前者通过跨架构蒸馏实现性能突破，后者则借助大模型“选择性思考”来弥补推理短板。在智能体领域，**实时世界预测**与**自适应检索增强生成**为构建更具主动性和动态性的AI系统开辟了新路径。此外，对AI系统的**可信任**与**安全性**的探讨，如同步噪声理论、临床AI信任框架等，从理论和应用层面提供了严谨的分析。基础方法方面，**无训练架构搜索**和**凸神经网络**的新进展则展示了理论与实践的深度结合。
+本期 ArXiv 呈现出多领域协同创新的态势。在模型架构方面，扩散语言模型（dLLMs）的蒸馏技术取得进展，旨在解决其参数量大的问题。同时，针对大模型的推理与效率瓶颈，涌现出“选择即思考”（Select to Think）和系统集成的推测解码等创新方法。此外，一个名为 FutureWorld 的实时环境框架被提出，为训练具有现实世界奖励预测能力的智能体提供了新范式，标志着从模拟向真实世界部署的加速。
 
-#### 2. 重点论文
+#### **重点论文**
 
-##### 🧠 大语言模型（架构、训练、对齐、评估）
+##### **🧠 大语言模型（架构、训练、对齐、评估）**
 
--   **Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models**
-    -   **作者:** Gongbo Zhang et al.
-    -   **一句话说明:** 提出了跨架构蒸馏方法TIDE，将自回归LLM的知识迁移至扩散LLM（dLLM），有效提升了dLLM的生成质量和并行解码效率，为构建更高效的下一代语言模型铺平了道路。
-    -   [链接](http://arxiv.org/abs/2604.26951v1)
+*   **Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models** (http://arxiv.org/abs/2604.26951v1)
+    *   **Zhang W, Tian Y et al.** 提出了跨架构蒸馏方法，旨在将大型扩散语言模型的知识迁移到更小、更高效的模型中，从而降低其高昂的参数量和计算成本。
+*   **Language Diffusion Models are Associative Memories Capable of Retrieving Unseen Data** (http://arxiv.org/abs/2604.26841v1)
+    *   **Pham B, Zaki MJ et al.** 揭示了语言扩散模型本质上是一种联想记忆，能够创造性地检索未见数据，这为理解其生成机制和潜在的“记忆”特性提供了新的理论视角。
+*   **Uncertainty-Aware Predictive Safety Filters for Probabilistic Neural Network Dynamics** (http://arxiv.org/abs/2604.26836v1)
+    *   **Frauenknecht B, Kesper L et al.** 引入了一种基于概率神经网络的预测安全过滤器，能够在强化学习探索过程中，结合模型不确定性，更可靠地强制执行安全约束。
+*   **HalluCiteChecker: A Lightweight Toolkit for Hallucinated Citation Detection and Verification** (http://arxiv.org/abs/2604.26835v1)
+    *   **Sakai Y, Kamigaito H et al.** 开发了 HalluCiteChecker 工具包，用于检测科学论文中AI生成的虚假引用，这对于维护学术诚信和评估AI辅助写作的质量至关重要。
 
--   **Language Diffusion Models are Associative Memories Capable of Retrieving Unseen Data**
-    -   **作者:** Bao Pham et al.
-    -   **一句话说明:** 从理论上论证了基于均匀扩散的离散扩散模型（UDDM）本质上是一种联想记忆模型，并揭示了其具备检索“未见数据”（即创造性地组合训练数据）的能力，深化了我们对扩散模型生成机制的理解。
-    -   [链接](http://arxiv.org/abs/2604.26841v1)
+##### **🤖 智能体与推理（规划、工具使用、多智能体、思维链）**
 
--   **Select to Think: Unlocking SLM Potential with Local Sufficiency**
-    -   **作者:** Wenxuan Ye et al.
-    -   **一句话说明:** 提出“选择性思考”框架，让小型语言模型（SLM）在推理时识别出“推理分歧点”，并仅在必要时才调用大型模型（LLM）进行辅助，以极低的额外成本大幅提升SLM的推理能力。
-    -   [链接](http://arxiv.org/abs/2604.26940v1)
+*   **Select to Think: Unlocking SLM Potential with Local Sufficiency** (http://arxiv.org/abs/2604.26940v1)
+    *   **Ye W, Zhang Y et al.** 提出了一种利用“局部充分性”来激活小型语言模型（SLM）推理能力的方法，通过引导其在需要时调用外部资源（如LLM），在不显著增加其规模的情况下提升其性能。
+*   **Bian Que: An Agentic Framework with Flexible Skill Arrangement for Online System Operations** (http://arxiv.org/abs/2604.26805v1)
+    *   **Liu B, Qian Z et al.** 介绍了 Bian Que 代理框架，该框架通过灵活的“技能编排”来自动化大规模在线系统的运维任务，展示了LLM在复杂现实世界操作中的实际应用潜力。
+*   **FutureWorld: A Live Environment for Training Predictive Agents with Real-World Outcome Rewards** (http://arxiv.org/abs/2604.26733v1)
+    *   **Han Z, Zhang Y et al.** 推出了 FutureWorld 平台，这是一个连接虚拟世界与真实世界的实时环境，旨在训练能够对未来真实事件进行预测并获取实际结果奖励的智能体，是迈向通用人工智能的重要一步。
 
--   **MoRFI: Monotonic Sparse Autoencoder Feature Identification**
-    -   **作者:** Dimitris Dimakopoulos et al.
-    -   **一句话说明:** 提出了一种新的稀疏自编码器特征识别方法MoRFI，能更精确地定位LLM中存储事实知识的神经元，为识别和修正模型幻觉、进行知识编辑提供了更可靠的工具。
-    -   [链接](http://arxiv.org/abs/2604.26866v1)
+##### **🔧 方法与框架（新技术、基准测试、效率优化）**
 
--   **Domain-Adapted Small Language Models for Reliable Clinical Triage**
-    -   **作者:** Manar Aljohani et al.
-    -   **一句话说明:** 验证了经过领域适配的开源小型语言模型（SLM）在急诊分诊（ESI评分）任务上能取得与大型模型相媲美的可靠性，证明了在医疗等关键领域部署高效、可信的SLM的可行性。
-    -   [链接](http://arxiv.org/abs/2604.26766v1)
+*   **FaaSMoE: A Serverless Framework for Multi-Tenant Mixture-of-Experts Serving** (http://arxiv.org/abs/2604.26881v1)
+    *   **Wang M, Malekabbasi M et al.** 设计了 FaaSMoE 无服务器框架，解决了 MoE 模型在多租户环境下部署的资源利用率低和内存占用高的问题，提升了服务效率和可扩展性。
+*   **Accelerating RL Post-Training Rollouts via System-Integrated Speculative Decoding** (http://arxiv.org/abs/2604.26779v1)
+    *   **Iso H, Mitra T et al.** 提出了一种系统级集成的推测解码方法，用于加速强化学习后训练阶段的 rollout 生成，通过硬件和算法的协同设计，有效缓解了前沿语言模型训练的计算瓶颈。
+*   **Random Cloud: Finding Minimal Neural Architectures Without Training** (http://arxiv.org/abs/2604.26830v1)
+    *   **Blázquez JG** 提出了 Random Cloud 方法，这是一种无需训练的神经架构搜索方法，通过随机探索和渐进式结构缩减来寻找最小网络拓扑，为高效模型设计开辟了新路径。
+*   **A Note on How to Remove the $\ln\ln T$ Term from the Squint Bound** (http://arxiv.org/abs/2604.26926v1)
+    *   **Orabona F** 提供了一种技术性解决方案，通过改变先验分布来消除参数无关的专家学习边界中的 $\ln\ln T$ 项，这是对理论机器学习基础的重要补充。
 
-##### 🤖 智能体与推理（规划、工具使用、多智能体、思维链）
+##### **📊 应用（垂直领域、多模态、代码生成）**
 
--   **When to Retrieve During Reasoning: Adaptive Retrieval for Large Reasoning Models**
-    -   **作者:** Dongxin Guo et al.
-    -   **一句话说明:** 针对长思维链推理模型，提出自适应检索策略，在模型推理过程中动态决定“何时需要检索外部知识”，解决了传统RAG在推理任务中检索时机与推理过程错配的问题。
-    -   [链接](http://arxiv.org/abs/2604.26649v1)
+*   **KAYRA: A Microservice Architecture for AI-Assisted Karyotyping with Cloud and On-Premise Deployment** (http://arxiv.org/abs/2604.26869v1)
+    *   **Pintér A, Répai A et al.** 展示了 KAYRA 系统，这是一个专为临床细胞遗传实验室设计的端到端核型分析微服务架构，结合了先进的计算机视觉模型，实现了云和本地部署，体现了AI在精准医疗中的深度落地。
+*   **Domain-Adapted Small Language Models for Reliable Clinical Triage** (http://arxiv.org/abs/2604.26766v1)
+    *   **Aljohani M, Ho B et al.** 研究了领域适配的小型语言模型在急诊分诊中的应用，证明其在处理非结构化文本时，能够提供更准确和一致的紧急程度评估，有助于提升医疗决策效率。
+*   **ClassEval-Pro: A Cross-Domain Benchmark for Class-Level Code Generation** (http://arxiv.org/abs/2604.26923v1)
+    *   **Chen Y, Xie C et al.** 引入了 ClassEval-Pro 基准测试，专注于评估LLM在类级别代码合成方面的能力，填补了函数级和仓库级代码生成之间的能力空白，为代码生成模型的性能评估提供了新标准。
 
--   **FutureWorld: A Live Environment for Training Predictive Agents with Real-World Outcome Rewards**
-    -   **作者:** Zhixin Han et al.
-    -   **一句话说明:** 构建了名为FutureWorld的实时预测环境，让智能体通过与真实世界事件（如股价、天气）的互动进行训练，并利用真实结果作为奖励信号，开辟了训练“实时预测”智能体的新范式。
-    -   [链接](http://arxiv.org/abs/2604.26733v1)
+#### **研究趋势信号**
 
--   **Accelerating RL Post-Training Rollouts via System-Integrated Speculative Decoding**
-    -   **作者:** Hayate Iso et al.
-    -   **一句话说明:** 将投机性解码技术系统性地整合到LLM的强化学习（RL）后训练阶段，显著加速了策略rollout的生成过程，有望极大降低RL训练的计算成本。
-    -   [链接](http://arxiv.org/abs/2604.26779v1)
+本期投稿清晰地反映出几个核心趋势：首先，**模型效率与部署优化**仍是热点，无论是通过跨架构蒸馏、无服务器MoE框架，还是推测解码，都致力于解决大模型在实际应用中的成本和延迟问题。其次，**可信AI和可解释性**受到高度重视，从临床AI的信任框架、虚假引用检测工具，到不确定性感知的安全过滤器，研究者们正致力于构建更安全、更可靠的AI系统。最后，**真实世界交互与自主进化**成为前沿探索方向，如 FutureWorld 平台和自进化的视频理解框架，表明AI研究正从静态任务求解向动态、开放环境下的持续学习和适应演进。
 
-##### 🔧 方法与框架（新技术、基准测试、效率优化）
+#### **值得精读**
 
--   **Random Cloud: Finding Minimal Neural Architectures Without Training**
-    -   **作者:** Javier Gil Blázquez
-    -   **一句话说明:** 提出“随机云”方法，通过在随机初始化网络中探索并进行结构缩减，实现了无需任何训练的神经网络架构搜索，找到了极简且有效的网络结构，挑战了“训练是架构搜索必要条件”的传统观念。
-    -   [链接](http://arxiv.org/abs/2604.26830v1)
-
--   **Unifying Sparse Attention with Hierarchical Memory for Scalable Long-Context LLM Serving**
-    -   **作者:** Zihan Zhao et al.
-    -   **一句话说明:** 提出一种系统级方案，将动态稀疏注意力与分层KV缓存管理（如将冷数据卸载至CPU内存）相结合，在保证长上下文服务生成质量的同时，显著提升了内存效率和推理吞吐量。
-    -   [链接](http://arxiv.org/abs/2604.26837v1)
-
--   **Hyper Input Convex Neural Networks for Shape Constrained Learning and Optimal Transport**
-    -   **作者:** Shayan Hundrieser et al.
-    -   **一句话说明:** 提出了超输入凸神经网络（HyCNN），一种在理论上保证对输入处处凸的新架构，为形状约束学习和最优传输问题提供了更强大的建模能力。
-    -   [链接](http://arxiv.org/abs/2604.26942v1)
-
--   **ClassEval-Pro: A Cross-Domain Benchmark for Class-Level Code Generation**
-    -   **作者:** Yeheng Chen et al.
-    -   **一句话说明:** 发布了新的代码生成基准ClassEval-Pro，专注于评估LLM生成完整、结构化的“类”（Class）级别代码的能力，填补了函数级和仓库级代码生成之间的评估空白。
-    -   [链接](http://arxiv.org/abs/2604.26923v1)
-
-##### 📊 应用（垂直领域、多模态、代码生成）
-
--   **Decoupling Knowledge and Task Subspaces for Composable Parametric Retrieval Augmented Generation**
-    -   **作者:** Weihang Su et al.
-    -   **一句话说明:** 提出解耦知识子空间和任务子空间的参数化检索增强生成（PRAG）方法，将外部文档编码为可组合的轻量参数模块，实现了更灵活、零样本泛化能力更强的知识注入。
-    -   [链接](http://arxiv.org/abs/2604.26768v1)
-
--   **Translating Under Pressure: Domain-Aware LLMs for Crisis Communication**
-    -   **作者:** Antonio Castaldo et al.
-    -   **一句话说明:** 为解决危机沟通中的多语言翻译瓶颈，提出领域自适应流水线，通过检索增强和模型微调，在小规模平行语料上训练出专业、及时的灾难信息翻译系统。
-    -   [链接](http://arxiv.org/abs/2604.26597v1)
-
-#### 3. 研究趋势信号
-
--   **小型模型智能增强：** 相较于单纯堆砌参数，通过“选择性思考”、“跨架构蒸馏”和“领域适配”等手段，让小型模型在特定场景下具备匹敌或超越大型模型的能力，正成为一个明确的趋势，旨在实现效率与性能的帕累托最优。
--   **实时与动态智能体：** 研究重心正从静态的知识问答转向动态的、与真实世界交互的智能体。“实时预测”、“自适应检索”和“RL加速rollout”等研究，共同指向了构建能够实时感知、主动规划和快速学习的AI Agent的未来方向。
--   **跨架构与系统级优化：** 无论是“扩散模型”与“自回归模型”的融合蒸馏，还是“注意力机制”与“分层内存”的系统级协同，打破单一架构壁垒、从全栈视角进行性能优化，正成为解决大模型部署中核心瓶颈（如推理速度、长上下文处理）的核心思路。
-
-#### 4. 值得精读
-
-1.  **Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models**
-    -   **理由:** 本文探讨了扩散LLM（dLLM）和自回归LLM这两种截然不同架构的融合，其跨架构蒸馏的思路有望解决dLLM性能不及自回归模型的痛点，对下一代语言模型架构的发展具有重要的参考价值。
-
-2.  **Select to Think: Unlocking SLM Potential with Local Sufficiency**
-    -   **理由:** 本文提供了一种极具实用价值的SLM性能提升方案。它通过“按需”调用大模型，在成本和性能之间取得了巧妙的平衡，为在资源受限环境下部署有竞争力的语言模型提供了清晰可行的路线图。
-
-3.  **Random Cloud: Finding Minimal Neural Architectures Without Training**
-    -   **理由:** 本文提出的“无训练”架构搜索方法完全颠覆了传统NAS的思想。其简洁而反直觉的核心思想挑战了领域共识，如果其可扩展性得到验证，将极大改变神经网络设计的流程和效率。
+1.  **Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models** (http://arxiv.org/abs/2604.26951v1)：这篇论文提出的跨架构蒸馏方法，如果成功，将极大推动扩散语言模型的实际应用，因为它直接针对其最致命的弱点——巨大的参数量。它可能成为未来高效生成式AI架构设计的一个关键思路。
+2.  **Bian Que: An Agentic Framework with Flexible Skill Arrangement for Online System Operations** (http://arxiv.org/abs/2604.26805v1)：Bian Que 框架展示了如何将大型语言模型的能力转化为解决复杂、现实世界运维问题的实际系统。它对于理解LLM在多智能体和复杂任务自动化中的角色具有重要价值，是研究“Agentic AI”落地的优秀案例。
 
 ---
-*本日报由 [agents-radar](https://github.com/duanyytop/agents-radar) 自动生成。*
+*本日报由 [agents-radar](https://github.com/DenisZheng/agents-radar) 自动生成。*

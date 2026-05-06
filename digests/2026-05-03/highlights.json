@@ -1,118 +1,94 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code 计费配额危机持续发酵，1463 评论",
-      "OpenAI Codex 服务层级重构，Hooks 权限三连击",
-      "Pi 终端键盘协议爆发，37 Issues + 22 PR",
-      "OpenCode v1.14.33 热修复插件回归故障",
-      "Qwen Code v0.15.6-nightly 推进背景任务 Phase C",
-      "Gemini CLI 代理\"行动偏见\"引发安全质疑"
+      "Claude Code 生态繁荣，ruflo 和 browserbase/skills 强化代码 Agent 协作能力",
+      "OpenCode 发布 v1.14.33，持续优化 MCP 插件与配额管理体验",
+      "Qwen Code 推出 v0.15.6-nightly.20260503，新增 API 重试机制提升稳定性",
+      "AI CLI 工具普遍面临计费可靠性、渲染器崩溃及跨平台兼容性问题",
+      "MCP 插件成 AI CLI 生态核心组件，集成能力直接影响扩展性与实用性",
+      "GitHub Copilot CLI 报告 PowerShell 兼容性缺陷，影响 Windows 用户操作"
     ],
     "ai-agents": [
-      "OpenClaw v2026.5.2 紧急修复 4.29 性能退化",
-      "CPU 100% 占用、消息延迟 70 秒成热点",
-      "24 小时 500 Issues + 500 PR 创活跃度峰值",
-      "外部插件 npm 优先策略或改变加载顺序",
-      "网关与 Agent 热路径精简优化",
-      "openclaw doctor 诊断工具成迁移必备"
+      "OpenClaw 发布 v2026.5.2，增强插件管理与 Gateway 性能优化",
+      "TradingAgents 以单日 +2225 stars 登顶 GitHub Trending，引领金融 Agent 落地",
+      "Agent-desktop 成为今日 HN 最热项目，评分 92，获 34 条评论",
+      "OpenClaw 社区热议 v4.29 导致事件循环阻塞达 73 秒的性能问题",
+      "Mljar Studio 推出本地 AI 数据分析工具，支持保存分析为可复现笔记本",
+      "Governor Claude 插件上线，旨在减少 token 与上下文浪费提升效率"
     ],
     "ai-trending": [
-      "TradingAgents 单日 +2225 stars 登顶 Trending",
-      "ruflo +1299 stars，Claude 专属 Agent 编排平台",
-      "ollama 支持 Kimi-K2.5、GLM-5 新模型",
-      "browserbase/skills +346 stars，Agent 联网标准组件",
-      "NousResearch/hermes-agent 突破 12 万 stars",
-      "deer-flow 64K stars，字节长时程 SuperAgent"
+      "TradingAgents 金融交易智能体框架爆红，单日获 2225 颗星",
+      "Ollama 新增 Kimi-K2.5 支持，推动国产大模型本地化部署普及",
+      "browser-use 让 AI 自主浏览网页执行任务，打通真实世界交互",
+      "ruvnet/ruflo 多智能体编排平台崛起，支持分布式 swarm intelligence",
+      "vLLM 推理引擎持续火热，优化显存效率支撑生产级大模型服务",
+      "Cherry Studio 集成 300+ 助手，统一接入主流开源与闭源大模型"
     ],
     "ai-hn": [
-      "Agent-desktop 92 分 34 评论，原生桌面自动化 CLI",
-      "Dawkins 宣称 Claude 有意识引发激烈辩论",
-      "Anthropic $900B 估值与 Pentagon 绕过签约对照",
-      "LLM 隐写术：等长文本嵌入隐藏信息",
-      "HBR 指 LLM 战略建议充斥\"趋势垃圾\"",
-      "Mljar Studio 61 分，本地 AI 数据分析师"
-    ],
-    "ai-ph": [
-      "Zed 1.0 以 317 票登顶，高性能开源编辑器",
-      "Marx Finance 224 票，多 Agent 辩论金融市场",
-      "Buda 186 票，Agent 协同运营公司架构",
-      "Montage 122 票，Agent 动态 UI 运行时框架",
-      "HiveTerm 多模型工作台展现底层创新",
-      "NodeDB 多模态数据库引领基础设施深耕"
+      "Show HN: Agent-desktop 获 92 分 34 评，原生桌面自动化 CLI 受追捧",
+      "Mljar Studio 本地 AI 数据分析师上线，成果自动保存为可分享笔记本",
+      "LLMs 可在同长文本中隐藏信息，安全领域面临新挑战",
+      "Anthropic 或于两周内启动 900B+ 估值融资轮，AI 巨头竞争白热化",
+      "AI 代理通过自改进突破能力边界，引发技术乐观派热议",
+      "AI 生成虚假新闻致政策撤回，公众信任危机再引讨论"
     ],
     "ai-hf": [
-      "DeepSeek-V4-Pro 3415 赞，381K 下载登顶",
-      "DeepSeek-V4-Flash 345K 下载验证轻量策略",
-      "Gemma-4-31B 777 万下载，多模态对话主流化",
-      "Kimi-K2.6 1181 赞，压缩张量优化长文本",
-      "MiMo-V2.5-Pro 小米端侧 Agent 进阶",
-      "NVIDIA Nemotron-3 Nano Omni 推 any-to-any 架构"
+      "Google Gemma 4 系列下载破 770 万，成当日最受欢迎开源模型",
+      "DeepSeek-V4-Pro 稳居榜首，下载量达 38 万次，性能持续领先",
+      "Qwen3.6-27B 图文对话模型下载超 100 万，阿里云多模态布局显效",
+      "Kimi-K2.6 视觉语言模型获 1182 点赞，推理能力受社区认可",
+      "Gemma-4-31B-JANG_4M-CRACK 去审查版上线，满足特殊需求用户",
+      "Mistral-Medium-3.5-128B 支持 vLLM 加速，平衡性能与部署效率"
     ],
     "ai-community": [
-      "AI Harness：仓库结构决定代理能力上限",
-      "确定性工作流 vs 自主代理架构选型分歧",
-      "知识图谱替代 RAG，复杂任务更优",
-      "Coding Agent 需合约机制防漂移",
-      "5 个 MCP 服务器生产级避坑指南",
-      "AI 能耗水耗测量工具与优化策略"
+      "CrewAI 多智能体工作流需建立信任边界，防错误跨角色传播",
+      "生产环境 AI 常忽视数据预处理断层，监控缺失致系统崩溃",
+      "AI 编码代理应依赖契约而非提示，实现意图漂移可检测修复",
+      "用图遍历替代 RAG 搜索，提升知识密集型任务的长程依赖建模",
+      "AI 产品架构暗战：确定性流水线 vs 自主探索型代理成主流选择",
+      "Spec-Driven Development 受 Karpathy 启发，推动形式化规约驱动开发"
     ]
   },
   "en": {
     "ai-cli": [
-      "Claude Code faces billing crisis amid enterprise adoption",
-      "OpenAI Codex leads PR velocity with 50 PRs in 24h",
-      "Gemini CLI invests heavily in agentic infrastructure",
-      "Qwen Code prioritizes background task orchestration",
-      "OpenCode bets on open-source extensibility",
-      "Kimi CLI grapples with opaque cost structures"
+      "Claude Code sees 10+ hot issues and active PRs",
+      "OpenAI Codex maintains ~10 hot issues with 10+ PRs",
+      "Gemini CLI has 10 hot issues and 10 active PRs",
+      "Claude Code Skills plugin ecosystem expands",
+      "OpenCode adds extensible hooks for workflows",
+      "Qwen Code gains new release today"
     ],
     "ai-agents": [
-      "OpenClaw hits 500 issues and 500 PRs in 24 hours",
-      "v2026.5.2 introduces npm-first plugin ecosystem",
-      "Critical CPU regression hits v2026.4.29 release",
-      "452 open PRs show merge bottleneck crisis",
-      "Three new releases in rapid 2026.5.2 cycle",
-      "Plugin infrastructure reaches maturity milestone"
+      "OpenClaw released v2026.5.2 with plugin lifecycle management",
+      "v2026.5.2-beta.3 improves gateway performance optimizations",
+      "OpenClaw handles artifact metadata and npm-first scenarios",
+      "External plugin installation and doctor repair added",
+      "Stale installs and missing payloads now supported",
+      "Beta-channel fallbacks implemented for plugin provisioning"
     ],
     "ai-trending": [
-      "ruvnet/ruflo surges +1,299 stars for Claude agents",
-      "TradingAgents gains +2,225 stars for financial AI",
-      "jcode rises +482 stars as Rust coding agent",
-      "Browserbase skills adds +346 on browser automation",
-      "Ollama hits 170,576 stars supporting Kimi-K2.5",
-      "MCP protocols dominate integration patterns"
+      "TradingAgents trending as multi-agent financial framework",
+      "ruflo emerges as TypeScript-native agent orchestration platform",
+      "vllm, ollama, browser-use drive inference and web automation",
+      "Agent SDKs like skills and claude-mem gain traction",
+      "Dify visual workflow builder for no-code AI pipelines",
+      "Kimi-K2.5 and DeepSeek models popular in edge deployments"
     ],
     "ai-hn": [
-      "Richard Dawkins claims Claude chatbot is conscious",
-      "Anthropic rumored at $900B valuation round",
-      "LLMs can hide text in same-length steganography",
-      "Researchers coin 'trendslop' for bad LLM advice",
-      "South Africa withdraws AI-generated policy",
-      "Agent tooling dominates Show HN submissions"
-    ],
-    "ai-ph": [
-      "Buda launches multi-agent company orchestration",
-      "Marx Finance pits AI agents in market debates",
-      "Zed 1.0 releases highly anticipated launch",
-      "Montage builds runtime for agentic UIs",
-      "Shift from copilot to autonomous teammate",
-      "Multi-agent workflows replace single-model tools"
+      "Agent-desktop scores 92 points as native desktop automation CLI",
+      "Richard Dawkins' AI chatbot consciousness debate sparks discussion",
+      "Pentagon deals with Big Tech exclude Anthropic from contracts",
+      "Meta acquires robotics startup amid embodied AI investments",
+      "LLM steganography reveals covert text embedding vulnerability",
+      "Preliminary AI automation impacts studied in worker evaluations"
     ],
     "ai-hf": [
-      "gemma-4-31B-it hits 7.8M downloads in one week",
-      "DeepSeek-V4-Pro ranks with 381,587 downloads",
-      "Qwen variants occupy one-third of trending slots",
-      "NVIDIA launches any-to-any multimodal reasoning",
-      "MiMo-V2.5-Pro emerges from Xiaomi ecosystem",
-      "Laguna-XS.2 targets specialized coding agents"
-    ],
-    "ai-community": [
-      "AI agent quality depends on repo structure",
-      "Docker-based self-hosted agent replaces manual work",
-      "Hidden layer breaking production AI systems",
-      "NHS opposes open source AI policy stance",
-      "Post-hype phase sorts real engineering from demos",
-      "Energy sustainability emerges for AI workloads"
+      "DeepSeek-V4-Pro leads with 381,587 downloads and 3,416 likes",
+      "XiaomiMiMo's MiMo-V2.5-Pro builds on long-context success",
+      "Poolside's Laguna-XS.2 gains efficiency-focused traction",
+      "Unsloth quantized variants see significant GGUF downloads",
+      "Specialized Qwen/Gemma fine-tunes for uncensored generation",
+      "Proliferation of specialized agent behavior models increasing"
     ]
   }
 }

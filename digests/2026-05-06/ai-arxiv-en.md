@@ -1,96 +1,70 @@
 # ArXiv AI Research Digest 2026-05-06
 
-> Source: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-05-06 00:19 UTC
+> Source: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-05-06 00:30 UTC
 
 ---
 
-# ArXiv AI Research Digest — May 6, 2026
-
-## 1. Today's Highlights
-
-Today's submissions reveal a strong convergence on **making AI systems more controllable, efficient, and production-ready**. Speculative decoding receives a major upgrade with compression-aware gamma selection (SpecKV), while several papers tackle the critical gap between research prototypes and real-world deployment—particularly in optimization modeling (ORPilot), sensor-driven applications (edge-to-core frameworks), and healthcare governance. Notably, multi-agent LLM systems are maturing beyond simple coordination toward reinforcement learning-based orchestration and proactive collaborative tutoring. The field also shows growing concern with **AI-generated technical debt** and **misalignment contagion** in multi-agent settings, signaling increased attention to long-term system reliability.
+**ArXiv AI Research Digest – May 6, 2026**
 
 ---
 
-## 2. Key Papers
-
-### 🧠 Large Language Models
-
-**[SpecKV: Adaptive Speculative Decoding with Compression-Aware Gamma Selection](http://arxiv.org/abs/2605.02888v1)** — Shukla et al.  
-Dynamically optimizes the speculation length γ in speculative decoding based on KV cache compression ratios, addressing a key efficiency bottleneck in LLM inference that was previously handled with static heuristics.
-
-**[Trust, but Verify: Peeling Low-Bit Transformer Networks for Training Monitoring](http://arxiv.org/abs/2605.02853v1)** — Eamaz et al.  
-Introduces layer-wise "peeling" analysis for low-bit transformers, providing much-needed visibility into whether quantized models are actually learning effectively during training.
-
-**[Mitigating Misalignment Contagion by Steering with Implicit Traits](http://arxiv.org/abs/2605.02751v1)** — Chang et al.  
-Identifies and addresses how misaligned behavior propagates between LMs in multi-agent settings, a critical safety issue as these systems scale to high-stakes collaborative environments.
-
-**[Visual Latents Know More Than They Say: Unsilencing Latent Reasoning in MLLMs](http://arxiv.org/abs/2605.02735v1)** — Zhang et al.  
-Exposes an optimization pathology that suppresses latent visual reasoning in multimodal LMs, offering a fix that unlocks richer reasoning without explicit chain-of-thought tokens.
+### **Today's Highlights**  
+This week’s submissions reflect a maturation of LLM-centric research toward operational robustness, multimodal grounding, and real-world deployment challenges. Advances in speculative decoding (e.g., SpecKV) address inference efficiency through adaptive token speculation, while new alignment frameworks tackle misalignment contagion in multi-agent settings. Simultaneously, domain-specific applications—from medical imaging to scientific reasoning—are gaining traction via foundation models fine-tuned on structured knowledge. The rise of agentic systems is matched by growing attention to their governance, maintainability, and interaction dynamics with humans.
 
 ---
 
-### 🤖 Agents & Reasoning
+### **Key Papers**
 
-**[Reinforcement Learning for LLM-based Multi-Agent Systems through Orchestration Traces](http://arxiv.org/abs/2605.02801v1)** — Zhang  
-Frames multi-agent LLM coordination as an RL problem over orchestration primitives (spawn, delegate, aggregate, stop), moving beyond individual action optimization to system-level workflow learning.
+#### 🧠 Large Language Models  
+- **SpecKV: Adaptive Speculative Decoding with Compression-Aware Gamma Selection** ([arXiv:2605.02888v1](http://arxiv.org/abs/2605.02888v1)) – Shukla et al.  
+  Introduces dynamic γ-selection for speculative decoding that adapts to draft model compression quality, improving throughput without sacrificing accuracy.  
+- **Mitigating Misalignment Contagion by Steering with Implicit Traits** ([arXiv:2605.02751v1](http://arxiv.org/abs/2605.02751v1)) – Chang et al.  
+  Proposes a method to detect and correct value drift in multi-LM environments using latent trait steering, critical for safe collaborative AI.  
+- **Trust, but Verify: Peeling Low-Bit Transformer Networks for Training Monitoring** ([arXiv:2605.02853v1](http://arxiv.org/abs/2605.02853v1)) – Eamaz et al.  
+  Enables layer-wise visibility into low-precision transformer training by analyzing quantized gradients, addressing opacity in compressed models.  
 
-**[HAAS: A Policy-Aware Framework for Adaptive Task Allocation Between Humans and Artificial Intelligence Systems](http://arxiv.org/abs/2605.02832v1)** — Pelechanoa et al.  
-Rejects binary human-vs-AI assignment in favor of dynamic, context-dependent task sharing with fatigue and capability modeling—essential for real organizational deployment.
+#### 🤖 Agents & Reasoning  
+- **HAAS: A Policy-Aware Framework for Adaptive Task Allocation Between Humans and AI Systems** ([arXiv:2605.02832v1](http://arxiv.org/abs/2605.02832v1)) – Pelechano et al.  
+  Offers a nuanced framework for human-AI task sharing based on context, fatigue, and capability, moving beyond binary delegation.  
+- **Reinforcement Learning for LLM-based Multi-Agent Systems through Orchestration Traces** ([arXiv:2605.02801v1](http://arxiv.org/abs/2605.02801v1)) – Zhang  
+  Uses RL over execution traces to optimize not just agent actions but coordination patterns in LLM teams.  
+- **FlexSQL: Flexible Exploration and Execution Make Better Text-to-SQL Agents** ([arXiv:2605.02815v1](http://arxiv.org/abs/2605.02815v1)) – Pham et al.  
+  Enhances SQL agents by enabling iterative schema exploration and runtime database checks, reducing reliance on static retrieval.  
+- **SCPRM: A Schema-aware Cumulative Process Reward Model for Knowledge Graph Question Answering** ([arXiv:2605.02819v1](http://arxiv.org/abs/2605.02819v1)) – Chen et al.  
+  Addresses risk compensation in stepwise reward modeling for KGQA by incorporating schema structure into cumulative scoring.  
 
-**[ORPilot: A Production-Oriented Agentic LLM-for-OR Tool for Optimization Modeling](http://arxiv.org/abs/2605.02728v1)** — Xie  
-Bridges the gap between academic LLM-for-optimization demos and messy production environments, handling ambiguous specs, embedded data, and iterative refinement.
+#### 🔧 Methods & Frameworks  
+- **Compress Then Adapt? No, Do It Together via Task-aware Union of Subspaces** ([arXiv:2605.02829v1](http://arxiv.org/abs/2605.02829v1)) – Ge et al.  
+  Unifies PEFT and low-rank compression into a joint optimization, preserving performance during fine-tuning.  
+- **TOC-SR: Task-Optimal Compact diffusion for Image Super Resolution** ([arXiv:2605.02767v1](http://arxiv.org/abs/2605.02767v1)) – Vajrala et al.  
+  Reduces diffusion model complexity via task-driven distillation, enabling efficient high-quality image super-resolution.  
+- **Perceptual Flow Network for Visually Grounded Reasoning** ([arXiv:2605.02730v1](http://arxiv.org/abs/2605.02730v1)) – Li et al.  
+  Integrates visual trajectory priors into LVLMs to reduce hallucination and language bias through perceptual flow constraints.  
 
-**[U-Define: Designing User Workflows for Hard and Soft Constraints in LLM-Based Planning](http://arxiv.org/abs/2605.02765v1)** — Lee et al.  
-Gives end-users systematic control over LLM planners through constraint specification interfaces, addressing the reliability gap that blocks consumer adoption.
-
----
-
-### 🔧 Methods & Frameworks
-
-**[Compress Then Adapt? No, Do It Together via Task-aware Union of Subspaces](http://arxiv.org/abs/2605.02829v1)** — Ge et al.  
-Unifies parameter-efficient fine-tuning and model compression into a single joint optimization, eliminating the misalignment that occurs when these are done sequentially.
-
-**[First-Order Efficiency for Probabilistic Value Estimation via A Statistical Viewpoint](http://arxiv.org/abs/2605.02827v1)** — Liu et al.  
-Achieves first-order convergence for Shapley value estimation, potentially making data valuation and feature attribution tractable at scale for black-box models.
-
-**[From Sensors to Insight: Rapid, Edge-to-Core Application Development for Sensor-Driven Applications](http://arxiv.org/abs/2605.02859v1)** — Thareja et al.  
-Pattern-based, AI-assisted methodology for deploying sensor analytics across edge-to-cloud infrastructure, lowering the cross-domain expertise barrier.
-
-**[FunFuzz: An LLM-Powered Evolutionary Fuzzing Framework](http://arxiv.org/abs/2605.02789v1)** — Rodríguez Béjar et al.  
-Combines multi-island evolutionary search with LLM-based input generation to reduce prompt sensitivity and redundant exploration in security fuzzing.
-
----
-
-### 📊 Applications
-
-**[AI-Generated Smells: An Analysis of Code and Architecture in LLM and Agent-Driven Development](http://arxiv.org/abs/2605.02741v1)** — Zhu et al.  
-Systematic audit revealing that AI-generated code contains substantial technical debt despite functional correctness—a wake-up call for measuring maintainability, not just passing tests.
-
-**[Bolek: A Multimodal Language Model for Molecular Reasoning](http://arxiv.org/abs/2605.02745v1)** — Grabowski et al.  
-Grounds molecular property predictions in structural reasoning with auditable explanations, addressing the trust gap in high-stakes drug discovery decisions.
-
-**[Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims](http://arxiv.org/abs/2605.02740v1)** — Ma et al.  
-Adapts clinical foundation models to administrative claims data at population scale, expanding evidence generation beyond controlled trials to real-world healthcare decisions.
-
-**[Coherent Hierarchical Multi-Label Learning to Defer for Medical Imaging](http://arxiv.org/abs/2605.02734v1)** — Strong et al.  
-Extends learning-to-defer to hierarchical clinical taxonomies, matching how radiologists actually organize findings rather than flattening diagnostic structure.
+#### 📊 Applications  
+- **OphMAE: Bridging Volumetric and Planar Imaging with a Foundation Model for Adaptive Ophthalmological Diagnosis** ([arXiv:2605.02714v1](http://arxiv.org/abs/2605.02714v1)) – Chang et al.  
+  Presents a unified vision-language foundation model that aligns OCT volumetric data with fundus images for robust ophthalmic diagnosis.  
+- **Bolek: A Multimodal Language Model for Molecular Reasoning** ([arXiv:2605.02745v1](http://arxiv.org/abs/2605.02745v1)) – Grabowski et al.  
+  Combines graph neural networks with language generation to produce auditable, rationale-rich predictions for molecular properties.  
+- **Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims** ([arXiv:2605.02740v1](http://arxiv.org/abs/2605.02740v1)) – Ma et al.  
+  Leverages LLMs to extract clinically meaningful insights from noisy, longitudinal claims data at scale.  
 
 ---
 
-## 3. Research Trend Signal
-
-A clear **maturation signal** permeates today's submissions: the field is pivoting from capability demonstrations to **production engineering and governance**. We see explicit attention to deployment friction—whether in ORPilot's handling of messy business specs, the edge-to-core sensor framework's abstraction of heterogeneous infrastructure, or HAAS's modeling of human fatigue in human-AI teaming. Simultaneously, **multi-agent safety** is emerging as a distinct research area, with misalignment contagion and orchestration-level RL both appearing. The efficiency front is also active, with SpecKV's adaptive speculation and the joint compression-fine-tuning approach representing sophisticated co-design of algorithms and hardware constraints. Perhaps most tellingly, the technical debt paper and healthcare governance study indicate growing institutional awareness that **AI systems must be maintainable and accountable**, not merely performant on benchmarks.
-
----
-
-## 4. Worth Deep Reading
-
-**[SpecKV: Adaptive Speculative Decoding with Compression-Aware Gamma Selection](http://arxiv.org/abs/2605.02888v1)** — This addresses a fundamental inference optimization with immediate practical impact. The gamma parameter in speculative decoding has been treated heuristically; making it adaptive to KV cache compression ratios directly connects two major efficiency techniques and could become standard in serving stacks.
-
-**[AI-Generated Smells: An Analysis of Code and Architecture in LLM and Agent-Driven Development](http://arxiv.org/abs/2605.02741v1)** — A rare empirical study with uncomfortable implications. As organizations rush to adopt AI coding assistants, this provides the first systematic evidence that functional correctness masks maintainability degradation. The methodology and findings will likely influence how we evaluate and benchmark code generation systems.
-
-**[Mitigating Misalignment Contagion by Steering with Implicit Traits](http://arxiv.org/abs/2605.02751v1)** — Multi-agent LLM deployments are scaling rapidly without adequate safety theory. This paper's identification of misalignment propagation dynamics and its steering-based mitigation offers a concrete technical approach to a problem that has been discussed mostly in abstract terms. Essential for anyone building collaborative AI systems.
+### **Research Trend Signal**  
+A clear shift is underway from standalone model improvements toward **integrated, deployable AI systems** that operate reliably under uncertainty and heterogeneous conditions. This manifests in several directions: (1) **Agent orchestration** is evolving from isolated tool use to coordinated teamwork, necessitating new RL paradigms that optimize communication and delegation; (2) **Multimodal grounding** remains critical, with work focusing not just on fusing modalities but on *auditable* reasoning—especially in high-stakes domains like healthcare; (3) **Operational robustness** is gaining prominence, seen in techniques like per-sample clipping, low-bit monitoring, and adaptive speculative decoding, all targeting real-world deployment bottlenecks; and (4) **Domain-specific foundations**, such as PubMed-Ophtha and Bolek, signal a move beyond generic VLMs toward tightly curated, knowledge-grounded models that support scientific workflows. Underlying these trends is a growing maturity in aligning technical innovation with practical constraints around safety, explainability, and interoperability.
 
 ---
-*This digest is auto-generated by [agents-radar](https://github.com/duanyytop/agents-radar).*
+
+### **Worth Deep Reading**  
+1. **HAAS: A Policy-Aware Framework for Adaptive Task Allocation Between Humans and Artificial Intelligence Systems**  
+   Why: It redefines human-AI collaboration beyond simple delegation, offering a principled framework grounded in organizational psychology and real-time policy adaptation—highly relevant as AI permeates workplaces.
+
+2. **Bolek: A Multimodal Language Model for Molecular Reasoning**  
+   Why: Represents a significant step in making scientific AI more interpretable and trustworthy, combining symbolic structure with natural language reasoning—key for drug discovery and materials science.
+
+3. **Mitigating Misalignment Contagion by Steering with Implicit Traits**  
+   Why: Addresses a nascent but critical threat in multi-agent LLM deployments, proposing a mechanism to detect and correct cascading misalignments before they propagate system-wide.
+
+---
+*This digest is auto-generated by [agents-radar](https://github.com/DenisZheng/agents-radar).*
