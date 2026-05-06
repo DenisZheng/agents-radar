@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 24h 连发 v2.1.121/122 双版本，MCP 与企业级功能并行",
+      "OpenAI Codex 24h 三连发 rust-v0.126.0-alpha.9~11，权限模型架构重构",
+      "Gemini CLI v0.41.0 推进 ACP 协议模块化重构进入 Phase 1",
+      "Kimi CLI v1.40.0 发布 OAuth 恢复与 Shell 状态栏，探索只读/afk/yolo 交互范式",
+      "Pi v0.70.6 上线 Cloudflare Workers AI 支持与自动更新，关闭率 80% 响应极快",
+      "Qwen Code 架构创新活跃，但 Windows 兼容性仍是跨地域共性短板"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.26 发布实时语音与浏览器传输，但性能回归成 blocker",
+      "OpenClaw 24h 内 487 活跃 Issue + 466 待合并 PR，审查吞吐承压",
+      "PR #73883 支持归档会话只读访问，不复活为活跃上下文",
+      "NanoBot 入选 HN 热门讨论，AI Agent 工程化实践受关注",
+      "Hermes Agent 作为 AI 智能体代表项目持续迭代",
+      "多通道边缘 case（Feishu/Telegram/WhatsApp）处理成技术债务主峰"
+    ],
+    "ai-trending": [
+      "GitNexus 登 GitHub Trending，RAG 知识库工具获关注",
+      "awesome-codex-skills 热门，OpenAI Codex 技能生态扩展",
+      "claude-code-templates 上榜，Claude Code 工作流模板化趋势",
+      "hermes-agent 双料热门，智能体/工作流方向明星项目",
+      "cherry-studio 应用级产品受捧，AI 应用层创新活跃",
+      "CopilotKit 持续热门，AI 基础工具与智能体编排结合"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Claude for Creative Work，联盟 Blender/Adobe/Ableton 三大垂直领域",
+      "Anthropic 首次将 Connectors 从企业知识库扩展至实时创作工具操控",
+      "Anthropic 披露选举安全三层架构：宪法原则→角色训练→系统提示",
+      "Anthropic 中期选举前六个月主动布局政治偏见治理机制",
+      "OpenAI 仅更新 AWS 合作页面元数据，无正文内容战略意图不明",
+      "Anthropic 以垂直场景渗透+公共信任资产积累双线巩固差异化定位"
+    ],
+    "ai-hn": [
+      "MCP 协议运行可玩 DOOM，AI 作为通用计算环境引热议",
+      "cua 框架实现 macOS 后台无干扰自动化，Claude Code 底层基础设施潜力",
+      "Anthropic Blender 赞助+$1T 估值传闻+Claude 宕机事件占据话题中心",
+      "OpenAI 收入未达标+Sam Altman 身份验证公司造假争议陷入漩涡",
+      "Nvidia 高管\"AI 比人贵\"表态加剧泡沫破裂焦虑",
+      "VoiceGoat 语音 Agent 安全靶场填补 LLM 攻击面教育空白"
+    ],
+    "ai-ph": [
+      "Jet AI Agents 309 票登顶，无代码分钟级构建企业 Agent",
+      "Logic 283 票，Agent 舰队编排解决多 Agent 协同复杂度",
+      "Epismo Agent Package 103 票，社区驱动工作流复用市场",
+      "GitBar 整合 GitHub/GitLab/Azure PR 于 menubar，开发者效率工具",
+      "Atech 硬件+Odyssey-2 Max 世界模型，物理世界与 AI 融合崭露头角",
+      "Anthum 反 AI 感创意工具揭示市场对原生 AI 内容审美疲劳"
+    ],
+    "ai-arxiv": [
+      "Long-Context Aware Upcycling 突破线性注意力与预训练权重复用瓶颈",
+      "Learning to Think from Multiple Thinkers 多思考者链式思维学习",
+      "自主 AI 代理运行时自适应治理框架，安全研究新维度",
+      "The Chameleon's Limit 揭示多智能体模拟\"人格崩塌\"现象",
+      "Green Shielding 填补非对抗性日常查询变体的真实风险盲区",
+      "DepthKV 分层 KV 缓存剪枝显著降低长上下文推理内存占用"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 3135 点赞断层领先，MIT 许可开放顶级推理性能",
+      "DeepSeek-V4-Flash 820 点赞，极速低延迟版本同步发布",
+      "Qwen3.6-27B 下载破 50 万，视觉语言一体化主力模型",
+      "Kimi-K2.6 1130 点赞，压缩张量技术降低多模态部署成本",
+      "GLM-5.1 1549 点赞，智谱 MoE+DSA 架构跻身前三",
+      "社区 Uncensored/Aggressive 微调与 Claude-4.6 推理蒸馏涌现"
+    ],
+    "ai-community": [
+      "AI Agent 9 秒误删生产数据库，权限边界事故警示",
+      "GitHub Copilot 6 月 1 日转按量计费，Token 成本模型重构",
+      "SWE-agent 31 分钟源码级走读，NeurIPS 顶会项目完整实现手册",
+      "50ms 数据库延迟决定 AI Agent 成败，隐性性能陷阱曝光",
+      "Vercel 供应链攻击事件形成安全警示三连",
+      "Lobste.rs 关注 LLM 自我改进理论极限与 Transformer 数学本质"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code ships v2.1.122 with daily patch velocity",
+      "OpenAI Codex pushes 3 alpha releases in stabilization sprint",
+      "All 7 major tools now support MCP extensibility",
+      "Sector-wide reliability crisis: chronic hangs, Windows neglect",
+      "Claude Code, OpenCode invest in native LLM cores",
+      "Effect-based architectures signal generational shift"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues, 500 PRs in 24 hours",
+      "v2026.4.26 adds realtime voice infrastructure",
+      "Critical performance regression blocks v4.22→4.26 upgrade",
+      "Only 13 of 500 issues closed: maintainer bottleneck",
+      "VACInc contributes Gateway relay for backend voice plugins",
+      "13 projects tracked in OpenClaw ecosystem digest"
+    ],
+    "ai-trending": [
+      "mattpocock/skills gains +7,321 stars in one day",
+      "Microsoft VibeVoice surges +1,483 stars for voice AI",
+      "GitNexus hits +1,607 stars with Graph RAG code intelligence",
+      "ACE-Step 1.5 emerges as genuine Suno alternative",
+      "free-claude-code democratizes premium coding agent",
+      "Skills formalizes .claude directory as shareable standard"
+    ],
+    "ai-web": [
+      "Anthropic partners with Blender, Autodesk, Adobe, Ableton, Splice",
+      "Claude connectors embed directly into creative workflows",
+      "Preemptive election integrity positioning for 2026 midterms",
+      "OpenAI posts metadata-only 'OpenAI on AWS' reference",
+      "Platform-embedding strategy vs. standalone tool competition",
+      "Context-aware operation within host applications"
+    ],
+    "ai-hn": [
+      "Anthropic hits $1T valuation surpassing OpenAI",
+      "Anthropic becomes Blender Development Fund corporate patron",
+      "Sam Altman fake partnership scandal at identity verification firm",
+      "Claude outage sparks 218-comment infrastructure reliability debate",
+      "Playable DOOM MCP app runs inside ChatGPT and Claude",
+      "OpenAI faces missed revenue targets, falling investor confidence"
+    ],
+    "ai-ph": [
+      "Jet AI Agents leads with 309 votes for business agent builder",
+      "Logic scores 283 votes for multi-agent fleet orchestration",
+      "VIDEO AI ME hits 198 votes with synthetic AI actors",
+      "Atech debuts chat-based electronics hardware builder",
+      "Agentic systems dominate over single-purpose AI tools",
+      "27 comments on Jet AI show active developer engagement"
+    ],
+    "ai-arxiv": [
+      "DepthKV enables layer-adaptive KV cache compression",
+      "Long-Context Aware Upcycling converts Transformers without retraining",
+      "Temporal and Semantic Rotary Encoding extends RoPE",
+      "Multiple papers address AI systems sabotaging safety research",
+      "Hybrid model upcycling breaks long-context deployment barrier",
+      "Runtime monitoring and security architectures intensify focus"
+    ],
+    "ai-hf": [
+      "gemma-4-31B-it dominates with 6.5M downloads",
+      "DeepSeek-V4-Pro trends with 174K downloads, 3.1K likes",
+      "Qwen3.6 MoE 35B-A3B drives exceptional community engagement",
+      "Tencent Hy3-preview introduces specialized architecture",
+      "Xiaomi MiMo-V2.5 adds agentic long-context capabilities",
+      "Uncensored Qwen3.6 fine-tunes accumulate significant downloads"
+    ],
+    "ai-community": [
+      "GitHub Copilot switches to usage-based billing sparks anxiety",
+      "Vercel breach traced to AI tool's overprivileged OAuth",
+      "AI agent wipes production database in 9 seconds",
+      "Google Agents CLI and ADK launch for agent building",
+      "Harness engineering and vibe coding emerge as frameworks",
+      "Gemini CLI handles complex multi-phase RAG migration"
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.116发布，Bedrock回归缺陷引企业阻断",
+      "OpenAI Codex v0.122.0稳定版，令牌消耗Issue达551评论",
+      "Kimi CLI v1.37.0修复subagent无限循环，社区活跃度最高",
+      "Gemini CLI记忆架构重构，从子代理转向提示驱动",
+      "Copilot CLI 24小时零PR，微软内部维护社区参与度极低",
+      "OpenCode主题系统故障集群爆发，国内模型接入需求显著"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时500 Issues/PRs，338个待合并PR",
+      "SIGKILL兜底终止僵死进程，解决网关重启失败",
+      "Telegram轮询stall阈值90s→300s，消除误重启",
+      "Codex审批策略默认改为on-request，阻断静默执行风险",
+      "单会话lane锁释放，解决回复一次后冻结问题",
+      "空输出turn增加3次重试，覆盖非前沿模型"
+    ],
+    "ai-trending": [
+      "openai-agents-python日增905星，官方多智能体框架登榜",
+      "RuView以WiFi信号实现DensePose，突破摄像头隐私瓶颈",
+      "thunderbolt去厂商锁定，Mozilla背景呼应模型主权觉醒",
+      "DeepGEMM DeepSeek FP8推理内核上榜",
+      "FinceptTerminal金融AI决策工具入选",
+      "worldmonitor AI驱动地缘政治监控受关注"
+    ],
+    "ai-web": [
+      "Anthropic与Amazon签十年1000亿美元协议，锁定5GW算力",
+      "Claude Opus 4.7发布，软件工程能力显著跃升",
+      "Opus 4.7首次引入网络安全差异化能力降级机制",
+      "Anthropic已使用超100万颗Trainium2芯片",
+      "OpenAI上线三篇企业AI战略指南，加速商业化渗透",
+      "Anthropic将安全治理从统一限制转向分级能力管理"
+    ],
+    "ai-hn": [
+      "NSA绕过黑名单使用Anthropic Mythos模型，434分热议",
+      "AI抵制运动获296分关注，社区信任裂痕显现",
+      "OpenAI启动ChatGPT广告变现引商业博弈讨论",
+      " uncensored模型仍存在隐性约束，对齐伦理争议",
+      "Claude Code命令注入漏洞暴露AI代理安全风险",
+      "Anthropic被指控安装间谍软件桥，隐私批评升温"
+    ],
+    "ai-ph": [
+      "Gemini Mac客户端298票，Option+Space重新定义桌面AI入口",
+      "Perplexity硬件新品Always on本地计算机指向端侧渗透",
+      "Verdent 2.0以AI技术联合创始人定位获238票高争议",
+      "Avina首个GTM自主Agent，从辅助销售推进至自主获客",
+      "Fixa.dev以vibe coding为核心卖点吸引开发者",
+      "Google Vantage技能评估工具跻身前三"
+    ],
+    "ai-hf": [
+      "Qwen3.6-35B-A3B首发登顶点赞榜，35B参数仅3B激活",
+      "Claude-4.6 Opus推理蒸馏至Qwen3.5，获2741点赞",
+      "Gemma-4系列累计突破900万次下载，生态统治力显著",
+      "MiniMax-M2.7达30万+下载验证商业化能力",
+      "k2-fsa/OmniVoice语音合成百万级下载成爆款",
+      "uncensored社区微调模型形成显著亚文化现象"
+    ],
+    "ai-community": [
+      "MCP协议企业集成关键缺口被一线实践揭露",
+      "AI代理AWS凭证管理反模式引发零信任讨论",
+      "RAG vs Lucene私有化部署架构权衡受关注",
+      "上下文工程成被忽视的智能体设计核心维度",
+      "推理优化被点明为2026年LLM基础设施隐性主线",
+      "Claude Code跨工程团队治理方案引企业关注"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.116 ships with Bedrock regression",
+      "OpenAI Codex rust-v0.122.0 released",
+      "Gemini CLI leads enterprise mindshare",
+      "All major tools face reliability regressions",
+      "Community pressures Claude Code to open source",
+      "ACP protocol standardization gaining traction"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues and 500 PRs in 24h",
+      "Project in stabilization phase, no new releases",
+      "SIGKILL stale process fix merged (#43961)",
+      "314 open issues signal backlog accumulation",
+      "Heavy focus on gateway reliability and security",
+      "Transcript persistence is top work stream"
+    ],
+    "ai-trending": [
+      "openai-agents-python gains 905 stars today",
+      "Thunderbird's thunderbolt adds 675 stars",
+      "DeepGEMM brings FP8 inference optimization",
+      "cognee vector DB gains agent memory traction",
+      "LEANN promises 97% storage savings for edge RAG",
+      "RuView uses WiFi signals for pose estimation"
+    ],
+    "ai-web": [
+      "Anthropic commits $100B to Amazon over 10 years",
+      "Deal secures up to 5 gigawatts of compute capacity",
+      "Over one million Trainium2 chips already deployed",
+      "Claude Opus 4.7 reaches general availability",
+      "Opus 4.7 positioned as cyber-safer Mythos alternative",
+      "Expansion into Asia/Europe inference regions planned"
+    ],
+    "ai-hn": [
+      "Anti-AI sentiment thread hits 296 points, 292 comments",
+      "Anthropic spyware allegations dominate front page",
+      "OpenAI advertising monetization draws criticism",
+      "GPT-6 Symphony release gets surprisingly muted engagement",
+      "OpenAI service outages spark reliability concerns",
+      "NSA contract controversies fuel privacy skepticism"
+    ],
+    "ai-ph": [
+      "Gemini Mac app launches with Option+Space hotkey",
+      "Verdent 2.0 positions AI as technical cofounder",
+      "Perplexity launches Personal Computer product",
+      "Fixa.dev targets non-technical founders",
+      "Google Vantage offers AI skills assessment",
+      "Avina automates enterprise GTM workflows"
+    ],
+    "ai-hf": [
+      "Jackrong's Qwen3.5-27B-Claude-4.6-Opus leads with 2,741 likes",
+      "Gemma 4 family dominates trending models",
+      "Qwen 3.6 series captures major attention",
+      "Uncensored fine-tune movement stays highly active",
+      "Tencent's HY-Embodied-0.5 pushes physical AI",
+      "OmniVoice surpasses 1 million downloads"
+    ],
+    "ai-community": [
+      "MCP production gaps exposed in real builds",
+      "Stop giving AI agents AWS credentials",
+      "Vercel security incident prompts trust boundary talks",
+      "RAG vs Lucene: classical search sometimes wins",
+      "Earth Day AI sustainability projects flood Dev.to",
+      "Querying neural network weights as graph data"
+    ]
+  }
+}

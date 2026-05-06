@@ -1,0 +1,174 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code HERMES.md计费bug致$200异常扣费",
+      "OpenAI Codex MCP架构8连发Handler大重构",
+      "Kimi CLI本周PR吞吐量全场最高23-27/日",
+      "Gemini CLI v0.40.0-preview Windows体验紧急修复",
+      "GitHub Copilot CLI Autopilot无限循环扣费黑洞复发",
+      "OpenCode 24h内快速跟进DeepSeek/GPT-5.5适配"
+    ],
+    "ai-agents": [
+      "OpenAI发布Workspace Agents企业级Agent基础设施",
+      "OpenAI WebSockets优化加速Agentic工作流性能",
+      "Kimi RalphFlow架构创新探索Tauri桌面端",
+      "Pi MCP扩展协议落地TUI扩展API设计",
+      "OpenCode AST原生编辑工具创新突破",
+      "Gemini CLI智能路由与记忆系统差异化竞争"
+    ],
+    "ai-trending": [
+      "mattpocock/skills登顶Trending，AI基础工具+工作流双标签",
+      "Alishahryar1/free-claude-code上榜，免费替代方案受关注",
+      "openclaw/openclaw同时入围Trending与主题搜索",
+      "ComposioHQ/awesome-codex-skills聚焦Codex技能生态",
+      "trycua/cua智能体工作流工具跻身热门",
+      "Qwen3.6生态占主题搜索近三分之一，27B/35B-A3B领跑"
+    ],
+    "ai-web": [
+      "OpenAI新增/our-principles/路径，监管窗口期释放政策信号",
+      "OpenAI原则页面定位持久声明，或更新2018年Charter",
+      "Anthropic连续零更新，Claude 4重大发布静默期临近",
+      "Anthropic 2025Q1安全研究密集，储备监管合规技术论据",
+      "OpenAI 789条sitemap vs Anthropic 343条，内容体量差距显著",
+      "OpenAI /index/路径通常用于高优先级长期页面"
+    ],
+    "ai-hn": [
+      "OpenAI宣布放弃SWE-bench Verified，231分136评论引爆基准通胀论",
+      "Show HN: AI记忆模拟生物遗忘曲线，52%召回率引缺陷还是特性之争",
+      "Show HN: Semble代码搜索近transformer精度，专为agent设计",
+      "Claude Opus 4.7被疑静默降级，付费用户质量焦虑浮现",
+      "Anthropic SWE-bench声明被指统计谬误，社区较真基准严谨性",
+      "DeepSeek缓存价砍至1/10，价格战疲劳社区更关注技术实质"
+    ],
+    "ai-ph": [
+      "ZeroHuman 375票登顶，首创Vibe Coding工作流编排AI联合创始人",
+      "Clawdi 280票，浏览器端统一管理平台解决多Agent割裂",
+      "Google官方Gemini Personal Intelligence下场，270票生态原生",
+      "MiMo-V2.5 Voice开源路线，语音交互开放化",
+      "DeployStack开源部署栈，开发者基础设施",
+      "Euphony代码库AI音乐生成，编程+创作跨界"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 2843赞登顶，MIT许可证降低商用门槛",
+      "Qwen3.6-35B-A3B 118万下载夺冠，3B激活撬动35B性能",
+      "Google Gemma-4-31B 604万下载，边缘部署统治力验证",
+      "Kimi-K2.6 37万下载，compressed-tensors降显存",
+      "GLM-5.1 230865下载，DSA动态稀疏注意力革新长文本",
+      "MiniMax-M2.7 48万下载，国内厂商出海实用性验证"
+    ],
+    "ai-community": [
+      "OpenClaw逆向工程揭秘内部架构隐藏细节",
+      "企业级OpenClaw VPS安全部署实战指南",
+      "约束悖论：限制AI自由度反提升代码质量",
+      "70%企业RAG部署生产前失败，根因剖析",
+      "5种RAG失败模式附缓解代码，超越教程幸存者偏差",
+      "Transformer理论特性与AI安全零日末日思辨"
+    ],
+    "ai-weekly": [
+      "Anthropic与Amazon签十年5GW千亿美元算力协议",
+      "Anthropic Mythos网络安全模型遭未授权访问泄露",
+      "OpenAI发布GPT-5.5系列含Bio Bug Bounty",
+      "OpenAI放弃SWE-bench Verified前沿编程评估标准",
+      "Google计划最高400亿美元投资Anthropic",
+      "Anthropic罕见公开复盘Claude Code质量退化原因"
+    ],
+    "ai-models": [
+      "GPT-5.5正式发布但ARC-AGI-3分数缺席引质疑",
+      "Anthropic Mythos网络安全专用模型泄露引全球警报",
+      "Claude Code Opus 4.7延迟回归推理强度降级",
+      "Kimi K2.6服务故障终端挂死稳定性债务累积",
+      "OpenAI GPT-5.5适配承压5小时额度20分钟耗尽",
+      "DeepSeek快速获OpenCode等工具24h内接入跟进"
+    ],
+    "ai-infra": [
+      "Anthropic AWS Trainium路线全面绑定明确拒绝自研芯片",
+      "OpenAI Codex从Node向Rust迁移加速双端版本割裂",
+      "Pi终端兼容性矩阵维护负担重Issue量持续最高40-50/日",
+      "Kimi git worktree支持商业化压力显性化",
+      "OpenCode tmux兼容性危机v1.14.24-26紧急补丁",
+      "Gemini CLI Ollama本地压缩MCP命名规范化"
+    ],
+    "ai-policy": [
+      "OpenAI新增Our Principles政策页面防御监管窗口期",
+      "Anthropic透明优先策略对冲信任危机首次公开复盘",
+      "OpenAI自曝基准通胀困境引发评测体系可信度反思",
+      "Anthropic资本热捧与用户投诉冰火两重天",
+      "Google 400亿美元投资AI资本集中度达新高度",
+      "Anthropic Mythos泄露触发能力越强泄露越危险讨论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code faces billing and rate-limit crises",
+      "OpenAI Codex releases rust-v0.126",
+      "MCP becomes de facto integration standard",
+      "OpenCode and Pi lead open extensibility wave",
+      "9 active PRs on Claude Code mostly bounty",
+      "10 hot issues on OpenAI Codex streamlining"
+    ],
+    "ai-agents": [
+      "OpenClaw released 4 beta versions in one day",
+      "Major TTS infrastructure overhaul with 7 providers",
+      "500 issues and 500 PRs in 24 hours",
+      "423 open issues shows review backlog pressure",
+      "Voice customization with persona support added",
+      "Chat-scoped auto-TTS controls introduced"
+    ],
+    "ai-trending": [
+      "mattpocock/skills surges +2,519 stars today",
+      "free-claude-code trends with +1,701 stars",
+      "beads memory upgrade for coding agents gains traction",
+      "trycua/cua brings Computer-Use Agents practical",
+      "Codex skills ecosystem catalyzes standardization wave",
+      "ollama adds Kimi-K2.5, GLM-5, MiniMax support"
+    ],
+    "ai-web": [
+      "OpenAI publishes sole entry Our Principles",
+      "Anthropic publishes zero new articles today",
+      "OpenAI's high-velocity release cadence pauses",
+      "Single principles URL suggests repositioning",
+      "Strategic pause ahead of major announcements suspected",
+      "No substantive technical advancement from either lab"
+    ],
+    "ai-hn": [
+      "OpenAI declares SWE-bench Verified obsolete",
+      "DeepSeek drops 10x input cache price cut",
+      "Anthropic's SWE-bench claims face fatal error critique",
+      "Benchmark saturation debate intensifies community-wide",
+      "Developer tools fragmented across many small projects",
+      "AI memory and agent orchestration projects multiply"
+    ],
+    "ai-ph": [
+      "ZeroHuman tops votes as AI Co-Founder at 375",
+      "Google launches Gemini Personal Intelligence",
+      "Vibe coding appears in two product taglines",
+      "DeployStack offers open-source Vercel alternative",
+      "Regent monitors AI behavior for enterprises",
+      "Agentic AI systems replace single-purpose tools"
+    ],
+    "ai-hf": [
+      "Qwen 3.6 35B-A3B MoE hits 1.18M downloads",
+      "Gemma 4 series surpasses 10M combined downloads",
+      "DeepSeek-V4-Pro leads weekly likes at 2,843",
+      "GLM-5.1 gains traction as Chinese alternative",
+      "Uncensored and reasoning-distilled derivatives multiply",
+      "LLaDA 2.0 pushes any-to-any architecture boundaries"
+    ],
+    "ai-community": [
+      "OpenClaw challenge dominates Dev.to coverage",
+      "Gabriel Anhaia publishes 6 RAG failure articles",
+      "Lobste.rs debates AI doomsday zero day scenarios",
+      "Reverse-engineering OpenClaw reveals hidden architecture",
+      "Enterprise access control patterns for self-hosted agents",
+      "Claude Code MCP server ecosystems maturing"
+    ],
+    "ai-weekly": [
+      "Anthropic-Amazon sign $100B+ infrastructure deal",
+      "OpenAI releases GPT-5.5 with 1M context window",
+      "Anthropic admits Claude Code quality regressions",
+      "Mythos model leak triggers security alarm",
+      "Google plans $40B Anthropic investment",
+      "OpenAI abandons SWE-bench Verified benchmark"
+    ]
+  }
+}

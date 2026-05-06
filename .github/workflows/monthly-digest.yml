@@ -45,6 +45,7 @@ jobs:
           COPILOT_MODEL: ${{ secrets.COPILOT_MODEL }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           OPENROUTER_MODEL: ${{ secrets.OPENROUTER_MODEL }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           SITE_URL: ${{ secrets.SITE_URL }}
           DIGEST_REPO: ${{ github.repository }}
         run: pnpm monthly

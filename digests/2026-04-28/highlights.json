@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code API流超时危机，计费路由漏洞待修复",
+      "OpenAI Codex Rust alpha四连发，沙箱权限全栈重构",
+      "Gemini CLI v0.41.0夜间版修复128工具限制",
+      "Kimi CLI 11个PR聚焦审批超时与E2E精度测试",
+      "Pi 28个PR领跑活跃度，自更新能力上线",
+      "Qwen Code v0.15.2适配DeepSeek V4推理链"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.25 TTS全链路重构，新增7家提供商",
+      "升级回归危机：5个高热度Issue指向启动失败",
+      "Windows与macOS Intel成升级阻断重灾区",
+      "24小时500 Issue/500 PR，1:1进出比社区吞吐健康",
+      "Intel Mac 2012设备确认升级阻断，建议滞留v2026.4.23",
+      "当日多个修复PR已进入合并队列响应迅速"
+    ],
+    "ai-trending": [
+      "mattpocock/skills单日+5645星，Claude Skills增速冠军",
+      "CJackHwang/ds2api新晋+138星，DeepSeek转API中间件",
+      "ollama/ollama 170165星，新增Kimi-K2.5/GLM-5支持",
+      "Qwen3.6-35B-A3B百万下载，MoE架构本周最高",
+      "Graph RAG浏览器端GitNexus登榜，RAG走向轻量",
+      "TradingAgents多智能体金融框架，AI垂直化加速"
+    ],
+    "ai-web": [
+      "Anthropic任命澳新总经理，悉尼办公室正式开设",
+      "OpenAI Codex Symphony编排框架开源，细节待释",
+      "OpenAI微软合作进入下一阶段，关系走向引关注",
+      "Anthropic强调安全严谨定位，区隔机会主义竞品",
+      "OpenAI两则更新均无正文，信息透明度显著偏低",
+      "澳新任命瞄准已过POC阶段的企业规模化客户"
+    ],
+    "ai-hn": [
+      "微软OpenAI终结独家合作，725分639评论引爆社区",
+      "LLM文档损坏风险获微软自家研究背书",
+      "Claude误删数据库事件，Agent安全焦虑升温",
+      "OpenAI Symphony开源零评论，信任赤字显现",
+      "Devin推终端场景，AI编码代理形态持续分化",
+      "AI泡沫之问重浮，产业合作松动带来不确定性"
+    ],
+    "ai-ph": [
+      "GPT-5.5 429票登顶，主打直觉化降低提示工程门槛",
+      "Claude Connectors 410票，从生产力延伸至生活助手",
+      "QuickCompare 218票，私有数据LLM横向对比量化评分",
+      "Repli AI SEO垂直场景涌现，AI+传统微创新",
+      "Happenstance社交网络AI搜索，场景细分加速",
+      "头部双巨头429/410票，开发者工具赛道整体偏低"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 3018点赞断层第一，MIT许可证开源",
+      "Qwen3.6-35B-A3B 135万下载本周最高，激活仅3B",
+      "Google Gemma-4 630万下载彰显生态统治力",
+      "OpenAI罕见开源privacy-filter，合规工具受关注",
+      "Kimi-K2.6 44万下载，压缩张量降低部署门槛",
+      "社区Uncensored/Reasoning-Distilled标签频现"
+    ],
+    "ai-community": [
+      "MEMORY.md全上下文=噪音，选择性记忆架构挑战直觉",
+      "Harness Engineering新术语定义AI原生开发范式",
+      "12篇高密度输出，Charles Wu成当日最具影响力作者",
+      "Agent失控真实案例集，从客服幻觉到生产误删除",
+      "6-Agent系统实战：1编排器+5专家分层设计",
+      "HNSW算法科普，RAG十亿级秒搜底层认知"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenAI Codex shipped 4 alpha releases in 24h",
+      "Claude Code leads in community scale",
+      "All tools shift to multi-agent orchestration",
+      "Kimi, Qwen differentiate via workflow optimizations",
+      "Gemini CLI pushes nightly security builds",
+      "GitHub Copilot CLI sees 39 issues updated"
+    ],
+    "ai-agents": [
+      "OpenClaw hit 500 issues and 500 PRs today",
+      "v2026.4.25 introduced major TTS overhaul",
+      "3-minute gateway startup delay regression reported",
+      "Community actively reporting breakages from latest update",
+      "Maintainers merging fixes across memory and providers",
+      "OpenClaw ecosystem gaining serious developer traction"
+    ],
+    "ai-trending": [
+      "mattpocock/skills gained +5,645 stars launch day",
+      "free-claude-code hit +2,949 stars today",
+      "Claude Code ecosystem dominates GitHub trending",
+      "beads memory upgrade tool gains traction",
+      "GitNexus browser Graph RAG gets +1,102 stars",
+      "Ollama now supports Kimi-K2.5, GLM-5, DeepSeek"
+    ],
+    "ai-web": [
+      "Anthropic opens Sydney office, hires Snowflake exec",
+      "OpenAI teases Codex Orchestration Symphony open-source",
+      "Microsoft-OpenAI partnership next phase rumored",
+      "Anthropic targets APAC enterprise with safety positioning",
+      "Theo Hourmouzis named GM Australia & New Zealand",
+      "Competitive land-grab in enterprise AI deployment"
+    ],
+    "ai-hn": [
+      "Microsoft-OpenAI exclusive revenue deal ends",
+      "Claude agent destroyed production database in seconds",
+      "Microsoft paper: LLMs corrupt documents when delegated",
+      "Talkie 13B vintage language model from 1930 launches",
+      "Community debates if AI is a bubble",
+      "Anthropic experiments with Opus access restrictions"
+    ],
+    "ai-ph": [
+      "GPT-5.5 leads Product Hunt with 429 votes",
+      "Claude Connectors scores 410 votes for utility integrations",
+      "QuickCompare evaluation tool gets 218 votes, 21 comments",
+      "5 of 9 products target developer tooling",
+      "High comment ratio signals evaluative audiences",
+      "AI evaluation infrastructure emerges as enterprise trend"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops with 3,018 weekly likes",
+      "Gemma-4-31B-it hits 6.3 million downloads",
+      "Qwen 3.6 family shows ecosystem depth across formats",
+      "Tencent Hy3-preview introduces world model capabilities",
+      "DeepSeek-V4-Flash released under MIT license",
+      "Uncensored and distilled variants gain community traction"
+    ],
+    "ai-community": [
+      "Five frontier models dropped in nine days",
+      "Inference costs down ~50% since January",
+      "Memory architecture emerges as agent battleground",
+      "OpenClaw local secure deployment patterns trending",
+      "Production LLM integrations fail in predictable ways",
+      "Lobste.rs debates zero-day doomsday prep"
+    ]
+  }
+}

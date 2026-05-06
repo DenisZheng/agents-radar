@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.112 热修复 Opus 4.7 上线",
+      "OpenAI Codex rust-v0.122.0 关闭 Intel mac 支持",
+      "GitHub Copilot CLI 官方三连发零社区贡献",
+      "OpenCode v1.4.7 内存泄漏成 Megathread",
+      "Qwen Code v0.14.5 免费政策变更引信任危机",
+      "Pi v0.67.6 密集修复终端兼容性"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.15 正式版与 beta.2 同日发布",
+      "默认模型全面切换 Claude Opus 4.7",
+      "新增 Gemini TTS 语音合成能力",
+      "onboarding 崩溃 24 小时内快速修复",
+      "Windows 原生支持与 Memory v2 并行推进",
+      "SiliconFlow 接入中长期功能曝光"
+    ],
+    "ai-trending": [
+      "andrej-karpathy-skills 单日暴涨 7959 star",
+      "claude-mem 单日涨 1900 star 成刚需",
+      "GenericAgent 自进化智能体获显著关注",
+      "evolver 低 token 消耗架构引热议",
+      "voicebox 多模态 AI 创作工具升温",
+      "AI 编程助手记忆增强成明确趋势"
+    ],
+    "ai-web": [
+      "Anthropic 正式发布 Claude Opus 4.7",
+      "Opus 4.7 首次引入差异化削弱网络攻击训练",
+      "Anthropic 公开对比 Claude Mythos Preview",
+      "OpenAI 推出 Codex For Almost Everything",
+      "OpenAI 首次曝光 GPT Rosalind",
+      "双方同日交锋 AI 网络安全与编程智能体"
+    ],
+    "ai-hn": [
+      "Claude Opus 4.7 帖子 1394 分 1009 评论霸榜",
+      "OpenAI Codex 扩展通用代理 634 分热议",
+      "GPT-Rosalind 进军生命科学垂直领域",
+      "Qwen3.6-35B 本地绘图击败 Opus 4.7",
+      "小模型逆袭叙事再度升温",
+      "AI 安全与 KYC 审查引发社区警惕"
+    ],
+    "ai-ph": [
+      "Fathom 3.0 无机器人会议 AI 581 票领跑",
+      "Claude Code Routines 528 票自动化工作流",
+      "Intent 355 票 AI agent 端到端自动发版",
+      "CC-BEEPER 围绕 Claude Code 备受关注",
+      "AI 编程助手从对话式向自动化演进",
+      "隐私安全与本地化集成成差异化关键"
+    ],
+    "ai-arxiv": [
+      "RL 优化边缘分布 P(y) 扩展推理边界",
+      "首次形式化 vibe-testing 为可量化指标",
+      "激活干预或成第三大模型适应范式",
+      "超 1 万亿 token 合成预训练数据研究",
+      "自适应共形预测提升 LLM 事实性",
+      "首个 AI 辅助学术评审大规模试点 AAAI-26"
+    ],
+    "ai-hf": [
+      "Gemma 4-31B-it 周下载 319 万居生态核心",
+      "Qwen3.5-27B 蒸馏 Claude 4.6 获 2679 点赞",
+      "MiniMax-M2.7 MoE 模型跻身热度前三",
+      "腾讯混元 HY-Embodied 切入机器人赛道",
+      "百度 ERNIE-Image 8B 参数 Apache 2.0 开源",
+      "k2-fsa OmniVoice 70 万下载语音克隆黑马"
+    ],
+    "ai-community": [
+      "OpenClaw 挑战赛 1200 美元奖池启动",
+      "工程师提出 Thinking Guide 保持独立思考",
+      "AI 放大而非弥补工程能力短板引热议",
+      "30 天无 AI 编码实验反思 vibe coding",
+      "Agent 框架沦为 SDK wrapper 遭批判",
+      "图数据库查询神经网络权重成前沿探索"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code shipped v2.1.111 and v2.1.112 with Auto mode.",
+      "OpenAI Codex released rust-v0.122.0-alpha.3 and alpha.5.",
+      "Gemini CLI tracked 10 hot issues in last 24 hours.",
+      "Ecosystem focus shifted to sandboxing and session persistence.",
+      "Enterprise concerns around Bedrock and Azure grew central.",
+      "Trust erosion from silent feature removals emerged as key risk."
+    ],
+    "ai-agents": [
+      "OpenClaw released v2026.4.15 and v2026.4.15-beta.2 today.",
+      "Claude Opus 4.7 is now default for vision and Anthropic configs.",
+      "Project hit 500 issues and 500 PRs in 24 hours.",
+      "Top community issues accumulated 80-120 comments each.",
+      "Windows and Linux multi-provider support expanded rapidly.",
+      "Stability concerns rose as onboarding crashes multiplied."
+    ],
+    "ai-trending": [
+      "andre-karpathy-skills gained +7,959 stars for one CLAUDE.md file.",
+      "claude-mem surged +1,897 stars solving ephemeral memory.",
+      "GenericAgent and evolver drew strong agentic architecture interest.",
+      "vercel-labs/open-agents gained +738 stars for serverless agents.",
+      "Voice synthesis and ambient AI hardware trended upward.",
+      "Memory and context persistence dominated coding agent trends."
+    ],
+    "ai-web": [
+      "Anthropic launched Claude Opus 4.7 with stronger self-verification.",
+      "OpenAI teased new model or initiative called GPT Rosalind.",
+      "Codex and cyber defense ecosystem content expanded at OpenAI.",
+      "Both labs now differentially restrict cyber capabilities.",
+      "Anthropic provided full technical and policy transparency.",
+      "OpenAI published four metadata-only entries, substance still opaque."
+    ],
+    "ai-hn": [
+      "Claude Opus 4.7 thread hit 1394 points and 1009 comments.",
+      "Simon Willison's Qwen benchmark challenged Claude at 277 points.",
+      "OpenAI's GPT-Rosalind life sciences model made waves.",
+      "Skepticism and AI fatigue ran strong through discussions.",
+      "Model card thread praised for transparency at 155 points.",
+      "Compute scarcity and data center backlash gained traction."
+    ],
+    "ai-ph": [
+      "Fathom 3.0 led with 581 votes pivoting to Claude integration.",
+      "Intent scored 355 votes for full autonomous code deployment.",
+      "Claude Code Routines showed explosive workflow automation demand.",
+      "Gemini Robotics ER 1.6 brought robotics hardware to Product Hunt.",
+      "Astra offered privacy-first agent execution without data exposure.",
+      "Agentic development from feature to shipped code dominated launches."
+    ],
+    "ai-arxiv": [
+      "From P(y|x) to P(y) proposes RL in pre-train space breakthrough.",
+      "From Feelings to Metrics formalizes LLM vibe-testing.",
+      "TIP identifies high-signal tokens for on-policy distillation.",
+      "Trillion-token pretraining data synthesis study submitted.",
+      "Self-evolving spatial intelligence advanced in new papers.",
+      "Hierarchical VLA systems bridged vision and robotic control."
+    ],
+    "ai-hf": [
+      "google/gemma-4-31B-it hit 3.2M downloads this week.",
+      "Jackrong's Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled led likes.",
+      "MiniMaxAI, zai-org, Tencent, and Baidu all ranked top tier.",
+      "Uncensored Gemma 4 abliterated fine-tunes proliferated rapidly.",
+      "Unsloth dominated quantization with four GGUF top-30 entries.",
+      "Tencent's HY-World 2.0 and Netflix video model trended in 3D/video."
+    ],
+    "ai-community": [
+      "Don't let AI do your thinking guide hit 34 reactions.",
+      "AI Doesn't Fix Weak Engineering spurred 29 reactions.",
+      "Claude Code and MCP servers dominated Dev.to tutorials.",
+      "Voice-enabled Telegram bot with Gemini tutorial published.",
+      "Skepticism about vibe coding eroding skills ran strong.",
+      "Lobste.rs linked deep technical reads on GPU origins and geospatial models."
+    ]
+  }
+}

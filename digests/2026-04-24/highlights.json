@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.118-119 连续双发，聚焦终端体验",
+      "OpenAI Codex Rust CLI v0.124.0 密集迭代，GPT-5.5 适配承压",
+      "Gemini CLI v0.41.0-nightly 夜间构建，战略功能前置",
+      "Kimi CLI 21 Issues + 27 PRs，代码层活跃度超越头部",
+      "Qwen Code 26 Issues + 38 PRs，PR 量最高功能冲刺",
+      "Pi 50 Issues 量最高，终端兼容性维护负担凸显"
+    ],
+    "ai-agents": [
+      "OpenClaw 500 Issues + 500 PRs 社区讨论密度达峰值",
+      "v2026.4.22 发布，补齐 xAI 多模态图像/语音/实时转录",
+      "v2026.4.21 扩展依赖缺失致全新安装崩溃，紧急修复中",
+      "Azure OpenAI 图像生成路由修复，支持企业私有化部署",
+      "AI 辅助代码贡献占比显著上升，审查深度存隐忧",
+      "13 个覆盖项目，Feishu/Nostr 等扩展生态快速扩张"
+    ],
+    "ai-trending": [
+      "free-claude-code 单日 +1962 stars 登顶，直击付费痛点",
+      "claude-context +1011 stars，Milvus 代码搜索 MCP 让 Claude 获全库上下文",
+      "Hugging Face ml-intern 自动化 ML 工程师，Agent 能力进科研闭环",
+      "RAG-Anything 等\"去向量化\"新架构，检索从 Embedding 向推理驱动演进",
+      "context-mode 238 stars，98% 上下文压缩支持沙盒化输出",
+      "Cline 双分类热榜，AI 智能体/工作流与基础工具边界模糊"
+    ],
+    "ai-web": [
+      "Anthropic 罕见公开承认 Claude Code 质量退化并追溯三项根因",
+      "OpenAI 5 条 GPT-5.5 URL 元数据预热，发布日期标注 2026-04-23",
+      "Claude Code 推理强度从 high 降至 medium 后回滚，用户更重智能非延迟",
+      "会话闲置超 1 小时清除历史思考机制影响长会话连贯性",
+      "Anthropic 首次技术复盘，从模型商向企业工具链运营商角色深化",
+      "GPT-5.5 生物安全漏洞赏金计划与系统卡同步曝光"
+    ],
+    "ai-hn": [
+      "GPT-5.5 1009 分登顶 HN，社区热议 ARC-AGI-3 分数缺席",
+      "Anthropic 陷多重信任危机，相关帖子占热门榜近三分之一",
+      "Claude Code 质量下滑、Mythos 争议、桌面隐私问题并发",
+      "GPT-5.5 System Card 安全文档关注度远低于主发布",
+      "Zork-bench 创新评测方法获认可，独立基准难抗衡厂商叙事",
+      "Tolaria 本地优先知识管理 57 分，开发者反思 AI 原生工作流"
+    ],
+    "ai-ph": [
+      "Stanley For 𝕏 397 票登顶，首创 AI 内容负责人角色",
+      "ChatGPT Images 2.0 引入思考能力进入图像生成",
+      "Tines Story copilot 133 票，对话式构建企业智能工作流",
+      "Cai ⌥C 快捷键本地优先跨应用智能操作，161 票",
+      "InstantDB 后端即时代码工具，AI 原生开发基础设施加速",
+      "Vibe coding 标签首次密集出现，低门槛编程范式形成"
+    ],
+    "ai-arxiv": [
+      "跨架构数字表示趋同进化，Transformer/RNN/LSTM 均以 T=2,5,10 周期",
+      "工作记忆约束植入 GPT-2，数据稀缺场景学习更优",
+      "MGDA-Decoupled 几何感知多目标优化，挑战标量化奖励惯例",
+      "SWE-chat 首个大规模真实用户编码智能体会话数据集",
+      "方差非重要性可靠指标，40+ 实验挑战剪枝量化假设",
+      "交叉人口属性公平性首次系统评估，歧义提示揭示隐藏偏见"
+    ],
+    "ai-hf": [
+      "Gemma-4-31B-it 500 万下载，31B 参数原生多模态对话",
+      "Gemma-4-E4B-it 300 万下载，4B 探索极致轻量统一模态",
+      "Qwen3.6-35B-A3B MoE 架构，视觉-语言推理性价比之王",
+      "Kimi-K2.6 长上下文视觉理解为核心差异化",
+      "HY-World-2.0 单图生成交互 3D 环境，腾讯 NVIDIA 角逐世界模型",
+      "image-text-to-text 取代纯文本成最热门任务类型"
+    ],
+    "ai-community": [
+      "Google TPU 物理拆分为训练/推理芯片，信号 Agentic 时代",
+      "A2A 协议被指为 Google Cloud Next '26 真正革命",
+      "118 工具 MCP 服务器治理实战，解决工具越多越混乱",
+      "停止自建编码 Agent，转建 Codex/Claude Code 监控器",
+      "AI 水印逆向技术引发安全讨论",
+      "光计算前景与 AI 末日零日漏洞防御成 Lobste.rs 焦点"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.118–119 ships amid user backlash",
+      "935 upvotes protest /buddy removal in Claude Code",
+      "OpenAI Codex rust-v0.123.0–124.0 plus 3 alphas",
+      "All 8 major tools shipped updates in 48 hours",
+      "Agentic autonomy vs user control tension intensifies",
+      "4 stacked PRs for human-agent interaction in Codex"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24 hours",
+      "OpenClaw v2026.4.22 expands xAI provider support",
+      "Critical installation regressions in OpenClaw v2026.4.21",
+      "356:144 open-to-closed issue ratio signals backlog risk",
+      "318:182 open-to-merged PR ratio shows scaling strain",
+      "13 projects covered in active agent ecosystem"
+    ],
+    "ai-trending": [
+      "free-claude-code gains +1,962 stars in one day",
+      "claude-context +1,011 stars solves context bottleneck",
+      "context-mode achieves 98% context compression",
+      "awesome-agent-skills launches skill marketplace category",
+      "HuggingFace ml-intern +720 stars: autonomous ML engineer",
+      "Agent skill marketplaces crystallize as new category"
+    ],
+    "ai-web": [
+      "Anthropic publishes rare quality degradation postmortem",
+      "OpenAI reveals 5 new GPT-5.5 URL slugs",
+      "GPT-5.5 naming implies incremental not generational leap",
+      "Unusual bio-safety emphasis in GPT-5.5 pages",
+      "Anthropic transparency timed against OpenAI news cycle",
+      "Three distinct changes caused Claude Code quality issues"
+    ],
+    "ai-hn": [
+      "GPT-5.5 launch hits 1009 upvotes, 664 comments",
+      "Anthropic faces multiple critical trust posts",
+      "Meta cuts 10% workforce to fund AI spending",
+      "Anthropic hits trillion-dollar secondary valuation",
+      "Mythos capabilities debated as overhyped",
+      "GPT-5.5 bio bug bounty draws safety focus"
+    ],
+    "ai-ph": [
+      "Stanley For 𝕏: 397 votes as AI Head of Content",
+      "Vibe coding tools converge with agentic coding",
+      "Qwen3.6-Max-Preview launches on Product Hunt",
+      "InstantDB addresses backend infrastructure complexity",
+      "Loomal tackles AI agent identity problem",
+      "ChatGPT Images 2.0 appears alongside open tools"
+    ],
+    "ai-arxiv": [
+      "Universal number representations found across architectures",
+      "Working memory constraints improve transformer learning",
+      "Multi-objective alignment abandons scalar rewards",
+      "Process-supervised reasoning advances in multimodal systems",
+      "Cognitive-inspired architectures gain research traction",
+      "Real-world deployment friction papers signal maturation"
+    ],
+    "ai-hf": [
+      "Gemma-4-31B-it surpasses 5.1M downloads",
+      "Gemma-4-E4B-it pioneers any-to-any architecture",
+      "Qwen 3.6 35B-A3B MoE sparks quantization flood",
+      "Uncensored fine-tunes trend: HauhauCS, OBLITERATUS",
+      "OpenAI privacy-filter makes rare Hub appearance",
+      "Tencent and NVIDIA world models hint 3D frontier"
+    ],
+    "ai-community": [
+      "Google splits TPU into training and inference chips",
+      "A2A protocol emerges as Cloud Next '26 real story",
+      "Developer tooling fatigue spawns AI hype stack audits",
+      "MCP server organization at scale gains traction",
+      "McDonald's chatbot coding incident raises security flags",
+      "Watermarking reversibility debated on Lobste.rs"
+    ]
+  }
+}

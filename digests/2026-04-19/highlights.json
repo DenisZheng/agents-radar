@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.114 遭遇 macOS 11 兼容性危机",
+      "OpenAI Codex rust-v0.122.0-alpha.10 推进 Goal Mode 五部曲",
+      "Kimi K2.6 模型指令遵循退化引发社区反弹",
+      "OpenCode v1.4.11 升级灾难导致 TUI 冻结连锁故障",
+      "Qwen Code OAuth 免费层停用引发 401 认证风暴",
+      "Pi 率先支持 Claude 4.7 全家族与 Node 25 兼容"
+    ],
+    "ai-agents": [
+      "OpenClaw 24 小时 500 Issues/500 PRs 创纪录活跃度",
+      "MolTrust Agent 身份验证 RFC 获 96 条评论成史上最热",
+      "v2026.4.14 onboarding 崩溃 `.trim()` 错误批量阻塞用户",
+      "Prompt Hooks 动态工具收窄降低 Token 消耗与攻击面",
+      "Amazon Bedrock Mantle 发现机制成代码贡献主战场",
+      "子 Agent 错误载荷增强提升可观测性与重试决策"
+    ],
+    "ai-trending": [
+      "thunderbird/thunderbolt AI 客户端登 Trending 捍卫数据主权",
+      "BasedHardware/omi 多模态 AI 助手融合屏幕+语音",
+      "openai/openai-agents-python 官方多 Agent 框架上榜",
+      "EvoMap/evolver GEP 自进化 AI Agent 引擎受关注",
+      "deepseek-ai/DeepGEMM FP8 内核加速 AI 推理",
+      "aaddrick/claude-desktop-debian Linux 适配填补生态空白"
+    ],
+    "ai-hn": [
+      "Claude Design 体验帖 203 分 136 评论引爆设计师焦虑",
+      "Opus 4.7 恶意软件检测过度敏感分裂社区",
+      "Anthropic 被指暗削 Opus 4.6 为 4.7 铺路",
+      "OpenAI 高管离职潮与 Anthropic 形成鲜明反差",
+      "中文模型 GLM-5.1/Kimi K2.5 首入 HN 主流对比",
+      "AI 抵抗运动筹款提问标志反 AI 情绪组织化"
+    ],
+    "ai-ph": [
+      "Claude Opus 4.7 493 票登顶，专攻推理与 Agent 编程",
+      "Codex 2.0 310 票跃迁全栈运行，定位 AI 员工",
+      "Athena 113 票将 Claude Code 范式迁移产品管理",
+      "Qwen3.6-35B-A3B 开源模型与闭源旗舰同台竞技",
+      "Chrome AI Mode 浏览器集成展现基础设施渗透",
+      "Vercel Day 标签 6 次出现显平台生态聚合效应"
+    ],
+    "ai-hf": [
+      "google/gemma-4-31B-it 378 万下载量断层霸榜",
+      "Jackrong Qwen3.5 蒸馏 Claude-4.6 获 2732 点赞夺冠",
+      "MiniMax-M2.7 25.8 万下载周点赞登顶飙升",
+      "Qwen3.6-35B-A3B 国产模型强势跻身前列",
+      "腾讯混元连发视频生成与 3D 世界模型",
+      "uncensored 标签模型占比显著社区去审查化活跃"
+    ],
+    "ai-community": [
+      "Claude Design 首发解读冲击 Figma 设计主导权",
+      "架构拆分单一大模型调用省 55% 成本实战",
+      "Defluffer 工具 Earth Day 主题压缩 token 45%",
+      "文件系统 DAG 解决 Agent 上下文压缩状态丢失",
+      "Go 语言崛起成 AI 后端新趋势",
+      "停止盲目信任 AI 建议成开发者共识"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.114 fixes permission dialog crashes",
+      "OpenAI Codex ships rust-v0.122.0-alpha.10 rewrite",
+      "Gemini CLI targets signal handling and shell speed",
+      "Eight AI CLI tools now compete for feature parity",
+      "Platform stability crises endemic across all major tools",
+      "Community demands enterprise-grade reliability controls"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues and 500 PRs in 24 hours",
+      "Latest release 2026.4.14 introduced active regressions",
+      "Open PRs (346) outpace open issues (326)",
+      "Subagent reliability dominates community focus",
+      "Identity verification infrastructure under heavy development",
+      "Project stabilizing between releases with no new version"
+    ],
+    "ai-trending": [
+      "EvoMap's evolver gains 1,131 stars with GEP protocol",
+      "openai-agents-python adds 470 stars, official agent framework",
+      "Ollama now supports Kimi-K2.5, GLM-5, MiniMax, DeepSeek",
+      "DeepGEMM open-sources FP8 kernels with fine-grained scaling",
+      "dive-into-llms gains 547 stars for LLM education",
+      "Ambient AI assistants signal always-on mainstream readiness"
+    ],
+    "ai-hn": [
+      "Claude Design crosses into professional creative workflows",
+      "Claude Opus 4.7 dominates HN discussions across multiple threads",
+      "Claude Opus wrote Chrome exploit for $2,283",
+      "OpenAI executive exodus dubbed 'Liberation Day'",
+      "Cybersecurity implications emerge as persistent undercurrent",
+      "Independent benchmark analysis of Opus 4.7 published"
+    ],
+    "ai-ph": [
+      "Claude Opus 4.7 leads Product Hunt with 493 votes",
+      "Codex 2.0 follows with 310 votes for agentic coding",
+      "Vercel Day cohort launches five coordinated AI products",
+      "E.Y.E. life-orchestration agent sparks polarizing debate",
+      "CoAgentor joins meetings as live AI participant",
+      "Qwen3.6-35B-A3B launches as sparse MoE alternative"
+    ],
+    "ai-hf": [
+      "Gemma 4 family dominates downloads with three variants",
+      "Qwen 3.6-35B-A3B leads open multimodal MoE traction",
+      "Uncensored fine-tunes trend with serious download volumes",
+      "GLM-5.1 hits 103,847 downloads with dynamic sparse attention",
+      "Gemma-4-E4B-it introduces any-to-any architecture",
+      "Tencent's HY-World-2.0 advances embodied world models"
+    ],
+    "ai-community": [
+      "Defluffer tools claim 45% token usage reduction",
+      "Developer reports 55% compute savings via architectural splits",
+      "Go gains traction as AI agent backend language",
+      "Lobste.rs top story challenges Claude Mythos as misinformation",
+      "Developer argues tuning out AI advice improves productivity",
+      "AI framed as critical accessibility for neurodivergent coders"
+    ]
+  }
+}

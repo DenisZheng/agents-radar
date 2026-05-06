@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.120 会话恢复崩溃，社区情绪紧张",
+      "OpenAI Codex rust-v0.125.0 上下文管理危机，远程开发呼声 603👍",
+      "Kimi CLI v1.39.0 PR 吞吐量全场最高达 23 个",
+      "OpenCode v1.14.24 紧急补丁修复 DeepSeek reasoning_content",
+      "Pi v0.70.2 内置 `pi update` 发布，DeepSeek V4 适配成核心",
+      "Qwen Code v0.15.2 OAuth 免费额度政策引 119 评论热议"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.23 发布，图像生成 OAuth 化免 API Key",
+      "OpenClaw 24h 关闭 478 条 Issues，issue 消化能力极强",
+      "OpenClaw 164 个待合并 PR，代码审查队列承压",
+      "NanoBot 多智能体协作框架持续迭代",
+      "Hermes Agent 推理优化架构更新",
+      "PicoClaw 端侧部署方案获社区关注"
+    ],
+    "ai-trending": [
+      "HuggingFace ml-intern 单日 +2985 星，AI 工程师自主代理登顶",
+      "free-claude-code 单日 +2638 星，免费替代方案切中成本痛点",
+      "zilliztech/claude-context +706 星，Milvus 代码搜索 MCP 服务",
+      "ollama 新增 Kimi-K2.5、GLM-5 支持，端侧推理巩固地位",
+      "Open-Generative-AI 无审查生成式 AI 获高度关注",
+      "minimind 轻量级端侧模型效率优化深耕"
+    ],
+    "ai-web": [
+      "Anthropic 与 Amazon 签十年 5GW 超百亿美元算力协议",
+      "Anthropic 首次明确欧洲/亚洲推理扩张，押注 AWS 生态",
+      "NEC 3 万员工部署 Claude，破 OpenAI-Microsoft 日本优势",
+      "Claude Code 质量事故复盘，产品信任修复",
+      "Anthropic 选举安全前置布局，定义行业标准",
+      "OpenAI 今日零更新，发布节奏现明显空档"
+    ],
+    "ai-hn": [
+      "谷歌计划最高 400 亿美元投资 Anthropic 引爆产业",
+      "Claude 用户集中爆发质量衰退投诉，计费与功能引争议",
+      "CC-Canary 社区自救工具检测 Claude Code 回归",
+      "OpenAI GPT-5.5 API 更新反应平淡，被 Anthropic 分流",
+      "LLM 研究正在 HN 消亡，社区现 AI 倦怠信号",
+      "Browser Harness 给 LLM 浏览器任务自由完成权"
+    ],
+    "ai-ph": [
+      "Kollab 394 票登顶，首创人机混编工作空间",
+      "Monid 专注 Agent 支付基础设施获高关注",
+      "Google 正式发布 Gemini Enterprise Agent Platform",
+      "ASI:One 175 票，具备长期记忆的数字分身",
+      "Typewise AI 跨系统客服自动化打通 CRM",
+      "Qwen3.6-27B 开源模型与闭源平台同步发力"
+    ],
+    "ai-arxiv": [
+      "推理技能蒸馏：更少 token 更高准确率新机制",
+      "文本提示可覆盖视觉输入致 LVLM 幻觉新发现",
+      "LLM 系统性日本文化偏好偏见被揭露",
+      "对齐范式用户目标预设假设遭挑战",
+      "MCP 协议优化科学工作流自动生成落地",
+      "动态工具门控实现推理效率突破"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 点赞 2418 居本周冠军",
+      "DeepSeek-V4-Flash MIT 许可降低商用门槛",
+      "GLM-5.1 下载 20 万+验证国产开源标杆地位",
+      "Gemma-4-31B 超 545 万下载量验证商业穿透力",
+      "OBLITERATED 去审查 Gemma-4 下载破 10 万",
+      "openai/privacy-filter 入榜反映数据安全关注"
+    ],
+    "ai-community": [
+      "从编码到提示：开发者身份焦虑引 40 赞 27 评",
+      "Google Agent Skills 仓库标准化智能体能力复用",
+      "A2A+MCP 协议成 Google Cloud Next 真正故事",
+      "OpenClaw + WhatsApp 农村医疗助手绕过基础设施限制",
+      "DukanBot 服务 1200 万夫妻店的产品哲学翻转",
+      "LLM 推理成本瓶颈突破方案引发热议"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code ships v2.1.120 with resume regression",
+      "OpenAI Codex releases rust-v0.125.0 plus two alphas daily",
+      "Gemini CLI emphasizes local-first offline capabilities",
+      "GitHub Copilot CLI leverages IDE ecosystem integration",
+      "Kimi Code CLI and Qwen Code chase feature parity aggressively",
+      "Four tools shipped same-day patches amid competitive pressure"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues and 500 PRs in 24 hours",
+      "v2026.4.23 stable adds Codex OAuth image generation",
+      "OpenRouter Provider gains image_generate support",
+      "478:22 closed-to-open issue ratio shows strong triage",
+      "336:164 merged-to-open PR ratio demonstrates throughput",
+      "Stabilization phase follows turbulent 2026.3.12 release"
+    ],
+    "ai-trending": [
+      "free-claude-code gains +2,638 stars today",
+      "HuggingFace ml-intern launches with +2,985 stars",
+      "everything-claude-code hits 166K topic search stars",
+      "zilliztech/claude-context adds +706 stars for MCP search",
+      "Open-Generative-AI surges +842 stars for 200+ models",
+      "ollama now supports Kimi-K2.5, GLM-5, MiniMax, DeepSeek"
+    ],
+    "ai-web": [
+      "Anthropic commits $100B over 10 years to Amazon AWS",
+      "Deal secures up to 5 gigawatts of Trainium2-Trainium4 capacity",
+      "Rare postmortem published on Claude Code quality degradation",
+      "NEC partnership marks first Japan-based global partner",
+      "Anthropic publishes 6 articles vs OpenAI's zero",
+      "One million Trainium chips already in use"
+    ],
+    "ai-hn": [
+      "Google invests up to $40B in Anthropic dominates headlines",
+      "Top-voted post is scathing Claude cancellation over token issues",
+      "OpenAI's quiet GPT-5.5 API release draws muted interest",
+      "Tell HN posts about Claude bugs signal growing friction",
+      "Community mood is skeptical with quality concerns outpacing hype",
+      "GPT-5.5 Pro release gets 201 points, 111 comments"
+    ],
+    "ai-ph": [
+      "Kollab leads with 394 votes for human-agent workspace",
+      "Claude Code /ultrareview deploys parallel review agents",
+      "Monid launches wallet for AI tool subscription payments",
+      "Google debuts Gemini Enterprise Agent Platform",
+      "IFTTT MCP bridges Claude to 1000+ apps",
+      "Multi-agent orchestration dominates launch category"
+    ],
+    "ai-arxiv": [
+      "Prompt-induced hallucinations found in vision-language models",
+      "LLMs show unexpected obsession with Japanese culture",
+      "Entity phrasing dramatically alters LLM memorization",
+      "MCP Tax quantified in agent workflow overhead",
+      "Token bloat measured in reasoning LLMs",
+      "Gradient-informed adaptation advances PEFT theory"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro surges to 2,418 likes pre-deployment",
+      "Qwen3.6 and DeepSeek-V4 intensify open-weight competition",
+      "gemma-4-31B-it hits 5.4M downloads proving production staying power",
+      "Unsloth GGUF variants exceed 1.7M weekly downloads",
+      "Uncensored fine-tunes command significant community engagement",
+      "Tencent HY-World-2.0 and NVIDIA Lyra-2.0 advance image-to-3D"
+    ],
+    "ai-community": [
+      "Viral lament: 'I Used to Love Coding. Now I Just Prompt'",
+      "Google Cloud Next A2A and MCP protocols dissected",
+      "OpenClaw spawns WhatsApp AI assistant challenges",
+      "Bitwarden CLI backdoor raises supply chain alarm",
+      "PII leakage in LLM apps intensifies security concerns",
+      "Google launches official Agent Skills Repository"
+    ]
+  }
+}

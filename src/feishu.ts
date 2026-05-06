@@ -3,7 +3,8 @@
  * with links to the latest reports. Skips silently if secrets are not set.
  *
  * Required env vars:
- *   FEISHU_WEBHOOK_URL  — custom bot webhook URL
+ *   FEISHU_WEBHOOK_URLS — comma-separated list of custom bot webhook URLs
+ *                         (also accepts legacy FEISHU_WEBHOOK_URL for one URL)
  * Optional:
  *   PAGES_URL           — GitHub Pages base URL (defaults to the public deployment)
  */
@@ -15,8 +16,15 @@ import type { Highlights } from "./notify.ts";
 
 const PAGES_URL_DEFAULT = "https://duanyytop.github.io/agents-radar";
 
-async function sendFeishu(title: string, content: string): Promise<void> {
-  const webhookUrl = process.env["FEISHU_WEBHOOK_URL"] ?? "";
+function getWebhookUrls(): string[] {
+  const raw = process.env["FEISHU_WEBHOOK_URLS"] ?? process.env["FEISHU_WEBHOOK_URL"] ?? "";
+  return raw
+    .split(",")
+    .map((u) => u.trim())
+    .filter(Boolean);
+}
+
+async function sendToOneWebhook(webhookUrl: string, title: string, content: string): Promise<void> {
   const res = await fetch(webhookUrl, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -34,6 +42,17 @@ async function sendFeishu(title: string, content: string): Promise<void> {
   if (!res.ok) {
     const body = await res.text();
     throw new Error(`Feishu API ${res.status}: ${body}`);
+  }
+}
+
+async function sendFeishu(title: string, content: string): Promise<void> {
+  const urls = getWebhookUrls();
+  const results = await Promise.allSettled(urls.map((url) => sendToOneWebhook(url, title, content)));
+  const failures = results.filter((r) => r.status === "rejected");
+  if (failures.length) {
+    const msgs = failures.map((r) => (r as PromiseRejectedResult).reason);
+    console.error(`[feishu] ${failures.length}/${urls.length} webhook(s) failed:`, msgs);
+    if (failures.length === urls.length) throw new Error("All Feishu webhooks failed");
   }
 }
 
@@ -86,9 +105,9 @@ export function buildFeishuMessage(
 }
 
 async function main(): Promise<void> {
-  const webhookUrl = process.env["FEISHU_WEBHOOK_URL"] ?? "";
-  if (!webhookUrl) {
-    console.log("[feishu] FEISHU_WEBHOOK_URL not set — skipping.");
+  const urls = getWebhookUrls();
+  if (!urls.length) {
+    console.log("[feishu] FEISHU_WEBHOOK_URLS not set — skipping.");
     return;
   }
 
@@ -126,7 +145,7 @@ async function main(): Promise<void> {
 
   const content = buildFeishuMessage(date, reports, undefined, highlights);
 
-  console.log(`[feishu] Sending Feishu message for ${date} (${reports.length} reports)…`);
+  console.log(`[feishu] Sending to ${urls.length} webhook(s) for ${date} (${reports.length} reports)…`);
   await sendFeishu(title, content);
   console.log("[feishu] Done!");
 }

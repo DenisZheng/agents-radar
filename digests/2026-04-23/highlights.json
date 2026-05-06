@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code单条Issue引114评论，治理压力凸显",
+      "OpenAI Codex连发3个Rust alpha，架构重构密集",
+      "Kimi CLI v1.38.0发布，24小时涌现13个新Issue",
+      "Qwen Code政策变动引爆113条评论，计费信任危机",
+      "Gemini CLI紧急补丁v0.39.0-preview.2修复流式输出",
+      "OpenCode多线并行：LSP诊断、TUI优化、模型兼容"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.21发布引发依赖危机，飞书插件崩溃",
+      "500条Issues+500条PR，24小时高活跃度高压运转",
+      "9-PR上游合并计划启动，生态扩张加速",
+      "MCP运行时修复推进，技术深度同步拓展",
+      "Codex认证体系重构，安全架构升级",
+      " bundled插件运行时依赖缺失致大量用户安装失败"
+    ],
+    "ai-trending": [
+      "zilliztech/claude-context：MCP代码搜索工具上榜",
+      "FinceptTerminal：AI驱动金融分析终端入选",
+      "KeygraphHQ/shannon：AI自动化渗透测试受关注",
+      "HKUDS/RAG-Anything：RAG框架登Trending",
+      "AIDC-AI/Pixelle-Video：AI全自动短视频引擎",
+      "vercel-labs/skills：Vercel开放Agent技能工具"
+    ],
+    "ai-web": [
+      "Anthropic发布8.1万用户AI经济影响调查报告",
+      "Anthropic启动月度经济指数调查机制",
+      "OpenAI Privacy Filter功能曝光",
+      "OpenAI瞄准医疗场景：Making ChatGPT Better For Clinicians",
+      "Anthropic从'技术透明度'转向'社会影响力透明度'",
+      "OpenAI Workspace Agents企业功能昨日发布"
+    ],
+    "ai-hn": [
+      "Anthropic未发布网络安全模型Mythos遭未授权访问",
+      "Mythos泄露引发'能力越强、泄露越危险'悖论讨论",
+      "Broccoli云端一次性编码代理获49分34评论",
+      "XTrace加密向量数据库解决RAG嵌入隐私问题",
+      "失败公司出售Slack/邮件数据训练AI引隐私焦虑",
+      "Gemini Plugin for Claude Code实现跨工具联动"
+    ],
+    "ai-ph": [
+      "Kimi K2.6开源SOTA模型+Agent Swarm架构发布",
+      "Twenty 2.0：首个AI原生企业CRM获349票",
+      "Cosine Swarm多Agent并行解决复杂软件任务",
+      "Spectrum让AI Agent嵌入iMessage等现有界面",
+      "'Vibe coding'标签首次密集出现，3款产品上榜",
+      "MCP记忆优化、多Agent并行成差异化焦点"
+    ],
+    "ai-arxiv": [
+      "VLA Foundry首次统一LLM/VLM/VLA三阶段训练",
+      "FASTER价值引导采样降低RL推理成本一个数量级",
+      "SafetyALFRED首次系统评估多模态LLM安全规划能力",
+      "Pause or Fabricate：训练LLM学会暂停而非编造",
+      "Micro Language Models实现边缘设备亚秒级响应",
+      "AI Agent执行环境通过硬件隔离防提示注入攻击"
+    ],
+    "ai-hf": [
+      "Qwen3.6-35B-A3B MoE系列下载量突破百万",
+      "Google Gemma-4-31B以2290点赞、478万下载居首",
+      "GLM-5.1 DSA稀疏注意力技术带来高效长文本推理",
+      "MiniMax-M2.7中文对话与推理能力均衡受青睐",
+      "Claude-4.6 Opus推理能力蒸馏至Qwen3.6量化版",
+      "社区'uncensored''abliterated'版本数量显著增加"
+    ],
+    "ai-community": [
+      "研究：AI让开发者感觉快20%但实际慢19%",
+      "Anthropic最危险模型Mythos被未授权访问",
+      "Beyond CLAUDE.md：生产级AI Agent Harness 5层架构",
+      "Claude Code SRE运维场景on-call减负方案",
+      "2011年若有AI，现代Web是否还会存在？",
+      "AI末日零日漏洞讨论吸引Lobste.rs大量评论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "MCP adoption dominates reliability concerns across all tools",
+      "OpenAI Codex shipped 3 alpha releases in 24 hours",
+      "Claude Code faces 14 spam PRs among 16 total",
+      "Rust and TypeScript emerge as dominant implementation languages",
+      "Enterprise readiness separates production tools from hobby projects",
+      "Token quota transparency is a universal trust fracture point"
+    ],
+    "ai-agents": [
+      "OpenClaw hit 500 issues and 500 PRs in one day",
+      "v2026.4.21 introduced critical dependency regression",
+      "Regression broke Feishu, WhatsApp, Telegram, Nostr plugins",
+      "295 merged PRs vs 205 open shows strong maintainer throughput",
+      "Community demands cross-platform support and real-time voice",
+      "Image generation upgraded to gpt-image-2 in latest release"
+    ],
+    "ai-trending": [
+      "claude-context gained 871 stars in a single day",
+      "Shannon emerges as autonomous white-box AI pentester",
+      "Vectorless retrieval gains traction with RAG-Anything, PageIndex",
+      "Chinese projects increasingly dominate global trending",
+      "Vercel's skills tool hits 333 stars with npx deployment",
+      "LLM SEO crystallizes as distinct product category"
+    ],
+    "ai-web": [
+      "Anthropic launches 81,000-response Economic Index Survey",
+      "OpenAI ships 5 product entries in 2-day push",
+      "OpenAI targets privacy, healthcare, workspace agents",
+      "Anthropic builds credibility through transparency and research",
+      "OpenAI accelerates enterprise feature shipping",
+      "Divergent strategies: research vs productization"
+    ],
+    "ai-hn": [
+      "Anthropic Mythos security incident generates multiple submissions",
+      "First major breach of frontier cybersecurity-capable model",
+      "Community alarmed by dual-use AI proliferation risks",
+      "Frustration over silent Claude Code feature removals",
+      "Skepticism of AI hype cycles shows in comment ratios",
+      "OpenAI Workspace Agents drive enterprise discussion"
+    ],
+    "ai-ph": [
+      "Chronicle captures screen context for Codex",
+      "YourMemory slashes token waste via self-pruning MCP",
+      "Kimi K2.6 launches with long-horizon coding capabilities",
+      "LLM SEO category emerges with Dageno AI, Gauge Sentiment",
+      "Cosine Swarm deploys parallel agents for complex tasks",
+      "Spectrum bridges agents to iMessage, GitHub, messaging"
+    ],
+    "ai-arxiv": [
+      "Micro language models hit sub-100ms on edge devices",
+      "Pause or Fabricate? tackles ungrounded LLM reasoning",
+      "Safety-critical control advances via Lyapunov-certified RL",
+      "Visual semantic arithmetic frameworks emerge",
+      "Training dynamics at edge of stability studied",
+      "Preference-based personalized explanations proposed"
+    ],
+    "ai-hf": [
+      "Qwen3.6 family dominates trending with 35B-A3B MoE flagship",
+      "Gemma-4-31B-it nears 4.8M downloads",
+      "Unsloth GGUF releases cross 1.1M downloads",
+      "Uncensored fine-tunes sustain strong demand",
+      "Tencent HY-World-2.0 enters world models and 3D",
+      "Kimi-K2.6 features compressed tensor optimization"
+    ],
+    "ai-community": [
+      "Devs feel 20% faster with AI, measure 19% slower",
+      "Anthropic's unreleased model leaked to Discord group",
+      "Harness engineering emerges as agent craft discipline",
+      "Counterfactual: would AI have stifled React's invention?",
+      "OpenClaw challenge drives hands-on agent experimentation",
+      "Lobste.rs probes theoretical limits of LLM reasoning"
+    ]
+  }
+}

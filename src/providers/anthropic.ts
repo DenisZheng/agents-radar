@@ -17,7 +17,6 @@ export class AnthropicProvider implements LlmProvider {
 
   constructor(model?: string) {
     this.model = model ?? process.env["ANTHROPIC_MODEL"] ?? "claude-sonnet-4-6";
-    // Reads ANTHROPIC_API_KEY and ANTHROPIC_BASE_URL from env automatically
     this.client = new Anthropic();
   }
 
@@ -27,8 +26,8 @@ export class AnthropicProvider implements LlmProvider {
       max_tokens: maxTokens,
       messages: [{ role: "user", content: prompt }],
     });
-    const block = message.content[0];
-    if (block?.type !== "text") throw new Error("Unexpected response type from Anthropic");
+    const block = message.content.find((b) => b.type === "text");
+    if (!block) throw new Error("Unexpected response type from Anthropic");
     return block.text;
   }
 }
