@@ -1,0 +1,126 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 新增 Skills 功能，支持插件生态扩展",
+      "OpenAI Codex 发布 3 个新版本，持续优化代码生成能力",
+      "Gemini CLI 今日发布 4 个更新，增强多平台兼容性",
+      "GitHub Copilot CLI 推出 3 个重要版本更新",
+      "Kimi Code CLI 面临 3 个新 Issue，社区关注度上升",
+      "OpenCode 活跃度高，发布 4 个版本并处理大量 PR"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.5.4 正式版发布，集成 Twilio 与 Gemini Realtime API",
+      "OpenClaw 本周处理 1,000 条 Issues/PRs，活跃度极高",
+      "OpenClaw 新增会话清理工具，解决幽灵 Direct Message 会话问题",
+      "OpenClaw 修复 legacy Codex 路由配置残留问题",
+      "OpenClaw 解决 npm 安装后 Matrix SDK 缺失问题",
+      "OpenClaw 发布两个 Beta 版本用于内部测试验证"
+    ],
+    "ai-trending": [
+      "Ollama 本地 LLM 运行时获 170k stars，支持 Kimi-K2.5 一键部署",
+      "browser-use AI 网页浏览 SDK 获 92k stars，打通 Web 自动化",
+      "ruvnet ruflo 企业级多智能体编排平台今日暴涨 2432 stars",
+      "virattt dexter 金融研究自主代理获 659 stars，专注深度分析",
+      "msitarzewski agency-agents 全栈 AI 机构框架获 1218 stars",
+      "forrestchang andrej-karpathy-skills Claude Code 行为优化指南爆红"
+    ],
+    "ai-web": [
+      "Anthropic 发布金融服务业 Agents，集成 Microsoft 365 插件",
+      "OpenAI 密集准备 GPT-5.5 Instant 发布，推出新广告购买方式",
+      "Anthropic Agents 覆盖投资材料、尽职调查等金融场景",
+      "Claude Cowork 和 Claude Code 提供快速部署 Agent 模板",
+      "Claude Managed Agents 平台以 Cookbook 形式提供解决方案",
+      "Microsoft 365 深度集成实现跨应用无缝上下文传递"
+    ],
+    "ai-hn": [
+      "GLM-5V-Turbo 原生多模态基础模型支持复杂视觉推理，获 104 分",
+      "SubQ 亚二次复杂度 LLM 处理 12M-token 上下文，重新定义瓶颈",
+      "Airbyte Agents 统一上下文聚合工具获 89 分，被赞瑞士军刀",
+      "Claude-smart 让 Claude Code 具备会话记忆与自优化能力",
+      "Anthropic 与华尔街达成 15 亿美元合资协议，进军商业落地",
+      "Y Combinator 持有 OpenAI 约 50 亿美元股权引发治理讨论"
+    ],
+    "ai-arxiv": [
+      "SpecKV 自适应推测性解码算法提升 LLM 推理效率，动态调整 γ",
+      "HAAS 框架将任务分配视为策略问题，超越人 vs AI 二元选择",
+      "TOC-SR 面向任务最优的紧凑型扩散模型，提升超分辨率部署效率",
+      "U-Define 设计用户工作流约束 LLM 规划，平衡硬软约束",
+      "FunFuzz LLM 驱动 fuzzer 提升软件测试效率，减少人为干预",
+      "SAIL 医学图像解释系统结合临床知识，提升诊断准确性"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 强势登顶，点赞 3577 下载 631,499 次",
+      "google/gemma-4-31B-it 支持图像-文本多模态，下载量 820万+",
+      "Qwen3.6-35B-A3B MoE 架构大模型广受欢迎，下载 288万+",
+      "moonshotai/Kimi-K2.6 压缩张量推理能力备受关注",
+      "nvidia Nemotron-3 Nano Omni 专注推理优化，获 44k 下载",
+      "XiaomiMiMo MiMo-V2.5 Pro 文本生成与代理能力突出"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code maintains 10 top issues with 5 PRs updated yesterday",
+      "OpenAI Codex releases 3 alphas with 10 PRs in 24h",
+      "Gemini CLI v0.42.0-p1 introduces real-time voice bridge improvements",
+      "GitHub Copilot CLI v1.0.42-0 released with no new PRs",
+      "Kimi Code CLI shows low engagement with 3 issues and 2 PRs",
+      "OpenCode and Pi join ecosystem with recent GitHub activity"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.5.4 adds Twilio Google Meet voice bridging via Gemini",
+      "Robust 500 issues/PRs updated in 24h showing strong community engagement",
+      "Three new OpenClaw releases focus on voice call stability enhancements",
+      "Real-time Gemini voice bridge eliminates legacy TwiML fallback",
+      "Paced audio streaming and barge-in queue clearing improve responsiveness",
+      "Cross-platform agent deployment gains momentum across 13 projects"
+    ],
+    "ai-trending": [
+      "DeepSeek-TUI surges with 2,434 stars for lightweight terminal coding agents",
+      "Ruflo leads agent orchestration with 2,432 new stars today",
+      "Local deep research gains traction using Qwen3.6-27B on-device models",
+      "Browser-use enables AI agents to interact with websites directly",
+      "Ollama now supports DeepSeek and Kimi-K2.5 for local LLM deployment",
+      "Agency-agents swarm platform optimized for Claude integration emerges"
+    ],
+    "ai-web": [
+      "Anthropic launches ten finance/insurance agent templates with M365 integration",
+      "Claude add-ins enable seamless Excel-to-PowerPoint context carryover",
+      "GPT-5.5 Instant metadata pages suggest imminent model release",
+      "Finance agents automate pitchbook creation and KYC screening workflows",
+      "Agents deploy as cookbooks via Claude Managed Agents for rapid value",
+      "Divergent strategies: Anthropic focuses on vertical compliance vs OpenAI speed"
+    ],
+    "ai-hn": [
+      "Anthropic's finance agents spark 190-point HN interest amid enterprise adoption",
+      "GLM-5V-Turbo advances multimodal agent reasoning capabilities",
+      "SubQ claims sub-quadratic LLM with 12M-token context breakthrough",
+      "Airbyte Agents provide cross-data-source context for AI systems",
+      "Controversial 'Claude delusion' debate garners 45 comments",
+      "Character.ai lawsuits highlight regulatory concerns in AI industry"
+    ],
+    "ai-arxiv": [
+      "SpecKV improves inference throughput with adaptive speculative decoding",
+      "Mitigating misalignment contagion in multi-LM environments proposed",
+      "Trust but Verify enables layer-wise monitoring of quantized transformers",
+      "HAAS framework adapts human-AI task allocation policies dynamically",
+      "Medical imaging gains from foundation models fine-tuned on structured data",
+      "Domain-specific applications mature beyond generic text generation"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro most liked model with 3,577 likes and 631k downloads",
+      "NVIDIA Omni series launches advanced reasoning multimodal models",
+      "Qwen3.6 and Gemma4 see active community fine-tuning and quantization",
+      "Mistral-Medium-3.5-128B shows strong download numbers despite modest likes",
+      "Poolside Laguna-XS.2 offers efficient language model with vLLM support",
+      "InclusionAI Ling-2.6-flash targets specialized conversational AI use cases"
+    ],
+    "ai-community": [
+      "Monetize AI agents via LangChain + Kong gateway integration guide",
+      "Am I a developer or just a prompt engineer? sparks identity debate",
+      "Build RAG agents locally with LangChain and Ollama tutorial",
+      "AI workflow automation tools criticized for causing productivity churn",
+      "Rails apps become AI-ready without major changes needed",
+      "Reverse-engineering Claude Mythos reveals growing black-box skepticism"
+    ]
+  }
+}
