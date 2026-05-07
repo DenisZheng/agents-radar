@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.132发布，新增环境变量支持与MCP集成优化",
+      "OpenAI Codex Rust版v0.129.0-alpha发布，支持GPT-5.5长上下文扩展",
+      "Gemini CLI v0.42.0-preview.2上线，强化A2A服务器工具审批机制",
+      "Kimi Code CLI发布自定义配色功能，提升终端交互体验",
+      "Qwen Code v0.15.7-preview.0新增FileReadCache机制优化性能",
+      "Pi项目大规模重构中，重点修复OpenAI流式响应兼容性问题"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.5.6修复OAuth配置误改问题，建议用户检查openclaw.json",
+      "OpenClaw v2026.5.5强化LINE安全策略，阻止未配置通配符的DM验证绕过",
+      "PR #78667合并OCI Generative AI官方支持，统一云认证接口",
+      "PR #77852/77854完成预计算运行时元数据基础设施，减少插件冷启动开销",
+      "Telegram access group now支持accessGroup:<name>别名引用，简化多账户管理",
+      "session lock超时机制优化，模型fallback现快速失败提升可观测性"
+    ],
+    "ai-trending": [
+      "DeepSeek-TUI单日暴涨6175星，成为最大热点终端工具",
+      "Ruflo企业级多智能体编排平台单日增2192星，专注Claude swarm系统",
+      "Dexter自主金融研究智能体单日获666星，展示垂直领域应用潜力",
+      "InsForge基于Postgres的后端AI网关平台单日增230星，集成认证与计算",
+      "local-deep-research本地深度研究工具单日涨532星，强调数据加密与隐私",
+      "agent-skills生产级工程技能集合单日增800星，标准化智能体能力定义"
+    ],
+    "ai-web": [
+      "Anthropic发布十大金融Agent模板，覆盖投顾/KYC/结账等高频任务",
+      "Anthropic与SpaceX签署算力协议，Colossus 1超算获300兆瓦资源投入运营",
+      "Claude Code速率限制翻倍，Pro/Max账户取消峰时降频，API调用上限大幅提升",
+      "OpenAI上线ChatGPT Futures Class of 2026教育项目页面",
+      "OpenAI发布B2B Signals企业服务产品页面",
+      "OpenAI披露MRC超级计算机网络架构优化进展"
+    ],
+    "ai-hn": [
+      "Anthropic与SpaceX算力合作获364分热议，评论达305条",
+      "LaDiR论文将潜在扩散融入LLM推理，代表多模态融合前沿趋势",
+      "OpenAI超级计算机网络优化获9分关注，为千亿参数模型训练提速",
+      "Costanza自称无法关闭的自主AI代理引发失控风险讨论",
+      "Claude Code Bedrock集成反复故障暴露企业级工具稳定性问题",
+      "xAI确认向Anthropic开放Colossus 1超算资源，标志云厂商深度协作"
+    ],
+    "ai-arxiv": [
+      "临床大语言模型揭示安全准确遵循不同缩放定律，挑战传统认知",
+      "Atomic Fact-Checking显著增强医生对肿瘤学AI推荐的信任度",
+      "OpenSeeker-v2生成高难度搜索轨迹，推动前沿LLM代理能力边界",
+      "AI红队测试新方法将数周工作压缩至数小时，大幅提升审计效率",
+      "逻辑一致性建模提升LLM幻觉检测效果，解决语义级可靠性问题",
+      "将物理知识融入制造决策支持系统，推动具身智能实际应用"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro文本生成强劲，下载量达786,631次",
+      "Gemma 4-31B-it多模态理解突出，下载8,403,901次领跑开源",
+      "Kimi-K2.6采用压缩张量技术，多模态推理表现优异",
+      "Sulphur-2-base文本转视频模型下载55,461次，适用创意广告",
+      "Z-Anime动漫风格文生图模型融合Z-Hub技术栈，适合二次元创作",
+      "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16支持any-to-any多模态"
+    ],
+    "ai-community": [
+      "Build Your Own AI Butler：用AWS构建自主定时运行代理",
+      "Agentic Engineering取代Vibe Coding成为新趋势，强调系统可靠性",
+      "双层验证器有效过滤低质AI输出，保障生产环境内容质量",
+      "TokenMix聚合171个模型统一API，零平台费大幅降低调用成本",
+      "OpenMythos尝试复现Claude Mythos架构，理解前沿设计",
+      "GLM-5编码智能体大规模服务调试经验分享，剖析性能瓶颈"
+    ]
+  },
+  "en": {}
+}
