@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.133发布，新增工作树baseRef配置支持",
+      "OpenAI Codex rust-v0.129.0更新，新增TUI Vim模式与RTL国际化",
+      "Gemini CLI v0.42.0-nightly集成Shell安全评估子代理",
+      "Copilot CLI v1.0.44-2优化Markdown渲染与剪贴板交互体验",
+      "Kimi Code CLI聚焦多模态输入与跨平台构建能力增强",
+      "OpenCode v1.14.41改进Bash工具稳定性与Tokens/s显示"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.5.7发布，修复插件发布鲁棒性与版本漂移问题",
+      "#78595 PR重构运行时状态为SQLite数据库，支撑分布式架构演进",
+      "#78678实现oc://工作区文件寻址体系，支持多格式操作",
+      "社区热议预编译Android APK需求与Slack Block Kit富交互支持",
+      "iMessage插件升级至私有JSON-RPC API，支持高级消息交互",
+      "Codex原生插件应用启用，消除桥接层延迟提升执行效率"
+    ],
+    "ai-trending": [
+      "DeepSeek-TUI(Rust)爆红(+5799)，浏览器内运行Claude Code突破环境限制",
+      "addyosmani/agent-skills(Shell)获3062星，展示AI代理技能标准化趋势",
+      "anthropics/financial-services(Python)急升1343星，金融Agent模板引爆行业应用",
+      "LearningCircuit/local-deep-research(Python)热度559，本地深度研究工具受关注",
+      "VectifyAI/PageIndex(Python)获943星，页面向量化索引技术受追捧",
+      "PriorLabs/TabPFN(Python)涨230星，表格数据预训练模型新进展"
+    ],
+    "ai-web": [
+      "Anthropic开源MCP协议，统一AI助手与数据源连接标准",
+      "发布金融Agent十款模板，深度集成Microsoft 365与Claude Opus 4.7",
+      "Petri 3.0对齐评估工具升级，强化AI系统安全性验证能力",
+      "公布NLAs研究成果，首次实现Claude内部思维链文本化解析",
+      "成立The Anthropic Institute(TAI)，专注AI社会影响与经济建模研究",
+      "OpenAI更新ChatGPT可信联系人功能与API语音智能模型"
+    ],
+    "ai-hn": [
+      "Anthropic自然语言自编码器论文获174分，实现LLM思维链透明化突破",
+      "Mythos在Firefox审计中发现271漏洞，误报率近乎为零获业界认可",
+      "Stage CLI简化AI代码审查流程，开发者社区积极推荐使用",
+      "BrowserCode通过WebAssembly实现浏览器内运行Claude Code",
+      "Canvas教育平台遭勒索攻击持续宕机，引发关键设施安全担忧",
+      "Cloudflare裁员1100人转向AI战略，产业格局调整引发热议"
+    ],
+    "ai-arxiv": [
+      "扩散Transformer异常token处理新方法提升图像生成稳定性",
+      "LLM语法性隐式表示机制揭示模型内部语言处理能力本质",
+      "\"现象性体验\"成为区分LLM心理特征的首要维度",
+      "长上下文建模存在效率-紧凑性-召回能力不可兼得的基本限制",
+      "动力系统预测法低成本检测LLM幻觉，计算效率优势显著",
+      "多时间尺度记忆动态实现LLM持续知识更新机制创新"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro推理模型上线，支持深度思考链式输出",
+      "Google Gemma-4-31B-it百亿级多模态模型开源对标闭源竞品",
+      "Qwen3.6-27B视觉语言MoE模型具备高精度跨模态对话能力",
+      "OmniVoice零样本语音克隆模型支持多语种合成应用",
+      "TenStrip LTX2.3-10Eros视频生成模型从静态图生成高质量动态画面",
+      "OpenAI隐私过滤器识别敏感信息助力合规数据训练"
+    ],
+    "ai-community": [
+      "Build Your Own MCP Server教程手把手教建AI助手文件搜索工具",
+      "200行TypeScript AI路由器使月费降低41%，成本优化方案走红",
+      "Anthropic租用xAI数据中心，Claude token价格或将合理化",
+      "Cloudflare与Stripe开放API让AI代理可买域名部署代码",
+      "Google多智能体本地测试框架提供内存管理与协作机制",
+      "MCP协议详解文章揭示AI代理通信标准化新方向"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.133 released with agent orchestration improvements",
+      "OpenAI Codex rust-v0.129.0 ships significant performance updates",
+      "Gemini CLI hits v0.42.0-nightly with experimental features",
+      "Kimi Code CLI maintains steady PR activity at 8 merged",
+      "GitHub Copilot CLI stable release v1.0.44-2 addresses reliability issues",
+      "OpenCode emphasizes subagent management in terminal workflows"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.5.7 fixes plugin publishing reliability issues",
+      "Runtime State refactored into SQLite for better data management",
+      "500 new issues and 500 PRs reflect high community engagement",
+      "ClawHub package verification improved to reduce outages",
+      "Major architectural shift moves from JSON to typed SQLite model",
+      "Sustained development momentum across 13 agent projects"
+    ],
+    "ai-trending": [
+      "DeepSeek-TUI surges 6K stars with Rust-powered integration",
+      "ollama/ollama hits 170,956 stars for local LLM deployment",
+      "browser-use enables autonomous web task automation",
+      "vllm-project scales open models beyond research labs",
+      "zilliztech/claude-context bridges codebases with agent reasoning",
+      "local-deep-research gains traction for encrypted RAG solutions"
+    ],
+    "ai-web": [
+      "Anthropic open-sources Petri v3.0 alignment testing framework",
+      "Natural Language Autoencoders decode Claude's internal reasoning",
+      "Specialized agent templates launched for financial services",
+      "OpenAI announces Trusted Contact feature in ChatGPT API",
+      "Microsoft 365 add-ins integrate Claude into enterprise workflows",
+      "NLAs translate model activations into readable text format"
+    ],
+    "ai-hn": [
+      "Natural Language Autoencoders spark debate over AI transparency",
+      "Mozilla deploys Mythos to harden Firefox security",
+      "Cloudflare lays off staff amid AI pivot strategy",
+      "Anthropic's NLA technique decodes LLM internal monologue",
+      "Stage CLI simplifies AI-generated code review workflows",
+      "OpenAI faces mounting legal battles over commercialization"
+    ],
+    "ai-arxiv": [
+      "Taming outlier tokens in diffusion transformers attention mechanisms",
+      "LLMs implicitly encode grammatical structure despite likelihood training",
+      "Pinocchio dimension identifies core axis of LLM psychometric differences",
+      "Hardware design agent demonstrates complex system creation capability",
+      "New method manages long-horizon reasoning effectively",
+      "Trustworthy mental health prediction frameworks advance significantly"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads with 946K downloads and 3.7K likes",
+      "Qwen3.6-27B conversational model sees 1.7M downloads",
+      "Google's gemma-4-31B-it multimodal model trending heavily",
+      "XiaomiMiMo-V2.5-Pro offers long-context agent capabilities",
+      "Community fine-tunes make ultra-large models more accessible",
+      "Text-to-video pipelines show strong generative AI growth"
+    ],
+    "ai-community": [
+      "200-line TypeScript AI router cuts monthly cloud bill by 41%",
+      "MCP server tutorial enables repo-agnostic file search tools",
+      "Encoder-only transformers remain central to modern RAG systems",
+      "Terraform and Cloud Run deploy multi-agent systems effectively",
+      "Short-lived credentials raise security concerns in autonomous agents",
+      "AI reshapes software engineering roles and hiring trends"
+    ]
+  }
+}
