@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.137 发布紧急修复，提升稳定性",
+      "Qwen Code 推出 v0.15.8-preview.0，支持新特性",
+      "GitHub Copilot CLI v1.0.44 更新，增强企业级可控性",
+      "Kimi Code CLI 适配 Windows 平台，扩展跨平台能力",
+      "Pi 工具新增 Windows 支持，完善多系统覆盖",
+      "MCP 集成成为各工具共同焦点，提升扩展性"
+    ],
+    "ai-agents": [
+      "OpenClaw 推进 SQLite 状态重构，解决并发不一致问题",
+      "#78595 PR 将运行时状态迁移至 SQLite，为解耦奠基",
+      "修复 ACP 会话元数据误报问题，确保准确性",
+      "阻止裸模型别名覆盖显式提供者，避免配置漂移",
+      "医生工具重写 openai-codex/* 导致认证失效引发讨论",
+      "项目处于高活跃迭代期，需警惕版本回归问题"
+    ],
+    "ai-trending": [
+      "DeepSeek-TUI 成终端智能体爆发增长点",
+      "Claude Code 生态持续繁荣，构建模块化代理框架",
+      "ollama 达 171k stars，成 AI 模型运行入口级基建",
+      "vllm 获 79k stars，专注 LLM 高吞吐推理引擎",
+      "9router 日涨 1052 stars，聚合 Claude Code 等多 IDE 插件",
+      "agent-skills 日涨 1893 stars，提供生产级工程技能集合"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Teaching Claude Why 安全对齐研究",
+      "Claude 4.5 实现代理错位评估零失败，安全性突破",
+      "OpenAI 更新 Codex 安全实践页面，强化风险控制",
+      "OpenAI 聚焦 EMEA 青少年安全措施持续推进",
+      "直接训练抑制错误行为，安全对齐技术重大进展",
+      "增强企业用户对 Claude 安全性和可靠性信心"
+    ],
+    "ai-hn": [
+      "Git for AI Agents 获 92 分热议，解决版本控制痛点",
+      "Anthropic Claude 因果推理方法引 16 条评论争议",
+      "UltraCompress 无损压缩至 5 比特突破量化极限",
+      "Claude Code 一键 RCE 漏洞暴露 prompt injection 风险",
+      "五角大楼将永不依赖单一 AI 提供商保障安全",
+      "LLM 能否用 TLA+ 建模真实系统引发前沿探讨"
+    ],
+    "ai-arxiv": [
+      "UniPool 共享专家池打破 MoE 层间独立限制",
+      "Optimizer-Model Consistency 减少微调灾难性遗忘",
+      "SoftSAE 动态稀疏自编码器优化模型内部表示",
+      "AI Co-Mathematician 加速数学家全流程协作",
+      "Recursive Agent Optimization 实现推理时自然扩展",
+      "MASPO 联合优化多智能体提示词显著提升效率"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 下载超百万，长上下文推理优化",
+      "Qwen3.6-35B-A3B 支持图像文本多模态交互",
+      "gemma-4-31B-it 下载破 870 万，视觉理解标杆",
+      "OmniVoice 音频类榜首，零样本语音克隆突破",
+      "Sulphur-2-base 文本转视频模型质量领先",
+      "privacy-filter ONNX 格式助力生产环境隐私合规"
+    ],
+    "ai-community": [
+      "Gemma 4 本地部署推动端侧 AI 发展",
+      "Claude Code + Docker 降低 API 依赖实践",
+      "DID/VC 加密身份保障 AI 代理通信安全",
+      "MCP 网关推荐聚焦金融场景企业应用",
+      "Six Reliability Primitives 提炼代理稳定性机制",
+      "Why does AI lie? 通俗解释大模型幻觉成因"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.137 released with Windows activation fix",
+      "OpenAI Codex rust-v0.130.0 addresses /compact regression",
+      "Gemini CLI v0.35.3 fixes performance regression",
+      "Copilot CLI v1.0.44 patches sub-agent session corruption",
+      "Kimi Code CLI shows active development with 10+ issues",
+      "Qwen Code maintains steady community engagement"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.5.5 introduces breaking changes to model aliasing",
+      "High activity: 500 issues and 500 PRs updated in last 24 hours",
+      "Gateway stability regressions reported in OpenClaw project",
+      "ACP runtime behavior changed in latest OpenClaw release",
+      "Automatic openai-codex/* → openai/* rewriting disrupts ChatGPT-OAuth",
+      "Team finalizing major refactoring before upcoming release"
+    ],
+    "ai-trending": [
+      "DeepSeek-TUI gains 3,731 stars showing coding agent interest surge",
+      "addyosmani/agent-skills jumps +1,893 stars for production skills",
+      "Ollama enables local LLM deployment including DeepSeek and Kimi-K2.5",
+      "browser-use browser automation framework hits 92,968 stars",
+      "vllm-project/vllm optimized for flash speculative decoding",
+      "z-lab/dflash implements block diffusion for faster speculative decoding"
+    ],
+    "ai-web": [
+      "Anthropic eliminates agentic misalignment in Claude models post-Haiku 4.5",
+      "OpenAI releases 'Running Codex Safely' and EMEA youth safety updates",
+      "Perfect scores on agentic misalignment evaluations achieved by Claude",
+      "RLHF and DPO improvements prevent blackmailing behaviors in Claude",
+      "New research highlights alignment training breakthroughs",
+      "Metadata-only announcements focus on developer toolchain security"
+    ],
+    "ai-hn": [
+      "Mythos AI vulnerability sparks national policy debates on security",
+      "Git for AI Agents version control system gains 92 score on HN",
+      "GETadb.com engineering tool lowers experimentation barriers",
+      "UltraCompress reflects developer enthusiasm for novel tooling",
+      "Cautiously optimistic sentiment about AI innovation and risks",
+      "Interpretability research on Claude's reasoning transparency advances"
+    ],
+    "ai-arxiv": [
+      "Optimizer-Model Consistency reduces forgetting in full fine-tuning",
+      "SoftSAE enables dynamic top-K selection for sparse autoencoders",
+      "UniPool uses globally-shared expert pools for dynamic specialization",
+      "AI Co-Mathematician demonstrates autonomous scientific discovery",
+      "Attention sinks research provides deeper LLM mechanics insights",
+      "SkillOS enables self-evolving agents with curated skills"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro dominates with 3,758 likes and 1M+ downloads",
+      "Qwen3.6-27B excels in image-text-to-text multimodal tasks",
+      "gemma-4-31B-it achieves 2,569 likes as Google's latest open-weight model",
+      "XiaomiMiMo/V2.5-Pro gains traction with 48 weekly likes",
+      "Strong demand for uncensored abliterated frontier models",
+      "Qwen 3.5 MoE architecture variants show growing popularity"
+    ],
+    "ai-community": [
+      "Using Claude Code with Docker Model Runner avoids API limits",
+      "Why does AI lie? Hallucinations explained simply for beginners",
+      "Best MCP Gateways for Enterprise Teams in 2026 evaluated",
+      "Securing AI Agent Interactions with DIDs & VCs introduced",
+      "Local Gemma 4 seen as viable cloud alternative for agents",
+      "Teaching agents to remember tasks across sessions prioritized"
+    ]
+  }
+}
