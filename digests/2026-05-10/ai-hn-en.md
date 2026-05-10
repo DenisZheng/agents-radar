@@ -1,0 +1,78 @@
+# Hacker News AI Community Digest 2026-05-10
+
+> Source: [Hacker News](https://news.ycombinator.com/) | 30 stories | Generated: 2026-05-10 00:32 UTC
+
+---
+
+**Hacker News AI Community Digest — May 10, 2026**
+
+---
+
+### **Today's Highlights**
+
+Claude Code continues to dominate discussions with both praise for its "unreasonable effectiveness in HTML tasks" and skepticism around delegation risks. A new paper warns that LLMs can corrupt documents when users delegate editing, sparking debate on trust boundaries in agentic workflows. Meta’s internal AI rollout has drawn criticism over employee morale, while Anthropic reportedly eyes a near-$1T valuation—signaling continued VC enthusiasm for frontier labs despite operational tensions.
+
+---
+
+### **Top News & Discussions**
+
+#### 🔬 **Models & Research**
+- **Using Claude Code: The unreasonable effectiveness of HTML**  
+  [Link](https://twitter.com/trq212/status/2052809885763747935) | [HN](https://news.ycombinator.com/item?id=48071940)  
+  407 pts · 234 comments  
+  Praised for automating complex frontend tasks effortlessly, though some question reliability at scale.
+
+- **LLMs corrupt your documents when you delegate**  
+  [arXiv](https://arxiv.org/abs/2604.15597) | [HN](https://news.ycombinator.com/item?id=48073246)  
+  339 pts · 130 comments  
+  Raises urgent concerns about LLM-generated edits introducing subtle errors—prompting calls for guardrails.
+
+#### 🛠️ **Tools & Engineering**
+- **Show HN: Mochi.js: bun-native high-fidelity browser automation library**  
+  [Mochi.js](https://mochijs.com/) | [HN](https://news.ycombinator.com/item?id=48075059)  
+  37 pts · 18 comments  
+  Gains traction among devs seeking lightweight, performant alternatives to Puppeteer/Playwright.
+
+- **Lobotomized Claude Code and it works better**  
+  [GitHub](https://github.com/skrabe/lobotomized-claude-code) | [HN](https://news.ycombinator.com/item?id=48077947)  
+  3 pts · 0 comments  
+  A tongue-in-cheek but technically curious tweak that removes safety constraints, showing how model behavior is tunable.
+
+#### 🏢 **Industry News**
+- **Meta's embrace of A.I. is making its employees miserable**  
+  [NYTimes](https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html) | [HN](https://news.ycombinator.com/item?id=48077126)  
+  246 pts · 224 comments  
+  Employee dissatisfaction over forced AI tool adoption sparks debate about human-AI workflow integration.
+
+- **Anthropic weighs fundraising for near $1T valuation, FT reports**  
+  [Reuters](https://www.reuters.com/technology/anthropic-weighs-fundraising-near-1-trillion-valuation-ft-reports-2026-05-08/) | [HN](https://news.ycombinator.com/item?id=48072308)  
+  5 pts · 0 comments  
+  Reflects extreme market optimism even as technical challenges mount.
+
+#### 💬 **Opinions & Debates**
+- **The first lie about entrepreneurship**  
+  [HN](https://news.ycombinator.com/item?id=48077757)  
+  4 pts · 0 comments  
+  A meta-discussion questioning whether AI hype itself has become the new startup narrative.
+
+- **Strategic advice from LLM's is "trendslop", say researchers**  
+  [Harvard Business Review](https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return) | [HN](https://news.ycombinator.com/item?id=48077117)  
+  4 pts · 1 comment  
+  Critiques LLM outputs as regurgitating popular ideas without strategic depth—echoing broader skepticism.
+
+---
+
+### **Community Sentiment Signal**
+
+Today’s HN AI discourse reflects a tension between awe at tooling breakthroughs (especially Claude Code’s productivity gains) and growing unease about systemic risks. High-score posts cluster around **agentic workflows**: users celebrate automation wins while researchers sound alarms on document corruption and delegation pitfalls. Meta’s internal strife underscores a recurring theme—organizational readiness lags behind technical capability. Notably, speculative funding news (e.g., Anthropic’s $1T ambition) receives minimal engagement compared to hands-on engineering or critical research—suggesting the community values grounded critique over hype. There’s also a subtle shift toward **practical sovereignty**: projects like ChonkLM (offline browser LLMs) and Patchwork (AST-native editing) reflect interest in reducing dependency on cloud APIs.
+
+---
+
+### **Worth Deep Reading**
+
+1. **“LLMs corrupt your documents when you delegate”** – This paper provides empirical evidence of LLM-induced document degradation, essential reading for anyone building agentic editing systems.
+2. **“Using Claude Code: The unreasonable effectiveness of HTML”** – Offers rare insight into real-world agent performance; useful for understanding current limits and opportunities in code generation.
+3. **“Lobotomized Claude Code and it works better”** – Though ironic, it illustrates how fine-tuning safety constraints can dramatically alter model behavior—relevant for prompt engineering and jailbreaking studies.
+
+---
+*This digest is auto-generated by [agents-radar](https://github.com/DenisZheng/agents-radar).*
