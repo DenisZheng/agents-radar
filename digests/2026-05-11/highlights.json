@@ -47,6 +47,14 @@
       "npm包引入AGENTS.md标准提升AI协作效率",
       "DeepSeek-R1构建LLM日志分类告警系统实战教程",
       "中美AI成本差距分析引发行业思考"
+    ],
+    "ai-weekly": [
+      "Anthropic与SpaceX签署Colossus 1超算协议，Claude Code性能翻倍",
+      "Anthropic发布十款金融Agent模板，深度集成Microsoft 365",
+      "OpenAI设立千亿级合资企业，加速AI规模化商业部署",
+      "OpenAI展示低延迟语音AI底层架构优化技术",
+      "Hacker News热议‘Git for AI Agents’版本控制系统获92分高分",
+      "Mozilla Mythos模型在Firefox安全审计中误报率极低表现优异"
     ]
   },
   "en": {
@@ -57,6 +65,14 @@
       "All tools show active development with ≤10 hot issues",
       "GitHub Copilot CLI shows lowest activity with 1 PR",
       "Kimi Code CLI has only 5 reported issues"
+    ],
+    "ai-weekly": [
+      "Anthropic releases Claude Opus 4.7 for advanced software engineering",
+      "OpenAI publishes low-latency voice AI delivery docs",
+      "DeepSeek-TUI gains traction as lightweight terminal AI tool",
+      "Petri 3.0 open-sourced alignment evaluation by Anthropic",
+      "Natural Language Autoencoders (NLAs) unveiled to probe model internals",
+      "OpenCode v1.14.47 released"
     ]
   }
 }
