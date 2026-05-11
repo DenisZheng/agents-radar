@@ -1,0 +1,62 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 会话管理功能持续优化，支持上下文控制",
+      "OpenAI Codex v0.131.0-alpha.4 发布，增强多模型支持",
+      "Gemini CLI 集成 MCP 协议，提升跨平台兼容性",
+      "GitHub Copilot CLI 活跃度最高，24h处理26个Issue",
+      "Qwen Code v0.15.10 新增夜间构建版本，加速迭代",
+      "OpenCode v1.14.47 发布，专注代码生成效率提升"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.5.10-beta.2 发布，新增Telegram自动化证据收集",
+      "OpenClaw 大规模重构进行中，迁移至SQLite数据库",
+      "IronClaw 集成Control UI入口点，增强插件管理能力",
+      "NanoBot 社区活跃度高，支持多智能体协作框架",
+      "Hermes Agent 聚焦政策治理系统建设",
+      "LobsterAI 推动桌面场景构建器开发"
+    ],
+    "ai-trending": [
+      "字节跳动UI-TARS-desktop登顶Trending，star增长669",
+      "Anthropic金融解决方案获1449新增star",
+      "addyosmani/agent-skills展示生产级Agent工程技能",
+      "HKUDS AI-Trader实现全自动Agent-native交易系统",
+      "jundot/omlx专为Apple Silicon优化的LLM推理服务器",
+      "datawhalechina/easy-vibe助力AI编程技能普及教育"
+    ],
+    "ai-hn": [
+      "马里兰州居民承担20亿美元电网升级费成最热话题",
+      "Claude Code许可争议引发开源社区广泛讨论",
+      "Academic Research Skills for Claude Code获73分好评",
+      "Agent VCR时间旅行调试工具受技术极客关注",
+      "Remind应用实现macOS定时触发Claude Code任务",
+      "ShowHN LLM评分系统引发AI评估价值哲学讨论"
+    ],
+    "ai-hf": [
+      "gemma-4-E4B-it下载超550万成明星模型",
+      "DeepSeek-V4-Pro推理性能获3819点赞",
+      "Qwen3.6-35B-A3B MoE架构下载破360万",
+      "SulphurAI text-to-video模型首次进入Top3",
+      "OmniVoice支持100+语言零样本语音克隆",
+      "openai/privacy-filter获1394点赞用于内容审核"
+    ],
+    "ai-community": [
+      "FastMCP零样板代码MCP服务框架获12赞",
+      "自研LLM实现200ms内100+语言翻译系统",
+      "Context Governance提出编码Agent工业级权限控制",
+      "npm包引入AGENTS.md标准提升AI协作效率",
+      "DeepSeek-R1构建LLM日志分类告警系统实战教程",
+      "中美AI成本差距分析引发行业思考"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code maintains 10 hot issues with 2 recent PRs",
+      "OpenCode released v1.14.47 update in last 24 hours",
+      "Qwen Code released v0.15.10 update recently",
+      "All tools show active development with ≤10 hot issues",
+      "GitHub Copilot CLI shows lowest activity with 1 PR",
+      "Kimi Code CLI has only 5 reported issues"
+    ]
+  }
+}
