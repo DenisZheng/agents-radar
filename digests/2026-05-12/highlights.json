@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.139发布Agent View和/goal指令",
+      "OpenAI Codex rust-v0.131.0-alpha.6修复MCP连接问题",
+      "Gemini CLI v0.42.0-nightly修复Git PATH路由层",
+      "Kimi Code CLI v1.42.0优化UI重试与CI流程",
+      "Qwen Code v0.15.10-nightly优化会话元数据管理",
+      "OpenCode v1.14.48新增图像附件支持与沙箱"
+    ],
+    "ai-agents": [
+      "OpenClaw处理500条Issue和PR，活跃度极高",
+      "v2026.5.10-beta.5新增插件兼容性审查构建产物",
+      "PR #80816优化macOS下Codex安装检测逻辑",
+      "Telegram多账户路由配置校验错误已修复",
+      "Discord通道健康监控引入实时活动状态展示",
+      "Codex插件迁移稳定性增强阻止未完成认证"
+    ],
+    "ai-trending": [
+      "UI-TARS-desktop以惊人速度登上Trending榜首",
+      "ollama支持Kimi-K2.5等模型本地部署",
+      "vllm提升LLM推理吞吐量达行业领先水平",
+      "browser-use让AI代理轻松操作网页任务",
+      "hermes-agent新增2065 stars展现强劲增长",
+      "ruvnet/ruflo成为Claude生态领先Agent编排平台"
+    ],
+    "ai-web": [
+      "OpenAI成立'The Deployment Company'服务企业部署",
+      "OpenAI Campus Network Student Club招募高校成员",
+      "企业AI规模化指南发布助力业务转型",
+      "Anthropic今日无新增内容静默更新",
+      "OpenAI加强企业级解决方案部署能力",
+      "Campus Network布局未来开发者生态建设"
+    ],
+    "ai-hn": [
+      "Interaction Models提出结构化对话流设计获关注",
+      "Natural-language LLM通信被视作架构反模式",
+      "Show HN: OpenGravity实现零安装JavaScript版Antigravity",
+      "SLayer由AI自动维护语义层动态映射数据结构",
+      "Tokenyst监控Claude Code API用量防止成本失控",
+      "GM裁员IT员工转聘具更强AI技能人员"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro下载量达201万次位居榜首",
+      "gemma-4-31B-it推理能力出色适合多模态任务",
+      "Qwen3.6-35B-A3B是榜单上第二大下载模型",
+      "SulphurAI/Sulphur-2-base成文本到视频新热门",
+      "k2-fsa/OmniVoice多语言语音克隆模型下载量大",
+      "TenStrip/LTX2.3-10Eros专注图像到视频转换"
+    ],
+    "ai-community": [
+      "How to Secure AI Agents in Production: MCP安全实践指南",
+      "The missing layer in prompt engineering: thinking quality",
+      "Gemma 4在GTX 1650上的性能测试报告",
+      "Context Engineering for AI Agents改变一切",
+      "You've Been Breached for 3 Weeks警示AI网络安全威胁",
+      "Prompt regression testing in CI快速设置方法"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.139 released with Agent View and /goal command",
+      "OpenAI Codex rust-v0.131.0-alpha.6 now in active development",
+      "Gemini CLI hits v0.42.0-nightly milestone",
+      "GitHub Copilot CLI v1.0.45 adds /autopilot and OTel support",
+      "Kimi Code v1.42.0 released with performance improvements",
+      "Qwen Code gains new MCP integration features"
+    ],
+    "ai-agents": [
+      "OpenClaw releases three beta versions focusing on CI and container detection",
+      "v2026.5.10-beta.5 introduces non-blocking plugin-inspector-advisory artifact",
+      "Fly Machines container detection added in v2026.5.10-beta.4",
+      "Stricter Vitest lint rules enabled in v2026.5.10-beta.3",
+      "500 issues and PRs updated daily showing sustained community engagement",
+      "Multiple regressions noted since mid-April upgrades affecting stability"
+    ],
+    "ai-trending": [
+      "Hermes-Agent surged over 2,000 stars today gaining massive traction",
+      "tinyhumansai/openhuman gains 366 stars as privacy-focused AI stack grows",
+      "rohitg00/agentmemory jumps 430 stars for persistent memory solutions",
+      "Bytedance's UI-TARS-desktop leads trending AI desktop agents",
+      "LEANN vector database enables ultra-efficient on-device retrieval",
+      "OpenHuman Rust-based personal AI stack emphasizes private local intelligence"
+    ],
+    "ai-web": [
+      "OpenAI launches 'The OpenAI Deployment Company' for enterprise-scale AI",
+      "OpenAI Campus Network Student Club Interest Form expands developer outreach",
+      "Anthropic silent with no new public content published today",
+      "How Enterprises Are Scaling Ai guide released May 11th",
+      "OpenAI Deployment Company targets institutional AI infrastructure support",
+      "Strategic pivot toward large organization AI deployment announced"
+    ],
+    "ai-hn": [
+      "OpenAI's Deployment Company sparks debate about AI commercialization",
+      "Claude Code security concerns after bypassing secure boot reports",
+      "Tokenyst and OpenGravity gain traction for cost control alternatives",
+      "Interaction Models paper explores LLM-to-LLM communication protocols",
+      "Natural-language messages between agents called architectural anti-pattern",
+      "Show HN: OpenGravity zero-install BYOK JS clone of Antigravity"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro dominates likes with 3,856 upvotes",
+      "google/gemma-4-31B-it sees 9M+ downloads in language models",
+      "moonshotai/Kimi-K2.6 uses compressed-tensors for reduced memory footprint",
+      "SulphurAI/Sulphur-2-base gains traction in text-to-video generation",
+      "Unsloth quantization makes powerful models more deployable",
+      "OmniVoice shows rapid adoption in voice cloning technology"
+    ],
+    "ai-community": [
+      "MCP adoption critical for agent tool access control security",
+      "Context engineering emerges as essential discipline for agent workflows",
+      "Only one of three tested agent gateways proved production-ready",
+      "Vibe coding risks highlighted when moving to production environments",
+      "Google Prompt API raises concerns about open weights erosion",
+      "Payment controls and observability key to production agent safety"
+    ]
+  }
+}
