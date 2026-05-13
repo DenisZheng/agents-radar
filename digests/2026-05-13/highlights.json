@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.140 发布，修复 /goal 命令挂起问题",
+      "Qwen Code v0.15.11-preview 提升会话列表渲染性能",
+      "Kimi Code CLI v1.43.0 支持多模型无缝切换",
+      "Gemini CLI v0.43.0-preview 新增 MCP 工具调用支持",
+      "OpenCode 社区讨论终端输出净化最佳实践",
+      "Pi 项目实现本地推理与跨平台一致性优化"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.5.12-beta.3 修复 Codex 运行时依赖问题",
+      "NanoBot 新增 Slack/Telegram/Discord 多平台连接稳定性优化",
+      "Hermes Agent 集成新插件扩展记忆功能",
+      "IronClaw 实现高并发任务调度能力提升",
+      "LobsterAI 开源多智能体协作框架获社区关注",
+      "ZeptoClaw 轻量化设计吸引边缘计算开发者"
+    ],
+    "ai-trending": [
+      "tinyhumansai/openhuman 异军突起成为今日最热 AI 项目",
+      "rohitg00/agentmemory 解决 AI 代理持久化记忆难题获万星关注",
+      "CloakBrowser 隐身 Chromium 浏览器绕过反机器人检测爆红",
+      "millionco/react-doctor 专治 AI 生成代码质量问题受开发者追捧",
+      "rasbt/LLMs-from-scratch 大模型教学项目持续升温",
+      "HKUDS/AI-Trader 基于智能体的量化交易框架引发热议"
+    ],
+    "ai-web": [
+      "OpenAI 发布 Parameter Golf 内部调优经验技术博客",
+      "Anthropic 官网无更新，Claude Opus 3 成近期焦点",
+      "OpenAI 技术博客暗示下一代模型训练效率优化方向",
+      "Anthropic 持续强化高端模型与开发者工具双战略",
+      "OpenAI 当前聚焦底层能力而非产品发布",
+      "Claude Code 开源版本推动 AI 编程助手生态发展"
+    ],
+    "ai-hn": [
+      "Needle 将 Gemini 工具调用蒸馏至 26M 模型引爆社区",
+      "Statewright 可视化状态机提升 AI 代理可靠性获热捧",
+      "FairyFuse 三值核实现 CPU 上无乘法 LLM 推理突破",
+      "Gigacatalyst 嵌入式 AI 构建器扩展 SaaS 功能受关注",
+      "DSM 分层图记忆引擎为 LLM 提供新架构思路",
+      "OpenAI 法律诉讼引发对 AI 安全与责任深度讨论"
+    ],
+    "ai-arxiv": [
+      "ELF 模型引入扩散思想解决语言生成离散连续鸿沟",
+      "Neural Weight Norm 等价 Kolmogorov 复杂度提供理论解释",
+      "RubricEM 元学习实现无奖励信号下的代理有效训练",
+      "Beyond Red-Teaming 探讨 LLM 护栏分类器形式化保证",
+      "DGPO 方向一致组序偏好优化提升对齐效果",
+      "Dynamic Skill Lifecycle 管理框架扩展 LLM 代理适应能力"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 领跑多模态生成模型榜首下载破200万",
+      "Qwen3.6-35B-A3B MoE 架构长文本处理表现惊艳",
+      "gemma-4-31B-it 谷歌 Gemma 4 系列参数达310亿登顶下载榜",
+      "Sulphur-2-base 文本生成视频模型成新热点获731点赞",
+      "LTX2.3-10Eros 图像生成视频技术展示动态画面创作能力",
+      "HiDream-O1-Image 图像生成模型获270点赞展现创意潜力"
+    ],
+    "ai-community": [
+      "Open Vibe 提供 Vibecoding 式快速 SaaS 开发框架",
+      "Claude Code 本地运行方案突破云端 API 限制获关注",
+      "本地 LLM 与云 API 生产环境对比分析提供选型参考",
+      "离线 AI 记忆监控告警技术栈推动边缘智能发展",
+      "防止 AI 代理幻觉六原则强调可验证性设计",
+      "Gemini CLI 免费终端 AI 助手提升开发效率"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.140 stable release with UX fixes",
+      "OpenAI Codex Alpha v0.131.0-α.9 internal refactoring",
+      "Qwen Code and Kimi Code push infrastructure innovation",
+      "Pi CLI struggles with local LLM support fragmentation",
+      "Agentic reliability trend drives enterprise-grade observability",
+      "MCP integrations gain traction for secure workflows"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues and 500 PRs in 24h",
+      "v2026.5.12-beta.3 fixes Codex auth and pnpm compatibility",
+      "Security hardening requires admin scope for memory-wiki",
+      "Beta releases focus on auth flows and plugin security",
+      "OpenClaw maintains fast-moving but stable development pace",
+      "No breaking changes in latest beta updates"
+    ],
+    "ai-trending": [
+      "tinyhumansai/openhuman Rust-based personal AI surges +1014 stars",
+      "CloakBrowser stealth Chromium fork bypasses bot detection",
+      "Ollama enables local deployment of Kimi-K2.5 and DeepSeek models",
+      "vLLM optimizes high-throughput LLM inference with minimal overhead",
+      "browser-use turns websites into automatable AI interfaces",
+      "rasbt/LLMs-from-scratch drives agent education momentum"
+    ],
+    "ai-web": [
+      "OpenAI posts metadata-only 'Parameter Golf' article May 12",
+      "Anthropic has no new content May 13 after safety-focused updates",
+      "Claude 4 Opus launched Oct 2025 with enhanced reasoning",
+      "Claude Code released Feb 2026 as standalone coding agent",
+      "Constitutional AI 2.0 paper published April 2026",
+      "Both companies show deliberate pacing in communications"
+    ],
+    "ai-hn": [
+      "Needle: 26M model distilled from Gemini tool calling sparks debate",
+      "FairyFuse enables CPU-only LLM inference without multiplication",
+      "Statewright offers reliable agent state management tools",
+      "DSM is hierarchical graph memory engine for LLMs",
+      "OpenAI faces legal scrutiny over ChatGPT medical advice claims",
+      "Community skeptical of AI safety claims amid rapid innovation"
+    ],
+    "ai-arxiv": [
+      "ELF uses flow-based modeling to challenge diffusion in language",
+      "DECO sparse MoE model rivals dense performance on devices",
+      "Neural weight norm equals Kolmogorov complexity theory",
+      "Dynamic agent frameworks enable long-horizon planning",
+      "New methods provide formal safety guarantees for agents",
+      "Confidence estimation improves agent decision transparency"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads likes with high-performance reasoning",
+      "Qwen3.6-35B-A3B MoE model excels at vision tasks",
+      "gemma-4-31B-it supports image-text understanding",
+      "SulphurAI text-to-video generator trending in multimodal space",
+      "HiDream-ai pushes image-text-to-image via Qwen3 VL",
+      "Speculative decoding optimizations gain community adoption"
+    ],
+    "ai-community": [
+      "Run Claude Code locally for free with Docker Model Runner",
+      "Open Vibe ships SaaS with AI agents without getting stuck",
+      "Decentralized AI networks secured by cryptographic trust",
+      "Local LLMs vs Cloud APIs practical cost-privacy comparison",
+      "Gemini CLI and Claude Mythos drive AI-native dev tools",
+      "Developer focus shifts to practical agentic workflows"
+    ]
+  }
+}
