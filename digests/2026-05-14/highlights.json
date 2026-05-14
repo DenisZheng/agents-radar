@@ -1,0 +1,110 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.141 新增 terminalSequence 钩子提升自动化能力",
+      "Kimi CLI v1.44.0 修复 MCP stderr 泄漏问题增强稳定性",
+      "OpenCode v1.14.49 新增 v2 模型 API 支持扩展应用场景",
+      "Qwen Code v0.15.11 优化会话元数据性能提升响应速度",
+      "GitHub Copilot CLI v1.0.48-0 修复 Windows ARM64 启动兼容性",
+      "Pi 工具持续维护社区活跃但无新版本发布"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.5.12-beta.6 修复 iMessage 媒体发送重复问题",
+      "OpenClaw v2026.5.12-beta.5 升级网关协议支持 GitHub Copilot 集成",
+      "OpenClaw v2026.5.12-beta.4 解决 Codex 运行时 MODULE_NOT_FOUND 错误",
+      "OpenClaw 新增 chat.inject 用户角色注入功能提升交互灵活性",
+      "NanoBot Hermes Agent 等 13 个项目生态持续发展",
+      "IronClaw LobsterAI 等项目展示多样化 Agent 实现方案"
+    ],
+    "ai-trending": [
+      "tinyhumansai/openhuman 单日涨粉 1696 展现隐私 AI 潜力",
+      "CloakBrowser 绕过反机器人检测助力 AI Agent 爬虫",
+      "trycua/cua 开源 Computer-Use Agents 基础设施突破桌面控制",
+      "rohitg00/agentmemory 专注 AI Agent 持久记忆系统获关注",
+      "mattpocock/skills 从 .claude 提取技能展示 Agent 知识管理",
+      "activepieces/activepieces 集成 400+ MCP 服务器构建 AI 工作流平台"
+    ],
+    "ai-web": [
+      "Anthropic 推出 Claude for Small Business 小企业 AI 普惠方案",
+      "OpenAI 发布 Building Codex Windows Sandbox 探索安全代码生成",
+      "Claude for Small Business 集成 QuickBooks PayPal 等商业工具",
+      "Anthropic 瞄准占美国 GDP 44% 的小型企业市场",
+      "OpenAI 深化工程化建设巩固 AI 基础设施领导地位",
+      "Codex 沙箱机制响应企业安全合规需求"
+    ],
+    "ai-hn": [
+      "Rars RAR 实现由 LLM 编写展示强大编程能力获 78 分",
+      "Learning, Fast and Slow 持续学习 LLM 方法学术前沿探索",
+      "Torrix LLM 可观测性工具无数据库设计引发兴趣",
+      "yeah CLI 工具用 LLM 回答是/否问题创意集成",
+      "Claude 订阅变更影响核心功能引发用户讨论",
+      "AlphaGRPO 解锁多模态反思生成无需冷启动"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.141 released May 14",
+      "OpenCode leads with /fork and native LLM runtime",
+      "Pi struggles with local model support stability",
+      "Gemini CLI gains traction for offline inference",
+      "Qwen Code addresses terminal compatibility gaps",
+      "GitHub Copilot CLI focuses on enterprise observability"
+    ],
+    "ai-agents": [
+      "OpenClaw releases v2026.5.12-beta.6 fixing iMessage leaks",
+      "Gateway protocol upgraded to v4 with deltaText streaming",
+      "Codex runtime stability improved in private task SDK",
+      "IronClaw and LobsterAI emerge as active agent frameworks",
+      "NanoBot and Hermes Agent lead multi-agent collaboration tools",
+      "NullClaw introduces novel zero-knowledge agent architecture"
+    ],
+    "ai-trending": [
+      "openhuman: Rust-based personal AI superintelligence rises",
+      "CloakBrowser bypasses bot detection with stealth tech",
+      "agentmemory gains momentum for autonomous agent cognition",
+      "browser-use enables real-world web automation at scale",
+      "ollama supports Kimi-K2.5 for local LLM deployment",
+      "spec-kit bridges AI code with production validation"
+    ],
+    "ai-web": [
+      "Anthropic launches Claude for Small Business with QuickBooks integrations",
+      "OpenAI publishes 'Building Codex Windows Sandbox' metadata",
+      "Claude embeds AI in SMB workflows via HubSpot/PayPal connectors",
+      "Small business focus expands Anthropic's public benefit mission",
+      "Sandbox tooling suggests OpenAI's security infrastructure push",
+      "Vertical-specific productization vs foundational tooling divergence"
+    ],
+    "ai-hn": [
+      "Altman faces trial claims of being a 'prolific liar' at OpenAI",
+      "Claude ecosystem changes spark backlash over subscription lock-in",
+      "Rust RAR implementation praised for LLM-assisted development",
+      "LLM observability platforms gain developer traction",
+      "Sam Altman scrutiny reshapes corporate governance narratives",
+      "Token usage transparency drives human-in-the-loop systems"
+    ],
+    "ai-arxiv": [
+      "AlphaGRPO unlocks self-reflective multimodal generation",
+      "Pion optimizer preserves weight spectra during LLM training",
+      "KV-Fold enables efficient long-context inference",
+      "ORCE aligns generative policies with optimal guidance",
+      "GUI orchestration papers address real-world deployment",
+      "Wildfire prediction models tackle distribution shift challenges"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads with 3,926 likes and 2.4M downloads",
+      "Gemma4-31B-it tops image-text-to-text category with 9.7M downloads",
+      "Qwen3.6-35B-A3B quantized version gains 1,751 likes",
+      "SulphurAI text-to-video model enters creative frontier",
+      "Community fine-tunes Qwen3.6 and Gemma4 for accessibility",
+      "Multimodal capabilities drive trending model engagement"
+    ],
+    "ai-community": [
+      "Lambda file system enables persistent AI agent state",
+      "Cursor AI sent 8,400 tokens for simple function rename",
+      "Six Claude Code Skills close the agent feedback loop",
+      "MCP complexity questioned despite agent utility gains",
+      "Mojo emerges as open-source alternative to Python",
+      "Swift matrix multiplication optimized for AI workloads"
+    ]
+  }
+}
