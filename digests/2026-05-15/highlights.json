@@ -1,0 +1,127 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.142 新增 Opus 4.7 参数支持",
+      "OpenCode v1.14.50 强化长连接与并发控制能力",
+      "GitHub Copilot CLI v1.0.48 修复 CJK 渲染及 token 价格问题",
+      "Kimi Code CLI v1.44.0 优化遥测机制提升稳定性",
+      "Qwen Code 探索 daemon 模式实现本地 TUI 与 HTTP 服务联动",
+      "Pi 工具专注终端交互体验创新获社区关注"
+    ],
+    "ai-agents": [],
+    "ai-trending": [
+      "NVIDIA发布GPU加速视觉代理参考架构video-search-and-summarization",
+      "TinyAGI推出轻量级多智能体框架TinyClaw开源",
+      "CloakBrowser绕过机器人检测的浏览器自动化工具上线",
+      "RuView利用WiFi信号实现空间感知与生命体征监测",
+      "AgentMemory为AI编码代理提供持久记忆库解决方案",
+      "Superpowers代理技能框架和方法论正式发布"
+    ],
+    "ai-web": [
+      "Anthropic发布Claude for Small Business套件服务企业自动化",
+      "Anthropic与盖茨基金会达成2亿美元合作推动AI有益部署",
+      "Anthropic研究论文预警中美AI竞争国家安全风险",
+      "OpenAI Codex移动端集成获开发者关注",
+      "OpenAI ChatGPT新增敏感对话识别功能",
+      "OpenAI回应npm供应链攻击事件说明安全措施"
+    ],
+    "ai-hn": [
+      "Anthropic推出Claude for Small Business获448条评论热议",
+      "Recursive Self-Improvement技术提升代码性能获7分好评",
+      "LLM对弱势群体影响研究引发3条深度讨论",
+      "Design.md Generator AI设计文档生成器获9分推荐",
+      "Browse 61 3D Printable Robots展示硬件制造新可能",
+      "Show HN: Browse 61 3D Printable Robots获8分关注"
+    ],
+    "ai-arxiv": [
+      "WARDEN模型仅用6小时数据转录濒危土著语言",
+      "Negation Neglect揭示LLM否定指令理解缺陷",
+      "History Anchors研究LLM历史行为延续性安全风险",
+      "Where Does Reasoning Break?定位思维链错误点新方法",
+      "Attention Once提升流式推理效率O(n)成本转移",
+      "Senses Wide Shut指出全模态模型感知行动鸿沟问题"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro近4000点赞登顶热门模型榜首",
+      "Qwen3.6-35B-A3B支持图像文本多模态交互受欢迎",
+      "Gemma-4-31B-it谷歌开源多模态理解表现突出",
+      "Sulphur-2-base首个开源文本生成视频模型上线",
+      "OmniVoice零样本语音克隆支持多语言音色复刻",
+      "ZAYA1-8B推理增强模型专为逻辑分析设计"
+    ],
+    "ai-community": [
+      "旧PC实测可运行Gemma 4老旧设备部署可行",
+      "AI生产栈架构涵盖从模型到可观测性全链路",
+      "AI工作流搭建易但可靠性才是真正挑战",
+      "端到端AI Agent监控方案结合三层评估体系",
+      "多智能体pipeline自动转化需求为生产代码",
+      "DeepSeek-V3性能超越GPT-4 Turbo获开发者验证"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.142 stable with critical bugs still open",
+      "OpenAI Codex v0.130.0 stable; alpha in dev branch",
+      "Gemini CLI only nightly; no stable release yet",
+      "Kimi Code CLI scales multi-model support infrastructure",
+      "OpenCode focuses on observability for agent workflows",
+      "Qwen Code gains traction in Chinese developer circles"
+    ],
+    "ai-agents": [
+      "OpenClaw released v2026.5.14-beta.1 with major dependency overhaul",
+      "Drops legacy proxy packages reducing bundle size and attack surface",
+      "Adds i18n report command for localization metadata",
+      "476 open issues and 449 active PRs show high velocity",
+      "Proxy abstraction now uses @openclaw/proxyline exclusively",
+      "No breaking changes but migration required for old dependencies"
+    ],
+    "ai-trending": [
+      "RuView uses WiFi signals for privacy-preserving ambient AI sensing",
+      "tinyhumansai/openhuman launches private local personal AI superintelligence",
+      "agentmemory TypeScript framework gains traction for persistent agents",
+      "superpowers skill orchestration tool sees rising adoption",
+      "Ollama enables frictionless on-device LLM deployment with Kimi-K2.5 support",
+      "vLLM optimizes GPU efficiency for high-throughput inference"
+    ],
+    "ai-web": [
+      "Anthropic launches Claude for Small Business with $200M Gates Foundation partnership",
+      "Geopolitical foresight paper analyzes U.S.-China AI competition through 2028",
+      "OpenAI responds to npm supply chain attack with security updates",
+      "Codex accessibility features now available in ChatGPT mobile app",
+      "Claude for Legal fine-tuning release sparks specialization debate",
+      "Anthropic expands enterprise footprint with legal and business offerings"
+    ],
+    "ai-hn": [
+      "Claude for Legal fine-tuning release generates strong developer interest",
+      "Bitcoin wallet recovered via Claude highlights unexpected crypto utility",
+      "Google DeepMind labor organizing intensifies amid AI ethics concerns",
+      "OpenAI faces regulatory scrutiny over IPO and Apple partnership",
+      "LLM underperformance disproportionately impacts vulnerable users",
+      "Recursive self-improvement achieves new SOTA coding benchmarks"
+    ],
+    "ai-arxiv": [
+      "WARDEN transcribes endangered Wardaman language from just 6 hours of audio",
+      "Attention Once enables O(1) streaming inference without prefill costs",
+      "Good Agentic Friends shows LLMs can directly update each other's weights",
+      "Dense vs Sparse Pretraining reveals active-parameter matching is critical",
+      "Step-level hallucination detection improves LLM reliability auditing",
+      "Stateful transformers eliminate redundant computation in streaming scenarios"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads weekly likes with 3,948 upvotes",
+      "Gemma-4-31B-it dominates downloads with 9.8M pulls",
+      "Qwen3.6-35B-A3B combines vision-language understanding at 35B MoE scale",
+      "SulphurAI text-to-video generator gains regional US hosting",
+      "OmniVoice voice cloning model reaches trending status",
+      "Unsloth popularizes high-efficiency GGUF variants of Qwen3.6"
+    ],
+    "ai-community": [
+      "Old PC runs Gemma 4 efficiently with clever optimization techniques",
+      "SPEC-TO-SHIP pipeline turns feature specs into production-ready code",
+      "Multi-agent workflows moving beyond demos toward real deployment",
+      "Observability via OpenTelemetry and Arize Phoenix becomes production standard",
+      "Token efficiency concerns grow despite agent automation advances",
+      "AI tools may complicate software development despite simplification claims"
+    ]
+  }
+}
