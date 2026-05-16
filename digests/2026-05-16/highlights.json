@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.143发布，插件依赖管理增强",
+      "OpenCode v1.15.0引入Effect系统，构建差异化优势",
+      "Qwen Code v0.15.12-preview.2发布，流处理修复",
+      "GitHub Copilot CLI v1.0.49发布，MCP搜索实验性引入",
+      "Gemini CLI v0.44.0-nightly支持RAG日志功能",
+      "Kimi Code CLI无新Release，但活跃更新10+PR"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.5.14-beta.2，增强通道与代理配置能力",
+      "OpenClaw今日产生500条Issues/PR，社区高度活跃",
+      "PR#82369修复网关诊断中嵌入式工具调用阻塞问题",
+      "PR#82298解决Telegram会话终止时的消息乱序问题",
+      "PR#77505允许Web UI安全渲染助手HTML响应",
+      "OpenClaw生态反馈积极，但存在版本升级回归性问题"
+    ],
+    "ai-trending": [
+      "RuView利用WiFi信号实现无摄像头空间智能分析",
+      "obra/superpowers代理式技能框架获1648星",
+      "mattpocock/skills实用技能集获3132星",
+      "anthropics/skills Agent Skills公开仓库受关注",
+      "tinyhumansai/openhuman个人AI超级智能项目崛起",
+      "supertone-inc/supertonic设备端ONNX TTS引擎热门"
+    ],
+    "ai-web": [
+      "Anthropic发布《Teaching Claude why》对齐训练研究",
+      "Anthropic与普华永道扩大合作，部署Claude系列",
+      "Anthropic发布《2028: Two scenarios for global AI leadership》政策研究",
+      "OpenAI元数据更新仅含Personal Finance Chatgpt",
+      "Anthropic展示Claude模型在伦理困境中行为改进",
+      "Anthropic强调美国需保持芯片等关键资源控制权"
+    ],
+    "ai-hn": [
+      "HN热议Anthropic融资传闻与OpenAI法律纠纷",
+      "\"Too dangerous to release\"质疑Anthropic最强模型",
+      "GlycemicGPT开源糖尿病管理工具获开发者好评",
+      "TongueType本地化语音输入工具强调隐私保护",
+      "ChatGPT接入银行账号引发财务数据安全担忧",
+      "Anthropic获$30B融资，估值达$900B"
+    ],
+    "ai-arxiv": [
+      "ATLAS统一视觉推理框架仅需一个词切换模式",
+      "OpenDeepThink并行推理解决广度扩展瓶颈",
+      "MetaBackdoor揭示位置编码作为新型攻击面",
+      "Self-Distilled Agentic RL改善长时程交互性能",
+      "MeMo将记忆视为模型实现高效知识整合",
+      "Forgetting That Sticks证明量化后遗忘效果永久"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro近4000点赞成本周最热模型",
+      "Qwen3.6-35B-A3B MoE架构下载量遥遥领先",
+      "Sulphur-2-base文本转视频模型点赞数981",
+      "google/gemma-4-31B-it性能强大且完全开源",
+      "openai/privacy-filter检测移除敏感个人信息",
+      "HiDream-O1-Image图像生成模型获343点赞"
+    ],
+    "ai-community": [
+      "开发者热议Gemini 3.1 Flash-Lite模型能力",
+      "Agent Security Stack提供传输身份政策防护框架",
+      "生产级AI代理三重纵深防御策略经验分享",
+      "Sweets Vault多模态Gemini Agent集成硬件案例",
+      "MCP普及后治理难题引发开发者关注",
+      "F#用于脚本自动化优势探讨"
+    ]
+  },
+  "en": {}
+}
