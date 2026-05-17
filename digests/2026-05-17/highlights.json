@@ -1,0 +1,78 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 新增多 Agent 协作与团队支持功能",
+      "OpenAI Codex 活跃度领先，24h PR 达 10 个",
+      "Gemini CLI 与 Kimi Code CLI 活跃度并列第二",
+      "GitHub Copilot CLI 专注 IDE 深度集成体验优化",
+      "OpenCode 发布 v1.15.3 版本，持续迭代",
+      "Pi 工具发布 v0.74.1，专注终端 UI 稳定性提升"
+    ],
+    "ai-agents": [
+      "OpenClaw 社区活跃度极高，24h Issue/PR 均达 500",
+      "OpenClaw v2026.5.16-beta.3 支持 xAI OAuth 登录",
+      "OpenClaw 新增 openclaw cron run --wait 命令",
+      "OpenClaw 启动向导与通道设置流程本地化支持",
+      "OpenClaw PR #82798 修复 SecretRef 解析延迟问题",
+      "OpenClaw PR #82799 优化 Windows 镜像模型事件循环"
+    ],
+    "ai-trending": [
+      "scientific-agent-skills 提供科研领域即用型智能体技能库",
+      "superpowers 革命性代理式技能框架登上热榜首位",
+      "RuView 利用 WiFi 信号进行实时空间感知监测",
+      "openhuman 自称个人专属超级智能开源项目",
+      "codegraph 为 Claude Code 设计本地代码知识图谱索引工具",
+      "supertonic 超快设备端 ONNX 多语言文本转语音引擎"
+    ],
+    "ai-hn": [
+      "DeepSeek-V4-Flash 让 LLM 引导研究重新燃起热情",
+      "A Single Neuron Is Sufficient to Bypass Safety Alignment in LLMs 论文揭示安全漏洞",
+      "微软开源 AI Engineering Coach 分析 Copilot/Claude/Codex 使用",
+      "Local, reviewable repo memory for coding agents 解决项目上下文理解局限",
+      "OpenClaw Creator 30 天内花费 $1.3M 购买 OpenAI Tokens",
+      "Anthropic 推出 Claude Code Skills 扩展生态系统"
+    ],
+    "ai-hf": [
+      "DeepSeek V4-Pro 近 4,000 点赞领跑推理模型",
+      "Gemma-4-31B-it 下载超 985 万次成为多模态热门",
+      "Sulphur-2-base 支持高质量文本转视频生成最热视频模型",
+      "Qwen3.6 GGUF 量化版本下载近 300 万便于本地运行",
+      "OmniVoice 零样本多语言语音克隆模型下载超 208 万",
+      "Leanly_AI 中文双语医学问答模型具临床实用性"
+    ],
+    "ai-community": [
+      "Hermes Agent 一周任务挑战展示持续学习进化潜力",
+      "My AI agent 文件盲读问题催生本地 CLI '眼睛'工具",
+      "Gemma 4 MoE 与 Dense 模型规则遵循能力对比分析",
+      "Flutter+MediaPipe+Gemini Nano 实现实时手语翻译应用",
+      "Hallucination 是语言模型固有特性非缺陷哲学思考",
+      "How to Cause an LLM to Hallucinate on Demand 实用技巧指南"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code maintains 10 hot issues with 1 PR updated today",
+      "OpenAI Codex shows 10 active issues and 10 updated PRs",
+      "Gemini CLI has 10 hot issues with 10 updated pull requests",
+      "GitHub Copilot CLI reports 10 issues and 2 updated PRs",
+      "Kimi Code CLI, OpenCode, Pi, and Qwen Code maintain 10 issues each",
+      "Claude Code Skills repository tracks top 10 community issues"
+    ],
+    "ai-agents": [
+      "OpenClaw released v2026.5.16-beta.3 with xAI OAuth support for SuperGrok users",
+      "New cron CLI enhancements added timeout and polling controls in beta.3 release",
+      "v2026.5.16-beta.2 mirrors OAuth integration and cron improvements from previous release",
+      "v2026.5.16-beta.1 introduces Crabbox skill AWS config routing and Blacksmith Testbox opt-in",
+      "OpenClaw maintains 500 updated issues and 500 pull requests showing high activity",
+      "Project focuses on stability, security hardening, and multi-agent orchestration resilience"
+    ],
+    "ai-trending": [
+      "tinyhumansai/openhuman gains +1,549 stars as Rust-native personal AI platform",
+      "ruvnet/RuView surges +1,010 stars for spatial AI assistant development",
+      "supertone-inc/supertonic Swift TTS engine uses ONNX for on-device speech synthesis",
+      "colbymchenry/codegraph creates pre-indexed code knowledge graph to reduce token usage",
+      "browser-use automates web interactions for fully autonomous AI agents",
+      "vllm-project/vllm enables high-throughput LLM serving with memory optimization"
+    ]
+  }
+}
