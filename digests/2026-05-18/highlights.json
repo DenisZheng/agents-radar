@@ -39,6 +39,14 @@
       "Zyphra/ZAYA1-8B全新开源LLM推理模型发布",
       "unsloth优化Qwen3.6系列GGUF量化版下载超18万",
       "microsoft/Fara-7B微软多模态模型下载1.7万次"
+    ],
+    "ai-weekly": [
+      "OpenClaw发布v2026.5.16-beta.5，Mac界面重设计优化技能管理",
+      "Claude Code Skills公开仓库上线，首个专业AI编码Agent安全技能注册表",
+      "微软推出《AI Agents for Beginners》教程，12个模块推动Agent开发平民化",
+      "Anthropic与普华永道扩大合作，全球部署Claude Code和Claude Cowork",
+      "Apple Silicon本地推理成本高于OpenRouter，引发能源隐私权衡辩论",
+      "OpenAI成立“The Deployment Company”，专注企业级AI落地转型关键一步"
     ]
   },
   "en": {
@@ -89,6 +97,14 @@
       "CodeGraph prevents redundant file grepping in agents",
       "RAG improvements focus on production-grade performance",
       "Browser AI inference impacts Core Web Vitals significantly"
+    ],
+    "ai-weekly": [
+      "Anthropic launches Claude for Small Business targeting SMB tools",
+      "OpenAI creates 'The Deployment Company' for enterprise scaling",
+      "Anthropic partners with Gates Foundation on $200M health/education project",
+      "Hacker News debates LLM steering cost efficiency post-DeepSeek-V4-Flash",
+      "OpenClaw creator reveals $1.3M OpenAI token spend sparking cost concerns",
+      "Claude Code v2.1.143 adds terminalSequence hooks for agent workflows"
     ]
   }
 }
