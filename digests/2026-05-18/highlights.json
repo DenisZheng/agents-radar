@@ -1,0 +1,94 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 持续活跃，Issue PR 均超10条无新版本",
+      "Gemini CLI 发布 v0.44.0-nightly 昨日更新",
+      "OpenCode 今日发布 v1.15.4 版本更新",
+      "Pi 工具双版本更新 v0.75.0/0.75.1 今日上线",
+      "Qwen Code 发布 v0.16.0-preview.0 昨日更新",
+      "MCP 生态扩展成为各工具共同关注方向"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.5.16-beta.5 发布 Mac App 界面重设计",
+      "新增 security.audit.suppressions 安全审计配置项",
+      "Mac App 设置页面采用统一卡片布局优化体验",
+      "技能管理简化 Codex 关闭审查技能命名",
+      "代理委托功能标记功能已添加",
+      "社区讨论 Linux/Windows 应用缺失问题热烈"
+    ],
+    "ai-trending": [
+      "tinyhumansai/openhuman 个人专属超智能体框架暴涨1690星",
+      "colbymchenry/codegraph 本地代码知识图谱减少token消耗",
+      "tech-leads-club/agent-skills 首个AI编码Agent安全技能注册表",
+      "microsoft/ai-agents-for-beginners 微软Agent入门教程485星增长",
+      "Light-Heart-Labs/DreamServer 一站式本地AI基础设施获关注",
+      "K-Dense-AI/scientific-agent-skills 科研金融工程Agent Skills集合"
+    ],
+    "ai-hn": [
+      "Apple Silicon本地推理能耗高于OpenRouter云API争议247评论",
+      "AI仇恨浪潮民调显示公众信任度下降引发监管讨论",
+      "Semble语义代码搜索减少98% token消耗获37评论",
+      "Machine项目VM开发环境session-only secrets技术新颖",
+      "微软AI CEO预测18个月达人类水平AI引16评论讨论",
+      "Ken Griffin称Citadel AI代理几天完成PhD任务震惊社区"
+    ],
+    "ai-hf": [
+      "deepseek-ai/DeepSeek-V4-Pro文本生成模型下载超314万",
+      "Qwen3.6-35B-A3B多模态MoE模型下载547万次居首",
+      "google/gemma-4-31B-it图像文本模型下载985万次",
+      "Zyphra/ZAYA1-8B全新开源LLM推理模型发布",
+      "unsloth优化Qwen3.6系列GGUF量化版下载超18万",
+      "microsoft/Fara-7B微软多模态模型下载1.7万次"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code maintains stability with bug fixes",
+      "Gemini CLI releases rapid iteration nightly v0.44",
+      "OpenCode launches feature-rich v1.15.4 update",
+      "Kimi Code focuses on platform reliability improvements",
+      "Qwen Code gains traction in developer workflows",
+      "Copilot CLI faces critical regression bugs"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues/PRs with intense dev momentum",
+      "v2026.5.16-beta.5 improves macOS UI and renames autoreview skill",
+      "Security audit suppressions added for compliance workflows",
+      "IronClaw, LobsterAI, and ZeptoClaw join active agent projects",
+      "Multi-agent orchestration and runtime observability prioritized",
+      "Backward-compatible beta releases maintain ecosystem stability"
+    ],
+    "ai-trending": [
+      "tinyhumansai/openhuman gains 1,690 stars for private AI superintelligence",
+      "K-Dense-AI/scientific-agent-skills attracts 762 stars for domain agents",
+      "colbymchenry/codegraph reaches 857 stars for fast code indexing",
+      "Light-Heart-Labs/DreamServer trends for local inference platforms",
+      "Oven.sh/bun hits 910 stars as TypeScript AI runtime",
+      "tech-leads-club/agent-skills gains 225 stars for secure skill registries"
+    ],
+    "ai-hn": [
+      "Apple Silicon costs more than OpenRouter sparking cost debate",
+      "Semble reduces token usage by 98% for agent code search",
+      "AI hate wave concerns grow over job displacement",
+      "DeepSeek-V4-Pro leads Hugging Face likes with advanced reasoning",
+      "Gemma 4 runs efficiently on i5 CPU without GPU",
+      "Local vs cloud inference economics under scrutiny"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads with 4,010 likes and 3.1M downloads",
+      "Qwen3.6-27B dominates downloads at 3.4M with multimodal power",
+      "Google's gemma-4-31B-it gets 2,666 likes for multilingual reasoning",
+      "SulphurAI's Sulphur-2-base trending for high-fidelity text-to-video",
+      "ZAYA1-8B emerges as new open research reasoning model",
+      "LTX2.3-10Eros draws attention for video generation pipelines"
+    ],
+    "ai-community": [
+      "Desktop app streamlines 7-terminal workflow with AI agents",
+      "Claude Code powers automation while Cursor provides interface",
+      "Gemma 4 runs locally on i5 CPU using quantization",
+      "CodeGraph prevents redundant file grepping in agents",
+      "RAG improvements focus on production-grade performance",
+      "Browser AI inference impacts Core Web Vitals significantly"
+    ]
+  }
+}
