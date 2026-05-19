@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex v0.132.0-alpha.1 发布，TUI 重大升级",
+      "Claude Code 支付体系与 MCP 集成问题引发热议",
+      "Gemini CLI nightly v0.44.0 发布，ADK 标志功能上线",
+      "GitHub Copilot CLI v1.0.49 修复 CJK 编码与搜索问题",
+      "Pi v0.75.3 修复 HTTP/2 崩溃，强化本地 LLM 支持",
+      "Qwen Code 生产环境问题集中，Mode B 内存泄漏受关注"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.5.19-beta.1 发布，Node.js 支持提升至 v22.19",
+      "OpenClaw #83823 修复技能快照热重载失效问题",
+      "OpenClaw 呼吁建立 ClawHub 开放技能生态体系",
+      "OpenClaw #45740 揭示 gh-issues skill 提示注入安全风险",
+      "NanoBot 等 13 个项目活跃度持续攀升",
+      "IronClaw、LobsterAI 等企业级代理项目进展显著"
+    ],
+    "ai-trending": [
+      "tinyhumansai/openhuman：Rust 构建的 AI 超级智能体",
+      "HKUDS/CLI-Anything：Agent-Native CLI-Hub 工具集",
+      "tech-leads-club/agent-skills：专业 AI 编码 Agent 技能注册表",
+      "humanlayer/12-factor-agents：构建生产级 LLM 软件的 12 原则",
+      "NVlabs/Sana：高效高分辨率图像合成开源模型",
+      "ZhuLinsen/daily_stock_analysis：LLM 驱动的 A/H/美股智能分析"
+    ],
+    "ai-web": [
+      "Anthropic 收购 Stainless 强化代理连接能力",
+      "Stainless SDK 自动生成 MCP 服务器提升开发者体验",
+      "OpenAI Dell Codex Enterprise Partnership 细节未披露",
+      "Anthropic 战略重心转向 Agents 生态构建",
+      "Claude.com 与 anthropic.com 内容同步更新",
+      "OpenAI 企业合作动向受限，需进一步观察"
+    ],
+    "ai-hn": [
+      "Elon Musk 诉 OpenAI 败诉，商业化道路重大胜利",
+      "墨西哥政府遭 Claude 入侵，150GB 数据泄露",
+      "Alignment pretraining 论文揭示 AI 自实现错误对齐风险",
+      "InsForge 开源 Heroku for coding agents 基础设施",
+      "Smallcode 优化 AI 代理适配小型 LLM 资源受限场景",
+      "Anthropic 收购 Stainless 获 HN 广泛讨论"
+    ],
+    "ai-hf": [
+      "deepseek-ai/DeepSeek-V4-Pro 以超 4K 点赞登顶榜首",
+      "google/gemma-4-31B-it 开源权重多模态能力突出",
+      "SulphurAI/Sulphur-2-base 文本到视频生成模型热门",
+      "Qwen3.6-35B-A3B MoE 架构多模态表现强劲",
+      "unsloth/Qwen3.6-GGUF 系列社区优化量化版本流行",
+      "openbmb/MiniCPM-V-4.6 轻量级高效图像文本处理模型"
+    ],
+    "ai-community": [
+      "AI Gateway 选型清单助力工程师明智选择",
+      "Claude Code 隐藏 DeepSeek 模型引发透明度争议",
+      "Claude 分析团队 retros 发现被忽略改进点",
+      "MCP 开发自发出现领域驱动设计模式",
+      "Oracle APEX 26.1 AI Agent 红队测试暴露安全漏洞",
+      "农村离线环境多模态 AI 落地实践受关注"
+    ]
+  },
+  "en": {}
+}
