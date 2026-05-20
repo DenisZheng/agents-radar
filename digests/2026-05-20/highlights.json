@@ -1,0 +1,77 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.145发布，多Agent协作功能持续优化",
+      "Gemini CLI v0.43.0-preview.1上线，MCP集成取得进展",
+      "Kimi Code CLI活跃度下降，仅2个Issue和3个PR",
+      "OpenCode社区活跃，10+Issue和10个PR聚焦终端交互",
+      "GitHub Copilot CLI Pre-release v1.0.51-1更新，团队管理功能增强",
+      "Qwen Code和Pi工具无新版本，社区讨论集中于跨平台兼容性"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.5.19-beta.2发布，强化代理行为规范",
+      "OpenClaw Issue #75呼吁填补Linux/Windows桌面端支持",
+      "PR #84355优化网关层代理摘要名称逻辑",
+      "PR #84169修复Discord流式回复被清除问题",
+      "PR #84308等完成Cron拒绝信号结构化自动化验证",
+      "OpenClaw生态活跃，500 Issue和500 PR反映高强度开发"
+    ],
+    "ai-trending": [
+      "tinyhumansai/openhuman登顶Trending，Rust私有超级智能体",
+      "rtk-ai/rtk单二进制CLI代理，上下文压缩降token消耗60–90%",
+      "colbymchenry/codegraph代码知识图谱，供Claude Code快速检索",
+      "HKUDS/CLI-Anything全软件Agent原生化，GitHub热榜新宠",
+      "microsoft/ai-agents-for-beginners企业级代理方法论兴起",
+      "humanlayer/12-factor-agents生产级代理设计原则受关注"
+    ],
+    "ai-web": [
+      "Anthropic收购Stainless强化SDK与MCP生态",
+      "KPMG战略联盟集成Claude至核心业务，万名员工应用",
+      "Anthropic启动多元文化对话，探索AI安全治理",
+      "OpenAI Deployco页面上线，可能涉内部部署架构",
+      "Anthropic连续发布三篇重要公告，战略布局清晰"
+    ],
+    "ai-hn": [
+      "Anthropic挖角OpenAI联合创始人Andrej Karpathy引发热议",
+      "Forge Guardrails提升8B模型代理任务表现至99%",
+      "Sieve扫描Cursor/Claude聊天记录防API密钥泄露",
+      "YouTube MCP让AI代理直接访问YouTube内容",
+      "Sebastian Raschka探讨KV共享与注意力压缩技术",
+      "Pythagorean Addition数学运算范式理论探索"
+    ],
+    "ai-arxiv": [
+      "DashAttention分层稀疏注意力机制提升长序列处理效率",
+      "Predictable Confabulations建立LLM事实回忆缩放定律",
+      "Post-Trained MoE自蒸馏实现专家数量减半提升推理效率",
+      "Aligned Training参数免费提升SAE特征质量稳定性",
+      "Code as Agent Harness将代码视为智能体执行引擎",
+      "EnvFactory合成环境鲁棒RL解决工具使用Agent可扩展性"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro以4,067点赞登顶Hugging Face热门模型",
+      "Qwen3.6-35B-A3B MoE架构高下载量领跑多模态赛道",
+      "gemma-4-31B-it Google新一代开放权重模型下载领先",
+      "Sulphur-2-base主流开源文本到视频生成模型创新",
+      "MiniCPM-V-4.6视觉-语言理解任务表现优异适合轻量部署",
+      "HRM-Text-1B专为HR场景设计小型语言模型展现垂直潜力"
+    ],
+    "ai-community": [
+      "Bifrost自动回退机制保障高可用AI系统优雅降级",
+      "Claude Code RCE漏洞揭示LLM驱动工具解析逻辑风险",
+      "多智能体系统预算熔断防意外支出教训分享",
+      "框架在AI时代决定开发效率与团队协作范式",
+      "LLM评测系统性偏差呼吁更公平多维评估体系",
+      "Kimi WebBridge本地浏览器自动化代理保护数据隐私"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.145 released with OTEL observability and JSON agent collaboration",
+      "OpenAI Codex lands 10+ PRs for auth, MCP, and WSL stability fixes",
+      "Gemini CLI v0.43.0-preview focuses on PTY, memory, and auth improvements",
+      "Qwen Code adds production-grade daemon mode with qwen serve command",
+      "Pi CLI emphasizes startup performance and TTY stability for agents",
+      "Kimi Code CLI enhances multi-model support and cross-platform reliability"
+    ]
+  }
+}
