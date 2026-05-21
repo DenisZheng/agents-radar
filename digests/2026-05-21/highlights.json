@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布新版本，新增 MCP 集成与 TUI 优化",
+      "OpenCode v1.15.6 发布，支持多模型与跨平台兼容",
+      "Pi 工具 v0.75.4 更新，强化终端用户体验与安全审查",
+      "Copilot CLI 连续发布 v1.0.51-2/-3，修复平台回归问题",
+      "Qwen Code 活跃开发中，Issues 达 10+，聚焦稳定性改进",
+      "Kimi Code CLI 发布新版本，增强 OAuth 权限管理与工具调用"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.5.20-beta.1 发布，新增 Discord 语音会话跟随功能",
+      "OpenClaw 新增 doctor 工具警告隐藏 MCP 工具，提升可观测性",
+      "OpenClaw 停止写入明文 API key，强化凭证安全管理",
+      "Hermes Agent 学习循环机制获关注，推动 AI 代理性能进化",
+      "NanoBot 项目活跃，Issues 和 PRs 均超 500 条，社区贡献旺盛",
+      "IronClaw 发布新版本，支持结构化沙箱修复检查流程"
+    ],
+    "ai-trending": [
+      "llama.cpp 登上 GitHub Trending，本地推理需求持续升温",
+      "tinyhumansai/openhuman 高热度项目，打造个人专属 AI 超级智能",
+      "multica-ai/andrej-karpathy-skills 获 2679 stars，优化 Claude Code 技能封装",
+      "brave-ai/bolt.new 革命性前端开发工具，自然语言生成完整网页应用",
+      "HKUDS/ViMax 智能体视频生成平台，融合导演编剧制片人角色",
+      "obra/superpowers 提出 Agentic 技能开发方法论，系统扩展能力框架"
+    ],
+    "ai-web": [
+      "Anthropic 发布 NLA 研究，实现模型内部激活的人类可读转换",
+      "Anthropic 发布 'Teaching Claude why'，展示代理对齐训练成功经验",
+      "OpenAI 模型证明离散几何猜想，标志 AGI 科研能力跃升",
+      "Anthropic 与 SpaceX 合作扩展 GB200 算力布局",
+      "OpenAI IPO 消息引爆市场，估值与治理结构成热议焦点",
+      "Nvidia 宣布 900 亿美元 AI 投资计划，推动算力基础设施扩张"
+    ],
+    "ai-hn": [
+      "OpenAI 模型推翻数学猜想获 663 分，社区惊叹 AI 改变基础科学",
+      "OpenAI IPO 文件准备就绪引发广泛猜测与讨论",
+      "Nvidia 90B 美元 AI 投资计划获 HN 高分关注",
+      "PopuLoRA 种群演化提升大模型推理能力获技术认可",
+      "Hocuspocus 4 开源协同编辑后端支持实时协作",
+      "Claude Code 在 HTML 任务中展现高效编程代理潜力"
+    ],
+    "ai-arxiv": [
+      "TIDE 论文提出 MoE 扩散 LLM 无损高效推理框架",
+      "KoRe 方法学习更紧凑的知识表示，挑战 LLMs 编码假设",
+      "Draft Less, Retrieve More 优化 Speculative Decoding 资源消耗",
+      "BalanceRAG 联合风险校准级联 RAG 系统提升效率",
+      "ClinSeekAgent 自动化多模态证据寻求临床推理获突破",
+      "ThoughtTrace 数据集首次捕捉真实对话背后的思维过程"
+    ],
+    "ai-hf": [
+      "DeepSeek V4-Pro 登顶点赞榜，专为复杂逻辑与代码生成优化",
+      "Google Gemma 4-31B-it 下载破千万，强大多模态理解能力",
+      "字节跳动 Lance 模型支持任意模态输入输出，any-to-any 新范式",
+      "Qwen3.6-27B MoE 版本广受开发者青睐，高效可部署",
+      "Sulphur-2-base 高性能文本转视频模型，端点兼容区域部署",
+      "MiniCPM-V-4.6 显著提升视觉理解与长上下文处理能力"
+    ],
+    "ai-community": [
+      "Google I/O 2026 发布 Antigravity 2.0 重构企业级 AI 栈",
+      "Hermes Agent 学习循环机制揭示 AI 代理性能进化路径",
+      "Gemma 4 在 16GB RAM 下运行结构化工作流降低部署门槛",
+      "Per-User OAuth 设计强调 AI 代理细粒度权限控制重要性",
+      "Rust 实现 685 百万文本嵌入仅用 32 分钟，超高吞吐量流水线",
+      "批评过度聚焦提示工程，倡导转向真实 AI 后端部署技能"
+    ]
+  },
+  "en": {}
+}
