@@ -1,0 +1,94 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.147发布，功能变更显著",
+      "OpenAI Codex v0.133.0上线Goal新功能",
+      "Gemini CLI v0.44.0-nightly增强Agent能力",
+      "MCP标准化成为AI CLI工具事实门槛",
+      "Claude Code跨平台兼容性持续优化",
+      "OpenCode v1.15.7发布重要安全修复"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.5.20移除旧技能加载方式提升安全性",
+      "Discord语音会话支持增强多用户协作体验",
+      "Exec Approvals机制强制使用read工具加载技能",
+      "ClawSweeper自动合并修复终端状态问题",
+      "npm shrinkwrap确保依赖精确锁定减少构建风险",
+      "跨平台客户端缺失成社区最活跃议题"
+    ],
+    "ai-trending": [
+      "colbymchenry/codegraph本地代码知识图谱减少token消耗",
+      "obra/superpowers轻量级代理框架获1576星",
+      "multica开源管理型代理平台Go语言构建",
+      "ChromeDevTools MCP实现打通AI调试链路",
+      "anthropics/claude-plugins-official官方插件目录上线",
+      "msitarzewski/agency-agents全栈AI代理机构获千星"
+    ],
+    "ai-hn": [
+      "Multi-Stream LLMs新论文获46分引发热议",
+      "AI辅助工程师 burnout 话题获28分深度讨论",
+      "Runtime沙盒编码代理YC项目获60分关注",
+      "Agent.email命令行注册服务引发60条评论",
+      "Spec-Driven Development Claude技能获13分评价",
+      "DeepSeek-V4-Pro超4000点赞领跑开源模型"
+    ],
+    "ai-arxiv": [
+      "RLVR秩-1轨迹实现强大泛化能力获关注",
+      "DelTA框架解决RLVR信用分配难题",
+      "嵌入层学习率影响LLM性能关键因素",
+      "torchtune PyTorch原生LLM后训练库开源",
+      "偏好数据选择方法提升微调效率",
+      "Agent JIT编译优化Web代理延迟"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.147 released with regression fixes",
+      "OpenAI Codex rust-v0.133.0 focuses on stability",
+      "Gemini CLI emphasizes TUI and skill features",
+      "GitHub Copilot CLI shows low PR activity",
+      "Kimi Code CLI gains agent autonomy focus",
+      "Qwen Code joins growing AI CLI ecosystem"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.5.20 removes legacy skill allowlist path",
+      "Discord voice sessions now follow configured users",
+      "Security hardening around exec approvals in new release",
+      "v2026.5.20-beta.2 re-releases identical changes",
+      "High development velocity: 500 issues & 500 PRs daily",
+      "NullClaw, IronClaw, ZeptoClaw join OpenClaw ecosystem"
+    ],
+    "ai-trending": [
+      "codegraph surges +4,294 stars for specialized agent skills",
+      "academic-research-skills jumps +2,579 stars for research automation",
+      "superpowers framework gains traction for composable agent skills",
+      "ChromeDevTools MCP enables browser debugging in agents",
+      "oh-my-pi offers hash-anchored edits and subagent orchestration",
+      "multica transforms individual agents into management platforms"
+    ],
+    "ai-hn": [
+      "OpenAI IPO filing imminent sparks valuation discussions",
+      "Anthropic secures $15B annual compute deal with SpaceX",
+      "Google regains consumer AI leadership status",
+      "AI burnout concerns grow among engineers",
+      "Multi-stream LLM paper proposes parallel prompt processing",
+      "Claude Mythos audited Symfony finding 19 vulnerabilities"
+    ],
+    "ai-arxiv": [
+      "Variance Reduction for Expectations with Diffusion Teachers introduced",
+      "You Only Need Minimal RLVR Training reduces data requirements",
+      "DelTA provides token-level credit assignment for RLVR",
+      "Equilibrium Reasoners enable scalable verifiable reasoning",
+      "PALS optimizes LLM serving for power-aware deployment",
+      "Agent JIT compiles agent scheduling at runtime"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads with 4M+ downloads and 4K likes",
+      "Gemma-4-31B-it hits 10M downloads showing open-weight dominance",
+      "inclusionAI Ring-2.6-1T demonstrates ultra-large model trend",
+      "Qwen3.6-GGUF variants gain popularity for accessibility",
+      "Multimodal models thrive in text-to-video and image-to-3D",
+      "Audio synthesis models advance beyond simple generation"
+    ]
+  }
+}
