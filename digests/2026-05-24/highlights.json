@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code发布v2.1.150版本",
+      "OpenAI Codex发布rust-v0.134.0-alpha.3",
+      "Gemini CLI今日维护者可见Issues达10+",
+      "Kimi CLI获GitHub社区5+新Issues",
+      "Qwen Code发布v0.16.1新版本",
+      "Pi发布v0.75.5版本"
+    ],
+    "ai-agents": [
+      "OpenClaw今日合并PR达311个",
+      "OpenClaw发布v2026.5.22-beta.1",
+      "Linux/Windows客户端缺失Issue获105条评论",
+      "OpenClaw新增模型回退优化功能",
+      "Telegram消息实体保留Markdown格式",
+      "调试代理敏感头信息自动脱敏"
+    ],
+    "ai-trending": [
+      "multica单日增星4100+爆火",
+      "vLLM Stars达80.8k",
+      "ollama Stars破172.1k",
+      "ruflo Stars54.5k",
+      "presenton开源AI PPT工具",
+      "minimind从零训练小模型"
+    ],
+    "ai-web": [
+      "Anthropic发布Project Glasswing漏洞发现报告",
+      "OpenAI获Gartner Agentic Coding领导者",
+      "Claude Mythos检出超1万高危漏洞",
+      "OpenAI商业认证强化Agentic技术",
+      "两家公司聚焦AI安全与商业化",
+      "AI安全协作网络战略布局"
+    ],
+    "ai-hn": [
+      "Anthropic被指科幻作品致AI'学坏'",
+      "本地RAG+知识图谱智能代理Show HN",
+      "CC-Wiki转Claude会话为知识库",
+      "OpenAI Codex因用户激增限流",
+      "Elon Musk被劝停推Grok",
+      "AI加剧孤独感研究热议"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro下载超450万",
+      "Gemma-4-31B-it下载千万级",
+      "MiniCPM-V-4.6下载247万次",
+      "Qwen3.6-35B-A3B多模态领先",
+      "unsloth/Qwen3.6-MTP-GGUF下载近60万",
+      "Sulphur-2-base文本转视频模型"
+    ],
+    "ai-community": [
+      "Llama3在AWS Lambda容器运行方案",
+      "MCP服务器权限扫描工具发布",
+      "Gemini CLI闭源引争议",
+      "多模态AI蓝图解析漏洞分析",
+      "纯C#浏览器内神经网络引擎",
+      "Zero-Idle本地LLMs方案"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.150 fixes session limits and macOS permissions",
+      "OpenAI Codex v0.134.0-alpha.3 improves sandboxing and TUI plugins",
+      "Gemini CLI tackles subagent crashes and AST tools",
+      "GitHub Copilot v1.0.52 adds Autopilot mode and MCP fixes",
+      "Kimi Code CLI gains project-level customization features",
+      "Qwen Code CLI focuses on agent autonomy"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 new issues/PRs today",
+      "v2026.5.22-beta.1 clarifies Gateway startup paths",
+      "Proxy PR redacts sensitive headers in debug proxy",
+      "High activity on multi-agent collaboration enhancements",
+      "Security-focused token leak issues prominent",
+      "Documentation updates cover WhatsApp QR recovery"
+    ],
+    "ai-trending": [
+      "Understand-Anything turns code into interactive knowledge graphs",
+      "Multica (multi-agent platform) gains +410 stars",
+      "ChromeDevTools-MCP integration gets +435 stars today",
+      "SulphurAI/Sulphur-2-base leads text-to-video trend",
+      "DeepSeek-V4-Pro dominates Hugging Face LLM trends",
+      "Local RAG agents surge as privacy alternatives"
+    ],
+    "ai-web": [
+      "Anthropic launches Project Glasswing for automated vulnerability discovery",
+      "OpenAI named Gartner 2026 Agentic Coding Leader",
+      "Glasswing identifies >10K high-severity flaws in weeks",
+      "Claude Mythos Preview accelerates security automation",
+      "OpenAI’s recognition boosts enterprise AI coding adoption",
+      "Glasswing targets shift from discovery to patching"
+    ],
+    "ai-hn": [
+      "Anthropic blames sci-fi for 'evil' AI models",
+      "RAG/local knowledge graph tools gain traction",
+      "Claude’s real-time awareness criticized again",
+      "OpenAI Codex rate-limit issues debated",
+      "Show HN: Local RAG/KB agent gets 7 upvotes",
+      "CC-Wiki turns Claude sessions into shareable wikis"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops Hugging Face LLM trends",
+      "Sulphur-2-base leads text-to-video downloads",
+      "Qwen3.6-35B-A3B excels in vision-language tasks",
+      "Gemma-4-31B-it drives multimodal adoption",
+      "MiniCPM-V-4.6 leads image-text generation",
+      "Quantized GGUF variants see high download volumes"
+    ],
+    "ai-community": [
+      "Gemma 4 experiments flood dev.to discussions",
+      "Browser-based neural engines gain interest",
+      "Local-first AI agents challenge Microsoft Recall",
+      "MCP security concerns dominate Lobste.rs threads",
+      "Offline RAG systems become hot topics",
+      "Supply-chain risks in Node.js widely debated"
+    ]
+  }
+}
