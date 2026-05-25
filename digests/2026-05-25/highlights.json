@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 插件生态更新，Anthropic 官方管理",
+      "Qwen Code 夜间版 v0.16.1 发布",
+      "GitHub Copilot CLI v1.0.54 昨日更新",
+      "Kimi CLI 今日新增 7 Issues/PRs",
+      "OpenCode 与 Pi 同步活跃，均达 10+ 更新",
+      "Gemini CLI 社区热度达 4.2/5"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日 1,000+ Issues/PRs，活跃度极高",
+      "v2026.5.24-beta.2 发布 iMessage 反应式审批功能",
+      "网关性能优化：复用稳定通道目录读取逻辑",
+      "Docker 权限修复 PR #86135 已合并",
+      "架构重构：移除 Pi 依赖，集成 OpenClaw 核心运行时",
+      "Channel Broker 系列 PR（Phase 1~4）推进中"
+    ],
+    "ai-trending": [
+      "claude-plugins-official 今日新增 1,173 stars",
+      "codegraph 爆火，今日新增 3,003 stars",
+      "multica-ai 多智能体管理平台获 585 stars",
+      "pi 一站式 Agent 工具包新增 456 stars",
+      "cmux 终端增强版获 696 stars",
+      "openbmb/MiniCPM-V-4.6 下载量破 27万"
+    ],
+    "ai-hn": [
+      "《Constraint Decay》论文揭示 LLM 代码生成脆弱性",
+      "本地 LLM 主动提问策略提升准确性",
+      "Strudel 利用苹果端侧 LLM 自动化提交消息",
+      "OpenAI 联合创始人卡帕蒂加盟 Anthropic",
+      "SpaceX/OpenAI/Anthropic IPO 引热议",
+      "LLM 漏洞开发能力量化报告发布"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 登顶，460万下载量",
+      "Sulphur-2-base 文本到视频模型千万级下载",
+      "Gemma-4-31B-it 单日下载破 1000万",
+      "unsloth/Qwen3.6-27B-MTP-GGUF 66万下载",
+      "HRM-Text-1B 专为文本生成优化的1B模型",
+      "Jackrong/Qwopus3.5-9B-Coder-GGUF 代码专用"
+    ],
+    "ai-community": [
+      "Google I/O 2026 聚焦 Gemini 3.5 Flash Skill File",
+      "Hermes Agents + Qwen 本地化部署案例",
+      "Gemma 4 + E2B 离线灾害预警系统",
+      "Agent 微服务化实践：FastAPI+Kafka+K8s",
+      "Categorizing without LLM 非 AI 分类方案",
+      "A Network Allow-List Won't Stop Exfiltration"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code gains high bug-fix focus",
+      "OpenAI Codex improves session management",
+      "Gemini CLI enhances agent stability",
+      "Kimi Code enables provider interoperability",
+      "GitHub Copilot CLI refines cross-platform UX",
+      "Qwen Code emphasizes session persistence"
+    ],
+    "ai-agents": [
+      "OpenClaw releases iMessage reaction support",
+      "v2026.5.24-beta.2 adds tapback handling",
+      "Agent runtime consolidation merged today",
+      "Channel broker unification in progress",
+      "3 new OpenClaw releases this week",
+      "Security hardening PRs prioritized"
+    ],
+    "ai-trending": [
+      "Claude Code ecosystem dominates trending",
+      "Understand-Anything surges in stars",
+      "ruflo attracts multi-agent swarm interest",
+      "Daily_stock_analysis gains traction",
+      "vllm maintains 80K+ stars",
+      "ollama hits 172K total stars"
+    ],
+    "ai-hn": [
+      "Claude's role as advisor sparks debate",
+      "Remote prompt injection in Claude Code",
+      "Andrej Karpathy hired by Anthropic",
+      "Mythos vulnerability project highlighted",
+      "Local LLM optimization research shared",
+      "Constraint decay in code generation studied"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads Hugging Face downloads",
+      "gemma-4-31B-it tops vision-language models",
+      "Qwen3.6-27B optimized for multimodal tasks",
+      "Sulphur-2-base popular for text-to-video",
+      "MiniCPM-V-4.6 excels in visual understanding",
+      "Supertonic-3 dominates speech synthesis"
+    ],
+    "ai-community": [
+      "Gemma 4 powers offline disaster apps",
+      "FinePrint uses Gemma 4 as pocket lawyer",
+      "Claude Code Hooks automate teammate workflows",
+      "Gemini API Managed Agents simplify deployment",
+      "Network allow-lists fail to stop exfiltration",
+      "Multimodal agents trend in dev discussions"
+    ]
+  }
+}
