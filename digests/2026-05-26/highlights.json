@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 今日新增133个Issues",
+      "Qwen Code发布v0.16.1-nightly版本",
+      "GitHub Copilot CLI更新至v1.0.55-0",
+      "OpenCode和Pi均提交超50+次更新",
+      "Kimi Code重构PR引发社区关注",
+      "Gemini CLI今日8个PR合并"
+    ],
+    "ai-agents": [
+      "OpenClaw合并4个关键PR，含DeepSeek工具修复",
+      "会话持久化改进防止数据丢失",
+      "子代理现在继承父会话thinking level配置",
+      "移除Pi依赖，整合为自有运行时架构",
+      "#80319 QA工具混淆问题获17条评论",
+      "评论与讨论密集，活跃Issues达192条"
+    ],
+    "ai-trending": [
+      "vllm Stars突破8万，高性能推理引擎",
+      "langchain4j Java生态LLM统一API增长显著",
+      "ruflo企业级多智能体调度平台Stars破5.5万",
+      "CowAgent开源AI助手Stars近4.5万",
+      "LlamaFactory微调框架Stars7.1万",
+      "FinceptTerminal金融数据分析终端Stars317"
+    ],
+    "ai-web": [
+      "Anthropic发布Chris Olah梵蒂冈演讲全文",
+      "AI伦理需超越商业激励成为新焦点",
+      "教皇Leo XIV通谕《Magnifica humanitas》关联",
+      "Anthropic通过宗教权威塑造道德形象",
+      "OpenAI官网无新增内容延续静默期",
+      "技术治理议题国际化信号显著"
+    ],
+    "ai-hn": [
+      "挪威政府采购华为存储用于LLM训练（137分）",
+      "Anthropic宣布开源Mythos级模型（13分）",
+      "C扩展优化讨论获137分开发者热议",
+      "OpenBrief本地视频摘要工具获14分",
+      "星巴克暂停AI投入与Meta裁员事件（7分）",
+      "Hacker News最大公共话题：AI伦理与权力集中"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro登顶，点赞超4274",
+      "Sulphur-2-base文本到视频下载量破135万",
+      "LongCat-Video-Avatar-1.5音频驱动实验模型",
+      "HauhauCS/Qwen3.6-35B微调版下载139万",
+      "Qwen3.6-27B-MTP-GGUF量化下载69万",
+      "DeepSeek-Qwen系列持续占据榜单前列"
+    ],
+    "ai-community": [
+      "Dev.to：AI生成代码“够用但不够好”热议",
+      "Lobste.rs探讨AI系统开放/封闭问题（5分）",
+      "认知债务警示文章获3赞引开发共鸣",
+      "浏览器运行20B参数模型创新演示",
+      "Cursor限时社区Buildathon加速开发案例",
+      "非英语场景AI应用（如多语言垃圾检测）受关注"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code Skills added to ecosystem",
+      "GitHub Copilot CLI v1.0.55-0 released",
+      "OpenCode v0.16.1-nightly published",
+      "Qwen Code CLI gets new release",
+      "Kimi CLI shows low activity (3 issues today)",
+      "Pi-mono on GitHub gains traction"
+    ],
+    "ai-agents": [
+      "OpenClaw: 477 Issues, 500 PRs active",
+      "PR #86624 fixes CLI user turns persistence",
+      "PR #84007 subagent thinking defaults updated",
+      "PR #86312 caps MiniMax /btw token limits",
+      "High activity in session state management",
+      "No new releases this week"
+    ],
+    "ai-trending": [
+      "codegraph +3,161 stars today",
+      "andrej-karpathy-skills +2,749 stars today",
+      "ECC +2,025 stars today",
+      "gstack +640 stars today",
+      "Anthropic Cybersecurity Skills +1,004 stars today",
+      "SulphurAI/Sulphur-2-base trending"
+    ],
+    "ai-web": [
+      "Anthropic's Chris Olah speaks at Vatican",
+      "Pope Leo XIV's encyclical on AI ethics",
+      "Anthropic engages religious institutions",
+      "OpenAI had no new articles today",
+      "Strategic shift in AI policy advocacy",
+      "Vatican-AI collaboration highlighted"
+    ],
+    "ai-hn": [
+      "Norway's Huawei LLM storage (137 score)",
+      "Anthropic Mythos models public release",
+      "Chris Olai's Vatican remarks (88 comments)",
+      "AI finds Ozempic side effects from Reddit",
+      "WSJ AI memory safety concerns discussed",
+      "Hacker News leans cautious optimism"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 4.8M downloads",
+      "Sulphur-2-base 1.3M+ downloads",
+      "Qwen3.6-27B multimodal variant hot",
+      "Hy-MT2 series for multilingual use",
+      "unsloth/Qwen3.6-27B-MTP-GGUF quantized",
+      "Tencent Hy-MT2-1.8B 5.5K downloads"
+    ],
+    "ai-community": [
+      "Dev.to debates AI code quality",
+      "Lobste.rs discusses MCP risks",
+      "RAG optimization trending",
+      "Agentic architectures focus on efficiency",
+      "Security concerns in open-source AI tools",
+      "AI-induced groupthink prevention guide"
+    ]
+  }
+}
