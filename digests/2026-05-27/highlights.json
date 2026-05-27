@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 社区今日新增10+ Issues和PRs",
+      "OpenAI Codex发布Rust v0.134.0版本",
+      "Kimi Code CLI更新至v1.45.0",
+      "Qwen Code发布v0.16.1-nightly",
+      "GitHub Copilot CLI发布v1.0.55-1",
+      "Pi项目活跃度高，每日10+更新"
+    ],
+    "ai-agents": [
+      "OpenClaw今日383 Issues、500 PRs爆发式增长",
+      "发布2个Beta版本：v2026.5.26-beta.1",
+      "性能提升：回复速度显著优化",
+      "修复iMessage附件保存问题",
+      "新增toolResultMaxChars配置调整",
+      "会话状态管理FD泄漏问题待解决"
+    ],
+    "ai-trending": [
+      "ECC项目Stars达194,347，今日增1,915",
+      "claude-mem主题搜索stars超78k",
+      "Open-Stock免费市场平台获156 stars",
+      "PPT生成工具ppt-master stars 21,368",
+      "股票分析工具daily_stock_analysis stars 38,974",
+      "vllm项目stars 81,073保持领先"
+    ],
+    "ai-web": [
+      "Anthropic任命韩国代表董事KiYoung Choi",
+      "发布《How we contain Claude》技术博客",
+      "首尔办公室筹备中",
+      "多产品能力隔离策略披露",
+      "OpenAI今日无内容更新",
+      "聚焦可控Agent与风险双维度框架"
+    ],
+    "ai-hn": [
+      "LLM睡眠记忆机制论文引热议",
+      "Uber巨额AI支出遭质疑",
+      "Timeglass.ai全记忆方案上线",
+      "Sam Altman修正AI就业末日论",
+      "Xiaomi MiMo-v2.5价格暴跌99%",
+      "Meta/Google安全控制被绕过讨论"
+    ],
+    "ai-arxiv": [
+      "Scaling the Harness系统扩展框架发布",
+      "Language Models Need Sleep论文出炉",
+      "CausaLab交互式因果发现基准推出",
+      "Looped Diffusion语言模型效率提升",
+      "VeriTrace代理心智模型演化研究",
+      "Peak-Then-collapse知识图谱分析"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro登顶点赞4,310",
+      "Sulphur-2-base下载破千万",
+      "Qwen3.6-27B下载超450万",
+      "Anima模型ComfyUI专用stars 1,556",
+      "Supertonic-3语音合成ONNX版",
+      "Hy-MT2-1.8B腾讯混元翻译模型"
+    ],
+    "ai-community": [
+      "Cursor 3并行AI代理工作流揭秘",
+      "30分钟搭建TypeScript MCP服务器教程",
+      "Ollama+Continue.dev本地AI方案",
+      "Cortex AI审查AI PR每月769次",
+      "FairLens AI自动化偏见检测工具",
+      "Lobste.rs讨论AI开放/封闭问题"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code fixes UI lag, cost bugs, auth issues",
+      "OpenAI Codex v0.134.0 adds history search",
+      "Gemini CLI gets ephemeral sessions updates",
+      "Kimi Code CLI gains new GitHub integrations",
+      "Pi mono project receives community feedback",
+      "Qwen Code merges AST schema PRs"
+    ],
+    "ai-agents": [
+      "OpenClaw releases v2026.5.26-beta.1",
+      "OpenClaw fixes iMessage attachment handling",
+      "OpenClaw merged 500 PRs today",
+      "PicoClaw gets performance optimizations",
+      "NanoBot sees plugin SDK updates",
+      "IronClaw improves startup speed"
+    ],
+    "ai-trending": [
+      "ECC gains +1,915 stars today",
+      "Understand-Anything hits +4,697 stars",
+      "claude-mem gets +352 stars",
+      "anthropics/knowledge-work-plugins (+1,718)",
+      "Leonxlnx/taste-skill trending fast",
+      "claude-mem persistent context tool"
+    ],
+    "ai-web": [
+      "Anthropic appoints KiYoung Choi as Korea director",
+      "Sleep-like LLM consolidation mechanism paper",
+      "Uber's massive AI budget burnout reported",
+      "Sam Altman downplays AI apocalypse fears",
+      "Claude Code degradation debate active",
+      "Bias in AI chatbots favoring Catholicism"
+    ],
+    "ai-hn": [
+      "Sleep-like LLM mechanism paper (score:181)",
+      "Uber's Q1 AI budget burnout (score:26)",
+      "Nexus AI gateway tool (score:4)",
+      "Timeglass.ai memory tool (score:16)",
+      "OpenAI admits hallucinations inevitable",
+      "Claude Code performance concerns"
+    ],
+    "ai-arxiv": [
+      "Sleep-like LLM consolidation mechanism",
+      "MobileGym browser-based GUI agent simulator",
+      "DRScaffold lightweight vision-language model",
+      "Forgetting in language models analysis",
+      "OrpQuant multiplier-free quantization",
+      "Auto Benchmark Auditing tool"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 4,310 likes",
+      "Sulphur-2-base 1.3M+ downloads",
+      "Qwen3.6-27B multimodal model",
+      "unsloth/Qwen3.6-35B-GGUF 600K+ downloads",
+      "Marlin-2B video-centric model",
+      "Lance video framework"
+    ],
+    "ai-community": [
+      "Cursor 3 ships parallel AI agents",
+      "OpenClaw vs CraftBot comparison",
+      "Usage-based billing with FastAPI+Kong",
+      "RAG vs traditional search debate",
+      "Hybrid memory & Claude power user guide",
+      "Network allow-list exfiltration prevention"
+    ]
+  }
+}
