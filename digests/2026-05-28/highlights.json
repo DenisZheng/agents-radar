@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.152 今日发布",
+      "Gemini CLI 和 OpenCode 均发布新版本",
+      "GitHub Copilot CLI 更新至 v1.0.55-7",
+      "Kimi CLI 1.45.0 今日更新",
+      "Qwen Code v0.16.2 今日发布",
+      "Claude Code Skills 仓库新增"
+    ],
+    "ai-agents": [
+      "OpenClaw 新增 382 Issues, 500 PRs",
+      "v2026.5.26 版本优化 Gateway 启动性能",
+      "修复 Codex 工具链 OAuth 路由问题",
+      "PR #87458: 持久化技能提示优化",
+      "PR #87463: 统一 OpenAI-Codex 会话路由",
+      "PR #87374: 清理过期会话活动痕迹"
+    ],
+    "ai-trending": [
+      "ECC AI Agent 系统 stars 达 196k (+2062)",
+      "taste-skill 防止平庸内容，stars +2715",
+      "Understand-Anything 代码转知识图谱 (+4465)",
+      "LlamaFactory 高效微调工具 stars 71k",
+      "vLLM 高性能推理引擎 stars 81k",
+      "heretic 全自动移除审查限制 (+211)"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Claude Code Auto Mode",
+      "Claude 调研显示社科领域性别差距显著",
+      "OpenAI 新增税务自动化文章",
+      "Auto Mode 减少 93% 权限弹窗疲劳",
+      "Claude Code 两篇新文同日发布",
+      "Anthropic 侧重安全与效率优化"
+    ],
+    "ai-hn": [
+      "Simon Willison: Anthropic/OpenAI PMF 热议",
+      "Hacker News 讨论 AI 招聘算法种族偏见",
+      "开源音乐引擎 Demon 获 13 分",
+      "Meta 推出 AI 订阅服务引争议",
+      "Facebook 推出 Plus 订阅含 AI 功能",
+      "Hacker News 呼吁标注纯 AI 生成内容"
+    ],
+    "ai-arxiv": [
+      "MUSE-Autoskill: 自演化智能体框架",
+      "Alignment Tampering: RLHF 安全风险揭示",
+      "SIA: 自改进 AI 系统整合 harness",
+      "BASIS: LLM 批处理推理加速方案",
+      "MobileMoE: 边缘设备部署百亿模型",
+      "MATCHA: 文本匹配评估新方法"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 点赞 4,359 领跑榜单",
+      "Qwen3.6-35B-A3B 多模态下载千万次",
+      "Sulphur-2-base 文本到视频生成模型",
+      "pyannote/speaker-diarization-3.1 下载超百万",
+      "unsloth/Qwen3.6-35B-A3B-MTP-GGUF 量化版",
+      "Circlestone-labs/Anime-Diffusion-1.4"
+    ],
+    "ai-community": [
+      "MCP 成为开发者关注焦点",
+      "RAG 检索质量成核心瓶颈",
+      "GCP+Vertex AI 升级 LINE Bot",
+      "API 费用从 $420/月降至$28",
+      "ATS 简历优化指南发布",
+      "AI 在 B2B 场景落地案例"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.152 active release",
+      "OpenAI Codex rust-v0.135.0-alpha.2",
+      "Gemini CLI v0.45.0-preview.0",
+      "GitHub Copilot v1.0.55-7 stable",
+      "Kimi Code CLI gets markdown rendering",
+      "Qwen Code on GitHub"
+    ],
+    "ai-agents": [
+      "OpenClaw: 382 issues, 500 PRs today",
+      "v2026.5.26: Faster Gateway startup",
+      "v2026.5.26-beta.2 reply visibility fix",
+      "Deduplicated skill prompts merged",
+      "Memory leak fixes in progress",
+      "Tool relay failures being addressed"
+    ],
+    "ai-trending": [
+      "affaan-m/ECC +2,062 stars today",
+      "Lum1104/Understand-Anything +4,465 stars",
+      "Leonxlnx/taste-skill +2,715 stars",
+      "twentyhq/twenty +519 stars today",
+      "obra/superpowers +1,511 stars today",
+      "DEMON real-time music diffusion engine"
+    ],
+    "ai-web": [
+      "Anthropic: Coding agents gender gap study",
+      "Claude Code Auto Mode permission-skip classifier",
+      "OpenAI: Self-improving tax agents post",
+      "81% use AI chatbots, only 20% coding agents",
+      "Top-university users 40% more likely to adopt",
+      "Productivity gains from AI or biases?"
+    ],
+    "ai-hn": [
+      "OpenAI/Anthropic product-market fit 610 pts",
+      "Multi-agent LLM security paper 38 pts",
+      "Demon open-source real-time music 13 pts",
+      "Meta faces new Llama copyright lawsuit",
+      "Lombardy data center fees resurface",
+      "VAEN portable AI coding harnesses"
+    ],
+    "ai-arxiv": [
+      "Alignment tampering in RLHF bias amplification",
+      "MUSE-Autoskill self-evolving agents",
+      "MATCHA better semantic similarity metric",
+      "MobileMoE for efficient on-device MoE models",
+      "LocateAnything vision-language grounding",
+      "C4STYLI cultural awareness benchmark"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 4,359 weekly likes",
+      "Sulphur-2-base text-to-video model",
+      "Qwen3.6-35B vision capabilities lead",
+      "unsloth/Qwen3.6-35B-A3B-MTP-GGUF quant",
+      "Supertone/supertonic-3 audio synthesis",
+      "bytedance-research/Lance multimodal"
+    ],
+    "ai-community": [
+      "MCP as power outlet for tools",
+      "Most RAG problems are retrieval issues",
+      "$420 to $28/month API bill cut",
+      "Repo drift hidden cost of AI agents",
+      "DeepSeek slash API bills",
+      "Telegram deal hunting automation"
+    ]
+  }
+}
