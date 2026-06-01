@@ -55,6 +55,14 @@
       "Hermes Agent Challenge 催多篇实践文，跨平台 Claude Code Hook 方案受关注",
       "教皇利奥十四世 AI 与人类尊严通谕登 Lobste.rs 热度榜，伦理讨论升温",
       "单 Agent 规模化必失败，三角色架构方案获社区高关注"
+    ],
+    "ai-monthly": [
+      "Kimi K2.6编程基准全面领先闭源模型",
+      "Anthropic与SpaceX签署Colossus 1超算协议",
+      "OpenAI成立千亿级部署合资企业",
+      "Claude Code Skills安全注册表上线",
+      "Anthropic与PwC培训万名专业人员",
+      "Claude Code成Agent开发基础设施"
     ]
   },
   "en": {
@@ -113,6 +121,14 @@
       "Agent memory is production ready",
       "AI skills debt warned by devs",
       "Multi-provider Rust backends rise"
+    ],
+    "ai-monthly": [
+      "Anthropic signs SpaceX supercomputing deal",
+      "Claude Code rate limits doubled post-deal",
+      "OpenAI restructuring shocks model provider race",
+      "CLI tooling hits new maturity plateau",
+      "Kimi K2.6 challenges closed-model premium",
+      "AI agents shift from models to orchestration"
     ]
   }
 }
