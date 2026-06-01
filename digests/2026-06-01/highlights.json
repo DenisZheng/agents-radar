@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex rust-v0.136.0-alpha.2 发布，日活跃 Issue 50 条、PR 38 条，社区最火",
+      "Claude Code v2.1.159 内部版本更新，纯 Issue 消化期，积压稳定性 bug 集中处理",
+      "Gemini CLI 单日合并 8 条新 PR，无版本发布但社区贡献活跃",
+      "OpenCode Desktop/TUI/Web 三端统一推进，CLI 工具向 Agentic 平台演进",
+      "Qwen Code v0.17.0-nightly 发布，`qwen serve` 守护进程重塑企业级部署能力",
+      "AI CLI 全行业认证/会话稳定性危机集中爆发，六大工具同时中招"
+    ],
+    "ai-agents": [
+      "OpenClaw 连续发布 5 个 beta 版本，聚焦 Agent 运行时恢复与消息投递稳定性",
+      "OpenClaw 过去 24 小时 Issue 和 PR 各约 500 条，维护团队处理积压效率极高",
+      "OpenClaw 修复中断工具调用、过期 session binding 等导致运行断裂的核心 bug",
+      "OpenClaw 项目处于稳定迭代期但 high-priority Issue 仍大量积压",
+      "OpenClaw 连续 5 个 release 变更范围完全相同，正式版即将发布信号明确",
+      "OpenClaw v2026.5.31-beta.4 是今日最新版本，覆盖 13 个子项目"
+    ],
+    "ai-trending": [
+      "MoneyPrinterTurbo 日增 1937 星，AI 一键生成高清短视频工具异军突起",
+      "DeepSeek V4 系列强势上榜 Hugging Face，Pro 版 588 万下载量领跑开源社区",
+      "Claude Code 开源仓库日增 489 星，AI 编码代理工具社区关注度持续攀升",
+      "VoxCPM 去分词器多语言 TTS 模型日增 635 星，音频合成赛道新突破",
+      "Project N.O.M.A.D 离线生存 AI 电脑获 374 日增星，特殊场景 AI 应用受关注",
+      "Hermes Agent WebUI 日增 357 星，Agent 网络化交互入口加速普及"
+    ],
+    "ai-web": [
+      "Anthropic 完成 H 轮融资650亿美元，估值飙升至9650亿美元创历史纪录",
+      "Claude Opus 4.8 同日发布，最强视觉模型 Claude Opus 4.7 驱动新设计工具",
+      "Anthropic Labs 推出 Claude Design，支持对话式创建原型、幻灯片和单页文档",
+      "Anthropic 发布 Agent 时代安全隔离工程方法论，系统化部署自主 Agent",
+      "OpenAI 上线 Rosalind Biodefense 生物防御项目，公共安全布局加速",
+      "Anthropic 开设米兰办公室并与梵蒂冈就 AI 伦理互动，软实力叙事升级"
+    ],
+    "ai-hn": [
+      "AI 解决 Erdős 数学难题引数学界震动，LLM 突破纯工程走向科学研究",
+      "Rsync 项目拒绝合并 LLM 生成代码，直指 AI 代码安全隐患与维护难题",
+      "Ouijit 开源发布，专为 AI 编码代理设计的任务与终端管理工具",
+      "Claude Code 与 Codex 可通过 Git 实时对话，多 Agent 协作新范式出现",
+      "开发者实测：用 Claude 编程应减少编码时间、增加测试投入",
+      "TCN 作为 Transformer 替代方案引发讨论，模型架构多样化探索持续"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 以 588 万下载量登顶，国产大模型全球开源影响力跃升",
+      "Qwen 3.6 系列7 个版本合计霸榜，成为本周 Hugging Face 最热门模型家族",
+      "字节跳动 Lance 全模态任意到任意模型上榜，多模态融合趋势加速",
+      "Sulphur-2-base 159 万下载量，文本到视频赛道需求持续强劲",
+      "OpenAI privacy-filter 隐私分类工具开源，30 万下载量反映数据安全刚需",
+      "MiniCPM5-1B 仅 1B 参数适合边缘部署，小模型推理方案热度不减"
+    ],
+    "ai-community": [
+      "Dev.to 最热：71 行 Python 为 AI Agent 加可观测性黑盒，用 DuckDB 查故障",
+      "Claude vs Gemini 安全盲测：4 个安全域评级持平，63% AI 代码跳过安全加固",
+      "AI 失败不是因为模型差，底层基础设施缺失才是根本原因引深度讨论",
+      "Hermes Agent Challenge 催多篇实践文，跨平台 Claude Code Hook 方案受关注",
+      "教皇利奥十四世 AI 与人类尊严通谕登 Lobste.rs 热度榜，伦理讨论升温",
+      "单 Agent 规模化必失败，三角色架构方案获社区高关注"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code tops repos with +489 stars",
+      "OpenAI Codex fixes corrupt session saves",
+      "Gemini CLI faces agent execution bugs",
+      "Kimi Code CLI adds IDE integrations",
+      "Qwen Code closes ecosystem gap",
+      "GitHub Copilot CLI smallest in scope"
+    ],
+    "ai-agents": [
+      "OpenClaw ships 48 hour stabilization blitz",
+      "P1 fix for Codex app-server reliability",
+      "v2026.5.31 beta session auth fix",
+      "500 open issues shows strain",
+      "Subagent orchestration expands",
+      "Session context bug fix messag"
+    ],
+    "ai-trending": [
+      "Claude Code leads at +489 stars",
+      "MoneyPrinterTurbo hits +1937 stars",
+      "Markitdown tops at +2798 stars",
+      "Hermes Agent hits 174K+ stars",
+      "Claude Mem reaches 80K stars",
+      "VoxCPM tokenizer-free TTS emerges"
+    ],
+    "ai-web": [
+      "Anthropic raises $65B at $965B valuation",
+      "Claude Opus 4.8 launches with dynamic workflows",
+      "Claude Design for visual creation",
+      "Milan office opens in Europe",
+      "Claude 3x cheaper fast mode",
+      "OpenAI privacy filter open sourced"
+    ],
+    "ai-hn": [
+      "OpenAI solves Erdos math problem",
+      "LLM code quality under fire",
+      "AI hiring notification law emerges",
+      "SF house accepts AI stock payment",
+      "TCNs as post-Transformer alternative",
+      "Rsync bans LLM commits"
+    ],
+    "ai-hf": [
+      "DeepSeek V4-Pro leads at 4502 likes",
+      "Qwen3.6 dominates trending list",
+      "DeepSeek hits 5.8M downloads",
+      "OpenAI privacy filter released",
+      "Video generation models surge",
+      "Edge deployment remains top trend"
+    ],
+    "ai-community": [
+      "DuckDB diagnoses AI agent crashes",
+      "Claude vs Gemini security test",
+      "Cross-platform LLM tooling grows",
+      "Agent memory is production ready",
+      "AI skills debt warned by devs",
+      "Multi-provider Rust backends rise"
+    ]
+  }
+}
