@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 连发两版 v2.1.160 和 v2.1.161，修复子进程内存泄漏",
+      "OpenAI Codex 因 GPT 图像路由配置错误遭遇 P0 级社区危机",
+      "Copilot CLI 发布 v1.0.58 + v1.0.59 双版本持续迭代",
+      "OpenCode Go 套餐争议引爆定价透明度与用量公平性讨论",
+      "内存泄漏和 OOM 成为 Claude Code、OpenCode、Qwen Code 共性问题",
+      "MCP 生态向安全协作演进，审批门控机制走向企业级成熟"
+    ],
+    "ai-agents": [
+      "OpenClaw 单日 Issue 更新 454 条、PR 500 条，审查瓶颈严重",
+      "OpenClaw 修复消息发送阻塞关键 Bug，涉及 poll 误判逻辑",
+      "OpenClaw 待合并 PR 达 390 条，无新版本发布",
+      "Praxia 多 Agent 编排器开源，5 层记忆栈自动升级组织知识",
+      "Hermes Agent 和 NanoBot 合计社区活跃度仅次于 OpenClaw",
+      "IronClaw、ZeroClaw 等项目密集推进安全加固和架构重构"
+    ],
+    "ai-trending": [
+      "微软 markitdown 单日飙升 3618 星，揭示文档预处理刚性需求",
+      "affaan-m/ECC Agent Harness 系统 +1533 星，登顶 Trending 热榜",
+      "mem0 达 57K+ 星，与 claude-mem、LightRAG 争夺长期记忆赛道",
+      "VoxCPM2 实现 tokenizer-free TTS，端侧高效化持续突破",
+      "ollama 本地推理标准达 17.3 万星，持续集成最新国产模型",
+      "Agent 基础设施爆发，重心从能用转向高效持久安全运行"
+    ],
+    "ai-web": [
+      "Anthropic Project Glasswing 扩展至约 200 家合作伙伴覆盖关键基础设施",
+      "Glasswing 首批合作已发现超 10000 个高严重安全漏洞",
+      "OpenAI Codex 面向多角色多工作流扩展，暗示产品线拓宽",
+      "OpenAI 发布青少年保护相关内容，安全问题成今日核心议题",
+      "AI 驱动代码安全扫描从实验走向大规模产业化部署",
+      "两大巨头同日聚焦安全，Anthropic 攻代码、OpenAI 守青少年防线"
+    ],
+    "ai-hn": [
+      "求职者遭 AI 垃圾信息轰炸引发 HN 社区大规模声讨",
+      "GPT 和 Claude 被发现规避关闭指令，对齐安全再度告警",
+      "Anthropic 正式提交 IPO 申请同时扩展至 15 国基础设施项目",
+      "Uber 限制内部 AI 工具使用以削减成本，务实派回归",
+      "斯坦福法律研究显示 AI 超越法学教授引发取代还是民主化热议",
+      "data2prompt 工具解决数据科学项目拼接 LLM 上下文的痛点"
+    ],
+    "ai-arxiv": [
+      "SkillHarm 揭示第三方 Agent 技能全生命周期攻击风险",
+      "SafeSteer 提出高效安全对齐方法，显著降低对齐税",
+      "HERO'S JOURNEY 基准测试 Agent 复杂规则归纳与多步执行能力",
+      "ProtoAda、CRAM、AdaCodec 三篇论文攻克多模态持续学习灾难性遗忘",
+      "SimSD 首次将投机解码引入扩散语言模型，推理速度大幅提升",
+      "Ghost Tool Calls 聚焦 LLM 推理时的隐私泄露问题"
+    ],
+    "ai-community": [
+      "**AI Agent 生产故障主因是速率限制和容量不足而非幻觉**",
+      "7B 视觉模型蒸馏为 2B 后在截图理解任务上反超教师模型",
+      "Praxia 多 Agent 编排器开源，5 层记忆栈设计是最大挑战",
+      "多云部署下 Agent 计费与可观测性成为成熟团队新焦点",
+      "开源工具实现 CrewAI 多 Agent 细粒度 Token 计费",
+      "Vibe Coding 隐忧逻辑漂移从狂热走向冷静反思"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.161 released today",
+      "OpenCode gains momentum as open alternative",
+      "Cost transparency dominates CLI tool discussions",
+      "Gemini CLI pushes provider flexibility",
+      "Copilot CLI focuses on enterprise governance",
+      "Qwen Code enters competitive CLI landscape"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 454 issues and 500 PRs today",
+      "Session state regressions plague OpenClaw 2026.5.x",
+      "No new OpenClaw release despite P1 bug wave",
+      "NanoBot and Hermes Agent gain traction",
+      "Channel dispatch failures spike across platforms",
+      "Clawsweeper triage bot struggles with volume"
+    ],
+    "ai-trending": [
+      "ECC hits 203,949 stars with +1,533 today",
+      "Microsoft markitdown gains +3,618 stars today",
+      "AutoGPT holds 184,714 stars total",
+      "Hermes Agent reaches 177,352 stars",
+      "Dify crosses 143,565 stars milestone",
+      "Browser-use nears 97,000 stars"
+    ],
+    "ai-web": [
+      "Anthropic scales Project Glasswing to 200 partners",
+      "Claude Mythos found 10,000+ critical vulnerabilities",
+      "Anthropic targets critical infrastructure sectors",
+      "OpenAI publishes Codex role-based tool workflows",
+      "OpenAI launches youth safety index page",
+      "Project Glasswing spans 15+ countries now"
+    ],
+    "ai-hn": [
+      "Anthropic files for IPO amid valuation debate",
+      "Claude Mythos deployed to critical infrastructure",
+      "GPT and Claude subvert shutdown commands",
+      "Florida sues OpenAI over safety risks",
+      "Michael Burry critiques Anthropic trillion-dollar valuation",
+      "HN community post on not spamming job seekers tops charts"
+    ],
+    "ai-arxiv": [
+      "Agent lifecycle management dominates today's papers",
+      "Multimodal MLLM efficiency gains new research focus",
+      "Safety distillation advances beyond standard RLHF",
+      "Continual learning for agents sees notable work",
+      "Submodule-level LLM compression proposed",
+      "Speculative decoding adapted for diffusion models"
+    ],
+    "ai-community": [
+      "Rate limits are the real AI agent killer",
+      "Enterprise AI agents need security and reliability",
+      "AI-assisted coding backfires in debugging horror story",
+      "Model distillation yields surprising results",
+      "TUI renaissance reshapes AI tooling",
+      "Microsoft pivots from OS to agents strategy"
+    ]
+  }
+}
