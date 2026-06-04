@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex 发布 v0.137.0-alpha.5，安全通信栈 Noise 上线",
+      "Claude Code v2.1.162 发布，计费透明度问题持续发酵",
+      "Qwen Code 以 50 条 PR 更新居首，社区贡献最活跃",
+      "GitHub Copilot CLI 曝 CJK 输入法全面崩溃问题",
+      "OpenCode 嵌入式 V2 会话运行时上线，安全隔离升级",
+      "Gemini CLI 发布 v0.46.0-preview.1，子代理状态误报修复中"
+    ],
+    "ai-agents": [
+      "OpenClaw 连发 3 个版本，v2026.6.2-beta.1 重构插件安装策略",
+      "OpenClaw 待合并 PR 积压达 400 条，审查带宽成瓶颈",
+      "OpenClaw 修复 Workboard 批量更新中 stale lifecycle 补丁污染 bug",
+      "OpenClaw v2026.6.1 稳定版增强 Agent 运行时恢复能力",
+      "OpenClaw 渠道投递稳定性提升，覆盖 Telegram/WhatsApp/Slack",
+      "OpenClaw 过去 24 小时 Issues 更新 500 条，活跃度极高"
+    ],
+    "ai-trending": [
+      "headroom 今日 Trending #1，RAG Token 压缩减少 60-95% 消耗",
+      "ECC 冲上 Trending #2，Agent Harness 工程化进入主流视野",
+      "DeepSeek-V4-Pro 以 4597 赞霸榜 Hugging Face 本周热度王",
+      "NousResearch/hermes-agent 获 179K Stars，成长型 Agent 框架标杆",
+      "微软 markitdown 文件转 Markdown 工具持续热门",
+      "Qwen3.6 MoE 家族下载量突破 400 万，成最大模型家族"
+    ],
+    "ai-web": [
+      "Anthropic 披露 Claude Mythos Preview 因爆炸半径过高被暂缓发布",
+      "Anthropic 发布 Agent 容灾边界设计框架，首谈安全隔离工程实践",
+      "Anthropic 分析 832 个被封禁账户，映射 AI 赋能网络攻击新态势",
+      "Claude Partner Network 推出 Services Track 和 Partner Hub",
+      "OpenAI 疑似发布 Gpt Rosalind 新能力，具体内容待确认",
+      "Anthropic 三篇重量级内容同日发布，覆盖安全、威胁与生态"
+    ],
+    "ai-hn": [
+      "Hyper 公司大脑项目获 49 分 54 评论，Agent 基础设施赛道最热",
+      "Claude Opus 4.8 Max 空消息异常回复，引发 prompt injection 防护讨论",
+      "Mnemo 本地优先 AI 记忆层开源，Rust+SQLite 构建",
+      "Google Gemma 4 12B 发布，16GB 笔记本即可运行",
+      "OpenAI 发布前沿安全蓝图，AI 治理话题升温",
+      "Bernie Sanders 提出 AI 公司公众持股法案，监管叙事走向主流"
+    ],
+    "ai-arxiv": [
+      "q0 提出超纪元预训练新范式，多轮训练替代单一模型",
+      "Language Models Need Sleep：LLM 模拟睡眠机制自主巩固记忆",
+      "Muon 优化器动量机制首次获谱滤波理论解释",
+      "Neuron Populations 研究揭示 Scaling Law 在神经元群体层面的分化",
+      "PyraMathBench 发布数学能力评估基准，量化 LLM 推理结构差异",
+      "Denoise First 论文填补 Muon 在大模型训练中的理论空白"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 以 4597 赞近 600 万下载量霸榜 Hugging Face",
+      "Sulphur-2-base 视频生成模型以 1532 赞跻身总榜第二",
+      "NVIDIA 一口气推出 Cosmos3 系列，覆盖视觉理解生成全链路",
+      "Qwen3.6 MoE 家族下载量突破 400 万，成最大模型家族",
+      "LiquidAI LFM2.5-8B-A1B 仅激活 1B 参数实现高效推理",
+      "MiniCPM5-1B 端侧小模型开源，适合移动端嵌入式部署"
+    ],
+    "ai-community": [
+      "Docker 沙箱隔离 AI 编码 Agent 实操指南，解决本机安全隐患",
+      "AI 编码提速是借来的时间：每 1 美元 token 有 44 美分修 bug",
+      "TypeScript 追踪 Agent token 消耗方案，找到成本失控根源",
+      "webMCP 现场演示 MCP 协议如何改变 Web 开发范式",
+      "AWS Strands Agents 5 种多 Agent 协作模式系统梳理",
+      "Agent 生产环境失败难复现问题引发社区热议"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code leads in community volume and enterprisemindshare",
+      "Gemini CLI pushes aggressively on extensibility andmulti-provider",
+      "Qwen Code shows strong momentum in daemon/ACParchitecture",
+      "GitHub Copilot CLI in relative lull, risks losingtrust",
+      "Kimi Code CLI represents Chinese ecosystem push globally",
+      "OpenCode targets developer experience with multi-providersupport"
+    ],
+    "ai-agents": [
+      "OpenClaw released three new versions this week",
+      "OpenClaw plugin/skill install security overhaul landed",
+      "OpenClaw sees 500 issues and 500 PRs in 24 hours",
+      "Session-state reliability is top issue for OpenClawusers",
+      "v2026.6.2-beta.1 fixes dangerous code scanner path",
+      "OpenClaw grappling with production-scale complexity"
+    ],
+    "ai-trending": [
+      "headroom compresses LLM tokens 60-95%, today's #1trending",
+      "Hermes agent framework sees rapid community adoption",
+      "RAG and agent memory remain most active developmenttheme",
+      "claude-mem redefines agent knowledge persistence",
+      "hermes-webui surged alongside hermes-agent today",
+      "agent infrastructure dominates trending, not new models"
+    ],
+    "ai-web": [
+      "Anthropic published three major articles in one day",
+      "Anthropic details agent containment engineering",
+      "Anthropic maps AI-enabled threats from 832 accounts",
+      "Anthropic launches Claude Partner Network Services Track",
+      "Accenture Deloitte deploying Claude at enterprise scale",
+      "OpenAI announces GPT Rosalind metadata-only entries"
+    ],
+    "ai-hn": [
+      "HN abuzz with AI agent tooling and safety discussions",
+      "OpenAI releases frontier safety blueprint",
+      "Bernie Sanders bill proposes public ownership of AI firms",
+      "Gemma 4 12B runs on any laptop with 16GB RAM",
+      "free vLLM course lowers inference engineering barrier",
+      "Claude Code internals spark community debate"
+    ],
+    "ai-arxiv": [
+      "DeepSeek-V4-Pro hits 4597 likes and 5.8M downloads",
+      "Sulphur-3 debuts strong with 1532 likes on release",
+      "Qwen3.6 family expands with uncensored and MTP variants",
+      "nvidia-LocateAnything-3B claims top spot today",
+      "bytedance-research-Lance emerges as dark horse multimodal",
+      "researchers probe post-scaling frontier in LLM evolution"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro hits 4597 likes and 5.8M downloads",
+      "Sulphur-3 debuts strong with 1532 likes on release",
+      "Qwen3.6 family expands with uncensored and MTP variants",
+      "nvidia-LocateAnything-3B claims top spot today",
+      "bytedance-research-Lance emerges as dark horse multimodal",
+      "LFM2-5-8B-A1B pushes efficient MoE inference"
+    ],
+    "ai-community": [
+      "dominant theme is AI agent safety and cost in production",
+      "webMCP live demo sparks hottest discussion today",
+      "developers question adding coding agents to every tool",
+      "Docker sandboxes for safe AI agent isolation trending",
+      "community skepticism toward agents-in-everything approach",
+      "multi-agent patterns and prep work gaining attention"
+    ]
+  }
+}
