@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.163 正式版发布，安全插件成焦点",
+      "Gemini CLI 合并 4 个安全 PR，加固基础设施",
+      "OpenCode 社区集中揭露 prompt injection 漏洞",
+      "Kimi Code CLI 403 鉴权阻断，用户基本不可用",
+      "OpenAI Codex 5 版本密集迭代，Linux 桌面版需求暴涨",
+      "Copilot CLI Windows hooks 全线告警，跨平台一致性存短板"
+    ],
+    "ai-agents": [
+      "OpenClaw 日更 500 条 Issues/PRs，社区活跃度极高",
+      "v2026.6.1 升级后迁移回归问题集中爆发",
+      "Discord/Telegram/Slack 多通道消息投递可靠性危机",
+      "394 个待合并 PR 积压，维护者审查瓶颈明显",
+      "飞书原生 /compact 命令修复 PR 已就绪",
+      "Google Chat 新增原生审批卡片功能"
+    ],
+    "ai-trending": [
+      "claude-mem 获 80,669 stars，Agent 持久记忆成最热需求",
+      "headroom 今日 +3,142 stars，token 压缩降本 60-95%",
+      "NVIDIA Cosmos 世界模型开源，Physical AI 赛道升温",
+      "Notebook LM 克隆潮爆发，知识管理应用层竞争白热化",
+      "DeepSeek-V4-Pro 以 4629 赞 568 万下载断层领先 HF 榜单",
+      "Qwen 3.6 MoE 系列全面量化覆盖，开源生态协同显著"
+    ],
+    "ai-web": [
+      "OpenAI 发布 ChatGPT Memory Dreaming，记忆机制或迎重大更新",
+      "Anthropic 官网今日无新增内容",
+      "OpenAI 可能正在探索 AI 记忆和认知模拟前沿",
+      "ChatGPT 记忆功能改进或带来更智能个性化交互",
+      "具体技术细节和产品化方向尚待官方披露",
+      "对开发者和企业用户的长期对话应用潜力值得关注"
+    ],
+    "ai-hn": [
+      "Anthropic 递归自我改进研究发布，302 分 400 评论引爆 HN",
+      "Anthropic 开源 AI 驱动漏洞发现框架，双刃剑效应引热议",
+      "华为开源 KVarN：vLLM 原生 KV-cache 量化后端",
+      "Claude Opus 4.8 一次性完成正式验证几何算法",
+      "Sam Altman 警告 AI 代币成本将成行业大问题",
+      "Boxes.dev 将 Claude Code 和 Codex 搬到云端运行"
+    ],
+    "ai-arxiv": [
+      "基础 LLM 未经训练即可预测外部评判者评分",
+      "StreamMA 实现多智能体推理流式并行，打破延迟瓶颈",
+      "双向逻辑引入 CoT 推理，缓解自回归错误累积",
+      "AutoLab 提出长时程自主科研评测基准",
+      "Depth-Attention 跨层 Value 混合突破残差流限制",
+      "排序替代多数投票改进 Self-Consistency 召回率"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 4629 赞 568 万下载断层领先",
+      "Qwen 3.6-27B 多模态模型下载 544 万",
+      "Sulphur-2-base 视频生成模型 154 万下载登顶",
+      "NVIDIA Cosmos 3 系列密集上线冲刺统一多模态",
+      "LiquidAI LFM2.5 仅激活 1B 参数实现极致效率",
+      "清华 MiniCPM5-1B 端侧小模型下载近 8 万"
+    ],
+    "ai-community": [
+      "微软将 Windows 定位为 AI Agent 操作系统级安全层",
+      "Angular v22 原生支持 MCP + Skills 验证型开发",
+      "CostGuard 实时 AI 费用熔断器防止 API 账单失控",
+      "PewDiePie 推出开源自托管 AI 工作空间",
+      "Agent 代码审查机制遭根本性反思：可写即可骗",
+      "多 Agent 团队如何统一工具链标准化成热议焦点"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.163 released with stable updates",
+      "OpenAI Codex faces WSL performance and macOS freeze issues",
+      "Multi-agent orchestration becomes key ecosystem focus",
+      "AGENTS.md emerges as cross-tool standardization effort",
+      "Windows and Linux support gaps persist across all tools",
+      "Plugin extensibility now table stakes for AI CLI tools"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues and 500 PRs in 24 hours",
+      "SQLite migration from v2026.6.1 causes significant regressions",
+      "Session-state reliability is the top community concern",
+      "Message delivery correctness across channels under review",
+      "394 open PRs signal bottleneck is maintainer review capacity",
+      "No new release today; project still stabilizing post-2026.6.1"
+    ],
+    "ai-trending": [
+      "headroom repo gains 3,142 stars for 60-95% token reduction",
+      "hermes-agent surges with 1,913 stars for agent harness layer",
+      "NVIDIA cosmos trends as Physical AI world-model platform",
+      "open-notebook emerges as open-source NotebookLM alternative",
+      "ECC by affaan-m hits 1,750 stars for agent orchestration",
+      "Ecosystem shifts from bigger context to smarter context management"
+    ],
+    "ai-web": [
+      "OpenAI publishes three entries for ChatGPT memory dreaming feature",
+      "Anthropic adds model-level memory controls for enterprise users",
+      "Memory and persistent context become key competitive differentiator",
+      "Anthropic emphasizes compliance and auditability in memory design",
+      "OpenAI memory dreaming suggests latent memory synthesis approach",
+      "Both labs converge on longitudinal user context as core feature"
+    ],
+    "ai-hn": [
+      "Anthropic recursive self-improvement post scores 302 on HN",
+      "Timnit Gebru vindication story ranks fourth with high engagement",
+      "AI security tooling draws attention for offensive and defensive uses",
+      "Florida AI regulations spark governance debate on HN",
+      "Community split on whether self-improvement claims are overblown",
+      "WSJ and Axios both cover AI building its own successors"
+    ],
+    "ai-arxiv": [
+      "AutoLab paper tests if models can autonomously run research pipelines",
+      "StreamMA streams reasoning steps in multi-agent communication",
+      "STRIDE paper addresses training data attribution and provenance",
+      "SharedRequest enables privacy-preserving inference for LLMs",
+      "Bidirectional logic repair proposed for fragile chain-of-thought",
+      "Depth-Attention enables cross-layer value mixing in Transformers"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads with 4,629 likes and 5.7M downloads",
+      "Qwen3.6-27B hits 1,613 likes and 5.4M downloads",
+      "NVIDIA places six models spanning localization and quantization",
+      "GGUF quantization ecosystem drives massive edge deployment numbers",
+      "Sulphur-2-base reaches 1.5M downloads in text-to-video",
+      "DeepSeek-V4-Flash offers lighter high-throughput variant"
+    ],
+    "ai-community": [
+      "Xiaomi invests 60 billion yuan in AI hardware-software race",
+      "GitHub Copilot billing shows 24x price gap between models",
+      "Microsoft makes Windows an OS-level security layer for AI agents",
+      "Developers shift from can we build to can we afford and secure AI",
+      "Headroom tool cuts LLM token usage by up to 95%",
+      "AI code quality and production readiness concerns dominate discussion"
+    ]
+  }
+}
