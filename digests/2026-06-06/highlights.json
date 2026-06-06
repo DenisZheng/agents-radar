@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.165 发布，1M上下文账单焦虑成社区焦点",
+      "Codex v0.138.0-alpha.5 活跃，Windows体验与插件生态持续改进",
+      "OpenCode v1.16.2 单日50+ Issue/PR，沙箱安全方向密集推进",
+      "Qwen Code v0.17.1-nightly 聚焦daemon与Web-shell稳定性",
+      "Gemini CLI Agent挂起与Auto Memory安全问题引发关注",
+      "Copilot CLI v1.0.60 权限管理与终端UX成核心议题"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时467条Issue、500条PR，社区活跃度极高",
+      "OpenClaw 2026.6.1后密集修复高CPU与Cron数据丢失问题",
+      "PR #90775修复会话压缩后误报外部接管的严重bug",
+      "OpenClaw Cron静默被SQLite迁移清除的数据完整性问题已修复",
+      "apply_patch被策略管道错误移除的回归问题已关闭",
+      "OpenClaw下一修补版本2026.6.2预计落地多项回归修复"
+    ],
+    "ai-trending": [
+      "hermes-agent单日狂揽1845 stars，今日热榜冠军",
+      "ECC为Claude Code/Codex提供Skills与Memory增强，日增千星",
+      "open-notebook作为NotebookLM开源实现，日增1152 stars",
+      "NVIDIA cosmos世界模型平台首次进入热榜，具身智能受关注",
+      "Agent记忆优化项目MemPalace与上下文持久化claude-mem同日登榜",
+      "CopilotKit以AG-UI Protocol推动生成式UI，日增366 stars"
+    ],
+    "ai-web": [
+      "Anthropic一次性放出17篇深度内容，OpenAI今日零增量",
+      "Anthropic首次官方确认实验模型Claude Mythos Preview因风险过高未发布",
+      "Anthropic披露containment工程化实践，为Agent规模部署做准备",
+      "Anthropic与化学家合作提升Claude NMR谱图解析能力",
+      "Claude Code最长自主运行时间三个月内从25分钟翻倍至45分钟",
+      "Anthropic联合创始人Chris Olah出席梵蒂冈教皇AI通谕发布仪式"
+    ],
+    "ai-hn": [
+      "Anthropic呼吁全球暂停AI研发，理由是自我改进风险",
+      "Anthropic AI发现Zcash伪造漏洞，ZEC暴跌30%",
+      "Claude是否给rsync引入bug？278分热议引爆社区",
+      "MLX vs Llama.cpp在M1上运行Gemma 4 12B实测对比",
+      "特朗普政府考虑入股AI公司，工程师社区警惕资本介入",
+      "微软推动AI成瘾式使用引发开发者社区广泛质疑"
+    ],
+    "ai-arxiv": [
+      "RREDCoT提出思维链片段级奖励重分配，提升推理模型训练效率",
+      "Latent Reasoning用正态化流构建连续隐空间推理链，效率数量级提升",
+      "PC Layer多项式预条件层稳定LLM全程训练，无需修改训练算法",
+      "YOOO跨层稀疏注意力突破长上下文推理瓶颈",
+      "HANDOFF实现人形机器人全身控制，具身智能多篇高质量工作",
+      "Benchmark Everything论文对基准测试可持续性提出系统性批评"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro获4657赞、556万下载，开源社区综合体验最佳",
+      "NVIDIA Cosmos3全模态系列集中上榜，视觉生成领域野心显露",
+      "Gemma-4 12B统一多模态架构，12B参数覆盖any-to-any任务",
+      "LFM2.5-8B-A1B仅激活1B参数运行，边缘设备推理新范式",
+      "HRM-Text-1B递归推理模型仅1B参数却在推理基准表现惊艳",
+      "AI视频生成模型扎堆上榜，社区需求从聊天向内容创造迁移"
+    ],
+    "ai-community": [
+      "Gemma 4 12B无编码器统一多模态架构，可直接运行于本地笔记本",
+      "Agent中途接管案例揭示决策路径问题，对团队流程设计有参考价值",
+      "推理盗窃攻击向量剖析，暴露AI API端点的生产安全必读指南",
+      "Claude Code加一个关键改动，AI工程成本直降62%",
+      "MCP被类比为AI集成领域的USB-C，解决多工具碎片化问题",
+      "多智能体Claude Code栈缺失决策层，社区热议架构补全方案"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code leads AI CLI ecosystem with 6 new issues today",
+      "OpenAI Codex shows highest PR activity with 18+ open PRs",
+      "Gemini CLI and GitHub Copilot CLI both report 5-7 new issues",
+      "Kimi Code CLI transitions to successor binary amid reshuffle",
+      "OpenCode carves developer-platform niche in competitive landscape",
+      "Qwen Code narrows feature gap with leading CLI tools"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 467 issues and 500 PRs in 24 hours",
+      "OpenClaw v2026.6.1 regressions dominate current issue churn",
+      "127 issues closed and 124 PRs merged in recent cycles",
+      "NanoBot and Hermes Agent gain traction in agent ecosystem",
+      "PicoClaw and NanoClaw represent lightweight agent alternatives",
+      "IronClaw and ZeroClaw show strong community engagement"
+    ],
+    "ai-trending": [
+      "headroom debuts with +2473 stars for 60-95% token reduction",
+      "Hermes Agent gains +1845 stars for self-improving agent ecosystems",
+      "open-notebook adds +1152 stars as open-source Notebook LM alternative",
+      "NVIDIA cosmos enters with physics-world-model platform",
+      "ECC gains +1361 stars for personalizable agent orchestration",
+      "Agent Harnesses emerge as hottest trend in AI open source"
+    ],
+    "ai-web": [
+      "Anthropic publishes 17 articles in single-day content surge",
+      "Agent containment post signals urgent safety architecture focus",
+      "Constitutional Classifiers and alignment research dominate output",
+      "Chris Olah speaks at Vatican AI encyclical release event",
+      "Chemistry research extends Claude into scientific domains",
+      "OpenAI publishes zero new content today"
+    ],
+    "ai-hn": [
+      "Claude code in rsync may have increased bug density, study claims",
+      "Developers write docs for AI but neglect human colleagues",
+      "Anthropic calls for global pause on AI self-improvement risks",
+      "HN community debates platform's relationship with AI content",
+      "Making Claude a Chemist draws significant community interest",
+      "AI dev tech stack discussions reflect practical engineering focus"
+    ],
+    "ai-arxiv": [
+      "Agentic AI systems dominate today's research batch",
+      "DeepSeek-V4-Pro leads Hugging Face with 4657 likes",
+      "Sparse attention and preconditioning tackle efficiency at scale",
+      "RL fine-tuning advances reward redistribution methods",
+      "AI-text detection in co-editing workflows gets scrutiny",
+      "PC Layer improves LLM training stability via preconditioning"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads with 4657 likes and 5.5M downloads",
+      "Qwen3.6-35B-A3B hits 2.7M downloads as top weekly model",
+      "Google Gemma 4 family debuts as serious open-weight contender",
+      "NVIDIA places 9 models spanning vision, speech, and video",
+      "Sulphur-2-base signals maturing text-to-video ecosystem",
+      "LongCat-Video-Avatar-1.5 gains traction in generative video"
+    ],
+    "ai-community": [
+      "Security dominates anxiety over MCP attack surfaces and inference theft",
+      "Developers cut Claude Code costs by 62% via output compression",
+      "MCP protocol faces brutal audit over EventStore fragility",
+      "Gemma 4 12B brings encoder-free multimodal to laptop form factor",
+      "Agent mid-task interruption reveals certification framework gaps",
+      "Default LLM routing silently inflates bills by 3.9x"
+    ]
+  }
+}
