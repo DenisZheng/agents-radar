@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 一日三版本 v2.1.166/167/168 领跑迭代",
+      "OpenAI Codex 和 Qwen Code 加速补齐 HTTP daemon 能力",
+      "MCP 协议成事实标准但跨提供商兼容性仍是短板",
+      "Qwen Code v0.17.1-nightly 发布，活跃度极高",
+      "Windows 平台体验退化成多个工具共同痛点",
+      "沙箱安全和 Agent 可控性从加分项变一票否决项"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日处理 297 条 Issues 和 500 条 PR",
+      "OpenClaw 发布 v2026.6.5-beta.2 修复 QQBot 推理泄露",
+      "ACPX 进程状态存储从文件迁移至 SQLite 提升可靠性",
+      "Parallel Search MCP 集成为零配置默认搜索提供商",
+      "WebChat 图片读取 ENOENT 错误修复",
+      "Windows 聊天 UI 输入吞没和流式回复不可见修复"
+    ],
+    "ai-trending": [
+      "CopilotKit 以 33.2k stars 登顶今日热榜",
+      "superpowers Agentic Skills 框架日增 700 stars",
+      "Agent-Reach 零费用读取全网平台内容日增 683 stars",
+      "Agent 记忆系统成独立赛道多个项目同时登榜",
+      "微软开源 mxc 为 AI Agent 提供安全沙箱",
+      "NousResearch/hermes-agent 18.4 万星高星 Agent 框架"
+    ],
+    "ai-hn": [
+      "S&P 500 拒绝纳入 OpenAI 和 Anthropic 引热议",
+      "Meta AI 聊天机器人被利用入侵数千 Instagram 账户",
+      "HN 社区对 AI 态度撕裂 635 条评论激烈交锋",
+      "Claude 一次性修复被认为无法修复的 41TB BTRFS",
+      "AI 记忆系统被学术项目检测出 95% 错误率",
+      "Nvidia 为 Windows PC 推出高性能 CPU 系统"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 4681 赞超 550 万下载断层领先",
+      "DeepSeek-V4-Flash 1421 赞 343 万下载轻量高速",
+      "NVIDIA 一口气推 Cosmos3 和 Nemotron-3 全尺寸谱系",
+      "Gemma 4 统一多模态模型 12B 参数 any-to-any",
+      "Unsloth GGUF 版 Gemma 4 下载量达 45 万",
+      "Qwen 3.6 无审查版下载量突破 277 万"
+    ],
+    "ai-community": [
+      "AI 否决漏洞修复致 420 万美元损失真实案例",
+      "开源编码 harness 让开源模型超越前沿闭源模型",
+      "AgentSync 将 Git 工作流引入 Agent 配置版本化管理",
+      "碳感知训练根据电网碳强度调度 GPU 工作负载",
+      "KV Cache 量化 FP8/INT8 持续获得社区关注",
+      "AI 生成代码质量与安全成社区最突出议题"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code ships 3 patches in 24 hours",
+      "MCP becomes universal but fragmented",
+      "Windows/WSL stability remains weak",
+      "Slash-command hooks gain traction",
+      "Session forking spreads across tools",
+      "Multi-model support now standard"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 297 issues and 500 PRs",
+      "Two beta releases ship in one day",
+      "QQBot thinking leaks finally fixed",
+      "MCP tool result coercion patched",
+      "Backlog growing faster than cleared",
+      "Multi-provider auth resilience improved"
+    ],
+    "ai-trending": [
+      "open-notebook gains 794 stars today",
+      "Agent skills ecosystems exploding",
+      "AI memory emerges as category",
+      "CopilotKit rises with 631 stars",
+      "Agent-Reach gives agents web eyes",
+      "Superpowers hits 700 stars today"
+    ],
+    "ai-hn": [
+      "S&P 500 rejects OpenAI and Anthropic",
+      "Meta AI chatbot hack hits Instagram",
+      "Nvidia pushes into PC CPUs",
+      "OpenAI launches Lockdown Mode",
+      "HN debates anti-AI sentiment",
+      "AI valuations under scrutiny"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops with 4681 likes",
+      "Sulphur-2-base debuts at 1581 likes",
+      "Gemma 4 multimodal generates buzz",
+      "Qwen3.6 MoE hits 2.77M downloads",
+      "LocateAnything-3B gains traction",
+      "DeepSeek-V4-Flash efficient variant"
+    ],
+    "ai-community": [
+      "AI scanner misses $4.2M vulnerability",
+      "Coding harness beats frontier models",
+      "AI worms discussed on Lobste.rs",
+      "Carbon-aware GPU scheduling rises",
+      "KV cache quantization gains focus",
+      "AI slop engineering debt grows"
+    ]
+  }
+}
