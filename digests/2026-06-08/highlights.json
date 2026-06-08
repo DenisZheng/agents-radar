@@ -47,6 +47,14 @@
       "FinOps 团队开始精细化追踪每笔 LLM API 花费",
       "40 年资深工程师谈 AI 生产力神话与工程工艺价值",
       "vibe coding 泡沫反思在技术社区引发广泛共鸣"
+    ],
+    "ai-weekly": [
+      "Anthropic 秘密递交 S-1 IPO 预备文件",
+      "Anthropic H 轮融资 650 亿美元估值 9650 亿",
+      "Claude Code 一周狂发 8 个版本",
+      "headroom 单日 +3530 stars 登顶 GitHub Trending",
+      "hermes-agent 一周狂增 10000+ stars",
+      "HN 热帖 278 分讨论 Claude 引入严重 bug"
     ]
   },
   "en": {
@@ -97,6 +105,14 @@
       "Forensic execution logs now rank above better prompts",
       "Hallucinating support bots spark real-world war stories",
       "Paper argues LLMs transmit behavioral traits via hidden signals"
+    ],
+    "ai-weekly": [
+      "Anthropic files S-1 for IPO at $965B valuation",
+      "Claude Opus 4.8 launches for coding and agents",
+      "Claude finds 10000+ vulnerabilities in security audit",
+      "OpenAI Codex hits P0 crisis with image model",
+      "OpenClaw ships v2026.6.1 with agent recovery fixes",
+      "HN debates: Did Claude introduce bugs into rsync?"
     ]
   }
 }
