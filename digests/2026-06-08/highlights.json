@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Qwen Code 发布 nightly 版本，PR 吞吐量最高达 17 条",
+      "多模态输入成基础门槛，几乎所有工具社区均有诉求",
+      "Claude Code Linux 桌面构建缺失，获 294 赞呼声最高",
+      "Context 压缩与 OOM 问题成五大工具共同痛点",
+      "ACP 协议成 IDE 集成通用语言，Qwen 和 Gemini 均推进",
+      "OpenCode PR 合并率最高，积压 Issue 持续清理中"
+    ],
+    "ai-agents": [
+      "OpenClaw 单日 Issue 更新 296 条、PR 更新 500 条",
+      "OpenClaw 修复 chokidar 文件描述符泄漏重大 bug",
+      "OpenClaw 修复飞书消息投递崩溃 TypeError 问题",
+      "OpenClaw 修复子代理调用 Gemini 3.1 时 404 错误",
+      "OpenClaw 修复 Telegram 会话反复崩溃问题",
+      "OpenClaw Control UI 新增会话折叠下拉优化体验"
+    ],
+    "ai-trending": [
+      "Agent Skill 项目爆发，三个项目单日各获 1100+ stars",
+      "turbovec 今日新增 1554 stars 冲顶向量数据库热潮",
+      "NousResearch hermes-agent 双榜高热，热度 185,924 stars",
+      "DeepSeek-V4 系列在 Hugging Face 近 900 万次下载",
+      "open-notebook 获 +554 stars，开源替代 NotebookLM",
+      "微软发布 RAG 索引服务可缩减 90%+ 数据体积"
+    ],
+    "ai-hn": [
+      "Lathe 项目 232 分：用 LLM 加速学习而非替代学习",
+      "Claude 替代 Figma 做设计引发大量实用主义讨论",
+      "Anthropic Linux 桌面客户端请愿以 443 分高居榜首",
+      "论文探讨 LLM 类人属性与游戏 AI 的哲学边界",
+      "作者分享将 Claude Code 提效 100 倍的配置技巧",
+      "数据中心耗水与 AI 厂商亏损引发可持续性质疑"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 下载超 550 万次，4696 赞统治榜单",
+      "DeepSeek-V4-Flash 下载 334 万次，低延迟场景强需求",
+      "NVIDIA 多赛道同时发力视觉、语音、世界模型",
+      "Gemma 4 12B 统一多模态持续高热，43 万下载",
+      "Qwen3.6 MoE 去审查微调版近 300 万次下载",
+      "1B 小模型 MiniCPM5 热度不减，端侧部署受追捧"
+    ],
+    "ai-community": [
+      "AI Agent 安全需硬件级急停机制，不只是 prompt 约束",
+      "AI 自动测试 Day 3 花掉 280 万美元的真实案例曝光",
+      "多智能体工作流执行安全危机与架构模式解法",
+      "FinOps 团队开始精细化追踪每笔 LLM API 花费",
+      "40 年资深工程师谈 AI 生产力神话与工程工艺价值",
+      "vibe coding 泡沫反思在技术社区引发广泛共鸣"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Seven CLI tools compete for agentic dev environment dominance",
+      "No major releases, consolidation phase across all eight projects",
+      "ACP/daemon protocol standardization emerges as key battleground",
+      "Windows platform gaps persist across nearly every CLI tool",
+      "Sandboxing and permission models drive new feature work",
+      "Token accounting transparency remains universal pain point"
+    ],
+    "ai-agents": [
+      "OpenClaw processes massive backlog with 374 open PRs",
+      "Skills runtime file descriptor leak fix merged today",
+      "OpenClaw issue queue dominated by P1 security bugs",
+      "NanoBot and Hermes Agent drive new agent framework wave",
+      "13 agent projects tracked with OpenClaw leading activity",
+      "374 open PRs signal maintainer review backlog"
+    ],
+    "ai-trending": [
+      "turbovec surges with 1,554 stars for agent memory tooling",
+      "hermes-agent gains 1,112 stars riding agent quality wave",
+      "Modular AI skills repos emerge as new open-source primitive",
+      "claude-mem attracts star momentum for persistent agent memory",
+      "PageIndex trending with vectorless RAG approach",
+      "Quantum-enhanced LLM repos signal research frontier opening"
+    ],
+    "ai-hn": [
+      "Linux devs demand official Anthropic Claude Desktop client",
+      "Claude Code now replaces Figma per Jane Street engineer",
+      "AI firms spend $10,000 per $100 revenue analysis sparks debate",
+      "VibeOS launch shows AI-native operating system hype growing",
+      "Lathe's 232 score proves LLMs-for-learning counter-current strong",
+      "MoE expert selections leak nearly as much as text itself"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro dominates with 4,696 likes, 5.5M downloads",
+      "NVIDIA claims eleven trending multimodal and MoE models",
+      "Google Gemma-4 family launches with four trending variants",
+      "Unsloth-optimized Gemma GGUF builds gain rapid traction",
+      "Uncensored Qwen 3.6 GGUF hits 3M downloads on Hugging Face",
+      "DeepSeek-V4-Flash delivers lighter option at 3.3M downloads"
+    ],
+    "ai-community": [
+      "AI testing disaster costs company $2.8M in just 3 days",
+      "Multi-agent safety needs hard stop signs not just prompts",
+      "Developers admit they cannot track LLM spend by team",
+      "Forensic execution logs now rank above better prompts",
+      "Hallucinating support bots spark real-world war stories",
+      "Paper argues LLMs transmit behavioral traits via hidden signals"
+    ]
+  }
+}
