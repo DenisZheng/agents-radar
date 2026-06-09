@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.169 发布，50 Issue 保持综合影响力领先",
+      "OpenCode 50 Issue + 50 PR 双高，成今日社区贡献之王",
+      "OpenAI Codex rust-v0.138.0 发布，10 个 PR 推进活跃",
+      "Pi v0.79.0 发布，42 Issue + 22 PR 桌面体验持续迭代",
+      "Qwen Code v0.17.1-nightly 发布，多模型兼容性持续增强",
+      "全行业聚焦 Agent 可控性与 Token 预算管理痛点"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日 500 Issue + 494 PR，处于高活跃维护期",
+      "OpenClaw v2026.6.5-beta.5 发布，修复 QQBot 思维链泄露问题",
+      "OpenClaw 新增 MCP 工具结果类型强制转换，提升兼容性",
+      "OpenClaw 修复 transcript 图片脱敏，防止 base64 字节泄露",
+      "OpenClaw 折叠非致命工具错误，避免用户困惑",
+      "OpenClaw 合并率约 32.6%，积压量大但有稳定消化节奏"
+    ],
+    "ai-trending": [
+      "last30days-skill 今日 +3,558 Star，跨平台 Agent 技能插件夺冠",
+      "Google 官方 Agent Skills 项目登榜，Agent 技能生态全面爆发",
+      "whichllm 一键测试本地 LLM 性能，本地模型选型需求强烈",
+      "MemPalace、Cognee、claude-mem 同登热门，Agent 长期记忆走向工程化",
+      "TurboVec 以 Rust 实现高性能向量索引，RAG 技术向推理增强演进",
+      "NVIDIA Nemotron 3 Ultra 550B MoE 模型上榜，Agent 基础模型规模创新高"
+    ],
+    "ai-web": [
+      "Anthropic 发布生物学 Agent 研究论文，揭示 AI 可靠性瓶颈",
+      "纯 LLM Agent 引入确定性检索工具后准确率飙升至近 100%",
+      "OpenAI 机密提交 S-1 草案，IPO 道路正式开启",
+      "OpenAI 同步更新使命宣言与经济研究，资本叙事组合浮现",
+      "ChatGPT 即将迎来自发布以来最大规模改版",
+      "Anthropic 深化科研护城河，OpenAI 转向资本化叙事"
+    ],
+    "ai-hn": [
+      "OpenAI 机密提交 S-1 草案，254 分 154 评论成绝对头条",
+      "OpenAI 估值预期与公司治理结构引发社区高度讨论",
+      "Apple 第三代基础模型发布，模型与研究侧主线构成",
+      "Anthropic Project Glasswing 安全研究更新获 38 分关注",
+      "ChatGPT 即将重大改版，FT 独家报道可信度较高",
+      "AI 行业从模型竞赛向资本化与安全双轨分化演进"
+    ],
+    "ai-hf": [
+      "DeepSeek V4 Pro 以 4,720 赞 540 万下载登顶周榜冠军",
+      "DeepSeek V4 Flash 326 万下载，生产部署性价比极高",
+      "Qwen3.6-35B 社区微调版 303 万下载为全榜最高",
+      "Google Gemma 4 系列 any-to-any 能力五天五变体霸榜",
+      "NVIDIA Nemotron 3 Ultra 550B MoE 模型代表开源规模新高度",
+      "JetBrains Mellum2 首款开源思考模型，IDE 巨头入局 LLM"
+    ],
+    "ai-community": [
+      "开发者将 12 年经验封装为 AI Skill 后被裁，系统崩溃揭示脆弱性",
+      "对抗性评估框架攻击 5 大 LLM，无一得分超过 63%",
+      "Prompt Engineering 已死，系统工程才是未来",
+      "TypeScript + pgvector 全链路 RAG 工程化实践指南",
+      "测试 9 家 Serverless GPU 推理服务，2026 年选型指南出炉",
+      "LLM 行为特质传递 Nature 论文与 RadixAttention 底层优化引关注"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.169 ships with safe mode and cd command",
+      "OpenAI Codex v0.138.0 adds /app handoff to Desktop",
+      "Gemini CLI gains cross-platform Windows parity push",
+      "Kimi Code CLI active with new provider integrations",
+      "OpenCode v0.32 expands agent orchestration depth",
+      "Pi CLI targets mobile developer workflows growth"
+    ],
+    "ai-agents": [
+      "OpenClaw ships v2026.6.5-beta.5 with MCP fixes",
+      "OpenClaw hits 500 issues and 494 PRs in 24 hours",
+      "QQBot reasoning content stripping now in OpenClaw beta",
+      "NanoBot v3 focuses on memory architecture redesign",
+      "Hermes Agent adds multi-step tool chain support",
+      "CoPaw launches experimental local-first agents"
+    ],
+    "ai-trending": [
+      "mvanhorn/last30days-skill surges +3558 stars today",
+      "Panniantong/Agent-Reach gains +679 stars overnight",
+      "RyanCodrai/turbovec hits +1729 stars with Rust vector index",
+      "roboflow/supervision climbs +1288 stars as CV utility",
+      "aaif-goose/goose rises +699 stars challenging OpenClaw",
+      "MemPalace/mempalace claims top AI memory benchmark"
+    ],
+    "ai-web": [
+      "Anthropic posts biology agents research breakthrough",
+      "OpenAI files confidential S-1 for IPO launch",
+      "Claude struggled retrieving virology database data",
+      "Deterministic wrappers boosted agent accuracy to 100%",
+      "OpenAI teases major ChatGPT overhaul is coming",
+      "Anthropic signals deep life sciences R&D push"
+    ],
+    "ai-hn": [
+      "OpenAI submits S-1 draft starts IPO process",
+      "Microsoft hacked to distribute malware via Claude",
+      "Rayline launches Claude Code subagent routing",
+      "ChatGPT overhaul signals new OpenAI direction",
+      "Show HN Command Center AI coding environment",
+      "Community debates if AI companies should IPO"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro hits 5.4M downloads 4720 likes",
+      "Google Gemma 4 12B and 26B MoE variants land",
+      "NVIDIA LocateAnything-3B for spatial grounding",
+      "NVIDIA Cosmos3-Nano world model released",
+      "NVIDIA Nemotron-3 Ultra 550B MoE quantized",
+      "DeepSeek-V4-Flash captures 3.3M downloads fast"
+    ],
+    "ai-community": [
+      "Company packaged 12 years experience into AI skill",
+      "AI agents vulnerable to RTT exploit attacks",
+      "Serverless GPU benchmarking results published",
+      "Prompt engineering declared dead for system engineering",
+      "Apple expands Private Cloud Compute features",
+      "Nature paper on hidden signals in language models"
+    ]
+  }
+}
