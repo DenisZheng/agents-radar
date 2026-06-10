@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.170 今日发布，修复推理链泄露安全隐患。",
+      "OpenAI Codex rust-v0.139.0 同步更新，社区活跃度断层领先。",
+      "Qwen Code v0.18.0-preview.1 加速追赶 ACP 协议对接。",
+      "Pi v0.79.1 跟进适配 Claude Fable/Mythos 5 新模型。",
+      "Gemini CLI 密钥泄露漏洞引发社区信任危机。",
+      "Windows 用户体验差成全行业共同短板。"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.5 发布，修复 MCP 工具结果兼容性。",
+      "OpenClaw 今日 Issues 更新 432 条，PR 合并 154 条，维护节奏强劲。",
+      "NanoBot、Hermes Agent 等 13 个 Agent 项目密集更新。",
+      "OpenClaw QQBot 推理链剥离，防止敏感 `<think>` 内容泄露。",
+      "今日 OpenClaw 覆盖项目达 13 个，社区生态持续扩张。",
+      "消息泄露与 MCP 兼容性成社区最高频痛点。"
+    ],
+    "ai-trending": [
+      "DeepSeek-V4-Pro 以 4740 赞、430 万下载量登 Hugging Face 榜首。",
+      "Gemma 4 系列家族密集上榜，下载量合计超百万。",
+      "Affaan-m/ECC Agent 性能优化系统再现爆款潜力。",
+      "Sentry 推出 `@sentry/mcp` 服务器，MCP 生态持续扩张。",
+      "Claude Agent Skills 与 Claude Code 深度融合趋势显著。",
+      "DeepSeek-V4-Pro 与排行榜前列项目共同确立 DeepSeek 系列统治力。"
+    ],
+    "ai-web": [
+      "Anthropic 同时推出 Claude Fable 5 和 Mythos 5 两款旗舰模型。",
+      "Mythos 5 专为安全领域设计，已与美国政府合作部署。",
+      "「内置破坏机制」争议引爆 HN，用户对 AI 公司权力边界质疑升温。",
+      "LLM 强化学习理论反思成今日 arXiv 最大焦点。",
+      "Agent 系统工程化趋势加速，评估与可观测性成落地核心难题。",
+      "DeepSeek-V4-Pro 以 4740 赞、430 万下载量刷新开源纪录。"
+    ],
+    "ai-hn": [
+      "Claude Fable 5 和 Mythos 5 以 1705 分霸榜 HN。",
+      "Fable 5「内置破坏机制」争论引爆社区。",
+      "Anthropic 呼吁暂停 AI 发展与 OpenAI 秘密申请 IPO 同步发酵。",
+      "KAN 网络部署 FPGA 实现超低延迟推理引边缘 AI 热议。",
+      "Deno 推出 AI Agent 安全防火墙 Claw Patrol。",
+      "社区情绪在技术兴奋与伦理警惕之间剧烈摆动。"
+    ],
+    "ai-arxiv": [
+      "PRIME 论文揭示奖励黑客化习得于训练早期。",
+      "RLHF 仅实现表层对齐，内部政治偏倚结构未根本改变。",
+      "Transformer VC 维紧刻划获突破性理论进展。",
+      "Agent 规划与工具使用等系统工程化成落地方向。",
+      "PsychoSafe 提出基于心理学的 LLM 精细化拒绝机制。",
+      "多轮交互 Agent 深度评估挑战与框架研究发表。"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 以 4740 赞、430 万下载量断层领先。",
+      "Gemma 4 系列密集上榜，总下载量超百万。",
+      "NVIDIA LocateAnything-3B 异军突起，视觉定位热度攀升。",
+      "社区「去审查化」微调版本下载量近 300 万。",
+      "Nemotron Ultra 550B MoE 大象模型开放下载。",
+      "开源模型二次创作与量化部署日趋活跃。"
+    ],
+    "ai-community": [
+      "「提示词不是技能」一文引爆 32 条反驳讨论。",
+      "上下文卸载实践：减少 Token 浪费 30–50%。",
+      "四大量化输出方案成本对比出炉。",
+      "多 Agent 系统典型失败模式梳理成工程热点。",
+      "AI 信任层基础设施缺失问题引发广泛关注。",
+      "AI 爬虫推高托管费用，Token 经济学讨论升温。"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.170 launches with Fable 5 model",
+      "OpenAI Codex ships v0.139.0 and v0.140.0-alpha.2",
+      "Gemini CLI v0.47.0-preview focuses on stability patches",
+      "GitHub Copilot CLI v1.0.61 released today",
+      "All tools converging on ACP/daemon protocol parity",
+      "Windows platform reliability emerges as shared priority"
+    ],
+    "ai-agents": [
+      "OpenClaw ships v2026.6.5 stable and beta.6 today",
+      "OpenClaw hits 453 issues and 496 PRs in 24 hours",
+      "QQBot reasoning leak fix strips model thinking scaffolding",
+      "MCP tool result coercion added in latest OpenClaw release",
+      "13 agent projects tracked across the ecosystem today",
+      "Stale backlog straining OpenClaw maintainer bandwidth"
+    ],
+    "ai-trending": [
+      "last30days-skill tops trending with +3,191 stars today",
+      "turbovec Rust vector index gains +1,801 stars in 24h",
+      "whichllm local-LLM evaluation tool adds +633 stars",
+      "RAG pipelines dominate open-source AI battleground",
+      "Agent skills ecosystems outpace model/framework growth",
+      "Rust re-emerges as serious AI infrastructure language"
+    ],
+    "ai-web": [
+      "Anthropic launches Claude Fable 5 and Mythos 5",
+      "Fable 5 uses dynamic routing to downgrade sensitive queries",
+      "Mythos 5 targets government/defense via Project Glasswing",
+      "Anthropic research post on AI agents in biology published",
+      "OpenAI published no new content today",
+      "Fable 5 sets new benchmarks in reasoning and coding"
+    ],
+    "ai-hn": [
+      "Claude Fable 5 dominates HN with 1,705 points, 1,349 comments",
+      "Blog post claims Fable 5 can sabotage competitor users",
+      "Fable 5 sabotage clause ignites firestorm debate on HN",
+      "7 HN submissions covered the Fable 5 launch today",
+      "Wrongful arrest from AI misidentification discussed on HN",
+      "Surveillance proposal linking trackers to license plates surfaces"
+    ],
+    "ai-arxiv": [
+      "SearchSwarm advances long-horizon agent evaluation",
+      "Paper challenges divergence regularization in LLM RL",
+      "RLHF provides shallow alignment claims new study",
+      "PsychoSafe enables nuanced LLM refusals in high-risk cases",
+      "IS-CoT breaks long-form generation collapse",
+      "Causal reasoning and RAG limitations in legal domains explored"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads with 4,740 likes, 4.3M downloads",
+      "Gemma 4 family breakout with multiple quantized variants",
+      "NVIDIA Nemotron-3 Ultra 550B MoE model trending",
+      "Uncensored Qwen3.6-35B fine-tune nears 3M downloads",
+      "LocateAnything-3B vision-language model from NVIDIA trends",
+      "HRM-Text-1B compact reasoning model gains 733 likes"
+    ],
+    "ai-community": [
+      "Prompt engineering is not a skill argues viral Dev.to post",
+      "Context offloading with Strands saves tokens and cost",
+      "AI usage statistics 2026 show structural workforce shift",
+      "How LLMs Actually Work explainer tops Lobste.rs today",
+      "Debate on whether LLMs exhibit real behavioral traits",
+      "Adversarial model evaluations gain traction on Dev.to"
+    ]
+  }
+}
