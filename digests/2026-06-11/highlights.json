@@ -1,0 +1,126 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.172 发布，新功能上线",
+      "OpenAI Codex 单 Issue 604 条评论，社区声量最大",
+      "Kimi Code CLI PR 吞吐量最高，24 个 PR 中 20 已合入",
+      "OpenCode 24 小时内密集发布 4 个版本",
+      "Gemini CLI v0.46.0 发布，聚焦稳定性修复",
+      "GitHub Copilot CLI 社区诉求高但官方响应冷淡"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.6.6-beta.1 安全强化版本",
+      "OpenClaw 安全边界全面收紧，涉及沙箱、MCP 等 11 个领域",
+      "OpenClaw 过去 24 小时 Issues 更新 500 条，PR 更新 500 条",
+      "NullClaw、IronClaw 等 13 个项目覆盖全生态",
+      "OpenClaw 修复心跳静默回复 NO_REPLY 分类问题",
+      "OpenClaw 积压 P0/P1 Issue 数量仍偏高，维护者压力大"
+    ],
+    "ai-trending": [
+      "Agent Skills 范式全面爆发，单日新增 stars 超 5,000",
+      "obra/superpowers 单日 +1,104 stars，Agentic Skills 框架爆热",
+      "addyosmani/agent-skills 单日 +821 stars，Google 工程师出品",
+      "mvanhorn/last30days-skill 单日 +2,535 stars，增速第一",
+      "Claude Code 生态持续扩张，周边产业链成型",
+      "RAG 与 Agent 融合进入深水区，记忆成核心基础设施"
+    ],
+    "ai-web": [
+      "Anthropic 发布重磅研究：Agent 在生物学领域的落地挑战",
+      "Anthropic 揭示生物数据非标准化是 Agent 可靠部署的根本障碍",
+      "OpenAI 上线 Oracle Cloud 合作页面，多云战略落地",
+      "引入确定性检索工具后 Agent 准确率接近 100%",
+      "Anthropic 研究重心从模型能力转向 Agent 系统工程",
+      "Claude 与 GPT、Biomni 并列测试，多模型对比研究"
+    ],
+    "ai-hn": [
+      "Anthropic 模型命名体系被外推预测，273 星 76 评论热议",
+      "Claude Fable 5 安全护栏遭网络安全研究者强烈反弹",
+      "Claude Desktop 每次启动拉起 1.8 GB Hyper-V VM 引大量吐槽",
+      "Fable 5 安全护栏发布后不久即被越狱",
+      "AWS Bedrock 要求用户与 Anthropic 共享数据引争议",
+      "OpenAI 披露 PRC 关联影响力行动，地缘政治与 AI 交叉"
+    ],
+    "ai-arxiv": [
+      "推理模型效率与可控性成核心议题，多篇聚焦 KV Cache 压缩",
+      "多模态学习相图框架首次系统刻画对齐与预测边界",
+      "CoT 微调会损害混合模型长程记忆，修复方案提出",
+      "批判性论文质疑 LLM 达到人类专家水平的论断",
+      "1.5 亿参数模型无需 LLM 调用即可提取 RAG 证据片段",
+      "跨语言分布偏斜审计工具揭示前沿 LLM 多语言公平性问题"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 以 4,758 点赞 400 万下载量强势登顶",
+      "Google Gemma 4 系列全面铺开，官方与社区量化版同上榜",
+      "NVIDIA 550B 超大规模 MoE 模型开源，NVFP4 量化版下载超原版",
+      "Ideogram-4 的 FP8 和 NF4 量化版同时进入前 10",
+      "1B 参数 HRM 模型凭借新颖架构获高关注",
+      "MoE 架构、多模态统一模型和社区量化生态成三大趋势"
+    ],
+    "ai-community": [
+      "AI Agent 工程化落地：安全、成本、可靠性成核心关切",
+      "RAG 系统测试方法论从理论走向自动化测试框架",
+      "MCP 协议生态扩张，从概念验证到跨模型可移植工具",
+      "Anthropic 发布 Claude Fable 5 引发模型透明度热议",
+      "AI 编码助手是否真的完成工作成社区信任焦点",
+      "AI Agent 凭证泄露和记忆管理两大安全隐患被警示"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code leads agentic CLI tools in production maturity",
+      "OpenAI Codex ships rapid production-grade features",
+      "Gemini CLI gains traction as terminal-native TUI tool",
+      "Kimi Code closes gaps through high-volume PR batches",
+      "OpenCode adopts desktop-app-first platform approach",
+      "Agent skills emerge as shared hard problem across tools"
+    ],
+    "ai-agents": [
+      "OpenClaw ships v2026.6.6-beta.1 with security hardening",
+      "OpenClaw hits 500 issues and 500 PRs in 24 hours",
+      "Transcript and sandboxing security tightened in OpenClaw",
+      "Massive triage debt with 465 open issues in OpenClaw",
+      "Session state management draws double-digit community comments",
+      "13 agent projects tracked with intense community engagement"
+    ],
+    "ai-trending": [
+      "Agent skills marketplaces dominate GitHub trending today",
+      "superpowers repo gains 1,104 stars in single day",
+      "google/skills repo confirms platform race on agent standards",
+      "MoneyPrinterTurbo surges with 1,389 stars for AI video",
+      "x1xhlol system prompts repo hits 393 stars",
+      "train-llm-from-scratch gains 247 stars for fundamentals"
+    ],
+    "ai-web": [
+      "Anthropic research deploys AI agents on biology databases",
+      "Frontier models fail accuracy tests on NCBI Virus data",
+      "gget virus deterministic tool boosts accuracy to nearly 100%",
+      "Agent infrastructure readiness is the binding constraint",
+      "Scientific databases must redesign for agent-first users",
+      "OpenAI publishes metadata-only update with no article text"
+    ],
+    "ai-hn": [
+      "Anthropic Fable 5 model sparks fierce community debate",
+      "Anthropic CEO calls for government power to block models",
+      "AWS Bedrock requires data sharing with Anthropic",
+      "Microsoft restricts Claude Fable over data retention",
+      "Leaked Fable 5 system prompt circulates on HN",
+      "150M model extracts RAG evidence spans with no LLM call"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads with 4,758 likes and 4M downloads",
+      "Gemma 4 family spans base, instruction, diffusion, quantized",
+      "Qwen3.6 uncensored MoE variant hits 3M downloads",
+      "NVIDIA models span ASR, localization, and MoE generation",
+      "LiquidAI LFM2.5-8B-A1B gains traction as compact MoE",
+      "Uncensored and quantized model variants attract huge demand"
+    ],
+    "ai-community": [
+      "AI coding agents and reliability dominate dev discussions",
+      "MCP ecosystem security concerns spark developer debate",
+      "Claude Fable 5 hidden guardrails questioned by developers",
+      "Agent liar detectors and multi-turn memory loss explored",
+      "Practical RAG testing methodologies gain developer interest",
+      "Self-hosting email and non-CPU GPU compute draw attention"
+    ]
+  }
+}
