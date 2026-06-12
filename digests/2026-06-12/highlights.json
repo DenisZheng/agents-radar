@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.173 发布，子代理成本失控问题引关注",
+      "OpenAI Codex 密集迭代至 rust-v0.140.0-alpha.11",
+      "Gemini CLI 活跃 PR 达 21 个，安全防线持续加固",
+      "Qwen Code v0.18.0-preview.2 发布，/goal 迭代器仍存 Bug",
+      "8 个工具中 7 个面临 Agent 治理与成本熔断难题",
+      "多模型 Provider 扩展与 ACP 协议兼容成竞争焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw 单日 500 Issues、500 PR，审查带宽告急",
+      "cron 调度误追跑陈旧槽位，已合并两个修复 PR",
+      "managed gateway 更新失败后进程不再自动重启",
+      "NullClaw、IronClaw 等 13 个子项目生态持续扩张",
+      "OpenClaw doctor 默认模型移除后报错无用的 Bug 待修",
+      "OpenAI/Codex 运行时 isolated cron 报 exec tool 不可用"
+    ],
+    "ai-trending": [
+      "NVIDIA 发布 SkillSpector，为 AI Agent Skills 提供安全扫描",
+      "agentsview 日增 114 Star，本地 Coding Agent 监控工具爆红",
+      "DeepSeek-V4-Pro 以 4781 赞、406 万下载量断层领跑 HF 周榜",
+      "Gemma 4 系列霸占 Hugging Face 榜单超 10 个席位",
+      "Agent Skills 从概念走向基础设施化，个人到 Apple 全面布局",
+      "RAG 与向量数据库仍是长期强劲主题，mem0、LlamaIndex 持续活跃"
+    ],
+    "ai-web": [
+      "Anthropic 与 DXC 达成全球联盟，Claude 嵌入银行航空核心系统",
+      "Anthropic 投入 1.5 亿美元推出 Claude Corps 千人奖学金计划",
+      "OpenAI 疑似收购 Ona，官网出现指向页面但正文不可获取",
+      "Anthropic 从模型供应商向关键基础设施 AI 层跃迁",
+      "DXC 用 Claude 编写 95% 代码构建 AI 原生平台 OASIS",
+      "Anthropic 发布 AI 对劳动力影响的政策框架"
+    ],
+    "ai-hn": [
+      "Anthropic 为 Claude Fable 5 隐形蒸馏防护栏公开道歉",
+      "Claude Fable 5 独立评测仅中端水平，营销泡沫遭质疑",
+      "OpenAI 考虑大幅降价以应对 Anthropic 竞争压力",
+      "Agent-PD 项目为 Claude Code 多 Agent 提供监控审计",
+      "在 M3 Pro 上离线运行 Claude Code 配 Qwen3.6 成新玩法",
+      "社区对闭源大厂的信任危机正在加深"
+    ],
+    "ai-arxiv": [
+      "可恢复视觉 Token 路由机制兼顾 VLM 推理效率与精度",
+      "多轮对话上下文增量压缩方法显著降低注意力开销",
+      "推理时对齐迁移解决领域微调后安全性下降问题",
+      "LLM 在误导性医学上下文下表现急剧下降",
+      "理论上证明提取 AI 系统隐性知识的不可能性",
+      "具身智能与医疗 AI 评估贡献多篇高质量新工作"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 以 4781 赞、406 万下载量断层领跑周榜",
+      "Google Gemma 4 系列霸占榜单超 10 个席位",
+      "NVIDIA 视觉定位模型 LocateAnything-3B 获 1870 赞",
+      "Unsloth 为每个热门 Gemma 4 变体提供 GGUF 量化版",
+      "Ideogram 4 以 FP8 和 NF4 双格式同时上榜",
+      "LiquidAI LFM2.5-8B-A1B 仅激活 1B 参数主打高效推理"
+    ],
+    "ai-community": [
+      "Agent 限流修复后静默失败，可用性 SLO 不等于正确性 SLO",
+      "Google ADK 抵御提示注入的 5 层防御体系详解",
+      "混合搜索补全向量检索短板成 RAG 生产级必经之路",
+      "Agent 记忆系统现新失效模式：授权不等于意图合规",
+      "本地 AI 简历 Builder 等个人开发者用 AI 武装日常趋势明显",
+      "LLM 是否具备 RTS 游戏类人属性论文引发社区调侃"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code shipped v2.1.173 today with active feature cadence",
+      "Gemini CLI continues rapid iteration in the CLI agent space",
+      "AI CLI tools are merging toward ACP protocol interoperability",
+      "Multi-agent orchestration reliability is the dominant engineering theme",
+      "Codex shipped four alpha releases in a single day",
+      "Community demanding cost/usage observability and enterprise auth"
+    ],
+    "ai-agents": [
+      "OpenClaw has 500 open issues and 500 open PRs — massive backlog",
+      "Two OpenClaw PRs merged: cron catch-up fix and bug patch",
+      "Agent skills ecosystem dominates GitHub trending with 10B+ stars",
+      "NVIDIA launched SkillSpector: a security scanner for agent skills",
+      "OpenClaw triage bottleneck: needs-maintainer-review label dominates",
+      "Agent-centric tooling signals the 'agent application layer' era of the AI stack"
+    ],
+    "ai-trending": [
+      "addyosmani/agent-skills surged +3,278 stars today",
+      "pm-skills jumped +1,978 stars, leading agent tooling category",
+      "Five of GitHub trending's top 10 are AI agent skill repos",
+      "hexo-ai/sia introduces a self-improving AI framework",
+      "kenn-io/agentsview provides analytics for coding agents",
+      "NVIDIA SkillSpector security scanner targets agent skills ecosystem"
+    ],
+    "ai-web": [
+      "Anthropic and DXC form multi-year alliance for regulated-industry Anthropic launches Claude Corps, $150M fellowship for AI access",
+      "OpenAI hints at strategic expansion via acquisition of 'Ona'",
+      "Anthropic embedding Claude into banking, aviation, and government systems",
+      "DXC will train thousands of Claude-certified field engineers",
+      "Claude Corps targets nonprofits and early-career professionals",
+      "Anthropic balancing enterprise growth with socio-economic responsibility push"
+    ],
+    "ai-hn": [
+      "Anthropic apologizes for invisible Claude Fable guardrails — HN backlash",
+      "Claude Fable 5 labeled mid-tier; HN questions its value proposition",
+      "Fable 5 blocked prompts at 'hello' — over-refusal sparks heated debate",
+      "OpenAI considering price cuts and hinting at on-prem products",
+      "HN asks whether AI coding is having a 'BlackBerry moment'",
+      "Ona acquisition seen as OpenAI extending Codex capabilities"
+    ],
+    "ai-arxiv": [
+      "ALIGNBEAT: inference-time alignment transfer across model vocabularies",
+      "Impossibility of Eliciting Latent Knowledge — fundamental alignment limits",
+      "Agentic RL and tool-use credit assignment is the major research thrust",
+      "Trust and auditability papers: runtime governance for production agents",
+      "Efficiency focus: reducing quadratic attention cost, compressing context",
+      "Multi-robot collaboration and safety alignment at inference time"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads Hugging Face with 4M+ downloads, 4,781 likes",
+      "Google Gemma-4 family has six entries across variants this week",
+      "NVIDIA diversifying: LocateAnything-3B, Nemotron-ASR, 550B Ultra",
+      "Unsloth polarization: every major model now gets GGUF quantization immediately",
+      "Gemma-4-12B-IT hits 939 likes, becoming a go-to general-purpose open model",
+      "Aggressive NVIDIA push spans localization, ASR, and massive LLMs"
+    ],
+    "ai-community": [
+      "Community shifting focus from 'does it work?' to 'is it trustworthy and costly?'",
+      "Agent memory failure modes and prompt injection defenses gain engagement",
+      "Google ADK Security: 5 layers defending agents from prompt injection",
+      "Speculative decoding benchmarks draw strong practitioner interest",
+      "Discussions growing around agent governance: pre-execution gates, catalog drift",
+      "A deep-dive on how LLMs actually work topped Lobste.rs charts"
+    ]
+  }
+}
