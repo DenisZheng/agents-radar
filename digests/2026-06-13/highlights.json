@@ -1,0 +1,127 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 单日连发3个版本，子代理挂起问题集中爆发",
+      "OpenAI Codex 发布4个alpha版本，Windows沙箱故障致用户大量回退",
+      "Gemini CLInightly版上线，Push自动记忆功能安全争议不断",
+      "Copilot CLI渲染bug持续堆积，自定义命令需求获99个赞长期未解",
+      "Qwen Code v0.18.0大版本更新，免费额度政策引发127条热议",
+      "OpenCode社区贡献最活跃，同期50+PR开放，权限系统引大量issue"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.6.6正式版，全面收紧安全边界策略",
+      "OpenClaw单日更新500条issue，内存泄漏仍是头号问题",
+      "OpenClaw安全策略覆盖沙箱绑定、MCP通道等12个关键领域",
+      "OpenClaw发布beta.2测试版，开发者需提前验证沙箱配置变更",
+      "OpenClaw Android APK预建引发社区热烈讨论",
+      "子代理越权和自动化流程调整成为OpenClaw用户关注焦点"
+    ],
+    "ai-trending": [
+      "Agent Skills成为最热标签，x-cache和推理基础设施持续获关注",
+      "addyosmani/agent-skills单日获2656星，确立技能包新范式",
+      "obra/superpowers单日破千星，可复制智能体工作流需求迫切",
+      "LMCache登陆热榜，LLM推理效率仍是刚性需求",
+      "苹果容器化工具单日获3500星，强化macOS+Apple Silicon开发生态",
+      "openmed单日515星，医疗AI垂直场景开源化趋势加速"
+    ],
+    "ai-web": [
+      "Anthropic与TCS达成全球合作，Claude进军金融医疗监管行业",
+      "Anthropic发布首份公众调查，仅15%美国人信任AI公司自主决策",
+      "特朗普政府对Anthropic最强AI模型实施出口管制",
+      "Claude Fable 5提示词工程指南发布，官方最佳实践曝光",
+      "Anthropic发布研究让Claude成为化学家，深耕科学计算垂直领域",
+      "调查显示70%以上美国人支持政府监管AI"
+    ],
+    "ai-hn": [
+      "特朗普政府对Anthropic最强AI模型实施出口管制",
+      "Claude Fable 5发布日即遭越狱尝试，安全边界受考验",
+      "Anthropic红队发布LLM对漏洞利用影响量化研究",
+      "社区团队搭建开放基准测试直接挑战Anthropic",
+      "OpenAI考虑大幅降价应对Anthropic竞争",
+      "AI Renaissance迟迟不来引发社区冷静反思"
+    ],
+    "ai-arxiv": [
+      "EvoArena首次系统追踪LLM Agent记忆演化过程",
+      "Recursive Agent Harnesses正式提出递归智能体新范式",
+      "Operad理论引入检测LLM组合推理失败",
+      "OrchRM用自监督训练多智能体编排奖励模型",
+      "LabVLA实验室机器人AI for Science闭环实验突破",
+      "CoT因果归因分析验证模型是否真正在推理"
+    ],
+    "ai-hf": [
+      "Gemma 4系列持续霸榜，社区量化版本占据多席",
+      "DeepSeek V4-Pro近5000赞，国产大模型国际影响力提升",
+      "字节跳动开源Bernini-R图/文到视频渲染模型",
+      "Google推出diffusiongemma-26B，扩散融入大语言框架",
+      "Cohere开源North-Mini-Code-1.0小型代码模型",
+      "本地化部署需求强劲，GGUF/QAT量化版持续活跃"
+    ],
+    "ai-community": [
+      "AI Agent可靠性成焦点，记忆管理失败模式受关注",
+      "Claude Fable 5/Mythos 5发布引爆Lobste.rs讨论",
+      "AWS Agent Toolkit迁移指南解决幻觉API问题",
+      "RAG测试框架第五篇走向系统化工程",
+      "开发者重新定义概率性正确性测试新方法",
+      "本地化手机端LLM部署实践持续升温"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.174 released today",
+      "OpenAI Codex alpha.14 now available",
+      "Gemini CLI moves to nightly build cycle",
+      "GitHub Copilot CLI hits v1.0.62-1",
+      "OpenCode v1.17.4 shipped this morning",
+      "Qwen Code v0.18.0 released with updates"
+    ],
+    "ai-agents": [
+      "OpenClaw security hardening across 14+ surfaces",
+      "IronClaw now supports multi-agent orchestration",
+      "LobsterAI v2.3 adds persistent memory",
+      "Moltis introduces new safety primitives",
+      "CoPaw gains structured output tools",
+      "Hermes Agent releases v1.9 update"
+    ],
+    "ai-trending": [
+      "vLLM 82.7k stars, still growing strong",
+      "Ollama passes 174k GitHub stars",
+      "LMCache layers KV-caches for faster inference",
+      "DeepSeek tops HuggingFace trending page",
+      "Rig Rust-native LLM framework hits 7.6k stars",
+      "ECC agent harness reaches 214k stars"
+    ],
+    "ai-web": [
+      "Anthropic partners with TCS on enterprise Claude",
+      "Claude tackles NMR spectra for chemistry",
+      "64% fear AI-driven job loss, Anthropic survey",
+      "OpenAI publishes no new content today"
+    ],
+    "ai-hn": [
+      "OpenAI and Anthropic in price war showdown",
+      "Vibe-coded games powered by Claude trend on HN",
+      "AI safety debates intensify with new exploits"
+    ],
+    "ai-arxiv": [
+      "Dense supervision, sparse updates for distillation",
+      "Influcoder introduces encoder-based data attribution",
+      "Discrete diffusion fine-tuning paper debuts",
+      "Web pollution in generative recommenders analyzed",
+      "Reproducibility assessment using LLMs studied",
+      "Adaptive token compression for time series proposed"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads with 4.8k likes",
+      "Gemma 4 12B and 26B trending on HuggingFace",
+      "DiffusionGemma adds text-plus-image generation",
+      "Ideogram 4 introduces FP8 and NF4 variants",
+      "Unsloth quantizes Gemma 4 models rapidly"
+    ],
+    "ai-community": [
+      "QA for AI agents demands new methodologies",
+      "AWS Agent Toolkit reduces API hallucinations",
+      "Production agent observability gains traction",
+      "Safety guardrails in agents debated on Lobste.rs",
+      "Anthropic MCP updates improve tool integration"
+    ]
+  }
+}
