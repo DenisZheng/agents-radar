@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.177发布，记忆持久化功能引发社区热议",
+      "Qwen Code架构重构期今日PR达50条，长程任务质量成核心",
+      "Gemini CLI今日PR最多达20条，MCP协议开发成为主流方向",
+      "Pi紧急修复v0.79.3上线，上下文计费风险问题需关注",
+      "OpenCode v1.17.6发布，MCP能力补全和IDE集成双线推进",
+      "OpenAI Codex发布双alpha版本，Windows平台加固进入密集期"
+    ],
+    "ai-agents": [
+      "OpenClaw发布两个Beta版本，Telegram富文本功能大幅升级",
+      "OpenClaw本周合并500条PR，频道交付和安全加固为主线",
+      "OpenClaw待合并积压达303条，社区review能力成瓶颈",
+      "NanoBot跨多链桥接更新，Web3与Agent生态加速融合",
+      "Hermes Agent聚焦自适应置信区间方法，降低AI评估偏差",
+      "IronClaw集成GPU量化推理，本地大模型Agent性能再提升"
+    ],
+    "ai-trending": [
+      "NVIDIA发布SkillSpector AI Agent安全扫描器，获804星",
+      "Apple官方Swift容器工具container获1487星，AI开发环境进化",
+      "Andrew Ng团队aisuite库发布，统一多模型Provider接口",
+      "addyosmani/agent-skills登顶今日Trending，Agent技能体系全面爆发",
+      "LMCache今日新增238星，解决KV缓存显存瓶颈",
+      "Microsoft更新Hugging Face Inference API参考文档，企业AI部署规范化"
+    ],
+    "ai-web": [
+      "Anthropic发布最强通用模型Claude Fable 5，几乎所有基准达SOTA",
+      "Fable 5内置安全降级机制，高风险查询自动路由至次强模型",
+      "美国政府下令暂停Fable 5对外访问，AI模型首次因出口管制下架",
+      "Anthropic披露政府担忧涉及越狱方法，误拦率约5%",
+      "Mythos 5仅面向网络安全防御者开放，探索分层发布策略",
+      "OpenAI今日无新增内容，在监管事件背景下形成鲜明对比"
+    ],
+    "ai-hn": [
+      "Anthropic被叫停声明获3055分2217评论，今日HN绝对头条",
+      "智谱AI发布GLM 5.2获299分关注，中国大模型国际竞争力受热议",
+      "开发者用Fable 5一口气做出80个迷你游戏，AI编程效率令人惊叹",
+      "Fable生成完整可玩作品Shepherd's Dog获176分，AI创意工具潜力验证",
+      "社区热议AI出口管制对开源生态的寒蝉效应",
+      "独立评测对比Fable 5与GPT-5.5规划能力差距"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro获4813赞325万下载，成全球最受欢迎开源LLM",
+      "Google Gemma 4家族全面开花，12B指令微调版下载破百万",
+      "NVIDIA发布LocateAnything-3B和Nemotron-3.5-ASR，全栈AI布局",
+      "Ideogram 4以FP8和NF4量化版同时上榜，文生图走向消费级",
+      "Moonshot发布Kimi-K2.7-Code，首次聚焦编程专用模型",
+      "小米MiMo-V2.5-Pro-FP4-DFlash发布，面向Agent场景优化"
+    ],
+    "ai-community": [
+      "MCP服务器测试方法论成热点，真实模型集成测试受推崇",
+      "Anthropic Fable 5被叫停引发模型供应链脆弱性广泛讨论",
+      "多Agent重构因模型下架中断，开发者警示工作流不属于自己",
+      "Skill Linter对5.2万星项目评分84/100，提炼技能开发共性缺陷",
+      "Agent日志可观测性成工程实践焦点，传统日志正在失效",
+      "传统系统架构师与AI解决方案架构师角色对比引发职业讨论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code leads with 68k+ total issues",
+      "OpenAI Codex close behind in community volume",
+      "Qwen Code and Gemini CLI in rapid architectural evolution",
+      "OpenCode champions provider-agnostic MCP compliance",
+      "GitHub Copilot CLI focuses on polished IDE-adjacent UX",
+      "Six major toolchains race to become the default AI coding interface"
+    ],
+    "ai-agents": [
+      "OpenClaw ships v2026.6.8-beta.1 and v2026.6.7-beta.1 today",
+      "500 issues and 500 PRs updated in the last 24 hours",
+      "Telegram gets richer structured delivery with tables and lists",
+      "WhatsApp receives parallel channel delivery improvements",
+      "Thirteen projects tracked in the OpenClaw ecosystem",
+      "Maintainers face bandwidth pressure amid high backlog volume"
+    ],
+    "ai-trending": [
+      "DeepSeek-V4-Pro surges with 4813 likes and 3.2M downloads",
+      "Addy Osmani's agent-skills dominates with +1514 daily stars",
+      "NVIDIA debuts SkillSpector security auditing for AI agent skills",
+      "Apple leverages Swift on silicon for lightweight Linux containers",
+      "Ollama hits 174072 stars as local model runner standard",
+      "vllm serves 82776 stars as production inference engine"
+    ],
+    "ai-web": [
+      "Anthropic announces Claude Fable 5 and Mythos 5 models",
+      "US government orders suspension of Fable and Mythos access",
+      "Export control directive affects foreign nationals worldwide",
+      "Jailbreaking concern triggers national security response",
+      "Anthropic's safeguards trigger in under 5 percent of sessions",
+      "OpenAI publishes zero articles ceding news cycle to Anthropic"
+    ],
+    "ai-hn": [
+      "US government orders Anthropic to suspend Fable 5 access",
+      "Anthropic models restricted for foreign nationals worldwide",
+      "GLM 5.2 launches as open-weight counter-narrative to closed models",
+      "Fable 5 head-to-head with GPT-5.5 shows planning edge",
+      "Developer builds 80 mini-games before Fable was shut down",
+      "Andy Jassy lobbying reportedly triggered the government directive"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops Hugging Face with 4813 likes",
+      "Google Gemma 4 family claims seven trending entries",
+      "Ideogram 4 image model gains traction in fp8 and nf4",
+      "Proliferation of GGUF and QAT-quantized local variants",
+      "Gemma 4 12B it hits 1M downloads with multimodal architecture",
+      "Community quantizations driven by Unsloth contributors surge"
+    ],
+    "ai-community": [
+      "Claude Fable 5 pulled just three days after launch",
+      "Developers question model durability and vendor lock-in",
+      "Cheaper model cost 8.6 times more than expected",
+      "Testing MCP servers with real AI models matters in 2026",
+      "Agent context management and intentional forgetting explored",
+      "AI economics and resilient fallback pipelines gain urgency"
+    ]
+  }
+}
