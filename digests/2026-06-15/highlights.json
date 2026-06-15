@@ -1,0 +1,110 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenCode 发布 v1.17.7，社区讨论爆裂增长",
+      "Gemini CLI 通过 Dependabot 批量推送20+依赖升级",
+      "Claude Code 已发布 v2026.6.8-beta.1 版本",
+      "MCP 生命周期管理问题在5个工具中同时爆发",
+      "Qwen Code PR 活跃但 nightly 构建持续失败",
+      "agent 自治与 windows 体验成各工具共同短板"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.6.8-beta.1 强化消息投递",
+      "OpenClaw issues 与 pr 积压近千条消化困难",
+      "telegram 消息静默丢失问题引社区集中关注",
+      "多 provider 认证回归与 sqlite 存储问题待解",
+      "discord 会话状态与 gateway 启动挂起修复中",
+      "nanobot/hermes/picoclaw 等13个项目持续活跃"
+    ],
+    "ai-trending": [
+      "NVIDIA 发布 SkillSpector +964 star 聚焦 agent 安全",
+      "DeepSeek-V4-Pro 以307万下载量登顶单品热度",
+      "Google Gemma 4 系列全面霸榜热门模型榜",
+      "ECC agent 性能优化系统获215,506星",
+      "Andrew Ng 出品 aisuite 新上榜即获291星",
+      "信号显示2026年正从模型竞赛转向 agent 工程化"
+    ],
+    "ai-web": [
+      "OpenAI 上线 OpenAI Partner Network 合作伙伴体系",
+      "OpenAI 战略重心明确转向生态扩张与平台化",
+      "Anthropic 今日零新增内容处于静默蓄力期",
+      "两家节奏分化明显：对外链接 vs 向内深耕",
+      "OpenAI 将底层模型能力转化为企业服务网络",
+      "Anthropic 可能在大版本发布前深度打磨能力"
+    ],
+    "ai-hn": [
+      "美国政府对 Anthropic 实施出口管制成最大爆点",
+      "里约热内卢'国产 LLM'被扒实为模型合并闹剧",
+      "HN 社区两篇高评直指 Claude 模型质量退化",
+      "FTX 旧股权价值重估约750亿美元引热议",
+      "欧盟委员会紧急评估美国出口管制实际影响",
+      "社区弥漫监管收紧与行业走向的集体焦虑"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 登顶本周热度王 307万下载",
+      "Google Gemma 4 系列全面霸榜 Hugging Face",
+      "Ideogram 4 量化版双双上榜需求旺盛",
+      "消费级硬件运行大模型因 GGUF 量化成常态",
+      "小米 MiMo V2.5 FP4 量化版上榜显端侧趋势",
+      "合计数百万次下载彰显开源社区旺盛活力"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code leads AI CLI tools ecosystem",
+      "OpenAI Codex gains multi-model support",
+      "Gemini CLI focuses on reliability fixes",
+      "GitHub Copilot CLI ties to Azure",
+      "OpenCode emerges as provider-agnostic option",
+      "DeepSeek cuts API prices by 75%"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues and 500 PRs",
+      "v2026.6.8-beta.1 ships richer Telegram delivery",
+      "Session-state bugs dominate open issues",
+      "SQLite runtime migration underway",
+      "Message delivery reliability is top concern",
+      "Maintainer bandwidth visibly strained"
+    ],
+    "ai-trending": [
+      "NVIDIA SkillSpector trends at +964 stars",
+      "Andrew Ng's aisuite hits +291 stars",
+      "Kronos financial model gains +244 stars",
+      "Agent security becomes first-class concern",
+      "Multi-model interoperability demand surges",
+      "Domain-specific foundation models rising"
+    ],
+    "ai-web": [
+      "OpenAI launches Partner Network program",
+      "No new Anthropic content today",
+      "OpenAI formalizes go-to-market strategy",
+      "Partner ecosystem signals platform push",
+      "Metadata-only crawl limits analysis",
+      "Competitive AI landscape shifts"
+    ],
+    "ai-hn": [
+      "Rio's Nex-N2 LLM exposed as model merge",
+      "Claude personality degradation sparks outrage",
+      "US slaps export controls on Anthropic",
+      "HN debates government AI sovereignty claims",
+      "Anthropic chemistry research gets 86 pts",
+      "EU responds to US Anthropic restrictions"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads with 4832 likes",
+      "Gemma 4 family sees massive adoption",
+      "Ideogram 4 multimodal gains traction",
+      "Uncensored Qwen 3.6 hits 2.5M downloads",
+      "NVIDIA LocateAnything-3B tops likes",
+      "Open-weight LLM demand remains strong"
+    ],
+    "ai-community": [
+      "Dev.to: agent memory failures in production",
+      "Local-first AI movement gains momentum",
+      "Claude Code vs Codex workflow compared",
+      "Lobste.rs debates private inference economics",
+      "Anthropic Fable 5 models generate buzz",
+      "AI system design coach goes open-source"
+    ]
+  }
+}
