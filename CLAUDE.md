@@ -23,11 +23,10 @@ export GITHUB_TOKEN=ghp_xxxxx
 export DIGEST_REPO=owner/repo   # omit to skip GitHub issue creation
 
 # LLM provider (default: anthropic)
-export LLM_PROVIDER=anthropic   # anthropic | openai | github-copilot | openrouter
+export LLM_PROVIDER=anthropic   # anthropic | openai | github-copilot | openrouter | deepseek
 
 # Anthropic (default)
 export ANTHROPIC_API_KEY=sk-ant-xxxxx
-export ANTHROPIC_BASE_URL=https://api.kimi.com/coding/  # omit for Anthropic
 
 # OpenAI
 # export OPENAI_API_KEY=sk-xxxxx
@@ -36,6 +35,9 @@ export ANTHROPIC_BASE_URL=https://api.kimi.com/coding/  # omit for Anthropic
 
 # OpenRouter
 # export OPENROUTER_API_KEY=sk-or-xxxxx
+
+# DeepSeek
+# export DEEPSEEK_API_KEY=sk-xxxxx
 ```
 
 ## Architecture
@@ -67,6 +69,7 @@ The pipeline runs in four sequential phases, each implemented as a named async f
 | `src/providers/openai.ts` | `OpenAIProvider` — extends `OpenAICompatibleProvider` |
 | `src/providers/github-copilot.ts` | `GitHubCopilotProvider` — extends `OpenAICompatibleProvider` |
 | `src/providers/openrouter.ts` | `OpenRouterProvider` — extends `OpenAICompatibleProvider` |
+| `src/providers/deepseek.ts` | `DeepSeekProvider` — extends `OpenAICompatibleProvider` |
 | `src/providers/index.ts` | `createProvider` factory + barrel re-exports |
 | `src/web.ts` | Sitemap-based web content fetching; state persisted to `digests/web-state.json` |
 | `src/trending.ts` | GitHub Trending HTML scraper + Search API topic queries |
@@ -87,7 +90,7 @@ Files written to `digests/YYYY-MM-DD/`:
 
 ## Tracked sources
 
-- **CLI_REPOS** (6): claude-code, codex, gemini-cli, kimi-cli, opencode, qwen-code
+- **CLI_REPOS** (9): claude-code, codex, gemini-cli, copilot-cli, kimi-cli, opencode, pi, qwen-code, deepseek-tui
 - **OPENCLAW** + **OPENCLAW_PEERS** (13): openclaw/openclaw + 12 peer projects (sorted by stars)
 - **CLAUDE_SKILLS_REPO**: anthropics/skills — no date filter, sorted by popularity
 - **Web**: anthropic.com + openai.com via sitemap, state in `digests/web-state.json`
@@ -101,7 +104,7 @@ Files written to `digests/YYYY-MM-DD/`:
 - `callLlm(prompt, maxTokens?)` defaults to 4096 tokens. Web report uses 8192, trending uses 6144. HN report uses the default 4096.
 - On 429 rate-limit errors `callLlm` retries up to 3 times with exponential backoff (5 s / 10 s / 20 s); the concurrency slot is released during the wait.
 - The concurrency limiter (`LLM_CONCURRENCY = 5`) prevents 429s when many parallel LLM calls fire. Do not bypass it by calling SDK clients directly.
-- LLM provider is selected via `LLM_PROVIDER` env var (default: `anthropic`). Valid values: `anthropic`, `openai`, `github-copilot`, `openrouter`.
+- LLM provider is selected via `LLM_PROVIDER` env var (default: `anthropic`). Valid values: `anthropic`, `openai`, `github-copilot`, `openrouter`, `deepseek`.
 - Provider implementations live in `src/providers/`. Each file implements the `LlmProvider` interface. The factory in `src/providers/index.ts` validates the provider name and logs only the provider name — never API keys or endpoint URLs.
 - GitHub issue label colors are defined in `LABEL_COLORS` in `src/github.ts`. Add new labels there.
 - `sampleNote(total, sampled)` in `src/prompts.ts` formats the "(共 N 条，展示前 M 条)" note. Reuse it — do not inline the same string format.
