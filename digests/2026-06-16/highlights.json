@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.178 发布，修复 ENOSPC 集群 bug",
+      "OpenAI Codex rust-v0.140.0 上线，WebSocket 重连优化",
+      "Gemini CLI 修复 MCP OAuth 刷新路径问题",
+      "GitHub Copilot CLI v1.0.63 发布，修复子代理 MCP 工具丢失",
+      "Qwen Code v0.18.1 及 Desktop v0.0.4 双版本发布",
+      "MCP 生态标准化成为九工具横向竞争新战场"
+    ],
+    "ai-agents": [
+      "OpenClaw 日更 500 Issues + 500 PR，积压严重合并率仅 13%",
+      "Telegram Bot API 10.1 富文本消息转发 bug 已修复",
+      "Amazon Bedrock embedding 适配器模型 ID 前缀问题修复",
+      "用户行为覆盖在每日会话静默重置的 bug 待解决",
+      "OpenClaw 内存泄漏、竞态条件等多个 P0/P1 问题未关闭",
+      "社区审查带宽不足，关闭率仅约 11%"
+    ],
+    "ai-trending": [
+      "NVIDIA 开源首个 AI Agent 安全扫描器 SkillSpector，日增 1079 star",
+      "Agent-Reach 日增 1100 star，赋予 Agent 全网感知能力",
+      "DeepSeek V4-Pro 上线即获近 300 万次下载",
+      "Google Gemma-4 系列密集占据热榜近三分之一席位",
+      "巴西市政府发布 397B 参数开源多模态模型 Rio-3.5",
+      "本地推理标杆 Ollama 星标突破 17.4 万"
+    ],
+    "ai-web": [
+      "Anthropic 发现 Claude 内部存在类情绪表征，结构类似人脑",
+      "Anthropic 让 Claude 解读 NMR 谱图，AI for Science 落地",
+      "Anthropic 可解释性优先路线获新实证支撑",
+      "Anthropic 安全可解释性与垂直科学应用双线并进",
+      "OpenAI 今日无新增内容，Anthropic 发布节奏领先",
+      "情绪表征组织方式越相似的情绪内部表示越接近"
+    ],
+    "ai-hn": [
+      "Anthropic 关闭 Fable 与 Mythos 模型，特朗普行政指令直接干预",
+      "Anthropic 紧急暂停 Agent SDK 信用计费变更",
+      "OpenAI 与 Anthropic 价格战进入公众视野",
+      "machine0 获 73 分，CLI 管理持久化 NixOS VM 受关注",
+      "Claude Code 原生集成 VS Code diff 工作流",
+      "arXiv 论文指出人们系统性低估 AI 使用增速"
+    ],
+    "ai-hf": [
+      "DeepSeek V4-Pro 以 4862 赞登顶，近 300 万次下载",
+      "Google Gemma-4 系列占榜单近三分之一席位",
+      "Qwen3.6-35B 无审查版获 270 万下载量位居榜首",
+      "Unsloth 持续为热门模型提供 GGUF 量化版本",
+      "巴西市政府发布 397B 参数开源多模态模型",
+      "Moonshot Kimi-K2.7-Code 获 741 赞，面向开发者场景"
+    ],
+    "ai-community": [
+      "LLM 调用成本从 0.011 美元压到 0.0009 美元实战分享",
+      "Anthropic 政府停服后切换备用模型的踩坑实录",
+      "Gemma 4 微调实战：古韩语垂直领域翻译",
+      "Chrome 扩展强制意图审查让 AI 使用更克制",
+      "Gemini 账单与实际路由不符的对账指南",
+      "幻觉重新定义为非确定性错配，架构层面解决"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.178 released today",
+      "Gemini CLI gains multi-provider resilience",
+      "Kimi Code CLI emerges as regional alternative",
+      "9 AI CLI tools tracked in ecosystem digest",
+      "Qwen Code adds subagent orchestration",
+      "OpenAI Codex leads in community scale"
+    ],
+    "ai-agents": [
+      "OpenClaw reports 500 open issues and PRs",
+      "Agent-Reach hits 1K stars for free agent web access",
+      "NVIDIA SkillSpector flagged as top security tool",
+      "Persistent memory and RAG dominate agent architecture",
+      "trycua/cua enables full desktop Computer-Use Agents",
+      "OpenClaw backlog signals maintainer bandwidth limits"
+    ],
+    "ai-trending": [
+      "Agent-Reach adds eyes across internet for agents",
+      "NVIDIA SkillSpector secures AI agent skills",
+      "Kronos debuts as financial foundation model",
+      "Ollama stars hit 174K supporting DeepSeek Qwen",
+      "Claude-mem and mem0 lead persistent memory tools",
+      "Computer-Use Agents gain traction via trycua/cua"
+    ],
+    "ai-web": [
+      "Anthropic publishes emotion concept interpretability study",
+      "Claude learns to interpret NMR spectra for chemistry",
+      "Anthropic dual-tracks safety and science utility",
+      "OpenAI publishes zero new articles today",
+      "Claude Sonnet 4.5 reveals emotion-like internals",
+      "Two new Anthropic research papers drop June 15"
+    ],
+    "ai-hn": [
+      "Anthropic models Fable and Mythos go dark",
+      "Stratechery: Anthropic safety moat under threat",
+      "Government shutdown of Anthropic models debated",
+      "CLI-driven NixOS VM management gains traction",
+      "AI pricing pressure and sustainability concerns rise",
+      "Reasoning-trace analysis behind Fable 5 revealed"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads with 4.8K likes today",
+      "Gemma 4 family dominates multiple trending spots",
+      "Qwen 3.6 uncensored variants hit 2.6M downloads",
+      "Ideogram 4 draws attention for vision tasks",
+      "GGUF edge-deployable formats surge in volume",
+      "Google Gemma 4 12B offers any-to-any multimodal"
+    ],
+    "ai-community": [
+      "Fable 5 blackout exposes vendor lock-in risks",
+      "Agent memory architecture hard-won lessons shared",
+      "AI hallucinations stem from architecture not models",
+      "Chrome extension adds friction to AI consumption",
+      "MCP server best practices gaining community traction",
+      "Siri private inference concerns resurface in dev circles"
+    ]
+  }
+}
