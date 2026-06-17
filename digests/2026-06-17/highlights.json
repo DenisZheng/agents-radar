@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Gemini CLI 今日最活跃：50 条 Issue + 28 条 PR 领跑全场",
+      "OpenCode、Pi、Qwen Code PR 合入率最高，开发管线效率最优",
+      "Claude Code 发布 v2.1.179，集中修复 18 个 PR",
+      "OpenAI Codex 连发 4 个 alpha 版本，社区贡献极高",
+      "Kimi Code CLI 活跃度最低，仅 4 条 Issue，仍处早期",
+      "Token 资源消耗不透明成跨产品共同痛点，影响用户信任"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日 Issues 和 PR 各更新 500 条，活跃度爆表",
+      "OpenClaw 发布 v2026.6.8，Telegram 消息渲染大幅增强",
+      "OpenClaw 的 WhatsApp ACP 绑定此前静默忽略，升级后生效",
+      "OpenClaw 待合并 PR 与活跃 Issue 持平，review 管线承压",
+      "OpenClaw session 稳定性与消息投递可靠性成社区最关切方向",
+      "OpenClaw 新增 PR review 自动修复流水线及 Windows 守护进程"
+    ],
+    "ai-trending": [
+      "AI Agent 生态全面爆发，hermes-agent 达 195K stars、claude-mem 82K stars",
+      "阿里开源轻量级向量数据库 zvec 同时登上 Trending 和主题搜索榜",
+      "RAG 与向量数据库持续高热，anything-llm、mem0、ragflow 霸榜",
+      "DeepSeek-V4-Pro 以 5% 成本接近 Claude 级别性能引关注",
+      "垂直 AI 加速落地：股票分析、金融交易、PPT 生成全面渗透",
+      "vllm 推理引擎 83K stars，成生产环境部署大模型首选"
+    ],
+    "ai-web": [
+      "Anthropic 发布 40 万条 Claude Code 会话实证研究，数据空前",
+      "非软件工程师用 Claude 编码成功率与工程师几乎持平",
+      "Anthropic 与 TCS 合作，5 万名员工将部署 Claude",
+      "Claude Code 任务经济价值七个月内平均提升约 25%",
+      "Anthropic 更新 AI 安全核心观点，重申安全紧迫性",
+      "OpenAI 今日仅一条元数据更新，信息量极为有限"
+    ],
+    "ai-hn": [
+      "Claude 大规模故障引发 HN 高强度讨论，用户焦虑蔓延",
+      "OpenAI 财务泄露曝光，社区对大厂烧钱模式提出质疑",
+      "DeepSeek V4 Pro 以 5% 成本接近 Claude 性能，28 分关注",
+      "智谱 GLM-5.2 发布，强调开放权重和长程任务能力",
+      "吴恩达发布 Open CoWorker 桌面 AI Agent 工具",
+      "白宫与 Anthropic 政治角力持续，模型禁令成暗线"
+    ],
+    "ai-arxiv": [
+      "价值轴研究证明 LLM 内部编码了策略成功概率信号",
+      "ExpRL 提出 mid-training 注入推理原语，解决稀疏奖励难题",
+      "ContextRL 让 Agent 在长上下文中精准定位关键证据",
+      "DEEPRUBRIC 用证据树驱动 Rubric 监督深度研究 Agent",
+      "Scalable Circuit Learning 推动 LLM 可解释性从定性走向定量",
+      "TuneJury 发布音乐生成偏好对齐开放评估基准"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 本周榜王，4896 赞、283 万下载热度空前",
+      "Qwen3.6-35B-A3B 下载量突破 336 万次，MoE 架构旗舰",
+      "Google Gemma 4 系列持续霸榜，社区量化版本大量衍生",
+      "智谱 GLM-5.2 刚上线即引发关注，尚未开放下载",
+      "Ideogram 4 图像生成和 Higgs Audio V3 语音合成快速崛起",
+      "微软发布 4B 长上下文微调模型 FastContext，专为 SubAgent 设计"
+    ],
+    "ai-community": [
+      "AI 检测器误判真实案例：人类文章被标为 AI 生成引热议",
+      "347 篇帖子被 AI 误标低质量，内容审核偏差数据曝光",
+      "一个零成本 bug 23 天内烧掉 $1800 API 费用，成本监控警钟",
+      "30 天不用 AI 编程实验揭示认知能力真实变化",
+      "Fable 5 下架事件证明上下文层必须独立于模型本身",
+      "Token 使用量正在成为新的代码行数衡量标准"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code leads 9-tool CLI ecosystem",
+      "OAuth auth becoming table stakes",
+      "MCP std drives plugin interoperability",
+      "Session lifecycle management is key battle",
+      "Token cost predictability now a top concern",
+      "Multi-agent orchestration reliability focus"
+    ],
+    "ai-agents": [
+      "OpenClaw ships v2026.6.8 stable + beta",
+      "500 issues and 500 PRs updated today",
+      "Telegram gains rich formatting in OpenClaw",
+      "WhatsApp now honors ACP bindings",
+      "Backoff strategies fix rate-limit issues",
+      "Session-state reliability is top priority"
+    ],
+    "ai-trending": [
+      "OpenBMB VoxCPM trends: tokenizer-free TTS",
+      "hermes-agent hits 195K stars on GitHub",
+      "learn-claude-code reaches 67K stars",
+      "Alibaba zvec: ultra-lightweight vector DB",
+      "Ollama tops 174K stars locally",
+      "Browser-use hits 99K stars"
+    ],
+    "ai-web": [
+      "Anthropic studies 400K Claude Code sessions",
+      "TCS enterprise partnership with Anthropic",
+      "OpenAI deployment simulation published",
+      "Debugging sessions fell nearly 50%",
+      "Claude Code users shifting to agentic work",
+      "Anthropic refreshes safety posture doc"
+    ],
+    "ai-hn": [
+      "OpenAI lost $21B against $13B revenue",
+      "Anthropic government ban drama escalates",
+      "DeepSeek V4 Pro at 5% cost of Claude",
+      "GLM-5.2 open weights gain 18 HN points",
+      "Claude outage resolved after government ban",
+      "Frontier AI business model debates reignite"
+    ],
+    "ai-arxiv": [
+      "RL becomes key for LLMs agents robotics",
+      "Value axis tracks LLM internal confidence",
+      "ExpRL boosts reasoning via mid-training",
+      "KV cache management gains new methods",
+      "Differential privacy robustness challenged",
+      "Synthetic data auditing gets causal frame"
+    ],
+    "ai-hf": [
+      "DeepSeek V4 Pro leads with 4896 likes",
+      "Qwen3.6 35B MoE hits 3.36M downloads",
+      "Google Gemma 4 family pushes multimodal",
+      "Unsloth drops five GGUF model releases",
+      "NVIDIA Nemotron streaming ASR trends",
+      "Ideogram 4 joins image generation trending"
+    ],
+    "ai-community": [
+      "AI detectors still flagging false positives",
+      "BrowserAct beats Playwright on anti-bot",
+      "Single AI provider lock-in risks surge",
+      "Let AI interrogate user not vice versa",
+      "Vibe coding reshapes the SDLC fast",
+      "Agentic engineering workflows go mainstream"
+    ]
+  }
+}
