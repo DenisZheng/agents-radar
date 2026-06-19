@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code日活Issue达50条仍无新版本",
+      "OpenAI Codex发布rust-v0.141.0",
+      "Gemini CLI更新v0.47.0版本",
+      "全行业回归bug频发消耗社区信任",
+      "MCP生态可靠性成所有工具共性短板",
+      "Copilot CLI与Kimi Code活跃度持续偏低"
+    ],
+    "ai-agents": [
+      "OpenClaw积压463个待合并PR面临审查瓶颈",
+      "OpenClaw净积压持续扩大475条活跃Issue",
+      "kill-process-tree修复防网关误杀安全PR待合并",
+      "compaction旋转丢消息多修复PR集中涌现",
+      "新增snapshot快照插件接口支持create/restore",
+      "OpenClaw处于高活跃高积压状态"
+    ],
+    "ai-trending": [
+      "Codebase Memory MCP日增2322星全榜最高",
+      "Superpowers日增1429星Agent技能框架",
+      "Kilo Code日增1345星全栈Agent编码平台",
+      "阿里开源zvec轻量向量数据库C++实现",
+      "Google TimesFM时间序列基础模型",
+      "browser-use达99489星Web自动化中间件"
+    ],
+    "ai-web": [
+      "Anthropic同日三篇连发三条战线同步推进",
+      "Claude Opus 4.7机器人任务速度达人类20倍",
+      "Anthropic首尔设点与韩国科技部签MOU",
+      "BioMysteryBench成生物信息学评估新前沿",
+      "Project Fetch二期展示模型能力跨越式进步",
+      "OpenAI低调更新指向ChatGPT健康与企业支出"
+    ],
+    "ai-hn": [
+      "Anthropic监管风波笼罩SK电信出口管制",
+      "Mythos和Fable 5模型被特朗普政府叫停",
+      "Noam Shazeer跳槽OpenAI人才争夺战升级",
+      "AreYouInTheWeights全站158分最高隐私工具",
+      "Claude Code支持Artifacts可交互代码预览",
+      "零点击CI/CD蠕虫防御话题引发安全讨论"
+    ],
+    "ai-arxiv": [
+      "Diffusion推理模型挑战自回归范式DreamReasoner-8B",
+      "GRPO训练策略熵崩溃系统性修复STARE论文",
+      "扩散模型进入形式化数学定理证明领域",
+      "多智能体从分工执行走向博弈决策虚拟博弈",
+      "MAST精准遗忘RLVR诱导的推理能力",
+      "医疗AI从算法优化转向临床工作流整合"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro近300万下载量稳坐周榜首",
+      "NVIDIA LocateAnything-3B获2163赞成视觉黑马",
+      "Google DiffusionGemma下载量超52万次",
+      "Gemma 4家族持续霸榜多个量化版本",
+      "WeiboAI VibeThinker-3B小模型表现亮眼",
+      "GGUF量化生态空前活跃端侧部署需求旺盛"
+    ],
+    "ai-community": [
+      "AI Agent可靠性问题迫使团队重新思考",
+      "零点击CI/CD蠕虫9步防御方案受关注",
+      "AI生成Bash脚本安全加固检查清单",
+      "全栈通才回归与AI工具选型引发大争论",
+      "Agent防篡改审计日志工具开源",
+      "人机协作解谜游戏帖子互动量最高"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenAI Codex ships rust-v0.141.0 with 3 alpha builds",
+      "Claude Code holds at v2.1.181 with no new release today",
+      "DeepSeek TUI rebrands to CodeWhale amid market shifts",
+      "9 AI CLI tools tracked in active mid-2026 ecosystem",
+      "MCP integration and sub-agent delegation now table stakes",
+      "Windows remains the most problematic platform ecosystem-wide"
+    ],
+    "ai-agents": [
+      "OpenClaw logs 500 issues and 500 PRs in 24 hours",
+      "OpenClaw v2026.5.12 source of multiple P1 regressions",
+      "Telegram Discord Slack message delivery reliability focus",
+      "13 agent projects tracked across the OpenClaw ecosystem",
+      "Session-state correctness and compaction bugs persist",
+      "Auth and provider regressions from May still unresolved"
+    ],
+    "ai-trending": [
+      "codebase-memory-mcp hits +2322 stars today on GitHub",
+      "Kilo-Org/kilocode surges +1345 stars as agent platform",
+      "obra/superpowers gains +1429 stars for skill-based agents",
+      "Google Research TimesFM adds +844 stars for time-series",
+      "Alibaba zvec +259 stars for in-process vector database",
+      "Agent tooling dominates GitHub trending across categories"
+    ],
+    "ai-web": [
+      "Anthropic opens Seoul office with Korea safety MOU",
+      "Claude Opus 4.7 completes robot tasks 20x faster than humans",
+      "BioMysteryBench benchmarks Claude for bioinformatics research",
+      "OpenAI publishes health intelligence and spend management posts",
+      "Anthropic releases three major research and expansion articles",
+      "Project Fetch Phase Two signals rapid embodied AI progress"
+    ],
+    "ai-hn": [
+      "Anthropic US government standoff dominates HN discussions",
+      "Are You in the Weights tool tops HN by wide margin",
+      "Noam Shazeer leaves Google Gemini for OpenAI",
+      "JPMorgan restricts Anthropic access for Hong Kong staff",
+      "Claude Code artifacts support draws developer interest",
+      "VibeThinker-3B reignites small model benchmark debates"
+    ],
+    "ai-arxiv": [
+      "Rubric-conditioned self-distillation cuts annotation costs",
+      "Block-diffusion models enable non-autoregressive reasoning",
+      "DreamReasoner-8B scales via block-size curriculum learning",
+      "Evaluation credibility and AI text detection gain focus",
+      "Agentic systems advance in enterprise and UAV validation",
+      "Domain adaptation in medicine law climate research grows"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads with 4956 likes on HuggingFace",
+      "Qwen3.6 uncensored remix hits 3.4M downloads",
+      "Gemma 4 family dominates trending with massive downloads",
+      "NVIDIA LocateAnything-3B surprise hit for vision tasks",
+      "Unsloth community ships GGUF quantizations within hours",
+      "GLM-5.2 MoE-DSA enters trending with strong reception"
+    ],
+    "ai-community": [
+      "Spreadsheet beats 97% AI solution in real RFP win",
+      "Agent reliability and security top Dev.to discussions",
+      "gzip as language model sparks Lobste.rs debate",
+      "Apple Siri private inference privacy concerns surface",
+      "Antigravity SDK agentic PR reviewer draws interest",
+      "Tower Before Dusk game jam entry for humans and AI"
+    ]
+  }
+}
