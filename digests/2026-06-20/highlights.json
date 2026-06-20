@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.183发布，聚焦auto模式安全加固与子代理递归修复",
+      "OpenAI Codex连发三个alpha版本，Windows稳定性危机与MCP OAuth成焦点",
+      "Gemini CLI修复Auto Memory安全漏洞，子Agent挂起问题集中爆发",
+      "GitHub Copilot CLI v1.0.64推出实验性/worktree功能，Windows连接仍不稳定",
+      "DeepSeek TUI以24条PR强势冲刺，v0.9.0架构重构进行中",
+      "所有工具共性短板：Windows兼容性差与子Agent可靠性问题全面爆发"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.9-beta.1发布，Telegram富文本投递大幅增强",
+      "OpenClaw过去24小时更新500条Issues和500条PR，社区极活跃",
+      "SQLite会话稳定性问题成社区最热门讨论焦点，内存泄漏严重",
+      "NanoBot、Hermes Agent等13个子项目同步推进，生态扩张迅速",
+      "Matrix渠道集成加速，MiniMax推理标签识别已合并",
+      "大量PR积压待审，维护者审查带宽明显不足，合并节奏偏慢"
+    ],
+    "ai-trending": [
+      "headroom今日暴涨4005星，LLM token压缩60-95%，直击Agent成本痛点",
+      "DeusData/codebase-memory-mcp获1058星，代码库索引知识图谱减99% token",
+      "LTX-2音视频生成模型登榜，多模态生成热度持续攀升",
+      "BuilderIO agent-native框架上榜，Agent原生应用成新趋势",
+      "Google TimesFM时序基础模型获大量关注，RAG方向仍占最大份额",
+      "GLM-5大模型、沙箱Agent框架flue同日登榜，Agent基础设施全面爆发"
+    ],
+    "ai-hn": [
+      "诺贝尔奖得主John Jumper加入Anthropic，科学AI战略布局加速",
+      "Amazon叫停Sam Altman传记片，商业利益干预AI内容生产引热议",
+      "Anthropic暂停Claude Agent SDK按token计费，Agent开发门槛降低",
+      "GPT-5.5幻觉率是开源GLM-5.2的三倍，社区质疑大模型可靠性",
+      "MiniMax M3与GLM-5.2编码对比，模型选型多元化趋势显现",
+      "White House与Anthropic就AI安全规则展开谈判，地缘治理升温"
+    ],
+    "ai-arxiv": [
+      "LedgerAgent提出结构化状态管理，客服Agent策略遵循能力突破",
+      "Contagion Networks形式化建模Agent评估偏差传播，理论框架首创",
+      "DiffusionGemma可解释性系统分析，扩散语言模型透明度首获检验",
+      "细粒度合规示范影响安全对齐机制，RLHF数据设计获新指导",
+      "KV Cache 4-bit压缩新进展，物理AI低延迟服务架构提出",
+      "眼动与鼠标隐式反馈用于LLM对齐，偏好学习开辟新数据来源"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro以4969点赞300万+下载霸榜，全球开源LLM首选",
+      "NVIDIA LocateAnything-3B以2195点赞成黑马，视觉定位成新热点",
+      "Google Gemma 4家族量化版下载破百万，本地部署需求旺盛",
+      "GLM-5.2 MoE+DSA架构受捧，智谱AI对标顶级闭源模型",
+      "Qwen 3.6微调与量化变体大量涌现，MoE成绝对主流",
+      "微软FastContext-4B探索小模型长上下文，1.4k下载受关注"
+    ],
+    "ai-community": [
+      "MCP生态进入规模化落地，开发者从尝鲜转向生产级产品实践",
+      "Agent幻觉与可控性成焦点：AI修bug反致一周返工教训真实分享",
+      "AI摘要需证据绑定：解决把摘要当产品的常见误区",
+      "Prompt Caching、LLM Gateway、PII防火墙等AI基建受重视",
+      "社区叙事已转向AI在哪里会搞砸及系统性兜底",
+      "Kiro与Claude精确执行仍失败，人类审查与意图对齐不可替代"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.183 released today",
+      "OpenAI Codex leads in community volume",
+      "Nine AI CLI tools tracked in ecosystem",
+      "MCP integration is converging across tools",
+      "Subagent architectures are a key battleground",
+      "Skills/plugin systems differentiate each tool"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.9-beta.1 ships today",
+      "OpenClaw has 500 open issues and 500 PRs",
+      "Telegram delivery gets rich HTML support",
+      "13 agent projects tracked in ecosystem",
+      "NanoBot and Hermes Agent among top projects",
+      "Stabilization phase after v2026.6.x rollout"
+    ],
+    "ai-trending": [
+      "headroom hits +4058 stars for token reduction",
+      "obra/superpowers gains +1110 stars today",
+      "codebase-memory-mcp adds +1058 stars",
+      "GLM-5 brands shift to agentic engineering",
+      "timesfm brings foundation models to time-series",
+      "Agentic infrastructure is the clear trend"
+    ],
+    "ai-hn": [
+      "John Jumper joins Anthropic from AlphaFold",
+      "Amazon drops Sam Altman biopic post-OpenAI deal",
+      "GPT-5.5 hallucinates 3x more than GLM-5.2",
+      "Anthropic pauses token billing for Agent SDK",
+      "MiniMax M3 vs GLM-5.2 coding benchmark drops",
+      "Open-source models closing gap on proprietary ones"
+    ],
+    "ai-arxiv": [
+      "Agent safety and robustness dominate today's papers",
+      "4-bit KV-cache compression for context-heavy agents",
+      "Fine-tuned LLMs can fake security reasoning",
+      "Neurosymbolic reasoning gains traction for PDEs",
+      "DiffusionGemma transparency under investigation",
+      "Calibration under distribution shift remains urgent"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads with 4969 likes",
+      "Gemma 4 family makes major splash on HF",
+      "Qwen 3.6 uncensored variants rack up downloads",
+      "NVIDIA LocateAnything-3B is most-liked today",
+      "GLM-5.2 draws strong early community interest",
+      "GGUF quantization activity shows local deployment drive"
+    ],
+    "ai-community": [
+      "API slop captures AI code quality frustration",
+      "PII leaking through LLM prompts raises alarms",
+      "MCP marches toward industrial standardization",
+      "AI speeds coding but not engineering judgment",
+      "Evidence-bound AI summaries gain developer traction",
+      "Guardrails crumble under non-English attacks"
+    ]
+  }
+}
