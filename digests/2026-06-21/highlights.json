@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.185 发布，修复子代理无限递归50+层问题",
+      "OpenCode v1.17.9 沙箱隔离讨论达77条评论，安全成焦点",
+      "OpenAI Codex 计费异常获67赞，GPT-5.5费用透明度受质疑",
+      "Gemini CLI 曝CRITICAL级CVE漏洞，Agent挂起问题待解",
+      "Qwen Code v0.18.4 发布，URL大小写敏感Bug被系统性修复",
+      "Pi v0.79.9 重构TUI流式渲染，34个Issue集中爆发"
+    ],
+    "ai-agents": [
+      "OpenClaw 单日500条Issue更新，会话状态管理成核心难题",
+      "OpenClaw 子代理模型路由Bug修复PR待合并，静默回退deepseek",
+      "OpenClaw Telegram事件无限阻塞导致会话死锁，P1级修复中",
+      "OpenClaw 多消息块流式传输重复投递问题获P1评级",
+      "OpenClaw 本地模型工具调用JSON空格导致cron失败，已提交修复",
+      "OpenClaw doctor误报memory embeddings未就绪，PR待合并"
+    ],
+    "ai-trending": [
+      "headroom今日+3795星全榜最高，实现60-95% token压缩",
+      "skills项目+1395星，定义Agent技能系统工程化标准",
+      "codebase-memory-mcp +1271星，支持158语言亚毫秒代码查询",
+      "Google TimesFM时间序列基础模型登榜，非文本领域扩张",
+      "flue +316星，Astro团队推出沙箱Agent安全框架",
+      "OpenMontage视频制作Agent化，垂直场景加速落地"
+    ],
+    "ai-hn": [
+      "Anthropic John Jumper跳槽事件引爆HN社区讨论",
+      "AutoJack单页面RCE漏洞曝光，AI安全信任危机升温",
+      "Argus红队渗透测试模型获69分，安全对齐边界引热议",
+      "开源GLM与Claude Opus正面比较，开源追平闭源成焦点",
+      "Elon Musk预测中国2027年Q1前拥Fable 5级模型",
+      "Claude Code全盘扫描争议持续，隐私与权限博弈发酵"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro近5000赞280万下载，中国开源模型全球登顶",
+      "Qwen 3.6系列衍生超10个量化版本，总下载量近400万次",
+      "Google密集发布Gemma 4家族，覆盖12B至26B多模态赛道",
+      "NVIDIA LocateAnything-3B图像定位模型评论点赞量全网第一",
+      "NVIDIA nemotron-ASR语音流式识别模型上榜",
+      "微博智谱、MiniMax、Moonshot多个中文团队模型上榜"
+    ],
+    "ai-community": [
+      "Agent慢漂移检测方案出炉，长时间运行可观测性成焦点",
+      "LLM网关路由三大核心能力拆解，生产级架构师必读",
+      "AI记忆应作为产品状态层而非Prompt技巧，观点新颖",
+      "RAG声明验证层实测捕获幻觉，受Karpathy启发",
+      "多Agent编排完整工程实践，从单Agent到团队协作",
+      "PagedAttention与KV Cache机制深度解析，基础设施优化走热"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.185 patch released today",
+      "Nine AI CLI tools tracked in ecosystem digest",
+      "Context-window pressure a universal concern",
+      "MCP-based extensibility now standard across tools",
+      "Streaming agentic loops define 2026 CLI architecture",
+      "Stabilization sprint: patching regressions, hardening sandboxing"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and 500 PRs in 24 hours",
+      "SQLite migration fallout dominates OpenClaw discussions",
+      "Session-state stabilization is the primary focus",
+      "No new OpenClaw release; fixes accumulating",
+      "Triage bandwidth a critical bottleneck for OpenClaw",
+      "13 agent projects tracked in ecosystem digest"
+    ],
+    "ai-trending": [
+      "headroom hits +3,795 stars for token compression",
+      "MCP ecosystem tooling exploding with new repos",
+      "Agentic video production emerges as new vertical",
+      "85 AI-relevant projects analyzed today",
+      "Persistent code intelligence becomes first-class infra",
+      "Community moving up stack to production-ready agents"
+    ],
+    "ai-hn": [
+      "John Jumper leaves DeepMind for Anthropic",
+      "Trump de-escalates Anthropic national security threat",
+      "Claude Code disk-scanning behavior under scrutiny",
+      "Single-page RCE attack on AI agents revealed",
+      "Open-source momentum with GLM vs Opus comparisons",
+      "Anthropic releases Project Fetch Phase Two research"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads with 4,985 likes, 2.8M downloads",
+      "Gemma 4 variants hit 1.7M+ downloads collectively",
+      "Qwen 3.6 most fragmented fine-tuned model family",
+      "NVIDIA LocateAnything-3B dark horse with 2,216 likes",
+      "DiffusionGemma-26B draws attention in multimodal space",
+      "GLM-5.2 MoE model positions as open-weight contender"
+    ],
+    "ai-community": [
+      "AI agent memory and observability take center stage",
+      "LLM gateways with semantic caching gain traction",
+      "Multi-agent orchestration patterns under active discussion",
+      "AI-powered scams already here, warns Lobste.rs",
+      "Apple's private inference isn't truly private",
+      "Verification layers to catch RAG hallucinations"
+    ]
+  }
+}
