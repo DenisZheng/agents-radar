@@ -55,6 +55,16 @@
       "Bifrost Edge 为 MCP 服务器提供企业级可见性与控制",
       "连接 MCP 服务器给 Agent 能力的同时也扩大了攻击面",
       "AI 编码助手重复生成的 15 种 Bug 及扫描检测工具"
+    ],
+    "ai-weekly": [
+      "Anthropic强制身份验证引发社区反弹，隐私与开源张力成焦点",
+      "OpenAI年亏损385亿美元文件泄露，商业模式可持续性遭质疑",
+      "Anthropic与白宫博弈升级，Fable/Mythos模型被行政令叫停",
+      "AlphaFold诺奖得主Jumper加入Anthropic，蛋白质折叠方法引猜想",
+      "Transformer核心作者Shazeer从Google跳槽OpenAI",
+      "Claude Code支持Artifacts及VS Code原生集成，对标Cursor",
+      "headroom日增4005霸榜GitHub Trending，60-95% token压缩率直击Agent成本痛点",
+      "NVIDIA开源首个AI Agent安全扫描器SkillSpector"
     ]
   },
   "en": {
@@ -113,6 +123,20 @@
       "Anthropic enters low-output release cycle period",
       "OpenAI Samsung signal is key enterprise indicator",
       "Both tech giants contrast sharply in release strategies"
+    ],
+    "ai-weekly": [
+      "Trump orders Anthropic to shut down Fable and Mythos",
+      "OpenAI leaks reveal annual losses of 21–38.5B",
+      "OpenClaw releases three versions in single week",
+      "codebase-memory-mcp gains 2322 stars trending",
+      "headroom soars with 4005 stars on GitHub",
+      "Noam Shazeer departs Google for OpenAI",
+      "Anthropic publishes 19 red-team articles in one day",
+      "Claude agent SDK pauses token billing",
+      "skills project gains 1443 stars trending",
+      "OpenClaw v2026.6.10-beta.1 ships agent state fixes",
+      "Anthropic employees call shutdown retaliation",
+      "Superpowers earns 1429 stars trending"
     ]
   }
 }
