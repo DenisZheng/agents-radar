@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex 今日 PR 更新 39 条，工程迭代速度最快",
+      "Qwen Code 发布 v0.18.5 新版本，46 条 PR 同步更新",
+      "全行业聚焦上下文压缩，七大工具共同攻坚 compaction",
+      "Claude Code 社区 Issue 讨论量达 50 条，反馈最活跃",
+      "Kimi Code CLI 今日零活动，Copilot CLI 仅 9 条 Issue",
+      "上下文管理、多模型兼容、安全沙箱成三大共性方向"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日连发两版：v2026.6.9 正式版和 v2026.6.10-beta.1",
+      "OpenClaw PR 积压高达 479 条，维护者审查压力显著",
+      "v2026.6.9 静默迁移 memory vector store，用户被迫全量 re-embed",
+      "v2026.6.10-beta.1 修复子 agent 完成通知丢失等五大问题",
+      "OpenClaw 今日 Issues 更新 500 条，活跃度极高",
+      "Telegram 富文本投递增强支持 HTML 和 Markdown 渲染"
+    ],
+    "ai-trending": [
+      "headroom 今日 Trending 第一，LLM 上下文压缩减少 60-95% token",
+      "codebase-memory-mcp 代码库索引毫秒级，token 消耗降低 99%",
+      "字节跳动 deer-flow SuperAgent 框架持续获社区关注",
+      "视频生成 AI 化成热点，两个视频项目同时登榜",
+      "Agent 工具链快速成形：记忆层、技能标准化、代码索引并行推进",
+      "ollama 本地推理工具持续高热，支持 Kimi-K2.6 等主流模型"
+    ],
+    "ai-web": [
+      "OpenAI 宣布 ChatGPT Codex 向三星电子企业级部署落地",
+      "Anthropic 今日官网无增量更新，处于静默期",
+      "AI 编程工具从个人开发者向大型制造企业渗透",
+      "OpenAI 仅元数据模式，合作深度和技术细节待披露",
+      "Anthropic 近期重点在 Claude 系列模型迭代和企业 API 生态",
+      "三星电子部署 Codex 标志 AI 编程工具企业级落地新阶段"
+    ],
+    "ai-hn": [
+      "Anthropic 身份验证政策引发最大争议，541 分社区强烈反对",
+      "瑞士 Apertus 开源基础模型主打主权 AI，获 156 分关注",
+      "Recall 为 Claude Code 提供完全本地项目记忆系统",
+      "DeepMind 发布 AI Agent 安全架构博文，讨论权限边界",
+      "Vibe Coding 被重新定义为协作轴而非能力等级",
+      "开源模型主权化趋势升温，社区对封闭化动作保持警惕"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 以 4999 赞稳坐 Hugging Face 榜首",
+      "Qwen3.6-35B-A3B 和 Gemma-4-12B 下载量均破百万",
+      "Google 推出 DiffusionGemma 和 Gemma-4 两大新家族",
+      "GGUF 量化版本占榜单近三分之一，社区量化生态活跃",
+      "MoE 架构成主流范式，从 Qwen3.6 到 DeepSeek-V4 全面渗透",
+      "GLM-5.2-FP8 量化版下载量 21 万，远超原版 2.7 万"
+    ],
+    "ai-community": [
+      "MCP 安全与治理成企业级落地焦点，多篇高赞文章探讨",
+      "Vibe Coding 被重新定义：工作状态在会话间是否可持久化",
+      "警示：用 LLM 自身做权限决策等于把钥匙交给不可信方",
+      "Bifrost Edge 为 MCP 服务器提供企业级可见性与控制",
+      "连接 MCP 服务器给 Agent 能力的同时也扩大了攻击面",
+      "AI 编码助手重复生成的 15 种 Bug 及扫描检测工具"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code leads ecosystem with 50 issues",
+      "OpenAI Codex ships 3 new releases today",
+      "Gemini CLI focuses on cross-platform stability",
+      "GitHub Copilot CLI at 30+ daily issue updates",
+      "OpenCode sees rapid agent execution iteration",
+      "DeepSeek TUI gains community traction past week"
+    ],
+    "ai-agents": [
+      "OpenClaw ships v2026.6.9 and v2026.6.10-beta.1",
+      "OpenClaw hits 500 issues and 500 PRs in 24h",
+      "OpenClaw Telegram now sends rich HTML",
+      "OpenClaw faces maintainer bottleneck on PRs",
+      "13 agent projects tracked across ecosystem",
+      "OpenClaw session reliability is top active focus"
+    ],
+    "ai-trending": [
+      "Agent infrastructure dominates trending repos today",
+      "Deer-Flow tops trending with SuperAgent harness openais",
+      "OpenMontage debuts as first agentic video system",
+      "MCP-native tool layer is rapidly maturing",
+      "Calesthio OpenMontage features 500 agent skills",
+      "58 AI projects pass relevance filter today"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4 Pro nears 5000 likes on HuggingFace",
+      "Qwen3.6 35B hits 5M downloads as top model",
+      "Nvidia LocateAnything-3B leads with 2240 likes",
+      "Gemma-4-12B-it gains 1.8M downloads this week",
+      "GLM-5.2 leverages sparse attention MoE architecture",
+      "GGUF quant edge deployments surge across all models"
+    ],
+    "ai-community": [
+      "MCP server security risks dominate community talks",
+      "Bifrost Edge gains traction for enterprise MCP control",
+      "LLM authorization decision dangers spark debate",
+      "Vibe coding reframed as axis not level",
+      "gzip as language model debate goes viral",
+      "AI failure retrospective patterns reveal overconfidence"
+    ],
+    "ai-hn": [
+      "Anthropic identity verification for Claude sparks backlash",
+      "Apertus open model targets sovereign AI in Europe",
+      "NSA director claims Mythos breached systems in hours",
+      "AI agent tooling reliability under scrutiny",
+      "Community questions limits of LLM coding partners",
+      "European AI independence movement gains HN momentum"
+    ],
+    "ai-web": [
+      "OpenAI hints at Samsung Codex integration deal",
+      "Anthropic publishes zero new content today",
+      "OpenAI pursues enterprise channel partnerships",
+      "Anthropic enters low-output release cycle period",
+      "OpenAI Samsung signal is key enterprise indicator",
+      "Both tech giants contrast sharply in release strategies"
+    ]
+  }
+}
