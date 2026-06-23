@@ -1,0 +1,116 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.186 上线 MCP 登录登出 CLI 化功能",
+      "OpenAI Codex rust-v0.142.0 发布，社区热议计费透明度",
+      "Gemini CLI 单日 39 PR 提交，活跃度位居生态第一",
+      "Copilot CLI 连续发布两版本至 v1.0.64-3，迭代加速",
+      "Qwen Code 同步 nightly 发布 v0.18.5，50 PR 同日更新",
+      "MCP 协议生态完善成为全部 9 个工具共同攻坚方向"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.6.10-beta.2 新增对话自动快速模式",
+      "OpenClaw 单日 265 Issue 更新 500 PR 更新，社区极度活跃",
+      "OpenClaw 修复 provider JSON 读取内存溢出，限制 16 MiB 上限",
+      "字节 SuperAgent 框架 deer-flow 单日涨 738 Star，Agent 赛道爆发",
+      "DeusData 代码知识图谱 MCP Server 单日暴涨 1185 Star 成今日涨星王",
+      "ECC 智能体性能优化系统集成技能记忆安全，获 22 万 Star"
+    ],
+    "ai-trending": [
+      "DeepSeek-V4-Pro 以 5012 点赞 242 万下载断层领先 Hugging Face 周榜",
+      "mattpocock/skills Claude Skills 合集单日暴涨 2051 Star 全场最高",
+      "字节 deer-flow SuperAgent 框架单日涨 738 Star，Agent 工具链爆发",
+      "ollama/ollama 持续集成最新模型突破 17.4 万 Star",
+      "firecrawl 大规模网页抓取 API Agent 之眼单日涨 615 Star",
+      "garrytan/gstack Claude Code 完整配置 23 工具扮演高管角色涨 573 Star"
+    ],
+    "ai-web": [
+      "Anthropic 发 40 万会话研究揭示 agentic coding 人机分工范式",
+      "Anthropic 与盖茨基金会签署 2 亿美元 4 年全球战略合作",
+      "OpenAI Codex 日志 Bug 可写满 SSD 一年内登顶 HN 最热帖遭 462 分",
+      "五眼联盟警告数月内或出现能颠覆政府的 AI 模型",
+      "GLM-5.2 通过 Unsloth 优化可在消费级硬件本地运行"
+    ],
+    "ai-hn": [
+      "Codex 日志 Bug 可写满 SSD 一年内登顶 HN 最热帖 462 分",
+      "Claude Code 扩展思考输出被指不真实真实性遭质疑",
+      "GLM-5.2 消费级硬件本地运行方案获 132 分社区热议",
+      "五眼联盟警告数月内或出现能颠覆政府的 AI 模型",
+      "OpenAI 与 Getty Images 合作同时遭多州检察长调查",
+      "AI 自动化裁员系列信号表明大模型影响正走向真实世界代价"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 以 5012 点赞 242 万下载量断层领先本周榜单",
+      "Google Gemma 4 统一多模态模型下载量近 191 万次 Qwen3.6 社区修改版下载量 407 万登顶变体榜",
+      "GLM-5.2 MoE 加 DeepSeek 风格注意力架构迭代国产旗舰",
+      "Kimi-K2.7-Code 专用代码版采用压缩张量技术获 41 万下载",
+      "NVIDIA 视觉定位与语音识别两垂直领域同步发力"
+    ],
+    "ai-community": [
+      "最小 AI 原则对抗过度工程化提供理性评估框架",
+      "Agent 信任设计为类型化溯源机制构建可审计多 Agent 系统",
+      "RAG 机器人幻觉问题排查修复实战排障指南获开发者关注",
+      "静态分析构建 46 库统一知识图谱证明让 AI 直接读代码不够",
+      "Anthropic 账单静默循环成本控制与提示注入攻击防护成焦点",
+      "3 个显著提升 AI 编码质量工具直接可落地推荐"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenAI Codex ships rust-v0.142.0 stable alongside v0.143.0-alpha.2",
+      "Agentic coding assistants now orchestrate MCP servers and sub-tasks",
+      "Session management and cost transparency dominate community friction",
+      "Claude Code, Gemini CLI, and Kimi Code CLI all ship updates",
+      "Plugin ecosystems and cross-platform parity become key differentiators",
+      "Long-running agent correctness emerges as top community concern"
+    ],
+    "ai-agents": [
+      "OpenClaw logs 265 issues and 500 PRs in a single day",
+      "OpenClaw v2026.6.10-beta.2 adds automatic fast mode for talks",
+      "P0 regressions around session state and memory leaks flood OpenClaw",
+      "NanoBot, Hermes Agent, and PicoClaw gain traction in agent ecosystem",
+      "CoPaw and TinyClaw signal growing multi-agent platform competition",
+      "Channel plugin improvements and security hardening PRs merged"
+    ],
+    "ai-trending": [
+      "OpenMontage hits +2,938 stars in a day for agentic video production",
+      "Palmier-pro adds +2,463 stars as macOS AI video editor",
+      "Anthropic-Cybersecurity-Skills repo surges with +956 daily stars",
+      "Codebase-memory-mcp crosses +1,185 stars for agent memory tooling",
+      "ByteDance's Deer-Flow climbs to 73K+ stars with +738 today",
+      "AI-generated multimedia creation is the breakout category of the day"
+    ],
+    "ai-web": [
+      "Anthropic analyzes 400,000 Claude Code sessions in landmark study",
+      "Claude Code humans plan while AI handles execution, study finds",
+      "Anthropic announces $200M partnership with Gates Foundation",
+      "Partnership targets global health, education, and economic mobility",
+      "OpenAI publishes new metadata-only post with no article text available",
+      "Anthropic pairs empirical research with institutional partnerships"
+    ],
+    "ai-hn": [
+      "OpenAI Codex bug writes terabytes to SSDs, risking hardware damage",
+      "Claude Code Extended Thinking output authenticity questioned",
+      "Meta exposed for keystroke-tracking AI training program",
+      "Oracle workforce reduction attributed to AI adoption",
+      "Five Eyes warn AI models capable of toppling governments months away",
+      "GLM-5.2 gains traction for local hardware deployment"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro crosses 5,000 likes and 2.4M downloads on debut",
+      "Qwen3.6 family spans at least six entries from multiple authors",
+      "Gemma 4 draws massive downloads across base and community variants",
+      "NVIDIA's LocateAnything-3B signals surging vision-language demand",
+      "MiniMax-M3 debuts as multimodal image-text-to-text model",
+      "GGUF and community-quantized variants dominate local inference interest"
+    ],
+    "ai-community": [
+      "Dev.to Principle of Least AI article earns 34 hearts",
+      "Developers debate when to use AI versus deterministic alternatives",
+      "RAG hallucinations and prompt injection vulnerabilities dominate talks",
+      "Runaway agent costs and agent security vacuum spark production concerns",
+      "Lobste.rs explores theoretical limits of LLMs and ML compilers",
+      "Building knowledge graphs across 46 repos with static analysis"
+    ]
+  }
+}
