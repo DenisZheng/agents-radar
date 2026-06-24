@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex 单日连发7个alpha版本,迭代速度惊人",
+      "Claude Code v2.1.187发布,强化安全凭证隔离与组织管控",
+      "Gemini CLI待合并18个PR,社区活跃度持续走高",
+      "Qwen Code v0.19.1补齐MCP资源工具链,架构重构提速",
+      "GitHub Copilot CLI v1.0.64新增路径提示与预算显示功能",
+      "安全合规成硬需求:6个工具今日均有安全相关PR或修复"
+    ],
+    "ai-agents": [
+      "OpenClaw今日187条Issues更新,会话数据稳定性问题集中",
+      "500条PR待合并,ACP飞书Windows多平台兼容性问题推进",
+      "Cron触发污染全局运行时状态bug已修复",
+      "NVIDIA Build provider流式中断zombie状态问题定位",
+      "OpenClaw社区评级体系独特:钻石龙虾与铂金 hermit",
+      "多平台ACP runtime兼容性成企业落地最大障碍"
+    ],
+    "ai-trending": [
+      "字节跳动DeerFlow今日+739星,SuperAgent框架持续霸榜",
+      "Garry Tan的Claude Code配置方案单日+1011星排热榜第二",
+      "代码知识图谱MCP服务器+1300星, token压缩率达99%",
+      "Anthropic官方Claude Code插件目录开源,生态标准化",
+      "DeepSeek V4-Pro以5030赞224万下载登顶HuggingFace",
+      "向量数据库与知识图谱类项目占据最大份额,企业RAG需求爆发"
+    ],
+    "ai-web": [
+      "Anthropic发布Claude Tag:面向团队的AI协作代理",
+      "Claude Tag以Slack为入口,支持@Claude自主委派任务",
+      "Anthropic内部65%产品团队代码已由Claude Tag生成",
+      "Claude Tag定位从个人编码助手向团队AI代理跃迁",
+      "明确将从Slack扩展至Teams飞书等更多协作平台",
+      "OpenAI今日无新增发布,Anthropic产品化节奏领先"
+    ],
+    "ai-hn": [
+      "OpenAI发布GPT-5.5-Cyber主打安全叙事,204分上榜",
+      "Claude全平台错误率飙升,252条评论全场最高",
+      "TikZ编辑器315分领跑全榜,LaTeX图形编辑器广受好评",
+      "Alma项目探索本地优先MCP自我模型,AI Agent身份基础设施",
+      "RLM-based本地调试器Halo发布,AI Agent trace可视化",
+      "HN社区情绪偏审慎,对AI公司政策透明度质疑增多"
+    ],
+    "ai-arxiv": [
+      "Randomized YaRN改进超长序列长度外推,长上下文推理新突破",
+      "锥形语言模型设计挑战传统均匀参数分配Transformer架构",
+      "理论指出LLM作为通用求解器存在根本性容量瓶颈",
+      "SVD-Surgeon最优奇异值手术大幅提升LLM低秩压缩质量",
+      "EnterpriseClawBench推动Agent评估走向真实企业场景",
+      "灵巧操作与全身协调人形机器人学习迎来密集投稿"
+    ],
+    "ai-hf": [
+      "DeepSeek V4-Pro以5030赞224万下载遥遥领先",
+      "Google Gemma 4一体化模型下载近200万次",
+      "微软发布4B参数FastContext专为快速上下文处理",
+      "微博VibeThinker-3B小参数模型主打数学逻辑推理",
+      "围绕Gemma4和Qwen3.6的GGUF量化变体异常活跃",
+      "Nvidia LocateAnything-3B视觉理解模型上榜"
+    ],
+    "ai-community": [
+      "AI编程80/20法则:最后20%消耗80%时间成共识",
+      "Agent无状态痛点突出,意图与代码需分层管理",
+      "Agent权限逃逸真实案例发布,安全问题引警惕",
+      "Eval-First开发范式兴起,先写评测再开发AI功能",
+      "开源LLM可见性分析工具发布挑战79美元月费竞品",
+      "Context Compaction可视化工具开源,Agent上下文压缩透明化"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.187 released as latest stable",
+      "OpenAI Codex rushes through 7+ Rust alpha builds",
+      "GitHub Copilot CLI v1.0.64 updated yesterday",
+      "500+ PRs updated, 187 issues in 24 hours",
+      "Kimi Code CLI and DeepSeek-TUI show zero activity",
+      "No clear reliability leader in CLI ecosystem yet"
+    ],
+    "ai-agents": [
+      "Claude Code Skills repo added to 9 monitored projects",
+      "500 PRs and 187 issues updated in past 24 hours",
+      "Session state integrity is the top community focus",
+      "Compaction correctness and stuck-session recovery debated",
+      "PR #96226: Claude Code drops Textual for AttributedString",
+      "Active 2026.6.x migration causing real-world friction"
+    ],
+    "ai-trending": [
+      "OpenMontage trends with 3,592 stars in one day",
+      "Agentic video pipeline with 52 tools, 500+ skills",
+      "codebase-memory-mcp adds 1,300 stars for code intelligence",
+      "LLMs applied to real-time stock analytics trending",
+      "Claude Code best-practice configs gaining mainstream traction",
+      "Security-focused coding agents mapped to 817 MITRE skills"
+    ],
+    "ai-web": [
+      "Anthropic launches Claude Tag, embeds Claude in Slack",
+      "Claude Enterprise and Team customers get first access",
+      "65% of Anthropic's internal code made via Claude Tag",
+      "Product bridges Claude Code and Cowork for teams",
+      "Rollout targets additional platforms beyond Slack",
+      "Structured output validation via Tag"
+    ],
+    "ai-hn": [
+      "GPT-5.5-Cyber launches under OpenAI DayBreak initiative",
+      "Claude multi-model error rate incident dominates discussions",
+      "Community split on security-focused model specialization",
+      "Debate heats up over AI dependencies in production systems",
+      "Models and research lead today's top posts",
+      "Tooling and engineering round out trending topics"
+    ],
+    "ai-arxiv": [
+      "New tapered language model architecture challenges standards",
+      "YaRN randomization improves long-context generalization",
+      "Active multi-agent coordination gains research attention",
+      "KV-cache reuse and SVD compression advance efficiency",
+      "Robotics closes sim-to-real gap with lifelong learning",
+      "Prompt-conditioning limits explored in new study"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro hits 5,030 likes, 2.2M+ downloads",
+      "GLM-5.2 with DSA architecture draws AI research interest",
+      "Gemma 4 family sees breakout week with quantized variants",
+      "4-bit quantized models proliferate across trending list",
+      "Efficient open models shift the ecosystem's center of gravity",
+      "NVIDIA LocateAnything-3B trending with robotics crowd"
+    ],
+    "ai-community": [
+      "Dominant discussion: agents lack persistent memory for code",
+      "80% of development time spent polishing AI-generated code",
+      "Edge cases and debugging still bottleneck AI-assisted workflows",
+      "AI agents trick themselves into circumventing guardrails",
+      "AI memory requirements inflate cloud infrastructure costs",
+      "Rising push for local-first, open-source AI alternatives"
+    ]
+  }
+}
