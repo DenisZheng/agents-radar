@@ -1,0 +1,122 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.191当日迭代，安全加固与注入防护持续推进",
+      "OpenAI Codex rust-v0.142.1连发5个alpha，0.143.0功能冻结",
+      "Qwen Code v0.19.2当日迭代，安全漏洞与后台任务密集修复",
+      "OpenCode v1.17.10发布，MCP生态快速扩展",
+      "AI CLI生态整体进入质量深耕阶段，安全与信任成基础门槛",
+      "上下文效率与成本控制成为各工具核心竞争力"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时内346条Issue、500条PR，高并发协作状态",
+      "OpenClaw v2026.6.11-beta.1发布，Slack Relay与Mattermost队列命令",
+      "多Agent协作框架Orca、TradingAgents成社区新宠",
+      "DeepSeek-V4-Pro首日200万下载，GLM-5.2合计近70万下载",
+      "Hermes Agent突破11.7万颗星，稳坐开源Agent头把交椅",
+      "Agent全面渗透到视频制作、招聘评估等可自动化领域"
+    ],
+    "ai-trending": [
+      "NousResearch/hermes-agent突破20.2万星，日增1178星保持Agent赛道领先",
+      "OpenMontage单日狂揽3719星，全球首个开源Agentic视频制片系统",
+      "vllm-project/vllm达84072星，高吞吐推理引擎成事实标准",
+      "ollama达174866星一键运行DeepSeek/Qwen等主流模型",
+      "langchain-ai/langchain达140111星，Agent编排标准范式"
+    ],
+    "ai-web": [
+      "Anthropic与DOE/NNSA联合开发核扩散风险AI分类器，准确率达96%",
+      "Anthropic发布81,000名Claude用户AI经济学大规模调查",
+      "OpenAI疑似与Broadcom合作推理芯片代号Jalapeno",
+      "AI安全治理从评估走向实时监控阶段",
+      "Claude Economic Index升级为用量+感知双模态数据集"
+    ],
+    "ai-hn": [
+      "OpenAI正式发布与Broadcom联合打造的首款自研推理芯片Jalapeno",
+      "Anthropic与美国政府围绕Mythos模型博弈持续发酵",
+      "Alibaba被指控绕过限制提取Claude能力",
+      "OpenAI Codex异常写入SSD引发社区吐槽",
+      "AI人才流动与vibe coding争议在HN升温"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro首日获5046赞205万下载，成为本周最热模型",
+      "GLM-5.2系列合计近70万下载验证MoE+DSA架构",
+      "Google Gemma-4-12B-it下载量突破210万",
+      "NVIDIA LocateAnything-3B赞数2346，开放词汇视觉定位",
+      "Qwen发布AgentWorld-35B-A3B MoE模型服务Agent任务"
+    ],
+    "ai-community": [
+      "Anthropic发布817个结构化网络安全技能供AI时代使用",
+      "AI Agent安全与可信度成社区讨论首要焦点",
+      "Claude Tag获Karpathy盛赞但Agent信任层仍属空白",
+      "HolmesGPT在真实GKE集群上验证AI SRE自动修复能力",
+      "开源Agentic AI技术栈全景梳理，从聊天包装器到工具互联",
+      "本地优先推理与本地语音助手持续升温"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code and Qwen Code both received critical security PRs today",
+      "Token cost predictability emerges as cross-cutting user pain point",
+      "OpenCode and Codex race toward full MCP client parity",
+      "DeepSeek TUI bets big on multi-agent fleet orchestration",
+      "Kimi, Qwen, Copilot communities report budget drain complaints",
+      "Patch-level stability and security iteration across most tools"
+    ],
+    "ai-agents": [
+      "Six projects disclosed or patched critical vulnerabilities today",
+      "Enterprise-readiness pull drives RBAC, OIDC, multi-tenancy features",
+      "Hermes Agent, ZeroClaw, NanoClaw lead generalist multi-channel tier",
+      "PicoClaw and TinyClaw optimize for specific hardware or minimal footprints",
+      "WASM plugins vs MCP vs monolithic refactor as key differentiators",
+      "Self-hosted-first vs desktop-electron operational split deepens"
+    ],
+    "ai-trending": [
+      "Apple container runtime trends with 1,838 stars for local-first AI",
+      "New AgentOps category emerges with fleets of parallel coding agents",
+      "Agent memory and persistent context compression gain momentum",
+      "Open-source community builds middleware layer for production agent systems",
+      "stablyai/orca hits 331 stars as agent fleet desktop IDE",
+      "vllm-project/vllm reaches 84,072 stars as critical inference infra"
+    ],
+    "ai-web": [
+      "Anthropic and US DOE co-develop nuclear proliferation risk classifier",
+      "96% accuracy classifier now deployed live on Claude traffic",
+      "Anthropic surveys 81,000 users on AI productivity and job anxiety",
+      "OpenAI quietly publishes Broadcom Jalapeno inference chip page",
+      "Early-career workers most anxious about AI job displacement",
+      "Signals OpenAI may be entering custom AI silicon arena"
+    ],
+    "ai-hn": [
+      "OpenAI and Broadcom unveil LLM-optimized Jalapeno inference chip",
+      "NSA lost access to Anthropic model amid policy dispute",
+      "Anthropic accuses Alibaba of illicitly extracting Claude capabilities",
+      "Reid Hoffman calls xAI a complete trainwreck in sharp critique",
+      "OpenAI Codex criticized for excessive SSD write operations",
+      "485 score and 305 comments on OpenAI custom chip story"
+    ],
+    "ai-arxiv": [
+      "Field shifts toward agentic autonomy with multi-turn planning and recall",
+      "New evaluation frameworks to grade and benchmark agent outputs",
+      "Decentralized AI infrastructure challenges hyperscaler monopoly",
+      "Scaling laws proposed to mitigate LLM plasticity loss",
+      "Gradient-based hallucination detection method introduced",
+      "Tactile exploration and 3D generation push embodied intelligence forward"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro rockets to 5046 likes and 2M downloads in first week",
+      "Gemma 4 ecosystem fragments into rich constellation of community fine-tunes",
+      "Qwen3.6 MoE uncensored variant crosses 3.7 million downloads",
+      "nvidia LocateAnything-3B leads trending vision-language models",
+      "zai-org GLM-5.2 MoE DSA architecture emerges as serious contender",
+      "Krea-2-Turbo hints at new wave of fast text-to-image diffusion models"
+    ],
+    "ai-community": [
+      "Agent security dominates with red-teaming AWS credential extraction tests",
+      "Karpathy-praised Claude Tag lacks production trust layer",
+      "Developers grapple with true cost of AI coding tools post-subsidization",
+      "PostgreSQL for semantic search challenges dedicated vector DBs",
+      "Open-source agentic AI stack evolves from chat wrappers to multi-agent systems",
+      "Agent bugs are inherently non-reproducible, developers warn"
+    ]
+  }
+}
