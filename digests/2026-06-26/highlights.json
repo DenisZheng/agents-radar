@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.193 发布，auto-mode 分类器全覆盖",
+      "OpenAI Codex 配额异常消耗集中爆发，MCP 生态高频迭代",
+      "Gemini CLI 紧急安全补丁修复路径穿越漏洞",
+      "DeepSeek TUI 更名 CodeWhale，Hotbar MVP 全面落地",
+      "Qwen Code v0.19.2-nightly 发布，新增语音功能扩展",
+      "OpenCode v1.17.11 修复 Windows segfault 和内存问题"
+    ],
+    "ai-agents": [
+      "OpenClaw 日增 500 Issues 和 500 PR，社区贡献极高",
+      "OpenClaw 本地实时语音路由接入主 Agent 循环",
+      "OpenClaw 新增 Whisper STT + Ollama + Kokoro TTS 扩展",
+      "OpenClaw 修复沙箱 skill 同步回退路径问题",
+      "OpenClaw 新增 PR review 自动修复流水线约 785 行代码",
+      "OpenClaw 修复无本地 OpenAI profile 时 Codex 状态丢失"
+    ],
+    "ai-trending": [
+      "Google Labs 发布 DESIGN.md 规范，日增 1475 star",
+      "Apple 开源 Swift 容器方案，Mac 上轻量 VM 跑 Linux",
+      "Anthropic 开源 817 个网络安全 Agent Skills",
+      "Calesthio 推出首个开源视频制作 Agent 系统",
+      "阿里开源 Page Agent，AI Agent 渗透 Web 交互",
+      "MinerU 将 PDF/Office 转 LLM 友好 Markdown，日增 644 star"
+    ],
+    "ai-web": [
+      "OpenAI 发布首页文章《How Agents Are Transforming Work》",
+      "OpenAI 通过首页内容强调 Agent 主题，争夺叙事主导权",
+      "Anthropic 本轮无新增内容，处于信息发布低谷期",
+      "OpenAI 将 Agent 话题推至首页，与 Function Calling 产品节奏一致",
+      "Anthropic 静默或属发布周期正常间隙",
+      "OpenAI 在信息可见度上领先 Anthropic"
+    ],
+    "ai-hn": [
+      "特朗普政府要求 OpenAI 延期发布 GPT-5.6，引 7+ 篇报道",
+      "开源 AI 笔记工具 OpenKnowledge 191 分，今日最高热度",
+      "DeepSeek Flash 颠覆 Agent 产品经济学，code as plan 引热议",
+      "中国 AI 模型追赶 Anthropic/OpenAI，NYT 报道引关注",
+      "GLM-5.2 安全隐患讨论，Mythos 威胁被质疑高估",
+      "社区对监管干预警惕，对开源生态热情高涨"
+    ],
+    "ai-arxiv": [
+      "混合监督信号修复智能体多步工具调用建模瓶颈",
+      "零信任智能体信任框架与安全内核执行对齐新研究",
+      "模型取证区分有害行为与真正不匹配",
+      "2纳米工艺价值达到基准精度",
+      "开源语言模型可解释性取得具体进展",
+      "AI 合成数据生成与跨域迁移理论新突破"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 5061 赞登顶，187 万下载量",
+      "智谱 GLM-5.2 首日 2476 赞，MoE+DSA 架构",
+      "Qwen AgentWorld-35B-A3B 主打 Web 浏览与工具调用",
+      "微软发布 FastContext-1.0-4B 轻量级上下文压缩模型",
+      "Gemma 4 生态合计占 5 席，社区微调活跃",
+      "NVIDIA LocateAnything-3B 与 Qwen3.6 量化权重持续输出"
+    ],
+    "ai-community": [
+      "开发者提出 LLM 只辅助特征提取不做最终决策架构",
+      "单 Agent vs 多 Agent 编排工程权衡讨论升温",
+      "AI 生成 SQL 信任危机，社区探索恢复数据信心方法",
+      "Agent 工具权限矩阵可视化管理方案开源",
+      "AI 网关与传统 API 网关边界厘清，避免架构误用",
+      "本地推理与向量数据库选型讨论持续升温"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenAI Codex releases rust-v0.142.2 and codex-zsh-v0.1.0",
+      "Gemini CLI ships v0.49.0 and v0.50.0-preview.1",
+      "DeepSeek TUI rebrands to CodeWhale v0.8.65",
+      "Qwen Code hits v0.19.2-nightly across 10 active PRs",
+      "Claude Code publishes skill catalog (240 skills available)",
+      "All major tools face runaway token consumption concerns"
+    ],
+    "ai-agents": [
+      "No new tags; latest release from late March (2026.3.24)",
+      "Triaged updated issues swept on 2026-06-24",
+      "Community issues remain backed up",
+      "Hermes Agent is the only other sub-project with recent activity",
+      "Project issues have seen added automation and triage labels",
+      "Maintainer review bandwidth is the clear bottleneck"
+    ],
+    "ai-trending": [
+      "OpenMontage gains +3,434 stars as an agentic video production system",
+      "ECC project reaches 221,751 with agent harness skills",
+      "OLLAMA passes 174,910 with open-weight LLM support",
+      "AWS releases official agent-toolkit-for-aws (+47 stars)",
+      "Apple Silicon–optimized container project surges to +1,351 stars",
+      "Multiple projects are built on Claude Code as a harness platform"
+    ],
+    "ai-web": [
+      "OpenAI publishes 'How Agents Are Transforming Work' post",
+      "Anthropic stream is quiet with no new content today",
+      "OpenAI is betting big on the agentic transformation narrative",
+      "Anthropic follows a pattern of clustered announcements",
+      "Release windows appear to alternate between major and quiet updates",
+      "Enterprise transformation focus grows across official channels"
+    ],
+    "ai-hn": [
+      "US government asks OpenAI to delay GPT-5.6",
+      "OpenAI considers ads on ChatGPT Plus paid plans",
+      "Chinese AI labs close the gap with US frontier models",
+      "Oracle cuts jobs as AI drives internal efficiency",
+      "Local-first AI tool OpenKnowledge tops HN",
+      "Self-scaffolding LLM for agentic coding project debuts"
+    ],
+    "ai-arxiv": [
+      "On-policy self-distillation reduces output diversity, study shows",
+      "New framework audits answer-order sensitivity in multimodal LLMs",
+      "RL agents face simultaneous collapse modes during tool training",
+      "A decentralized trust protocol for autonomous agents gains empirical results",
+      "Speech recognition for Algerian dialect breaks new ground",
+      "Finite axiomatizability returns as thresholds in synthetic data augmentation"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro exceeds 5,061 likes and 1.88M downloads",
+      "GLM-5.2 debuts with DSA (Dynamic Sparse Attention) architecture",
+      "Community uncensored Qwen3.6-35B-A3B hits 3.5Mdownloads",
+      "Baidu’s Unlimited-OCR tops vision-language production demand",
+      "NVIDIA’s LocateAnything-3B surges for visual grounding",
+      "Google’s gemma-4-12B-it passes 2.1M downloads"
+    ],
+    "ai-community": [
+      "New toolkit offers a thinking framework for LLM reliability",
+      "Dev builds binary gate before LLM touches email classification",
+      "Startup reveals AWS costs driven by AI-powered app traffic",
+      "Multi-agent orchestration patterns gain consensus permission models",
+      "NPU compilers and edge capacity planning gain mindshare on Lobste.rs",
+      "Historical reflections question origins of the current AI boom"
+    ]
+  }
+}
