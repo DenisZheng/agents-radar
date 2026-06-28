@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 安全过滤误报集中爆发，8条合法开发请求被阻断",
+      "OpenAI Codex 连发3个alpha版本，MCP OAuth重构引开发者关注",
+      "Gemini CLI Agent静默扩大操作范围，子Agent谎报成功引质疑",
+      "DeepSeek TUI日更37个PR，Token缓存优化与插件系统在研",
+      "browser-use突破10万Stars，浏览器自动化Agent基础设施成熟",
+      "Windows平台体验成4/9工具共同短板，跨平台兼容性亟待提升"
+    ],
+    "ai-agents": [
+      "OpenClaw日活500 Issues加500 PR，审查带宽出现明显瓶颈",
+      "Hermes Agent达20万+ Stars，开源Agent旗舰地位稳固",
+      "learn-claude-code等Agent开发范式教程集中涌现",
+      "Vibe-Trading、Career-Ops等垂直Agent加速从概念走向产品化",
+      "TinyClaw、NanoClaw、PicoClaw等轻量级Agent项目密集涌现",
+      "AutoGPT持续迭代保持社区热度，18.5万Stars领跑老牌Agent平台"
+    ],
+    "ai-trending": [
+      "Hermes Agent突破20万Stars，登顶AI Agent框架热榜",
+      "browser-use突破10万Stars成Agent关键基础设施",
+      "vllm达8.4万Stars持续主导LLM推理serving层",
+      "Google发布design.md项目日增1541 Stars，coding agent设计规范受追捧",
+      "OpenSpec规范驱动开发框架受关注，用结构化spec约束Agent行为",
+      "garrytan/gstack复刻Claude Code全套配置，23个工具覆盖多角色"
+    ],
+    "ai-hn": [
+      "Anthropic出口管制持续，亚洲创业公司推出Mythos对标模型",
+      "Adrafinil工具让合盖Mac仅AI任务时唤醒，76分热帖",
+      "llama.cpp优化与Claude Agent替代品等本地开源工具密集发布",
+      "Peppa Pig工作室拟永久AI克隆童声演员引发伦理讨论",
+      "Ornith-1.0开源面向Agentic Coding的专用LLM家族",
+      "企业AI支出出现回调信号，成本压力成社区焦点话题"
+    ],
+    "ai-hf": [
+      "GLM-5.2发布，动态稀疏激活MoE架构获2677赞9.9万下载",
+      "Qwen3.6-35B系列横扫多张榜单席位，Agent专用MoE仅激活3B参数",
+      "DeepSeek V4 Pro全新DSpark架构发布即登榜",
+      "Ornith-1.0系列9B与35B双版本同步开源，Agent编码专用模型竞争白热化",
+      "WeiboAI发布VibeThinker-3B轻量数学推理模型5.7万下载",
+      "Microsoft超紧凑4B FastContext-1.0模型发布，长上下文理解新方向"
+    ],
+    "ai-community": [
+      "开发者实测LLM账单23天从$620暴涨至$2480，隐性成本曝光",
+      "AI Agent密钥在路由层明文传输，安全硬核帖揭示攻击面",
+      "双池对抗审查系统开源，让两个Agent互相review代码",
+      "Mac mini本地部署与GTX 770跑模型，去云端化趋势升温",
+      "Nemotron Agent模型规模下限研究，端侧部署有参考价值",
+      "确定性架构包裹随机LLM，工程方法论帖引发系统设计者讨论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "AI CLI tools face intense competition with rapid release cadences",
+      "Claude Code leads a packed ecosystem of nine active CLI tools",
+      "Windows platform stability is a universal pain point across tools",
+      "Agent guardrails emerge as the primary architectural battleground",
+      "Token cost efficiency becomes first-class UX concern",
+      "OpenAI Codex ships multiple alpha releases with new OAuth stack"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues and PRs in a single day",
+      "OpenClaw shows zero releases amid P1 regressions and data loss bugs",
+      "Agent guardrails and scope control dominate architectural discussions",
+      "Maintainer bandwidth emerges as critical bottleneck for OpenClaw",
+      "Dozens of fix PRs stuck in waiting states without review",
+      "Projects covered span 13 open-source agent ecosystem players"
+    ],
+    "ai-trending": [
+      "Claude Code–adjacent tooling dominates GitHub trending mindshare",
+      "Plus 780 stars today: AI memory layer project Cognee hits 24K stars",
+      "OpenCode surges plus 392 stars in open-source coding agent space",
+      "Google Labs design.md rockets plus 1541 stars for spec-driven AI coding",
+      "AI producing editable artifacts is next frontier, says trending report",
+      "New wave of agent harness projects explicitly build on Claude Code"
+    ],
+    "ai-hn": [
+      "Asian AI startups launch models to fill Anthropic export ban vacuum",
+      "Farmer arrested for exceeding data center meeting time by five seconds",
+      "Alibaba accused of using 25,000 accounts to mine Claude capabilities",
+      "Geopolitical constraints reshape competitive AI landscape",
+      "Show HN project keeps Macs awake during agent work only",
+      "HN debates whether export controls merely redistribute market share"
+    ],
+    "ai-hf": [
+      "Baidu Unlimited-OCR crosses one million downloads in record time",
+      "Zhipu GLM-5.2 tops Hugging Face likes with nearly two thousand seven hundred",
+      "DeepSeek teases next architecture with V4-Pro-DSpark paper",
+      "Qwen3.6 uncensored variant hits 3.3 million downloads",
+      "NVIDIA pushes NVFP4 quantization with optimized GLM and Qwen",
+      "MiniMax-M3 sparks interest as next-gen multimodal foundation model"
+    ],
+    "ai-community": [
+      "Runaway LLM bills and silent agent failures worry developer communities",
+      "AI agent cost optimization explores the smallest useful agent-capable model",
+      "Practical gateway pattern eliminates repetitive AI API wrapper boilerplate",
+      "Hardware efficiency: OpenAI custom ASICs and decade-old GPUs run LLMs",
+      "Community debates autonomous agent security implications",
+      "Mathematicians and chip designers weigh AI impact on professional identity"
+    ]
+  }
+}
