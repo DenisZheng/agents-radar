@@ -1,0 +1,94 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 领跑生态但成本透明度仍遭社区质疑",
+      "OpenAI Codex 深陷 GPT-5.5 quota 计费信任危机",
+      "Gemini CLI 发布 nightly v0.51.0 安全修复版本",
+      "Qwen Code 推 v0.19.3 补丁修复 token 泄漏问题",
+      "Claude Code Skills 插件成生态扩张重点",
+      "稳定性与新功能矛盾成各工具普遍爆发点"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.6.11-beta.2 增强 Slack 通道控制",
+      "OpenClaw 积压 434 条待合并 PR 审查压力大",
+      "修复 Codex 子代理完成通知无限重试 bug",
+      "Hermes Agent 总资产达 20.5 万 Star 持续领跑",
+      "NullClaw/IronClaw/ZeptoClaw 新项目涌现",
+      "跨提供商结构化工具结果文本修复已合并"
+    ],
+    "ai-trending": [
+      "codebase-memory-mcp 单日新增 2190 Star 登顶趋势榜",
+      "ai-berkshire 投资框架 Star +1445 Agent 落地垂直场景",
+      "vLLM 推理引擎总 Star 数突破 8.4 万稳居基础设施榜首",
+      "Vibe-Trading 个人交易智能体 Star +492 持续走热",
+      "video-use 视频编码智能体首次登榜 Star +196",
+      "LlamaFactory 微调框架累积 7.3 万 Star"
+    ],
+    "ai-web": [
+      "Anthropic 连续多个工作日无新发布蓄势待发",
+      "OpenAI HP Frontier Partnership 公告内容获取受限",
+      "Claude 4 系列旗舰模型仍是近期产品主基线",
+      "OpenAI 绑定企业级硬件云服务商信号明确",
+      "Anthropic 安全等级 3/4 框架仍是最公开参考",
+      "Computer Use 工具集成 API 能力持续迭代"
+    ],
+    "ai-hn": [
+      "GLM 5.2 网络安全基准多项超越 Claude 引发热议",
+      "Claude Code 已渗透至高风险医疗 MRI 诊断场景",
+      "Wayfinder Router 确定性路由本地与云端 LLM",
+      "中国 AI 网安能力与 Anthropic 持平重置竞争格局",
+      "失控 Agent 预算管控等安全治理话题升温",
+      "LLM 能否通过镜像测试评论激辩自我意识"
+    ],
+    "ai-community": [
+      "MCP 服务器无形消耗 5 万 + Token 引发警惕",
+      "Agent 监控评估标准被随机策略欺骗可 F1 0.88",
+      "长时 Agent 双通道架构缺失为崩溃根本原因",
+      "AI 平台组织交接失败一个月内沦为弃项目",
+      "AI 落地瓶颈正从模型能力转向工程纪律",
+      "speculative decoding 生效条件与成本收益实测"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code dominates mindshare and ecosystem depth",
+      "OpenAI Codex iterating on multi-agent architecture",
+      "Agentic cost control is a first-class concern now",
+      "Plugin/MCP ecosystems are the new battleground",
+      "Permission models are the most contested design choice",
+      "OpenCode, Pi, Qwen Code compete on provider agnosticism"
+    ],
+    "ai-agents": [
+      "OpenClaw released v2026.6.11-beta.2 today",
+      "Large-scale session storage migration to SQLite underway",
+      "UTF-16 truncation bugs fixed across major channel plugins",
+      "Slack relay mode and native Mattermost support added",
+      "~500 issues and ~500 PRs updated in last 24h",
+      "438 open issues with many P1 items aging past 30 days"
+    ],
+    "ai-hn": [
+      "GLM 5.2 beats Claude in cybersecurity benchmarks",
+      "Claude Code used to analyze personal MRI scan",
+      "Google restricts Meta's access to Gemini",
+      "Austria lobbying to host Anthropic operations",
+      "Chinese AI labs may have closed gap with West",
+      "HN debates need for non-AI tech news sources"
+    ],
+    "ai-hf": [
+      "Qwen3.5/3.6 MoE models dominate trending page",
+      "HauhauCS Qwen3.6 GGUF hits 3.2M downloads",
+      "Baidu Unlimited-OCR debuts with 1,230 likes",
+      "NVIDIA pushes NVFP4 variants of GLM-5.2 and Qwen3.6",
+      "Ornith-1.0 family spans 9B to 397B parameters",
+      "Krea-2 image gen and LTX-2.3 text-to-video gain traction"
+    ],
+    "ai-community": [
+      "MCP servers burning 50k+ tokens before you type",
+      "Prompt injection attacks can be systematically gamed",
+      "Speculative decoding draws serious engineering interest",
+      "Human-in-the-loop remains essential despite unscalability",
+      "Non-technical leadership mandates can destroy AI products",
+      "GPT-5.6 launch and access model speculation grows"
+    ]
+  }
+}
