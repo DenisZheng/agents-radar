@@ -1,0 +1,94 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.196 正式版，稳定性持续攻坚",
+      "Qwen Code 日均 30 Issues、50 PR，v0.19.3-nightly 构建中",
+      "Gemini CLI v0.51.0-nightly 活跃迭代，社区更新量最大",
+      "OpenAI Codex 推进 rust-v0.143-alpha，沙箱隔离成焦点",
+      "安全防护与沙箱隔离成为 7/9 工具共同关注的核心方向",
+      "Copilot CLI v1.0.66-2 预发布，企业级管控持续完善"
+    ],
+    "ai-agents": [
+      "OpenClaw 单日 375 Issue、500 PR，项目活跃度极高",
+      "OpenClaw 合并 ACP owner 权限校验，非 owner 无法调用管理接口",
+      "OpenClaw 修复 Telegram durable reasoning 回复丢失问题",
+      "OpenClaw 关闭 memory_search scopeHash 不匹配等长期 P1 Issue",
+      "OpenClaw 插件模型 provider 在 isolated cron sessions 问题已解决",
+      "OpenClaw 积压 P1 Issue 数量仍偏高，维护节奏紧凑"
+    ],
+    "ai-trending": [
+      "agency-agents 日增 1425 Star，AI Agency 智能体集合成今日最热",
+      "ai-berkshire 日增 1386 Star，多 Agent 并行对抗式投资研究框架",
+      "video-use 日增 967 Star，AI Agent 从代码扩展到视频剪辑",
+      "ollama 累计 175K Star，持续集成 Kimi-K2.6、GLM-5.1 等最新模型",
+      "ECC 累计 223K Star，Agent 性能优化系统覆盖 Claude Code 等主流工具",
+      "claude-mem 累计 85K Star，跨会话持久化记忆层解决长期记忆痛点"
+    ],
+    "ai-hn": [
+      "vLLM 团队发布 Micro-Agent 博客，协作式智能体击败前沿模型",
+      "韩国宣布万亿级内存芯片与人形机器人产业投资计划",
+      "Anthropic CEO 旧帖被翻出，开源 AI 路线之争再撕裂社区",
+      "Andrej Karpathy 疑似展示端侧视觉模型实时理解屏幕内容",
+      "WSJ 报道中国匹敌 Anthropic 被分析师驳斥，社区认为仍有代差",
+      "离线 AI 工具链在 Mac 上运行聊天、图片生成、语音等多模态"
+    ],
+    "ai-hf": [
+      "GLM-5.2 以 2934 赞高居榜首，DSA 稀疏注意力 MoE 架构受关注",
+      "Qwen3.6-35B-A3B 微调版下载量突破 300 万次，成最大黑马",
+      "GGUF 量化模型霸榜前十名中七席，unsloth 和 HauhauCS 为主力",
+      "DeepSeek-V4 Pro 专注深度推理与长链思考，arXiv 论文同步发布",
+      "Qwen-AgentWorld-35B-A3B 面向 Agent 场景，3B 激活参数高效推理",
+      "WeiboAI VibeThinker-3B 数学推理小模型，6.3 万下载量表现亮眼"
+    ],
+    "ai-community": [
+      "RAG 核心目的被澄清：情境注入而非记忆，助力精准上下文架构",
+      "46 个仓库上下文语义化索引供 AI 调用，大规模知识图谱实践",
+      "两模型一致性分级路由策略，LLM API 调用成本优化实操",
+      "Claude Code 企业成本困境引发开发者社区热议",
+      "MCP 服务器构建教程流行，打通 ML 模型与 Agent 世界",
+      "开发者从\"能不能用\"转向\"如何用得更省、更安全\""
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.196 released with daily patch cadence",
+      "OpenAI Codex highlighted issues cut off mid-report",
+      "Ecosystem split: full agentic platforms vs lightweight TUIs",
+      "Context management and multi-agent orchestration dominate",
+      "Enterprise readiness drives org policy and audit trails",
+      "Nine major AI CLI tools compared across GitHub activity"
+    ],
+    "ai-agents": [
+      "OpenClaw logs 375 issues and 500 PRs in heavy development",
+      "No new release despite high-severity bug reports queued",
+      "Security hardening and schema quarantine efforts underway",
+      "13 agent projects tracked including NanoBot and Hermes Agent",
+      "Regressions reported across OpenClaw 2026.5.x–2026.6.x",
+      "Integration debt accumulating alongside rapid project growth"
+    ],
+    "ai-trending": [
+      "agency-agents surges +1,425 stars for agent orchestration",
+      "ai-berkshire hits +1,386 stars for AI value investing",
+      "video-use extends browser-use into video editing at +967 stars",
+      "FluidVoice showcases fully local offline AI dictation",
+      "Claude Code and Codex become de facto agent harnesses",
+      "ollama leads infrastructure at 175K+ stars with new models"
+    ],
+    "ai-hf": [
+      "Qwen3.6-35B uncensored variant crosses 3 million downloads",
+      "DeepSeek-V4 debuts with two DSpark variants on Hugging Face",
+      "NVIDIA LocateAnything-3B vision model gains 2,481 likes",
+      "GLM-5.2 leads all trending models with 2,934 likes",
+      "Community creators outpace official releases in engagement",
+      "NVFP4 quantized models gaining significant traction"
+    ],
+    "ai-community": [
+      "AI Engineer World's Fair 2026 kicks off on Dev.to",
+      "Debate: the situation needs memory, not the model",
+      "Practitioners focus on cost-effective, reliable AI systems",
+      "Lobste.rs debates whether another AI winter is coming",
+      "AI applied to unexpected domains like RF chip design",
+      "Developers move past hype to wrestle with real AI costs"
+    ]
+  }
+}
