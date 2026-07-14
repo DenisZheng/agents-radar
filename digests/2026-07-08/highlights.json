@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 遭计费信任危机，用户指控用量暴涨",
+      "OpenAI Codex 发布 rust-v0.143.0-alpha.39",
+      "Gemini CLI 发布 v0.51.0-nightly，聚焦子Agent",
+      "GitHub Copilot CLI v1.0.69 核心功能不可用",
+      "Kimi Code 新增 Figma MCP 集成",
+      "Qwen Code v0.19.7 支持多工作区"
+    ],
+    "ai-agents": [
+      "OpenClaw 项目活动高位，近500条Issue和PR",
+      "严重Bug涉及消息丢失、会话状态损坏",
+      "#96230 修复主会话无限重启恢复循环",
+      "#68936 自动修复管道整合Claude Agent SDK",
+      "#100845 修复本地Agent遥测输出问题",
+      "社区聚焦多智能体通信稳定性与核心Bug"
+    ],
+    "ai-trending": [
+      "AI Job Search 今日最火，基于 Claude Code 自动求职",
+      "Meetily 开源会议助手，本地实时转录无云端",
+      "system_prompts_leaks 项目意外走红",
+      "ollama 已支持 Kimi K2.6, GLM-5.1 等最新模型",
+      "pocket-tts 轻量级 TTS，可在 CPU 高效运行",
+      "rig 用 Rust 构建 LLM 应用框架获关注"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Claude Sonnet 5，最具智能体能力",
+      "Sonnet 5 性能接近 Opus 4.8，定价更低",
+      "研究揭示 Claude 内部存在类似意识通路结构",
+      "Anthropic 用 J-space 技术发现模型‘静默推理’",
+      "Sonnet 5 在智能体场景不良行为发生率更低",
+      "OpenAI 今日无实质性内容更新"
+    ],
+    "ai-hn": [
+      "Rowboat 开源替代 Claude Desktop，数据隐私受追捧",
+      "Shellular 让手机运行 Claude Code、Codex 等",
+      "Anthropic 延长 Claude Fable 5 免费使用期",
+      "Claude Cowork 移动端网页版产品发布引热议",
+      "J-Space 揭示 Claude 模型‘静默推理’空间",
+      "Meta 发布首个媒体生成模型 Muse Image and Video"
+    ],
+    "ai-ph": [
+      "AnySearch 实时搜索 API 获高票，受Agent青睐",
+      "AirKaren AI 替用户‘吵架’争取客服权益",
+      "HirePilot AI 求职助手评论数达103条",
+      "Octolens 专注于Agent监控领域快速崛起",
+      "Typeahead 2.0 成为macOS生产力焦点",
+      "Edgee 工具聚焦Agent成本优化"
+    ],
+    "ai-arxiv": [
+      "Nemotron 三模态解码统一自回归、扩散与推测",
+      "Danus 用事实图谱记忆编排数学推理智能体",
+      "StateFuse 提出冲突保留机制增强Agent可审计",
+      "SpanUQ 实现跨度级不确定性量化助力自纠正",
+      "反事实监督学习让模型学会判断何时搜索",
+      "低资源语言跨语言迁移研究密集出现"
+    ],
+    "ai-hf": [
+      "zai-org/GLM-5.2以3591点赞领跑本周榜单",
+      "DeepSeek-V4-Pro-DSpark旗舰模型持续迭代",
+      "Ornith-1.0-35B基于Qwen3.5下载量超50万",
+      "Qwythos-9B融合多种能力成社区微调标志",
+      "Leanstral-1.5-119B MoE架构企业级推理候选",
+      "Nvidia Nemotron TwoTower 30B 基础模型发布"
+    ],
+    "ai-community": [
+      "AI对话正从‘能做什么’转向‘能信赖吗’",
+      "RAG系统处理表格数据有固有幻觉缺陷",
+      "AI编程工具选择正成为招聘新信号",
+      "嵌入向量可逆向还原文本导致数据泄露",
+      "Agent在真实生产环境稳定性问题受关注",
+      "AI模型成本失控成为开发者热议话题"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.203–204 patch releases",
+      "OpenAI Codex 251-reaction reasoning token bug",
+      "Gemini CLI, Copilot CLI closing feature gaps",
+      "Pi and OpenCode focus on architecture modernization",
+      "Cost transparency crisis across established tools",
+      "Agent autonomy vs user control tension dominates"
+    ],
+    "ai-agents": [
+      "OpenClaw 500 issues, 500 PRs in 24 hours",
+      "Maintainer bandwidth strained by open tickets",
+      "Core agent runtime and sandbox fixes active",
+      "Channel-specific improvements for Discord, Slack, Telegram",
+      "Diamond Lobster rating on high-value bug reports",
+      "No new releases; latest stable is 2026.5.20"
+    ],
+    "ai-trending": [
+      "MadsLorentzen/ai-job-search +2,514 stars today",
+      "Zackriya-Solutions/meetily +1,777 stars for local AI",
+      "asgeirtj/system_prompts_leaks +1,691 stars",
+      "Ollama now supports Kimi-K2.6, GLM-5.1, MiniMax",
+      "vllm-project/vllm at 85,638 stars",
+      "Agent-native tooling surges on GitHub trending"
+    ],
+    "ai-web": [
+      "Anthropic launches Claude Sonnet 5 agentic model",
+      "Sonnet 5 near Opus-level performance at lower price",
+      "Research paper on Claude's 'global workspace' findings",
+      "OpenAI published no new content this cycle",
+      "Sonnet 5 shows improvements in reasoning, tool use",
+      "Anthropic deepens investment in model internals"
+    ],
+    "ai-hn": [
+      "Claude Fable 5 extended access through July 12",
+      "Rowboat open-source local-first Claude Desktop alt",
+      "Behind-the-scenes post on Claude Code development",
+      "Claude Cowork launches on mobile and web",
+      "Concern about AI energy costs and power concentration",
+      "HN split on Fable 5 extension as marketing tactic"
+    ],
+    "ai-ph": [
+      "AnySearch leads with 560+ votes for agent data",
+      "AirKaren AI fights customer service on your behalf",
+      "HirePilot 103 comments on 94 votes for job tool",
+      "Shift from chatbots to specialized AI components",
+      "Agent trend expands from developers to consumers",
+      "Developer infrastructure dominates today's launches"
+    ],
+    "ai-arxiv": [
+      "PluraMath benchmark exposes English/Chinese bias",
+      "Pluralis v0.1 multicultural safety benchmark",
+      "Nemotron tri-mode unifying autoregressive and diffusion",
+      "Multi-agent orchestration and culturally-aware eval",
+      "Graph-based episodic memory to overcome statelessness",
+      "Practical long-horizon coding and math reasoning"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE model hits 281,584 downloads",
+      "DeepSeek-V4-Pro-DSpark flagship reasoning model",
+      "Tencent Hy3 early-stage corporate architecture",
+      "Qwen 3.6 uncensored vision models trending",
+      "Nvidia LocateAnything-3B multimodal localization",
+      "Mistral Leanstral-1.5-119B-A6B sparse MoE"
+    ],
+    "ai-community": [
+      "Shift from AI capabilities to reliability concerns",
+      "RAG systems hallucinate on structured table data",
+      "Embedding vectors can leak original text",
+      "Claude Sonnet 5 stabilizes agent frameworks",
+      "gemma-trainer for local fine-tuning gains traction",
+      "Google AI energy footprint sparks serious debate"
+    ]
+  }
+}

@@ -5,7 +5,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
-import { callLlm, saveFile, autoGenFooter, LLM_TOKENS_ROLLUP } from "./report.ts";
+import { callLlm, parseLlmJson, saveFile, autoGenFooter, LLM_TOKENS_ROLLUP } from "./report.ts";
 import {
   buildWeeklyPrompt,
   buildMonthlyPrompt,
@@ -96,27 +96,25 @@ async function generateRollupHighlights(
     en: { ...existing.en },
   };
 
-  try {
-    const [zhRaw, enRaw] = await Promise.all([
-      callLlm(buildHighlightsPrompt({ [reportId]: zhContent }, "zh", itemsPerReport), 1024),
-      callLlm(buildHighlightsPrompt({ [reportId]: enContent }, "en", itemsPerReport), 1024),
-    ]);
-    const zhNew = JSON.parse(
-      zhRaw
-        .replace(/```json?\n?/g, "")
-        .replace(/```/g, "")
-        .trim(),
-    ) as ReportHighlights;
-    const enNew = JSON.parse(
-      enRaw
-        .replace(/```json?\n?/g, "")
-        .replace(/```/g, "")
-        .trim(),
-    ) as ReportHighlights;
-    Object.assign(highlights.zh, zhNew);
-    Object.assign(highlights.en, enNew);
-  } catch (err) {
-    console.error(`  [${reportId}] Highlights generation failed: ${err}`);
+  // zh and en are parsed independently so a failure in one language doesn't
+  // wipe the other.
+  const [zhRes, enRes] = await Promise.allSettled([
+    callLlm(buildHighlightsPrompt({ [reportId]: zhContent }, "zh", itemsPerReport), 1024),
+    callLlm(buildHighlightsPrompt({ [reportId]: enContent }, "en", itemsPerReport), 1024),
+  ]);
+  for (const [lang, res] of [
+    ["zh", zhRes],
+    ["en", enRes],
+  ] as const) {
+    if (res.status !== "fulfilled") {
+      console.error(`  [${reportId}] ${lang} highlights generation failed: ${res.reason}`);
+      continue;
+    }
+    try {
+      Object.assign(highlights[lang], parseLlmJson<ReportHighlights>(res.value));
+    } catch (err) {
+      console.error(`  [${reportId}] ${lang} highlights parse failed: ${err}`);
+    }
   }
   const p = saveFile(JSON.stringify(highlights, null, 2), dateStr, "highlights.json");
   console.log(`  Saved ${p}`);

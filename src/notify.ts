@@ -11,6 +11,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
+import { pathToFileURL } from "node:url";
 import { NOTIFY_LABELS } from "./i18n.ts";
 import type { ReportHighlights } from "./prompts-data.ts";
 
@@ -67,6 +68,7 @@ export function buildMessage(
   ];
 
   const zhHighlights = highlights?.zh ?? {};
+  const enHighlights = highlights?.en ?? {};
 
   for (const r of ordered) {
     const zhLabel = NOTIFY_LABELS[r]?.zh ?? r;
@@ -82,8 +84,9 @@ export function buildMessage(
       lines.push(`• <a href="${zhUrl}">${zhLabel}</a>`);
     }
 
-    // Add highlights as indented sub-items
-    const items = zhHighlights[r];
+    // Add highlights as indented sub-items. Fall back to en when a report's zh
+    // highlights are missing so a single-language failure never blanks the message.
+    const items = zhHighlights[r] ?? enHighlights[r];
     if (items?.length) {
       for (const h of items) {
         lines.push(`  ◦ ${escapeHtml(h)}`);
@@ -136,7 +139,11 @@ async function main(): Promise<void> {
   console.log("[notify] Done!");
 }
 
-main().catch((e: unknown) => {
-  console.error("[notify]", e instanceof Error ? e.message : e);
-  process.exit(1);
-});
+// Only auto-send when run directly (`tsx src/notify.ts`). Guard prevents an
+// accidental send when another module imports `buildMessage` from here.
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((e: unknown) => {
+    console.error("[notify]", e instanceof Error ? e.message : e);
+    process.exit(1);
+  });
+}

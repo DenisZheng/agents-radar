@@ -85,6 +85,36 @@ describe("buildMessage", () => {
     expect(msg).toContain("◦ OpenClaw 新增 MCP 支持");
   });
 
+  it("falls back to en highlights when a report's zh is missing", () => {
+    // Mirrors the 2026-07-13 incident: zh generation failed, leaving zh empty
+    // while en was populated. The message must still render bullets.
+    const highlights: Highlights = {
+      zh: {},
+      en: {
+        "ai-cli": ["Claude Code releases v1.2.0"],
+        "ai-agents": ["OpenClaw adds MCP support"],
+      },
+    };
+    const msg = buildMessage(
+      "2026-03-09",
+      ["ai-cli", "ai-cli-en", "ai-agents", "ai-agents-en"],
+      BASE_URL,
+      highlights,
+    );
+    expect(msg).toContain("◦ Claude Code releases v1.2.0");
+    expect(msg).toContain("◦ OpenClaw adds MCP support");
+  });
+
+  it("prefers zh highlights over en when both present", () => {
+    const highlights: Highlights = {
+      zh: { "ai-cli": ["Claude Code 发布 v1.2.0"] },
+      en: { "ai-cli": ["Claude Code releases v1.2.0"] },
+    };
+    const msg = buildMessage("2026-03-09", ["ai-cli", "ai-cli-en"], BASE_URL, highlights);
+    expect(msg).toContain("◦ Claude Code 发布 v1.2.0");
+    expect(msg).not.toContain("◦ Claude Code releases v1.2.0");
+  });
+
   it("works without highlights (null)", () => {
     const msg = buildMessage("2026-03-09", ["ai-cli", "ai-cli-en"], BASE_URL, null);
     expect(msg).toContain("AI CLI 工具");

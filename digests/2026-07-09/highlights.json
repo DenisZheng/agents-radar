@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.205 修复成本暴涨和 Agent 失控问题",
+      "Gemini CLI v0.51.0 修复高危 RCE 安全漏洞",
+      "DeepSeek TUI 推出 Fleet 多代理协作架构",
+      "社区热议：AI CLI 工具 Token 消耗异常成普遍痛点",
+      "OpenAI Codex GPT-5.5 回归，社区高度期待",
+      "Pi 工具大量 PR 合并，模型兼容性大幅提升"
+    ],
+    "ai-agents": [
+      "OpenClaw 单日 500 条 Issue，项目健康度堪忧",
+      "会话状态丢失和消息泄露成社区最核心痛点",
+      "超 400 条 PR 待合并，修复速度远落后 Bug 上报",
+      "关键缺陷持续数月未解决，架构风险凸显",
+      "Gemini 模型 ID 前缀兼容性修复已合并",
+      "Anthropic API 图片格式限制问题得到修复"
+    ],
+    "ai-trending": [
+      "Agent Skills 概念霸榜，编程从问答走向执行",
+      "腾讯云开源 CubeSandbox，Agent 安全沙箱走红",
+      "iOfficeAI/OfficeCLI 日增 1717 星，Agent 读写 Office",
+      "vllm 持续火爆，支撑 AI 大规模推理基础设施",
+      "AutoGPT 仍是 Agent 领域标杆，社区活跃",
+      "ollama 新增 Kimi-K2.6 和 GLM-5.1 模型支持"
+    ],
+    "ai-web": [
+      "Anthropic 一日更新 35 篇安全对齐研究报告",
+      "提出AI双用知识'关闭开关'，超越传统过滤",
+      "前沿红队报告：模型能力加速但未达高风险阈值",
+      "智能体错位研究：16 个模型会伪装内部威胁",
+      "OpenAI 推出 GPT-Live 全新实时交互产品",
+      "OpenAI 发布代码评估信噪比工程优化文章"
+    ],
+    "ai-hn": [
+      "GPT-Live 获 602 分，成当日 HN 绝对顶流",
+      "GPT-5.6 Sol 系列周四上线，命名引发热议",
+      "Anthropic Fable 分类器过严遭开发者集体批评",
+      "微软发布 Flint，AI 智能体可视化语言受好评",
+      "Foreman 开源 LLM 网关，实现成本感知路由",
+      "AI 按用量计费高昂成本成社区热议支线"
+    ],
+    "ai-ph": [
+      "Badge AI 收集同行评审，获 465 票登顶今日榜首",
+      "Katalyst 原生打理 Salesforce，获 430 票 358 评",
+      "Ogment AI 嵌入 Slack，AI 同事即 @ 即用",
+      "Ellis 会议纪要工具获社区高互动",
+      "Mira 和 Intervool 聚焦用户访谈自动化",
+      "AI 智能体深度渗透招聘和销售核心流程"
+    ],
+    "ai-arxiv": [
+      "Co-LMLM 提出有限记忆新范式，知识高效解耦",
+      "FourierQK 频谱预处理大幅提升注意力机制",
+      "Agon 跨模型对抗 RL 解决训练信号稀疏问题",
+      "PALS 剪枝法根据激活值动态调整剪枝率",
+      "DeLS-Spec 解耦长短上下文加速投机解码",
+      "Guidance 修复方法避免过饱和与不稳定"
+    ],
+    "ai-hf": [
+      "nvidia/LocateAnything-3B 周榜夺冠，下载超百万",
+      "Qwen 3.6 量化版生态流量担当，GGUF 下载超百万",
+      "DeepSeek V4 微调版涌现，新基座生态扩展",
+      "GLM-5.2 点赞 3667，成非量化模型冠军",
+      "baidu/Unlimited-OCR 通用模型下载超百万",
+      "Krea-2-Turbo 图像生成工具链快速完善"
+    ],
+    "ai-community": [
+      "AI Agent 伪造测试日志并信以为真，引发警示",
+      "更大上下文窗口并未让 RAG 更智能",
+      "修复错误技能一周，开发者反思 AI PR 审查",
+      "Agent 记忆架构比提示词更重要成共识",
+      "提示工程到循环工程，AI 开发能力层次演变",
+      "开源模型实用经济学和 MCP 协议成热议焦点"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.205 patch released",
+      "Agent reliability degradation across major tools",
+      "Cost transparency issues plague Claude Code and Codex",
+      "Multi-agent architecture struggles emerge",
+      "Platform stratification: Claude and Codex lead",
+      "10 active PRs in Claude Code top issues"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24 hours",
+      "458 of 500 issues remain unresolved",
+      "414 of 500 PRs still open today",
+      "No new releases published for OpenClaw",
+      "High-severity message routing defects persist",
+      "Brittle for multi-agent production deployments"
+    ],
+    "ai-trending": [
+      "Agent skills repositories gain 1,000+ stars",
+      "System prompts leaks project +1,218 stars today",
+      "Tencent Cloud launches CubeSandbox sandboxing",
+      "iOfficeAI/OfficeCLI gains +1,717 stars",
+      "In-process vector DB zvec from Alibaba trending",
+      "Multimodal agent capabilities gaining traction"
+    ],
+    "ai-web": [
+      "Anthropic proposes 'off switch' for dual-use knowledge",
+      "Frontier Red Team flags early warning signs",
+      "Policy paper on AI economic impact released",
+      "OpenAI introduces GPT Live product",
+      "Separating Signal From Noise coding evaluations",
+      "Safety classifiers spark community debate"
+    ],
+    "ai-hn": [
+      "GPT-Live and GPT-5.6 Sol dominate discussion",
+      "Ivy League professor exposes AI cheating",
+      "Anthropic safety classifiers criticized",
+      "Community divided on excitement vs frustration",
+      "GPT-5.6 Sol launches publicly this Thursday",
+      "Debate over streaming inference vs rebranding"
+    ],
+    "ai-ph": [
+      "Badge: AI agents collect peer reviews",
+      "Katalyst: AI agent for Salesforce pipelines",
+      "Mira and Intervool for AI-led research",
+      "LongCat-2.0 ASIC training launches",
+      "Glideo auto-edits screen recordings",
+      "AI agents embedded in SaaS workflows"
+    ],
+    "ai-arxiv": [
+      "GRPO zero-gradient stall addressed",
+      "Analysis-driven transformer linearization proposed",
+      "RoPE frequency usage and length generalization",
+      "Self-evolving agent brittleness examined",
+      "Structural causal analysis for agent rewards",
+      "Hard reasoning bottleneck tackled"
+    ],
+    "ai-hf": [
+      "Qwen 3.5/3.6 GGUF variants dominate downloads",
+      "Nvidia LocateAnything-3B vision-language model",
+      "Baidu Unlimited-OCR for specialized vision",
+      "DeepSeek-V4-Pro-DSpark quantized builds",
+      "GLM-5.2 MoE model trending with 3,667 likes",
+      "Gemma-4 coder fine-tunes for local deployment"
+    ],
+    "ai-community": [
+      "Agents faking test logs and believing outputs",
+      "Bigger context windows don't improve RAG",
+      "Loop engineering replaces prompt engineering",
+      "Google AI energy costs spark sustainability debate",
+      "Open-weight cliff concerns raised",
+      "Developer community demands engineering discipline"
+    ]
+  }
+}

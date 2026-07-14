@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.206发布，Fable 5模型问题引社区热议",
+      "OpenAI Codex发布rust-v0.144.1，紧急修复GPT-5.5速率问题",
+      "Gemini CLI v0.52.0-nightly，子代理行为与安全引关注",
+      "GitHub Copilot CLI v1.0.70正式版，TUI稳定性问题爆发",
+      "OpenCode v1.17.18紧急修复，GPT-5.6认证与子代理Bug",
+      "DeepSeek TUI v0.8.68，Fleet/Workflow架构成焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw日处理1000个Issues和PRs，活跃度极高",
+      "社区贡献者发起模块化Dashboard系列PR，向企业级迈进",
+      "Dashboard支持可分享深度链接、导出导入、自定义技能",
+      "Dashboard实现控制Hub，支持代理嵌套、共享/私有标签页",
+      "Dashboard新增工作区标签页，含实时网格与内置组件",
+      "长期积压P1/P2问题数量庞大，技术债务管理面临挑战"
+    ],
+    "ai-trending": [
+      "ai-job-search今日暴涨3716星，AI求职框架登顶趋势榜",
+      "OfficeCLI专为AI Agent设计，原生支持办公文件编辑",
+      "agent-skills定义生产级工程技能，让编码Agent产出更专业",
+      "vllm高性能推理引擎持续霸榜，星数达85,844",
+      "crawl4ai面向LLM的开源爬虫，专为Agent与RAG设计",
+      "pocket-tts轻量级CPU可运行TTS，降低部署门槛"
+    ],
+    "ai-web": [
+      "Anthropic携UST将Claude打入半导体、汽车等物理AI领域",
+      "前美联储主席伯南克加入Anthropic长期利益信托",
+      "OpenAI更新疑似指向GPT-5/6系列及微软365 Copilot",
+      "OpenAI新增Bio Bug Bounty，主动悬赏生物安全漏洞",
+      "Anthropic培训2万名工程师，构建工业AI应用生态",
+      "伯南克加入为Anthropic治理注入制度公信力与宏观视角"
+    ],
+    "ai-hn": [
+      "GPT-5.6发布引爆社区，得分1065/评论777成今日焦点",
+      "纽约时报指控OpenAI在版权案中隐藏证据引热议",
+      "Claude Code生态迅速形成，多集成工具与框架涌现",
+      "GLM-5.2在会计任务接近人类水平，引发白领替代讨论",
+      "中国警告Claude Code存在后门，中美AI竞争添地缘色彩",
+      "Pylon Sync发布，标志开发范式向代理优先转变"
+    ],
+    "ai-ph": [
+      "ExploreYC开源API获729票，查询YC/a16z公司数据",
+      "Link Preview API免费获取URL元数据，获197票",
+      "Knowledge Atlas自学习知识库，获104票29评论",
+      "Weillow与AssemblyAI同日发布顶尖语音识别模型",
+      "NanoKVM将AI Agent拓展至物理屏幕控制硬件",
+      "AI CLI工具崛起，代理专用CLI开发工具受追捧"
+    ],
+    "ai-arxiv": [
+      "UniClawBench提出首个评估主动智能体通用基准测试",
+      "OpenCoF开辟通过视频生成进行推理的新范式",
+      "Latent Memory Palace探索利用记忆宫殿进行控制推理",
+      "论文质疑LLM作为数据标注员的可靠性，需重新审视",
+      "研究揭示量化影响无法用准确率捕捉，具警示意义",
+      "科学谱系推理与临床推理模型展现AI垂直深化潜力"
+    ],
+    "ai-hf": [
+      "Qwen 3.5/3.6系列统治推理、对话和多模态任务",
+      "NVIDIA LocateAnything-3B视觉定位模型获2687赞",
+      "Google Gemma 4智能体版本在开发者社区人气极高",
+      "tencent Hy3模型发布，基于Hunyuan架构国内迭代",
+      "GLM-5.2对话模型凭借MoE架构下载量达36万+",
+      "DeepSeek-V4-Pro-DSpark成社区最强推理模型候选"
+    ],
+    "ai-community": [
+      "手写即诚实观念受挑战，AI与人类代码质量激辩",
+      "拒绝使用AI的资深开发者被指正在变回初级",
+      "AI Agent不需要更多工具，需要可调试的事件日志",
+      "AI代码审查让开发者疲惫，注意力成新稀缺资源",
+      "AI Agent循环能力不足，工程化可靠性是核心痛点",
+      "多模型工作流成本成热议，基础设施隐性负担浮现"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code reaches v2.1.206 stable",
+      "OpenCode gains traction with daily patches",
+      "Token cost anomalies affect all major tools",
+      "Windows regression clusters plague users",
+      "Commercial tools face pricing transparency issues",
+      "Open-source tools focus on extensibility and diversity"
+    ],
+    "ai-agents": [
+      "OpenClaw shows 500 issues and 500 PRs in 24h",
+      "Message-loss bugs flagged as high severity P1",
+      "Session-state corruption problems persist",
+      "Dashboard modularization advances with 15+ PRs",
+      "Prompt injection security issue in Issue #45740",
+      "Tool simulation security concern in Issue #45049"
+    ],
+    "ai-trending": [
+      "ai-job-search repo gains +3,716 stars in one day",
+      "OfficeCLI signals AI-native office tooling shift",
+      "system_prompts_leaks grows to +1,125 stars",
+      "Ollama now supports Kimi-K2.6 and GLM-5.1",
+      "vllm hits 85,844 total stars as inference standard",
+      "Pocket-TTS democratizes voice on consumer hardware"
+    ],
+    "ai-web": [
+      "Anthropic partners with UST for physical AI push",
+      "Ben Bernanke joins Long-Term Benefit Trust",
+      "Claude deployed in semiconductor and automotive",
+      "UST trains 20,000 engineers on Claude",
+      "OpenAI publishes only metadata, no article text",
+      "Anthropic builds institutional infrastructure focus"
+    ],
+    "ai-hn": [
+      "GPT-5.6 launch scores over 1000 on HN",
+      "NYT alleges evidence tampering by OpenAI",
+      "GLM 5.2 matches human bookkeeper accuracy",
+      "54% token efficiency gain for coding tasks",
+      "Community debates GPT-5.6 performance vs marketing",
+      "Tooling for Claude Code and Cursor gains interest"
+    ],
+    "ai-ph": [
+      "ExploreYC leads with 729 votes as data API",
+      "Willow Frontier Pro and AssemblyAI compete on speech",
+      "agents-cli ships agent development from terminal",
+      "NanoKVM-Go gives AI physical screen control",
+      "Speech and transcription dominate today's launches",
+      "Productivity AI targets team transparency and automation"
+    ],
+    "ai-arxiv": [
+      "Papers shift toward agentic system evaluation",
+      "UniClawBench benchmarks proactive real-world agents",
+      "DominoTree improves speculative decoding methods",
+      "BiSCo-LLM explores extreme model quantization",
+      "OpenCoF brings process reasoning to video generation",
+      "Super Weights paper warns on pruning limitations"
+    ],
+    "ai-hf": [
+      "NVIDIA releases vision feature extraction models",
+      "Qwen 3.6 ecosystem spawns uncensored variants",
+      "DeepSeek-V4-Pro-DSpark attracts significant attention",
+      "Fable series fine-tunes emerge from Gemma 4",
+      "GLM-5.2 gets 362,300 downloads as open-weight hit",
+      "Chinese tech giants push new open-weight models"
+    ],
+    "ai-community": [
+      "Senior devs refusing AI risk becoming juniors",
+      "AI agents need receipts, not more tools",
+      "AI code reviews burn out developer teams",
+      "Deterministic routing beats LLM quality gates",
+      "Google AI bloat drives exponential climate costs",
+      "Developers build log-based agents for debuggability"
+    ]
+  }
+}

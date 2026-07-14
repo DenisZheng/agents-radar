@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "多Agent编排与工作流管理成为各工具共同焦点",
+      "Claude Code、OpenCode社区讨论热度最高，Bug反馈密集",
+      "Gemini CLI发布v0.51.0-nightly，大量依赖更新",
+      "Qwen Code发布v0.19.6-nightly，性能与安全并重",
+      "核心Agent执行不确定性成普遍痛点",
+      "生态从炫技期进入工程化落地期，追求可靠性"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.7.1-beta.2，支持GPT-5.6",
+      "新增外部测试工具挂载命令，方便调试Agent",
+      "会话状态恢复功能持续增强，避免流程中断",
+      "iOS客户端后台重连可恢复运行中任务",
+      "社区高度活跃，今日产生1000条Issue和PR",
+      "维护团队面临较大审查和合并压力"
+    ],
+    "ai-trending": [
+      "openai/codex-plugin-cc今日新增1532星，打通Claude与Codex",
+      "anthropics/claude-code新增156星，Agent生态基石",
+      "系统提示词泄露项目收录顶级AI产品内部提示",
+      "终端Agent多路复用器herdr获651星",
+      "阿里巴巴发布页面内GUI Agent获805星",
+      "RAG领域向轻量化、设备端和知识图谱融合进化"
+    ],
+    "ai-hn": [
+      "Claude设计系统提示词项目获116分，社区热议",
+      "浏览器中运行KiCad获96分，技术实现引惊叹",
+      "SQLite工具库4.0主要由Claude编写，成本仅150美元",
+      "文章探讨LLM作为另一种智能，引发深度思考",
+      "美国政策被认为无意加速了中国开源AI生态",
+      "开发者对AI编程高效与消费端问题并存复杂情绪"
+    ],
+    "ai-ph": [
+      "Vida以406票领跑，主打AI克隆自己预判执行任务",
+      "Termi Protocol获186票，让AI编码过程3D可视化",
+      "ChecklistFox获106票，用AI检查清单消除旅行焦虑",
+      "CentryAI获72票，AI驱动的Twitter内容回顾工具",
+      "Qik Office构建企业级AI代理协作空间获33票",
+      "产品发布呈现鲜明生产力导向与个人代理化趋势"
+    ],
+    "ai-hf": [
+      "NVIDIA量化版Qwen3.6-27B-NVFP4下载量近30万",
+      "智谱AI下一代MoE模型GLM-5.2获3470高赞",
+      "DeepSeek-V4-Pro-DSpark发布，MoE架构持续演进",
+      "Gemma-4特定任务微调模型在编码方向表现亮眼",
+      "BugTraceAI修复模型获关注，代码安全领域新探索",
+      "社区量化模型统治下载榜，MoE架构成为主流"
+    ],
+    "ai-community": [
+      "开发者反思：AI加速了编码，技术债也加速积累",
+      "更强AI质检员会过度拒绝有效工作，适得其反",
+      "生产环境Agent存在静默失败风险，需建立观测机制",
+      "企业开始放弃LangChain，转向原生AI Agent架构",
+      "自托管LLM默认无认证，一项配置错误即可被控",
+      "开发者构建本地记忆层，解决AI工具失忆问题"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code, Gemini CLI lead stability race",
+      "Kimi Code stalled in branding migration",
+      "OpenCode recovered from multi-day API outage",
+      "Agent trust and reliability top concern",
+      "Subagent outcome accuracy issues reported",
+      "Memory leaks plague background processes"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.1-beta.2 released",
+      "GPT-5.6 support added to OpenClaw",
+      "500 issues opened in 24 hours",
+      "500 PRs updated in a single day",
+      "New `openclaw attach` command introduced",
+      "Massive community engagement surge"
+    ],
+    "ai-trending": [
+      "caveman stars surge to +1,052",
+      "strix: AI pentesting tool hits +1,114 stars",
+      "meetily: local AI meeting assistant +1,409",
+      "Codex plugin bridges Claude Code and Codex",
+      "system_prompts_leaks gains +981 stars",
+      "Cross-platform agent interoperability emerges"
+    ],
+    "ai-hn": [
+      "Claude Fable rewrites library for under $150",
+      "Canada's Palantir deal draws sharp criticism",
+      "Microsoft Copilot price hike called a corporate tax",
+      "sqlite-utils 4.0rc2 mostly AI-written",
+      "Bigco AI agents warned for sensitive IP",
+      "Tripadvisor AI flagged for dangerous recommendations"
+    ],
+    "ai-ph": [
+      "Vida lets you clone yourself with AI",
+      "Termi Protocol visualizes AI agents in 3D",
+      "ChecklistFox automates task management",
+      "CentryAI powers personal task management",
+      "Autonomous agents dominate today's launches",
+      "AI clone concept drives massive engagement"
+    ],
+    "ai-hf": [
+      "GLM-5.2 leads with 3,470 likes",
+      "Nvidia's LocateAnything-3B at 2,618 likes",
+      "DeepSeek-V4-Pro-DSpark features DSpark optimization",
+      "NVFP4 quantization production-ready for MoE",
+      "Uncensored Qwen3.6 fine-tune trending",
+      "GGUF models dominate with 1.5M downloads"
+    ],
+    "ai-community": [
+      "AI agents failing silently in production",
+      "LLM API costs surprise developers",
+      "LangChain migrations to native architectures",
+      "Code quality degrades under AI shipping pressure",
+      "Novel matrix technique improves recurrent memory",
+      "AI-generated fiction analyzed for idiosyncrasies"
+    ]
+  }
+}

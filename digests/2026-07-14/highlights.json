@@ -1,0 +1,126 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 等工具遭信任危机：Agent 擅改代码、删库、盗用密钥。",
+      "OpenCode v1.17.20 发布，社区活跃度飙升。",
+      "Qwen Code v0.19.9-nightly 发布，持续优化开发体验。",
+      "Gemini CLI v0.52.0-nightly 更新，紧跟头部工具步伐。",
+      "Kimi Code CLI 新增9条PR，MoonshotAI 加速迭代。",
+      "DeepSeek TUI 发布 v0.8.68 RC，社区稳步推进。"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.7.1，集成 Claude Sonnet 5 等新模型。",
+      "致命 Bug：工具调用返回占位符、数据库损坏、会话冲突。",
+      "新用户默认模型改为 GPT-5.6，体验统一化。",
+      "已合并修复：会话初始化冲突导致的永久锁死问题。",
+      "Codex 模型兼容性修复，解决 GPT-5.6 Sol 模板错误。",
+      "社区活跃度极高：24小时内处理500条Issue和500条PR。"
+    ],
+    "ai-trending": [
+      "Vibe-Trading 暴涨千星：AI 加持的个人交易 Agent 爆火。",
+      "hallmark 走红：让 AI 生成告别“模板感”的 CSS 库。",
+      "GitHub 推 spec-kit，规范驱动开发让 AI 编码更可控。",
+      "ECC 获 22.9 万星：为编码 Agent 提供技能与记忆基础。",
+      "marketingskills 出现：为 AI Agent 编写市场营销教材。",
+      "ponytail 爆火：教 AI Agent 如何像资深开发者一样偷懒。"
+    ],
+    "ai-web": [
+      "Anthropic 发布研究：量化 Claude 价值观随语言变化。",
+      "重磅压力测试：前沿模型在压力下可能化身“内鬼”。",
+      "Claude 展现多模态能力：评估其在机器人控制中的表现。",
+      "悉尼办事处扩张，Anthropic 加速全球化布局。",
+      "推出 Creative Cloud 深度集成连接器，拥抱设计师。",
+      "OpenAI 今日零新增，信息战上暂处静默。"
+    ],
+    "ai-hn": [
+      "Zig 创始人炮轰 Anthropic：批评其营销与代码质量不符。",
+      "开发者用纯 SQL 实现神经网络，引发数据库内 ML 热议。",
+      "kassette 项目展示：基于对象存储的持久化 Agent 工作流。",
+      "MIT 新方法：无需生成内容即可检测模型是否滥用儿童数据。",
+      "微软 2026 年初大规模部署 Claude Code 的实证研究发布。",
+      "社区情绪转向批判与务实：从狂热到审慎反思 AI 价值。"
+    ],
+    "ai-ph": [
+      "Miora 爆火：可编辑画布+智能体记忆，解决 AI 用完即忘。",
+      "Second Brain for AI v2：为 AI 提供跨工具的统一记忆层。",
+      "FetchSandbox：记住断点的 API 测试工具，简化回归测试。",
+      "开发者效率工具依旧主导，垂直场景应用加速探索。",
+      "学术写作、公寓设计、园艺规划都有 AI 新工具出现。",
+      "产品更专注与现有工作流融合，而非单点功能创新。"
+    ],
+    "ai-hf": [
+      "Qwen 3.6/3.5 家族持续霸榜，衍生大量微调与量化版。",
+      "MoE 架构全面爆发，智谱 GLM-5.2 与腾讯 Hunyuan Hy3 霸榜。",
+      "百度 Unlimited-OCR 爆火：通用 OCR 模型下载量近 200 万。",
+      "Qwythos-9B 量化版下载近200万，社区热度极高。",
+      "NVIDIA 发布 Nemotron Puzzle 75B：仅激活9B，主打高效推理。",
+      "GGUF 量化版本下载量普遍超越原始模型，本地需求旺盛。"
+    ],
+    "ai-community": [
+      "30天 Vibe Coding 试验：开发者称自己编程技能显著退化。",
+      "AWS 实战：将 Gemma-4 移植至 Inferentia2 的踩坑全记录。",
+      "反思风险：AI 编码代理的效率神话正在导致技能空心化。",
+      "VetoBench 诞生：AI 记忆记得你的选择，却忘了你的否决。",
+      "Rust 工具强调“诚实”：说不知道比自信犯错更有价值。",
+      "社区焦点从“如何使用AI”转向“如何用好并驾驭AI”."
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.2 released",
+      "Open issues: 10 hot, 1 critical",
+      "Safety guarantees demanded for agents",
+      "Cross-tool compatibility focus grows",
+      "Destructive command execution risks",
+      "Permission system failures dominate"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.1 shipped",
+      "500 issues, 500 PRs in 24h",
+      "New models: Claude Sonnet 5, Mythos 5",
+      "Default model changed to GPT-5.6",
+      "New /think commands: ultra, max",
+      "P0 regressions strain maintainers"
+    ],
+    "ai-trending": [
+      "Graphify hits 84,740 stars (+1,095)",
+      "mem0ai/mem0 for persistent memory",
+      "Ollama now supports Kimi-K2.6",
+      "Agent infrastructure projects surge",
+      "AI Skills repositories growing fast",
+      "Self-hosted Grok companion Airi"
+    ],
+    "ai-web": [
+      "Agentic misalignment paper published",
+      "16 models showed malicious behaviors",
+      "Claude Design launched for enterprise",
+      "Safety frontier research push",
+      "Creative Work connectors released",
+      "Dual-track strategy: research + product"
+    ],
+    "ai-hn": [
+      "Zig creator criticizes Claude code",
+      "Anthropic pays $65K in SF debate",
+      "Neural network in SQL implemented",
+      "YouTube guitar tab parser built",
+      "AI safety detection MIT paper",
+      "Code quality and liability debate"
+    ],
+    "ai-hf": [
+      "GLM-5.2 leads with 3,900 likes",
+      "Qwen 3.6 MoE hits 2.5M downloads",
+      "Nvidia Nemotron 30B MoE model",
+      "Baidu Unlimited-OCR trending",
+      "Cohere Arabic speech model live",
+      "Agentic fine-tune Agents-A1"
+    ],
+    "ai-community": [
+      "30-day Claude Code bender confessed",
+      "Skill atrophy from vibe coding",
+      "Post-documentation era debated",
+      "Google energy consumption viral",
+      "Gemma-4 ported to AWS Inferentia2",
+      "Honest AI evaluation tools built"
+    ]
+  }
+}

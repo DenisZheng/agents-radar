@@ -1,0 +1,166 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.197 引入 Sonnet 5 模型",
+      "OpenAI Codex 性能回退和 Windows 兼容性成热点",
+      "Gemini CLI v0.51.0 聚焦 Agent 行为正确性",
+      "GitHub Copilot CLI 一日连发两个版本修复体验",
+      "Qwen Code v0.19.3 平台化加速但稳定性堪忧",
+      "OpenCode v1.17.12 内存问题持续社区热议"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.6.11 增强渠道控制",
+      "315 条 Issue 和 500 条 PR 活跃度极高",
+      "会话稳定性和消息丢失成社区关注焦点",
+      "GitHub Copilot CLI 修复体验问题",
+      "新 PR 审查自动修复流水线加入项目",
+      "Wiki 系统 YAML 解析崩溃获修复"
+    ],
+    "ai-trending": [
+      "Google 发布 agents-cli 标准化 Agent 开发",
+      "AutoGPT 以 185k 星持续引领 Agent 生态",
+      "ollama 成为本地运行大模型首选入口",
+      "browser-use 让 AI 自主操作浏览器获 101k 星",
+      "bytedance/deer-flow 攻克长周期复杂任务",
+      "mem0 和 RAGFlow 推动知识管理基础设施化"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Claude Sonnet 5 最强中杯模型",
+      "Sonnet 5 代理能力接近 Opus 4.8 且成本更低",
+      "Anthropic 推出 Claude Science 科研工作台",
+      "OpenAI 发布 Genebench Pro 聚焦生物安全",
+      "Claude Science 集成 PubMed 和 Jupyter",
+      "Anthropic 强调安全评估与能力边界透明化"
+    ],
+    "ai-hn": [
+      "Claude Sonnet 5 发布成今日头号热点",
+      "834 分讨论 Sonnet 5 与竞品性能对比",
+      "Claude Code 被指删除 30 天以上旧记录",
+      "Meta 展示脑波转文字非侵入式技术",
+      "美国商务部解除 Fable 5 和 Mythos 5 出口管制",
+      "第三方基准迅速验证 Sonnet 5 实际表现"
+    ],
+    "ai-ph": [
+      "Receiptor AI Agent 获 483 票自动处理票据",
+      "Spira 专为 Product Hunt 发布者设计社交推广",
+      "ClinePass 获 313 票轻松运行开源模型",
+      "Outpaint 将 UGC 内容适应不同广告格式",
+      "Mailgent 全能邮件智能体实现复杂流程自动化",
+      "开发者工具方向转向细分痛点如编码记忆"
+    ],
+    "ai-arxiv": [
+      "WorldEvolver 让 LLM Agent 自我演化规划",
+      "LLM 代码漏洞检测受认知启发法偏见影响",
+      "多轮对话中 LLM 收敛到吸引子状态",
+      "人类创造力基准重新定义 AI 创造力评估",
+      "工具增强型 Agent 面临实体绑定失败风险",
+      "合成数据让仿人机器人学会全身操作物体"
+    ],
+    "ai-hf": [
+      "GLM-5.2 以 3050 赞问鼎周赞榜",
+      "DeepSeek V4 Pro 引入 DSpark 新架构",
+      "百度 Unlimited-OCR 下载量达 429k 成爆款",
+      "VibeThinker-3B 小型思维链模型表现亮眼",
+      "NVIDIA LocateAnything-3B 专注视觉定位",
+      "Ornith-1.0-397B 社区挑战千亿参数模型"
+    ],
+    "ai-community": [
+      "AI 未来在于本地运行和开放模型",
+      "AI Engineer World's Fair 强调不要盲目追求前沿",
+      "上下文工程成为提升 AI Agent 效果的新兴领域",
+      "AGENTS.md 文件让 AI 编码代理真正有用",
+      "开发者学会不再与 AI 比拼产出速度",
+      "Anthropic 论文重塑对软件工程角色认知"
+    ],
+    "ai-monthly": [
+      "Anthropic融资650亿，估值9650亿美元创新高",
+      "Claude Opus 4.8被指控蒸馏Qwen，爆发信任危机",
+      "Anthropic最强模型遭美国政府禁入，AI地缘政治化里程碑",
+      "OpenAI秘密提交IPO，巨额亏损下启动资本市场博弈",
+      "GLM-5.2开源击败Claude，引发平行AI世界讨论",
+      "Hermes Agent登顶GitHub，陪伴式Agent范式崛起"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code controversial spyware",
+      "OpenAI Codex sees heavy activity",
+      "Gemini CLI gains traction",
+      "Cross-tool reliability issues",
+      "9 tools tracked this week",
+      "Agent orchestration challenges"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.11 released",
+      "315 issues, 500 PRs updated",
+      "60 PRs merged in 24 hours",
+      "Silent message loss bugs",
+      "Session starvation problems",
+      "High maintainer throughput"
+    ],
+    "ai-trending": [
+      "Agent infrastructure gold rush",
+      "browser-use hits 721 stars",
+      "obra/superpowers at 890 stars",
+      "msitarzewski +1,791 stars",
+      "mem0ai hits 59.8k stars",
+      "ollama now supports Kimi-K2.6"
+    ],
+    "ai-web": [
+      "Claude Sonnet 5 announced",
+      "Claude Science workbench launched",
+      "Frontier Red Team research live",
+      "OpenAI Genebench Pro hinted",
+      "Sonnet near Opus performance",
+      "Vertical productization play"
+    ],
+    "ai-hn": [
+      "Claude Sonnet 5 sparks debate",
+      "Spyware allegations in Claude Code",
+      "5x price hike controversy",
+      "Export controls lifted on models",
+      "Brain2Qwerty non-invasive BCI",
+      "Community trust issues emerge"
+    ],
+    "ai-ph": [
+      "Agent Mode by Receiptor AI",
+      "ClinePass for open-weight models",
+      "483 votes for Receiptor AI",
+      "ClinePass cracks model access",
+      "Autonomous bookkeeping agent",
+      "Vertical automation workflows"
+    ],
+    "ai-arxiv": [
+      "35B agent matches trillion-params",
+      "WorldEvolver improves planning",
+      "Hybrid attention model method",
+      "Reward hacking in offline RL",
+      "Attractor states in conversations",
+      "Human Creativity Benchmark"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE leads with 3k likes",
+      "Qwen-AgentWorld-35B trending",
+      "Ornith-1.0 series gaining traction",
+      "Gemma-4-12B coder quantized",
+      "LTX-2.3 video generation",
+      "Uncensored Qwen variants popular"
+    ],
+    "ai-community": [
+      "The Log Is the Agent",
+      "Local AI future emerging",
+      "Loop engineering for agents",
+      "Smaller models often enough",
+      "AI security deep dives",
+      "Post-hype pragmatism shift"
+    ],
+    "ai-monthly": [
+      "Anthropic's $65B round and Opus 4.8 release",
+      "Claude Code 'Cost Runaway' crisis erupts",
+      "OpenAI secret IPO filing and $38B loss leak",
+      "'Agent Skill' ecosystem explodes on GitHub",
+      "Fable 5 triggers 10-20x token consumption",
+      "Agent reliability overtakes raw model capability"
+    ]
+  }
+}

@@ -11,6 +11,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
+import { pathToFileURL } from "node:url";
 import { NOTIFY_LABELS } from "./i18n.ts";
 import type { Highlights } from "./notify.ts";
 
@@ -77,6 +78,7 @@ export function buildFeishuMessage(
   ];
 
   const zhHighlights = highlights?.zh ?? {};
+  const enHighlights = highlights?.en ?? {};
 
   for (const r of ordered) {
     const zhLabel = NOTIFY_LABELS[r]?.zh ?? r;
@@ -92,7 +94,9 @@ export function buildFeishuMessage(
       lines.push(`• [${zhLabel}](${zhUrl})`);
     }
 
-    const items = zhHighlights[r];
+    // Fall back to en when a report's zh highlights are missing so a
+    // single-language failure never blanks the message.
+    const items = zhHighlights[r] ?? enHighlights[r];
     if (items?.length) {
       for (const h of items) {
         lines.push(`  ◦ ${h}`);
@@ -150,7 +154,11 @@ async function main(): Promise<void> {
   console.log("[feishu] Done!");
 }
 
-main().catch((e: unknown) => {
-  console.error("[feishu]", e instanceof Error ? e.message : e);
-  process.exit(1);
-});
+// Only auto-send when run directly (`tsx src/feishu.ts`). Guard prevents an
+// accidental send when another module imports from here.
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((e: unknown) => {
+    console.error("[feishu]", e instanceof Error ? e.message : e);
+    process.exit(1);
+  });
+}

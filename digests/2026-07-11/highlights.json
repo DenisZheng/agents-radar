@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.206/207发布，但失控与成本Bug引发担忧",
+      "OpenAI Codex适配GPT-5.6 Sol，修复安全问题",
+      "Gemini CLI v0.52.0-nightly聚焦安全加固与幽灵执行修复",
+      "GitHub Copilot CLI v1.0.71-0修复终端卡死与MCP OAuth问题",
+      "Qwen Code v0.19.9正式版发布，聚焦子代理TCO与Web Shell",
+      "DeepSeek TUI冲刺v0.8.68，聚焦工作流自动化"
+    ],
+    "ai-agents": [
+      "今日Issue与PR更新超930条，社区高度活跃",
+      "修复并发写导致Memory Wiki部分失败的P0级Bug",
+      "新增跨平台结构化表格展示功能，解决富文本显示问题",
+      "引入Web控制UI嵌入式浏览器面板，增强网页交互能力",
+      "修复Telegram平台Cron摘要可能发送空消息的Bug",
+      "大量智能体权限控制与跨平台体验一致性请求涌现"
+    ],
+    "ai-trending": [
+      "agent-skills项目今日获1116星，Agent技能工程爆发",
+      "mattpocock/skills获1712星，实战技能集合引爆社区",
+      "iOfficeAI/OfficeCLI获1224星，Agent办公自动化利器",
+      "wonderwhy-er/DesktopCommanderMCP获328星，终端控制新方案",
+      "TencentDB-Agent-Memory获123星，提供本地化Agent记忆层",
+      "obra/superpowers获1013星，Agent技能框架方法论"
+    ],
+    "ai-hn": [
+      "苹果正式起诉OpenAI，指控其窃取商业机密",
+      "GPT-5.6 Sol Ultra证明环双覆盖猜想，引发科学界热议",
+      "12个前沿模型同台竞技编码，开发者聚焦编程风格差异",
+      "视频揭示AI成本悖论：部署成本已超过替代人力成本",
+      "单篇Wikipedia页面消耗AI Agent 68000个Token",
+      "社区热议AI安全性失控风险与GPT-5.6误删用户文件"
+    ],
+    "ai-ph": [
+      "Auriko获568票，为LLM调用提供交易台级精细控制",
+      "Timbal AI获509票，一站式智能体构建平台受追捧",
+      "Perfai Security聚焦AI应用安全，开发者工具安全化",
+      "GPT-Live实现AI语音交互，社区关注度极高",
+      "Toyo作为iMessage执行助理，AI向嵌入式服务进化",
+      "Opper AI欧洲API网关发布，聚焦安全与效率"
+    ],
+    "ai-arxiv": [
+      "UniClawBench提出主动智能体通用基准，填补评估空白",
+      "OpenCoF研究视频生成作为推理路径，挑战传统认知",
+      "量化评估新研究揭示：量化引入不可忽略行为变化",
+      "多智能体协作搜索WebSwarm，提升信息检索效率",
+      "BiSCo-LLM实现免查表极端低位模型压缩",
+      "DominoTree条件树状草稿加速LLM推理解码"
+    ],
+    "ai-hf": [
+      "GLM-5.2获3785赞，采用MoE-DSA技术成焦点对话模型",
+      "nvidia/LocateAnything-3B获2700赞，精准目标定位模型",
+      "Qwen3.6系列持续发力，催生高下载量社区变体",
+      "DeepSeek-V4-Pro-DSpark发布，MoE大模型新高度",
+      "baidu/Unlimited-OCR获1921赞，全能OCR模型发布",
+      "Qwythos-9B推理增强模型获761赞，思考能力受追捧"
+    ],
+    "ai-community": [
+      "寓言故事警示AI模板合同陷阱，引发伦理法律讨论",
+      "开发者提出错误模型，优雅处理多AI提供商失败模式",
+      "50个AI Agent并行扫描4.6亿行代码，全部返回相同结果",
+      "专门安全linter面世，专抓AI助手写出的安全漏洞",
+      "批判开发者将AI编码Agent当老虎机用的浮躁心态",
+      "社区聚焦AI Agent信任危机与生产成本焦虑"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Agentic control dominates community focus",
+      "GPT-5.6 models cause integration friction",
+      "Security fixes for path traversal released",
+      "Claude Code releases two new versions",
+      "New Gemini CLI and Kimi CLI tracked",
+      "Token consumption concerns remain high"
+    ],
+    "ai-agents": [
+      "OpenClaw has 431 issues and 500 PRs",
+      "Memory leaks and session bugs addressed",
+      "Release handoff PR for 2026.7.1 opened",
+      "Portable table system in development",
+      "Gateway browser panel for Control UI",
+      "Telegram delivery correctness improved"
+    ],
+    "ai-trending": [
+      "Agent skill curation explodes on GitHub",
+      "addyosmani/agent-skills gains 1,116 stars",
+      "mattpocock/skills gains 1,712 stars",
+      "obra/superpowers gains 1,013 stars",
+      "OfficeCLI launches AI-native Office suite",
+      "Ollama now supports Kimi-K2.6 and GLM-5.1"
+    ],
+    "ai-hn": [
+      "Apple sues OpenAI over trade secrets",
+      "GPT-5.6 Sol Ultra proves major conjecture",
+      "GPT-5.6 blamed for catastrophic file deletion",
+      "User banned by OpenAI, appeal approved by AI",
+      "Claude, Grok 4.5 build same 4 apps compared",
+      "Cycle Double Cover proof sparks debate"
+    ],
+    "ai-ph": [
+      "Auriko tops with agentic infrastructure focus",
+      "Perfai Security gets 138 comments",
+      "Toyo integrates AI exec assistant in iMessage",
+      "Coasty computer-use-agent runs legacy software",
+      "GPT-Live offers full-duplex voice for ChatGPT",
+      "Vibe coding security emerges as niche"
+    ],
+    "ai-arxiv": [
+      "Super Weights in LLMs challenged by pruning",
+      "Quantized LLMs show hidden behavioral changes",
+      "Training-free speculative decoding advances",
+      "Tree-structured drafting for inference speed",
+      "Self-interested AI agent dynamics formalized",
+      "Benchmarks evolve for agentic memory tasks"
+    ],
+    "ai-hf": [
+      "Qwen 3.6 derivatives flood Hugging Face",
+      "nvidia/LocateAnything-3B tops votes",
+      "NVFP4 quantization becomes deployment standard",
+      "DeepSeek-V4-Pro-DSpark gains traction",
+      "MoE models like Leanstral-1.5 trending",
+      "Specialized video models for identity emerge"
+    ],
+    "ai-community": [
+      "Developers build error models for AI failures",
+      "Linter catches AI assistant security bugs",
+      "Coding agents compared to slot machines",
+      "Google AI energy consumption debated",
+      "Caching proxies for reliable AI deployments",
+      "Neural gates for agent self-verification"
+    ]
+  }
+}

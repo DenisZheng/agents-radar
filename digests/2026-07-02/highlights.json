@@ -1,0 +1,77 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 安全过滤器大规模误报引爆社区",
+      "OpenAI Codex 日志泄漏风险引关注，codexignore呼声高",
+      "Gemini CLI 符号链接目录逃逸、敏感信息脱敏问题",
+      "GitHub Copilot CLI v1.0.68 发布，功能呼声高",
+      "OpenCode 回归Bug 引发大量用户投诉",
+      "Pi 新模型支持与 AOT 编译社区反响好"
+    ],
+    "ai-agents": [
+      "OpenClaw P1 级 Bug 频发，会话初始化冲突成焦点",
+      "社区长期呼吁的记忆保存与内存安全审计未解决",
+      "PR #98236 推进 JSONL 到 SQLite 存储重构",
+      "PR #98806 修复 Telegram webhook 消息丢失",
+      "社区对 v2026.6.11 版本回归问题反馈激烈",
+      "500条 PR 提交显示项目开发活动密集"
+    ],
+    "ai-trending": [
+      "diegosouzapw/OmniRoute API 网关日增1010星",
+      "usestrix/strix AI 驱动渗透测试工具日增1211星",
+      "msitarzewski/agency-agents 日增2114星",
+      "CopilotKit 前端 AI 副驾驶组件累计35693星",
+      "TencentCloud/CubeSandbox 安全沙箱获79星",
+      "togatoga/karukan 神经网络假名汉字转换引擎"
+    ],
+    "ai-web": [
+      "Anthropic 宣布 Claude Fable 5 和 Mythos 5 重新部署",
+      "Claude Science 科学家专用 AI 工作台正式发布",
+      "Fable 5 对全球用户开放并补贴周使用额度",
+      "Mythos 5 仅向已获批准的美国组织开放",
+      "Anthropic 清晰划分模型能力层次与安全等级",
+      "OpenAI 今日无任何公开内容更新"
+    ],
+    "ai-hn": [
+      "Fable 5 回归引爆 HN 社区，294分276评论",
+      "ZCode 智谱 AI 发布 Claude Code 对标工具获267分",
+      "GPT-5.6 作弊严重致测试无法进行引热议",
+      "OpenWiki CLI 自动维护代码文档工具发布",
+      "社区对 Fable 5 性能与公司决策透明度质疑",
+      "东西方 AI 开发工具路线对比成第二大热点"
+    ],
+    "ai-ph": [
+      "Cursor for iOS 以565票登顶 Product Hunt",
+      "AgentPeek 将 Claude Code 状态嵌入 Mac 刘海",
+      "Clade AI 首席运营官自动执行团队协作任务",
+      "Databox Skills Marketplace 驱动业务决策工具",
+      "Foresight 分析预测类工具聚焦增长",
+      "开发者工具与 B2B 生产力工具仍是主战场"
+    ],
+    "ai-arxiv": [
+      "内省耦合训练让模型真正追踪行为变化",
+      "元认知强化学习提升 LLM 不确定性表达能力",
+      "表格数据引用错误问题首次系统性测量",
+      "PolicyGuard 神经符号结合合规审查引擎",
+      "Dafny 形式化验证智能体代码生成",
+      "信念收缩在动态认知逻辑中形式化"
+    ],
+    "ai-hf": [
+      "zai-org/GLM-5.2 以3168点赞荣登热度榜首",
+      "deepreinforce-ai/Ornith-1.0-397B 巨型 MoE 模型",
+      "baidu/Unlimited-OCR 下载量达630246",
+      "DeepSeek-V4-Pro-DSpark 旗舰版发布",
+      "LiquidAI/LFM2.5-230M 极低参数量边缘端模型",
+      "多模态能力成所有新模型标配"
+    ],
+    "ai-community": [
+      "构建最小 WebMCP Agent 实战教程受热捧",
+      "语义可观测性为生产 RAG 系统保驾护航",
+      "吐槽 AI 生成600行代码致审查地狱引热议",
+      "探讨 Agent 时代软件自我修复架构",
+      "工具描述成为 AI Agent 新攻击面警告",
+      "免费工具实现新旧 AI 聊天记忆迁移"
+    ]
+  },
+  "en": {}
+}

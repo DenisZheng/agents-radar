@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code社区爆发信任危机，付费计划引发争议",
+      "OpenAI Codex成本暴涨，用户投诉磁盘损耗",
+      "Gemini CLI聚焦Agent架构稳定性和Bug修复",
+      "GitHub Copilot CLI发布v1.0.69-1，MCP管理新功能",
+      "Pi工具推出/improve新功能，社区活跃",
+      "OpenCode自动压缩功能引关注，BUG与需求并存"
+    ],
+    "ai-agents": [
+      "OpenClaw项目24小时内产生500条Issue和PR",
+      "安全回归Bug #51396引发紧急关注",
+      "会话锁定失败等P1级Bug影响可用性",
+      "修复watch脚本热重载健壮性的PR合并",
+      "改进文本处理健壮性，修复编码错误",
+      "社区热点集中在安全边界与会话稳定性"
+    ],
+    "ai-trending": [
+      "本地模型运行工具ollama获175,470星标",
+      "AI渗透测试工具strix今日新增1904星标",
+      "阿里巴巴开源page-agent，用自然语言控制网页",
+      "AutoGPT以185,352星标引领AI智能体赛道",
+      "字节跳动deer-flow开源长期任务超级智能体",
+      "浏览器AI自动化项目browser-use获102,735星标"
+    ],
+    "ai-hn": [
+      "Anthropic被指缓存泄漏，信任危机爆发",
+      "用户质疑Claude Code实施暗示注入攻击",
+      "OpenAI Codex性能退化，推理token聚类是元凶",
+      "达摩院AI Agent自主发现四种新型超导体",
+      "本地隐私优先的Recall替代品ScreenMind发布",
+      "社区积极寻求本地和开源AI替代方案"
+    ],
+    "ai-ph": [
+      "Raycast Glaze登顶，聊天即可创建Mac原生应用",
+      "nxt用自然语言对话管理待办事项",
+      "Vox为GitHub Copilot提供语音编程接口",
+      "Gemma 4驱动的本地Recall替代品发布",
+      "AI工具呈现开发者中心化和轻量化趋势",
+      "AI极大降低了桌面应用开发的门槛"
+    ],
+    "ai-hf": [
+      "GLM-5.2以3,399点赞登顶本周热门榜",
+      "Ornith-1.0-35B-GGUF量化版下载量近36万",
+      "HauhauCS系列模型下载量近300万",
+      "多模态模型与视觉定位需求旺盛",
+      "Agentic和Coding成为最热模型标签",
+      "Qwen家族成为新一代主流微调基底"
+    ],
+    "ai-community": [
+      "AI Agent安全隐忧：数据泄露和静默失败",
+      "LangChain替代方案和原生架构成热点",
+      "Claude Code和Cursor等编码工具对比火爆",
+      "AI Agent需50ms SLA检查点引擎保障可靠性",
+      "70%开发者认为AI代码审查比人类更全面",
+      "AI动画移除背景的PNG Alpha遮罩方案实用"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hot with 10+ issues",
+      "Gemini CLI racing to close gaps",
+      "Session reliability frustrates users",
+      "Cost transparency concerns mounting",
+      "Agent behavior predictability issues",
+      "DeepSeek TUI focuses on niche UX"
+    ],
+    "ai-agents": [
+      "OpenClaw at 500 issues, 500 PRs",
+      "47 closed issues in 24 hours",
+      "152 PRs merged or closed today",
+      "Live Docs ahead of current release",
+      "IsolatedSessions heartbeat missing",
+      "P1/P0 bugs clog the backlog"
+    ],
+    "ai-trending": [
+      "Agent skill ecosystems explode",
+      "Caveman cuts token usage 65%",
+      "Strix hits 1,904 stars in one day",
+      "Microsoft launches .NET skills repo",
+      "Chrome DevTools MCP server launched",
+      "MCP dominates agent integration"
+    ],
+    "ai-hn": [
+      "Claude Code session leak alleged",
+      "Anthropic prompt injection claims",
+      "Alibaba bans Claude Code internally",
+      "GPT-5.5 Codex performance degrading",
+      "Reasoning-token clustering blamed",
+      "Community skeptical of AI vendors"
+    ],
+    "ai-ph": [
+      "Glaze by Raycast creates Mac apps",
+      "Tamamon gamifies Claude Code usage",
+      "nxt lets you talk to to-do list",
+      "Developer Experience dominates launches",
+      "OS-level AI integration emerging",
+      "575 votes for top product Glaze"
+    ],
+    "ai-hf": [
+      "Qwen 3.5/3.6 ecosystem surges",
+      "NVIDIA releases Qwen3.6-27B-NVFP4",
+      "GLM-5.2 gets 3,399 likes",
+      "DeepSeek-V4-Pro-DSpark launched",
+      "Multi-modal MoE architectures rising",
+      "High-download GGUF variants popular"
+    ],
+    "ai-community": [
+      "AI agent loops silently fail weeks",
+      "LLM fabricated outage attack narrative",
+      "Vector database comparisons published",
+      "LangChain prompt caching optimized",
+      "GPU simulation gamifies inference",
+      "Safety and alignment discussions persist"
+    ]
+  }
+}

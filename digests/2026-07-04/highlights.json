@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code社区聚焦Agent行为稳定性与子代理OOM问题",
+      "OpenAI Codex推进上下文压缩修复，进度回退问题受关注",
+      "Gemini CLI聚焦安全沙箱与Agent挂起问题修复",
+      "GitHub Copilot CLI Agent模式工具别名解析失败",
+      "Qwen Code发布v0.19.6正式版，增强Web Shell功能",
+      "DeepSeek TUI v0.8.67发布在即，社区活跃度高"
+    ],
+    "ai-agents": [
+      "OpenClaw社区日更新超800条Issue与PR",
+      "核心贡献者提交统一化Abort机制重大重构PR",
+      "HTTP边界安全读取提升为通用传输基础设施",
+      "大量P1级diamond lobster问题仍未解决",
+      "无新版本发布但合并关闭56个PR",
+      "Codex worker鲁棒性重构取得关键进展"
+    ],
+    "ai-trending": [
+      "Strix渗透测试工具单日暴涨2803星",
+      "Caveman Token优化方法爆红，削减65%成本",
+      "AutoGPT持续迭代，保持Agent框架标杆地位",
+      "vllm稳居高性能推理引擎榜首",
+      "Chrome DevTools推出AI代理接口",
+      "Codex与Claude Code集成插件上线"
+    ],
+    "ai-web": [
+      "Anthropic详细披露Fable 5网络安全分类器技术细节",
+      "业界首个AI越狱严重性分级框架草案发布",
+      "Anthropic重发RSP政策强调安全体系化",
+      "Claude扩展思考模式强化可解释性与可控性",
+      "OpenAI今日无更新内容",
+      "三篇内容聚焦安全治理从原则走向实践"
+    ],
+    "ai-hn": [
+      "本地运行顶级LLM指南获275分高热度",
+      "AMD上GLM5.2推理速度超Blackwell两倍",
+      "Mistral发布数学定理证明模型Leanstral 1.5",
+      "AI投资回报率普遍质疑引发激烈辩论",
+      "Anthropic Mac App体验差引社区不满",
+      "Claude Mythos发布前后高危漏洞激增"
+    ],
+    "ai-ph": [
+      "Context.dev以826票登顶，全能API抓取需求强劲",
+      "Needle嵌入Slack主动式GTM智能体获296票",
+      "Macro通过共享记忆统一工作上下文",
+      "Retrace AI开发者调试工具备受关注",
+      "Scritty记忆管理工具助力工程化生态",
+      "AI智能体从单点工具向系统级助手进化"
+    ],
+    "ai-arxiv": [
+      "分布式攻击揭示AI编程代理新安全威胁",
+      "在线安全监控框架实现LLM实时安全检测",
+      "RFM-AGOP方法突破LLM拒绝行为单一方向假设",
+      "LACUNA测试平台评估LLM遗忘定位精度",
+      "扩展定律与社会模拟真实性可能正交",
+      "约束即控制：编码Agent可扩展监管新思路"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE模型获3344赞领跑本周榜单",
+      "DeepSeek-V4-Pro-DSpark增强版发布引关注",
+      "nvidia LocateAnything-3B视觉定位模型爆红",
+      "百度Unlimited-OCR无限类别OCR持续高热",
+      "Gemma-4代码模型GGUF版本下载超62万",
+      "Krea-2-Turbo生图加速版平衡质量与速度"
+    ],
+    "ai-community": [
+      "基于Firecracker构建AI生成代码沙箱的实践",
+      "18个月RAG生产化系统的血泪教训分享",
+      "AI Agent记忆系统架构未来展望",
+      "50ms SLA检查点引擎确保Agent可靠性",
+      "AI Agent工具调用数据泄漏风险警示",
+      "MCP协议作为新架构范式备受关注"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.201 shipped today",
+      "Claude Code UX regression sparks backlash",
+      "Gemini CLI in nightly pre-release cycle",
+      "OpenAI Codex on security hardening",
+      "Qwen Code and OpenCode ship multiple daily releases",
+      "Subagent reliability is universal pain point"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 PRs in 24 hours",
+      "OpenClaw in deep stability hardening cycle",
+      "No new releases from OpenClaw today",
+      "56 PRs merged into OpenClaw core",
+      "Abort primitives consolidated across runtime",
+      "Maintainer-led refactoring dominates activity"
+    ],
+    "ai-trending": [
+      "Caveman cuts 65% token usage",
+      "Strix: first open-source AI pentesting tool (+2.8K stars)",
+      "Chrome DevTools MCP server for coding agents",
+      "CubeSandbox: lightweight sandbox for AI agents",
+      "Facebook Astryx: agent-focused design system",
+      "Agent memory and knowledge graphs surge"
+    ],
+    "ai-web": [
+      "Anthropic posts Fable 5 jailbreak framework",
+      "Fable 5 redeployed with safety post-mortem",
+      "Claude Extended Thinking rationale revealed",
+      "Anthropic RSP 2023 framework re-scanned",
+      "Jailbreak Severity Framework with Glasswing",
+      "OpenAI silent with no new articles today"
+    ],
+    "ai-hn": [
+      "AMD MI355X beats Nvidia Blackwell on cost-per-token",
+      "AI saves only ~3% of work hours: fierce debate",
+      "New vulnerability tied to Anthropic Mythos preview",
+      "Alibaba spyware accusation against Claude Code",
+      "Guide to running SOTA LLMs locally tops charts",
+      "Mistral Leanstral 1.5 for proof generation"
+    ],
+    "ai-ph": [
+      "Context.dev tops Product Hunt today",
+      "Needle: proactive GTM agent in Slack",
+      "Flowly: personal AI agent on desktop/iPhone",
+      "Scritty: shared memory for coding agents",
+      "Retrace debugs agents via replay and forking",
+      "Agent memory and debugging tools emerge"
+    ],
+    "ai-arxiv": [
+      "Online Safety Monitor for LLMs deployed",
+      "DRIFTLENS: memory alters model reasoning",
+      "Fast Multi-dimensional Refusal Steering proposed",
+      "Persistent-state coding agents new attack surface",
+      "Recursive evidence replay for long context",
+      "Neuron-aware data selection for training"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE tops Hugging Face with 3.3K likes",
+      "DeepSeek-V4-Pro-DSpark with dynamic sparse attention",
+      "Ornith-1.0-397B pushes open-weight frontier",
+      "GGUF quantized models dominate downloads",
+      "NVIDIA vision and inference models trending",
+      "3D-aware video generation with LTX-2.3"
+    ],
+    "ai-community": [
+      "AI Engineer World's Fair had 7,000 attendees",
+      "Security: AI agent data leakage and untrusted code",
+      "MCP gains traction as paradigm shift",
+      "Production RAG after 18 months: hard lessons",
+      "Adversarial testing 101: break your model first",
+      "Cory Doctorow critiques Big Tech AI narrative"
+    ]
+  }
+}

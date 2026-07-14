@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 社区聚焦稳定性与协作功能，活跃度极高。",
+      "OpenAI Codex 关注新模型适配与成本问题，PR 和 Issue 活跃。",
+      "Gemini CLI 修复子代理行为，提升终端交互效率。",
+      "GitHub Copilot CLI 聚焦 MCP 认证与语音模式改进。",
+      "OpenCode 优化性能与新模型兼容性，社区响应积极。",
+      "Qwen Code 演进架构，加强多工作区管理与会话恢复。"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.7.1-beta.5，引入对话式引导功能。",
+      "OpenClaw 合并 UI 技能、工坊与插件为统一插件中心。",
+      "OpenClaw 移动端增加持久化批准审核功能。",
+      "P0/P1 严重 Bug 如工具返回空占位符问题仍未修复。",
+      "OpenClaw 会话写锁超时与内存膨胀问题引发关注。",
+      "跨会话协作与多 Agent 编排成下一阶段竞争焦点。"
+    ],
+    "ai-trending": [
+      "AutoGPT 以 185,480 星引领 AI 智能体开发潮流。",
+      "firecrawl 获 149,388 星，成 LLM 网页数据采集首选。",
+      "open-webui 达 145,093 星，为本地 AI 交互主流界面。",
+      "LangChain 以 141,554 星稳居 Agent 工程化核心平台。",
+      "vllm 获 85,998 星，是 LLM 推理加速的事实标准。",
+      "rig 用 Rust 构建模块化 LLM 应用，受高性能开发者青睐。"
+    ],
+    "ai-hn": [
+      "Mesh LLM 实现基于 iroh 协议的分布式 AI 计算。",
+      "Soofi 欧洲主权 LLM 宣称两月内完成训练引热议。",
+      "Sqlsure 提供 AI 生成 SQL 的确定性语义检查。",
+      "AI 发现潜伏 15 年系统漏洞，代码审计潜力巨大。",
+      "论文警告 LLM 可能扁平化长篇公共辩论。",
+      "社区对 AI 公司透明度与安全文化讨论激烈。"
+    ],
+    "ai-ph": [
+      "Sim 开源 AI 智能体工作流工作空间获 638 票。",
+      "PlugThis 通过对话生成 Chrome 扩展，获 542 票。",
+      "Scarlett 嵌入 Slack 与 iMessage 作 AI 同事，获 411 票。",
+      "AI 视频编辑产品占据今日榜单前列。",
+      "Chrome 扩展低门槛生成器展现开发者热情。",
+      "AI 助手在社交平台落地成为重要趋势。"
+    ],
+    "ai-hf": [
+      "baidu/Unlimited-OCR 下载量达 138 万，成 OCR 标杆。",
+      "zai-org/GLM-5.2 获 3832 点赞，受社区广泛认可。",
+      "tencent/Hy3 发布，腾讯开源模型生态持续发力。",
+      "nvidia/NVIDIA-Nemotron 75B MoE 模型下载超 3 万。",
+      "InternScience/Agents-A1 基于 Qwen 专为 Agent 设计。",
+      "MoE 和 GGUF 量化成为模型生态绝对主流。"
+    ],
+    "ai-community": [
+      "Transformer 论文八位作者全部离开谷歌引人才讨论。",
+      "Grok 4.5 百亿数据集成本挑战精巧架构至上理念。",
+      "开发者将 Slack 变成 AI 队友自动开 Pull Request。",
+      "150 项任务测试发现追加规则反令 AI 更笨。",
+      "Claude Code 被曝在提示中嵌入隐写标记。",
+      "实测将 Claude Code Token 费用削减 77%。"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code leads in bug volume",
+      "OpenAI Codex merged 18 significant PRs",
+      "Gemini CLI in high-velocity stabilization",
+      "MCP OAuth integration fragility",
+      "Windows platform parity gaps",
+      "No major releases but 60+ issues opened"
+    ],
+    "ai-agents": [
+      "OpenClaw shipped v2026.7.1-beta.5",
+      "P0 bug: all tools return placeholder text",
+      "233 issues closed in 24 hours",
+      "500 PRs updated in past day",
+      "Conversational onboarding for Crestodian",
+      "Oldest issue #75 active for 6 months"
+    ],
+    "ai-trending": [
+      "google-labs-code/stitch-skills +340 stars",
+      "obra/superpowers +740 stars today",
+      "DesktopCommanderMCP most starred project",
+      "Agent memory tools superpowers and memvid",
+      "Career-ops job search agent hits 60k stars",
+      "Push toward MCP-based tool-use over chat"
+    ],
+    "ai-hn": [
+      "Stop Telling Me to Ask an LLM backlash",
+      "GPT-5.6-Sol deleted a user's files",
+      "Mesh LLM distributed AI computing",
+      "Soofi European LLM trained in 2 months",
+      "AI found bug hidden for 15 years",
+      "Claude's declining personality complaints"
+    ],
+    "ai-ph": [
+      "Sim open-source agent workspace 638 votes",
+      "Scarlett AI co-worker in Slack & iMessage",
+      "GPT-5.6 model launched",
+      "Shift to agent-native workspaces",
+      "Meta reasoning model released",
+      "Open-source frameworks dominated leaderboard"
+    ],
+    "ai-hf": [
+      "Qwen 3.5/3.6 ecosystem dominates",
+      "GLM-5.2 MoE model with 421k downloads",
+      "Uncensored Qwen 3.6 variant 2.6M downloads",
+      "Mixture-of-Experts architectures surge",
+      "GGUF quantized variants drive volume",
+      "Ornith-1.0-35B MIT-licensed GGUF model"
+    ],
+    "ai-community": [
+      "Grok 4.5 killed clever architecture myth",
+      "All 8 Transformer paper authors left Google",
+      "$60 billion dataset for Grok 4.5",
+      "Model knows it's being tested concerns",
+      "SigNoz for debugging silent agent failures",
+      "Rust lost in LangGraph checkpoint speedup"
+    ]
+  }
+}

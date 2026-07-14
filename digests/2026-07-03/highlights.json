@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 计费争议引发社区大规模负面反馈",
+      "Gemini CLI 聚焦 Agent 行为修复，Bug 修复效率高",
+      "OpenCode V2 架构重构和新模型适配，技术深度高",
+      "Qwen Code 发布 v0.19.5，强化渠道集成与后台任务",
+      "安全与稳定性问题已成各工具最普遍的用户痛点",
+      "Git 操作劫持和信息泄露成开发者共同焦虑"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.7.1-beta.1 支持 GPT-5.6",
+      "里程碑式重构：会话存储从JSONL切换为SQLite",
+      "高优先级P1回归问题：会话稳定性与认证风险",
+      "195条Issue和500条PR，社区参与极度活跃",
+      "新增Signal通道目标别名功能，提升路由易用性",
+      "外部工具挂载命令 `openclaw attach` 正式发布"
+    ],
+    "ai-trending": [
+      "`agency-agents` 暴增3032星，多Agent协作明星",
+      "`strix` 开源AI渗透测试，自动寻找修复漏洞",
+      "香港大学 `Vibe-Trading` 将AI带入金融量化",
+      "`caveman` 技能让Agent Token消耗降为原始人",
+      "Chrome官方MCP服务器让Agent直接调试网页",
+      "`video-use` 扩展Agent能力，像人一样编辑视频"
+    ],
+    "ai-web": [
+      "Claude Sonnet 5 发布：最具行动力且更便宜的模型",
+      "Anthropic 联合提出 AI 越狱严重性分级框架",
+      "Sonnet 5 性能接近 Opus 4.8，安全表现更优",
+      "官方详解 Fable 5 网络安全分类器与危害清单",
+      "新模型降低特定高危能力，实现安全对齐",
+      "OpenAI 今日无新增内容，Anthropic 独占焦点"
+    ],
+    "ai-hn": [
+      "OpenAI 向政府让股5%引AI与国家权力辩论",
+      "社区抵制将LLM代码纳入软件依赖引发共鸣",
+      "Claude 被指含间谍软件，社区强烈不满",
+      "LMDB 1.0 发布，经典数据库拥抱AI存储",
+      "开源平替 Claude Cowork 项目Valmis上线",
+      "AI福音传道者泛滥，社区回归务实批评"
+    ],
+    "ai-ph": [
+      "Acti 将实体键盘变为AI Agent移动操作入口",
+      "Humalike 为AI Agent注入社交智商与情商",
+      "Claude Sonnet 5 主打强规划与自主执行能力",
+      "Claude for Science 专为科研场景定制",
+      "Fable 5 模型升级，官方称安全全面提升",
+      "Vibe Coding 工具持续降低应用零代码门槛"
+    ],
+    "ai-arxiv": [
+      "\"海马体\"记忆为线性注意力解决长程遗忘",
+      "研究揭示方向性信息在句法泛化的关键作用",
+      "多语言LLM评判范式面临偏见与公平性挑战",
+      "贝叶斯微调方法DALorRA有效缓解模型过度自信",
+      "强化学习+扩散模型催生高质量视觉生成新策略",
+      "神经形态计算与上下文学习结合开辟低功耗AI"
+    ],
+    "ai-hf": [
+      "百度开源 Unlimited-OCR 下载量超75万",
+      "NVIDIA LocateAnything-3B 图像指哪打哪",
+      "GLM-5.2 斩获本周最高点赞，对话新标杆",
+      "DeepSeek V4 Pro/Flash 双版本开源，性能极致",
+      "Krea-2-Turbo 图像生成速度与画质双提升",
+      "LTX-2.3-3DREAL LoRA 探索3D写实视频生成"
+    ],
+    "ai-community": [
+      "DeepMind VP 宣布放弃手写代码引发开发者热议",
+      "AI生成测试：高效的谎言制造机引发深度剖析",
+      "Agent 应像多人游戏一样支持协作与共享上下文",
+      "本地AI追赶云端：隐私、成本、离线成为优势",
+      "生产环境防范LLM提示注入攻击实践指南",
+      "2026年欧盟托管推理提供商横向对比出炉"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hits 112k stars",
+      "Cross-tool billing and quota crisis",
+      "Agent orchestration bugs plague most tools",
+      "Community tools prioritize UX polish",
+      "GitHub Copilot CLI sees activity",
+      "Windows/Linux users face systemic friction"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.1-beta.1 released",
+      "GPT-5.6 support added to OpenClaw",
+      "External harness attachment now available",
+      "195 issues and 500 PRs in 24 hours",
+      "72 issues closed today, heavy backlog",
+      "Multiple critical-severity bugs remain open"
+    ],
+    "ai-trending": [
+      "ECC crosses 225k total stars",
+      "caveman gains 926 stars today",
+      "Token optimization emerges as sub-niche",
+      "OpenAI codex-plugin-cc debuts at 0 stars",
+      "Headroom compresses RAG chunks 60-95%",
+      "Rig shows Rust-native agent building interest"
+    ],
+    "ai-web": [
+      "Claude Sonnet 5 bridges Opus-level capability",
+      "Anthropic publishes jailbreak severity framework",
+      "Sonnet 5 targets lower price point",
+      "OpenAI quiet period continues",
+      "Fable 5 cyber safeguards detailed",
+      "Standardized safety reporting pushed by Anthropic"
+    ],
+    "ai-hn": [
+      "OpenAI offers US government 5% stake",
+      "Debate on banning LLM code in dependencies",
+      "Claude-real-video hack enables video processing",
+      "Privacy concerns raised about Claude Code",
+      "Alternative to paid coworker feature shared",
+      "Fable 5 jailbreak framework released"
+    ],
+    "ai-ph": [
+      "Acti transforms keyboard into agentic hub",
+      "Humalike adds social intelligence to agents",
+      "Sequence Agentic brings AI to fintech",
+      "Adam CAD Copilot targets vertical design",
+      "Claude Sonnet 5 launches on Product Hunt",
+      "Agentic infrastructure dominates launches"
+    ],
+    "ai-arxiv": [
+      "Hippocampus memory for linear attention models",
+      "Purified OPSD fixes self-distillation issues",
+      "DALorRA introduces Bayesian sparse adaptation",
+      "Autonomous research agents gain traction",
+      "Fourier preconditioning for neural feature learning",
+      "Safe deployment guardrail validation work"
+    ],
+    "ai-hf": [
+      "GLM-5.2 rises as highest-liked LLM",
+      "DeepSeek-V4-Pro-DSpark attracts researchers",
+      "Ornith-1.0-397B tops cloud-scale MoE",
+      "NVIDIA LocateAnything-3B hits 1M downloads",
+      "Baidu Unlimited-OCR for enterprise",
+      "Qwen 3.5/3.6 and agent models surge"
+    ],
+    "ai-community": [
+      "AI Engineer World's Fair dominates Dev.to",
+      "Google DeepMind VP gives up on coding",
+      "Cory Doctorow interviewed on Big Tech labor",
+      "Free software movement linked to AI openness",
+      "18 hot takes on AI market direction",
+      "AI test generation: where it helps and lies"
+    ]
+  }
+}

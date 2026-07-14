@@ -12,7 +12,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
-import { callLlm } from "../src/report.ts";
+import { callLlm, parseLlmJson } from "../src/report.ts";
 import { buildHighlightsPrompt, type ReportHighlights } from "../src/prompts-data.ts";
 import { buildMessage } from "../src/notify.ts";
 import type { Lang } from "../src/i18n.ts";
@@ -69,18 +69,20 @@ async function main() {
     callLlm(buildHighlightsPrompt(enReports, "en"), 2048),
   ]);
 
-  highlights.zh = JSON.parse(
-    zhRaw
-      .replace(/```json?\n?/g, "")
-      .replace(/```/g, "")
-      .trim(),
-  );
-  highlights.en = JSON.parse(
-    enRaw
-      .replace(/```json?\n?/g, "")
-      .replace(/```/g, "")
-      .trim(),
-  );
+  try {
+    highlights.zh = parseLlmJson<ReportHighlights>(zhRaw);
+  } catch (err) {
+    console.error(`  [highlights] zh parse failed: ${err}`);
+  }
+  try {
+    highlights.en = parseLlmJson<ReportHighlights>(enRaw);
+  } catch (err) {
+    console.error(`  [highlights] en parse failed: ${err}`);
+  }
+
+  // Backfill an empty language from the other so notifications never blank out.
+  if (Object.keys(highlights.zh).length === 0) highlights.zh = highlights.en;
+  else if (Object.keys(highlights.en).length === 0) highlights.en = highlights.zh;
 
   const outPath = path.join(digestsDir, dateStr, "highlights.json");
   fs.writeFileSync(outPath, JSON.stringify(highlights, null, 2) + "\n");

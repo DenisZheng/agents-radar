@@ -28,7 +28,7 @@ import {
   buildSkillsPrompt,
 } from "./prompts.ts";
 import { buildTrendingPrompt, buildHighlightsPrompt, type ReportHighlights } from "./prompts-data.ts";
-import { callLlm, saveFile, autoGenFooter, LLM_TOKENS_TRENDING } from "./report.ts";
+import { callLlm, parseLlmJson, saveFile, autoGenFooter, LLM_TOKENS_TRENDING } from "./report.ts";
 import { buildCliReportContent, buildOpenclawReportContent } from "./report-builders.ts";
 import {
   saveWebReport,
@@ -444,25 +444,38 @@ async function main(): Promise<void> {
 
   console.log("  Generating highlights for Telegram...");
   const highlights: Record<Lang, ReportHighlights> = { zh: {}, en: {} };
-  try {
-    const [zhRaw, enRaw] = await Promise.all([
-      callLlm(buildHighlightsPrompt(zhReports, "zh"), 2048),
-      callLlm(buildHighlightsPrompt(enReports, "en"), 2048),
-    ]);
-    highlights.zh = JSON.parse(
-      zhRaw
-        .replace(/```json?\n?/g, "")
-        .replace(/```/g, "")
-        .trim(),
-    );
-    highlights.en = JSON.parse(
-      enRaw
-        .replace(/```json?\n?/g, "")
-        .replace(/```/g, "")
-        .trim(),
-    );
-  } catch (err) {
-    console.error(`  [highlights] Generation failed: ${err}`);
+  // Generate + parse one language, retrying once. The LLM occasionally emits
+  // slightly malformed JSON that repairJson can't fix (seen 2026-07-13: zh
+  // failed with "Expected ',' or ']' after array element"); a fresh generation
+  // usually returns valid JSON. Each language runs independently so a failure
+  // in one never wipes the other.
+  const genHighlights = async (reports: Record<string, string>, lang: Lang): Promise<ReportHighlights> => {
+    for (let attempt = 1; attempt <= 2; attempt++) {
+      try {
+        return parseLlmJson<ReportHighlights>(await callLlm(buildHighlightsPrompt(reports, lang), 2048));
+      } catch (err) {
+        const tag = attempt < 2 ? "retrying" : "giving up";
+        console.error(`  [highlights] ${lang} attempt ${attempt} failed (${tag}): ${err}`);
+      }
+    }
+    return {};
+  };
+  const [zhRes, enRes] = await Promise.all([genHighlights(zhReports, "zh"), genHighlights(enReports, "en")]);
+  highlights.zh = zhRes;
+  highlights.en = enRes;
+
+  // If one language failed (generation or parse) but the other succeeded,
+  // backfill the empty one from the other so notifications never render with
+  // zero highlights. Seen 2026-07-13: zh failed intermittently while en was
+  // fine, leaving Telegram/Feishu with only section headers and no bullets.
+  const zhEmpty = Object.keys(highlights.zh).length === 0;
+  const enEmpty = Object.keys(highlights.en).length === 0;
+  if (zhEmpty && !enEmpty) {
+    console.warn("  [highlights] zh empty — backfilling from en");
+    highlights.zh = highlights.en;
+  } else if (enEmpty && !zhEmpty) {
+    console.warn("  [highlights] en empty — backfilling from zh");
+    highlights.en = highlights.zh;
   }
 
   const highlightsPath = saveFile(JSON.stringify(highlights, null, 2), dateStr, "highlights.json");
