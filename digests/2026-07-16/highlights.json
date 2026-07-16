@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.211 稳定版发布，费用/数据丢失成Critical级痛点",
+      "OpenAI Codex Alpha 0.145.0 高频迭代，ARM64 支持成阻塞项",
+      "Gemini CLI v0.52.0-nightly 核心循环修复并行，稳定性攻坚期",
+      "Qwen Code v0.19.10-nightly 多工作区守护进程+ACP原生集成",
+      "OpenCode v1.18.2 桌面端体验与核心可靠性双线打磨",
+      "全生态共识：子代理编排、跨平台、MCP/ACP协议、上下文工程化、安全合规五大硬骨头"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.2-beta.1 发布 Remote Coding Sessions 云端Worker集成",
+      "v2026.7.1 网关启动崩溃循环成最大稳定性阻塞，建议跳过等7.2",
+      "Issues 468条、PRs 500条，Open/Closed比近2:1技术债压力大",
+      "PR队列以XS/S级微修复为主，大型特性仍在评审等待",
+      "Linux/Windows原生App缺失Issue #75持续高热(113评论81赞)",
+      "远程会话支持Codex/Claude目录会话、OpenCode与Pi会话恢复"
+    ],
+    "ai-trending": [
+      "destructive_command_guard 471星今日新增，Rust编写Agent安全护栏拦截危险命令",
+      "hallmark 1277星新增，Claude Code/Cursor/Codex设计技能包解决AI写前端丑",
+      "vLLM 86353星稳坐推理服务标准，Ollama 176204星本地运行首选",
+      "Graphify、mem0、cognee等图谱化RAG项目星标极高，检索向语义推理演进",
+      "AarambhDevHub/aarambh-ai 纯Rust训练推理栈，无Python依赖成新看点",
+      "OpenCompass、exercises-dataset入榜，评测与垂直数据基建补位"
+    ],
+    "ai-web": [
+      "Anthropic同日三连击：Claude Tag、金融Agent模板库、Claude for Teachers",
+      "Claude Tag内部代码生成占比65%，打通Excel/PPT/Word/Outlook全链路",
+      "承诺1000万加元投入加拿大三大AI研究所，人均使用量全球第二",
+      "OpenAI仅两条疑似重复索引页更新，处于静默期与Anthropic形成对比",
+      "竞争轴心转移：Agent编排+垂直数据+企业合规+协作范式的系统工程战",
+      "Claude Tag驻留Slack频道，@Claude委派任务具备跨频道上下文记忆"
+    ],
+    "ai-hn": [
+      "OpenAI发布首款品牌硬件Codex Micro引爆HN(266分224评)，欧盟商标诉讼败诉",
+      "Inkling 975B开放权重模型刷新开源参数上限，前Mira Murati团队发布",
+      "反AI设计宣言与AI泡沫经济学论文分获高分，显示社区深度焦虑",
+      "Brainless复刻三大AI编码助手UI组件库93分，侧面印证界面趋同化",
+      "Grepathy可视化Claude Code决策树39评论，聚焦可解释性vs延迟权衡",
+      "Agentty C++26仅11MB作为claude-code替代品，极简原生实现获关注"
+    ],
+    "ai-arxiv": [
+      "Transformer秩保持几何视角重解前馈块：残差归一化即跨层梯度秩守恒",
+      "JEPA训练目标形式化为变分自由能，证明反崩溃正则化决定主动推理",
+      "AIMO数学推理可解释性竞赛启动，区分稳健推理与虚假捷径",
+      "Deep Interaction增量式人机交互：定位错误步骤局部修正降低轮次开销",
+      "Experience Memory Graph一轮检索式纠错，解决长时任务复合错误恢复",
+      "Terminal-Bench 2.0首个持续学习视角评测Agent Optimizer复利效应"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE-DSA架构开源权重，中英代理任务SOTA下载量489k碾压同级",
+      "腾讯混元Hy3原生长上下文+工具调用，企业级落地首选800赞10k下载",
+      "Inkling统一文本图像音频原生多模态基座，Thinking Machines Lab架构创新",
+      "MiniCPM5-1B蒸馏思维链能力手机端可跑，1B参数推理质量惊人",
+      "Nemotron Audex-30B-A3B MoE专注音频推理代理任务，NVIDIA实验室新作",
+      "Qwythos-9B视觉推理微调GGUF下载量200万+，皇帝AI社区热度极高"
+    ],
+    "ai-community": [
+      "Métricas de qualidade软件质量度量新范式112赞，覆盖测试可观测性治理指标",
+      "Qwen+MCP实战Agent识别不确定性拒答降级，落地知己知彼工程模式",
+      "银行级生产Chatbot复盘：RAG评测合规延迟非模型工程占比90%+",
+      "Zod Schema强制约束LLM输出消除下游解析故障，TypeScript项目可直接复用",
+      "本地MCP服务器Ollama+ChromaDB全过程复盘，隐私成本检索质量权衡蓝图",
+      "LLM熔断器预算耗尽自动切本地模型，解决成本失控与可用性冲突"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.211 稳定版发布，费用/数据丢失成Critical级痛点",
+      "OpenAI Codex Alpha 0.145.0 高频迭代，ARM64 支持成阻塞项",
+      "Gemini CLI v0.52.0-nightly 核心循环修复并行，稳定性攻坚期",
+      "Qwen Code v0.19.10-nightly 多工作区守护进程+ACP原生集成",
+      "OpenCode v1.18.2 桌面端体验与核心可靠性双线打磨",
+      "全生态共识：子代理编排、跨平台、MCP/ACP协议、上下文工程化、安全合规五大硬骨头"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.2-beta.1 发布 Remote Coding Sessions 云端Worker集成",
+      "v2026.7.1 网关启动崩溃循环成最大稳定性阻塞，建议跳过等7.2",
+      "Issues 468条、PRs 500条，Open/Closed比近2:1技术债压力大",
+      "PR队列以XS/S级微修复为主，大型特性仍在评审等待",
+      "Linux/Windows原生App缺失Issue #75持续高热(113评论81赞)",
+      "远程会话支持Codex/Claude目录会话、OpenCode与Pi会话恢复"
+    ],
+    "ai-trending": [
+      "destructive_command_guard 471星今日新增，Rust编写Agent安全护栏拦截危险命令",
+      "hallmark 1277星新增，Claude Code/Cursor/Codex设计技能包解决AI写前端丑",
+      "vLLM 86353星稳坐推理服务标准，Ollama 176204星本地运行首选",
+      "Graphify、mem0、cognee等图谱化RAG项目星标极高，检索向语义推理演进",
+      "AarambhDevHub/aarambh-ai 纯Rust训练推理栈，无Python依赖成新看点",
+      "OpenCompass、exercises-dataset入榜，评测与垂直数据基建补位"
+    ],
+    "ai-web": [
+      "Anthropic同日三连击：Claude Tag、金融Agent模板库、Claude for Teachers",
+      "Claude Tag内部代码生成占比65%，打通Excel/PPT/Word/Outlook全链路",
+      "承诺1000万加元投入加拿大三大AI研究所，人均使用量全球第二",
+      "OpenAI仅两条疑似重复索引页更新，处于静默期与Anthropic形成对比",
+      "竞争轴心转移：Agent编排+垂直数据+企业合规+协作范式的系统工程战",
+      "Claude Tag驻留Slack频道，@Claude委派任务具备跨频道上下文记忆"
+    ],
+    "ai-hn": [
+      "OpenAI发布首款品牌硬件Codex Micro引爆HN(266分224评)，欧盟商标诉讼败诉",
+      "Inkling 975B开放权重模型刷新开源参数上限，前Mira Murati团队发布",
+      "反AI设计宣言与AI泡沫经济学论文分获高分，显示社区深度焦虑",
+      "Brainless复刻三大AI编码助手UI组件库93分，侧面印证界面趋同化",
+      "Grepathy可视化Claude Code决策树39评论，聚焦可解释性vs延迟权衡",
+      "Agentty C++26仅11MB作为claude-code替代品，极简原生实现获关注"
+    ],
+    "ai-arxiv": [
+      "Transformer秩保持几何视角重解前馈块：残差归一化即跨层梯度秩守恒",
+      "JEPA训练目标形式化为变分自由能，证明反崩溃正则化决定主动推理",
+      "AIMO数学推理可解释性竞赛启动，区分稳健推理与虚假捷径",
+      "Deep Interaction增量式人机交互：定位错误步骤局部修正降低轮次开销",
+      "Experience Memory Graph一轮检索式纠错，解决长时任务复合错误恢复",
+      "Terminal-Bench 2.0首个持续学习视角评测Agent Optimizer复利效应"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE-DSA架构开源权重，中英代理任务SOTA下载量489k碾压同级",
+      "腾讯混元Hy3原生长上下文+工具调用，企业级落地首选800赞10k下载",
+      "Inkling统一文本图像音频原生多模态基座，Thinking Machines Lab架构创新",
+      "MiniCPM5-1B蒸馏思维链能力手机端可跑，1B参数推理质量惊人",
+      "Nemotron Audex-30B-A3B MoE专注音频推理代理任务，NVIDIA实验室新作",
+      "Qwythos-9B视觉推理微调GGUF下载量200万+，皇帝AI社区热度极高"
+    ],
+    "ai-community": [
+      "Métricas de qualidade软件质量度量新范式112赞，覆盖测试可观测性治理指标",
+      "Qwen+MCP实战Agent识别不确定性拒答降级，落地知己知彼工程模式",
+      "银行级生产Chatbot复盘：RAG评测合规延迟非模型工程占比90%+",
+      "Zod Schema强制约束LLM输出消除下游解析故障，TypeScript项目可直接复用",
+      "本地MCP服务器Ollama+ChromaDB全过程复盘，隐私成本检索质量权衡蓝图",
+      "LLM熔断器预算耗尽自动切本地模型，解决成本失控与可用性冲突"
+    ]
+  }
+}
