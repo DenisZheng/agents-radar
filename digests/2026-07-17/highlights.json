@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.212 稳定版发布",
+      "OpenAI Codex 1稳定+3 Alpha版本",
+      "Gemini CLI Subagent挂起P1问题",
+      "GitHub Copilot 5MB会话硬限制",
+      "Qwen Code v0.19.11 多工作区守护",
+      "Kimi Code Windows兼容高频发布"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h 500 Issues/PRs高活跃",
+      "2026.7.1版本引入多个P0回归",
+      "网关启动崩溃循环已修复",
+      "零版本发布处于补丁密集期",
+      "内存信任标记凭据脱敏长期诉求",
+      "178 PR已合并关闭重稳定性"
+    ],
+    "ai-hn": [
+      "YC创始人与OpenAI人才流动294分",
+      "LM Studio Bionic本地Agent框架161分",
+      "经典ML检测LLM文本SOTA159分",
+      "1Password-Claude凭证集成获关注",
+      "月之暗面新模型挑战Claude领先",
+      "多Show HN聚焦本地可控工作流"
+    ],
+    "ai-arxiv": [
+      "T²MLR突破自回归瓶颈长链推理",
+      "LongStraw固定显存训练2M Token",
+      "Mask-Aware Policy Gradients适配扩散LM",
+      "OmniaBench多场景通用Agent评测",
+      "MedFailBench首创医疗AI安全边界",
+      "BadWAM揭示世界动作模型幻觉"
+    ],
+    "ai-hf": [
+      "Z.ai GLM-5.2 MoE 4029赞榜首",
+      "腾讯 Hy3 MoE 813赞 Apache2.0",
+      "Qwen3.6-35B非审查版230万下载",
+      "Qwythos-9B多模态200万下载",
+      "MiniCPM5-1B蒸馏Claude推理能力",
+      "Unlimited-OCR百度专用工具模型"
+    ],
+    "ai-community": [
+      "LLM Evals三维框架有用正确安全",
+      "AI生成代码即技术债贷款共鸣",
+      "Go语言轻量Agent可观测性开源",
+      "Token Drift导致Agent变慢变贵",
+      "评测数据泄露指标虚高0.94",
+      "2人多Agent微型团队协作实战"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "7 of 9 CLI tools shipped updates today",
+      "Cross-tool convergence on multi-agent orchestration",
+      "Enterprise-readiness competition intensifies",
+      "Windows stability remains universal pain point",
+      "Claude Code v2.1.212 released",
+      "OpenAI Codex rust-v0.144.5 + 3 alphas"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and 500 PRs in 24h",
+      "178 PRs merged/closed showing rapid fixes",
+      "No new releases, latest is 2026.7.1",
+      "P0/P1 bugs block gateway and session stability",
+      "Active stabilization post-2026.7.1 release",
+      "Node.js version changes cause upgrade friction"
+    ],
+    "ai-trending": [
+      "4 of top-10 trending are agent skill packs",
+      "Shift from model-centric to agent-centric dev",
+      "Local-first stacks dominate: Ollama, Open WebUI",
+      "Knowledge-graph coding agents trending (Graphify)",
+      "vLLM 86K stars, Ollama 176K stars",
+      "GitHub Copilot SDK launches with 13 stars"
+    ],
+    "ai-web": [
+      "OpenAI publishes teen AI access policy article",
+      "Anthropic releases zero new content today",
+      "Single OpenAI post is strategic company messaging",
+      "No model launches or API updates from labs",
+      "Teen focus aligns with EU AI Act scrutiny",
+      "OpenAI positions as proactive governance voice"
+    ],
+    "ai-hn": [
+      "105+ YC founders now at OpenAI/Anthropic",
+      "Local-first tooling draws strong engagement",
+      "Classical ML rivals transformers for LLM detection",
+      "Anthropic faces EU testimony snub and lobbying",
+      "Google hit with DMA search-data sharing",
+      "Music video benchmarks and cognitive offload debated"
+    ],
+    "ai-arxiv": [
+      "Three frontiers: architecture, evaluation, world models",
+      "T²MLR adds temporal recurrence to Transformers",
+      "Mask-aware policy gradients for diffusion LMs",
+      "VEXMLM extends vocabulary for African scripts",
+      "AI as networked agents and scientific co-researchers",
+      "Safety research shifts to boundary failure analysis"
+    ],
+    "ai-hf": [
+      "Extreme quantization (1-bit, NVFP4) dominates trends",
+      "Qwen3.5/3.6 multimodal MoE models trending",
+      "Chinese labs ship production-grade open weights",
+      "GLM-5.2: 4K likes, 513K downloads",
+      "Uncensored multimodal variants pull millions",
+      "Prism-ml Bonsai pushes 1-bit to 27B params"
+    ],
+    "ai-community": [
+      "Focus shifts to production-grade agent infrastructure",
+      "LLM evals for dev tools tops Dev.to (29 reactions)",
+      "Agentic harness defined as runtime scaffold",
+      "AI-generated code treated as technical debt",
+      "Wealth concentration from AI data centers debated",
+      "Surveillance implications of AI raise concerns"
+    ]
+  }
+}
