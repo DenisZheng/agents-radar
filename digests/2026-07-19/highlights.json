@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex双版本并行极高研发节奏",
+      "Gemini CLI夜ly构建安全左移",
+      "Copilot CLI稳定性债务显性化",
+      "Kimi Code Issue到PR仅2天",
+      "OpenCode V2架构攻坚桌面端补齐",
+      "Pi流式终止CoT可视化进展"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.7.2-beta.3",
+      "远程编码会话云端Worker落地",
+      "原生自动化节点编排框架上线",
+      "Issue活跃度390条PR吞吐500条",
+      "Linux/Windows原生应用缺失成热议",
+      "Durable Core六连PR推进中"
+    ],
+    "ai-trending": [
+      "ollama成本地大模型运行标准",
+      "airllm单4GB显存跑70B模型",
+      "code-review-graph大幅降低Token消耗",
+      "wigolo零成本Agent专用搜索引擎",
+      "Kimi官方CLI注入终端工作流",
+      "Graphify知识图谱混合检索深化"
+    ],
+    "ai-web": [
+      "OpenAI发布AI时代评分卡长文",
+      "Anthropic全站静默疑大版本前夜",
+      "OpenAI抢占治理度量行业话语权",
+      "Anthropic聚焦Claude 4对齐安全",
+      "近期无新模型API定价工具链更新",
+      "Claude 3.5 Sonnet编码能力SOTA"
+    ],
+    "ai-hn": [
+      "GPT-5.6一条提示词解30年悬案",
+      "NYC市长禁房东用AI生成图宣传",
+      "特朗普政府干预前沿模型访问",
+      "英国首相放弃数字身份计划",
+      "Claude Code控制闲置Mac实战",
+      "LLM推理监控Htop开源工具热"
+    ],
+    "ai-hf": [
+      "Qwen3.6 MoE与GLM-5.2霸榜下载",
+      "极致量化1-bit成主流交付形态",
+      "多模态向专用化分层OCR视频生成",
+      "工程化工具链模型化聊天模板修正",
+      "MiniCPM5-1B蒸馏Opus思维链边缘侧",
+      "gemma-4-31B原生多模态128k上下文"
+    ],
+    "ai-community": [
+      "开源模型占AI Token流量63%",
+      "Kimi K3移动端实现120B推理",
+      "Agent工程化聚焦记忆与边界设计",
+      "模型人格差异影响工程选型决策",
+      "自主安全Agent进化为决策引擎",
+      "Lean LLM缓存存储成本降90%"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Codex双版本并行极高研发节奏",
+      "Gemini CLI夜ly构建安全左移",
+      "Copilot CLI稳定性债务显性化",
+      "Kimi Code Issue到PR仅2天",
+      "OpenCode V2架构攻坚桌面端补齐",
+      "Pi流式终止CoT可视化进展"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.7.2-beta.3",
+      "远程编码会话云端Worker落地",
+      "原生自动化节点编排框架上线",
+      "Issue活跃度390条PR吞吐500条",
+      "Linux/Windows原生应用缺失成热议",
+      "Durable Core六连PR推进中"
+    ],
+    "ai-trending": [
+      "ollama成本地大模型运行标准",
+      "airllm单4GB显存跑70B模型",
+      "code-review-graph大幅降低Token消耗",
+      "wigolo零成本Agent专用搜索引擎",
+      "Kimi官方CLI注入终端工作流",
+      "Graphify知识图谱混合检索深化"
+    ],
+    "ai-web": [
+      "OpenAI发布AI时代评分卡长文",
+      "Anthropic全站静默疑大版本前夜",
+      "OpenAI抢占治理度量行业话语权",
+      "Anthropic聚焦Claude 4对齐安全",
+      "近期无新模型API定价工具链更新",
+      "Claude 3.5 Sonnet编码能力SOTA"
+    ],
+    "ai-hn": [
+      "GPT-5.6一条提示词解30年悬案",
+      "NYC市长禁房东用AI生成图宣传",
+      "特朗普政府干预前沿模型访问",
+      "英国首相放弃数字身份计划",
+      "Claude Code控制闲置Mac实战",
+      "LLM推理监控Htop开源工具热"
+    ],
+    "ai-hf": [
+      "Qwen3.6 MoE与GLM-5.2霸榜下载",
+      "极致量化1-bit成主流交付形态",
+      "多模态向专用化分层OCR视频生成",
+      "工程化工具链模型化聊天模板修正",
+      "MiniCPM5-1B蒸馏Opus思维链边缘侧",
+      "gemma-4-31B原生多模态128k上下文"
+    ],
+    "ai-community": [
+      "开源模型占AI Token流量63%",
+      "Kimi K3移动端实现120B推理",
+      "Agent工程化聚焦记忆与边界设计",
+      "模型人格差异影响工程选型决策",
+      "自主安全Agent进化为决策引擎",
+      "Lean LLM缓存存储成本降90%"
+    ]
+  }
+}
