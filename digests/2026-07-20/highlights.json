@@ -1,0 +1,86 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 迁移至 Rust 重写的 Bun 运行时",
+      "OpenAI Codex 24h 冲刺 50 Issues 17 PRs",
+      "Gemini CLI 发布 v0.52.0-nightly 升级 TS 7.0",
+      "OpenCode 激进清理技术债并行 v2.0 重构",
+      "DeepSeek TUI 单核驱动 40 PRs 优化 Token 成本",
+      "Copilot CLI 核心回归阻塞 仅 1 个治理类 PR"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h 爆发 347 Issues 500 PRs",
+      "371 待合并 PR 积压审核吞吐成瓶颈",
+      "新增 Masked Secrets 等生产级安全加固",
+      "修复会话状态管理子代理交付失败",
+      "Apple 离线数据库统一等大型重构待合并",
+      "长期高赞 Issue #75 Linux/Windows App 仍无决策"
+    ],
+    "ai-hn": [
+      "Claude Code 迁移 Rust 版 Bun 引爆 413 分 575 评",
+      "OpenAI 悄默缩减 Codex 上下文窗口引发 328 分热议",
+      "GPT-5.6 删除文件事故引发闭源信任危机",
+      "社区呈现工程落地 > 模型参数显著偏好",
+      "Ask HN 寻找非 AI 博客获 63 分显现 AI 疲劳",
+      "Simon Willison 深度解析 Claude Code 迁移获赞最佳技术博客"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE 基座 4172 心 53.6 万下载领跑",
+      "Gemma-4-31B-it 1234 万下载碾压全场榜首",
+      "百度 Unlimited-OCR 2198 心生产级文档理解首选",
+      "Qwen3.6-35B-A3B 去审查版 2902 心社区高热魔改",
+      "Qwythos-9B 蒸馏 Claude 长思维链 212 万下载",
+      "极低比特 1/2-bit 量化成社区标准化流水线"
+    ],
+    "ai-community": [
+      "Agent 工程化落地成核心讨论 Prompt 时代结束",
+      "Python signal 超时在 C 扩展中失效防坑指南",
+      "MCP Server 适配 Microsoft Graph OAuth 复杂流程",
+      "实时 AI 管道瓶颈在 ASR/VAD/网络而非 LLM",
+      "Spend Cap 熔断失效即 Fail-Open 成本治理深度长文",
+      "从凭感觉到指标化构建生产级 LLM 评估管线"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code 迁移至 Rust 重写的 Bun 运行时",
+      "OpenAI Codex 24h 冲刺 50 Issues 17 PRs",
+      "Gemini CLI 发布 v0.52.0-nightly 升级 TS 7.0",
+      "OpenCode 激进清理技术债并行 v2.0 重构",
+      "DeepSeek TUI 单核驱动 40 PRs 优化 Token 成本",
+      "Copilot CLI 核心回归阻塞 仅 1 个治理类 PR"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h 爆发 347 Issues 500 PRs",
+      "371 待合并 PR 积压审核吞吐成瓶颈",
+      "新增 Masked Secrets 等生产级安全加固",
+      "修复会话状态管理子代理交付失败",
+      "Apple 离线数据库统一等大型重构待合并",
+      "长期高赞 Issue #75 Linux/Windows App 仍无决策"
+    ],
+    "ai-hn": [
+      "Claude Code 迁移 Rust 版 Bun 引爆 413 分 575 评",
+      "OpenAI 悄默缩减 Codex 上下文窗口引发 328 分热议",
+      "GPT-5.6 删除文件事故引发闭源信任危机",
+      "社区呈现工程落地 > 模型参数显著偏好",
+      "Ask HN 寻找非 AI 博客获 63 分显现 AI 疲劳",
+      "Simon Willison 深度解析 Claude Code 迁移获赞最佳技术博客"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE 基座 4172 心 53.6 万下载领跑",
+      "Gemma-4-31B-it 1234 万下载碾压全场榜首",
+      "百度 Unlimited-OCR 2198 心生产级文档理解首选",
+      "Qwen3.6-35B-A3B 去审查版 2902 心社区高热魔改",
+      "Qwythos-9B 蒸馏 Claude 长思维链 212 万下载",
+      "极低比特 1/2-bit 量化成社区标准化流水线"
+    ],
+    "ai-community": [
+      "Agent 工程化落地成核心讨论 Prompt 时代结束",
+      "Python signal 超时在 C 扩展中失效防坑指南",
+      "MCP Server 适配 Microsoft Graph OAuth 复杂流程",
+      "实时 AI 管道瓶颈在 ASR/VAD/网络而非 LLM",
+      "Spend Cap 熔断失效即 Fail-Open 成本治理深度长文",
+      "从凭感觉到指标化构建生产级 LLM 评估管线"
+    ]
+  }
+}
