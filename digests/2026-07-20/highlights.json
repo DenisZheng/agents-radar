@@ -39,6 +39,14 @@
       "实时 AI 管道瓶颈在 ASR/VAD/网络而非 LLM",
       "Spend Cap 熔断失效即 Fail-Open 成本治理深度长文",
       "从凭感觉到指标化构建生产级 LLM 评估管线"
+    ],
+    "ai-weekly": [
+      "Anthropic 将 Claude Code 迁移至 Rust (Bun)",
+      "OpenClaw v2026.7.1 正式版发布，现 P0 崩溃",
+      "OpenAI 首款硬件 Codex Micro 发布，欧盟败诉",
+      "Claude Code 单次交互 33k Token 引发成本危机",
+      "Anthropic 三连发垂直 Agent，Tag 占内部代码 65%",
+      "Zig 创始人指控 Anthropic 合并未审 AI 代码"
     ]
   },
   "en": {
@@ -81,6 +89,14 @@
       "实时 AI 管道瓶颈在 ASR/VAD/网络而非 LLM",
       "Spend Cap 熔断失效即 Fail-Open 成本治理深度长文",
       "从凭感觉到指标化构建生产级 LLM 评估管线"
+    ],
+    "ai-weekly": [
+      "Anthropic moves Claude Code to Bun/Rust rewrite",
+      "GPT-5.6 solves 30-year math conjecture via prompt",
+      "OpenAI launches Codex Micro, first branded hardware",
+      "Anthropic releases Claude Tag, Finance Agent, Teachers tools",
+      "Zig creator accuses Anthropic of unreviewed AI code in Bun",
+      "OpenClaw v2026.7.1 adds remote coding, native apps"
     ]
   }
 }
