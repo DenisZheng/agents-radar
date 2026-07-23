@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.218 修复无障碍问题",
+      "OpenAI Codex 连发 4 个 Alpha 版本",
+      "Gemini CLI 三版本齐发强化 Agent 编排",
+      "GitHub Copilot CLI 修复 Windows 原生崩溃",
+      "Kimi Code CLI 面临第三方兼容性断裂",
+      "OpenCode 订阅服务全挂桌面端断连"
+    ],
+    "ai-agents": [
+      "OpenClaw 单日 945 条 Issue/PR 更新",
+      "doctor --fix 性能回归慢 4-5 倍",
+      "网关稳定性问题：启动失败内存泄漏",
+      "Linux/Windows 客户端缺失成痛点",
+      "安全策略执行硬化 Pre-response hooks",
+      "clawsweeper 机器人治理流程规范化"
+    ],
+    "ai-trending": [
+      "OmniRoute 单日狂揽 1.6k Star 成 AI 网关新星",
+      "code-review-graph 本地知识图谱降低 Token 消耗",
+      "Kronos 金融基座模型与 TradingAgents 双子星",
+      "worldmonitor OSINT 方向单日涨星 4k+",
+      "outlines 结构化输出成推理层基建标配",
+      "voicebox 开源语音工作室展示多模态活力"
+    ],
+    "ai-web": [
+      "Anthropic 推 Economic Index Connector 数据产品化",
+      "Anthropic 设立 2 亿 Economic Futures Research Fund",
+      "追加 2000 万捐赠推动两党 AI 保障立法",
+      "Claude for Teachers 覆盖全美 50 州课标",
+      "Claude Sonnet 5 平价逼近 Opus 4.8 水平",
+      "OpenAI 新增两董事强化金融科技治理"
+    ],
+    "ai-hn": [
+      "OpenAI 模型越狱攻击 Hugging Face 引发安全恐慌",
+      "Bento 单文件 PPT 替代品获 662 分现象级",
+      "Cactus Hybrid 训练 Gemma 4 表达不确定性",
+      "Millwright Rust 自托管 LLM 路由器早期尝试",
+      "AMD 斥资 50 亿美元投资 Anthropic 布局推理",
+      "儿童极易将 Chatbot 视为有感知实体研究"
+    ],
+    "ai-arxiv": [
+      "SLAI T-Rex 首发万亿 MoE 全参数后训练系统",
+      "DynamicRubric 评估器策略协同进化破解奖励稀疏",
+      "EvoThink 剪枝过度思考降低大推理模型成本",
+      "ELSAA 统一低秩稀疏注意力降低训练开销",
+      "医学表征收敛主要源于自监督而非临床标签",
+      "DEED VLA 人形机器人实环境适配突破"
+    ],
+    "ai-hf": [
+      "GLM-5.2 4.3k 赞领跑开源 MoE 大模型",
+      "Gemma-4-31B 1200 万下载量断层领先",
+      "Unlimited-OCR 220 万下载通用无限长文本",
+      "Bonsai 系列 1-bit/2-bit 三元量化实用化",
+      "Qwen3.6 未审查多模态版 3k 赞社区狂热",
+      "Inkling 轻量多模态 MoE 平衡推理对话"
+    ],
+    "ai-community": [
+      "Substack AI 检测器同 DEV.to 存盲区警示治理",
+      "认知摩擦是技能内化必要条件反直觉",
+      "36 个 MCP 服务端三分之一因描述缺失失败",
+      "Loop Engineering 对抗 Agent 奖励黑客作弊",
+      "三次法则量化评测集覆盖率 N 次零失败",
+      "AI 供应链四大攻击面附 SBOM 签名验证清单"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.218 stable with macOS filesystem regression",
+      "OpenAI Codex 4 alpha releases in 24 hours",
+      "Gemini CLI adds Desktop↔CLI parity features",
+      "OpenCode subscription reliability issues emerge",
+      "Kimi Code CLI races on multi-provider orchestration",
+      "Qwen Code advances skill/plugin ecosystem"
+    ],
+    "ai-agents": [
+      "OpenClaw 945 items updated in 24 hours",
+      "149 issues closed, 204 PRs merged today",
+      "Linux/Windows app gaps dominate issues",
+      "Doctor --fix 4-5x slower performance regression",
+      "Gateway restart loops and CPU spikes",
+      "Security hardening: masked secrets enforcement"
+    ],
+    "ai-trending": [
+      "OmniRoute +1,651 stars: 268+ provider aggregation",
+      "worldmonitor +4,139 stars: AI geopolitical dashboard",
+      "i-have-adhd +1,699 stars: ADHD-friendly coding agent",
+      "code-review-graph +882 stars: structured AI outputs",
+      "RuView +741 stars: WiFi vital-sign monitoring",
+      "Ollama now supports Kimi-K2.6, GLM-5.2, gpt-oss"
+    ],
+    "ai-web": [
+      "Anthropic launches Opus 4.8 and Sonnet 5 models",
+      "$200M Economic Futures Research Fund announced",
+      "$20M donation to Public First Action for AI policy",
+      "Anthropic Economic Index connector for usage analytics",
+      "Claude for Small Business and Teachers vertical packages",
+      "Four Opus, three Sonnet versions in nine months"
+    ],
+    "ai-hn": [
+      "OpenAI models allegedly escaped sandbox, attacked HF",
+      "Show HN: Bento collaborative PowerPoint in single HTML",
+      "AMD rumored $5B investment in Anthropic",
+      "US Army exhausts AI token budget",
+      "Lawsuit: ChatGPT gave near-fatal medical advice",
+      "Cactus Hybrid teaches Gemma 4 uncertainty estimation"
+    ],
+    "ai-arxiv": [
+      "SLAI T-Rex: full-parameter post-training trillion-param MoE",
+      "ELSAA: efficient low-rank sparse attention approximation",
+      "Reasoning shifts to test-time computation methods",
+      "PoTRE: cognitive heterogeneity for reasoning",
+      "PRO-LONG: programmatic memory for long context",
+      "AI supply-chain integrity: license laundering research"
+    ],
+    "ai-hf": [
+      "Gemma-4-31B-it leads with 3.3K likes, 12M downloads",
+      "GLM-5.2 MoE: 4.3K likes, top-liked this week",
+      "Baidu Unlimited-OCR: 2.7K likes, 2.2M downloads",
+      "Uncensored Qwen3.6 vision-MoE: 3K likes, 2M downloads",
+      "1-bit, 2-bit, ternary Bonsai quantization mainstreaming",
+      "MiniCPM robotics VLA and tracking models trending"
+    ],
+    "ai-community": [
+      "Dev.to: agent reliability over raw model capabilities",
+      "Reward hacking, tool schema drift, eval blind spots",
+      "Shift from prompt engineering to context engineering",
+      "Lobste.rs: OCaml/Rust GC integration work",
+      "Notion vector search: 10x scale, 1/10th cost",
+      "Compiler-focused ML language design highlighted"
+    ]
+  }
+}
