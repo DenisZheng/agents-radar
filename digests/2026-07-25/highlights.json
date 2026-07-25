@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.219 ships Opus 5 default",
+      "OpenAI Codex addresses Windows Git issues",
+      "Gemini CLI adopts agent orchestration framework",
+      "Copilot CLI improves enterprise authentication",
+      "Kimi Code CLI enables BYOM workflows",
+      "Windows WSL remains cross-tool pain point"
+    ],
+    "ai-agents": [
+      "OpenClaw 463 issues 500 PRs in 24h",
+      "297 PRs merged showing strong throughput",
+      "Session-state bugs dominate issue backlog",
+      "Gateway crash-loop fix merged #107220",
+      "SQLite snapshot integrity fixes merged",
+      "Anthropic OAuth refresh fix merged"
+    ],
+    "ai-trending": [
+      "OmniRoute +1841★ universal LLM router 290+ providers",
+      "ego-lite +880★ fastest browser for AI agents",
+      "RuView +1022★ ambient sensing agent",
+      "ragflow LightRAG mem0 steady star growth",
+      "AutoGPT OpenHands Dify agent frameworks trending",
+      "Kronos Vibe-Trading financial LLMs emerging"
+    ],
+    "ai-web": [
+      "Anthropic launches Claude Opus 5 flagship",
+      "Opus 5 matches Fable 5 half cost",
+      "$200M Economic Futures Research Fund",
+      "Project Pilot introduces Drone-Bench benchmark",
+      "Creative connectors for Ableton Adobe",
+      "OpenAI Health in ChatGPT metadata only"
+    ],
+    "ai-hn": [
+      "Claude Opus 5 dominates HN 1317 pts",
+      "Guardian questions OpenAI rogue hacker narrative",
+      "Codex user reports private repo leak",
+      "Reuters OpenAI missed HF breach week",
+      "Debian votes on LLM code ban",
+      "White House accuses Chinese lab distillation"
+    ],
+    "ai-arxiv": [
+      "MIRROR cross-view consistency multimodal reasoning",
+      "VLM-IE3D 3D-aware VLMs implicit explicit geometry",
+      "DONDO open w2v-BERT African languages",
+      "Windowed-MTP million-token speculative decoding",
+      "KroQuant diffusion transformer quantization",
+      "Provable error bounds KV-cache eviction"
+    ],
+    "ai-hf": [
+      "Qwen3.6-35B-A3B 2.5K likes 6.5M downloads",
+      "GLM-5.2 leads 4.4K likes MoE-DSA",
+      "Gemma-4-31B-it 3.4K likes 12.6M downloads",
+      "Unlimited-OCR 3K likes 2.5M downloads",
+      "Prism-ml 1-bit 2-bit LLM quantization",
+      "Baseten Poolside deploy NVFP4 inference"
+    ],
+    "ai-community": [
+      "Agent observability cost control dominate",
+      "Sentry reveals silent retry 5-agent pipeline",
+      "Context compression techniques agent memory",
+      "Notion 10x vector search scaling",
+      "OCaml Rust GC interop ML infra",
+      "Triton custom silicon development"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.219 ships Opus 5 default",
+      "OpenAI Codex addresses Windows Git issues",
+      "Gemini CLI adopts agent orchestration framework",
+      "Copilot CLI improves enterprise authentication",
+      "Kimi Code CLI enables BYOM workflows",
+      "Windows WSL remains cross-tool pain point"
+    ],
+    "ai-agents": [
+      "OpenClaw 463 issues 500 PRs in 24h",
+      "297 PRs merged showing strong throughput",
+      "Session-state bugs dominate issue backlog",
+      "Gateway crash-loop fix merged #107220",
+      "SQLite snapshot integrity fixes merged",
+      "Anthropic OAuth refresh fix merged"
+    ],
+    "ai-trending": [
+      "OmniRoute +1841★ universal LLM router 290+ providers",
+      "ego-lite +880★ fastest browser for AI agents",
+      "RuView +1022★ ambient sensing agent",
+      "ragflow LightRAG mem0 steady star growth",
+      "AutoGPT OpenHands Dify agent frameworks trending",
+      "Kronos Vibe-Trading financial LLMs emerging"
+    ],
+    "ai-web": [
+      "Anthropic launches Claude Opus 5 flagship",
+      "Opus 5 matches Fable 5 half cost",
+      "$200M Economic Futures Research Fund",
+      "Project Pilot introduces Drone-Bench benchmark",
+      "Creative connectors for Ableton Adobe",
+      "OpenAI Health in ChatGPT metadata only"
+    ],
+    "ai-hn": [
+      "Claude Opus 5 dominates HN 1317 pts",
+      "Guardian questions OpenAI rogue hacker narrative",
+      "Codex user reports private repo leak",
+      "Reuters OpenAI missed HF breach week",
+      "Debian votes on LLM code ban",
+      "White House accuses Chinese lab distillation"
+    ],
+    "ai-arxiv": [
+      "MIRROR cross-view consistency multimodal reasoning",
+      "VLM-IE3D 3D-aware VLMs implicit explicit geometry",
+      "DONDO open w2v-BERT African languages",
+      "Windowed-MTP million-token speculative decoding",
+      "KroQuant diffusion transformer quantization",
+      "Provable error bounds KV-cache eviction"
+    ],
+    "ai-hf": [
+      "Qwen3.6-35B-A3B 2.5K likes 6.5M downloads",
+      "GLM-5.2 leads 4.4K likes MoE-DSA",
+      "Gemma-4-31B-it 3.4K likes 12.6M downloads",
+      "Unlimited-OCR 3K likes 2.5M downloads",
+      "Prism-ml 1-bit 2-bit LLM quantization",
+      "Baseten Poolside deploy NVFP4 inference"
+    ],
+    "ai-community": [
+      "Agent observability cost control dominate",
+      "Sentry reveals silent retry 5-agent pipeline",
+      "Context compression techniques agent memory",
+      "Notion 10x vector search scaling",
+      "OCaml Rust GC interop ML infra",
+      "Triton custom silicon development"
+    ]
+  }
+}
