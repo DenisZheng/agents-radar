@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex 连发两个 Rust alpha 版本",
+      "Gemini CLI 夜ly 机制成熟并行修复",
+      "Qwen Code Web Shell 与多工作区同步推进",
+      "DeepSeek TUI 重构神对象拆解 41 个 PR",
+      "Claude Code 进入稳定性攻坚期社区呼声高",
+      "AGENTS.md 跨工具互操作标准成焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw 单日 840 条 Issue/PR 更新",
+      "P0/P1 级阻塞 Issue 占比超 40%",
+      "Memory Trust Tagging 等安全机制推进",
+      "Gateway 启动失败等生产可用性痛点",
+      "多渠道生态补齐：Azure/ WhatsApp/IRC",
+      "当前稳定版 2026.7.1 系列验证中"
+    ],
+    "ai-trending": [
+      "Kronos 金融时序基模 +319 Star 登榜",
+      "andrewyng/aisuite 统一 10+ 厂商 API",
+      "RyanCodrai/turbovec Rust 核心向量索引",
+      "Graphify 等推动 RAG 向 Knowledge Graph 迁移",
+      "中文项目 Kronos/dive-into-llms 双榜齐现",
+      "Ollama 新增 Kimi-K2.6/GLM-5.2 支持"
+    ],
+    "ai-hn": [
+      "Anthropic 发布 Claude 5 上下文工程指南",
+      "ESP32 跑 28.9M 参数模型极致边缘推理",
+      "AMD 开放 ISA 打击 CUDA 护城河",
+      "120B MoE 模型在 24GB 显存推理",
+      "Stanford 就业报告引发从业者焦虑",
+      "Nikhil Suresh 炮轰 AI 狂热破坏决策"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE 旗舰 4.4k 赞 70 万下载",
+      "Qwen3.6-35B-A3B 多模态 MoE 640 万下载",
+      "百度 Unlimited-OCR 3.1k 赞 256 万下载",
+      "prism-ml 1-bit/2-bit 量化 Bonsai 系列",
+      "OpenBMB 发布 MiniCPM-RobotManip VLA 模型",
+      "Qwen 社区衍生去审查 GGUF 版本超 400 万下载"
+    ],
+    "ai-community": [
+      "SigNoz 可观测性揭示 Agent 群真实行为",
+      "连接 3 个 MCP Server 演示权限过载风险",
+      "Git refs 实现多 Agent 并发编辑零冲突",
+      "RAG 生产化避坑指南：检索精度到监控",
+      "MCP rug-pulls 攻击：审计后动态变恶",
+      "Agent 沙箱设计：网络默认关闭短生命周期"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "9 major AI CLI tools shipping nightly/alpha builds",
+      "AGENTS.md issue hits 4,451 👍 (repo record)",
+      "OpenAI Codex drops 2 alpha releases in 24h",
+      "Remote dev issue #10450 gets 690 👍, 178 comments",
+      "Convergence on agent orchestration & interoperability",
+      "Windows GPU/process instability remains systemic"
+    ],
+    "ai-agents": [
+      "OpenClaw: 340 issues, 500 PRs in 24 hours",
+      "220 PRs merged but 280 open signals review bottleneck",
+      "No release today; 2026.7.1-2 has session regressions",
+      "Session-state stability: memory corruption, snapshot fails",
+      "Gateway crash loops, heap leaks, startup failures",
+      "Security hardening: trust tags, filesystem sandboxing"
+    ],
+    "ai-trending": [
+      "Alibaba/open-code-review: hybrid LLM code review tool",
+      "citrolabs/ego-lite: fastest browser for AI agents",
+      "ComposioHQ/awesome-claude-skills curates skills list",
+      "Kronos: foundation model for financial markets",
+      "obra/superpowers: agentic skills dev framework",
+      "turbovec: Rust vector index on TurboQuant"
+    ],
+    "ai-hn": [
+      "Claude 5 context-engineering guide: 166 pts, 113 comments",
+      "Debian votes on LLM usage policies: 77 pts, 67 comments",
+      "28.9M LLM runs on $8 microcontroller: 77 pts",
+      "AMD publishes machine-readable ISA for GPU kernels",
+      "Stanford AI jobs study questions economic impact",
+      "OpenAI/Codex outages fuel production readiness doubts"
+    ],
+    "ai-hf": [
+      "Qwen 3.6 family dominates with dozens of fine-tunes",
+      "Z.ai GLM-5.2 MoE leads: 4.4k likes, 707k downloads",
+      "Baidu Unlimited-OCR surges: 3.1k likes, 2.5M downloads",
+      "Quantization diversity: ternary, binary, FP4, GGUF coexist",
+      "Robotics vision-language-action models emerging niche",
+      "Poolside Laguna-S-2.1 code LLM: 662 likes"
+    ],
+    "ai-community": [
+      "Dev.to floods with agent instrumentation, MCP security",
+      "SigNoz reveals bottlenecks: tool-call fan-out, memory",
+      "One agent + 3 MCP servers = uncontrolled blast radius",
+      "MCP rug-pulls: approved tools turn malicious post-approval",
+      "Lobste.rs tracks OCaml/Rust GC interop, MLIR dialects",
+      "Notion achieves 10x vector-search scaling"
+    ]
+  }
+}
