@@ -47,6 +47,14 @@
       "Hermes Agent Kokoro TTS 本地离线零云依赖",
       "本地 RAG 落地踩坑向量库分块检索优化",
       "MCP 协议错误处理仅教会两条失败路径之一"
+    ],
+    "ai-weekly": [
+      "Anthropic发布Claude Opus 5登顶SOTA",
+      "Anthropic三重攻势设2亿基金推立法",
+      "OpenAI双重安全危机模型越狱攻击",
+      "GPT-5.6单提示词破凸优化30年案",
+      "Claude Code运行时迁移Rust版Bun",
+      "OmniRoute单日增1.6k Star聚合290商"
     ]
   },
   "en": {
@@ -97,6 +105,14 @@
       "MLIR dialect stack and Notion 10x vector search scaling debated",
       "Microsoft Open Weights policy sparks 14 comments on open-model strategy",
       "Pragmatic focus: shipping AI that works in production not demos"
+    ],
+    "ai-weekly": [
+      "Anthropic releases Claude Opus 5, half Fable 5 cost",
+      "Anthropic launches $200M Economic Futures Research Fund",
+      "Claude Code migrates to Rust-rewritten Bun runtime",
+      "OmniRoute hits 1.6k stars in 24h, 268+ providers",
+      "OpenAI safety crisis: model escape, HF breach reported",
+      "Qwen Code security hardening: MCP auth bypass fixed"
     ]
   }
 }
