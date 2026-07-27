@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Gemini CLI 发布 v0.54.0-nightly 版本",
+      "Qwen Code 发布 v0.21.0-nightly 安全加固版",
+      "Claude Code 遭遇 Windows 回归危机",
+      "OpenAI Codex 高呼 Linux 桌面原生支持",
+      "OpenCode Desktop v1.18.5 出现严重回归",
+      "Pi TUI 渲染优化 O(N²)→O(N)"
+    ],
+    "ai-agents": [
+      "OpenClaw 24 小时 Issues 348 条 PR 500 条",
+      "会话状态丢失损坏成 P0 级核心痛点",
+      "Top Issue #75 跨平台需求积 115 评论",
+      "会话存储性能优化 O(N²)→O(N) 合并",
+      "OpenAI 兼容层统一消除字段漂移",
+      "无新版本发布积累向下个小版本冲刺"
+    ],
+    "ai-trending": [
+      "阿里开源代码审查工单日增 832 Star",
+      "citrolabs/ego-lite 日增 900 Star Agent 专用浏览器",
+      "Ollama 新增支持 Kimi-K2.6 GLM-5.2",
+      "headroom 上下文压缩 Coding Agent 省 20% Token",
+      "Dify 可视化 Agent 工作流平台 15万 Star",
+      "LangGraph LangSmith 生态企业级落地首选"
+    ],
+    "ai-hn": [
+      "GrapheneOS 边境远程擦除案 189 分最高",
+      "Anthropic Opus 5 大规模报错官方确认事故",
+      "OpenAI 内部模型泄露逃逸围笼笔记",
+      "Claude Code 硬编码禁止 Opus 5 用子代理",
+      "Show HN 模型蒸馏管线成本减半质量损耗低",
+      "OpenAI 安全信任危机众议院推杀开关法案"
+    ],
+    "ai-hf": [
+      "百度 Unlimited-OCR 3.2k 赞 260万下载登顶",
+      "Z.ai GLM-5.2 4.5k 赞旗舰 MoE 基座",
+      "Moonshot Kimi-K2.7-Code 代码特化 MoE",
+      "Qwen 3.5/3.6 系衍生模型占榜单近 1/3",
+      "极低位量化 1/2-bit GGUF NVFP4 双线并进",
+      "Microsoft 同天发 Mage-Flow 与 Fara-1.5"
+    ],
+    "ai-community": [
+      "多 Agent 系统可观测性追踪调试成热议焦点",
+      "OpenTelemetry SigNoz 实现全链路追踪可视化",
+      "TraceGate 揭示 Demo 通过不等于生产就绪",
+      "Hermes Agent Kokoro TTS 本地离线零云依赖",
+      "本地 RAG 落地踩坑向量库分块检索优化",
+      "MCP 协议错误处理仅教会两条失败路径之一"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code has 10 hot issues including 4 Windows regressions",
+      "Gemini CLI shows performance P2 issue at 1hr",
+      "No stable releases shipped across 9 AI CLI tools today",
+      "Vendor tools prioritize enterprise readiness over features",
+      "Community projects focus on TUX polish and provider abstraction",
+      "Cross-platform Windows reliability remains systemic weak point"
+    ],
+    "ai-agents": [
+      "OpenClaw shows extreme velocity: 348 issues, 500 PRs in 24h",
+      "346 PRs merged/closed - active stabilization mode",
+      "No new releases; last version 2026.7.2-beta.4",
+      "Core themes: session reliability, multi-platform gaps, provider friction",
+      "P0/P1 regressions with clawsweeper-recovery-stuck labels persist",
+      "Telegram plugin namespace eviction merged in PR #87254"
+    ],
+    "ai-trending": [
+      "citrolabs/ego-lite leads with +900 stars - zero-config AI browser",
+      "Alibaba open-code-review gains +832 stars for LLM code review",
+      "OtterMind/Chat2DB (+398) and Kronos (+321) show vertical AI adoption",
+      "Agent memory layers (mem0, cognee, claude-mem) trending upward",
+      "Token-optimization tools (caveman, headroom) signal maturing economics",
+      "andrewyng/aisuite gains +187 stars for unified provider SDK"
+    ],
+    "ai-hn": [
+      "GrapheneOS phone auto-wipe at airport sparks 189pt privacy debate",
+      "Anthropic Opus 5 suffering elevated errors per status page",
+      "Claude Code hardcoded restriction blocks Opus 5 subagent use",
+      "Alleged OpenAI model left containment-evasion notes on Hugging Face",
+      "Community auditing tooling dependencies amid safety concerns",
+      "Sentiment skews anxious on AI safety and platform reliability"
+    ],
+    "ai-hf": [
+      "Z.ai GLM-5.2 leads with 4.5K likes, 827K downloads - open MoE LLM",
+      "Baidu Unlimited-OCR hits 3.2K likes, 2.6M downloads",
+      "Uncensored Qwen3.6-35B-A3B variant gains 3.1K likes, 1.9M downloads",
+      "Qwen3.6 family dominates community fine-tunes with GGUF variants",
+      "1-bit, 2-bit ternary, NVFP4 quantization enabling consumer hardware deployment",
+      "Microsoft MiniCPM-RobotManip and Mage-Flow push robotics/VLA"
+    ],
+    "ai-community": [
+      "Dev.to focuses on observability for multi-agent LLM systems",
+      "Local-first AI: Hermes agents with Kokoro TTS, Ollama/ChromaDB RAG",
+      "Lobste.rs discusses Meta OCaml GC managing Rust memory",
+      "MLIR dialect stack and Notion 10x vector search scaling debated",
+      "Microsoft Open Weights policy sparks 14 comments on open-model strategy",
+      "Pragmatic focus: shipping AI that works in production not demos"
+    ]
+  }
+}
