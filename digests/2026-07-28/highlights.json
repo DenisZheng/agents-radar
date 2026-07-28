@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex发布2个Alpha版v0.146.0-a12/13",
+      "Gemini CLI发布Nightly v0.54.0修复安全漏洞",
+      "OpenCode连发2稳定版v1.18.6/7高频迭代",
+      "头部工具聚焦企业级稳定性与计费透明度",
+      "腰部工具处于架构重构与ACP/MCP标准化期",
+      "全系补齐Windows原生体验与跨设备配置同步"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h更新500 Issues与500 PRs",
+      "关闭量略超新开量技术债偿还为主线",
+      "网关内存泄漏RSS增长至15.5GB P0级",
+      "会话状态丢失死锁多平台适配缺失",
+      "多个P0/P1修复PR待维护者审核",
+      "无新版本发布下一版本主打稳定性补丁"
+    ],
+    "ai-trending": [
+      "阿里open-code-review单日斩获979颗星",
+      "金融时序基座模型Kronos登上Trending榜",
+      "airi与claude-video单日涨星均超400",
+      "PocketFlow百行框架minimind两小时训练",
+      "Graphify用AST解析构建代码知识图谱",
+      "企业级Agent基建落地加速成主流趋势"
+    ],
+    "ai-web": [
+      "Anthropic CEO亲笔发文阐述开放权重模型立场",
+      "核心担忧非模型泄露而是独裁政府永久统治",
+      "主张精准治理危险能力而非一刀切禁令",
+      "与Cognizant升级为Global Premier Partner",
+      "3万员工完成Claude认证深度嵌入工程平台",
+      "OpenAI仅发一篇元数据博客正文不可获取"
+    ],
+    "ai-hn": [
+      "Anthropic发布开放权重立场文引发三方博弈",
+      "黄仁勋首推力挺开放获取中国官媒划红线",
+      "Claude Opus 5频发错误共享对话泄露搜索",
+      "用户感知模型被偷偷削弱引发信任危机",
+      "Let's Seal获65分将ACME引入文档签名",
+      "Sam Altman奇点论言论遭社区冷嘲热讽"
+    ],
+    "ai-hf": [
+      "Moonshot Kimi-K3以6.3k点赞领跑MoE旗舰",
+      "Z.ai GLM-5.2与Qwen3.6-35B-A3B紧随其后",
+      "百度Unlimited-OCR 264万下载霸榜实用赛道",
+      "Microsoft推出Mage-Flow主打指令式图像编辑",
+      "GGUF NF4 2-bit量化版成大模型分发标配",
+      "未审查角色扮演微调仍占长尾流量高地"
+    ],
+    "ai-community": [
+      "初级开发者管道断裂AI切断技能习得闭环",
+      "Agent技能成新型供应链攻击面提出威胁模型",
+      "无限上下文非特性乃技术债掩盖RAG欠债",
+      "MCPRadar首个面向MCP协议安全扫描器",
+      "AgentForger复现ChatGPT Workspace持久化钓鱼",
+      "本地AI零云零成本评分200个职位实战"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Gemini CLI nightly v0.54.0 adds CRLF normalization",
+      "GitHub Copilot CLI v1.0.76-0 adds MCP caching",
+      "Claude Code hits 3 critical regressions on Windows",
+      "7 AI CLI tools shipped updates in 24 hours",
+      "Enterprise vs autonomous workflow split emerging",
+      "No tool solves cross-device state sync yet"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and 500 PRs in 24 hours",
+      "No releases yet; pre-release hardening phase",
+      "Gateway memory leak hits 15.5GB RSS",
+      "Session loss and crash loops are P0 bugs",
+      "218 PRs merged/closed in single day",
+      "Beta version 2026.7.2-beta.x referenced in PRs"
+    ],
+    "ai-trending": [
+      "Alibaba open-code-review surges +979 stars today",
+      "Kronos +441★, airi +572★ gain traction",
+      "Shift to real-world AI agents with sensory input",
+      "Ollama adds Kimi-K2.6, GLM-5.2, gpt-oss",
+      "3 of top 6 trending are agent skills",
+      "Firecrawl sustains 2.7k stars/week for RAG"
+    ],
+    "ai-web": [
+      "Amodei: Anthropic never pushed open-weights ban",
+      "Anthropic frames open weights as public good",
+      "Cognizant partnership: 30k+ trained on Claude",
+      "Cognizant named Global Premier Partner",
+      "OpenAI publishes AI workplace impact article",
+      "Anthropic leads policy discourse and enterprise"
+    ],
+    "ai-hn": [
+      "Anthropic open-weights paper: 461 pts, 633 comments",
+      "Jensen Huang joins X backing open access",
+      "Claude Opus 5 sees elevated error rates",
+      "Claude Code users hit 529 overload errors",
+      "Privacy lapse: Claude chats indexed by Google",
+      "Study claims all LLMs lean left-libertarian"
+    ],
+    "ai-hf": [
+      "Kimi-K3 leads weekly likes at 6.3K",
+      "GLM-5.2 hits 1M+ downloads",
+      "Qwen3.6-35B-A3B spawns dozens of variants",
+      "Microsoft drops Mage-Flow and Fara1.5 agent",
+      "Baidu Unlimited-OCR reaches 2.6M downloads",
+      "Ternary, 1-bit, NVFP4 quantization variants rise"
+    ],
+    "ai-community": [
+      "Junior dev pipeline broken by AI: 84 reactions",
+      "AI removes junior learning tasks, boosts seniors",
+      "MCP threat models treat agents as supply chain risk",
+      "Agent-invoked tools need zero-trust validation",
+      "'Unlimited context' called technical debt",
+      "Focus shifts to safe agentic workflow integration"
+    ]
+  }
+}
