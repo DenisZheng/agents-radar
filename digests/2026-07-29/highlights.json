@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Gemini CLI ships 3 releases in 24h",
+      "OpenCode drops 2 patches rapidly",
+      "Qwen Code stable + nightly builds",
+      "470👍 on Claude Code quota bug",
+      "864👍 on Codex Linux desktop ask",
+      "Enterprise readiness differentiates tools"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues & PRs in 24h",
+      "v2026.7.2-beta.5: state safety focus",
+      "P0 gateway leak: 350MB→15.5GB RAM",
+      "Crash-loop bugs suppress Discord/WhatsApp",
+      "Session transcript corruption found",
+      "266 PRs merged/closed today"
+    ],
+    "ai-trending": [
+      "Agent infra dominates GitHub trending",
+      "HF speech-to-speech +227 stars today",
+      "Microsoft agent-governance-toolkit trends",
+      "Milvus/Qdrant/LlamaIndex >30k stars",
+      "moeru-ai/airi companion +797 stars",
+      "Ollama adds Kimi-K2.6, GLM-5.2"
+    ],
+    "ai-web": [
+      "Claude Mythos finds crypto flaws",
+      "Anthropic CEO opposes weight bans",
+      "OpenAI drops 7 enterprise guides",
+      "HAWK post-quantum scheme weakened",
+      "New AES cryptanalytic path found",
+      "Coordinated enterprise messaging push"
+    ],
+    "ai-hn": [
+      "Private chats exposed, outages persist",
+      "OpenAI Codex Security hits 347 pts",
+      "LLM finds practical HAWK-256 attack",
+      "Focus shifts to reliability/privacy",
+      "Uncensored LLMs more optimistic",
+      "182 pts on crypto weakness paper"
+    ],
+    "ai-arxiv": [
+      "Kimi K3: 2.8T MoE, 1M context",
+      "UNIFUSION: AR to discrete diffusion",
+      "PIVOT: token-level sparse attention",
+      "Medical AI: ClinFusion, ESRVS",
+      "Eval rigor: D-Score, conformal risk",
+      "DataOrchestra: per-example curation"
+    ],
+    "ai-hf": [
+      "Kimi-K3 8,026 likes dominates",
+      "Qwen3.6-35B-A3B 6.1M+ downloads",
+      "GLM-5.2 4.6K likes, 1.27M DLs",
+      "Baidu Unlimited-OCR 3.4K likes",
+      "Microsoft Mage-Flow text-to-image",
+      "Inflect-Micro/Nano-v2 edge TTS"
+    ],
+    "ai-community": [
+      "Slopsquatting: hallucinated package names",
+      "Agent write-access vulns exposed",
+      "Shift to auditing agent permissions",
+      "Building robust MCP servers",
+      "Claude Opus 5, GPT-6 rumors",
+      "LLM failure mode catalogs shared"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Gemini CLI ships 3 releases in 24h",
+      "OpenCode drops 2 patches rapidly",
+      "Qwen Code stable + nightly builds",
+      "470👍 on Claude Code quota bug",
+      "864👍 on Codex Linux desktop ask",
+      "Enterprise readiness differentiates tools"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues & PRs in 24h",
+      "v2026.7.2-beta.5: state safety focus",
+      "P0 gateway leak: 350MB→15.5GB RAM",
+      "Crash-loop bugs suppress Discord/WhatsApp",
+      "Session transcript corruption found",
+      "266 PRs merged/closed today"
+    ],
+    "ai-trending": [
+      "Agent infra dominates GitHub trending",
+      "HF speech-to-speech +227 stars today",
+      "Microsoft agent-governance-toolkit trends",
+      "Milvus/Qdrant/LlamaIndex >30k stars",
+      "moeru-ai/airi companion +797 stars",
+      "Ollama adds Kimi-K2.6, GLM-5.2"
+    ],
+    "ai-web": [
+      "Claude Mythos finds crypto flaws",
+      "Anthropic CEO opposes weight bans",
+      "OpenAI drops 7 enterprise guides",
+      "HAWK post-quantum scheme weakened",
+      "New AES cryptanalytic path found",
+      "Coordinated enterprise messaging push"
+    ],
+    "ai-hn": [
+      "Private chats exposed, outages persist",
+      "OpenAI Codex Security hits 347 pts",
+      "LLM finds practical HAWK-256 attack",
+      "Focus shifts to reliability/privacy",
+      "Uncensored LLMs more optimistic",
+      "182 pts on crypto weakness paper"
+    ],
+    "ai-arxiv": [
+      "Kimi K3: 2.8T MoE, 1M context",
+      "UNIFUSION: AR to discrete diffusion",
+      "PIVOT: token-level sparse attention",
+      "Medical AI: ClinFusion, ESRVS",
+      "Eval rigor: D-Score, conformal risk",
+      "DataOrchestra: per-example curation"
+    ],
+    "ai-hf": [
+      "Kimi-K3 8,026 likes dominates",
+      "Qwen3.6-35B-A3B 6.1M+ downloads",
+      "GLM-5.2 4.6K likes, 1.27M DLs",
+      "Baidu Unlimited-OCR 3.4K likes",
+      "Microsoft Mage-Flow text-to-image",
+      "Inflect-Micro/Nano-v2 edge TTS"
+    ],
+    "ai-community": [
+      "Slopsquatting: hallucinated package names",
+      "Agent write-access vulns exposed",
+      "Shift to auditing agent permissions",
+      "Building robust MCP servers",
+      "Claude Opus 5, GPT-6 rumors",
+      "LLM failure mode catalogs shared"
+    ]
+  }
+}
