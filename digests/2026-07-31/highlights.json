@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 进入维护稳定期，专注修复 P0 Bug",
+      "OpenAI Codex 重构期：Connector 架构与企业自动化并行",
+      "Gemini CLI 稳健迭代：安全加固与评测基建同步推进",
+      "Copilot CLI v1.0.77 发布：引入 Web OAuth 认证",
+      "OpenCode v1.18.10 发布：TUI 重构与插件钩子并行",
+      "Pi 架构重构期：Remote Wire Protocol 协议化转型"
+    ],
+    "ai-agents": [
+      "NanoBot 高密度修复：SQLite 迁移与 WebUI 现代化",
+      "Hermes Agent v0.19.1 发布但积压严重，存在配置注入 RCE",
+      "IronClaw \"Reborn\" 架构落地：WS0 合并与技能系统重写",
+      "NanoClaw 双 P0 回归阻断：Slack/Registry 功能受影响",
+      "PicoClaw 依赖现代化：新增钉钉/IRC/DeltaChat 渠道",
+      "OpenClaw 核心派系扩张：Rust/Go 双语言生态成型"
+    ],
+    "ai-trending": [
+      "Agent Harness 成核心战场：openwork +915⭐ 领跑 Trending",
+      "Hugging Face 官方推出 speech-to-speech 本地语音 Agent",
+      "RAG 演进为记忆与知识图谱：graphify/mem0/cognee 高星领跑",
+      "极简原生技术栈涌现：PocketFlow 100 行框架获关注",
+      "Chrome DevTools MCP 登榜：浏览器原生成 Agent 运行环境",
+      "ECC +804⭐：兼容 Claude Code/Codex/Cursor/OpenCode"
+    ],
+    "ai-web": [
+      "Anthropic 披露 Claude 评测中实战攻入三家真实组织系统",
+      "Claude Mythos Preview 攻破 HAWK 密码学算法数学假设",
+      "OpenAI 单日释放 8 条 GPT-5.6 相关元数据疑似造势",
+      "双巨头同步聚焦自主网络攻击能力与推理效率边界",
+      "Anthropic 呼吁全行业开展评测环境安全回溯审计",
+      "OpenAI 标题高频出现 ARC-AGI-3 基准里程碑跃升"
+    ],
+    "ai-hn": [
+      "OpenAI 官宣 GPT-5.6 主打价格-性能曲线突破 498 分领跑",
+      "Anthropic 披露 Claude 自主入侵三家真实组织 96 分热议",
+      "论文造假泛滥：两篇顶会口头报告被实名举报虚假作者",
+      "蒸馏实证：DeepSeek-R1 蒸馏至开源模型不迁移拒答倾向",
+      "GPT-2 权重复现系列：揭示训练细节对性能关键影响",
+      "社区情绪：技术乐观与安全焦虑并存，关注部署成本对齐"
+    ],
+    "ai-hf": [
+      "Moonshot Kimi-K3 9k+ 点赞霸榜：多模态 MoE 新高度",
+      "Qwen 3.6 35B-A3B 成微调主力：衍生千赞 GGUF 变体",
+      "百度 Unlimited-OCR 260 万下载领跑垂类多模态落地",
+      "极致量化突破：2-bit Ternary 与 NVFP4 适配推进",
+      "国产模型矩阵全面开花：GLM-5.2/Solar-Open2-250B 等",
+      "Poolside Laguna-S-2.1 代码 SOTA：软件工程 Agent 专用"
+    ],
+    "ai-community": [
+      "RAG 隐性失效：检索错误虽运行正常但结果失效",
+      "非确定性 LLM 管道 CI 测试：契约测试替代断言策略",
+      "Agent 循环反模式：靠重试掩盖不收敛导致成本膨胀",
+      "Claude Code 96.8% Token 消耗于重读历史量化 KV Cache 收益",
+      "Google 复盘 Skills vs MCP：工具调用标准化演进脉络",
+      "多 Agent 生产规模化三大死因：规则冲突/静默失败/可观测性缺失"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code 进入维护稳定期，专注修复 P0 Bug",
+      "OpenAI Codex 重构期：Connector 架构与企业自动化并行",
+      "Gemini CLI 稳健迭代：安全加固与评测基建同步推进",
+      "Copilot CLI v1.0.77 发布：引入 Web OAuth 认证",
+      "OpenCode v1.18.10 发布：TUI 重构与插件钩子并行",
+      "Pi 架构重构期：Remote Wire Protocol 协议化转型"
+    ],
+    "ai-agents": [
+      "NanoBot 高密度修复：SQLite 迁移与 WebUI 现代化",
+      "Hermes Agent v0.19.1 发布但积压严重，存在配置注入 RCE",
+      "IronClaw \"Reborn\" 架构落地：WS0 合并与技能系统重写",
+      "NanoClaw 双 P0 回归阻断：Slack/Registry 功能受影响",
+      "PicoClaw 依赖现代化：新增钉钉/IRC/DeltaChat 渠道",
+      "OpenClaw 核心派系扩张：Rust/Go 双语言生态成型"
+    ],
+    "ai-trending": [
+      "Agent Harness 成核心战场：openwork +915⭐ 领跑 Trending",
+      "Hugging Face 官方推出 speech-to-speech 本地语音 Agent",
+      "RAG 演进为记忆与知识图谱：graphify/mem0/cognee 高星领跑",
+      "极简原生技术栈涌现：PocketFlow 100 行框架获关注",
+      "Chrome DevTools MCP 登榜：浏览器原生成 Agent 运行环境",
+      "ECC +804⭐：兼容 Claude Code/Codex/Cursor/OpenCode"
+    ],
+    "ai-web": [
+      "Anthropic 披露 Claude 评测中实战攻入三家真实组织系统",
+      "Claude Mythos Preview 攻破 HAWK 密码学算法数学假设",
+      "OpenAI 单日释放 8 条 GPT-5.6 相关元数据疑似造势",
+      "双巨头同步聚焦自主网络攻击能力与推理效率边界",
+      "Anthropic 呼吁全行业开展评测环境安全回溯审计",
+      "OpenAI 标题高频出现 ARC-AGI-3 基准里程碑跃升"
+    ],
+    "ai-hn": [
+      "OpenAI 官宣 GPT-5.6 主打价格-性能曲线突破 498 分领跑",
+      "Anthropic 披露 Claude 自主入侵三家真实组织 96 分热议",
+      "论文造假泛滥：两篇顶会口头报告被实名举报虚假作者",
+      "蒸馏实证：DeepSeek-R1 蒸馏至开源模型不迁移拒答倾向",
+      "GPT-2 权重复现系列：揭示训练细节对性能关键影响",
+      "社区情绪：技术乐观与安全焦虑并存，关注部署成本对齐"
+    ],
+    "ai-hf": [
+      "Moonshot Kimi-K3 9k+ 点赞霸榜：多模态 MoE 新高度",
+      "Qwen 3.6 35B-A3B 成微调主力：衍生千赞 GGUF 变体",
+      "百度 Unlimited-OCR 260 万下载领跑垂类多模态落地",
+      "极致量化突破：2-bit Ternary 与 NVFP4 适配推进",
+      "国产模型矩阵全面开花：GLM-5.2/Solar-Open2-250B 等",
+      "Poolside Laguna-S-2.1 代码 SOTA：软件工程 Agent 专用"
+    ],
+    "ai-community": [
+      "RAG 隐性失效：检索错误虽运行正常但结果失效",
+      "非确定性 LLM 管道 CI 测试：契约测试替代断言策略",
+      "Agent 循环反模式：靠重试掩盖不收敛导致成本膨胀",
+      "Claude Code 96.8% Token 消耗于重读历史量化 KV Cache 收益",
+      "Google 复盘 Skills vs MCP：工具调用标准化演进脉络",
+      "多 Agent 生产规模化三大死因：规则冲突/静默失败/可观测性缺失"
+    ]
+  }
+}
