@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 爆 50+ P0 级计费崩溃",
+      "OpenAI Codex 单日合并 43 PR 重构",
+      "Gemini CLI 修 Agent 死锁 SSRF 漏洞",
+      "Copilot CLI v1.0.78 支持 ACP closeSession",
+      "Qwen Code v0.21.2 推 Autofix 轮次控制",
+      "OpenCode Daemon 多工作区架构重构"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h 千条 Issue/PR 爆发式活跃",
+      "Gateway 内存泄漏 350MB→15.5GB P0 故障",
+      "会话投影活锁 SQLite 快照恢复失效",
+      "Telegram/Slack/Matrix 消息重复丢失",
+      "139 PR 合并聚焦会话一致性安全加固",
+      "社区两极：核心治理 vs 多平台客户端需求"
+    ],
+    "ai-trending": [
+      "OpenWork 基于 opencode 单日狂揽 806 Star",
+      "GitHub 发布 Copilot SDK 标准化 Agent 能力",
+      "微软 AI-For-Beginners 单日涨 1.5k Star",
+      "Rust 基建 rig/qdrant/lancedb 渗透加速",
+      "垂直 Agent 产品化：金融/求职/短视频/PPT",
+      "本地推理栈 ollama/open-webui 稳居高星榜"
+    ],
+    "ai-web": [
+      "OpenAI 发布战略长文 Building Abundant Intelligence",
+      "Anthropic 官网静默零更新进入发布空窗期",
+      "OpenAI 周五晚间抢占周末舆论高地",
+      "Claude 4.5 Sonnet 混合推理对标 o 系列",
+      "Claude Enterprise 深化 RAG 与 GitHub 原生集成",
+      "Anthropic 更新 RSP 明确 ASL-3 部署门槛"
+    ],
+    "ai-hn": [
+      "Anthropic 披露 Claude 测试中逃逸攻击三组织",
+      "HN 最高分 194：零权限 Android 文件查看器",
+      "Manifest 弃用 LLM Router 主张单模型实用主义",
+      "Marble OS 探索 Agent 空间计算 GUI 新范式",
+      "EU 强制 AI 内容标识生效引发合规讨论",
+      "开发者抛弃复杂 Router 转向简单架构"
+    ],
+    "ai-arxiv": [
+      "AISPA 首创用户侧 System Prompt 审计框架",
+      "OSReward 建立跨平台 CUA 奖励模型标准",
+      "SVR 自验证细化实现自适应推理时计算",
+      "MANTA 多智能体拓扑在线进化动态重组",
+      "Lightning OPD 2.0 解决跨教师蒸馏风格偏移",
+      "重复采样同 Token 预算下击败 Self-Refine"
+    ],
+    "ai-hf": [
+      "Kimi-K3 9.3k 赞 50 万下载霸榜多模态基座",
+      "DeepSeek-V4-Flash 系列合计 3k 赞高效 MoE",
+      "Qwen 3.5/3.6 衍生版占半壁江山百花齐放",
+      "百度 Unlimited-OCR 3.6k 赞 250 万下载",
+      "微软 Mage-VL/Fara 系列领衔多模态工具落地",
+      "Inflect-Micro/Nano 极低参数边缘 TTS 爆发"
+    ],
+    "ai-community": [
+      "架构反思成主流：单体 Agent 是单点故障",
+      "RAG 实战：不会数别让它数 SQL 路由替代",
+      "BYOK 四方案横评 + 生产级密钥保险箱清单",
+      "AI 编程加速交付但维护成本陷阱显性化",
+      "MCP 服务器依赖膨胀中位数 94 包安全左移",
+      "Kimi Delta Attention 等底层创新持续渗透"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Ecosystem bifurcates: mature tools vs new entrants",
+      "Codex and Gemini ship multiple daily alpha builds",
+      "ACP/MCP protocol standardization becomes integration layer",
+      "Session durability and Windows/WSL compatibility key themes",
+      "9 CLI tools covered including Claude Code, Codex",
+      "Claude Code shows zero new releases today"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues and 500 PRs in 24h",
+      "139 PRs merged and 35 issues closed today",
+      "Session-state bugs dominate: memory leaks, transcript corruption",
+      "Multi-channel delivery regressions across Telegram, Slack, LINE",
+      "Security hardening: masked secrets, token disclosure prevention",
+      "Zero new releases published today"
+    ],
+    "ai-trending": [
+      "Agent-centric tooling dominates 4 of top 12 trending",
+      "Microsoft AI-For-Beginners surges 1,592 stars today",
+      "GitHub Copilot SDK released for extensibility",
+      "Security×AI convergence in reverse-skill pentest toolkit",
+      "Deepfakes/faceswap persists at +93 stars",
+      "79 AI repos deduplicated; top projects exceed 100k stars"
+    ],
+    "ai-web": [
+      "OpenAI publishes 'Building Abundant Intelligence' essay",
+      "Anthropic releases zero new content today",
+      "OpenAI drives discourse; Anthropic optimizes shipping",
+      "Strategic essay in /index/ signals narrative-setting",
+      "No research papers or dev docs from either org",
+      "Asymmetric cadence reflects divergent communication strategies"
+    ],
+    "ai-hn": [
+      "Claude autonomously hacked 3 orgs in safety tests",
+      "Agent containment debate ignites on Hacker News",
+      "AI agent interface design discussion hits 107 points",
+      "Team deprecates LLM router after production use",
+      "Speculative KV replication research for bursty inference",
+      "EU AI labeling mandate and music rules debated"
+    ],
+    "ai-arxiv": [
+      "Self-improving AI systems converge: Frontis-MA1, β-OPSD, SVR",
+      "Agent safety matures with AISPA, PAC-MAN, OSReward",
+      "Domain benchmarks emerge: ORCA-bench, InfoOps, KAISEN",
+      "MixFrag quantization and ReToken retrieval target efficiency",
+      "Scientific AI expands into physics, materials, medicine",
+      "Inference-time scaling rethought for latency constraints"
+    ],
+    "ai-hf": [
+      "Kimi-K3 leads with 9.3K weekly likes multimodal",
+      "DeepSeek-V4-Flash hits 2.9M downloads production adoption",
+      "GLM-5.2 gains 4.7K likes strong bilingual perf",
+      "Community aggressively fine-tunes Qwen3.6 GGUF uncensored",
+      "Unlimited-OCR reaches 2.5M downloads specialized model",
+      "Solar-Open2-250B releases 250B parameter open model"
+    ],
+    "ai-community": [
+      "Dev.to shifts from demos to production hardening",
+      "Claude Code + OpenRouter guide gets 16 likes",
+      "All-purpose agent called single point of failure",
+      "RAG pitfalls: counting and retrieval quality debated",
+      "BYOK security patterns and workflows-vs-agents discussed",
+      "Lobste.rs covers formal verification, Kimi Delta Attention"
+    ]
+  }
+}
