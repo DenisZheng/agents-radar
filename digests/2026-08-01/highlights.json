@@ -63,6 +63,14 @@
       "AI 编程加速交付但维护成本陷阱显性化",
       "MCP 服务器依赖膨胀中位数 94 包安全左移",
       "Kimi Delta Attention 等底层创新持续渗透"
+    ],
+    "ai-monthly": [
+      "Anthropic发布Sonnet 5与Fable 5",
+      "Agent Skills市场爆发，标准化成新基建",
+      "OpenAI GPT-5.6单提示词解30年悬案",
+      "Anthropic三连发垂直Agent，65%代码Dogfooding",
+      "Claude Code迁移Rust/Bun，稳定性成核心竞争力",
+      "Opus 5定位日常旗舰，Anthropic锚定AI基建商"
     ]
   },
   "en": {
@@ -129,6 +137,14 @@
       "RAG pitfalls: counting and retrieval quality debated",
       "BYOK security patterns and workflows-vs-agents discussed",
       "Lobste.rs covers formal verification, Kimi Delta Attention"
+    ],
+    "ai-monthly": [
+      "GLM 5.2 beats Claude on Semgrep benchmark",
+      "Anthropic releases Claude Sonnet 5 and Fable 5",
+      "OpenAI in talks to sell 5% stake to US government",
+      "Anthropic Trust Crisis: cache leaks, false positives",
+      "OpenAI launches GPT-5.6 series, claims math proof",
+      "Apple sues OpenAI for trade-secret theft"
     ]
   }
 }
