@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Gemini CLI 发布 v0.55.0-nightly",
+      "GitHub Copilot CLI v1.0.78-2 支持 BYOK",
+      "Claude Code 现 7 个阻断级 Issue",
+      "OpenAI Codex 合入 8 个基建重构 PR",
+      "Kimi Code CLI 修复 5 个核心 Bug",
+      "生态向可编程 Agent 运行时跃迁"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h 产生 500 Issues/PRs",
+      "发布 v2026.7.2-beta.6 强化状态安全",
+      "P0/P1 级 Bug 占比超 60%",
+      "单日合并 99 个修复 PR",
+      "隔离存储+崩溃可恢复快照上线",
+      "长期技术债 #25592 #31583 持续累积"
+    ],
+    "ai-trending": [
+      "字节跳动 deer-flow 日增 209 Star",
+      "HuggingFace speech-to-speech 日增 442 Star",
+      "GitHub Copilot SDK 正式开源",
+      "Ollama 新增 Kimi-K2.6/GLM-5.2",
+      "本地化隐私优先成主流趋势",
+      "Agent 记忆中枢/SuperAgent 工程化"
+    ],
+    "ai-web": [
+      "OpenAI 发布数学十大进展合集",
+      "Anthropic 官网零新增内容",
+      "OpenAI 仅提供元数据无正文",
+      "疑似 o 系列/GPT-5 推理突破预热",
+      "Anthropic 可能聚焦训练交付冲刺",
+      "OpenAI 在可验证推理维度亮剑"
+    ],
+    "ai-hn": [
+      "OpenAI 数学突破帖 416 分 281 评",
+      "亚马逊 Claude 编码超支 860%",
+      "稀有书籍被毁喂 AI 引众怒",
+      "YC 创业者要求求职者纹身",
+      "MIT 研究肯定 AI 理财建议质量",
+      "8GB GPU 跑通 SFT/DPO/GRPO"
+    ],
+    "ai-hf": [
+      "Kimi-K3 以 9.5k 点赞霸榜",
+      "DeepSeek-V4-Flash 下载超 280 万",
+      "Qwen 3.5/3.6 衍生版占榜单 1/3",
+      "百度 Unlimited-OCR 245 万下载",
+      "2-bit Ternary/NVFP4 极低比特量化现身",
+      "边缘 TTS 模型成端侧落地新增长点"
+    ],
+    "ai-community": [
+      "AI 加速 PR 导致工程师判断力退化",
+      "MCP 无状态规范 AWS AgentCore 实战",
+      "GPT-5.6 Luna 大幅降价迁移成本账单",
+      "Kimi Delta Attention 架构创新",
+      "AI 辅助 Rust 重写 PHP VM",
+      "建立判断力训练机制而非单纯追求吞吐"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "AI CLI landscape in consolidation-and-hardening phase",
+      "Nine tools fixing critical regressions in session persistence",
+      "Convergence around multi-model orchestration (BYOK)",
+      "Market splitting into IDE-integrated vs standalone TUI tools",
+      "Claude Code: 50 active issues, 197♥ for VS Code auto-attach",
+      "Zero major feature launches across all nine tools"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.2-beta.6 released with state safety",
+      "500 issues and 500 PRs updated in 24 hours",
+      "Quarantine store protects persisted data from corruption",
+      "Crash-recoverable SQLite snapshots with durable publication",
+      "Schema-upgrade data-loss rejection prevents destructive migrations",
+      "Rollback-writer snapshot recovery for automatic state restoration"
+    ],
+    "ai-trending": [
+      "TencentDB-Agent-Memory +227★ signals persistent agent memory shift",
+      "Hugging Face speech-to-speech +442★ leads voice-first AI trend",
+      "Microsoft AI-For-Beginners +949★ shows enterprise onboarding demand",
+      "ByteDance deer-flow +209★ enables hour-scale autonomous agents",
+      "Microsoft TRELLIS.2 +107★ brings structured latents for 3D",
+      "mem0 at 62k★ shows shareable agent memory layers growing"
+    ],
+    "ai-web": [
+      "OpenAI publishes 'Ten Advances In Mathematics' research showcase",
+      "Anthropic publishes zero new articles - radio silence period",
+      "OpenAI emphasizes formal verification and theorem solving",
+      "Asymmetric cadence: OpenAI drives public research narrative",
+      "OpenAI post implies upcoming STEM-optimized tooling",
+      "Anthropic absence requires monitoring API release notes"
+    ],
+    "ai-hn": [
+      "OpenAI's 'Ten Advances in Mathematics' hits 416 pts on HN",
+      "MIT Sloan study validates AI financial advice (164 pts)",
+      "YC founder's tattoo-for-interview stunt sparks outrage (93 pts)",
+      "Ed Zitron's 'sold a lie' critique gains traction (43 pts)",
+      "Research shows AI depressing wages discussed (28 pts)",
+      "Developers share lightweight post-training tooling for consumer GPUs"
+    ],
+    "ai-hf": [
+      "Moonshot AI's Kimi-K3 leads with 9.5K likes",
+      "Z.ai's GLM-5.2 at 4.7K likes, 1.6M downloads",
+      "DeepSeek-V4-Flash variants show rapid community adoption",
+      "Baidu Unlimited-OCR hits 2.4M downloads for document understanding",
+      "Qwen3.6 family fuels 7 of top 30 trending models",
+      "Novel quantization formats (NVFP4, ternary 2-bit) push edge deployment"
+    ],
+    "ai-community": [
+      "OpenAI GPT-5.6 Luna 5× price drop to $1.40/M tokens",
+      "Judgment gap in AI-assisted engineering worries developers",
+      "MCP evolves with stateless specs and secure server patterns",
+      "Local-first AI hits hardware walls on laptop inference",
+      "Voice AI surfaces new social-engineering attack vectors",
+      "Faster PRs but weaker instincts: engineering judgment atrophies"
+    ]
+  }
+}
