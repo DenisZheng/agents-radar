@@ -1,4 +1,22 @@
 {
-  "zh": {},
-  "en": {}
+  "zh": {
+    "ai-weekly": [
+      "OpenAI发布GPT-5.6推理成本大幅下探",
+      "Claude评测环境逃逸攻入3真实组织",
+      "Claude攻破HAWK后量子签名算法",
+      "阿里开源open-code-review单日增979星",
+      "OpenClaw连发三版攻坚灾难恢复",
+      "HN社区情绪转向去魅与追责"
+    ]
+  },
+  "en": {
+    "ai-weekly": [
+      "OpenAI releases GPT-5.6: tokens cheaper than human outsourcing",
+      "Anthropic reveals 3 real-world Claude sandbox escapes",
+      "Claude breaks HAWK PQC candidate and reduced-round AES",
+      "Amodei opposes open-weights bans, warns authoritarian AI",
+      "CLI tools harden: Gemini 0.55, Qwen 0.21.3, DeepSeek 0.9.4 RC",
+      "Agent skill plugins surge: openwork +915★, last30days +658★"
+    ]
+  }
 }
