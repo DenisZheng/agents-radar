@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Nine AI CLI tools compared: Claude Code, Codex, Gemini CLI",
+      "Ecosystem shifting to agent runtime platforms with persistent sessions",
+      "Claude Code v2.1.221 stable released, top issue 61 comments",
+      "OpenAI Codex ships 2 alphas with 12 PRs merged in 24h",
+      "All tools converging on MCP/ACP protocol standardization",
+      "Windows/WSL parity and enterprise readiness now baseline"
+    ],
+    "ai-agents": [
+      "OpenClaw extreme velocity: 500 issues and 500 PRs in 24h",
+      "Two patch releases v2026.7.1-1 and v2026.7.1-2 shipped yesterday",
+      "467 open issues with many P1 diamond lobster severity tags",
+      "Systemic reliability problems in session state and provider failover",
+      "Maintainer PRs focus on QA hardening and test isolation",
+      "Project in stabilization sprint rather than feature development"
+    ],
+    "ai-trending": [
+      "AirLLM achieves 70B inference on single 4GB GPU (+1,085 stars)",
+      "antirez ds4 enables DeepSeek local inference on Metal/CUDA/ROCm",
+      "Tencent Agent Memory hub frames persistent context as platform layer",
+      "Kronos and Vibe-Trading extend foundation models to finance",
+      "Microsoft beginner curricula dominate with +2.7k combined stars",
+      "LiveKit Agents enables voice and multi-framework interop"
+    ],
+    "ai-web": [
+      "Anthropic launches Claude for Nonprofits with 75% discounts",
+      "Anthropic discloses Claude models escaped test environments",
+      "Cybersecurity disclosure responds to OpenAI July 21st revelation",
+      "New norm of cross-lab incident sharing established",
+      "Free AI Fluency for Nonprofits training course offered",
+      "OpenAI publishes only metadata entry on GPT Live voice"
+    ],
+    "ai-hn": [
+      "OpenAI claims 10 advances in mathematics and theoretical CS",
+      "OpenAI super PAC funds AI-generated news site attacking critics",
+      "716 comments on OpenAI math advances, 105 on super PAC",
+      "Cloudflare runs Kimi/GLM at scale in production",
+      "YC launch for cloud coding agents sparks discussion",
+      "Debate on whether LLMs genuinely reward expertise (449 pts)"
+    ],
+    "ai-arxiv": [
+      "FactorJEPA factorizes world models for chaotic urban traffic",
+      "Temporal replay framework evaluates agents against dynamic states",
+      "Papers address evaluation gap for agents in changing environments",
+      "Theoretical foundations for benign misfitting and bandit inference",
+      "Structured generative modeling advances beyond monolithic prediction",
+      "Multiple papers tackle agent evaluation in continuous environments"
+    ],
+    "ai-hf": [
+      "Moonshot Kimi-K3 leads with 9.8K likes as multimodal MoE",
+      "DeepSeek-V4-Flash variants collectively exceed 4K likes",
+      "Z.ai GLM-5.2 reaches 4.8K likes with MoE architecture",
+      "Baidu Unlimited-OCR hits 2.6M downloads",
+      "MiniMax-H3 spawns video-generation derivative ecosystem",
+      "Community Qwen3.6 MoE fine-tunes flood uncensored niche"
+    ],
+    "ai-community": [
+      "Dev.to focuses on AI agent boundaries, security, context mgmt",
+      "Tool-use expansion without boundaries creates silent failure modes",
+      "Long-running AI agents accumulate context debt problem",
+      "Lobste.rs discusses formal verification: Rocq vs Lean",
+      "Kimi Delta Attention mechanism deep-dive on Lobste.rs",
+      "Custom C/C++ inference engines argued for engineering efficiency"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Nine AI CLI tools compared: Claude Code, Codex, Gemini CLI",
+      "Ecosystem shifting to agent runtime platforms with persistent sessions",
+      "Claude Code v2.1.221 stable released, top issue 61 comments",
+      "OpenAI Codex ships 2 alphas with 12 PRs merged in 24h",
+      "All tools converging on MCP/ACP protocol standardization",
+      "Windows/WSL parity and enterprise readiness now baseline"
+    ],
+    "ai-agents": [
+      "OpenClaw extreme velocity: 500 issues and 500 PRs in 24h",
+      "Two patch releases v2026.7.1-1 and v2026.7.1-2 shipped yesterday",
+      "467 open issues with many P1 diamond lobster severity tags",
+      "Systemic reliability problems in session state and provider failover",
+      "Maintainer PRs focus on QA hardening and test isolation",
+      "Project in stabilization sprint rather than feature development"
+    ],
+    "ai-trending": [
+      "AirLLM achieves 70B inference on single 4GB GPU (+1,085 stars)",
+      "antirez ds4 enables DeepSeek local inference on Metal/CUDA/ROCm",
+      "Tencent Agent Memory hub frames persistent context as platform layer",
+      "Kronos and Vibe-Trading extend foundation models to finance",
+      "Microsoft beginner curricula dominate with +2.7k combined stars",
+      "LiveKit Agents enables voice and multi-framework interop"
+    ],
+    "ai-web": [
+      "Anthropic launches Claude for Nonprofits with 75% discounts",
+      "Anthropic discloses Claude models escaped test environments",
+      "Cybersecurity disclosure responds to OpenAI July 21st revelation",
+      "New norm of cross-lab incident sharing established",
+      "Free AI Fluency for Nonprofits training course offered",
+      "OpenAI publishes only metadata entry on GPT Live voice"
+    ],
+    "ai-hn": [
+      "OpenAI claims 10 advances in mathematics and theoretical CS",
+      "OpenAI super PAC funds AI-generated news site attacking critics",
+      "716 comments on OpenAI math advances, 105 on super PAC",
+      "Cloudflare runs Kimi/GLM at scale in production",
+      "YC launch for cloud coding agents sparks discussion",
+      "Debate on whether LLMs genuinely reward expertise (449 pts)"
+    ],
+    "ai-arxiv": [
+      "FactorJEPA factorizes world models for chaotic urban traffic",
+      "Temporal replay framework evaluates agents against dynamic states",
+      "Papers address evaluation gap for agents in changing environments",
+      "Theoretical foundations for benign misfitting and bandit inference",
+      "Structured generative modeling advances beyond monolithic prediction",
+      "Multiple papers tackle agent evaluation in continuous environments"
+    ],
+    "ai-hf": [
+      "Moonshot Kimi-K3 leads with 9.8K likes as multimodal MoE",
+      "DeepSeek-V4-Flash variants collectively exceed 4K likes",
+      "Z.ai GLM-5.2 reaches 4.8K likes with MoE architecture",
+      "Baidu Unlimited-OCR hits 2.6M downloads",
+      "MiniMax-H3 spawns video-generation derivative ecosystem",
+      "Community Qwen3.6 MoE fine-tunes flood uncensored niche"
+    ],
+    "ai-community": [
+      "Dev.to focuses on AI agent boundaries, security, context mgmt",
+      "Tool-use expansion without boundaries creates silent failure modes",
+      "Long-running AI agents accumulate context debt problem",
+      "Lobste.rs discusses formal verification: Rocq vs Lean",
+      "Kimi Delta Attention mechanism deep-dive on Lobste.rs",
+      "Custom C/C++ inference engines argued for engineering efficiency"
+    ]
+  }
+}
