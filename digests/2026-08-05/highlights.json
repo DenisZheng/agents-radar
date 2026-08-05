@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.222 修复 Worktree 安全隔离",
+      "OpenAI Codex 紧急干预 Windows 危机",
+      "Gemini CLI 修复安全漏洞并推进 ACP",
+      "Copilot CLI v1.0.79 破坏性变更兼容 MCP",
+      "Qwen Code v0.21.5 稳定版 Tauri 迁移",
+      "DeepSeek TUI 等新兴工具攻坚长上下文"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h 新增 500 Issues/PRs 高活跃",
+      "零新版本发布 main 分支快速迭代",
+      "P1 痛点聚焦会话一致性与消息丢失",
+      "381 PR 积压审核成瓶颈含高风险变更",
+      "修复 Codex 监督工具凭证泄露安全边界",
+      "系统代理批准提案仅执行一次缺陷"
+    ],
+    "ai-trending": [
+      "Firecrawl PDF Inspector 单日涨 2.5k Star",
+      "AirLLM 单张 4GB 显存跑 70B 登顶",
+      "腾讯 Agent Memory 记忆管理登榜",
+      "Uber ADR 安全可观测基建热门",
+      "Graphify 代码知识图谱 RAG 后向量时代",
+      "Browser-use Agent 操作浏览器成标杆"
+    ],
+    "ai-web": [
+      "Anthropic 任命前加州大法官为首席全球事务官",
+      "Cuéllar 履历横跨白宫情报顾问卡内基基金会",
+      "新设 CGPO 职位直汇 CEO 掌管全球政策",
+      "标志 Anthropic 从安全实验室进化地缘参与者",
+      "OpenAI 仅常规博客更新战略权重远低",
+      "AI 竞争转向制度接入赛谁占书桌位置"
+    ],
+    "ai-hn": [
+      "苹果指控前员工带机密投奔 OpenAI 334分",
+      "OpenAI 反呛 Apple is getting this wrong 对垒",
+      "Interpl 报告 AI 驱动非洲超半数网络犯罪",
+      "白宫排除开源模型于先进能力测试框架",
+      "Michael Burry 做空芯片股获利资本降温",
+      "团队级编码规范 Skill 包解决 AI 不合规"
+    ],
+    "ai-arxiv": [
+      "AURORA-LM 首个连续潜在扩散语言模型",
+      "Structured Memory SSM 状态注入 O(1) RAG",
+      "xPress 并行精炼扩散草稿器推测解码加速",
+      "Right Answer Wrong Method 揭示推理评估作弊",
+      "LiveMem 形式化长生命周期记忆状态连续性",
+      "文化知识编码表征但解码受阻机制追踪"
+    ],
+    "ai-hf": [
+      "Kimi-K3 1.0万赞 112万下载登顶中文王者",
+      "DeepSeek V4 Flash 系列合计 4300赞 317万下载",
+      "MiniMax H3 2000赞 视频生成进入可用临界点",
+      "百度 Unlimited-OCR 3881赞 文档理解工业级落地",
+      "Laguna-S-2.1 920赞 代码专用小模型崛起",
+      "Qwen3.5 MoE 社区量化变体下载超官方基座"
+    ],
+    "ai-community": [
+      "理解优于来源：AI 时代开发者需认知摩擦",
+      "模型选型回归业务指标拒绝基准测试迷信",
+      "Anthropic 沙箱逃逸复盘四类失效模式防御",
+      "从手工试跑走向系统化 Agent 评测框架",
+      "小模型+精心 MCP 工具链可替代大模型",
+      "MCP 服务端真约束是上下文窗口非 API"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.222 released with security fixes",
+      "OpenAI Codex 4 alpha releases in 24 hours",
+      "Gemini CLI focuses on security and automation",
+      "GitHub Copilot CLI enterprise-grade platform",
+      "Qwen Code and Kimi Code iterate rapidly",
+      "Windows stability key differentiator for production tools"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and 500 PRs in 24 hours",
+      "119 PRs merged/closed showing healthy throughput",
+      "P1 stability bugs dominate: session state, auth",
+      "DeepSeek silent failure and crash-loop regressions",
+      "No new release; latest remains v2026.7.2 beta.7",
+      "Community strong on critical regressions"
+    ],
+    "ai-trending": [
+      "TencentDB-Agent-Memory: 1,111 stars today",
+      "firecrawl/pdf-inspector: 2,540 stars for data ingestion",
+      "lyogavin/airllm: 1,711 stars, 70B on 4GB GPU",
+      "livekit/agents: 432 stars for realtime voice agents",
+      "DeepSeek-Reasonix: 922 stars terminal coding agent",
+      "Shift from agent demos to production-grade infrastructure"
+    ],
+    "ai-web": [
+      "Anthropic hires first Chief Global Affairs Officer",
+      "Tino Cuéllar ex-Supreme Court Justice, Carnegie President",
+      "OpenAI publishes 3 new articles including Economic Research",
+      "OpenAI 'Apple Is Getting This Wrong' piece published",
+      "Anthropic elevates policy/governance to C-suite",
+      "OpenAI full article content unavailable for analysis"
+    ],
+    "ai-hn": [
+      "Apple vs OpenAI feud dominates HN (600+ points)",
+      "DOJ settlement: OpenAI H-1B hiring discrimination",
+      "Interpol: AI powers over half cybercrime in Africa",
+      "Hedge fund Whale Rock down 21.7% in July AI selloff",
+      "Agent skills framework enforces team coding standards",
+      "Show HN: Faster coding agent than Codex/Claude Code"
+    ],
+    "ai-arxiv": [
+      "AURORA-LM: continuous-latent diffusion language modeling",
+      "Structured Memory: O(1) SSM state injection for edge",
+      "GradCuit: test-time latent reasoning with credit assignment",
+      "Agentic Commerce World: verifiable multi-agent commerce",
+      "onepot-Bench: lab-aware chemistry benchmark",
+      "MedPRESS: patient-pressure sycophancy evaluation"
+    ],
+    "ai-hf": [
+      "Moonshot Kimi-K3: 10K likes, flagship multimodal MoE",
+      "Z.ai GLM-5.2: 4.8K likes, large MoE LLM",
+      "DeepSeek-V4-Flash: 2.7M downloads, massive adoption",
+      "MiniMax-H3: first distributed image-to-video model",
+      "Baidu Unlimited-OCR: 3.8K likes, 2.7M downloads",
+      "Qwen3.6 MoE and Kimi-K3 quantizations proliferate"
+    ],
+    "ai-community": [
+      "Understanding Over Origin: AI agent design patterns",
+      "MCP (Model Context Protocol) adoption accelerating",
+      "PII redaction tools gaining production traction",
+      "LLM evaluation frameworks maturing beyond accuracy",
+      "LangChain, CrewAI, AutoGPT community discussions",
+      "Inference efficiency: local hardware optimization trends"
+    ]
+  }
+}
