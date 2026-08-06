@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.223 企业级市场通配符",
+      "OpenAI Codex 19 PR 同日合入重构",
+      "Gemini CLI v0.54.0 稳定版发布",
+      "GitHub Copilot CLI v1.0.79 多会话",
+      "OpenCode v1.18.14 xAI 登录重试",
+      "全生态版本发布高频日级周级"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时 Issues PR 各500条",
+      "关闭率偏低 Issues 13% PR 12%",
+      "会话状态管理消息投递丢失P0级Bug",
+      "System Agent 二维码登录大型PR推进",
+      "最近版本 2026.7.2-beta.7 无新发布",
+      "硬编码路径 Telegram 重复消息"
+    ],
+    "ai-trending": [
+      "腾讯云 Agent-Memory 1892星登顶",
+      "Cloudflare computer 标准化环境 891星",
+      "firecrawl/pdf-inspector 1582星 RAG入口",
+      "AirLLM 单4GB显存跑70B 833星",
+      "Agent基建爆发 记忆计算机使用内核",
+      "RAG走向 GraphRAG Agentic RAG融合"
+    ],
+    "ai-hn": [
+      "业余编程社区集体抵制LLM最高分",
+      "OpenAI前员工创业心灵感应引关注",
+      "微软营收高度依赖OpenAI引审视",
+      "英国AI安全所曝光模型失控行为",
+      "HyperProbe YC S26 生产只读调试",
+      "ExANS 无损KV压缩 622GB/s"
+    ],
+    "ai-arxiv": [
+      "ParVL 并行视觉语言分支突破串行",
+      "Test-Time Scaling 系统性综述立标杆",
+      "ALiBi 位置编码长上下文浮点下溢",
+      "跨模型KV Cache迁移闭式线性映射",
+      "WorldCup Arena 实战赛事评测前沿LLM",
+      "Omega-S 三行代码权重矩阵抗遗忘"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 Kimi-K3 双子星领跑多模态",
+      "DeepSeek-V4-Flash 周下载破40万",
+      "GLM-5.2 点赞4849榜首超长上下文",
+      "百度 Unlimited-OCR 270万下载工具王",
+      "Kimi-K3 点赞破万社区关注最高",
+      "GGUF INT8 量化普及边缘部署主流"
+    ],
+    "ai-community": [
+      "81%开发者被AI代码审查税压垮",
+      "AWS 开源 Kiro Crew 多Agent编排",
+      "AGENTS.md 新规范为Agent定边界",
+      "vLLM KV Cache 生产级优化深度剖析",
+      "SDKProof 类型检查揭示Claude拒绝率",
+      "MCP 检索成本 4倍 tokens 对比 grep"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "9 AI CLI tools shipped releases in past 24 hours",
+      "Provider-owned vs independent tool bifurcation emerges",
+      "Claude Code v2.1.223 stable with wildcard marketplace",
+      "Security hardening and MCP/ACP maturation universal priorities",
+      "Windows stability and terminal rendering remain pain points",
+      "OpenCode, Pi, Kimi emphasize protocol-level extensibility"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and 500 PRs updated in 24h",
+      "435 open issues and 438 open PRs show backlog",
+      "65 issues closed, 62 PRs merged showing throughput",
+      "No new releases; team in stabilization phase",
+      "Heavy automated triage via clawsweeper bot",
+      "Active beta testing: 2026.7.2-beta.7 and b4f01af"
+    ],
+    "ai-trending": [
+      "TencentDB-Agent-Memory leads with +1,892 stars today",
+      "Cloudflare computer +891★ standardizes agent-environment interface",
+      "airllm +833★ runs 70B params on 4GB GPU",
+      "Three agent-loop frameworks trend simultaneously",
+      "Uber ADR +354★ adds security observability to agents",
+      "Trending dominated by agent infrastructure not models"
+    ],
+    "ai-hn": [
+      "HN fixated on distrust toward OpenAI and Anthropic",
+      "UK tests show models breaching containment, self-replicating",
+      "Viral essay: hobbyists reject LLM-assisted coding (131 pts)",
+      "OpenAI researcher departs to build telepathy (119 pts)",
+      "Microsoft revenue dependence on OpenAI disclosed",
+      "US states coalition demands OpenAI transparency"
+    ],
+    "ai-arxiv": [
+      "Field pivots from model scaling to system intelligence",
+      "Dynamic inference architectures route compute adaptively",
+      "Recursive self-improvement benchmarks measure agent evolution",
+      "Leakage-free live evaluation replaces static benchmarks",
+      "Mechanistic interpretability moves to training-time design",
+      "50 papers across cs.AI, cs.CL, cs.LG today"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Flash and GLM-5.2 lead LLM downloads",
+      "MiniMax-H3 sets new frontier in image-to-video",
+      "Qwen3.5/3.6 MoE fine-tunes dominate quantized releases",
+      "Baidu Unlimited-OCR and Microsoft Mage-VL for enterprise",
+      "NVIDIA Nemotron VoiceChat advances real-time voice",
+      "Surge in high-performance Mixture-of-Experts architectures"
+    ],
+    "ai-community": [
+      "81% developers buried in AI-generated PR review burden",
+      "AWS open-sources Kiro Crew for multi-agent orchestration",
+      "Prompt engineering fading; agent architecture is new focus",
+      "OpenAI solves 1999 math problem with Lean proofs",
+      "Shift from vibe testing to repeatable evaluation suites",
+      "Token efficiency and agent orchestration daily concerns"
+    ]
+  }
+}

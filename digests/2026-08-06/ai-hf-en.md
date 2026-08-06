@@ -1,0 +1,59 @@
+# Hugging Face Trending Models Digest 2026-08-06
+
+> Source: [Hugging Face Hub](https://huggingface.co/) | 30 models | Generated: 2026-08-06 01:58 UTC
+
+---
+
+# Hugging Face Trending Models Digest — 2026-08-06
+
+---
+
+## 1. Today's Highlights
+
+The Hugging Face Hub showcases a surge in **high-performance Mixture-of-Experts (MoE) architectures** and **multimodal video generation**. DeepSeek-V4-Flash and GLM-5.2 lead the LLM space with massive download volumes, while MiniMax-H3 establishes a new frontier in open-weight image-to-video synthesis. Community fine-tunes of Qwen3.5/3.6 MoE models (notably from DavidAU, LuffyTheFox, EschaLabs) dominate trending quantized releases, signaling strong demand for uncensored, locally runnable multimodal models. Baidu’s Unlimited-OCR and Microsoft’s Mage-VL highlight enterprise-grade multimodal utility, and NVIDIA’s Nemotron VoiceChat points to advancing real-time voice interaction.
+
+---
+
+## 2. Trending Models by Category
+
+### 🧠 Language Models (LLMs, chat, instruction-tuned)
+
+| Model | Author | Likes | Downloads | Summary |
+|-------|--------|-------|-----------|---------|
+| [deepseek-ai/DeepSeek-V4-Flash-0731](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731) | deepseek-ai | 2,500 | 433K | Latest Flash variant of DeepSeek’s MoE flagship; trending for speed/quality balance in chat and reasoning. |
+| [moonshotai/Kimi-K3](https://huggingface.co/moonshotai/Kimi-K3) | moonshotai | 10,126 | 1.1M | Multimodal MoE with compressed-tensors support; top likes indicate massive community anticipation. |
+| [zai-org/GLM-5.2](https://huggingface.co/zai-org/GLM-5.2) | zai-org | 4,849 | 2.2M | Z.ai’s newest MoE conversational model; high downloads reflect production adoption. |
+| [deepseek-ai/DeepSeek-V4-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash) | deepseek-ai | 2,031 | 2.7M | Base Flash release; sustained popularity for inference efficiency. |
+| [LiquidAI/LFM2.5-2.6B](https://huggingface.co/LiquidAI/LFM2.5-2.6B) | LiquidAI | 285 | 47K | Liquid Foundation Model (non-transformer); notable for compact size and long-context claims. |
+| [LGAI-EXAONE/K-EXAONE-2.0-750B-A37B](https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B) | LGAI-EXAONE | 129 | 325 | Massive 750B MoE from LG AI Research; early release for research access. |
+| [XYZAILab/XYZ-Aquila-pro](https://huggingface.co/XYZAILab/XYZ-Aquila-pro) | XYZAILab | 366 | 1.4K | Qwen3.5-MoE derivative with agentic-search capabilities. |
+| [EschaLabs/Qwen3.6-35B-A3B-Escha-W2](https://huggingface.co/EschaLabs/Qwen3.6-35B-A3B-Escha-W2) | EschaLabs | 210 | 3K | Fine-tuned Qwen3.6 MoE; focuses on reasoning and instruction following. |
+| [inclusionAI/Ling-3.0-flash](https://huggingface.co/inclusionAI/Ling-3.0-flash) | inclusionAI | 156 | 25 | Hybrid architecture (Bailing) flash model; early stage. |
+| [deepgrove/maple-preview](https://huggingface.co/deepgrove/maple-preview) | deepgrove | 159 | 0 | MoE causal LM preview; research-oriented. |
+
+---
+
+### 🎨 Multimodal & Generation (image, video, audio, text-to-X)
+
+| Model | Author | Likes | Downloads | Summary |
+|-------|--------|-------|-----------|---------|
+| [MiniMaxAI/MiniMax-H3](https://huggingface.co/MiniMaxAI/MiniMax-H3) | MiniMaxAI | 2,502 | 10.8K | **Image-text-to-video diffusion model**; leading open video generation release this week. |
+| [baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) | baidu | 3,908 | 2.7M | High-accuracy OCR with layout analysis; enterprise adoption driving massive downloads. |
+| [microsoft/Mage-VL](https://huggingface.co/microsoft/Mage-VL) | microsoft | 276 | 435K | Multimodal vision-language model optimized for document/image understanding. |
+| [thinkingmachines/Inkling-Small](https://huggingface.co/thinkingmachines/Inkling-Small) | thinkingmachines | 308 | 15.5K | Compact image-text-to-text model; efficient multimodal chat. |
+| [Audio8/Audio8-TTS-Preview-0.6b](https://huggingface.co/Audio8/Audio8-TTS-Preview-0.6b) | Audio8 | 275 | 11K | ArkTTS-based text-to-speech; low-latency, edge-friendly. |
+| [owensong/Inflect-Micro-v2](https://huggingface.co/owensong/Inflect-Micro-v2) | owensong | 417 | 2K | Tiny TTS for CPU/edge; local-first speech synthesis. |
+| [nvidia/NVIDIA-NemotronLabs-VoiceChat-11B](https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B) | nvidia | 126 | 80 | End-to-end voice chat model; research preview with multi-paper backing. |
+| [lodestones/Kroma](https://huggingface.co/lodestones/Kroma) | lodestones | 192 | 0 | Krea2-based LoRA for text-to-image; ComfyUI integration. |
+| [empero-ai/Qwythos-27B-v1](https://huggingface.co/empero-ai/Qwythos-27B-v1) | empero-ai | 145 | 2.2K | Qwen3.5-based multimodal model; image-text-to-text. |
+
+---
+
+### 🔧 Specialized Models (code, math, medical, embeddings, safety)
+
+| Model | Author | Likes | Downloads | Summary |
+|-------|--------|-------|-----------|---------|
+| [K
+
+---
+*This digest is auto-generated by [agents-radar](https://github.com/DenisZheng/agents-radar).*
