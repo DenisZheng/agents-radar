@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex 发布 v0.147.0",
+      "Gemini CLI 推出三个夜ly版本",
+      "GitHub Copilot CLI v1.0.79-6 发布",
+      "Qwen Code 发布 v0.21.7 等多版本",
+      "Pi v0.84.0 推出全屏 TUI",
+      "OpenCode 订阅模型全面 401 错误"
+    ],
+    "ai-agents": [
+      "OpenClaw 24 小时 1000 条 Issue/PR",
+      "430 活跃 Issue、402 待合并 PR",
+      "最新稳定版 2026.7.x、Beta 2026.7.2-beta.7",
+      "合并关闭 98 个 PR 覆盖核心模块",
+      "LINE/Telegram 通道消息投递修复",
+      "高热 Issue 全部关闭或有 Fix"
+    ],
+    "ai-trending": [
+      "Cloudflare computer 单日涨 2802 星",
+      "firecrawl/pdf-inspector 单日涨 1190 星",
+      "Agent 基建爆发：大厂核心开发者同天推项目",
+      "编码 Agent 走向终端原生与上下文精细化",
+      "RAG 技术栈深化图谱+记忆",
+      "本地化隐私优先成主流共识"
+    ],
+    "ai-web": [
+      "Claude Fable 5 生物安全护栏优化拒答率降 85%",
+      "OpenAI 新增 3 条索引但正文不可获取",
+      "Anthropic 在生物医疗领域实现安全可用量化突破",
+      "Fable 5 与 Opus 5 双模型协同架构成熟",
+      "OpenAI 生态叙事、模型迭代、治理合作三线并行",
+      "前沿生物研发仍锁定受信通道"
+    ],
+    "ai-arxiv": [
+      "SiPE 将依存句法注入位置编码超越 RoPE",
+      "SAGA 无需人工偏好对齐低资源语言",
+      "医疗时序自监督预训练无稳健增益",
+      "六维分类法统一后训练适配技术栈",
+      "视觉工具因果审计揭示边际收益甚至负收益",
+      "DASH 自适应监督地平线用于推理模型自蒸馏"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 2762 赞领跑视频生成迎来工业级时刻",
+      "中文 MoE 巨头集中发布：DeepSeek/Kimi/GLM/KAT",
+      "量化部署生态全面成熟覆盖所有头部模型",
+      "百度 Unlimited-OCR 下载近 280 万成工具型模型标杆",
+      "FLUX.1-dev 发布数月仍 1.4 万赞稳居总榜首",
+      "DeepSeek-V4-Flash-0731 61.7 万下载断层第一"
+    ],
+    "ai-community": [
+      "Dev.to 热议 AI Agent 生产级模式：熔断器多 Agent 协作",
+      "提示工程向规则治理演进：134 条站立规则替代权限提示",
+      "全链路追踪在真实故障中失效揭示语义级指标缺失",
+      "Lobste.rs 聚焦推理引擎自研性能考量",
+      "OCaml 类型系统对 AI 工具链的潜在价值",
+      "开发者关注点转移：如何把不可靠模型封装成可靠组件"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenAI Codex v0.147.0 stable released today",
+      "Gemini CLI and Qwen Code also stable releases",
+      "9 AI CLI tools all shipped updates this week",
+      "Commercial vs community tool bifurcation emerging",
+      "All tools now support agentic workflows with tool-use",
+      "Claude Code permissions regression: 19♥, 23 comments"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and 500 PRs in 24 hours",
+      "98 PRs merged fixing model integrations, delivery channels",
+      "2026.8.x patch/beta release imminent",
+      "13 OpenClaw ecosystem projects tracked",
+      "Production usage on Telegram, Feishu, WhatsApp, LINE",
+      "Top issues have 100+ comments, 80+ reactions"
+    ],
+    "ai-web": [
+      "Anthropic cut Claude Fable 5 biology fallbacks ~85%",
+      "OpenAI: usage report, GPT-5.6 SOL, APA partnership",
+      "Anthropic signals phased trusted access for biology",
+      "OpenAI coordinated comms push: adoption, refinement, governance",
+      "Anthropic release has quantified metrics, user-facing",
+      "4 new articles from Anthropic and OpenAI"
+    ],
+    "ai-hn": [
+      "GPT-5.6 improves Sol reasoning, expands free Luna",
+      "OpenAI agents allegedly planned Hugging Face hack",
+      "Microsoft: ~70% AI revenue depends on OpenAI",
+      "New Orleans deploys AI for 911 dispatch",
+      "vLLM high-throughput inference architecture deep dive",
+      "OpenAI math breakthroughs accused of misconduct"
+    ],
+    "ai-arxiv": [
+      "Shift toward deployable, trustworthy agentic systems",
+      "FinEvo-Bench: longitudinal benchmarks for self-evolving agents",
+      "Causal audits of visual tool-use, conformal prediction",
+      "Domain models: metabolomics, chemical reactions, clinical",
+      "Non-transformer Liquid AI LFM gaining traction",
+      "Efficiency focus: adaptive supervision, early-stopped accumulation"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 spawned full video generation ecosystem",
+      "Kimi-K3: 10.2k likes, 1.26M downloads, flagship MoE",
+      "DeepSeek-V4-Flash-0731: 2.7k likes, 618k downloads",
+      "GLM-5.2: 4.9k likes, 2.39M downloads, Z.ai MoE",
+      "Chinese labs dominate LLM leaderboard with MoE models",
+      "Non-transformer Liquid AI LFM gaining traction"
+    ],
+    "ai-community": [
+      "AWS Kiro Crew: agent investigates P1 incidents for $0.04",
+      "Developers building circuit breakers for agents",
+      "Multi-agent systems fix bugs overnight",
+      "Kimi K3 largest open-weight model, practically unrunnable",
+      "LLM evaluation unsolved: text judges miss filesystem issues",
+      "Scanner missed 93% bugs, AI couldn't stop cheating"
+    ]
+  }
+}
