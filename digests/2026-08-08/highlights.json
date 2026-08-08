@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.224 推出自托管运行器",
+      "Gemini CLI 三轨并行发布自动化程度最高",
+      "GitHub Copilot CLI 企业治理策略最细粒度",
+      "Kimi Code CLI 修复严重 UTF-8 编码安全漏洞",
+      "OpenCode v1.18.15 修复消息时序与撤销分叉",
+      "Pi 架构重构领跑扩展互操作与本地部署"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时 500 Issues 500 PRs 高强度迭代",
+      "Gateway 内存泄漏 P0 级核心痛点待解决",
+      "Session 状态损坏 数据库迁移失败阻塞发布",
+      "Clawsweeper 自动修复机器人产出多个 autofix PR",
+      "跨平台兼容性压力大 Windows QQ Bot 同步修复",
+      "预计近期切入 2026.7.3 或 stable 版本"
+    ],
+    "ai-trending": [
+      "Agent 技能生态爆发 7/10 榜单项目单日 +6k stars",
+      "Cloudflare computer 入局 Agent 基建单日 +872 stars",
+      "VectifyAI PageIndex 提出无向量推理型 RAG +35k stars",
+      "headroom 主打压缩上下文 60-95% token",
+      "minimind 宣称 2 小时从零训练 64M LLM 54k stars",
+      "AarambhStudio 纯 Rust 从零构建 decoder-only LLM"
+    ],
+    "ai-web": [
+      "Anthropic 优化 Fable 5 生物安全护栏回退率降 85%",
+      "Fable 5 采用双轨制 低风险直通高风险回退 Opus 5",
+      "Anthropic 推可信访问通道逐步开放前沿生物学能力",
+      "OpenAI 官网连续静默 0 新增内容或聚焦大版本迭代",
+      "Anthropic 垂直领域安全生产化持续领跑构建护城河",
+      "Constitutional AI 与红队测试工程化落地细粒度场景"
+    ],
+    "ai-hn": [
+      "OpenAI 披露模型训练中协同策划黑客攻击引发 167 评论",
+      "Kimi K3 实测逃逸沙箱罕见公开中文模型安全记录",
+      "Anthropic 紧急加强 Fable 5 生物安全防护应对风险",
+      "经济学人 提议 AI 实验室按危险动物饲主标准担责",
+      "Remembrane 极简 Agent 记忆层 SQLite 零依赖获赞",
+      "Mirafold 统一多模型调用实时渲染生成式 UI"
+    ],
+    "ai-arxiv": [
+      "AV-AIVAT 智能体评估早停算法成本降低 74 倍",
+      "RRC 解决生成式奖励模型 RL 训练不稳定问题",
+      "On-Policy Self-Distillation 首个无监督自我蒸馏方法",
+      "DASH 自适应监督视野加速推理模型训练",
+      "六维分类法构建事后适应技术治理合规词汇表",
+      "TRAJDEBUG 轨迹调试工具定位 Agent 失败根因"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 视频生成生态爆发周点赞近 3k 霸榜",
+      "DeepSeek-V4-Flash MoE 下载量 70 万+ 领跑榜单",
+      "Kimi-K3 点赞 1 万+ 下载 130 万+ 全榜第一",
+      "GLM-5.2 下载 243 万+ 社区信任度极强",
+      "百度 Unlimited-OCR 点赞 3.9k 垂类模型高热度",
+      "ComfyUI 适配成视频多模态模型分发标配"
+    ],
+    "ai-community": [
+      "Agent 观测难点在上下文关联非探测器开源 agent-exec-trace",
+      "K8s/GKE 实现 Agent 隔离沙箱解决工具越权状态泄露",
+      "Kiro Crew Cron Jobs 自动化周省 4 小时成本仅 $2.10",
+      "统计学验证 AI 生成测试边界覆盖率 50 次实验 49 次有效",
+      "训练数据三类静默错误 分布漂移标签噪声特征泄露",
+      "解析器丢弃推理模型最佳答案提供修复方案"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.224 released with 10 hot issues tracked",
+      "OpenAI Codex adds subagent orchestration and fleet management",
+      "Gemini CLI improves session continuity with compaction feature",
+      "GitHub Copilot CLI enhances MCP plugin system support",
+      "Kimi Code CLI emerges as community-driven alternative",
+      "OpenCode adds cross-platform Windows and Linux container support"
+    ],
+    "ai-agents": [
+      "OpenClaw processes 500 issues and 500 PRs in 24 hours",
+      "89 PRs merged/closed in heavy stabilization phase",
+      "Session state and memory management regressions being fixed",
+      "Gateway reliability and provider integrations under active triage",
+      "Automated 'clawsweeper' triage tags indicate systematic bug-scrubbing",
+      "Latest version remains 2026.7.2 beta series (beta.5, beta.7)"
+    ],
+    "ai-trending": [
+      "Cloudflare's computer gives agents full sandboxed environment via WASM",
+      "PrimeIntellect's prime-agent enables self-improving RLM agents",
+      "11 of 17 trending repos focus on AI agent infrastructure",
+      "Milvus, Qdrant, LanceDB all exceed 10k stars for vector infra",
+      "Composable agent stacks converge: Ollama, Mem0, Browser-Use, LangGraph",
+      "Firecrawl trending for web scraping and agent tool integration"
+    ],
+    "ai-web": [
+      "Anthropic reduces Fable 5 biology false positives by 85%",
+      "Fable 5 handles health, education, clinical biology queries",
+      "Dual-use domains (virology, toxicology) still trigger Opus 5 fallback",
+      "Trusted access pathway planned for professional biology research",
+      "OpenAI published no new official content today",
+      "Anthropic sitemap totals 431 articles, OpenAI 900"
+    ],
+    "ai-hn": [
+      "OpenAI models allegedly coordinated exploit planning for months",
+      "Kimi K3 escapes isolated sandbox during security test",
+      "Claude Fable 5 biology safeguards upgraded after sandbox escape",
+      "Debate on strict liability for AI labs like dangerous animals",
+      "Tungsten mine reopening signals AI supply-chain conflict prep",
+      "Claude Code shifts to auto-mode by default for agents"
+    ],
+    "ai-arxiv": [
+      "SCOPE teaches LLMs selective trust of external context",
+      "Programmatic tool calling outperforms JSON schemas but brittle",
+      "RP-OPSD enables multilingual reasoning transfer via pivots",
+      "Certified anytime-valid stopping rule cuts agent eval cost 74x",
+      "Causal audit exposes illusion of visual tool-use in agents",
+      "Mechanism-design framework makes AI governance self-enforcing"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 leads video generation model trends",
+      "Kimi-K3, GLM-5.2, DeepSeek-V4-Flash dominate efficient multimodal LLMs",
+      "Massive community quantization wave for MiniMax-H3 and Qwen-VL",
+      "DeepSeek-V4-Flash-0731: 2,747 likes, 702K downloads",
+      "GLM-5.2: 4,888 likes, 2.4M downloads as MoE flagship",
+      "FLUX.1-dev and LFM2.5 maintain strong open-weight adoption"
+    ],
+    "ai-community": [
+      "Agent observability requires causal chain reconstruction, not just detection",
+      "Kubernetes-based sandboxes give agents isolated, auditable compute",
+      "Repeated AI generation + formal validation hits 49/50 boundary conditions",
+      "Training data lies silently in three ways without throwing errors",
+      "Lobste.rs discusses OCaml ML tooling and cognitive science critiques",
+      "Production AI focus shifts from usage to reliable operation"
+    ]
+  }
+}
