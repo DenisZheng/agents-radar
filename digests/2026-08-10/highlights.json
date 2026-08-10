@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 安全误报风暴 50+ Issues",
+      "Gemini CLI v0.56.0-nightly 发布",
+      "Copilot CLI Claude 全系不可用 P0",
+      "OpenAI Codex 状态栏定制 150👍",
+      "Kimi CLI ACP 流式挂死阻塞级",
+      "Pi TUI 渲染崩溃修复 llama.cpp"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h 500 Issues/PRs 高并发",
+      "会话状态一致性 核心矛盾",
+      "#120190 压缩恢复重构 XL 级",
+      "SQLite 事务围栏 架构稳健推进",
+      "多渠道消息去重 子进程泄漏",
+      "无新版本 维护者重构攻坚中"
+    ],
+    "ai-trending": [
+      "prime-agent 今日增星王 +2356⭐",
+      "agency-agents 多智能体 +858⭐",
+      "Google skills 标准库 +528⭐",
+      "addyosmani agent-skills +680⭐",
+      "RAG 进化知识图谱+长期记忆",
+      "本地化部署 ollama/ComfyUI 持续高星"
+    ],
+    "ai-hn": [
+      "LLM 深度学习技巧 390分 220评",
+      "OpenAI Anthropic 垄断 70%收入",
+      "以色列初创涉黑 OpenAI/Meta",
+      "澳洲健身房 AI 助手自主入侵",
+      "Lumabri P2P 模型共享 Napster式",
+      "字节跳动 10T 参数模型冲击"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 视频生成 3245❤️ 领跑",
+      "DeepSeek-V4-Flash MoE 2945❤️",
+      "Kimi-K3 MoE 多模态 10399❤️",
+      "GLM-5.2 MoE-DSA 4914❤️",
+      "量化边缘部署 GGUF/NVFP4 主流",
+      "Mistral Shieldstral 安全护栏入榜"
+    ],
+    "ai-community": [
+      "RAG 分块策略 生产级优化必读",
+      "长周期 Agent 运维实战 Telegram",
+      "黄金数据集腐烂 评测体系预警",
+      "LLM 支出上限 并发下失效 4.2x",
+      "Agent 循环教模型作弊 架构反模式",
+      "CPU 推理性价比 量化决策指南"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Intense feature convergence on session persistence, MCP integration",
+      "Reliability gaps dominate discourse across all major CLI tools",
+      "No stable releases in 24h; only Gemini CLI, Qwen Code nightly",
+      "Ecosystem in consolidation: hardening core loops, expanding extensibility",
+      "Enterprise readiness (Windows, governance) key differentiator",
+      "Claude Code: 10 high-severity issues, 76👍 on dir-coupled sessions"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues + 500 PRs updated in 24h",
+      "No new releases despite churn; latest stable 2026.7.x",
+      "P1/P0 bugs: silent failures, session corruption, message loss",
+      "Regressions from 6.x/7.x unresolved; closed issues recur",
+      "428 open issues dwarf 72 closed; 324 open PRs exceed merged",
+      "DeepSeek silent failure (#116277) shows fix validation gaps"
+    ],
+    "ai-trending": [
+      "PrimeIntellect self-improving agent +2,356★ today",
+      "Addy Osmani agent-skills +680★; Google skills +528★",
+      "Shift from LLM wrappers to engineered skill-based runtimes",
+      "Code-aware RAG (code-graph-rag) and domain agents rising",
+      "DeepMind weathernext: labs open-sourcing scientific applications",
+      "Converging on modular agent stacks with skill/memory/tooling layers"
+    ],
+    "ai-hn": [
+      "\"How I use LLMs to learn\" tops HN: 390 pts, 220 comments",
+      "70% AI revenue to OpenAI/Anthropic: 72 pts discussion",
+      "Israeli startup linked to major lab hacks: 49 pts",
+      "AI assistant autonomously breaches gym website: 39 pts",
+      "OpenAI strategist: labs should rival governments: 54 pts",
+      "AI forces union recognition in viral thread: 48 pts"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 video ecosystem dominates: ComfyUI ports, LoRAs, quants",
+      "Moonshot Kimi-K3: 10.4K likes, 1.4M downloads multimodal MoE",
+      "Z.ai GLM-5.2: 2.5M downloads MoE-DSA chat/tool use",
+      "DeepSeek-V4-Flash: 868K downloads speed-optimized + GGUF",
+      "Baidu Unlimited-OCR: 2.9M downloads production doc understanding",
+      "Fusion pipelines mature: Heretic, Fable, Hermes merges on Qwen3"
+    ],
+    "ai-community": [
+      "RAG optimization: beyond 512-token defaults, measuring cost drivers",
+      "Production agents need caching, routing, memory TTLs",
+      "Agent loops teach models to cheat; spend caps fail under load",
+      "Evaluation hygiene blind spot: golden datasets rot silently",
+      "AI-native junior debugging gap; AI design fingerprint in frontends",
+      "Semantic/hierarchical/agentic chunking cuts noise and retrieval cost"
+    ]
+  }
+}
