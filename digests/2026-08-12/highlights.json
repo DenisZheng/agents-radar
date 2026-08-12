@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.228 热修复发布",
+      "OpenAI Codex Alpha 连发 Rust 重构版",
+      "Gemini CLI 同推 4 版本含 CVE 修复",
+      "Copilot CLI v1.0.79 信任度受挫零新版",
+      "Kimi Code 记忆系统设计成长期高热点",
+      "OpenCode V2 核心缺陷密集 Plan Mode 失效"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h 新增 500 Issues/PRs 零新版",
+      "静默回复失败复发成 P0 级稳定性缺陷",
+      "282 个开放 PR 审核吞吐成瓶颈",
+      "v2026.8.1-beta.1 插件未同步致启动循环",
+      "#121058 顶级 Issue 64 条评论用户痛点集中",
+      "子代理生命周期失控等核心缺陷集中爆发"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Claude Sonnet 5 性能逼近 Opus 4.8",
+      "Sonnet 5 定价仅 $2/$10 per MTok 成本大降",
+      "Claude 在黎曼假设相关问题推进零点下界至 67.2%",
+      "OpenAI 连发 5 条元数据公告指向企业商业化分层",
+      "Anthropic 重发 Agent 工程范式博客推荐 Managed Agents",
+      "竞争态势：Anthropic 技术领导力 vs OpenAI 产品化落地"
+    ],
+    "ai-hn": [
+      "OpenAI 高层震荡：伦理负责人/COO 离职+70亿回购",
+      "Claude Code 泄露真实邮箱作 User-Agent 引发质疑",
+      "OpenAI/Anthropic 隐藏 CoT 被 deep_think 工具绕过",
+      "AI 分钟级解决 CTF 挑战攻防平衡被打破",
+      "VLM 在视频检索任务中击败专用视频嵌入模型",
+      "Show HN: Tura 减少 MCP 交互轮次 75%+"
+    ],
+    "ai-hf": [
+      "Qwen2.5 系列模型持续霸榜 Hugging Face 热门",
+      "多模态模型成新宠 视频/音频理解能力跃升",
+      "小参数模型(0.5B-3B)部署友好型受追捧",
+      "中文大模型生态繁荣 国产模型下载量领跑",
+      "RLHF/RLAIF 对齐技术成标配提升指令跟随",
+      "量化版模型(GGUF/AWQ)下载量超原版 FP16"
+    ],
+    "ai-community": [
+      "AWS 分享 7 条让 AI Agent 更可预测工程硬核经验",
+      "实战展示 8 层防御 137 条规则让自主 Agent 通过 CISO 审批",
+      "Claude 新水印机制解析 AI 文本溯源进入实用化阶段",
+      "百小时实战对比 Pi Agent vs Claude Code 架构差异",
+      "系统梳理生产级 RAG 管线关键决策点从摄入到评估",
+      "揭示 Agent 评测基准 Harness 存在方向性偏差盲区"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.228 热修复发布",
+      "OpenAI Codex Alpha 连发 Rust 重构版",
+      "Gemini CLI 同推 4 版本含 CVE 修复",
+      "Copilot CLI v1.0.79 信任度受挫零新版",
+      "Kimi Code 记忆系统设计成长期高热点",
+      "OpenCode V2 核心缺陷密集 Plan Mode 失效"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h 新增 500 Issues/PRs 零新版",
+      "静默回复失败复发成 P0 级稳定性缺陷",
+      "282 个开放 PR 审核吞吐成瓶颈",
+      "v2026.8.1-beta.1 插件未同步致启动循环",
+      "#121058 顶级 Issue 64 条评论用户痛点集中",
+      "子代理生命周期失控等核心缺陷集中爆发"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Claude Sonnet 5 性能逼近 Opus 4.8",
+      "Sonnet 5 定价仅 $2/$10 per MTok 成本大降",
+      "Claude 在黎曼假设相关问题推进零点下界至 67.2%",
+      "OpenAI 连发 5 条元数据公告指向企业商业化分层",
+      "Anthropic 重发 Agent 工程范式博客推荐 Managed Agents",
+      "竞争态势：Anthropic 技术领导力 vs OpenAI 产品化落地"
+    ],
+    "ai-hn": [
+      "OpenAI 高层震荡：伦理负责人/COO 离职+70亿回购",
+      "Claude Code 泄露真实邮箱作 User-Agent 引发质疑",
+      "OpenAI/Anthropic 隐藏 CoT 被 deep_think 工具绕过",
+      "AI 分钟级解决 CTF 挑战攻防平衡被打破",
+      "VLM 在视频检索任务中击败专用视频嵌入模型",
+      "Show HN: Tura 减少 MCP 交互轮次 75%+"
+    ],
+    "ai-hf": [
+      "Qwen2.5 系列模型持续霸榜 Hugging Face 热门",
+      "多模态模型成新宠 视频/音频理解能力跃升",
+      "小参数模型(0.5B-3B)部署友好型受追捧",
+      "中文大模型生态繁荣 国产模型下载量领跑",
+      "RLHF/RLAIF 对齐技术成标配提升指令跟随",
+      "量化版模型(GGUF/AWQ)下载量超原版 FP16"
+    ],
+    "ai-community": [
+      "AWS 分享 7 条让 AI Agent 更可预测工程硬核经验",
+      "实战展示 8 层防御 137 条规则让自主 Agent 通过 CISO 审批",
+      "Claude 新水印机制解析 AI 文本溯源进入实用化阶段",
+      "百小时实战对比 Pi Agent vs Claude Code 架构差异",
+      "系统梳理生产级 RAG 管线关键决策点从摄入到评估",
+      "揭示 Agent 评测基准 Harness 存在方向性偏差盲区"
+    ]
+  }
+}
