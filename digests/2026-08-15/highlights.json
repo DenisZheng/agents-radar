@@ -1,0 +1,70 @@
+{
+  "zh": {
+    "ai-cli": [
+      "9 AI CLI tools covered including Claude Code and Codex",
+      "OpenAI Codex shipped 5 alpha releases in 24 hours",
+      "Windows reliability emerges as key differentiator",
+      "All tools converging on subagent orchestration features",
+      "Codex has 10 hot issues: 8 Windows, 2 macOS",
+      "Enterprise readiness now parallel track to core UX"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and 500 PRs in 24 hours",
+      "488 open issues, 404 open PRs, 96 merged today",
+      "Critical bugs: memory leaks, message loss, CPU stalls",
+      "No new release; stable at 2026.7.x, beta at 2026.7.2-beta.7",
+      "96 PRs merged/closed in last 24 hours",
+      "Security: require acknowledgement for install policy warnings"
+    ],
+    "ai-trending": [
+      "holaOS +769 stars leads trending AI agent workspaces",
+      "GitHub spec-kit +1,160 stars signals spec-driven dev",
+      "semantica-agi/semantica +1,181: graph-native AI infra",
+      "ragflow +473 and unsloth +501 sustain momentum",
+      "Developers want integrated local agent-centric environments",
+      "0xPlaygrounds/rig at 8,268 stars: Rust LLM framework"
+    ],
+    "ai-arxiv": [
+      "Shift to agentic AI with verifiable long-horizon guarantees",
+      "OmniScientist, Intern-S2-Preview, Vero, AlayaWorld debut",
+      "Synthetic Persona Pretraining bakes safety into pretraining",
+      "LittleLearner enables causal skill acquisition study",
+      "DFM Mimir v1: 1B-param open model on permissible data",
+      "Breakthrough: adversarially robust learning of VC classes"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "9 AI CLI tools covered including Claude Code and Codex",
+      "OpenAI Codex shipped 5 alpha releases in 24 hours",
+      "Windows reliability emerges as key differentiator",
+      "All tools converging on subagent orchestration features",
+      "Codex has 10 hot issues: 8 Windows, 2 macOS",
+      "Enterprise readiness now parallel track to core UX"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and 500 PRs in 24 hours",
+      "488 open issues, 404 open PRs, 96 merged today",
+      "Critical bugs: memory leaks, message loss, CPU stalls",
+      "No new release; stable at 2026.7.x, beta at 2026.7.2-beta.7",
+      "96 PRs merged/closed in last 24 hours",
+      "Security: require acknowledgement for install policy warnings"
+    ],
+    "ai-trending": [
+      "holaOS +769 stars leads trending AI agent workspaces",
+      "GitHub spec-kit +1,160 stars signals spec-driven dev",
+      "semantica-agi/semantica +1,181: graph-native AI infra",
+      "ragflow +473 and unsloth +501 sustain momentum",
+      "Developers want integrated local agent-centric environments",
+      "0xPlaygrounds/rig at 8,268 stars: Rust LLM framework"
+    ],
+    "ai-arxiv": [
+      "Shift to agentic AI with verifiable long-horizon guarantees",
+      "OmniScientist, Intern-S2-Preview, Vero, AlayaWorld debut",
+      "Synthetic Persona Pretraining bakes safety into pretraining",
+      "LittleLearner enables causal skill acquisition study",
+      "DFM Mimir v1: 1B-param open model on permissible data",
+      "Breakthrough: adversarially robust learning of VC classes"
+    ]
+  }
+}
