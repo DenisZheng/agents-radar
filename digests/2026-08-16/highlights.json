@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex极速迭代修复Windows性能问题",
+      "Gemini CLI建立工程化评测体系标杆",
+      "Qwen Code强化生产级自愈与隔离机制",
+      "GitHub Copilot CLI陷入P0回归修复期",
+      "Claude Code积压企业级诉求三大长期Issue",
+      "DeepSeek TUI v0.9.8版本收敛冲刺"
+    ],
+    "ai-agents": [
+      "OpenClaw单日Issues与PRs均达500上限",
+      "v2026.8.1-beta.2发布安全加固新特性",
+      "Secret egress host binding破坏性变更",
+      "新增GPT-5.6 Ultra运行时切换支持",
+      "P1级稳定性缺陷与功能扩展并行",
+      "子代理完成丢失会话膨胀成核心矛盾"
+    ],
+    "ai-trending": [
+      "Needle 14MB基座模型冲榜端侧极致压缩",
+      "Soup 4GB显存训练8B模型成爆发点",
+      "GitHub Spec-Kit推行规范驱动开发标准",
+      "CLI-Anything与ego-lite攻克Agent原生化",
+      "Graphify用确定性AST图谱替代向量检索",
+      "FluidVoice实现macOS离线STT增强"
+    ],
+    "ai-web": [
+      "Anthropic发布多智能体系统安全深度研究",
+      "水印技术零感知零成本零追踪落地",
+      "EU AI Act合规驱动文本水印默认开启",
+      "代理间交互量将超人类交互成必然",
+      "治理范式从模型对齐转向系统安全工程",
+      "OpenAI官网静默期对比Anthropic高频输出"
+    ],
+    "ai-hn": [
+      "Netflix GenRec详解LLM原生推荐工程落地",
+      "Science权威综述AI药物发现现状瓶颈",
+      "WSJ报道AI协助数学猜想突破社区冷遇",
+      "开发者自制Claude用量LCD实时监控HUD",
+      "纯Claude编写浏览器被社区差评反面教材",
+      "社区共识看落地不信PPT怀疑商业化叙事"
+    ],
+    "ai-hf": [
+      "Qwen3.5系列27B MoE 95B多形态霸榜",
+      "MiniMax-H3视频生成生态爆发下载超1500万",
+      "四大原生多模态模型同周入榜成主流",
+      "Unsloth单周贡献5量化变体下载破10万",
+      "MoE线性注意力混合注意力四大架构并进",
+      "Nemotron 3.5 NVFP4单卡H100推理100k tok/s"
+    ],
+    "ai-community": [
+      "10天语音Agent实战挑战覆盖金融教育农业",
+      "EU AI Act透明度签署合规陷阱揭示",
+      "OpenAI Verified Defenders计划实测权限边界落差",
+      "Qwen3.8 2.4T MoE模型vLLM生产级部署全记录",
+      "4200次实证揭示Agent前三大失效模式",
+      "重构Agent记忆架构信任图谱优于向量检索"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenAI Codex极速迭代修复Windows性能问题",
+      "Gemini CLI建立工程化评测体系标杆",
+      "Qwen Code强化生产级自愈与隔离机制",
+      "GitHub Copilot CLI陷入P0回归修复期",
+      "Claude Code积压企业级诉求三大长期Issue",
+      "DeepSeek TUI v0.9.8版本收敛冲刺"
+    ],
+    "ai-agents": [
+      "OpenClaw单日Issues与PRs均达500上限",
+      "v2026.8.1-beta.2发布安全加固新特性",
+      "Secret egress host binding破坏性变更",
+      "新增GPT-5.6 Ultra运行时切换支持",
+      "P1级稳定性缺陷与功能扩展并行",
+      "子代理完成丢失会话膨胀成核心矛盾"
+    ],
+    "ai-trending": [
+      "Needle 14MB基座模型冲榜端侧极致压缩",
+      "Soup 4GB显存训练8B模型成爆发点",
+      "GitHub Spec-Kit推行规范驱动开发标准",
+      "CLI-Anything与ego-lite攻克Agent原生化",
+      "Graphify用确定性AST图谱替代向量检索",
+      "FluidVoice实现macOS离线STT增强"
+    ],
+    "ai-web": [
+      "Anthropic发布多智能体系统安全深度研究",
+      "水印技术零感知零成本零追踪落地",
+      "EU AI Act合规驱动文本水印默认开启",
+      "代理间交互量将超人类交互成必然",
+      "治理范式从模型对齐转向系统安全工程",
+      "OpenAI官网静默期对比Anthropic高频输出"
+    ],
+    "ai-hn": [
+      "Netflix GenRec详解LLM原生推荐工程落地",
+      "Science权威综述AI药物发现现状瓶颈",
+      "WSJ报道AI协助数学猜想突破社区冷遇",
+      "开发者自制Claude用量LCD实时监控HUD",
+      "纯Claude编写浏览器被社区差评反面教材",
+      "社区共识看落地不信PPT怀疑商业化叙事"
+    ],
+    "ai-hf": [
+      "Qwen3.5系列27B MoE 95B多形态霸榜",
+      "MiniMax-H3视频生成生态爆发下载超1500万",
+      "四大原生多模态模型同周入榜成主流",
+      "Unsloth单周贡献5量化变体下载破10万",
+      "MoE线性注意力混合注意力四大架构并进",
+      "Nemotron 3.5 NVFP4单卡H100推理100k tok/s"
+    ],
+    "ai-community": [
+      "10天语音Agent实战挑战覆盖金融教育农业",
+      "EU AI Act透明度签署合规陷阱揭示",
+      "OpenAI Verified Defenders计划实测权限边界落差",
+      "Qwen3.8 2.4T MoE模型vLLM生产级部署全记录",
+      "4200次实证揭示Agent前三大失效模式",
+      "重构Agent记忆架构信任图谱优于向量检索"
+    ]
+  }
+}
