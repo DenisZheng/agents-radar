@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 爆超时不可配致命缺陷",
+      "Gemini CLI 发布 Nightly v0.56.0",
+      "OpenAI Codex Windows 卡顿泄漏严重",
+      "OpenCode Ctrl+C 误退出 Zen 计费失效",
+      "Kimi Code CLI 会话生命周期管理待完善",
+      "GitHub Copilot CLI 会话恢复数据损坏"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h 500 Issues 积压严重",
+      "核心痛点：静默消息丢失 子任务态丢失",
+      "合并率仅 21% 审核吞吐跟不上",
+      "仅发布性能剖面包 无功能版本",
+      "Composer 重写 网关轮询修复大重构中",
+      "社区呼吁建立端到端可观测投递语义"
+    ],
+    "ai-trending": [
+      "unsloth 冲上 Trending 榜首 +572星",
+      "needle 超小参数基座模型 +443星",
+      "智能体基建进化为 Harness 运行时",
+      "RAG 进入 Agentic+向量less 新阶段",
+      "企业级栈显著向 Rust Go Java 倾斜",
+      "垂直场景一键生成应用井喷"
+    ],
+    "ai-hn": [
+      "Anthropic 系统提示词公开引热议",
+      "Stripe 拟 70 亿收购 OpenRouter",
+      "Nvidia 大幅削减 OpenAI 数据中心担保",
+      "五年级语料训练 LLM 探索推理边界",
+      "Anthropic 梳理多智能体协作失效模式",
+      "Ask HN 询问有无公司回归手写代码"
+    ],
+    "ai-hf": [
+      "Qwen 3.5/3.8 全谱系霸榜含 2.4T MoE",
+      "MiniMax H3 视频生成全链路覆盖下载破千万",
+      "Moonshot Kimi-K3 多模态旗舰 1万赞切入",
+      "DeepSeek V4 Flash/Pro 双版本高性价比",
+      "NVIDIA Nemotron 3.5 NVFP4 量化极致压缩",
+      "LiquidAI 非 Transformer 架构小模型亮眼"
+    ],
+    "ai-community": [
+      "工程化落地成主旋律 从模型能力转向",
+      "多 Agent 架构 MCP 协议 上下文管理热议",
+      "可靠性安全成刚需 AI 代码审计命令注入",
+      "成本可观测性显性化 Prompt 缓存命中率",
+      "前端边缘推理新尝试 零后端 浏览器端 WebGL",
+      "社区现 AI 怀疑论 徽章无用论 回归工程基本功"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code 爆超时不可配致命缺陷",
+      "Gemini CLI 发布 Nightly v0.56.0",
+      "OpenAI Codex Windows 卡顿泄漏严重",
+      "OpenCode Ctrl+C 误退出 Zen 计费失效",
+      "Kimi Code CLI 会话生命周期管理待完善",
+      "GitHub Copilot CLI 会话恢复数据损坏"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h 500 Issues 积压严重",
+      "核心痛点：静默消息丢失 子任务态丢失",
+      "合并率仅 21% 审核吞吐跟不上",
+      "仅发布性能剖面包 无功能版本",
+      "Composer 重写 网关轮询修复大重构中",
+      "社区呼吁建立端到端可观测投递语义"
+    ],
+    "ai-trending": [
+      "unsloth 冲上 Trending 榜首 +572星",
+      "needle 超小参数基座模型 +443星",
+      "智能体基建进化为 Harness 运行时",
+      "RAG 进入 Agentic+向量less 新阶段",
+      "企业级栈显著向 Rust Go Java 倾斜",
+      "垂直场景一键生成应用井喷"
+    ],
+    "ai-hn": [
+      "Anthropic 系统提示词公开引热议",
+      "Stripe 拟 70 亿收购 OpenRouter",
+      "Nvidia 大幅削减 OpenAI 数据中心担保",
+      "五年级语料训练 LLM 探索推理边界",
+      "Anthropic 梳理多智能体协作失效模式",
+      "Ask HN 询问有无公司回归手写代码"
+    ],
+    "ai-hf": [
+      "Qwen 3.5/3.8 全谱系霸榜含 2.4T MoE",
+      "MiniMax H3 视频生成全链路覆盖下载破千万",
+      "Moonshot Kimi-K3 多模态旗舰 1万赞切入",
+      "DeepSeek V4 Flash/Pro 双版本高性价比",
+      "NVIDIA Nemotron 3.5 NVFP4 量化极致压缩",
+      "LiquidAI 非 Transformer 架构小模型亮眼"
+    ],
+    "ai-community": [
+      "工程化落地成主旋律 从模型能力转向",
+      "多 Agent 架构 MCP 协议 上下文管理热议",
+      "可靠性安全成刚需 AI 代码审计命令注入",
+      "成本可观测性显性化 Prompt 缓存命中率",
+      "前端边缘推理新尝试 零后端 浏览器端 WebGL",
+      "社区现 AI 怀疑论 徽章无用论 回归工程基本功"
+    ]
+  }
+}
