@@ -97,6 +97,14 @@
       "成本可观测性显性化 Prompt 缓存命中率",
       "前端边缘推理新尝试 零后端 浏览器端 WebGL",
       "社区现 AI 怀疑论 徽章无用论 回归工程基本功"
+    ],
+    "ai-weekly": [
+      "Z.ai releases GLM-5.3 with emergent cyber capabilities",
+      "Anthropic publishes multi-agent taxonomy + EU watermarking",
+      "Claude Sonnet 5 matches Opus 4.8 at 1/7th cost",
+      "OpenAI ethics head & COO depart; $7B buyback done",
+      "Stripe nears $7B OpenRouter acquisition",
+      "Cloudflare launches `computer` agent runtime, 2.8k stars"
     ]
   }
 }
