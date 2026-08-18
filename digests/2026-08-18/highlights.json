@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.234 修复 Windows GPU 崩溃",
+      "OpenAI Codex 推进 OTEL 合规与 GPT-5.6 872k 上下文",
+      "Gemini CLI 夜间版 v0.56.0 攻坚 SSR Agent 15+ PR",
+      "Qwen Code v0.21.13 增强 Web Shell 与 Autofix 容器化",
+      "DeepSeek TUI 发布 v0.9.9 版本",
+      "GitHub Copilot CLI 1.0.79 引入 OAuth 回归与 OOM 问题"
+    ],
+    "ai-agents": [
+      "OpenClaw 24 小时 500 Issue 500 PR 极高活跃度",
+      "核心维护者 steipete 主导十余大型基建 PR",
+      "安装策略警告确认流程增强插件生态安全",
+      "memory-flush 追加写入修复会话压缩一致性",
+      "Control UI 优化 Markdown 渲染修复富文本显示",
+      "Agent 可观测性、Hook 泄漏、会话丢失成四大痛点"
+    ],
+    "ai-trending": [
+      "usestrix/strix AI 渗透测试工具日增 598 Star",
+      "AlexsJones/llmfit 硬件适配选型神器日增 198 Star",
+      "jundot/omlx Apple Silicon 专用推理服务端日增 78 Star",
+      "ollama 17.8 万 Star 成本地 LLM 运行事实标准",
+      "Rust 在 AI 基础设施占比持续提升成性能敏感层首选",
+      "AG-UI Protocol 等长期记忆层协议推动 Agent 标准化"
+    ],
+    "ai-web": [
+      "OpenAI 宣布加入 Ports Pike Project 战略联盟",
+      "OpenAI 侧重生态定标而非模型发布竞争焦点转移",
+      "Anthropic 今日零新增内容处于静默沟通周期",
+      "OpenAI 通过外部联盟释放互操作性标准化信号",
+      "竞争焦点从模型参数转向工具链标准企业级集成",
+      "Ports Pike Project 具体细节待人工访问原文确认"
+    ],
+    "ai-hn": [
+      "GPT-5.6 Sol 视觉能力碾压 GPT-4o Claude 成最高热度",
+      "GPT-5.6 Sol 价格腰斩推理成本逼近边际零",
+      "Llama.cpp v0.1.0 正式去 beta 标签本地推理生产级就绪",
+      "Speko YC S26 统一语音模型路由网关获 89 分",
+      "1667 TUI 小说写作工具引发 CLI 原生交互形态讨论",
+      "Anthropic 开源态度隐私争议商业定位引发社区强烈反弹"
+    ],
+    "ai-hf": [
+      "Qwen3.5-27B 1.07 万赞 41.5 万下载旗舰密集模型",
+      "Kimi-K3 1.08 万赞 216 万下载首个开源多模态 MoE",
+      "MiniMax-H3 视频生成生态爆发官方版下载破千万",
+      "DeepSeek-V4 Flash/Pro 双版本形成闭源级推理开源阵营",
+      "NVIDIA Nemotron 3.5 原生 NVFP4 量化面向 Blackwell 优化",
+      "Unsloth 推出 GGUF/NVFP4 全谱系量化加速适配"
+    ],
+    "ai-community": [
+      "Using AI to Code Isn't the Risk 核心观点盲合并才是真风险",
+      "MCP Eval 定义用真实任务验证工具调用解决测试全绿上线即挂",
+      "CI 强制校验工具调用返回码防止 Agent 吞掉失败继续幻觉",
+      "Don't Give the Model SQL 反直觉实践 Schema 陷阱写入 Prompt",
+      "工具列表变动清空 OpenAI Prompt Cache 隐性成本揭秘规避配置",
+      "AI 悄悄改动代码测试全过作者隔离三天人工审查零信任合并流"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Enterprise vs dev-experience split in CLI tools",
+      "Windows stability remains systemic weak point",
+      "Industry converging on agent orchestration, MCP",
+      "Claude Code v2.1.234 adds QoL features",
+      "OpenAI Codex alpha adds OTEL proxy stack",
+      "Gemini CLI, Qwen Code prioritize terminal UX"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues/PRs in 24 hours",
+      "124 PRs merged, 376 open awaiting review",
+      "Critical bugs: session loss, CPU wedging",
+      "No release today, latest v2026.6.1",
+      "Systematic cleanup with 'clawsweeper' labels",
+      "Review capacity is primary bottleneck"
+    ],
+    "ai-trending": [
+      "Shift to local-first agent infrastructure",
+      "Rust in 4 of 11 trending AI repos",
+      "vLLM 89K stars: production LLM standard",
+      "Ollama 178K stars: local LLM runner",
+      "Agent harnesses, memory, local inference converge",
+      "omlx +78 stars: Apple Silicon inference"
+    ],
+    "ai-web": [
+      "OpenAI announces Ports Pike Project participation",
+      "Anthropic: zero new content today",
+      "Ports Pike suggests data-center initiative",
+      "OpenAI steady partnership announcements",
+      "Anthropic last: Claude 3.5 model cards",
+      "Limited actionable signal for developers"
+    ],
+    "ai-hn": [
+      "GPT-5.6 Sol: vision breakthrough + 50% price cut",
+      "Anthropic scrutinized over open-source suppression",
+      "YC-backed voice-AI router Speko launches",
+      "Fiction-writing terminal UI 1667 gains traction",
+      "Llama.cpp v0.1.0: first stable release",
+      "Sentiment split: excitement vs lab distrust"
+    ],
+    "ai-hf": [
+      "Qwen 3.8 family dominates: 27B + MoE variant",
+      "Qwen3.8-27B: 10.7K likes, 415K downloads",
+      "MiniMax-H3: open video generation backbone",
+      "DeepSeek-V4-Flash: 3.5K likes, 2M downloads",
+      "Quantization ecosystems outpace base models",
+      "Multimodal video/audio fastest growing"
+    ],
+    "ai-community": [
+      "Gap between AI coding demos and production",
+      "MCP emerges as critical infrastructure layer",
+      "Model impermanence: providers retire models fast",
+      "Risk is not understanding what AI shipped",
+      "MCP evals: unit tests ≠ realistic tasks",
+      "Ethical training data sourcing debated"
+    ]
+  }
+}
