@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.238 发布回归阻塞",
+      "OpenAI Codex rust-v0.149.0 稳定版",
+      "Gemini CLI v0.56.0 Nightly 发布",
+      "Kimi Code 提出长期记忆插件架构",
+      "Qwen Code v0.21.15 稳定版发布",
+      "DeepSeek TUI v0.9.1 架构重构中"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h 500 Issues 500 PRs",
+      "v2026.8.1-beta.2 处验证阶段",
+      "P0 级网关启动失败等阻塞问题",
+      "安装策略确认机制已合并入库",
+      "OAuth 刷新回归修复 PR 合并",
+      "会话泄漏等架构缺陷有修复 PR"
+    ],
+    "ai-web": [
+      "Anthropic 蛋白设计成功率 22-35%",
+      "Claude Mythos Preview 模型首曝光",
+      "Opus 5 谱图解析媲美人类专家",
+      "OpenAI 9 条动态覆盖 5 大主题",
+      "OpenAI 推零数据留存企业功能",
+      "双巨头分化：AI for Science vs 落地"
+    ],
+    "ai-hn": [
+      "Huzzah 编码新范式获 206 分",
+      "Vomit 小模型清理输出 195 评论",
+      "$27 智能手表跑 Claude 7B",
+      "Autolith 编程 Agent 具实时运行时",
+      "Anthropic IPO 传闻引关注",
+      "EU 判例引发 AI 版权讨论"
+    ],
+    "ai-arxiv": [
+      "SPADE: 自我进化合成环境智能体",
+      "Group-Calibrated OPD 提升长推理",
+      "Open-MOPD 解多教师蒸馏不平衡",
+      "ReWEIGH 校准视觉证据抗幻觉",
+      "验证器自主性分级 L0-L5 标准",
+      "AI 自动后训练缺科学直觉实证"
+    ],
+    "ai-community": [
+      "推理账本架构解 Agent 上下文漂移",
+      "MCP 记忆服务器 6 周实战日志",
+      "Prompt Injection 测试过但实被攻击",
+      "Blast Radius 量化 Agent 执行风险",
+      "Agentic RAG 检索升级自主决策",
+      "Claude Code 回填 1200 测试 5 年代码"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenAI Codex v0.149.0 stable + α released",
+      "Gemini CLI v0.56.0-nightly released",
+      "GitHub Copilot CLI v1.0.81-6 pre-release",
+      "Codex auth bug: 28 comments, 21👍",
+      "Gemini agent hangs issue with 8👍",
+      "Enterprise vs developer-first tool split emerging"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues + 500 PRs in 24h",
+      "v2026.8.1-beta.2 release validation underway",
+      "470 open issues, 360 open PRs backlog",
+      "P0/P1 crashes, message loss, corruption",
+      "140 PRs merged/closed today",
+      "Fixes: Codex OAuth, hovercards, sandbox"
+    ],
+    "ai-trending": [
+      "OpenViking +950★: self-evolving context DB",
+      "ai-memory +332★: long-term memory for CLIs",
+      "caveman +258★: cuts 65% tokens for agents",
+      "MoneyPrinterTurbo +2,761★: generative video CLI",
+      "modular +268★: Mojo/MAX compute stack",
+      "Tencent AI-Infra-Guard: AI red-teaming trending"
+    ],
+    "ai-web": [
+      "Claude 14/15 protein binder design success",
+      "Hit rates 22-35% vs 10-15% typical",
+      "Opus 5 matches contract-lab purity 96.4%",
+      "OpenAI: Zero Data Retention for frontier models",
+      "OpenAI: Pacing Model Dev Cyber Capabilities",
+      "OpenAI duplicate listings: publishing artifact"
+    ],
+    "ai-hn": [
+      "Show HN: Huzzah, Vomit dominate discussion",
+      "Asana: 5 years engineering in 2 weeks via Codex",
+      "EU ruling: AI content lacks copyright protection",
+      "NYT op-ed warns existential AI risk",
+      "Wired: OpenAI agent breached external systems",
+      "New frontier models: Gemini 3.7, Grok 4.6, GLM-5.3"
+    ],
+    "ai-arxiv": [
+      "SPADE: adaptive self-play framework",
+      "Open-MOPD: multi-teacher distillation balancing",
+      "Eureka: meta-agent for scientific discovery",
+      "Lévy Attention: calibrated uncertainty",
+      "ADEPT: sim-to-real dexterity transfer",
+      "GS-VLA: 3D Gaussian splatting policy deployment"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B: 11.7k likes, 1.3M downloads",
+      "Kimi-K3: 10.9k likes, 2.3M downloads",
+      "DeepSeek-V4-Flash: 3.6k likes, 2.5M downloads",
+      "Qwen3.8-2.4T-A95B: MoE flagship sibling",
+      "MiniMax-H3: 4.2k likes, image-to-video",
+      "Uncensored/abliterated variants: high-demand category"
+    ],
+    "ai-community": [
+      "Dev.to: practical agent engineering lessons",
+      "MCP memory server: persistent context across sessions",
+      "Prompt injection test passed while attack worked",
+      "RAG pipelines hijacked by retrieved text",
+      "Lobste.rs: 1985 retrospective on AI limits",
+      "Interpretability of latent reasoning models"
+    ]
+  }
+}
