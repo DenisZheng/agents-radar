@@ -1,0 +1,94 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 连发两版修复多账号Bug",
+      "OpenAI Codex 双分支并行日合并4个PR",
+      "Gemini CLI Nightly版专攻安全修复",
+      "OpenCode PR合并效率最高达12个",
+      "GitHub Copilot CLI 版本静默Issue堆积",
+      "国产CLI加速适配钉钉飞书生态"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时处理500 Issue/PR",
+      "v2026.8.1-beta.2 验证期未发新版",
+      "事件循环阻塞P0级回归待修",
+      "SQLite损坏复发阻塞Beta进程",
+      "63个PR合并含多渠道消息投递修复",
+      "子代理会话状态丢失成核心难题"
+    ],
+    "ai-trending": [
+      "OpenAI Codex登顶Trending日增1544星",
+      "Claude Code对标Codex形成双巨头",
+      "ECC通用Agent系统获411星日增",
+      "Sub2API中转网关解决多账号成本",
+      "Modular Mojo平台挑战CUDA锁定",
+      "技能包资产化成Agent新范式"
+    ],
+    "ai-hn": [
+      "Claude Code被指偷懒引发151评论热议",
+      "本地LLM体感智商下降原因深度剖析",
+      "OpenAI大幅降价Nvidia涨价并存",
+      "Linus Torvalds承认AI助其调试",
+      "AI生成数学证明可靠性面临危机",
+      "LLM服务年度负载演化论文曝光"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B以12k赞200万下载霸榜",
+      "Kimi-K3多模态MoE获10.9k点赞",
+      "MiniMax-H3视频生成下载近390万",
+      "DeepSeek-V4-Flash下载300万居首",
+      "社区微调呈现去审查量化三方向",
+      "GGUF/MLX/FP8全覆盖部署需求"
+    ],
+    "ai-community": [
+      "12岁少年用手机发布全栈AI SaaS",
+      "Agent规划失效根因：大模型也无效",
+      "9个实战RAG技巧提升检索质量",
+      "流式推理隐形成本：用户关标签浪费",
+      "vLLM/TGI/llama.cpp推理引擎横评",
+      "模型路由成多模型应用网关层"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "AI CLI tools split into platform vs community tiers",
+      "Claude Code v2.1.240/241 patches; profile switching 748👍",
+      "OpenAI Codex 2 alpha Rust releases; macOS daemon runaway 394👍",
+      "Gemini CLI nightly v0.56.0; agent hangs issue tracked",
+      "Desktop/IDE wrapper instability plagues platform tools",
+      "Security hardening now continuous across all CLI tools"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues & 500 PRs in 24h extreme velocity",
+      "Validating v2026.8.1-beta.2 with 19 release test comments",
+      "Beta.2 regressions: event loop blocking, SQLite corruption",
+      "63 PRs merged but 474 issues, 437 PRs remain open",
+      "No new releases published today",
+      "13 OpenClaw ecosystem projects covered in digest"
+    ],
+    "ai-trending": [
+      "OpenAI codex +1,544★ today leads CLI agent race",
+      "Anthropic claude-code +127★ terminal-native agent",
+      "Skill frameworks (skills, superpowers, ECC) >4,000★ combined",
+      "Tencent AI-Infra-Guard +150★ full-stack red-teaming platform",
+      "No new foundation models; focus on orchestration/safety",
+      "Modular Mojo/MAX +395★ unified AI inference stack"
+    ],
+    "ai-hn": [
+      "Anthropic A/B testing reduced Claude Code effort 161pts",
+      "Local LLMs feel dumber than benchmarks 166pts",
+      "OpenAI 20% price cut for GPT-5.6-Sol 86pts",
+      "Anthropic rumored $100B IPO 34pts",
+      "CPU vs GPU inference economics debated",
+      "Database access control for LLM agents discussed"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 12K+ likes 2M+ downloads dominates trends",
+      "Kimi-K3 10.9K likes 2.6M downloads compressed-tensors",
+      "DeepSeek-V4-Flash 3.6K likes 2.9M downloads leads text LLMs",
+      "MiniMax-H3 video gen 4.3K likes 3.9M downloads surges",
+      "Community focuses on abliteration and MTP optimization",
+      "Official quantized releases outpace community variants"
+    ]
+  }
+}
