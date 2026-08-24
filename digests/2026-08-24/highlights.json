@@ -1,0 +1,22 @@
+{
+  "zh": {
+    "ai-weekly": [
+      "Z.ai发布GLM-5.3引发追平GPT-5辩论",
+      "Anthropic发多智能体风险论文及水印",
+      "GPT-5.6 Sol发布视觉碾压GPT-4o",
+      "Claude蛋白设计成功率22-35%超行业",
+      "OpenAI释9条动态铺路GPT-5企业版",
+      "Claude Code偷懒门引发HN161分风暴"
+    ]
+  },
+  "en": {
+    "ai-weekly": [
+      "Anthropic launches Claude Sonnet 5 at 1/7th Opus cost",
+      "Claude proves Riemann ζ breakthrough: 41.6% → 67.2% bound",
+      "Anthropic open-sources EU-compliant text watermarking",
+      "Anthropic defines 5 multi-agent systemic failure modes",
+      "Z.ai GLM-5.3 claims emergent cyber capabilities, tops HN",
+      "OpenAI GPT-5.6 'Sol' vision model cuts price 50%"
+    ]
+  }
+}
