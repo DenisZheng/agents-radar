@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.243 爆严重 Segfault 回归",
+      "OpenAI Codex 认证回归引 51 条热评",
+      "Gemini CLI 推进 Subagent 工程化落地",
+      "Kimi Code 聚焦计费透明与长思维链",
+      "Qwen Code 攻坚架构重构与 IDE 深度集成",
+      "全系工具面临长上下文成本失控难题"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.1-beta.3 支持 GPT-5.6 系列",
+      "500 条 Issue 仅 25 条关闭 修复潮明显",
+      "P1 级消息丢失、会话异常、子进程泄漏",
+      "显式所有权模式下架构债务集中暴露",
+      "Control UI 首次运行流程大幅降低门槛",
+      "Puppeteer CDP 中继支持浏览器自动化复用"
+    ],
+    "ai-trending": [
+      "OpenAI Codex 单日涨 1994 Star 登顶趋势榜",
+      "Apache Maka 本地优先 Agent 工作区获 411 Star",
+      "FreeLLMAPI 聚合 34 家免费提供商 74 亿 Token",
+      "技能即配置成新范式 Karpathy 推技能文件",
+      "本地优先隐私优先成主流 Hermes Agent 领跑",
+      "GraphRAG 与记忆层融合解决长上下文幻觉"
+    ],
+    "ai-web": [
+      "Anthropic 单日连发四大战略信号抢占高地",
+      "经济学研究团队升级为一级团队对标 Alignment",
+      "Fable 5 生物护栏误拦率降 85% 推可信准入",
+      "Claude 文本水印零成本合规 EU AI Act",
+      "Opus 5/4.8/Mythos 四条产品线并行浮现",
+      "OpenAI 疑在 Kiro IDE 落地 GPT-5.6 变体"
+    ],
+    "ai-hn": [
+      "小米自研 CPU 单核对标苹果 多核大幅领先",
+      "OpenAI 悄悄下调 GPT-5.6 价格至 11 月底",
+      "开源模型定时后门 LLM 推理引擎被劫持",
+      "连续扩散语言模型尝试并行解码长上下文",
+      "OCR It 开源工具破解 PDF 图片不可复制",
+      "Kern 1.5MB 单二进制容器运行时无守护进程"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 1.25 万赞确立社区之王地位",
+      "MiniMax-H3 446 万下载领跑开源视频生成",
+      "DeepSeek-V4-Flash 368 万下载施压闭源 SOTA",
+      "Unsloth GGUF 版下载破 700 万本地部署成熟",
+      "超 40% 热门模型为去审查消融变体",
+      "Ornith 稀疏 MoE 35B 总参 3B 激活单卡强推理"
+    ],
+    "ai-community": [
+      "Agent 失效根因多为记忆管理缺失非推理不足",
+      "单测通过不等于契约正确倡导运行时验证",
+      "7 个过度工程信号及简化清单防架构腐化",
+      "RAG 幻觉生成不存在 API 三层防御代码实战",
+      "低成本 170 目标实测揭示单测盲区 10 类故障",
+      "MCP 解决工具发现但不解决授权撤销审计需求"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.243 fixes OAuth regression",
+      "Gemini CLI adds model picker and quota transparency",
+      "OpenCode stabilizes subagent orchestration reliability",
+      "Kimi Code CLI ships Linux native binary support",
+      "Qwen Code improves Windows PowerShell compatibility",
+      "DeepSeek TUI addresses memory leaks and segfaults"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.1-beta.3 adds GPT-5.6 family support",
+      "500 issues and 500 PRs in 24 hours show high velocity",
+      "Control UI onboarding improved with Custodian integration",
+      "CDP relay enables Chrome pairing for automation",
+      "475 open issues vs 25 closed indicates backlog pressure",
+      "Community focuses on message loss and session state bugs"
+    ],
+    "ai-trending": [
+      "OpenAI Codex gains 1,994 stars dominating trending",
+      "Claude Code ecosystem projects surge together",
+      "Apache Maka incubates local-first agent workspace",
+      "freellmapi unifies free-tier LLM access",
+      "awesome-gpt-image-2 adds 2,449 stars for prompt engineering",
+      "openhuman and hermes-agent push persistent memory AI"
+    ],
+    "ai-web": [
+      "Anthropic improves Fable 5 biology safeguards 85%",
+      "Text watermarking disclosed for EU AI Act compliance",
+      "Opus 5 matches specialists in protein design",
+      "Claude achieves autonomous wet-lab workflow contribution",
+      "OpenAI publishes only metadata entry for GPT-5.6",
+      "Anthropic releases 4 substantial articles on safety and research"
+    ],
+    "ai-hn": [
+      "Xiaomi claims CPU beats Apple single-thread performance",
+      "OpenAI GPT-5.6 Sol price reduction sparks discussion",
+      "Anthropic outages raise reliability concerns",
+      "LLM host machine exploitation via inference engines",
+      "Hidden time-release backdoors in open source models",
+      "Practitioner burnout discussion on anger and agency"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B ecosystem dominates with dozen variants",
+      "MiniMax-H3 leads open video generation at 4.4M downloads",
+      "DeepSeek-V4-Flash maintains 3.7K likes and 3.3M downloads",
+      "Ornith MoE series highlights efficient architecture interest",
+      "LTX-2.5 and MiniMax-Music3 extend multimodal momentum",
+      "Community GGUF quantizations amplify model accessibility"
+    ],
+    "ai-community": [
+      "Agent memory architecture matters more than reasoning",
+      "Tests passing but contracts wrong in AI systems",
+      "Over-engineering AI apps with premature RAG and evals",
+      "Real Claude Code workflow on production project",
+      "MCP security and evaluation harnesses critical infrastructure",
+      "Shift from model capabilities to trustworthy system building"
+    ]
+  }
+}
