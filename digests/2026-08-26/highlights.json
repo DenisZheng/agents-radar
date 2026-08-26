@@ -1,0 +1,110 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 连发两版修复崩溃权限",
+      "OpenAI Codex Rust Alpha 三连发",
+      "OpenCode v1.18.23 热修复上线",
+      "Pi 社区日均 50 Issue 31 PR",
+      "Qwen Code 自动化流水线深度融合",
+      "生态从功能竞速转稳定性攻坚"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h 冲刺 500 Issue/PR",
+      "SQLite 持久化层 P0 级损坏复现",
+      "会话消息交付丢失子进程泄漏",
+      "多模型多渠道适配兼容性暗坑",
+      "437 活跃 Issue 258 待合并 PR",
+      "Beta 阶段稳定性攻坚无新版本"
+    ],
+    "ai-trending": [
+      "OpenAI Codex 登顶 Trending +1181星",
+      "Claude 官方插件市场社区镜像上线",
+      "Karpathy 编程技能包单文件分发",
+      "Ponytail 拒绝过度设计降 Token",
+      "RAG 基建转向长期记忆知识图谱",
+      "Rust 在 AI 基建中统治力增强"
+    ],
+    "ai-web": [
+      "Anthropic 单日发布 24 篇经济指数报告",
+      "经济基元框架量化 AI 劳动力渗透率",
+      "Claude 内置 Connector 自然语言查询",
+      "UK/Europe 澳加印国家级简报同步",
+      "500万福祉基金 200万经济未来基金",
+      "OpenAI 静默上线全栈评测基准"
+    ],
+    "ai-arxiv": [
+      "Critic 训练稳定化双时间尺度方案",
+      "Self-Reflective Policy Optimization 攻克信用分配",
+      "ReWorld Prime Agent SkillAlchemy 三篇",
+      "SWE Refactor Bench 整仓库迁移基准",
+      "ProxyFormer ChebBooster ConvergeFlow 效率突破",
+      "推理微调诱发错位需过程约束"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 1.27万赞确立核心基座",
+      "MiniMax-H3 视频生成下载破 460万",
+      "DeepSeek-V4 Flash/Pro 双双入榜",
+      "去审查消融版本持续社区高需求",
+      "DFlash2 推测解码无损加速 Qwen",
+      "Ornith MoE 35B 激活 3B 极低显存"
+    ],
+    "ai-community": [
+      "RAG 生产级检查清单避免自信胡说",
+      "开发者等待窗口 5-20 分钟高价值填充",
+      "对话历史回放敏感文档需权限闸",
+      "AI Evals 热力图让非技术干系人定位弱点",
+      "Agent 记忆架构 41 法则 22 专家角色",
+      "Weir 确定性单测拒绝用 LLM 评 LLM"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "AI CLI tools split: enterprise vs community-driven",
+      "All tools converge on MCP as universal protocol",
+      "Windows remains weakest platform across all tools",
+      "Claude Code v2.1.246/245 patches; 155 comments",
+      "OpenAI Codex daily alphas: 10 issues, 10 PRs updated",
+      "Release cadences: daily alphas to weekly stables"
+    ],
+    "ai-agents": [
+      "Personal AI agent ecosystem fragmented but convergent",
+      "Zero stable releases: pre-release stabilization phase",
+      "NanoBot, Hermes Agent: 50+ daily contributors",
+      "Core patterns: MCP, sandboxed execution, session persistence",
+      "Security hardening, UX polish are universal priorities",
+      "Deployment models: desktop, server, edge, web-native"
+    ],
+    "ai-web": [
+      "Anthropic: 24 publications in coordinated Aug 25 wave",
+      "Anthropic Economic Index spans 12+ technical papers",
+      "$200M Economic Futures Fund for AI labor policy",
+      "$5M wellbeing grants for open-source evaluation standards",
+      "OpenAI: 'Full Stack Behind Abundant Intelligence' published",
+      "Clio/Anthropic Insights: privacy-preserving usage analysis"
+    ],
+    "ai-arxiv": [
+      "Research pivoting from model-centric to system-centric",
+      "ReWorld, Prime Agent tackle long-horizon agency",
+      "Provable guarantees for critic training, diffusion sampling",
+      "Safety under distribution shift: reasoning misalignment attacks",
+      "Domain-specialized benchmarks replace generic LLM evals",
+      "ConvergeFlow: first flow LM with provable convergence"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B leads: 12.7k likes, 2.9M downloads",
+      "Kimi-K3: 11k likes, strongest new multimodal model",
+      "Qwen 3.5 ecosystem: massive fine-tune, quant wave",
+      "MiniMax-H3 4.5k likes, LTX-2.5 1.8k likes: video gen",
+      "DeepSeek-V4-Flash: 3.7k likes, 3.5M+ downloads",
+      "Quantized formats now 40%+ of top-30 models"
+    ],
+    "ai-community": [
+      "Developers moving past vibe coding to production agents",
+      "RAG checklist: chunking, reranking, citations, eval",
+      "AI agents create 5-20 min gaps: use for review",
+      "Chat history leaks RAG sources; gate replay access",
+      "AI coding agents have amnesia, not junior-dev problem",
+      "Lobste.rs: Apple M5 Ultra, multi-GPU for local inference"
+    ]
+  }
+}
