@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.251发布，修复安全误拦",
+      "Gemini CLI v0.59.0-nightly强化安全加固",
+      "GitHub Copilot CLI v1.0.82修复FileWatch泄漏",
+      "Kimi Code发现MCP绕过敏感文件防护漏洞",
+      "OpenCode v1.18.25修复Azure CLI认证",
+      "Pi v0.84.4推出扩展启动期合成器"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.9.1-beta.1版本",
+      "24小时1000条Issue/PR更新高活跃度",
+      "核心解决Gateway重启会话状态恢复",
+      "Top 5痛点：内存泄漏350MB→15.5GB",
+      "会话车道饥饿、多模态消息丢失",
+      "60% PR为修复类，技术债同步积累"
+    ],
+    "ai-trending": [
+      "Anthropic官方Claude Code插件目录+457星",
+      "Cursor官方插件规范仓库+246星",
+      "FreeLLMAPI聚合34家免费LLM提供商",
+      "Chrome官方MCP服务器支持DevTools操控",
+      "ai-engineering-from-scratch双榜登顶",
+      "Agent Skill生态爆发式增长成主流"
+    ],
+    "ai-web": [
+      "Anthropic推出自动化对齐研究员范式",
+      "平均关闭88%安全缺口且不损通用能力",
+      "发布Model Hardware Standard统一物理设备规范",
+      "面向科学家免费开放1万席位Claude Team",
+      "前沿红队暴露多智能体系统级风险",
+      "OpenAI聚焦分发治理而非前沿能力发布"
+    ],
+    "ai-hn": [
+      "Anthropic逆转五角大楼禁令确立法律先例",
+      "OpenAI因Cursor被SpaceX收购切断服务",
+      "OpenAI Python SDK迁移HTTPX2获190分",
+      "LLM KV Cache被用作程序分析获72分",
+      "StemDeck本地音频源分离工具获50分",
+      "OSS工具链将Claude Opus 5推向ARC-AGI满分"
+    ],
+    "ai-arxiv": [
+      "CritICL利用小模型错误反向指导大模型",
+      "TTPO无标签测试时策略优化实现自我改进",
+      "WikiSkill将智能体经验固化为可进化技能库",
+      "RedEvoAgent自动红队技能经验驱动进化",
+      "CLAP实现跨具身零样本物理仿真",
+      "CorporateBench/RATIO面向真实工业场景基准"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B周下载破345万霸榜中文多模态",
+      "GLM-5.3双版本齐发MoE+DSA架构获期待",
+      "MiniMax-H3以484万下载领跑文生视频",
+      "Qwen3.8衍生6个量化版合计下载超1200万",
+      "Kimi-K3首个开放权重多模态MoE获1.1万赞",
+      "DeepSeek-V4-Flash下载395万领跑全榜"
+    ],
+    "ai-community": [
+      "AI记忆盲目信任缺陷引发可验证机制讨论",
+      "Strands Agent将Claude Opus 5推至ARC-AGI 99.95%",
+      "幻觉被论证为架构问题而非提示词问题",
+      "LLM-as-a-Judge自一致性极低不可靠",
+      "Ponytail技能模式主张Agent少写代码复用",
+      "Agent日志不可作审计证据需不可篡改回执"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenAI Codex pushed 5 alphas in 24 hours",
+      "Security hardening now universal across all CLI tools",
+      "Web shells becoming primary interface for remote work",
+      "Ecosystem split: enterprise-governed vs community-driven",
+      "Windows stability remains blocker for desktop CLI apps",
+      "Release cadences vary dramatically across major tools"
+    ],
+    "ai-agents": [
+      "OpenClaw hit 500 issues and 500 PRs in 24h",
+      "v2026.9.1-beta.1 adds gateway restart recovery",
+      "Critical memory leak grows to 15.5GB RSS",
+      "Session lane starvation and silent message loss",
+      "Zombie process accumulation signals stability issues",
+      "Cloud worker policy and A2A/ACP hardening underway"
+    ],
+    "ai-trending": [
+      "Agent skill libraries dominate GitHub trending today",
+      "Shift from model experiments to production agent engineering",
+      "RAG stack matures with vector DBs and new retrievers",
+      "Agent harness utilities emerge for token optimization",
+      "Multimodal agents expand beyond chat to video/voice",
+      "LangChain leads at 145K stars with LangGraph"
+    ],
+    "ai-web": [
+      "Anthropic published 4 new pieces on alignment research",
+      "Automated researchers fix alignment failures across 10 categories",
+      "Model Hardware Standard research preview released",
+      "OpenAI shipped 9 updates including ChatGPT for Teachers",
+      "Anthropic publishes deep research; OpenAI pushes policy",
+      "Claude Science workbench targets AI-driven science stack"
+    ],
+    "ai-hn": [
+      "Judge rules Pentagon blacklisting Anthropic unlawful",
+      "OpenAI decides on Cursor after SpaceX acquisition",
+      "OSS harness boosts Claude Opus 5 to 99.95% ARC-AGI",
+      "OpenAI HTTPX2 migration sparks 81-comment thread",
+      "LLM memory repurposed for program analysis",
+      "Ask HN: AI writes better code than me"
+    ],
+    "ai-arxiv": [
+      "Shift to inference-time adaptation without ground truth",
+      "TTPO enables test-time policy optimization without rewards",
+      "CritICL uses small-model failures to guide strong LLMs",
+      "WikiSkill and RedEvoAgent evolve persistent skill libraries",
+      "Multiple papers address RLVR entropy collapse",
+      "New benchmarks target realistic temporal evaluation"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B leads with 13K likes, 3.4M downloads",
+      "Qwen3.8-Flash-Next spawns massive variant ecosystem",
+      "Chinese labs dominate: DeepSeek, GLM, MiniMax, Kimi",
+      "Video generation hottest frontier with MiniMax-H3",
+      "Quantization formats now over half of trending models",
+      "DeepSeek-V4-Flash hits 3.79K likes, 3.9M downloads"
+    ],
+    "ai-community": [
+      "Dev.to focuses on agent reliability and architecture",
+      "AI memory systems need explicit validation layers",
+      "Hallucination rooted in retrieval architecture, not prompts",
+      "Explicit architecture beats black-box oracle patterns",
+      "Lobste.rs debates vibe-coding security risks",
+      "Bill Gates AI essay draws 29 comments on regulation"
+    ]
+  }
+}
