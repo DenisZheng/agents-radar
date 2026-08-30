@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 积压 7 个阻断级 Issue 无公开 PR 响应",
+      "OpenAI Codex 同发 3 版本冲刺稳健性",
+      "Gemini CLI 每日自动化构建+Eval 驱动开发",
+      "Copilot CLI v1.0.82/82-2 紧急修复 MCP 回归",
+      "OpenCode 激进重构：MCP 进程共享与多端适配并行",
+      "Kimi Code CLI 暴露 P0 计费逻辑缺陷"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h 处理 500 Issues+500 PRs 零发布",
+      "网关内存泄漏 RSS 增长 44 倍成 P0 缺陷",
+      "会话车道饥饿/消息丢失/子进程僵尸并存",
+      "beta.1 含多渠道 Webhook 连接释放修复",
+      "extended-stable 2026.7.33 回溯 19k+ 提交",
+      "维护者响应迅速但积压持续增长"
+    ],
+    "ai-trending": [
+      "workweave/router 新秀 +284⭐ <50ms 路由降本 40-70%",
+      "Osmantic/ODS 一键把 PC 变全功能 AI 服务器",
+      "Agent Skills 标准化爆发：scientific-agent-skills +1.5k⭐",
+      "OpenMontage/screenshot-to-code 等 Agentic App 落地加速",
+      "RAG 生态深水区：知识图谱融合+长期记忆层",
+      "minimind 2h 训练 64M 模型+边缘推理工具链下沉"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Model Hardware Standard 研究预览",
+      "MHS 将硬件集成周期从周/月压缩至小时/分钟",
+      "Agent 获得推理实验步骤/实时调参/故障自愈闭环",
+      "携手 HHMI Janelia 打通显微镜/液处理/机械臂集群",
+      "抢占 AI for Science 与高端制造协议层入口",
+      "OpenAI 官网零新增呈现静默或内部冲刺期"
+    ],
+    "ai-hn": [
+      "vLLM v0.28.0 102 分登顶：FP8 KV Cache+多 LoRA 服务",
+      "Claude Code 9 月中旬削减 25% 与周限额上调 25% 矛盾",
+      "如何戒掉 Claude Code 成瘾引发 70 条评论共鸣",
+      "GLM-5.3-Flash-GGUF 量化版上线消费级显存测试",
+      "沃特卢红队测试揭示主流开源模型系统性脆弱",
+      "700 行 C 语言实现 Gemma 推理引发边缘部署讨论"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 1.3万赞 400万下载霸榜开源 SOTA",
+      "MiniMax-H3 4600赞 500万下载视频生成实用化竞速",
+      "GLM-5.3/Flash/DeepSeek-V4-Flash/Kimi-K3 国产 MoE 密集发布",
+      "去审查/合规微调成产业链：FP8/GGUF/MLX 百万级下载",
+      "Unsloth 官方量化仓下载破千万三制并行",
+      "LTX-2.5 与 MiniMax-H3 双雄并立 ControlNet/LoRA 生产级"
+    ],
+    "ai-community": [
+      "实测揭示：表现最好模型组合隐藏最大生产风险",
+      "Qwen3.8-Flash-Next 6B 激活参数击败 17B 激活模型",
+      "多 Agent 辩论引擎调试 31 分钟：真凶是提示词隐式冲突",
+      "AI SDK OAuth 元数据自动发现引入 SSRF 漏洞挖掘",
+      "Claude Code 12 天迁移 40 REST 到 GraphQL 标准化流程",
+      "Anthropic AI-Native SDLC 缺第四控制：可观测性缺失"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code 积压 7 个阻断级 Issue 无公开 PR 响应",
+      "OpenAI Codex 同发 3 版本冲刺稳健性",
+      "Gemini CLI 每日自动化构建+Eval 驱动开发",
+      "Copilot CLI v1.0.82/82-2 紧急修复 MCP 回归",
+      "OpenCode 激进重构：MCP 进程共享与多端适配并行",
+      "Kimi Code CLI 暴露 P0 计费逻辑缺陷"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h 处理 500 Issues+500 PRs 零发布",
+      "网关内存泄漏 RSS 增长 44 倍成 P0 缺陷",
+      "会话车道饥饿/消息丢失/子进程僵尸并存",
+      "beta.1 含多渠道 Webhook 连接释放修复",
+      "extended-stable 2026.7.33 回溯 19k+ 提交",
+      "维护者响应迅速但积压持续增长"
+    ],
+    "ai-trending": [
+      "workweave/router 新秀 +284⭐ <50ms 路由降本 40-70%",
+      "Osmantic/ODS 一键把 PC 变全功能 AI 服务器",
+      "Agent Skills 标准化爆发：scientific-agent-skills +1.5k⭐",
+      "OpenMontage/screenshot-to-code 等 Agentic App 落地加速",
+      "RAG 生态深水区：知识图谱融合+长期记忆层",
+      "minimind 2h 训练 64M 模型+边缘推理工具链下沉"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Model Hardware Standard 研究预览",
+      "MHS 将硬件集成周期从周/月压缩至小时/分钟",
+      "Agent 获得推理实验步骤/实时调参/故障自愈闭环",
+      "携手 HHMI Janelia 打通显微镜/液处理/机械臂集群",
+      "抢占 AI for Science 与高端制造协议层入口",
+      "OpenAI 官网零新增呈现静默或内部冲刺期"
+    ],
+    "ai-hn": [
+      "vLLM v0.28.0 102 分登顶：FP8 KV Cache+多 LoRA 服务",
+      "Claude Code 9 月中旬削减 25% 与周限额上调 25% 矛盾",
+      "如何戒掉 Claude Code 成瘾引发 70 条评论共鸣",
+      "GLM-5.3-Flash-GGUF 量化版上线消费级显存测试",
+      "沃特卢红队测试揭示主流开源模型系统性脆弱",
+      "700 行 C 语言实现 Gemma 推理引发边缘部署讨论"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 1.3万赞 400万下载霸榜开源 SOTA",
+      "MiniMax-H3 4600赞 500万下载视频生成实用化竞速",
+      "GLM-5.3/Flash/DeepSeek-V4-Flash/Kimi-K3 国产 MoE 密集发布",
+      "去审查/合规微调成产业链：FP8/GGUF/MLX 百万级下载",
+      "Unsloth 官方量化仓下载破千万三制并行",
+      "LTX-2.5 与 MiniMax-H3 双雄并立 ControlNet/LoRA 生产级"
+    ],
+    "ai-community": [
+      "实测揭示：表现最好模型组合隐藏最大生产风险",
+      "Qwen3.8-Flash-Next 6B 激活参数击败 17B 激活模型",
+      "多 Agent 辩论引擎调试 31 分钟：真凶是提示词隐式冲突",
+      "AI SDK OAuth 元数据自动发现引入 SSRF 漏洞挖掘",
+      "Claude Code 12 天迁移 40 REST 到 GraphQL 标准化流程",
+      "Anthropic AI-Native SDLC 缺第四控制：可观测性缺失"
+    ]
+  }
+}
