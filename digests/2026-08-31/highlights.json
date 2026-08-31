@@ -1,0 +1,13 @@
+{
+  "zh": {
+    "ai-weekly": [
+      "Anthropic发布MHS协议抢占具身智能入口",
+      "Claude自动化对齐关闭88%安全缺口",
+      "Claude Code四天四更陷P0回归危机",
+      "OpenAI Codex单日三版冲刺Rust稳定版",
+      "OpenAI悄悄下调GPT-5.6价格至11月",
+      "vLLM v0.28发布FP8 KV Cache提升20%"
+    ]
+  },
+  "en": {}
+}
