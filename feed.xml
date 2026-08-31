@@ -6,7 +6,769 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 30 Aug 2026 03:19:28 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 06:35:28 +0000</lastBuildDate>
+    <item>
+      <title>AI 工具生态周报 2026-08-31</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-08-31/ai-weekly</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-31/ai-weekly</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <description>AI 工具生态周报 2026-W36 覆盖日期: 2026-08-21 ~ 2026-08-30 | 生成时间: 2026-08-31 06:31 UTC AI 工具生态周报｜2026-W36 (2026-08-21 ~ 2026-08-30) 核心主题：基建硬化与生态标准化并行——头部 CLI 工具从“功能竞速”转入“稳定性攻坚与企业级交付”，Agent 技能生态爆发确立“插件化”范式，Anthropic 押注具身智能协议层，OpenAI 进入静默冲刺期。 1. 本周要闻 日期 事件 影响评级 核心看点 08-30 Anthropic 发布 Model Hardware Standard (MHS) 研究预览 🔥🔥🔥🔥🔥 联合 HHMI Janelia 定义 AI 操作物理设备（显微镜、机械臂、液体处理站）统一协议，将硬件集成周期从“周/月”压缩至“小时/分钟”，抢占 具身智能/AI for Science 协议层入口 与安全治理话语权。 08-29 Anthropic 实证“自动化对齐研究员”范式 🔥🔥🔥🔥 Claude 自主完成文献检索→提案→训练→测试闭环，在...</description>
+      <content:encoded><![CDATA[<h1>AI 工具生态周报 2026-W36</h1>
+<blockquote>
+<p>覆盖日期: 2026-08-21 ~ 2026-08-30 | 生成时间: 2026-08-31 06:31 UTC</p>
+</blockquote>
+<hr>
+<h1>AI 工具生态周报｜2026-W36 (2026-08-21 ~ 2026-08-30)</h1>
+<blockquote>
+<p><strong>核心主题</strong>：<strong>基建硬化与生态标准化并行</strong>——头部 CLI 工具从“功能竞速”转入“稳定性攻坚与企业级交付”，Agent 技能生态爆发确立“插件化”范式，Anthropic 押注具身智能协议层，OpenAI 进入静默冲刺期。</p>
+</blockquote>
+<hr>
+<h2>1. 本周要闻</h2>
+<table>
+<thead>
+<tr>
+<th align="left">日期</th>
+<th align="left">事件</th>
+<th align="center">影响评级</th>
+<th align="left">核心看点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>08-30</strong></td>
+<td align="left"><strong>Anthropic 发布 Model Hardware Standard (MHS) 研究预览</strong></td>
+<td align="center">🔥🔥🔥🔥🔥</td>
+<td align="left">联合 HHMI Janelia 定义 AI 操作物理设备（显微镜、机械臂、液体处理站）统一协议，将硬件集成周期从“周/月”压缩至“小时/分钟”，抢占 <strong>具身智能/AI for Science 协议层入口</strong> 与安全治理话语权。</td>
+</tr>
+<tr>
+<td align="left"><strong>08-29</strong></td>
+<td align="left"><strong>Anthropic 实证“自动化对齐研究员”范式</strong></td>
+<td align="center">🔥🔥🔥🔥</td>
+<td align="left">Claude 自主完成文献检索→提案→训练→测试闭环，在 10 类对齐基准上平均关闭 <strong>88% 安全缺口</strong> 且不损通用能力，标志着 <strong>AI 自研 AI 安全</strong> 进入工程级可靠阶段。</td>
+</tr>
+<tr>
+<td align="left"><strong>08-29</strong></td>
+<td align="left"><strong>Claude Code 陷入严重回归危机</strong></td>
+<td align="center">🔥🔥🔥🔥</td>
+<td align="left">v2.1.243/245/246/251 四天四更：Linux glibc 兼容性 Segfault（P0）、Cyber Safeguard 误拦正常代码、Windows MSIX 孤儿进程、多账号 OAuth 失效。<strong>零社区 PR 合入</strong>，暴露闭源核心+外部反馈模式的工程响应瓶颈。</td>
+</tr>
+<tr>
+<td align="left"><strong>08-29</strong></td>
+<td align="left"><strong>OpenClaw 发布 v2026.9.1-beta.1</strong></td>
+<td align="center">🔥🔥🔥</td>
+<td align="left">核心修复 Gateway 重启恢复机制（保留已准入 turn）与配置写入可靠性。但 <strong>P0 级内存泄漏（RSS 350MB→15.5GB）、会话车道饥饿、SQLite 损坏、僵尸进程</strong> 仍在持续爆发，稳定性债高位。</td>
+</tr>
+<tr>
+<td align="left"><strong>08-26</strong></td>
+<td align="left"><strong>Anthropic Economic Index 全谱系发布</strong></td>
+<td align="center">🔥🔥🔥</td>
+<td align="left">确立 <strong>Economic Primitives（任务复杂度、技能水平、自主度等 5 维基元）</strong>，推出 Claude.ai 原生 Connector、国家级简报（UK/加/印/澳）、$5M 福祉/$2M 经济基金，构建“数据-方法论-政策”闭环，确立“AI 社会宏观观测站”定位。</td>
+</tr>
+<tr>
+<td align="left"><strong>08-26</strong></td>
+<td align="left"><strong>OpenAI Codex Rust 稳定版冲刺</strong></td>
+<td align="center">🔥🔥🔥</td>
+<td align="left">单日 3 版本同发，20+ PR 批量合并（Bazel 构建、Guardian 沙箱、OAuth 重试、OTel 可观测性），<strong>Windows/WSL 原生栈硬化</strong> 与 <strong>会话一致性</strong> 成核心攻坚点，Alpha 向 Stable 冲刺明显。</td>
+</tr>
+<tr>
+<td align="left"><strong>08-25</strong></td>
+<td align="left"><strong>OpenAI 悄悄下调 GPT-5.6 价格至 11 月底</strong></td>
+<td align="center">🔥🔥🔥</td>
+<td align="left">HN 287 分热议，输入/输出 Token 成本大幅降低，被解读为应对开源模型（DeepSeek/Qwen/Gemma）成本压力的防御性定价，推动 API 层价格战常态化。</td>
+</tr>
+<tr>
+<td align="left"><strong>08-30</strong></td>
+<td align="left"><strong>vLLM v0.28.0 发布</strong></td>
+<td align="center">🔥🔥🔥</td>
+<td align="left">HN 102 分最高。新增 <strong>FP8 KV Cache、分块预填充、多 LoRA 服务</strong>，生产环境吞吐再提升 20%+，巩固开源推理引擎霸主地位。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>2. CLI 工具进展：生产级硬化分化明显</h2>
+<h3>头部厂商工具：稳定性攻坚与企业级合规并重</h3>
+<table>
+<thead>
+<tr>
+<th align="left">工具</th>
+<th align="left">版本节奏</th>
+<th align="left">核心进展</th>
+<th align="left">关键风险/债务</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Claude Code</strong></td>
+<td align="left">急救式高频 (v2.1.243→251)</td>
+<td align="left">修复 Linux 崩溃、权限 UI、Model Switch Hooks</td>
+<td align="left"><strong>信任危机</strong>：P0 回归连发、社区高呼声零 PR 响应、服务端静默实验导致客户端行为不可复现、Windows 体验崩塌</td>
+</tr>
+<tr>
+<td align="left"><strong>OpenAI Codex</strong></td>
+<td align="left">冲刺稳健 (Alpha 连发 + 稳定版筹备)</td>
+<td align="left"><strong>工程化基建全自动化</strong>：Bazel/Guardian/OAuth/OTel/重试风暴治理、子代理资源回收、Bedrock 适配</td>
+<td align="left">Windows 内核崩溃残留、多代理内存泄漏、认证回归（51 条评论高热）</td>
+</tr>
+<tr>
+<td align="left"><strong>Gemini CLI</strong></td>
+<td align="left">每日 Nightly + Eval 驱动</td>
+<td align="left"><strong>Agent 编排可靠性</strong>：Subagent 状态机、Fail-Closed 工作区信任、AST 沙箱原型、Auto Memory 质量治理、10+ 安全 PR/天</td>
+<td align="left">Wayland 兼容、Shell 卡死、Subagent “虚假成功”挂起</td>
+</tr>
+<tr>
+<td align="left"><strong>GitHub Copilot CLI</strong></td>
+<td align="left">热修补模式</td>
+<td align="left">MCP 兼容性回归修复、企业认证/数据驻留 401、FileWatch 13GB 泄漏止血、Windows 25H2 适配</td>
+<td align="left"><strong>MCP 生态回归为最大风险</strong>、并行子代理 UI 死锁、云会话不稳定、PR 速度极慢(1-2/天)</td>
+</tr>
+<tr>
+<td align="left"><strong>Qwen Code</strong></td>
+<td align="left">双轨并行</td>
+<td align="left"><strong>架构级收敛</strong>：Channels 命名会话、WebShell 全面切换、审查管线去重/熔断、cua-driver 全平台预构建、Provider 多模型适配</td>
+<td align="left">权限回归、413 导致压缩失效、WebShell 卡死</td>
+</tr>
+</tbody></table>
+<h3>社区/新兴工具：架构重构与差异化深耕</h3>
+<table>
+<thead>
+<tr>
+<th align="left">工具</th>
+<th align="left">状态</th>
+<th align="left">核心差异化护城河</th>
+<th align="left">痛点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>OpenCode</strong></td>
+<td align="left">激进重构期</td>
+<td align="left"><strong>MCP 进程共享、推理参数作用域隔离、多 Provider 统一网关、TUI/Web 双端复用</strong></td>
+<td align="left">TUI Diff 回归、Ox Free 模型不可用、国内模型缺失、长会话上下文爆炸</td>
+</tr>
+<tr>
+<td align="left"><strong>Pi (earendil-works)</strong></td>
+<td align="left">里程碑交付期</td>
+<td align="left"><strong>Web GUI 落地、提供商生态爆发、扩展系统企业级化、终端能力覆盖测试矩阵</strong></td>
+<td align="left">Windows 原生痛点极高(44 评论)、自动压缩失效、TUI 渲染崩溃、XDG 目录规范</td>
+</tr>
+<tr>
+<td align="left"><strong>DeepSeek TUI (CodeWhale)</strong></td>
+<td align="left">版本发布冲刺+架构拆解</td>
+<td align="left"><strong>Crate 模块化拆解、多协议统一、云原生派发、首秀体验工程化</strong></td>
+<td align="left">国际化脊柱建设中、长上下文压缩 Bug</td>
+</tr>
+<tr>
+<td align="left"><strong>Kimi Code CLI</strong></td>
+<td align="left">低活跃/危机期</td>
+<td align="left">长思维链成本控制、计费透明化尝试</td>
+<td align="left"><strong>MCP 绕过敏感文件防护 (P0 安全漏洞 #2625)</strong>、<code>cache_read</code> 计费异常放大 10x、仅 1 PR(依赖升级)、响应滞后</td>
+</tr>
+</tbody></table>
+<h3>跨工具共性硬仗（本周高频共振）</h3>
+<ol>
+<li><strong>Windows/MSIX 原生体验崩塌</strong>：Claude、Codex、Copilot、Pi、OpenCode 均集中爆发安装、更新、进程管理、文件锁、TCC 权限问题。</li>
+<li><strong>认证/会话持久化可靠性</strong>：OAuth 24h 失效、MSIX 更新泄漏需重启、macOS TCC 重复授权、WSL 会话分裂、远程重连失败。</li>
+<li><strong>MCP 生态落地与工具调用可靠性</strong>：连接策略、权限模型、进程隔离、SSE/HTTP 传输兼容、工具调用截断/死循环。</li>
+<li><strong>长上下文/记忆工程化</strong>：压缩失效、Token 成本失控、跨会话隔离与共享矛盾、AST 感知工具调研、可观测记忆元数据。</li>
+<li><strong>企业级合规</strong>：RBAC、审计日志、FinOps 计费属性、数据驻留、零信任沙箱。</li>
+</ol>
+<hr>
+<h2>3. AI Agent 生态：OpenClaw 为核心的高吞吐稳定性攻坚战</h2>
+<p><strong>OpenClaw 主线进展：</strong></p>
+<ul>
+<li><strong>发布节奏</strong>：v2026.8.1-beta.2/3 验证期 → <strong>v2026.9.1-beta.1</strong> (08-29) 双轨并行（稳定版维护 + 下一版本冻结）。</li>
+<li><strong>核心修复</strong>：Gateway 重启恢复、配置写入可靠性、Claude CLI OAuth 刷新回归、多 Agent 显式所有权路由修复、安装策略 <code>warn/ack</code> 机制上线（供应链安全）。</li>
+<li><strong>持续顽疾 (P0/P1)</strong>：<ul>
+<li><strong>内存泄漏</strong>：RSS 350MB → 15.5GB (Gateway/HTTP Chat 会话泄漏)。</li>
+<li><strong>会话/消息可靠性</strong>：车道饥饿、多模态消息丢失/延迟、工具调用死循环、子代理状态丢失。</li>
+<li><strong>数据层</strong>：SQLite 快照损坏复发、迁移路径覆盖不全。</li>
+<li><strong>运行时</strong>：子进程僵尸累积、事件循环阻塞回归。</li>
+</ul>
+</li>
+<li><strong>工程指标</strong>：日均 500 Issues / 500 PRs 更新，合并率 ~30-40%，大量 XL 级 PR 待 Review，<strong>技术债偿还速度 &lt; 新增债务速度</strong>。</li>
+</ul>
+<p><strong>生态项目动态</strong>：</p>
+<ul>
+<li><strong>Hermes Agent / NanoBot / PicoClaw</strong> 等卫星项目活跃度低于主仓，主要跟随上游协议适配（MCP/ACP）。</li>
+<li><strong>技能/插件生态</strong>：OpenClaw 开始显性暴露运行时钩子给插件开发者，配合安装策略确认机制，构建受控扩展分发体系。</li>
+</ul>
+<hr>
+<h2>4. 开源趋势：三大确定性方向</h2>
+<h3>① Agent Skills 标准化与生态爆发（本周最强信号）</h3>
+<ul>
+<li><strong>官方入场</strong>：<code>anthropics/claude-plugins-official</code> (+457⭐)、<code>cursor/plugins</code> (+246⭐) 确立分发标准。</li>
+<li><strong>社区爆发</strong>：<code>archify</code> (+3.9k⭐ Trending 冠军，架构图生成)、<code>scientific-agent-skills</code> (+1.5k⭐，165+ 科研技能)、<code>ponytail</code> (+982⭐，懒惰工程师模式/Token 省 65%)、<code>awesome-agent-skills</code> (+602⭐，1000+ 技能聚合)。</li>
+<li><strong>范式确立</strong>：“技能即插件/配置”取代“Prompt Engineering”，向 <strong>结构化、可版本化、可组装、跨客户端兼容 (Claude/Codex/Gemini/OpenCode)</strong> 演进。</li>
+</ul>
+<h3>② Agentic Application 垂直落地加速</h3>
+<ul>
+<li><strong>视频制作</strong>：<code>OpenMontage</code> (+1.1k⭐) 全球首个开源 Agentic 视频制作。</li>
+<li><strong>代码生成</strong>：<code>screenshot-to-code</code> 持续高热、<code>GitNexus</code>/<code>Graphify</code> (AST+KG 解决代码库 RAG 幻觉)。</li>
+<li><strong>科研/空间/教育</strong>：<code>gods-eye-view</code> (地理空间)、<code>OpenMAIC</code> (多智能体教学)。</li>
+</ul>
+<h3>③ 基建层：模型路由、私有化部署、RAG 深水区</h3>
+<ul>
+<li><strong>统一网关</strong>：<code>workweave/router</code> (+284⭐, &lt;50ms 路由、降本 40-70%)、<code>Osmantic/ODS</code> (+35⭐, 一键自建 AI 服务器)、<code>FreeLLMAPI</code> (+433⭐, 聚合 34 家免费商)。</li>
+<li><strong>RAG 进化</strong>：从向量检索转向 <strong>GraphRAG (Graphify, LightRAG)</strong>、长期记忆层 (<code>mem0</code>, <code>cognee</code>)、Token 极致压缩 (<code>headroom</code> 60-95%, <code>LEANN</code>)。</li>
+<li><strong>边缘/本地化</strong>：<code>ollama</code> (179k⭐ 基座)、<code>minimind</code> (2h 训练 64M)、<code>tiny-llm</code> (边缘推理)、<code>Kern</code> (1.5MB 容器运行时)。</li>
+</ul>
+<p><strong>技术栈趋势</strong>：Rust 在性能敏感基建中统治力增强；Mojo/MAX 挑战 CUDA 锁定。</p>
+<hr>
+<h2>5. HN 社区热议：实用主义与信任危机并存</h2>
+<table>
+<thead>
+<tr>
+<th align="left">核心话题</th>
+<th align="left">代表帖子/分数</th>
+<th align="left">社区情绪与共识</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>编码 Agent 信任危机</strong></td>
+<td align="left"><em>Anthropic A/B testing reduced effort in Claude Code</em> (161分/151评)</td>
+<td align="left"><strong>广泛怀疑厂商为控成本暗降推理预算</strong>，导致“变懒/偷懒/拒绝重构”。开发者感知到 <strong>Vendor Lock-in 的不可控风险</strong>，呼吁可观测性与基准测试标准化。</td>
+</tr>
+<tr>
+<td align="left"><strong>硬件地缘政治与突围</strong></td>
+<td align="left"><em>Xiaomi CPU matches Apple single-core</em> (715分/477评)</td>
+<td align="left">两极分化：期待国产高性能核突围 vs 要求 SPEC/功耗/良率实测数据。衍生出 ARM 服务器芯片格局重塑讨论。</td>
+</tr>
+<tr>
+<td align="left"><strong>极致工程实践</strong></td>
+<td align="left"><em>OpenAI SDK Migrating to HTTPX2</em> (190分/81评)、<strong>必读级</strong><br><em>LLM Memory as Program Analysis</em> (72分/14评)</td>
+<td align="left">顶级工程师关注 <strong>基建级重构细节 (异步流、连接池、重试语义)</strong> 与 <strong>理论突破 (KV Cache 即程序轨迹，打通神经网络与形式化验证)</strong>。</td>
+</tr>
+<tr>
+<td align="left"><strong>安全与供应链信任</strong></td>
+<td align="left"><em>Open Source Model Timed Backdoors</em>、<em>LLM Engine Hijack</em></td>
+<td align="left">从模型能力竞赛转向 <strong>供应链投毒、推理引擎劫持、恶意代码注入</strong> 的防御讨论。<code>Conduct</code> (MCP Guardrails) 等基建获关注。</td>
+</tr>
+<tr>
+<td align="left"><strong>价格战与商业博弈</strong></td>
+<td align="left"><em>OpenAI GPT-5.6 Price Cut</em> (287分)、<em>Pentagon Blacklist Anthropic Unlawful</em></td>
+<td align="left">关注巨头定价策略、政府采购法律先例、Anthropic IPO 传闻与 OpenAI 上市时间表。</td>
+</tr>
+<tr>
+<td align="left"><strong>本地部署体感智商</strong></td>
+<td align="left"><em>Why your local LLM feels dumber</em> (166分/50评)</td>
+<td align="left">量化、上下文截断、采样参数等工程细节导致本地模型“体感智商”下降，大量实战调优经验分享。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>6. 官方动态：Anthropic 全面进攻，OpenAI 静默冲刺</h2>
+<h3>Anthropic：高频、垂直、生态化、标准制定（本周新增 80+ 条内容）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">维度</th>
+<th align="left">关键动作</th>
+<th align="left">战略意图</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>具身智能协议层</strong></td>
+<td align="left"><strong>MHS (Model Hardware Standard)</strong> 发布</td>
+<td align="left">抢占 AI 进入湿实验室/芯片制造/精密制造的 <strong>“协议入口”与“安全认证权”</strong>。</td>
+</tr>
+<tr>
+<td align="left"><strong>AI for Science 深度穿透</strong></td>
+<td align="left">蛋白设计命中率 22-35% (业界 10-15%)、NMR/LC-MS 分钟级自动化解析、<strong>Mythos Preview/Opus 4.8/5 多模型矩阵浮现</strong></td>
+<td align="left">以“湿实验验证闭环”构建技术护城河，证明“自主发现”能力，面向科学家免费开放 1 万席位。</td>
+</tr>
+<tr>
+<td align="left"><strong>安全治理前置</strong></td>
+<td align="left"><strong>自动化对齐研究员</strong> (88% 缺口关闭)、<strong>Fable 5 生物护栏松绑</strong> (误拦 -85%)、<strong>文本水印规范</strong> (EU AI Act 合规)</td>
+<td align="left">将 Constitutional AI 延伸至物理执行层与模型开发生命周期，抢占合规标准制定话语权。</td>
+</tr>
+<tr>
+<td align="left"><strong>公共部门锚定</strong></td>
+<td align="left"><strong>Claude for Teachers</strong> (全美 K-12 免费、冰岛/卢旺达国家级试点)</td>
+<td align="left">“Beneficial Deployment” 具象化为公共部门合同，品牌心智占位 → 家庭/学生端自然溢出。</td>
+</tr>
+<tr>
+<td align="left"><strong>经济测度基建</strong></td>
+<td align="left"><strong>Economic Index 全谱系</strong> (Primitives、Connector、国家简报、基金)</td>
+<td align="left">确立权威测量者地位，为企业采购、政策游说、学术引用提供数据护城河。</td>
+</tr>
+</tbody></table>
+<h3>OpenAI：低调、基建、合规、分发（本周仅 10 条增量，多为元数据）</h3>
+<ul>
+<li><strong>Zero Data Retention for Frontier Models</strong> (08-21) —— 直接回应企业数据主权痛点，疑为 GPT-5 级企业版铺路。</li>
+<li><strong>Pacing Model Development / Network Capability Eval</strong> —— 显性化模型开发节奏与网络能力评估体系。</li>
+<li><strong>Europe Ads Expansion / Codex Partnership</strong> —— 全球商业化拓展与开发者生态锁定。</li>
+<li><strong>GPT-5.6 in Kiro (疑似新 IDE/编码代理)</strong> (08-25) —— 版本迭代节奏压缩至“月/周”级，<strong>开发者工具链成核心战场</strong>。</li>
+<li><strong>战略判断</strong>：处于重大版本（GPT-5/o3 系列）内部测试/红队窗口期，战略重心在于 <strong>渠道锁定、地缘布局、供应链风控、企业级信任基建</strong>，而非前沿能力公开展示。</li>
+</ul>
+<hr>
+<h2>7. 下周信号：值得关注的关键节点</h2>
+<table>
+<thead>
+<tr>
+<th align="left">领域</th>
+<th align="left">信号</th>
+<th align="left">预判动作/关注点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Claude Code 信任修复</strong></td>
+<td align="left">连续 4 天补丁仍未根治 Linux Segfault 与误拦</td>
+<td align="left"><strong>下周必出 v2.1.252+ 根因修复版</strong>；若再现回归，社区将加速向 Codex/Qwen/OpenCode 分流。关注是否开放核心修复 PR 流程。</td>
+</tr>
+<tr>
+<td align="left"><strong>OpenClaw Beta 转稳</strong></td>
+<td align="left">v2026.9.1-beta.1 验证中，P0 内存/僵尸进程/SQLite 未根治</td>
+<td align="left">关注 <strong>Release Validation Issue #125626</strong> 反馈；若 Beta.2/3 仍无法压制 P0，正式版将推迟，<strong>生产环境入生产风险极高</strong>。</td>
+</tr>
+<tr>
+<td align="left"><strong>Anthropic MHS 生态招募</strong></td>
+<td align="left">研究预览面向实验室/制造商/机器人伙伴开放</td>
+<td align="left"></td>
+</tr>
+</tbody></table>
+<hr>
+<p><em>本日报由 <a href="https://github.com/DenisZheng/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI Tools Weekly Digest 2026-08-31</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-08-31/ai-weekly-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-31/ai-weekly-en</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <description>AI Tools Ecosystem Weekly Report 2026-W36 Coverage: 2026-08-21 ~ 2026-08-30 | Generated: 2026-08-31 06:31 UTC AI Tools Ecosystem Weekly Report | 2026-W36 (Aug 24–30) 1. Week&amp;#39;s Top Stories Date Event Significance Aug 28 Anthropic launches &amp;quot;Automated Alignment Researcher&amp;quot; — Claude autonomously runs literature search → hypothesis → training → eval across 10 alignment failure categories, closing 88% of safety gaps without capability loss. First demonstrated end-to-end AI-doing-AI-safet...</description>
+      <content:encoded><![CDATA[<h1>AI Tools Ecosystem Weekly Report 2026-W36</h1>
+<blockquote>
+<p>Coverage: 2026-08-21 ~ 2026-08-30 | Generated: 2026-08-31 06:31 UTC</p>
+</blockquote>
+<hr>
+<h1>AI Tools Ecosystem Weekly Report | 2026-W36 (Aug 24–30)</h1>
+<hr>
+<h2>1. Week&#39;s Top Stories</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Event</th>
+<th>Significance</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Aug 28</strong></td>
+<td><strong>Anthropic launches &quot;Automated Alignment Researcher&quot;</strong> — Claude autonomously runs literature search → hypothesis → training → eval across 10 alignment failure categories, closing 88% of safety gaps without capability loss.</td>
+<td>First demonstrated end-to-end <em>AI-doing-AI-safety-research</em> at engineering reliability; directly feeds Responsible Scaling Policy evidence chain.</td>
+</tr>
+<tr>
+<td><strong>Aug 28</strong></td>
+<td><strong>Anthropic unveils Model Hardware Standard (MHS) Research Preview</strong> with HHMI Janelia — unified protocol for AI agents to operate microscopes, liquid handlers, robotic arms; targets hours/minutes integration vs. weeks/months today.</td>
+<td>Strategic bid to own the &quot;protocol layer&quot; for Embodied AI / AI-for-Science; extends Constitutional AI into physical-world safety governance.</td>
+</tr>
+<tr>
+<td><strong>Aug 28</strong></td>
+<td><strong>Anthropic expands science/education footprint</strong>: 10k free Claude Team seats for scientists; <em>Claude for Teachers</em> free for US K-12 (50-state standards mapped); pilots in Iceland &amp; Rwanda.</td>
+<td>&quot;Beneficial Deployment&quot; strategy materializes as public-sector anchor contracts → brand mindshare → consumer pull-through.</td>
+</tr>
+<tr>
+<td><strong>Aug 29</strong></td>
+<td><strong>OpenClaw v2026.9.1-beta.1 released</strong> — fixes gateway restart recovery (preserves admitted turns across crashes) and config-write reliability.</td>
+<td>Signals &quot;feature freeze → stability hardening&quot; window; restart-safe runs now pass checkpoints end-to-end.</td>
+</tr>
+<tr>
+<td><strong>Aug 26</strong></td>
+<td><strong>OpenAI Codex ships rust-v0.150.0 stable</strong> + 3 alpha builds; 20 PRs merged in 24h (Bazel migration, Guardian sandbox, OAuth hardening, OTel).</td>
+<td>Highest engineering velocity in CLI cohort; Windows/WSL native stack hardening is explicit priority.</td>
+</tr>
+<tr>
+<td><strong>Aug 25</strong></td>
+<td><strong>OpenAI quietly cuts GPT-5.6 (Sol) pricing</strong> until Nov 21; community interprets as competitive response to Anthropic limit hikes.</td>
+<td>Price war intensifies; developers gain but vendor lock-in anxiety rises (HN: 287 pts, 262 comments).</td>
+</tr>
+<tr>
+<td><strong>Aug 25</strong></td>
+<td><strong>Xiaomi claims custom CPU matches Apple single-thread, beats multi-thread</strong> — 715 pts on HN, 477 comments.</td>
+<td>Hardware sovereignty narrative explodes; ARM server chip landscape potential reset.</td>
+</tr>
+<tr>
+<td><strong>Aug 23</strong></td>
+<td><strong>HN erupts over &quot;Claude Code A/B testing reduced effort&quot;</strong> (161 pts, 151 comments) — devs report less code output, more refusals, suspect silent budget cuts.</td>
+<td>Trust crisis for model-as-a-service; &quot;vendor can silently degrade your workflow&quot; becomes top-of-mind risk.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>2. CLI Tools Progress — Week Summary</h2>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Releases</th>
+<th>Key Engineering Focus</th>
+<th>Community Pain Points (Top Issues)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Claude Code</strong></td>
+<td>v2.1.240–2.1.251 (5 patch releases)</td>
+<td>Linux glibc segfault fixes, Cyber Safeguard false positives, Windows orphan processes, Model Switch Hooks</td>
+<td>Multi-account switching (#18435, 748👍), memory system observability, background daemon stability</td>
+</tr>
+<tr>
+<td><strong>OpenAI Codex</strong></td>
+<td>rust-v0.150.0 stable + α.8–α.11</td>
+<td>Bazel/Guardian/OAuth infra, Agents Dashboard, Windows/WSL auth crashes, Bedrock adapter</td>
+<td>Auth regression (51💬), multi-agent resource leaks, Windows kernel panics</td>
+</tr>
+<tr>
+<td><strong>Gemini CLI</strong></td>
+<td>v0.57.0-preview.1 + nightly</td>
+<td>Subagent state machine reliability, AST sandbox prototype, Fail-Closed workspace trust, Evals infra</td>
+<td>Subagent &quot;false success&quot; hangs, Shell freezes, Wayland compat</td>
+</tr>
+<tr>
+<td><strong>GitHub Copilot CLI</strong></td>
+<td>v1.0.81-6 → v1.0.82-2 (rapid patches)</td>
+<td>MCP/OAuth regression fixes, enterprise policy parity, WSL worktree locks, FileWatch 13GB leak</td>
+<td>MCP connection strategy, interactive allowlist, cloud session instability</td>
+</tr>
+<tr>
+<td><strong>Qwen Code</strong></td>
+<td>v0.21.15 stable + v0.22.3 stable + nightly</td>
+<td>Channels (named sessions), WebShell full cutover, Review pipeline dedup/circuit-break, cua-driver prebuilts</td>
+<td>Permission regressions, 413-triggered compaction failure, WebShell hangs</td>
+</tr>
+<tr>
+<td><strong>OpenCode</strong></td>
+<td>v1.18.22–v1.18.25</td>
+<td>TUI diff restore, LSP prune, FS routing, Schema validation, partial JSON, interrupt recovery</td>
+<td>TUI memory leak (#20695, 104👍), Ox Free model SLA, CN model gaps, context explosion</td>
+</tr>
+<tr>
+<td><strong>Pi</strong></td>
+<td>v0.84.2 → v0.84.4</td>
+<td>Windows native (PowerShell, IME, renderer), Extension boot-time composer, Artifact verification gate, Bedrock Mantle</td>
+<td>Windows ecosystem gaps (44💬), auto-compaction failure, XDG dirs</td>
+</tr>
+<tr>
+<td><strong>DeepSeek TUI (CodeWhale)</strong></td>
+<td>v0.9.10 stable → v0.9.12 release-gated</td>
+<td>Crate decomposition, multi-protocol unification, cloud-native dispatch, onboarding UX</td>
+<td>Long-context compression bugs, crate split tracking</td>
+</tr>
+<tr>
+<td><strong>Kimi Code CLI</strong></td>
+<td><em>none</em></td>
+<td>Long-term memory plugin architecture (MCP-native), plugin security spec</td>
+<td>Billing anomaly (10× cache_read amplification), asyncssh CVE, MCP bypass of sensitive-file guard</td>
+</tr>
+</tbody></table>
+<p><strong>Cross-Tool Convergence Themes</strong></p>
+<ul>
+<li><strong>Windows/MSIX native experience</strong> — every major tool shipping fixes</li>
+<li><strong>MCP/ACP protocol compliance &amp; sandbox isolation</strong> — security left-shift</li>
+<li><strong>Session persistence &amp; multi-account routing</strong> — enterprise readiness</li>
+<li><strong>Observability (OTel, structured logs, evals)</strong> — production hardening</li>
+<li><strong>Auto-update / runtime process conflict resolution</strong> — architectural debt paydown</li>
+</ul>
+<hr>
+<h2>3. AI Agent Ecosystem — OpenClaw &amp; Peers</h2>
+<p><strong>OpenClaw (Core)</strong></p>
+<ul>
+<li><strong>Velocity</strong>: ~500 Issues &amp; 500 PRs/day sustained; 2 beta releases (v2026.8.1-beta.2/3 → v2026.9.1-beta.1)</li>
+<li><strong>P0 Stability Blockers</strong>: SQLite corruption (#126821), event-loop stall (#124788), message loss/routing failures in explicit-ownership mode, zombie subprocess accumulation</li>
+<li><strong>Security Hardening</strong>: Install-policy <code>warn</code> acknowledgement (CLI + UI), OAuth refresh regression fix, secret-input-mode <code>ref</code> support</li>
+<li><strong>Multi-Agent</strong>: Conversation delivery now scoped to agent bindings; Control UI first-run flows to Custodian &amp; channels</li>
+<li><strong>Ecosystem</strong>: GPT-5.6 (Sol/Terra/Luna/Ultra) + Puppeteer CDP relay + explicit extension points for plugin authors</li>
+</ul>
+<p><strong>Peer Projects (Notable Activity)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>Highlight</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Hermes Agent</strong> (NousResearch)</td>
+<td>235.8k ⭐; self-evolving agent with long-term memory &amp; tool-crafting</td>
+</tr>
+<tr>
+<td><strong>OpenHuman</strong> (tinyhumansai)</td>
+<td>Local-first personal super-agent; life memory graph + agent fleet</td>
+</tr>
+<tr>
+<td><strong>NanoBot / PicoClaw / NullClaw</strong></td>
+<td>Edge/embedded form factors; Sipeed hardware integration</td>
+</tr>
+<tr>
+<td><strong>IronClaw</strong> (NearAI)</td>
+<td>Web3-agent bridge; on-chain action signing</td>
+</tr>
+<tr>
+<td><strong>LobsterAI</strong> (Youdao)</td>
+<td>Education vertical; Chinese-market distribution</td>
+</tr>
+</tbody></table>
+<p><strong>Week&#39;s Signal</strong>: OpenClaw is in &quot;beta stabilization sprint&quot; — high throughput but dense P0/P1 defects. Production adoption hinges on next 2 weeks&#39; fix closure rate.</p>
+<hr>
+<h2>4. Open Source Trends — GitHub Trending &amp; Community</h2>
+<h3>Dominant Technical Directions</h3>
+<ol>
+<li><p><strong>Agent Skills Standardization Explosion</strong></p>
+<ul>
+<li><code>scientific-agent-skills</code> (+1.5k⭐), <code>archify</code> (+3.9k⭐), <code>awesome-agent-skills</code> (1000+ skills), <code>claude-plugins-official</code> (Anthropic), <code>cursor/plugins</code> (Cursor)</li>
+<li><strong>&quot;Skill = Plugin&quot;</strong> becomes universal extension paradigm across Codex, Claude Code, Gemini CLI</li>
+</ul>
+</li>
+<li><p><strong>Agentic Vertical Applications Shipping</strong></p>
+<ul>
+<li><code>OpenMontage</code> (video production), <code>screenshot-to-code</code> (frontend gen), <code>gods-eye-view</code> (geospatial), <code>OpenMAIC</code> (multi-agent teaching)</li>
+<li>Pattern: <strong>Agent + Domain Toolchain</strong> replacing traditional SaaS</li>
+</ul>
+</li>
+<li><p><strong>GraphRAG &amp; Long-Term Memory Infrastructure</strong></p>
+<ul>
+<li><code>Graphify</code>, <code>LightRAG</code>, <code>mem0</code>, <code>cognee</code>, <code>LEANN</code>, <code>headroom</code> (context compression 60–95%)</li>
+<li>Shift from vector retrieval → knowledge graph fusion + persistent memory layers + token economics</li>
+</ul>
+</li>
+<li><p><strong>Model Routing &amp; Inference Gateway Commoditization</strong></p>
+<ul>
+<li><code>workweave/router</code> (&lt;50ms routing, 40–70% cost reduction), <code>FreeLLMAPI</code> (34 providers, 635 endpoints, 7.4B tokens/mo)</li>
+<li>Enterprise bottleneck moved from &quot;model IQ&quot; → &quot;multi-model orchestration, cost control, private deploy&quot;</li>
+</ul>
+</li>
+<li><p><strong>Local-First / Privacy-First Tooling Mainstream</strong></p>
+<ul>
+<li><code>ollama</code> (179k⭐), <code>Hermes Agent</code>, <code>OpenHuman</code>, <code>OpenClaw</code> — all emphasize zero-telemetry, local data sovereignty</li>
+<li>Rust dominates systems layer: <code>codex</code>, <code>qdrant</code>, <code>lancedb</code>, <code>openhuman</code>, <code>kern</code> (1.5MB container runtime)</li>
+</ul>
+</li>
+<li><p><strong>Prompt/Skill Assetization</strong></p>
+<ul>
+<li>Karpathy <code>CLAUDE.md</code> skills, <code>ECC</code> (Agent Harness), <code>ponytail</code> (lazy senior engineer optimizer — 65% token reduction)</li>
+<li>Best practices codified as versioned, reusable assets not one-off prompts</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2>5. HN Community Highlights — Core Discussions &amp; Sentiment</h2>
+<table>
+<thead>
+<tr>
+<th>Theme</th>
+<th>Representative Threads</th>
+<th>Community Sentiment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Hardware Sovereignty &amp; Compute Economics</strong></td>
+<td>Xiaomi CPU claim (715 pts), $27 smartwatch runs Claude (81 pts), &quot;Run LLM on CPU?&quot; (Ask HN)</td>
+<td>Excitement + skepticism; demand for reproducible benchmarks (SPEC, power curves)</td>
+</tr>
+<tr>
+<td><strong>Model-as-a-Service Trust Crisis</strong></td>
+<td>Claude Code &quot;secret A/B testing reduced effort&quot; (161 pts, 151 comments), OpenAI price cut (287 pts)</td>
+<td><strong>High anxiety</strong>: silent degradation, vendor lock-in, unpredictable costs</td>
+</tr>
+<tr>
+<td><strong>AI Coding Workflow Innovation</strong></td>
+<td>Huzzah (plan-exec-verify, 206 pts), Vomit (small-model post-process, 182 pts), Autolith (live runtime)</td>
+<td><strong>Optimistic engineering</strong>: explicit planning layers, tiered inference, real-time feedback loops</td>
+</tr>
+<tr>
+<td><strong>Security &amp; Supply Chain</strong></td>
+<td>Open model &quot;time-bomb backdoors&quot;, LLM inference engine hijack, &quot;giving LLM prod DB access&quot;</td>
+<td>Rising alarm; &quot;red-teaming infrastructure&quot; (Tencent AI-Infra-Guard, Conduct) gaining traction</td>
+</tr>
+<tr>
+<td><strong>Macro Narratives</strong></td>
+<td>Anthropic IPO rumors, Nvidia price hikes, &quot;AI backlash&quot; risk, EU copyright rulings</td>
+<td>Cautious; bubble vs. transformation debate unresolved</td>
+</tr>
+</tbody></table>
+<p><strong>Overall Mood</strong>: <em>Pragmatic optimism on tooling, deepening distrust of opaque model providers, hunger for local control &amp; verifiable infrastructure.</em></p>
+<hr>
+<h2>6. Official Announcements — Anthropic &amp; OpenAI</h2>
+<h3>Anthropic (High-Volume Strategic Week)</h3>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Title</th>
+<th>Category</th>
+<th>Strategic Signal</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Aug 28</td>
+<td><strong>Automated researchers can reliably mitigate alignment failures</strong></td>
+<td>Research</td>
+<td>AI-doing-AI-safety at 88% gap closure; RSP evidence automation</td>
+</tr>
+<tr>
+<td>Aug 28</td>
+<td><strong>Previewing the Model Hardware Standard</strong></td>
+<td>News/Announcement</td>
+<td>Protocol play for Embodied AI / AI-for-Science; HHMI Janelia anchor</td>
+</tr>
+<tr>
+<td>Aug 28</td>
+<td><strong>Introducing Claude for Teachers</strong></td>
+<td>News/Announcement</td>
+<td>Public-sector GTM: free K-12 access + 50-state curriculum mapping</td>
+</tr>
+<tr>
+<td>Aug 28</td>
+<td><strong>Expanding our support for scientists</strong></td>
+<td>News/Announcement</td>
+<td>10k free Team seats; Allen Institute / HHMI deep partnerships</td>
+</tr>
+<tr>
+<td>Aug 28</td>
+<td><strong>Patterns and problems in emerging multiagent systems</strong></td>
+<td>Research</td>
+<td>First systematic multi-agent red-team report; emergent systemic risks</td>
+</tr>
+<tr>
+<td>Aug 24</td>
+<td><strong>Fable 5 biology safeguards: 85% false-refusal reduction</strong></td>
+<td>News</td>
+<td>&quot;Trusted Access Pathways&quot; teased for dual-use bio; KYC/gated high-permission API coming</td>
+</tr>
+<tr>
+<td>Aug 24</td>
+<td><strong>Claude text watermark: EU AI Act compliant, cross-vendor</strong></td>
+<td>News</td>
+<td>Standard-setting for synthetic content labeling; C2PA alignment</td>
+</tr>
+<tr>
+<td>Aug 24</td>
+<td><strong>Claude accelerates protein design &amp; analytical chemistry</strong></td>
+<td>Research</td>
+<td>De novo binder 22–35% success (vs 10–15% baseline); NMR/LC-MS auto-analysis in minutes</td>
+</tr>
+<tr>
+<td>Aug 24</td>
+<td><strong>Economics Team launch + Economic Index Connector in Claude.ai</strong></td>
+<td>Research/News</td>
+<td>&quot;AI macro observatory&quot; positioning; natural-language querying of adoption data</td>
+</tr>
+</tbody></table>
+<p><strong>Pattern</strong>: Coordinated &quot;four-prong&quot; launch — <strong>Science depth, Protocol ownership, Public-sector distribution, Safety standardization</strong> — all in 48 hours.</p>
+<h3>OpenAI (Low Visibility, High Signal)</h3>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Inferred Title (URL-only)</th>
+<th>Category</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Aug 21</td>
+<td>Offering Zero Data Retention For Frontier Models</td>
+<td>Index</td>
+<td>Enterprise privacy/compliance block for GPT-5-class models</td>
+</tr>
+<tr>
+<td>Aug 21</td>
+<td>Pacing Model Development... / Network Capability Evaluation</td>
+<td>Index</td>
+<td>Release cadence &amp; eval transparency signals</td>
+</tr>
+<tr>
+<td>Aug 21</td>
+<td>Expanding European Ads Business</td>
+<td>Index</td>
+<td>Commercialization push in EU</td>
+</tr>
+<tr>
+<td>Aug 21</td>
+<td>Code Generation Ecosystem Partnerships</td>
+<td>Index</td>
+<td>Developer tooling alliances</td>
+</tr>
+<tr>
+<td>Aug 21</td>
+<td>Teen Product Safety Compliance</td>
+<td>Index</td>
+<td>Regulatory pre-emption</td>
+</tr>
+<tr>
+<td>Aug 25</td>
+<td>GPT-5.6 (Sol) price reduction until Nov 21</td>
+<td>Pricing (dev portal)</td>
+<td>Quiet competitive response</td>
+</tr>
+<tr>
+<td>Aug 29</td>
+<td><code>gpt-5-6-in-kiro</code> (new IDE/agent integration)</td>
+<td>Product</td>
+<td>GPT-5.6 variant deployed in &quot;Kiro&quot; (likely next-gen AI IDE)</td>
+</tr>
+</tbody></table>
+<p><strong>Pattern</strong>: Silent shipping — enterprise trust infra + IDE embedding + regional expansion. No research blog posts this week.</p>
+<hr>
+<h2>7. Next Week&#39;s Signals — What to Watch</h2>
+<table>
+<thead>
+<tr>
+<th>Signal</th>
+<th>Source</th>
+<th>Why It Matters</th>
+<th>Likely Development</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>OpenClaw v2026.9.1 stable candidate</strong></td>
+<td>OpenClaw beta.1 + validation issue #125626</td>
+<td>First &quot;restart-safe&quot; release; production readiness gate</td>
+<td>RC within 7 days if P0 SQLite/message-loss fixes merge cleanly</td>
+</tr>
+<tr>
+<td><strong>Claude Code v2.2 / Model Switch Hooks GA</strong></td>
+<td>5 rapid patches + community demand</td>
+<td>Multi-model routing + hook extensibility = plugin ecosystem enabler</td>
+<td>Watch for <code>model-switch-hook</code> API docs &amp; Skills marketplace updates</td>
+</tr>
+<tr>
+<td><strong>Codex Windows/WSL stable milestone</strong></td>
+<td>3 alpha builds + Guardian sandbox + Bazel</td>
+<td>OpenAI&#39;s heaviest infra investment; unblocks enterprise Windows fleets</td>
+<td><code>rust-v0.151.0</code> stable with full Windows parity likely early Sept</td>
+</tr>
+<tr>
+<td><strong>Gemini CLI Subagent Evals GA</strong></td>
+<td>Nightly evals + AST sandbox prototype</td>
+<td>Agent orchestration reliability becoming measurable, CI-gated</td>
+<td>Public eval dashboard + &quot;Subagent 1.0&quot; stability tag</td>
+</tr>
+<tr>
+<td><strong>Anthropic &quot;Trusted Access Pathways&quot; detail</strong></td>
+<td>Fable 5 post + MHS preview</td>
+<td>Gated high-capability bio/chem access = new revenue + safety model</td>
+<td>Expect API tier announcement + partner KYC program</td>
+</tr>
+<tr>
+<td><strong>OpenAI Kiro / GPT-5.6 IDE launch</strong></td>
+<td><code>gpt-5-6-in-kiro</code> URL + HN Codex acquisition chatter</td>
+<td>Direct Cursor/Windsurf competitor; vertical integration play</td>
+<td>DevDay-style reveal or quiet beta invite wave</td>
+</tr>
+<tr>
+<td><strong>MCP/ACP Conformance Test Suite</strong></td>
+<td>Multiple CLI tools hitting MCP regressions</td>
+<td>Protocol chaos → need for automated conformance</td>
+<td>Community-driven <code>mcp-conformance</code> repo likely to emerge</td>
+</tr>
+<tr>
+<td><strong>EU AI Act Watermark Enforcement Date</strong></td>
+<td>Anthropic watermark spec + C2PA</td>
+<td>Hard compliance deadline approaching (Aug 2026)</td>
+<td>Tooling vendors adding watermark detection/verification features</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>One-Line Takeaway</h3>
+<p><strong>The ecosystem has pivoted from &quot;model capability race&quot; to &quot;engineering delivery &amp; protocol ownership.&quot;</strong> Winners this week shipped <em>reliability</em> (Codex, OpenClaw), <em>standards</em> (Anthropic MHS, Skills), and <em>vertical depth</em> (Science/Education agents) — while trust in opaque model APIs erodes, accelerating local-first and multi-model gateway adoption.</p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/DenisZheng/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>AI CLI 工具社区动态日报 2026-08-30</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-08-30/ai-cli</link>
@@ -23480,277 +24242,6 @@
 <td></td>
 </tr>
 </tbody></table>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/DenisZheng/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>技术社区 AI 动态日报 2026-08-29</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-29/ai-community</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-29/ai-community</guid>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
-      <description>技术社区 AI 动态日报 2026-08-29 数据来源: Dev.to (30 篇) + Lobste.rs (4 条) | 生成时间: 2026-08-29 05:09 UTC 技术社区 AI 动态日报 | 2026-08-29 今日速览 技术社区讨论重心已从“模型能力”转向智能体工程化落地的硬骨头：记忆架构设计（SQL 替代向量库）、结构化输出的生产级约束、多模型交叉验证的可靠性、以及 Agent 日志审计与安全加固。开发者普遍怀疑单一提示词与 RAG 召回的极限，转而攻克评测体系、观测链路、最小权限沙箱等基建问题。安全话题显性上升：MCP 配置泄露、Agent 沙箱逃逸、提示词注入红队测试成为必修课。 Dev.to 精选 标题 互动 核心价值 Your AI Remembers Everything and Trusts All of It ❤️ 23 💬 13 揭示当前 AI 记忆实现的“盲目信任”缺陷，主张引入可验证的记忆来源与置信度机制，是构建可信长期 Agent 的架构前提。 How a Strands agent took Claude Opus 5 from 30...</description>
-      <content:encoded><![CDATA[<h1>技术社区 AI 动态日报 2026-08-29</h1>
-<blockquote>
-<p>数据来源: <a href="https://dev.to/">Dev.to</a> (30 篇) + <a href="https://lobste.rs/">Lobste.rs</a> (4 条) | 生成时间: 2026-08-29 05:09 UTC</p>
-</blockquote>
-<hr>
-<h1>技术社区 AI 动态日报 | 2026-08-29</h1>
-<hr>
-<h2>今日速览</h2>
-<p>技术社区讨论重心已从“模型能力”转向<strong>智能体工程化落地的硬骨头</strong>：记忆架构设计（SQL 替代向量库）、结构化输出的生产级约束、多模型交叉验证的可靠性、以及 Agent 日志审计与安全加固。开发者普遍怀疑单一提示词与 RAG 召回的极限，转而攻克<strong>评测体系、观测链路、最小权限沙箱</strong>等基建问题。安全话题显性上升：MCP 配置泄露、Agent 沙箱逃逸、提示词注入红队测试成为必修课。</p>
-<hr>
-<h2>Dev.to 精选</h2>
-<table>
-<thead>
-<tr>
-<th>标题</th>
-<th>互动</th>
-<th>核心价值</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://dev.to/marcosomma/your-ai-remembers-everything-and-trusts-all-of-it-4gg">Your AI Remembers Everything and Trusts All of It</a></td>
-<td>❤️ 23 💬 13</td>
-<td>揭示当前 AI 记忆实现的“盲目信任”缺陷，主张引入<strong>可验证的记忆来源与置信度机制</strong>，是构建可信长期 Agent 的架构前提。</td>
-</tr>
-<tr>
-<td><a href="https://dev.to/aws/how-a-strands-agent-took-claude-opus-5-from-30-to-9995-on-arc-agi-3">How a Strands agent took Claude Opus 5 from 30% to 99.95% on ARC-AGI-3</a></td>
-<td>❤️ 17 💬 2</td>
-<td>复现 <strong>Strands Agent 框架</strong>如何通过工具链编排、迭代修正将基座模型推理能力推向极致，展示“工程增益 &gt; 模型参数”的实证。</td>
-</tr>
-<tr>
-<td><a href="https://dev.to/paul_chen_90371fe7426cb44/hallucination-is-an-architecture-problem-not-only-a-prompt-problem-51p8">Hallucination Is an Architecture Problem, Not Only a Prompt Problem</a></td>
-<td>❤️ 9 💬 4</td>
-<td>论证幻觉根因在于<strong>检索-生成解耦失效</strong>，给出“索引即契约、生成即履约”的架构重构模式，适合 RAG 系统落地参考。</td>
-</tr>
-<tr>
-<td><a href="https://dev.to/debashish_ghosal/my-llm-critic-disagreed-with-itself-on-every-trial-the-safe-part-was-the-code-i-didnt-trust-it-to-4j09">My LLM Critic Disagreed With Itself on Every Trial</a></td>
-<td>❤️ 17 💬 3</td>
-<td>实测 LLM-as-a-Judge <strong>自一致性极低</strong>，揭示“第二意见”往往是表演；建议将确定性代码逻辑纳入验证回路，而非依赖多模型投票。</td>
-</tr>
-<tr>
-<td><a href="https://dev.to/arshtechpro/ponytail-the-ai-coding-skill-that-makes-your-agent-write-less-code-29l3">Ponytail: the AI coding skill that makes your agent write less code</a></td>
-<td>❤️ 12 💬 1</td>
-<td>提出 <strong>“少写代码”技能模式</strong>：Agent 优先复用现有库/组件而非生成胶水代码，配合开源技能注册表，显著降低维护负债。</td>
-</tr>
-<tr>
-<td><a href="https://dev.to/lizhuojunx86/your-agents-logs-are-testimony-not-evidence-1lk8">Your agent&#39;s logs are testimony, not evidence</a></td>
-<td>❤️ 6 💬 4</td>
-<td>基于 METR/Redwood 调查报告，指出 <strong>Agent 日志不可作为审计证据</strong>；需引入不可篡改的执行回执与工具调用签名，满足合规与复盘。</td>
-</tr>
-<tr>
-<td><a href="https://dev.to/cagrik34/i-ditched-cloud-vector-databases-for-sqlite-fts5-and-my-rag-pipeline-got-10x-better-759">I Ditched Cloud Vector Databases for SQLite FTS5 — and My RAG Pipeline Got 10x Better</a></td>
-<td>❤️ 1 💬 1</td>
-<td>实战证明 <strong>SQLite FTS5 + BM25</strong> 在中小规模语料上吊打托管向量库：零运维、延迟低、混合检索原生支持，重塑 RAG 选型基准。</td>
-</tr>
-<tr>
-<td><a href="https://dev.to/artyomsv/5-undocumented-rules-for-gemini-structured-output-measured-in-production-3mj">5 Undocumented Rules for Gemini Structured Output, Measured in Production</a></td>
-<td>❤️ 5 💬 2</td>
-<td>总结 Gemini <code>responseSchema</code> 生产环境的<strong>五条隐性约束</strong>（枚举顺序、嵌套深度、可选字段陷阱等），直接可用于防止结构化输出翻车。</td>
-</tr>
-<tr>
-<td><a href="https://dev.to/priyeshdave6/why-we-ditched-vectors-and-graphs-for-sql-in-agent-memory-systems-4pja">Why We Ditched Vectors and Graphs for SQL in Agent Memory Systems</a></td>
-<td>❤️ 1 💬 3</td>
-<td>论证 <strong>关系型 Schema 对 Agent 记忆的优势</strong>：事务一致性、时间旅行、熟练工具链；给出迁移代码模式，适合长周期任务型 Agent。</td>
-</tr>
-<tr>
-<td><a href="https://dev.to/wiktormalyska/your-mcpjson-probably-has-a-live-api-key-in-it-4ge5">Your .mcp.json probably has a live API key in it</a></td>
-<td>❤️ 2 💬 1</td>
-<td>指出 MCP 服务器配置文件普遍<strong>明文存储生产密钥</strong>的安全隐患，提供环境变量注入、密钥轮换、最小权限作用域的加固清单。</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>Lobste.rs 精选</h2>
-<table>
-<thead>
-<tr>
-<th>标题</th>
-<th>互动</th>
-<th>值得阅读的理由</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://anil.recoil.org/notes/rumour-is-the-exploit">Just a rumour of a bug is enough to find a security exploit these days</a> [<a href="https://lobste.rs/s/t73wqi/just_rumour_bug_is_enough_find_security">讨论</a>]</td>
-<td>🔥 13 💬 1</td>
-<td>揭示 <strong>“Vibe Coding”时代的安全新攻击面</strong>：攻击者只需在公开渠道散布“某库疑似有漏洞”，AI 代理即会自动拉取、分析并生成利用代码，形成自动化攻击链。</td>
-</tr>
-<tr>
-<td><a href="https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med">The turbulent AI era is here</a> [<a href="https://lobste.rs/s/aixljs/turbulent_ai_era_is_here">讨论</a>]</td>
-<td>🔥 12 💬 29</td>
-<td>盖茨长文勾勒 <strong>AI 从“助手”向“自主行动者”跃迁的社会技术断层</strong>；评论区聚焦开源模型对闭源护城河的蚕食、以及开发者如何定位自身价值。</td>
-</tr>
-<tr>
-<td><a href="https://entropicthoughts.com/ai-comment-classifier">Robot comment classifier</a> [<a href="https://lobste.rs/s/ilfiqa/robot_comment_classifier">讨论</a>]</td>
-<td>🔥 8 💬 5</td>
-<td>作者用 <strong>小模型（DistilBERT）离线跑推理</strong> 实现评论质量分级，延迟 &lt;1ms、零 API 成本，展示“小模型专用化”替代大模型通用推理的工程范式。</td>
-</tr>
-<tr>
-<td><a href="https://arxiv.org/abs/2408.06602">Super-intelligence or Superstition?</a> [<a href="https://lobste.rs/s/2djazj/super_intelligence_superstition">讨论</a>]</td>
-<td>🔥 5 💬 0</td>
-<td>认知科学实证研究：<strong>人们对 AI 预测个人行为的信任度，取决于“神秘感”而非准确率</strong>；提醒构建解释性界面时需对抗人类自动化偏见。</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>社区脉搏</h2>
-<p><strong>双平台共振主题</strong>：  </p>
-<ol>
-<li><strong>Agent 记忆与状态管理去向“结构化存储”</strong> —— Dev.to 两篇高赞文章同指向 SQL/FS5，Lobste.rs 讨论隐含对“黑盒向量检索”失控的担忧。  </li>
-<li><strong>可验证性压倒生成质量</strong> —— 无论是“日志即证言”、“Critic 自相矛盾”，还是“结构化输出隐性规则”，核心诉求均为<strong>把非确定性纳入工程可控边界</strong>。</li>
-</ol>
-<p><strong>开发者实际关切</strong>：  </p>
-<ul>
-<li><strong>成本与延迟的确定性</strong>：拒绝托管向量库的冷启动与计费黑盒，拥抱 SQLite/本地小模型。  </li>
-<li><strong>供应链安全</strong>：MCP 密钥泄露、沙箱逃逸、提示词注入被视为生产环境红线。  </li>
-<li><strong>评测工程化</strong>：基准测试（ARC-AGI）不再是炫技，而是 Agent 迭代的回归测试集。</li>
-</ul>
-<p><strong>新兴最佳实践</strong>：  </p>
-<ul>
-<li><strong>“技能即组件”开发模式</strong>（Ponytail）：Agent 调用版本化、可审计的技能包，而非生成一次性代码。  </li>
-<li><strong>执行回执</strong>：工具调用链上签名、时间戳、输入输出哈希，替代文本日志。  </li>
-<li><strong>红队常态化</strong>：CI 流水线集成提示词注入 Fuzzing、越狱测试用例库。</li>
-</ul>
-<hr>
-<h2>值得精读</h2>
-<ol>
-<li><strong><a href="https://dev.to/aws/how-a-strands-agent-took-claude-opus-5-from-30-to-9995-on-arc-agi-3">How a Strands agent took Claude Opus 5 from 30% to 99.95% on ARC-AGI-3</a></strong> — 将“Agent 工程化能力”量化为基准分数跃升的稀有案例，架构图与失败模式分析极具参考性。  </li>
-<li><strong><a href="https://dev.to/cagrik34/i-ditched-cloud-vector-databases-for-sqlite-fts5-and-my-rag-pipeline-got-10x-better">I Ditched Cloud Vector Databases for SQLite FTS5</a></strong> — 以实测数据打破“RAG 必须向量数据库”迷思，附完整迁移代码，适合中小团队直接复用。  </li>
-<li><strong><a href="https://dev.to/lizhuojunx86/your-agents-logs-are-testimony-not-evidence-1lk8">Your agent&#39;s logs are testimony, not evidence</a></strong> — 结合权威调查报告，给出<strong>可审计 Agent 执行链路的最小工程清单</strong>，合规与安全团队必读。</li>
-</ol>
-<hr>
-<p><em>本日报由 <a href="https://github.com/DenisZheng/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Tech Community AI Digest 2026-08-29</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-29/ai-community-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-29/ai-community-en</guid>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
-      <description>Tech Community AI Digest 2026-08-29 Sources: Dev.to (30 articles) + Lobste.rs (4 stories) | Generated: 2026-08-29 05:09 UTC Tech Community AI Digest — 2026-08-29 1. Today&amp;#39;s Highlights The Dev.to community is deeply focused on AI agent reliability and architecture — memory systems, hallucination mitigation, structured output quirks, and the gap between agent logs and actual evidence. Multiple authors independently converge on the same insight: treating LLMs as black-box oracles leads to fragi...</description>
-      <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-08-29</h1>
-<blockquote>
-<p>Sources: <a href="https://dev.to/">Dev.to</a> (30 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (4 stories) | Generated: 2026-08-29 05:09 UTC</p>
-</blockquote>
-<hr>
-<h1>Tech Community AI Digest — 2026-08-29</h1>
-<hr>
-<h2>1. Today&#39;s Highlights</h2>
-<p>The Dev.to community is deeply focused on <strong>AI agent reliability and architecture</strong> — memory systems, hallucination mitigation, structured output quirks, and the gap between agent logs and actual evidence. Multiple authors independently converge on the same insight: treating LLMs as black-box oracles leads to fragile systems; the winning pattern is <strong>explicit architecture</strong> (SQL over vectors for memory, receipts over logs for debugging, adversarial critic loops over naive &quot;second opinions&quot;). On Lobste.rs, the conversation skews toward <strong>security and societal implications</strong>: a viral piece argues that mere bug rumors now suffice for exploit discovery in the vibe-coding era, while Bill Gates&#39; &quot;turbulent AI era&quot; essay drew 29 comments debating regulation, labor displacement, and whether current hype matches reality. Across both platforms, the tone has shifted from &quot;look what AI can do&quot; to &quot;here&#39;s why my production agent failed and how I instrumented it.&quot;</p>
-<hr>
-<h2>2. Dev.to Highlights</h2>
-<table>
-<thead>
-<tr>
-<th>Title</th>
-<th>Reactions / Comments</th>
-<th>Key Takeaway</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://dev.to/marcosomma/your-ai-remembers-everything-and-trusts-all-of-it-4gg">Your AI Remembers Everything and Trusts All of It</a></td>
-<td>23 / 13</td>
-<td>Current AI memory implementations blindly trust stored context; treat memory as <strong>unverified testimony</strong> requiring explicit validation layers.</td>
-</tr>
-<tr>
-<td><a href="https://dev.to/paul_chen_90371fe7426cb44/hallucination-is-an-architecture-problem-not-only-a-prompt-problem-51p8">Hallucination Is an Architecture Problem, Not Only a Prompt Problem</a></td>
-<td>9 / 4</td>
-<td>RAG hallucinations stem from <strong>retrieval-architecture mismatches</strong> (chunking, ranking, context window) — fix the pipeline, not the prompt.</td>
-</tr>
-<tr>
-<td><a href="https://dev.to/priyeshdave6/why-we-ditched-vectors-and-graphs-for-sql-in-agent-memory-systems-4pja">Why We Ditched Vectors and Graphs for SQL in Agent Memory Systems</a></td>
-<td>1 / 3</td>
-<td><strong>SQL + FTS5 outperforms vector DBs</strong> for agent memory: simpler ops, ACID, joins, and no embedding drift — proven in production.</td>
-</tr>
-<tr>
-<td><a href="https://dev.to/lizhuojunx86/your-agents-logs-are-testimony-not-evidence-1lk8">Your agent&#39;s logs are testimony, not evidence</a></td>
-<td>6 / 4</td>
-<td>Agent logs are <strong>self-reported narratives</strong>; build <strong>verifiable run receipts</strong> (tool inputs/outputs, timestamps, signatures) for debugging and audit.</td>
-</tr>
-<tr>
-<td><a href="https://dev.to/codepro_3283/turn-agent-tool-calls-into-run-receipts-4cen">Turn Agent Tool Calls Into Run Receipts</a></td>
-<td>1 / 0</td>
-<td>The fastest way to debug a failing agent is <strong>structured, queryable receipts</strong> of every tool call — not better prompts.</td>
-</tr>
-<tr>
-<td><a href="https://dev.to/artyomsv/5-undocumented-rules-for-gemini-structured-output-measured-in-production-3mj">5 Undocumented Rules for Gemini Structured Output, Measured in Production</a></td>
-<td>5 / 2</td>
-<td>Gemini&#39;s <code>responseSchema</code> has <strong>silent failure modes</strong> (enum ordering, nested required fields, array minItems) — test exhaustively.</td>
-</tr>
-<tr>
-<td><a href="https://dev.to/debashish_ghosal/my-llm-critic-disagreed-with-itself-on-every-trial-the-safe-part-was-the-code-i-didnt-trust-it-to-4j09">My LLM Critic Disagreed With Itself on Every Trial</a></td>
-<td>17 / 3</td>
-<td><strong>LLM self-consistency is near zero</strong> for non-trivial critiques; the only reliable code is the code you <em>don&#39;t</em> delegate to the model.</td>
-</tr>
-<tr>
-<td><a href="https://dev.to/debashish_ghosal/most-ai-second-opinions-are-theater-i-built-a-system-that-actually-fights-back-1994">Most AI Second Opinions Are Theater. I Built a System That Actually Fights Back.</a></td>
-<td>6 / 2</td>
-<td>Naive multi-LLM &quot;debates&quot; produce <strong>~89% performative agreement</strong>; real adversarial critique requires <strong>structured disagreement protocols</strong>.</td>
-</tr>
-<tr>
-<td><a href="https://dev.to/gitlab_3188/your-p50-is-a-lie-four-free-tier-myths-you-can-verify-in-one-hour-3edn">Your p50 Is a Lie: Four Free-Tier Myths You Can Verify in One Hour</a></td>
-<td>6 / 3</td>
-<td>Free-tier LLM latency <strong>p50/p99 are meaningless</strong>; cold starts, rate-limit queues, and retry storms dominate — measure your <em>actual</em> tail.</td>
-</tr>
-<tr>
-<td><a href="https://dev.to/cagrik34/i-ditched-cloud-vector-databases-for-sqlite-fts5-and-my-rag-pipeline-got-10x-better-759">I Ditched Cloud Vector Databases for SQLite FTS5 — and My RAG Pipeline Got 10x Better</a></td>
-<td>1 / 1</td>
-<td><strong>SQLite FTS5 + BM25 beats managed vector DBs</strong> for many RAG workloads: zero infra, instant startup, full SQL composability.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>3. Lobste.rs Highlights</h2>
-<table>
-<thead>
-<tr>
-<th>Title</th>
-<th>Score / Comments</th>
-<th>Why It&#39;s Worth Reading</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://anil.recoil.org/notes/rumour-is-the-exploit">Just a rumour of a bug is enough to find a security exploit these days</a> [<a href="https://lobste.rs/s/t73wqi/just_rumour_bug_is_enough_find_security">Discussion</a>]</td>
-<td>13 / 1</td>
-<td><strong>Vibe-coding + LLM-assisted recon</strong> lowers exploit discovery to &quot;hearsay-driven&quot; — a concrete demonstration of how AI expands the attack surface for <em>any</em> codebase.</td>
-</tr>
-<tr>
-<td><a href="https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med">The turbulent AI era is here</a> [<a href="https://lobste.rs/s/aixljs/turbulent_ai_era_is_here">Discussion</a>]</td>
-<td>12 / 29</td>
-<td>Gates frames AI as <strong>general-purpose technology</strong> (like electricity); the 29-comment thread is a rare high-signal debate on regulation, open weights, and whether &quot;AGI&quot; is a useful milestone.</td>
-</tr>
-<tr>
-<td><a href="https://entropicthoughts.com/ai-comment-classifier">Robot comment classifier</a> [<a href="https://lobste.rs/s/ilfiqa/robot_comment_classifier">Discussion</a>]</td>
-<td>8 / 5</td>
-<td>A <strong>practical, reproducible experiment</strong> in detecting AI-generated comments — methodology, false-positive rates, and why simple heuristics still beat black-box detectors.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>4. Community Pulse</h2>
-<p><strong>Common themes:</strong> Both communities are converging on <strong>production hardening</strong> — developers have moved past &quot;it works in the playground&quot; and are now sharing battle scars: memory systems that hallucinate, agents that lie in their logs, structured-output parsers that silently drop fields, and free-tier latency that breaks SLAs. The vocabulary has shifted to <strong>observability, verification, and architecture</strong> (receipts, adversarial critics, SQL over vectors, run-time contracts).</p>
-<p><strong>Practical concerns:</strong>  </p>
-<ul>
-<li><strong>Trust but verify</strong>: Every layer — memory, tool calls, critic outputs — is treated as untrusted until cryptographically or logically verified.  </li>
-<li><strong>Cost/latency reality</strong>: Free-tier myths (p50, cold starts, retry storms) are being debunked with one-hour benchmarks.  </li>
-<li><strong>Security surface</strong>: Lobste.rs highlights how LLM-assisted recon turns <em>rumors</em> into exploits; Dev.to shows MCP config files leaking live API keys.  </li>
-<li><strong>Skill shift</strong>: &quot;Write less code&quot; (Ponytail), &quot;build receipts not prompts,&quot; and &quot;learn MCP&quot; are the new senior-dev signals.</li>
-</ul>
-<p><strong>Emerging patterns:</strong>  </p>
-<ol>
-<li><strong>SQL-first agent memory</strong> (FTS5/BM25) replacing vector DBs for simplicity and correctness.  </li>
-<li><strong>Run receipts</strong> (immutable, queryable tool-call ledgers) becoming standard debugging infra.  </li>
-<li><strong>Adversarial critic loops</strong> with explicit disagreement protocols replacing naive &quot;second opinion&quot; prompts.  </li>
-<li><strong>Structured-output contract testing</strong> (Gemini, OpenAI) as a CI gate, not an afterthought.  </li>
-<li><strong>Local-first, small-model specialization</strong> (Flash Onyx, Ollama) for domain-specific tasks (law, game feel) where latency/privacy matter.</li>
-</ol>
-<hr>
-<h2>5. Worth Reading</h2>
-<ol>
-<li><p><strong><a href="https://dev.to/marcosomma/your-ai-remembers-everything-and-trusts-all-of-it-4gg">Your AI Remembers Everything and Trusts All of It</a></strong> — The clearest articulation of why current agent memory is architecturally unsound, with a concrete alternative: <strong>memory as unverified claims + validation pipeline</strong>.</p>
-</li>
-<li><p><strong><a href="https://anil.recoil.org/notes/rumour-is-the-exploit">Just a rumour of a bug is enough to find a security exploit these days</a></strong> — A short, chilling proof-of-concept showing how <strong>LLM-assisted vulnerability research</strong> compresses the exploit chain from &quot;discovery → PoC&quot; to &quot;hearsay → PoC.&quot;</p>
-</li>
-<li><p><strong><a href="https://dev.to/codepro_3283/turn-agent-tool-calls-into-run-receipts-4cen">Turn Agent Tool Calls Into Run Receipts</a></strong> — Minimal, copy-pasteable pattern for <strong>structured agent observability</strong> that immediately pays off in debugging time.</p>
-</li>
-</ol>
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/DenisZheng/agents-radar">agents-radar</a>.</em></p>
 ]]></content:encoded>
