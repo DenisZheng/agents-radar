@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code连发v2.1.257/258热修复版",
+      "OpenAI Codex单日合并10+核心PR",
+      "Gemini CLI修复10+ P1/P2结构性Bug",
+      "GitHub Copilot CLI积压36个P0阻塞Issue",
+      "Kimi Code发布v1.50.0完成品牌架构迁移",
+      "OpenCode单日合并12个PR吞吐量极高"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.8.2引入Home面板停靠",
+      "24小时累计1000条Issue/PR更新",
+      "7个P0/P1回归Issue围绕升级链路",
+      "实时语音状态无界增长#116201高热",
+      "SQLite事件循环阻塞#112423结构性债",
+      "强烈建议生产环境延迟升级至v2026.8.2"
+    ],
+    "ai-trending": [
+      "Agent Skills生态爆发Trending前10占6席",
+      "OpenMAIC一键部署多智能体课堂+3.1k星",
+      "scientific-agent-skills获19万科学家验证",
+      "firecrawl/pdf-inspector Rust PDF库+541星",
+      "minimind证明2小时从零训练64M LLM",
+      "编码Agent进入上下文压缩+设计系统阶段"
+    ],
+    "ai-web": [
+      "Anthropic发布EFS零数据留存企业级架构",
+      "Claude文本水印对齐EU AI Act强制要求",
+      "三大云厂商AWS/GCP/Azure联合支持EFS",
+      "100+头部企业共研覆盖金融医疗公共部门",
+      "OpenAI披露Path to Astra战略路线图",
+      "Anthropic以安全即产品抢占企业信任高地"
+    ],
+    "ai-hn": [
+      "Claude Fable 5.1/Mythos 5.1发布近千分讨论",
+      "Fable 5.1编码基准大幅超越Opus 4",
+      "Mythos 5.1定价$3/$15 per M tokens极具竞争力",
+      "Fable 5.1在ARC-AGI得53%接近人类平均",
+      "Apple指控OpenAI销毁证据法庭取证MacBook",
+      "Dwarf Fortress作者抨击AI导致行业动荡"
+    ],
+    "ai-arxiv": [
+      "推理范式转向连续潜空间Latent Recurrent Thoughts",
+      "Transformer注意力头发现OV算子幂等性代数结构",
+      "MoE推理重构为细粒度路径组合PCoMoE",
+      "对比路由机制显著提升专家专业化程度",
+      "LLM-as-judge忽略人类标签分布方差风险",
+      "蒸馏数据隐含教师偏好以亚阈值学习迁移"
+    ],
+    "ai-community": [
+      "AI Agent可靠性工程化成社区核心关切",
+      "Google实战沉淀可信Agent/Eval评测闭环指南",
+      "AgentSelfEdit复盘9类看似正常实则错误模式",
+      "语义缓存本质承认多数AI功能是FAQ伪装",
+      "迁移遗留LLM基础设施到AI Gateway完整指南",
+      "Mac统一内存vs Windows显存本地推理实测对比"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.258 patches Windows crashes",
+      "Codex Rust v0.153.0 alpha fixes config loss",
+      "Gemini CLI adds MCP server support",
+      "Copilot CLI Windows Desktop reliability crisis",
+      "Qwen Code launches new CLI tool",
+      "DeepSeek TUI gains community traction"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.2 releases with dockable home",
+      "500 issues and 500 PRs in 24 hours",
+      "P1 crash-loop regressions post-release",
+      "Session state and gateway startup bugs",
+      "SQLite contention dominates discussions",
+      "169 issues and 175 PRs closed today"
+    ],
+    "ai-trending": [
+      "THU-MAIC/OpenMAIC gains 3,128 stars today",
+      "jingyaogong/minimind adds 1,005 stars",
+      "affaan-m/ECC cross-CLI optimizer trending",
+      "firecrawl/pdf-inspector Rust PDF extraction",
+      "unclecode/crawl4ai LLM web crawler",
+      "Shift to equipping agents with specialized skills"
+    ],
+    "ai-web": [
+      "Anthropic launches Enterprise Frontier Safeguards",
+      "Native text watermarking for EU AI Act",
+      "Post-incident review reveals alignment failures",
+      "OpenAI publishes 5 articles including Path to Astra",
+      "EFS stores data in customer-controlled cloud",
+      "Mythos-class models target enterprise deployment"
+    ],
+    "ai-hn": [
+      "Claude Fable 5.1 and Mythos 5.1 released",
+      "Nearly 1,000 combined comments on HN",
+      "Dwarf Fortress creator critiques AI layoffs",
+      "Apple vs OpenAI trade-secrets lawsuit escalates",
+      "OpenAI teases Astra with safety roadmap",
+      "YC-backed Nori Robotics low-cost humanoid"
+    ]
+  }
+}
