@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.259企业级MCP",
+      "OpenAI Codex v0.153.0新增Vim",
+      "Copilot CLI v1.0.83修复回退",
+      "MCP成事实标准接口",
+      "OpenCode v1.18.27推进插件",
+      "Qwen Code完成OpenTUI迁移"
+    ],
+    "ai-agents": [
+      "OpenClaw单日活动达API上限",
+      "合并126PR新增374个",
+      "Android实时对讲全双工修复",
+      "核心稳定性风险持续累积",
+      "多Agent协作架构缺陷突出",
+      "长尾遗留Bug大量积压"
+    ],
+    "ai-trending": [
+      "Agent基建占Trending 9/19",
+      "hermes-agent 240k星登榜",
+      "caveman节省65%token",
+      "graphify知识图谱领跑RAG",
+      "视频生成百模大战爆发",
+      "垂直Agent产品化加速"
+    ],
+    "ai-web": [
+      "Anthropic发布企业前沿防护",
+      "EFS零数据留存融合检测",
+      "覆盖六平台三大云厂商",
+      "职业再培训元分析研究",
+      "OpenAI今日无新增内容",
+      "安全护城河竞争壁垒形成"
+    ],
+    "ai-arxiv": [
+      "CivBench文明VI百步基准",
+      "Debias-SparseGPT量化剪枝偏见",
+      "答案验证多教师蒸馏法",
+      "神经符号融合医疗落地",
+      "SonicCaps补齐音频描述",
+      "TTA教师学生范式被挑战"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B霸榜双冠王",
+      "GLM-5.3 MoE旗舰开源",
+      "MiniMax-H3视频550万下载",
+      "unsloth量化版破930万",
+      "all-MiniLM 2.5亿下载",
+      "国产多模态模型集中发力"
+    ],
+    "ai-community": [
+      "Agent安全控制成核心议题",
+      "执行树替代日志调试",
+      "Anthropic精简80%提示词",
+      "AI网关增400ms延迟",
+      "ARC-AGI低成本破44%",
+      "CI门禁与LLM竞态条件"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.259 released with enterprise policy focus",
+      "MCP emerging as universal tool protocol across all CLIs",
+      "Ecosystem split: enterprise platforms vs hacker-centric runtimes",
+      "Reliability over features: memory leaks and Windows regressions dominate",
+      "10 hot issues tracked for Claude Code in 24 hours",
+      "All 9 major CLI tools converging on MCP implementations"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and 500 PRs updated in 24 hours",
+      "126 PRs merged/closed today showing high throughput",
+      "352 open issues and 374 open PRs indicate growing backlog",
+      "No new releases; latest version 2026.8.2 needs stabilization",
+      "Session-state bugs and message-delivery failures dominate P1 issues",
+      "Heavy investment in Control UI polish and real-time voice fixes"
+    ],
+    "ai-trending": [
+      "TimesFM leads with +343 stars: Google time-series foundation model",
+      "VoiceStudio +832 stars: local ElevenLabs alternative, 646 languages",
+      "10 of 16 trending repos target coding agent workflows",
+      "Rust emerges as systems language for agent infrastructure",
+      "Atlas: Rust source-control layer for multi-agent coding",
+      "Ecosystem converging on interoperable agent primitives (MCP, skills)"
+    ],
+    "ai-web": [
+      "Anthropic launches Enterprise Frontier Safeguards (EFS) for Claude",
+      "Claude Fable 5.1 (Mythos-class) with zero-data-retention guarantees",
+      "EFS stores inference data in customer-controlled cloud only",
+      "Native support across Claude Code, Bedrock, Agent Platform, Foundry",
+      "Economic research: retraining yields +2-3pp employment, +$1k/year",
+      "OpenAI published no new content today"
+    ],
+    "ai-hn": [
+      "Three crises dominate: security failures, copyright battle, detection reliability",
+      "curl CVEs missed by top AI labs spark supply chain concerns",
+      "US government formally backs OpenAI against NYT copyright suit",
+      "Anthropic releases 'Check if file made with Claude' detection tool",
+      "METR post-mortem: AI agents exploited patched Linux kernel flaw",
+      "'14 reasons robotics is hard' essay tempers embodied AI hype"
+    ],
+    "ai-arxiv": [
+      "Three research fronts: model compression, agent eval, mechanistic understanding",
+      "Kronecker-Fisher Hessian approximation for billion-parameter LLM compression",
+      "CivBench evaluates long-horizon agents in Civilization VI",
+      "Debias-SparseGPT: bias-aware pruning preserves fairness",
+      "Answer-verified multi-teacher distillation prevents catastrophic forgetting",
+      "Shift from static benchmarks to dynamic, distribution-shift-aware evaluation"
+    ],
+    "ai-community": [
+      "Developers moving beyond 'AI writes code' to shipping agents reality",
+      "Execution trees replace flat logs for debugging multi-step agents",
+      "Agents need explicit brakes: approval gates, rollback, scope limits",
+      "3 security vulnerabilities found in author's own agent tool access",
+      "AI gateway added 400ms latency per request — breakdown analyzed",
+      "Community converging on observability, guardrails, deterministic evaluation"
+    ]
+  }
+}
