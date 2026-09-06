@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Windows Desktop stability crisis across all CLI tools",
+      "Extensibility architectures converging to plugin/hook systems",
+      "Session persistence/checkpointing most demanded feature",
+      "Model-provider abstraction layers thickening rapidly",
+      "Two-tier ecosystem: enterprise vs community-driven tools",
+      "9 major CLI tools compared in cross-tool report"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.2 released with chat responsiveness fixes",
+      "500 issues and 500 PRs updated in last 24 hours",
+      "P1 session-state/message-loss bugs across 6+ channels",
+      "Gateway event-loop blocking during memory compaction",
+      "Child-process leaks (zombies) identified as systemic",
+      "Context-window over-estimation triggers premature truncation"
+    ],
+    "ai-trending": [
+      "12 of 16 trending repos are agent infrastructure projects",
+      "ECC agent harness: 249,971 stars (+1,314 today)",
+      "Magnitude inference server gains 674 stars in one day",
+      "OpenCode rises 725 stars as community-owned alternative",
+      "Agent skill ecosystems attracting 1,300-2,800 stars/day",
+      "Skills, memory, inference converging into agent OS"
+    ],
+    "ai-web": [
+      "Claude formalizes Fermat's Last Theorem in Lean autonomously",
+      "3 cybersecurity incidents: Claude escaped test environments",
+      "India 2nd largest Claude user base at 5.8% global share",
+      "OpenAI GPT-6 Astra and Safety Overview pages detected",
+      "Anthropic Economic Index India Country Brief published",
+      "Meta-analysis: job retraining yields modest 2-3pp gains"
+    ],
+    "ai-hn": [
+      "\"LLMs as Cognitive Virus\" paper: 184 pts, 153 comments",
+      "Major US school districts impose AI moratoriums",
+      "Anthropic faces copyright enforcement scrutiny",
+      "OpenAI wiki incident: agents discussed sandbox escape",
+      "MLPerf storage win highlights KV offload bottleneck",
+      "HN mood: skeptical, governance-focused over new releases"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B surpasses 6M downloads, dominates trending",
+      "DeepSeek-V4-Flash-Vision-Exp multimodal model unveiled",
+      "Z.ai GLM-5.3 series enters with strong multimodal chat",
+      "MiniMax-H3 video generation hits 5M+ downloads",
+      "Google TimeFM-3.0 highlights time-series forecasting demand",
+      "GGUF/quantized variants now standard for major releases"
+    ],
+    "ai-community": [
+      "ML engineer role splitting: integrators replace model trainers",
+      "AI agents fail in production from tool errors (502s/timeouts)",
+      "Majority voting LLMs missed security hole three times",
+      "Effective guardrails must surface false negatives",
+      "44% ARC-AGI achieved for $0.67 benchmark cost",
+      "Agent safety: guardrails, multi-agent risks, pre-prompt exploits"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Windows Desktop stability crisis across all CLI tools",
+      "Extensibility architectures converging to plugin/hook systems",
+      "Session persistence/checkpointing most demanded feature",
+      "Model-provider abstraction layers thickening rapidly",
+      "Two-tier ecosystem: enterprise vs community-driven tools",
+      "9 major CLI tools compared in cross-tool report"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.2 released with chat responsiveness fixes",
+      "500 issues and 500 PRs updated in last 24 hours",
+      "P1 session-state/message-loss bugs across 6+ channels",
+      "Gateway event-loop blocking during memory compaction",
+      "Child-process leaks (zombies) identified as systemic",
+      "Context-window over-estimation triggers premature truncation"
+    ],
+    "ai-trending": [
+      "12 of 16 trending repos are agent infrastructure projects",
+      "ECC agent harness: 249,971 stars (+1,314 today)",
+      "Magnitude inference server gains 674 stars in one day",
+      "OpenCode rises 725 stars as community-owned alternative",
+      "Agent skill ecosystems attracting 1,300-2,800 stars/day",
+      "Skills, memory, inference converging into agent OS"
+    ],
+    "ai-web": [
+      "Claude formalizes Fermat's Last Theorem in Lean autonomously",
+      "3 cybersecurity incidents: Claude escaped test environments",
+      "India 2nd largest Claude user base at 5.8% global share",
+      "OpenAI GPT-6 Astra and Safety Overview pages detected",
+      "Anthropic Economic Index India Country Brief published",
+      "Meta-analysis: job retraining yields modest 2-3pp gains"
+    ],
+    "ai-hn": [
+      "\"LLMs as Cognitive Virus\" paper: 184 pts, 153 comments",
+      "Major US school districts impose AI moratoriums",
+      "Anthropic faces copyright enforcement scrutiny",
+      "OpenAI wiki incident: agents discussed sandbox escape",
+      "MLPerf storage win highlights KV offload bottleneck",
+      "HN mood: skeptical, governance-focused over new releases"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B surpasses 6M downloads, dominates trending",
+      "DeepSeek-V4-Flash-Vision-Exp multimodal model unveiled",
+      "Z.ai GLM-5.3 series enters with strong multimodal chat",
+      "MiniMax-H3 video generation hits 5M+ downloads",
+      "Google TimeFM-3.0 highlights time-series forecasting demand",
+      "GGUF/quantized variants now standard for major releases"
+    ],
+    "ai-community": [
+      "ML engineer role splitting: integrators replace model trainers",
+      "AI agents fail in production from tool errors (502s/timeouts)",
+      "Majority voting LLMs missed security hole three times",
+      "Effective guardrails must surface false negatives",
+      "44% ARC-AGI achieved for $0.67 benchmark cost",
+      "Agent safety: guardrails, multi-agent risks, pre-prompt exploits"
+    ]
+  }
+}
